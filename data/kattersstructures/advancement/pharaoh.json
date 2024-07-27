@@ -4,7 +4,7 @@
         "id": "minecraft:golden_helmet"
       },
       "title": "Sands of Victory",
-      "description": "Defeated the pharaoh and brought an end to his reign of terror.",
+      "description": "Defeat the pharaoh and bring an end to his reign of terror.",
       "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,

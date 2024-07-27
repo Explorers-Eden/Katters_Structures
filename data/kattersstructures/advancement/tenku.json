@@ -4,7 +4,7 @@
         "id": "minecraft:turtle_egg"
       },
       "title": "Master of the Skies",
-      "description": "Conquered the celestial guardian and claimed dominion over the skies.",
+      "description": "Conquer the celestial guardian and claim dominion over the skies.",
       "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,

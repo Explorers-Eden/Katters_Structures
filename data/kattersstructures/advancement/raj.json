@@ -4,7 +4,7 @@
         "id": "minecraft:lightning_rod"
       },
       "title": "For Those About to Rock",
-      "description": "Defeated the sky tyrant, Raj Raksha, in an epic battle for the ages.",
+      "description": "Defeat the sky tyrant, Raj Raksha, in an epic battle for the ages.",
       "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,

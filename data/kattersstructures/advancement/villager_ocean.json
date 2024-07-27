@@ -6,7 +6,7 @@
       },
       "title": "Ocean Observer"
       ,
-      "description": "Found a weathered statue gazing out at the endless sea."
+      "description": "Find a weathered statue gazing out at the endless sea."
     },
     "parent": "kattersstructures:a_villager_statue",
     "criteria": {

@@ -9,7 +9,7 @@
         }
       },
       "title": "Village Virtuoso",
-      "description": "Master of the village, you've visited them all and know their secrets.",
+      "description": "Master of the village, visit them all and learn their secrets.",
       "frame": "challenge"
     },
     "parent": "kattersstructures:a_village",

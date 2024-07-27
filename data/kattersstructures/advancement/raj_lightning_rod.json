@@ -9,7 +9,7 @@
         }
       },
       "title": "You've been ... Thunderstruck!",
-      "description": "Brought the house down (literally) by defeating Raj Raksha and claiming his lightning-charged scepter.",
+      "description": "Bring the house down (literally) by defeating Raj Raksha and claiming his lightning-charged scepter.",
       "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,

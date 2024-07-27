@@ -1,0 +1,13 @@
+{
+    "name": "kattersstructures:mini_dungeon/rugged_shack",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:mini_dungeon/mini_dungeon_rugged_shack",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }]
+}

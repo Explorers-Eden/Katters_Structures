@@ -1,0 +1,38 @@
+{
+    "name": "kattersstructures:armory/corridor_b",
+    "fallback": "kattersstructures:armory_empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:armory/corridor/armory_boss_treasure",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "location": "kattersstructures:armory/corridor/armory_corridor_connecter",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "location": "kattersstructures:armory/corridor/armory_corridor_crossing",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "location": "kattersstructures:armory/stairs/armory_down_entrance",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }
+]
+}

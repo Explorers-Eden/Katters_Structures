@@ -1,0 +1,4 @@
+execute store result score $ominous kattersstructures.tenku run random value 1..2
+
+execute if score $ominous kattersstructures.tenku matches 1 if predicate kattersstructures:percentages/15 as @e[type=player] at @s if entity @e[type=turtle,tag=katter.tenku.vehicle,distance=12..40] run summon ominous_item_spawner ~ ~3.5 ~ {NoGravity:1b,spawn_item_after_ticks:60,item:{id:"minecraft:trident",count:1}}
+execute if score $ominous kattersstructures.tenku matches 2 if predicate kattersstructures:percentages/15 as @e[type=player] at @s if entity @e[type=turtle,tag=katter.tenku.vehicle,distance=12..40] run summon ominous_item_spawner ~ ~3.5 ~ {NoGravity:1b,spawn_item_after_ticks:60,item:{id:"minecraft:splash_potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:strong_turtle_master"}}}}

@@ -1,0 +1,15 @@
+{
+    "name": "kattersstructures:armory/chest_normal",
+    "fallback": "minecraft:empty",
+    "elements": [
+    {
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:armory/room/decor/armory_room_chest_normal_01",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }
+]
+}

@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:zombie_head",
+        "count": 1
+      },
+      "title": "Echoes of the Past"
+      ,
+      "description": "Discovered a village swallowed by history, its ruins whispering tales of a bygone era."
+    },
+    "parent": "kattersstructures:root",
+    "criteria": {
+      "ruined_village": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:ruined_village"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

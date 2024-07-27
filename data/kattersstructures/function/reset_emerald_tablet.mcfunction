@@ -1,0 +1,1 @@
+advancement revoke @a only kattersstructures:technical/use_emerald_tablet

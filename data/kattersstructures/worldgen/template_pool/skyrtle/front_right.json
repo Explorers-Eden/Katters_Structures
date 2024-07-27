@@ -1,0 +1,13 @@
+{
+    "name": "kattersstructures:skyrtle/front_right",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:skyrtle/skyrtle_front_right",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }]
+}

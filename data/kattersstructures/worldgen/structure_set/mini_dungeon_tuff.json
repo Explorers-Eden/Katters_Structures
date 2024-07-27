@@ -1,0 +1,13 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 100,
+        "separation": 50,
+        "salt": 420042004,
+        "spread_type": "triangular"
+    },
+    "structures": [{
+        "structure": "kattersstructures:mini_dungeon_tuff",
+        "weight": 1
+    }]
+}

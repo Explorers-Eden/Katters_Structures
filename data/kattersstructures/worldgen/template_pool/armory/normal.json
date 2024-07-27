@@ -1,0 +1,22 @@
+{
+    "name": "kattersstructures:armory/normal",
+    "fallback": "kattersstructures:armory_empty",
+    "elements": [{
+        "weight": 4,
+        "element": {
+            "location": "kattersstructures:armory/room/armory_room_normal_01",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:armory/room/armory_room_normal_02",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }
+]
+}

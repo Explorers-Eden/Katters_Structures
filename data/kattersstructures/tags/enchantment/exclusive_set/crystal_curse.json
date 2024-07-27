@@ -1,0 +1,10 @@
+{
+    "values": [
+        "minecraft:unbreaking",
+        "minecraft:mending",
+        { 
+            "id": "enchantencore:handyman",
+            "required": false
+        }
+    ]
+}

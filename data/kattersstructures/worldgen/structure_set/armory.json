@@ -1,0 +1,13 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 400,
+        "separation": 350,
+        "salt": 2121021021,
+        "spread_type": "triangular"
+    },
+    "structures": [{
+        "structure": "kattersstructures:armory",
+        "weight": 1
+    }]
+}

@@ -1,0 +1,20 @@
+{
+    "pack": {
+        "pack_format": 48,
+        "description": [
+			{
+				"text": "Katters structures",
+				"color": "dark_aqua"
+			},
+			{
+				"text": "\n - Adds brand new vanilla like structures - with more coming soon \nCreated by ",
+				"color": "gray"
+			},
+			{
+				"text": "Katter 21",
+				"color": "aqua"
+			}
+		]
+    }
+	
+}

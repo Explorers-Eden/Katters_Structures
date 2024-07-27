@@ -1,0 +1,43 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:trial_key",
+        "components": {
+          "minecraft:enchantments": {
+            "minecraft:fire_aspect": 1
+          },
+          "custom_model_data": 10001
+        }
+      },
+      "title": "Key to Power",
+      "description": "An ancient key, inscribed with symbols of power and protection. Its fate is bound to a place of iron and steel.",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "kattersstructures:root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {}
+            }
+          ],
+          "items": [
+            {
+              "items": "minecraft:trial_key",
+              "components": {
+                "custom_model_data" : 10001
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

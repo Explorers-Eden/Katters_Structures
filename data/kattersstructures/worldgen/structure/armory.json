@@ -1,0 +1,32 @@
+{
+    "biomes": "#kattersstructures:has_structure/armory",
+    "spawn_overrides": {
+        "creature": {
+            "bounding_box": "full",
+            "spawns": [
+            {
+                "type": "minecraft:iron_golem",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            }
+            ]
+        },
+        "monster": {
+            "bounding_box": "full",
+            "spawns": []
+        }
+    },
+    "type": "minecraft:jigsaw",
+    "start_pool": "kattersstructures:armory/entrance",
+    "size": 20,
+    "step": "surface_structures",
+    "start_height": {
+        "absolute": -1
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "max_distance_from_center": 60,
+    "terrain_adaptation": "beard_box",
+    "use_expansion_hack": false,
+    "liquid_settings": "ignore_waterlogging"
+}

@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:skeleton_skull",
+        "count": 1
+      },
+      "title": "Rest in Peace"
+      ,
+      "description": "Found a place of solace and reflection, where the living and the dead coexist."
+    },
+    "parent": "kattersstructures:root",
+    "criteria": {
+      "graveyard": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:graveyard"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

@@ -1,0 +1,13 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 200,
+        "separation": 150,
+        "salt": 21004242,
+        "spread_type": "triangular"
+    },
+    "structures": [{
+        "structure": "kattersstructures:windmill",
+        "weight": 1
+    }]
+}

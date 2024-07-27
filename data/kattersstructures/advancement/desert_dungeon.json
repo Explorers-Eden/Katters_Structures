@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:sand",
+        "count": 1
+      },
+      "title": "Desert Delve"
+      ,
+      "description": "Uncovered a hidden oasis of danger beneath the scorching sands."
+    },
+    "parent": "kattersstructures:root",
+    "criteria": {
+      "desert_dungeon": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:desert_dungeon"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

@@ -1,0 +1,49 @@
+{
+    "description": {
+      "text": "Curse of Crystal",
+      "color": "red"
+    },
+    "exclusive_set": "#kattersstructures:exclusive_set/crystal_curse",
+    "supported_items": "#minecraft:enchantable/weapon",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 0,
+    "slots": [
+      "mainhand"
+    ],
+    "effects": {
+      "minecraft:damage": [
+        {
+          "effect": {
+            "type": "minecraft:add",
+            "value": 20
+          }
+        }
+      ],
+      "minecraft:item_damage": [
+        {
+          "effect": {
+            "type": "minecraft:add",
+            "value": 1
+          }
+        }
+      ],
+      "minecraft:location_changed": [
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "kattersstructures:crystal_curse"
+          }
+        }
+      ]
+    }
+  }
+  

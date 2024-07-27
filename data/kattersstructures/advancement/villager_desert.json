@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:sandstone",
+        "count": 1
+      },
+      "title": "Desert Deity"
+      ,
+      "description": "Uncovered a mysterious stone sentinel watching over the desert sands."
+    },
+    "parent": "kattersstructures:a_villager_statue",
+    "criteria": {
+      "villager_desert": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:villager_desert"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

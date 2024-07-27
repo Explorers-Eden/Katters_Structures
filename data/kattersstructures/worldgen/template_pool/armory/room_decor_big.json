@@ -1,0 +1,78 @@
+{
+    "name": "kattersstructures:armory/room_decor_big",
+    "fallback": "kattersstructures:armory_empty",
+    "elements": [{
+        "weight": 3,
+        "element": {
+            "location": "kattersstructures:armory/room/decor/armory_room_decor_high_01",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "location": "kattersstructures:armory/room/decor/armory_room_decor_high_02",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "location": "kattersstructures:armory/room/decor/armory_room_decor_high_03",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "location": "kattersstructures:armory/room/decor/armory_room_decor_high_04",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "location": "kattersstructures:armory/room/decor/armory_room_decor_high_05",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "location": "kattersstructures:armory/room/decor/armory_room_decor_high_06",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "location": "kattersstructures:armory/room/decor/armory_room_decor_high_07",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "location": "kattersstructures:armory/room/decor/armory_room_decor_high_08",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "location": "kattersstructures:armory/room/decor/armory_room_decor_high_09",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }
+]
+}

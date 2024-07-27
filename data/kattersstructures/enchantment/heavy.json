@@ -1,0 +1,59 @@
+{
+  "description": "Heavy",
+  "exclusive_set": "#kattersstructures:exclusive_set/heavy",
+  "supported_items": "#minecraft:enchantable/weapon",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 8,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 2,
+            "per_level_above_first": 0.75
+          }
+        }
+      }
+    ],
+    "minecraft:knockback": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.25
+          }
+        }
+      }
+    ],
+    "minecraft:attributes": [
+      {
+        "id": "kattersstructures:gravity_01",
+        "attribute": "minecraft:generic.gravity",
+        "amount": 0.2,
+        "operation": "add_multiplied_total"
+      },
+      {
+        "id": "kattersstructures:attackspped_01",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -0.5,
+        "operation": "add_multiplied_total"
+      }
+    ]
+  }
+}

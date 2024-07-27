@@ -1,0 +1,38 @@
+{
+    "name": "kattersstructures:armory/corridor",
+    "fallback": "kattersstructures:armory_empty",
+    "elements": [{
+        "weight": 3,
+        "element": {
+            "location": "kattersstructures:armory/corridor/armory_corridor_01",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "location": "kattersstructures:armory/corridor/armory_corridor_02",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "location": "kattersstructures:armory/corridor/armory_corridor_03",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "location": "kattersstructures:armory/corridor/armory_corridor_04",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }
+]
+}

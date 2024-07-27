@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:hay_block",
+        "count": 1
+      },
+      "title": "Windswept Wheatfields"
+      ,
+      "description": "Discovered a picturesque windmill standing tall amidst a golden sea of wheat."
+    },
+    "parent": "kattersstructures:root",
+    "criteria": {
+      "windmill": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:windmill"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

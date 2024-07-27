@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:turtle_egg"
+      },
+      "title": "Master of the Skies",
+      "description": "Conquered the celestial guardian and claimed dominion over the skies.",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "kattersstructures:skyrtle",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {}
+            }
+          ],
+          "entity": {
+            "type": "minecraft:turtle",
+            "nbt": "{Tags:[\"katter.tenku.vehicle\"]}"
+          }
+        }
+      }
+    }
+  }
+  

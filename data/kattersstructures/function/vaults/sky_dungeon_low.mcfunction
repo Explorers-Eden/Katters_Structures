@@ -1,0 +1,1 @@
+give @p vault[block_entity_data={id:"minecraft:vault",config:{loot_table:"kattersstructures:chests/sky_dungeo/loot_low"},shared_data:{loot_table:"kattersstructures:chests/sky_dungeo/loot_low"}}] 1

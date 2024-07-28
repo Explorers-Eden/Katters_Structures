@@ -41,6 +41,41 @@
         },{ 
             "id": "terralith:lavender_forest",
             "required": false
+        },
+
+
+
+        { 
+            "id": "eden:birch_forest",
+            "required": false
+        },
+        { 
+            "id": "eden:old_growth_birch_forest",
+            "required": false
+        },
+        { 
+            "id": "eden:dark_forest",
+            "required": false
+        },
+        { 
+            "id": "eden:flower_forest",
+            "required": false
+        },
+        { 
+            "id": "eden:forest",
+            "required": false
+        },
+        { 
+            "id": "eden:old_growth_pine_taiga",
+            "required": false
+        },
+        { 
+            "id": "eden:old_growth_spruce_taiga",
+            "required": false
+        },
+        { 
+            "id": "eden:taiga",
+            "required": false
         }
     ]
 }

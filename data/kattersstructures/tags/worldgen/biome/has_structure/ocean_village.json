@@ -2,6 +2,9 @@
     "values": [
         "minecraft:deep_cold_ocean",
         "minecraft:deep_lukewarm_ocean",
-        "minecraft:deep_ocean"
+        "minecraft:deep_ocean",
+        { "id": "eden:deep_cold_ocean","required": false},
+        { "id": "eden:deep_lukewarm_ocean","required": false},
+        { "id": "eden:deep_ocean","required": false}
     ]
 }

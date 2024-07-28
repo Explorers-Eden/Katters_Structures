@@ -22,6 +22,10 @@
         },{ 
             "id": "terralith:steppe",
             "required": false
-        }
+        },
+        { "id": "eden:meadow","required": false},
+        { "id": "eden:plains","required": false},
+        { "id": "eden:sunflower_plains","required": false},
+        { "id": "eden:savanna","required": false}
     ]
 }

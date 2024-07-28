@@ -8,6 +8,8 @@
         },{ 
             "id": "terralith:birch_taiga",
             "required": false
-        }
+        },
+        { "id": "eden:birch_forest","required": false},
+        { "id": "eden:old_growth_birch_forest","required": false}
     ]
 }

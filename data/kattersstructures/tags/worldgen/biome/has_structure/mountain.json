@@ -11,6 +11,8 @@
         },{ 
             "id": "terralith:stony_spires",
             "required": false
-        }
+        },
+        { "id": "eden:jagged_peaks","required": false},
+        { "id": "eden:stony_peaks","required": false}
     ]
 }

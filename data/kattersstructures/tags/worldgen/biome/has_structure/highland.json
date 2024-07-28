@@ -28,6 +28,13 @@
         },{ 
             "id": "terralith:temperate_highlands",
             "required": false
+        },
+        
+        
+        
+        { 
+            "id": "eden:meadow",
+            "required": false
         }
     ]
 }

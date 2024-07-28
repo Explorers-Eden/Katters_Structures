@@ -6,6 +6,9 @@
         { 
             "id": "terralith:tropical_jungle",
             "required": false
-        }
+        },
+        { "id": "eden:jungle","required": false},
+        { "id": "eden:sparse_jungle","required": false},
+        { "id": "eden:bamboo_jungle","required": false}
     ]
 }

@@ -16,6 +16,7 @@
         },{ 
             "id": "terralith:snowy_cherry_grove",
             "required": false
-        }
+        },
+        { "id": "eden:cherry_grove","required": false}
     ]
 }

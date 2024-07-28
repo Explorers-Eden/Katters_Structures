@@ -96,6 +96,28 @@
         },{ 
             "id": "terralith:yosemite_lowlands",
             "required": false
-        }
+        },
+        { "id": "eden:ocean","required": false},
+        { "id": "eden:deep_ocean","required": false},
+        { "id": "eden:warm_ocean","required": false},
+        { "id": "eden:lukewarm_ocean","required": false},
+        { "id": "eden:deep_lukewarm_ocean","required": false},
+        { "id": "eden:cold_ocean","required": false},
+        { "id": "eden:deep_cold_ocean","required": false},
+        { "id": "eden:frozen_ocean","required": false},
+        { "id": "eden:deep_frozen_ocean","required": false},
+        { "id": "eden:mushroom_fields","required": false},
+        { "id": "eden:swamp","required": false},
+        { "id": "eden:mangrove_swamp","required": false},
+        { "id": "eden:beach","required": false},
+        { "id": "eden:snowy_beach","required": false},
+        { "id": "eden:stony_shore","required": false},
+        { "id": "eden:plains","required": false},
+        { "id": "eden:sunflower_plains","required": false},
+        { "id": "eden:snowy_plains","required": false},
+        { "id": "eden:ice_spikes","required": false},
+        { "id": "eden:desert","required": false},
+        { "id": "eden:savanna","required": false}
+
     ]
 }

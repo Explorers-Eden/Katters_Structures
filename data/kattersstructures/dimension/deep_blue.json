@@ -1,0 +1,66 @@
+{
+  "type": "kattersstructures:deep_blue_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "kattersstructures:deep_blue_settings",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "kattersstructures:deep_blue_plains",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": [
+              -2,
+              2
+            ],
+            "weirdness": [
+              0,
+              1
+            ],
+            "depth": [
+              -1,
+              2
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "kattersstructures:dark_chasm",
+          "parameters": {
+            "temperature": [
+              -1,
+              -0.5
+            ],
+            "humidity": [
+              0.25,
+              0.5
+            ],
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.25,
+            "depth": -0.1,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "kattersstructures:coralis",
+          "parameters": {
+            "temperature": [
+              0.5,
+              1
+            ],
+            "humidity": 0.5,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.25,
+            "depth": -0.1,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

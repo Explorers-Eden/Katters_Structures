@@ -1,0 +1,33 @@
+{
+    "feature": "kattersstructures:bubble_coral_tree",
+    "placement": [
+      {
+        "type": "minecraft:count_on_every_layer",
+        "count": 6
+      },
+      {
+        "type": "minecraft:biome"
+      },
+      {
+        "type": "minecraft:block_predicate_filter",
+        "predicate": {
+          "type": "minecraft:all_of",
+          "predicates": [
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "blocks": [
+                "minecraft:sand",
+                "minecraft:sandstone"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+  

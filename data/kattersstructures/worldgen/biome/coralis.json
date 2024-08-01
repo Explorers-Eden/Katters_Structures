@@ -1,0 +1,94 @@
+{
+  "temperature": 2,
+  "downfall": 2,
+  "has_precipitation": false,
+  "temperature_modifier": "none",
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 0,
+    "water_color": 11593202,
+    "water_fog_color": 13357282,
+    "grass_color": 445213,
+    "foliage_color": 445213,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    }
+  },
+  "spawners": {
+    "ambient": [],
+    "axolotls": [
+      {
+        "type": "minecraft:axolotl",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "creature": [],
+    "misc": [],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 10
+      }
+    ],
+    "water_ambient": [
+      {
+        "type": "minecraft:cod",
+        "weight": 15,
+        "minCount": 3,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:pufferfish",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:tropical_fish",
+        "weight": 25,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "water_creature": [
+      {
+        "type": "minecraft:squid",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:underwater_magma",
+      "kattersstructures:horn_coral_patch",
+      "kattersstructures:fire_coral_patch"
+    ],
+    [
+      "kattersstructures:light_collum"
+    ],
+    [],
+    [
+      "kattersstructures:bubble_coral_tree",
+      "kattersstructures:fire_coral_tree",
+      "kattersstructures:corals"
+    ],
+    []
+  ]
+}

@@ -14,21 +14,12 @@
       "type": "minecraft:all_of",
       "predicates": [
         {
-          "type": "minecraft:not",
-          "predicate": {
-            "type": "minecraft:matching_blocks",
+          "type": "minecraft:matching_blocks",
             "blocks": [
-              "minecraft:bedrock",
-              "minecraft:bubble_coral_block",
-              "fire_coral_block",
-              "minecraft:tube_coral_block",
-              "minecraft:sea_lantern",
-              "minecraft:smooth_sandstone"
+              "minecraft:sand",
+              "minecraft:sandstone",
+              "minecraft:horn_coral_block"
             ]
-          }
-        },
-        {
-          "type": "minecraft:solid"
         }
       ]
     },

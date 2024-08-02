@@ -1,0 +1,13 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 3,
+        "separation": 2,
+        "salt": 21000001,
+        "spread_type": "triangular"
+    },
+    "structures": [{
+        "structure": "kattersstructures:red_coral",
+        "weight": 1
+    }]
+}

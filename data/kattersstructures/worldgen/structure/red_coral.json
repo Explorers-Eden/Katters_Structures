@@ -1,0 +1,21 @@
+{
+    "biomes": "kattersstructures:coralis",
+    "spawn_overrides": {},
+    "type": "minecraft:jigsaw",
+    "start_pool": "kattersstructures:deep_blue/red_coral/red_coral",
+    "size": 2,
+    "step": "surface_structures",
+    "start_height": {
+        "type": "minecraft:biased_to_bottom",
+        "min_inclusive": {
+          "absolute": 20
+        },
+          "max_inclusive": {
+          "absolute": 100
+        }
+    },
+    "max_distance_from_center": 20,
+    "terrain_adaptation": "beard_box",
+    "use_expansion_hack": false,
+    "liquid_settings": "ignore_waterlogging"
+}

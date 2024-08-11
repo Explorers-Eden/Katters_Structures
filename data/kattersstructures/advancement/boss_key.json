@@ -9,8 +9,14 @@
           "custom_model_data": 10001
         }
       },
-      "title": "Key to Power",
-      "description": "An ancient key, inscribed with symbols of power and protection. Its fate is bound to a place of iron and steel.",
+      "title": {
+      "translate": "advancement.kattersstructures.boss_key_title",
+      "fallback": "Key to Power"
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.boss_key_description",
+      "fallback": "An ancient key, inscribed with symbols of power and protection. Its fate is bound to a place of iron and steel."
+    },
       "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,

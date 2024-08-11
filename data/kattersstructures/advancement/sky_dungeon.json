@@ -4,9 +4,15 @@
         "id": "minecraft:poppy",
         "count": 1
       },
-      "title": "Castle in the Sky"
-      ,
-      "description": "Find a hidden aerial domain, a challenge for the brave and daring."
+      "title": {
+      "translate": "advancement.kattersstructures.sky_dungeon_title",
+      "fallback": "Castle in the Sky"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.sky_dungeon_description",
+      "fallback": "Find a hidden aerial domain, a challenge for the brave and daring."
+    }
     },
     "parent": "kattersstructures:root",
     "criteria": {

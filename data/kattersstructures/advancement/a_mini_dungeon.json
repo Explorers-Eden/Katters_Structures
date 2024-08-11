@@ -4,8 +4,14 @@
       "id": "minecraft:trial_spawner",
       "count": 1
     },
-    "title": "Trial by Fire",
-    "description": "Face your first trial, a test of courage and skill."
+    "title": {
+      "translate": "advancement.kattersstructures.a_mini_dungeon_title",
+      "fallback": "Trial by Fire"
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.a_mini_dungeon_description",
+      "fallback": "Face your first trial, a test of courage and skill."
+    }
   },
   "parent": "kattersstructures:root",
   "criteria": {

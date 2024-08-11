@@ -4,8 +4,14 @@
       "id": "minecraft:villager_spawn_egg",
       "count": 1
     },
-    "title": "Village Explorer",
-    "description": "Discover the secrets of the villagers by finding your first new village"
+    "title": {
+      "translate": "advancement.kattersstructures.a_village_title",
+      "fallback": "Village Explorer"
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.a_village_description",
+      "fallback": "Discover the secrets of the villagers by finding your first new village"
+    }
   },
   "parent": "kattersstructures:root",
   "criteria": {

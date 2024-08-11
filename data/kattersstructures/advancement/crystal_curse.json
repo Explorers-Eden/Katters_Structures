@@ -3,8 +3,14 @@
     "icon": {
       "id": "minecraft:amethyst_cluster"
     },
-    "title": "Crystal Gamble",
-    "description": "Embrace the power of the crystals, accepting the risk for the reward."
+    "title": {
+      "translate": "advancement.kattersstructures.crystal_curse_title",
+      "fallback": "Crystal Gamble"
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.crystal_curse_description",
+      "fallback": "Embrace the power of the crystals, accepting the risk for the reward."
+    }
     },
     "parent": "kattersstructures:root",
     "criteria": {

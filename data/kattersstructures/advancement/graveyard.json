@@ -4,9 +4,15 @@
         "id": "minecraft:skeleton_skull",
         "count": 1
       },
-      "title": "Rest in Peace"
-      ,
-      "description": "Find a place of solace and reflection, where the living and the dead coexist."
+      "title": {
+      "translate": "advancement.kattersstructures.graveyard_title",
+      "fallback": "Rest in Peace"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.graveyard_description",
+      "fallback": "Find a place of solace and reflection, where the living and the dead coexist."
+    }
     },
     "parent": "kattersstructures:root",
     "criteria": {

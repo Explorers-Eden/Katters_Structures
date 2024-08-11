@@ -4,9 +4,15 @@
         "id": "minecraft:pink_petals",
         "count": 1
       },
-      "title": "Cherry Blossom Bliss"
-      ,
-      "description": "Discover a hidden village nestled amidst a breathtaking cherry blossom forest."
+      "title": {
+      "translate": "advancement.kattersstructures.village_cherry_title",
+      "fallback": "Cherry Blossom Bliss"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.village_cherry_description",
+      "fallback": "Discover a hidden village nestled amidst a breathtaking cherry blossom forest."
+    }
     },
     "parent": "kattersstructures:a_village",
     "criteria": {

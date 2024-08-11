@@ -4,9 +4,15 @@
         "id": "minecraft:red_mushroom",
         "count": 1
       },
-      "title": "Shroom Boom"
-      ,
-      "description": "Find a cave filled with glowing fungi, a psychedelic paradise."
+      "title": {
+      "translate": "advancement.kattersstructures.shroom_cave_title",
+      "fallback": "Shroom Boom"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.shroom_cave_description",
+      "fallback": "Find a cave filled with glowing fungi, a psychedelic paradise."
+    }
     },
     "parent": "kattersstructures:root",
     "criteria": {

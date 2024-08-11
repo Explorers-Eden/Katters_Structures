@@ -4,9 +4,15 @@
         "id": "minecraft:zombie_head",
         "count": 1
       },
-      "title": "Echoes of the Past"
-      ,
-      "description": "Discover a village swallowed by history, its ruins whispering tales of a bygone era."
+      "title": {
+      "translate": "advancement.kattersstructures.ruined_village_title",
+      "fallback": "Echoes of the Past"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.ruined_village_description",
+      "fallback": "Discover a village swallowed by history, its ruins whispering tales of a bygone era."
+    }
     },
     "parent": "kattersstructures:root",
     "criteria": {

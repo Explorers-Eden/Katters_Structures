@@ -4,9 +4,15 @@
         "id": "minecraft:sandstone",
         "count": 1
       },
-      "title": "Desert Deity"
-      ,
-      "description": "Uncover a mysterious stone sentinel watching over the desert sands."
+      "title": {
+      "translate": "advancement.kattersstructures.villager_desert_title",
+      "fallback": "Desert Deity"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.villager_desert_description",
+      "fallback": "Uncover a mysterious stone sentinel watching over the desert sands."
+    }
     },
     "parent": "kattersstructures:a_villager_statue",
     "criteria": {

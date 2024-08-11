@@ -4,9 +4,15 @@
         "id": "minecraft:turtle_scute",
         "count": 1
       },
-      "title": "Skyward Turtle"
-      ,
-      "description": " Discover the legendary Skyrtle, a floating fortress in the sky."
+      "title": {
+      "translate": "advancement.kattersstructures.skyrtle_title",
+      "fallback": "Skyward Turtle"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.skyrtle_description",
+      "fallback": "Discover the legendary Skyrtle, a floating fortress in the sky."
+    }
     },
     "parent": "kattersstructures:root",
     "criteria": {

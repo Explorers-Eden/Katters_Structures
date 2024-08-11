@@ -8,8 +8,14 @@
           }
         }
       },
-      "title": "Sceptre of Flame",
-      "description": " Unleash the power of the Pharaoh by acquiring the fiery Burning Sceptre.",
+      "title": {
+      "translate": "advancement.kattersstructures.burning_scepter_title",
+      "fallback": "Sceptre of Flame"
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.burning_scepter_description",
+      "fallback": "Unleash the power of the Pharaoh by acquiring the fiery Burning Sceptre."
+    },
       "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,

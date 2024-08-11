@@ -3,8 +3,14 @@
       "icon": {
         "id": "minecraft:golden_helmet"
       },
-      "title": "Sands of Victory",
-      "description": "Defeat the pharaoh and bring an end to his reign of terror.",
+      "title": {
+      "translate": "advancement.kattersstructures.pharaoh_title",
+      "fallback": "Sands of Victory"
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.pharaoh_description",
+      "fallback": "Defeat the pharaoh and bring an end to his reign of terror."
+    },
       "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,

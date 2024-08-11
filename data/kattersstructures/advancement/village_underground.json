@@ -4,9 +4,15 @@
         "id": "minecraft:stone",
         "count": 1
       },
-      "title": "Deep Dwellers"
-      ,
-      "description": "Discover a hidden underground community, a testament to Villagers adaptability and survival."
+      "title": {
+      "translate": "advancement.kattersstructures.village_underground_title",
+      "fallback": "Deep Dwellers"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.village_underground_description",
+      "fallback": "Discover a hidden underground community, a testament to Villagers adaptability and survival."
+    }
     },
     "parent": "kattersstructures:a_village",
     "criteria": {

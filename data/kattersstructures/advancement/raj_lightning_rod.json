@@ -8,8 +8,14 @@
           }
         }
       },
-      "title": "You've been ... Thunderstruck!",
-      "description": "Bring the house down (literally) by defeating Raj Raksha and claiming his lightning-charged scepter.",
+      "title": {
+      "translate": "advancement.kattersstructures.raj_lightning_rod_title",
+      "fallback": "You've been ... Thunderstruck!"
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.raj_lightning_rod_description",
+      "fallback": "Bring the house down (literally) by defeating Raj Raksha and claiming his lightning-charged scepter."
+    },
       "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,

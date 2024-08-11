@@ -3,8 +3,14 @@
       "icon": {
         "id": "minecraft:turtle_egg"
       },
-      "title": "Master of the Skies",
-      "description": "Conquer the celestial guardian and claim dominion over the skies.",
+      "title": {
+      "translate": "advancement.kattersstructures.tenku_title",
+      "fallback": "Master of the Skies"
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.tenku_description",
+      "fallback": "Conquer the celestial guardian and claim dominion over the skies."
+    },
       "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,

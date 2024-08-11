@@ -4,9 +4,15 @@
         "id": "minecraft:stone",
         "count": 1
       },
-      "title": "Mountain Monument"
-      ,
-      "description": "Discover a sacred statue overlooking the world from a lofty peak."
+      "title": {
+      "translate": "advancement.kattersstructures.villager_mountain_title",
+      "fallback": "Mountain Monument"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.villager_mountain_description",
+      "fallback": "Discover a sacred statue overlooking the world from a lofty peak."
+    }
     },
     "parent": "kattersstructures:a_villager_statue",
     "criteria": {

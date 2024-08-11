@@ -4,9 +4,15 @@
         "id": "minecraft:prismarine",
         "count": 1
       },
-      "title": "Ocean Observer"
-      ,
-      "description": "Find a weathered statue gazing out at the endless sea."
+      "title": {
+      "translate": "advancement.kattersstructures.villager_ocean_title",
+      "fallback": "Ocean Observer"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.villager_ocean_description",
+      "fallback": "Find a weathered statue gazing out at the endless sea."
+    }
     },
     "parent": "kattersstructures:a_villager_statue",
     "criteria": {

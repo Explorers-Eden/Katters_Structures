@@ -4,11 +4,17 @@
         "id": "minecraft:mossy_cobblestone",
         "count": 1
       },
-      "title": "Dungeon Upgrade"
-      ,
-      "description": "Find a dungeon that puts the original to shame."
+      "title": {
+      "translate": "advancement.kattersstructures.better_vanilla_dungeon_title",
+      "fallback": "Dungeon Upgrade"
+      
     },
-    "parent": "kattersstructures:root",
+    "description": {
+      "translate": "advancement.kattersstructures.better_vanilla_dungeon_description",
+      "fallback": "Find a dungeon that puts the original to shame."
+      }
+  },
+  "parent": "kattersstructures:root",
     "criteria": {
       "better_vanilla_dungeon": {
         "trigger": "minecraft:location",

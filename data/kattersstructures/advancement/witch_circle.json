@@ -4,9 +4,15 @@
         "id": "minecraft:campfire",
         "count": 1
       },
-      "title": "Witch's Circle"
-      ,
-      "description": "Uncover a mysterious ritual site, a place of ancient power and magic."
+      "title": {
+      "translate": "advancement.kattersstructures.witch_circle_title",
+      "fallback": "Witch's Circle"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.witch_circle_description",
+      "fallback": "Uncover a mysterious ritual site, a place of ancient power and magic."
+    }
     },
     "parent": "kattersstructures:root",
     "criteria": {

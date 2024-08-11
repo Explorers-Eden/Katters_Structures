@@ -4,9 +4,15 @@
         "id": "minecraft:mud",
         "count": 1
       },
-      "title": "Muddy Metropolis"
-      ,
-      "description": "Discover a hidden community thriving amidst the murky waters and lush greenery of the swamp."
+      "title": {
+      "translate": "advancement.kattersstructures.village_swamp_title",
+      "fallback": "Muddy Metropolis"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.village_swamp_description",
+      "fallback": "Discover a hidden community thriving amidst the murky waters and lush greenery of the swamp."
+    }
     },
     "parent": "kattersstructures:a_village",
     "criteria": {

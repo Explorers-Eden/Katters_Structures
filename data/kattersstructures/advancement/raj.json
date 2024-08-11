@@ -3,8 +3,14 @@
       "icon": {
         "id": "minecraft:lightning_rod"
       },
-      "title": "For Those About to Rock",
-      "description": "Defeat the sky tyrant, Raj Raksha, in an epic battle for the ages.",
+      "title": {
+      "translate": "advancement.kattersstructures.raj_title",
+      "fallback": "For Those About to Rock"
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.raj_description",
+      "fallback": "Defeat the sky tyrant, Raj Raksha, in an epic battle for the ages."
+    },
       "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,

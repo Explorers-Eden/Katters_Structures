@@ -4,8 +4,14 @@
         "id": "minecraft:emerald_block",
         "count": 1
       },
-      "title": "Guardian of Guardians",
-      "description": "Uncover all three enigmatic statues and become the ultimate guardian of the world.",
+      "title": {
+      "translate": "advancement.kattersstructures.villager_all_title",
+      "fallback": "Guardian of Guardians"
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.villager_all_description",
+      "fallback": "Uncover all three enigmatic statues and become the ultimate guardian of the world."
+    },
       "frame": "challenge",
       "hidden": true
     },

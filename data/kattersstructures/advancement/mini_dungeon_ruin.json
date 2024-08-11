@@ -4,9 +4,15 @@
         "id": "minecraft:cracked_stone_bricks",
         "count": 1
       },
-      "title": "Ruins Reborn"
-      ,
-      "description": "Uncover remnants of a forgotten civilization, a relic of the past."
+      "title": {
+      "translate": "advancement.kattersstructures.mini_dungeon_ruin_title",
+      "fallback": "Ruins Reborn"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.mini_dungeon_ruin_description",
+      "fallback": "Uncover remnants of a forgotten civilization, a relic of the past."
+    }
     },
     "parent": "kattersstructures:a_mini_dungeon",
     "criteria": {

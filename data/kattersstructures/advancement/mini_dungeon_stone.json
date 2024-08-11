@@ -4,9 +4,15 @@
         "id": "minecraft:campfire",
         "count": 1
       },
-      "title": "Mountain Menace"
-      ,
-      "description": "Discover a mysterious pyramid-shaped structure hidden within the mountain peaks."
+      "title": {
+      "translate": "advancement.kattersstructures.mini_dungeon_stone_title",
+      "fallback": "Mountain Menace"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.mini_dungeon_stone_description",
+      "fallback": "Discover a mysterious pyramid-shaped structure hidden within the mountain peaks."
+    }
     },
     "parent": "kattersstructures:a_mini_dungeon",
     "criteria": {

@@ -4,11 +4,17 @@
         "id": "minecraft:diamond_helmet",
         "count": 1
       },
-      "title": "Armory Arsenal"
-      ,
-      "description": "Uncover a hidden underground chamber filled with a warrior's dream: a vast collection of armor."
+      "title": {
+      "translate": "advancement.kattersstructures.armory_title",
+      "fallback": "Armory Arsenal"
+      
     },
-    "parent": "kattersstructures:root",
+    "description": {
+      "translate": "advancement.kattersstructures.armory_description",
+      "fallback": "Uncover a hidden underground chamber filled with a warrior's dream: a vast collection of armor."
+      }
+  },
+  "parent": "kattersstructures:root",
     "criteria": {
       "armory": {
         "trigger": "minecraft:location",

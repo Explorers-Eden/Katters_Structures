@@ -4,9 +4,15 @@
         "id": "minecraft:chiseled_tuff",
         "count": 1
       },
-      "title": "Temple Trials"
-      ,
-      "description": "Discover a sacred site carved into the living rock."
+      "title": {
+      "translate": "advancement.kattersstructures.mini_dungeon_tuff_title",
+      "fallback": "Temple Trials"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.mini_dungeon_tuff_description",
+      "fallback": "Discover a sacred site carved into the living rock."
+    }
     },
     "parent": "kattersstructures:a_mini_dungeon",
     "criteria": {

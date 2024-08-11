@@ -4,9 +4,15 @@
         "id": "minecraft:cocoa_beans",
         "count": 1
       },
-      "title": "Canopy Kingdom"
-      ,
-      "description": "Find a thriving community of villagers living in harmony with a towering jungle tree."
+      "title": {
+      "translate": "advancement.kattersstructures.village_jungle_title",
+      "fallback": "Canopy Kingdom"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.village_jungle_description",
+      "fallback": "Find a thriving community of villagers living in harmony with a towering jungle tree."
+    }
     },
     "parent": "kattersstructures:a_village",
     "criteria": {

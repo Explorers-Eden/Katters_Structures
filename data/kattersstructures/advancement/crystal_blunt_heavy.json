@@ -3,8 +3,14 @@
     "icon": {
       "id": "minecraft:amethyst_cluster"
     },
-    "title": "The Black Swordsman's Burden",
-    "description": "Forge a weapon as heavy and blunt as the legendary Dragon Slayer, but temper it with a curse that makes it as fragile as glass.",
+    "title": {
+      "translate": "advancement.kattersstructures.crystal_blunt_heavy_title",
+      "fallback": "The Black Swordsman's Burden"
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.crystal_blunt_heavy_description",
+      "fallback": "Forge a weapon as heavy and blunt as the legendary Dragon Slayer, but temper it with a curse that makes it as fragile as glass."
+    },
     "frame": "challenge",
     "hidden": true
     },

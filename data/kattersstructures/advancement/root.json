@@ -3,8 +3,14 @@
       "icon": {
         "id": "minecraft:lodestone"
       },
-      "title": "Katters Structures",
-      "description": "Brand new vanilla like structures!",
+      "title": {
+      "translate": "advancement.kattersstructures.root_title",
+      "fallback": "Katters Structures"
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.root_description",
+      "fallback": "Brand new vanilla like structures!"
+    },
       "background": "minecraft:textures/block/mud_bricks.png",
       "show_toast": true,
       "announce_to_chat": false

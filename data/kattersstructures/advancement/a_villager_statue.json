@@ -4,8 +4,14 @@
       "id": "minecraft:villager_spawn_egg",
       "count": 1
     },
-    "title": "Ancient Witness",
-    "description": "Discover a silent guardian of the land, a relic of a bygone era."
+    "title": {
+      "translate": "advancement.kattersstructures.a_villager_statue_title",
+      "fallback": "Ancient Witness"
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.a_villager_statue_description",
+      "fallback": "Discover a silent guardian of the land, a relic of a bygone era."
+    }
   },
   "parent": "kattersstructures:root",
   "criteria": {

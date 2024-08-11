@@ -4,9 +4,15 @@
         "id": "minecraft:hay_block",
         "count": 1
       },
-      "title": "Windswept Wheatfields"
-      ,
-      "description": "Discover a picturesque windmill standing tall amidst a golden sea of wheat."
+      "title": {
+      "translate": "advancement.kattersstructures.windmill_title",
+      "fallback": "Windswept Wheatfields"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.windmill_description",
+      "fallback": "Discover a picturesque windmill standing tall amidst a golden sea of wheat."
+    }
     },
     "parent": "kattersstructures:root",
     "criteria": {

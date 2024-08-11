@@ -8,8 +8,14 @@
           }
         }
       },
-      "title": "Village Virtuoso",
-      "description": "Master of the village, visit them all and learn their secrets.",
+      "title": {
+      "translate": "advancement.kattersstructures.village_all_title",
+      "fallback": "Village Virtuoso"
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.village_all_description",
+      "fallback": "Master of the village, visit them all and learn their secrets."
+    },
       "frame": "challenge"
     },
     "parent": "kattersstructures:a_village",

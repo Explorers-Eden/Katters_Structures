@@ -4,9 +4,15 @@
         "id": "minecraft:cod",
         "count": 1
       },
-      "title": "Drifting Dwellers"
-      ,
-      "description": "Discover a peaceful community of fishermen living a simple life on the open sea."
+      "title": {
+      "translate": "advancement.kattersstructures.village_ocean_title",
+      "fallback": "Drifting Dwellers"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.village_ocean_description",
+      "fallback": "Discover a peaceful community of fishermen living a simple life on the open sea."
+    }
     },
     "parent": "kattersstructures:a_village",
     "criteria": {

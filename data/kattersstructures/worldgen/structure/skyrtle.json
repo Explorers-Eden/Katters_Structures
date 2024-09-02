@@ -1,53 +1,53 @@
 {
-    "biomes": "minecraft:warm_ocean",
-    "spawn_overrides": {
-        "creature": {
-            "bounding_box": "full",
-            "spawns": [
-            {
-                "type": "minecraft:turtle",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
-            },{
-              "type": "minecraft:tropical_fish",
-              "weight": 1,
-              "minCount": 5,
-              "maxCount": 20
-          }
-            ]
-        },
-        "monster": {
-            "bounding_box": "full",
-            "spawns": [
-              {
-                "type": "minecraft:drowned",
-                "weight": 5,
-                "minCount": 2,
-                "maxCount": 10
-            },{
-              "type": "minecraft:guardian",
+  "biomes": "#kattersstructures:has_structure/sky_village",
+  "spawn_overrides": {
+      "creature": {
+          "bounding_box": "full",
+          "spawns": [
+          {
+              "type": "minecraft:turtle",
               "weight": 1,
               "minCount": 1,
               "maxCount": 1
-            } 
-            ]
+          },{
+            "type": "minecraft:tropical_fish",
+            "weight": 1,
+            "minCount": 5,
+            "maxCount": 20
         }
-    },
-    "type": "minecraft:jigsaw",
-    "start_pool": "kattersstructures:skyrtle/center",
-    "size": 7,
-    "step": "surface_structures",
-    "start_height": {
-      "type": "minecraft:uniform",
-      "min_inclusive": {
-        "absolute": 180
+          ]
       },
-        "max_inclusive": {
-        "absolute": 256
+      "monster": {
+          "bounding_box": "full",
+          "spawns": [
+            {
+              "type": "minecraft:drowned",
+              "weight": 5,
+              "minCount": 2,
+              "maxCount": 10
+          },{
+            "type": "minecraft:guardian",
+            "weight": 5,
+            "minCount": 1,
+            "maxCount": 2
+          } 
+          ]
       }
+  },
+  "type": "minecraft:jigsaw",
+  "start_pool": "kattersstructures:skyrtle/center",
+  "size": 7,
+  "step": "surface_structures",
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 180
     },
-    "max_distance_from_center": 116,
-    "terrain_adaptation": "none",
-    "use_expansion_hack": false
+      "max_inclusive": {
+      "absolute": 256
+    }
+  },
+  "max_distance_from_center": 116,
+  "terrain_adaptation": "none",
+  "use_expansion_hack": false
 }

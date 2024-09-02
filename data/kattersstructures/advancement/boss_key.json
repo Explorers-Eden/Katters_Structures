@@ -15,7 +15,7 @@
     },
     "description": {
       "translate": "advancement.kattersstructures.boss_key_description",
-      "fallback": "An ancient key, inscribed with symbols of power and protection. Its fate is bound to a place of iron and steel."
+      "fallback": "An ancient key, inscribed with symbols of power and protection. His fate is tied to a place underground that reeks of grindstones and armor polish."
     },
       "frame": "goal",
       "show_toast": true,

@@ -10,7 +10,7 @@
             "location": "kattersstructures:villager_mountain/villager_mountain_brain_1"
         }
     },{
-        "weight": 2,
+        "weight": 1,
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "rigid",
@@ -18,7 +18,7 @@
             "location": "kattersstructures:villager_mountain/villager_mountain_brain_2"
         }
     },{
-        "weight": 2,
+        "weight": 1,
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "rigid",

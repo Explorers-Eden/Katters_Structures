@@ -1,0 +1,21 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 60,
+        "separation": 50,
+        "salt": 21001000,
+        "spread_type": "triangular"
+    },
+    "structures": [
+    {
+        "structure": "kattersstructures:sky_dungeon",
+        "weight": 1
+    },{
+        "structure": "kattersstructures:skyrtle",
+        "weight": 1
+    },{
+        "structure": "kattersstructures:village_sky",
+        "weight": 20
+    }
+    ]
+}

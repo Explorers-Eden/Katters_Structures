@@ -1,0 +1,24 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 50,
+        "separation": 40,
+        "salt": 21001000,
+        "spread_type": "triangular"
+    },
+    "structures": [
+    {
+        "structure": "kattersstructures:mini_dungeon_rugged_shack",
+        "weight": 1
+    },{
+        "structure": "kattersstructures:mini_dungeon_ruin",
+        "weight": 1
+    },{
+        "structure": "kattersstructures:mini_dungeon_stone",
+        "weight": 1
+    },{
+        "structure": "kattersstructures:mini_dungeon_tuff",
+        "weight": 1
+    }
+    ]
+}

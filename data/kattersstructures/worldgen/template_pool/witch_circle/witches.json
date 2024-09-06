@@ -2,7 +2,7 @@
     "name": "kattersstructures:witch_circle/witches",
     "fallback": "minecraft:empty",
     "elements": [{
-        "weight": 5,
+        "weight": 10,
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "rigid",
@@ -10,7 +10,7 @@
             "location": "kattersstructures:witch_circle/witch_1"
         }
     },{
-        "weight": 5,
+        "weight": 2,
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "rigid",
@@ -18,7 +18,7 @@
             "location": "kattersstructures:witch_circle/witch_2"
         }
     },{
-        "weight": 1,
+        "weight": 2,
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "rigid",

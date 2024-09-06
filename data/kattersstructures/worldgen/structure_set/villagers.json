@@ -1,18 +1,18 @@
 {
     "placement": {
         "type": "minecraft:random_spread",
-        "spacing": 34,
+        "spacing": 10,
         "separation": 8,
-        "salt": 21001000,
+        "salt": 537268063,
         "spread_type": "triangular"
     },
     "structures": [
     {
         "structure": "kattersstructures:villager_desert",
-        "weight": 1
+        "weight": 5
     },{
         "structure": "kattersstructures:villager_mountain",
-        "weight": 1
+        "weight": 10
     },{
         "structure": "kattersstructures:villager_ocean",
         "weight": 1

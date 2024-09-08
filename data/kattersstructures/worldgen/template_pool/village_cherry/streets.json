@@ -11,15 +11,16 @@
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "terrain_matching",
-            "processors": "minecraft:empty",
+            "processors": "kattersstructures:street_cherry",
             "location": "kattersstructures:village_cherry/streets/street_straight"
+            
         }
     },{
         "weight": 3,
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "terrain_matching",
-            "processors": "minecraft:empty",
+            "processors": "kattersstructures:street_cherry",
             "location": "kattersstructures:village_cherry/streets/street_straight_2"
         }
     },{
@@ -27,7 +28,7 @@
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "terrain_matching",
-            "processors": "minecraft:empty",
+            "processors": "kattersstructures:street_cherry",
             "location": "kattersstructures:village_cherry/streets/street_aslant"
         }
     },{
@@ -35,7 +36,7 @@
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "terrain_matching",
-            "processors": "minecraft:empty",
+            "processors": "kattersstructures:street_cherry",
             "location": "kattersstructures:village_cherry/streets/street_aslant_2"
         }
     },{
@@ -43,7 +44,7 @@
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "terrain_matching",
-            "processors": "minecraft:empty",
+            "processors": "kattersstructures:street_cherry",
             "location": "kattersstructures:village_cherry/streets/street_curvy"
         }
     },{
@@ -51,7 +52,7 @@
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "terrain_matching",
-            "processors": "minecraft:empty",
+            "processors": "kattersstructures:street_cherry",
             "location": "kattersstructures:village_cherry/streets/street_curve"
         }
     },{
@@ -59,7 +60,7 @@
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "terrain_matching",
-            "processors": "minecraft:empty",
+            "processors": "kattersstructures:street_cherry",
             "location": "kattersstructures:village_cherry/streets/street_curve_2"
         }
     },{
@@ -67,7 +68,7 @@
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "terrain_matching",
-            "processors": "minecraft:empty",
+            "processors": "kattersstructures:street_cherry",
             "location": "kattersstructures:village_cherry/streets/street_t"
         }
     },{
@@ -75,7 +76,7 @@
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "terrain_matching",
-            "processors": "minecraft:empty",
+            "processors": "kattersstructures:street_cherry",
             "location": "kattersstructures:village_cherry/streets/street_y"
         }
     },{
@@ -83,7 +84,7 @@
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "terrain_matching",
-            "processors": "minecraft:empty",
+            "processors": "kattersstructures:street_cherry",
             "location": "kattersstructures:village_cherry/streets/street_cross"
         }
     },{
@@ -91,7 +92,7 @@
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "rigid",
-            "processors": "minecraft:empty",
+            "processors": "kattersstructures:street_cherry",
             "location": "kattersstructures:village_cherry/streets/street_end"
         }
     },{
@@ -99,7 +100,7 @@
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "terrain_matching",
-            "processors": "minecraft:empty",
+            "processors": "kattersstructures:street_cherry",
             "location": "kattersstructures:village_cherry/streets/street_rare"
         }
     }]

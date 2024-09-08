@@ -11,7 +11,7 @@
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "terrain_matching",
-            "processors": "minecraft:empty",
+            "processors": "kattersstructures:street_swamp",
             "location": "kattersstructures:village_swamp/streets/street_straight"
         }
     },{
@@ -19,7 +19,7 @@
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "terrain_matching",
-            "processors": "minecraft:empty",
+            "processors": "kattersstructures:street_swamp",
             "location": "kattersstructures:village_swamp/streets/street_straight_2"
         }
     },{
@@ -27,7 +27,7 @@
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "terrain_matching",
-            "processors": "minecraft:empty",
+            "processors": "kattersstructures:street_swamp",
             "location": "kattersstructures:village_swamp/streets/street_aslant"
         }
     },{
@@ -35,7 +35,7 @@
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "terrain_matching",
-            "processors": "minecraft:empty",
+            "processors": "kattersstructures:street_swamp",
             "location": "kattersstructures:village_swamp/streets/street_aslant_2"
         }
     },{
@@ -43,7 +43,7 @@
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "terrain_matching",
-            "processors": "minecraft:empty",
+            "processors": "kattersstructures:street_swamp",
             "location": "kattersstructures:village_swamp/streets/street_curvy"
         }
     },{
@@ -51,7 +51,7 @@
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "terrain_matching",
-            "processors": "minecraft:empty",
+            "processors": "kattersstructures:street_swamp",
             "location": "kattersstructures:village_swamp/streets/street_curve"
         }
     },{
@@ -59,7 +59,7 @@
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "terrain_matching",
-            "processors": "minecraft:empty",
+            "processors": "kattersstructures:street_swamp",
             "location": "kattersstructures:village_swamp/streets/street_curve_2"
         }
     },{
@@ -67,7 +67,7 @@
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "terrain_matching",
-            "processors": "minecraft:empty",
+            "processors": "kattersstructures:street_swamp",
             "location": "kattersstructures:village_swamp/streets/street_t"
         }
     },{
@@ -75,7 +75,7 @@
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "terrain_matching",
-            "processors": "minecraft:empty",
+            "processors": "kattersstructures:street_swamp",
             "location": "kattersstructures:village_swamp/streets/street_y"
         }
     },{
@@ -83,7 +83,7 @@
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "terrain_matching",
-            "processors": "minecraft:empty",
+            "processors": "kattersstructures:street_swamp",
             "location": "kattersstructures:village_swamp/streets/street_cross"
         }
     },{
@@ -91,7 +91,7 @@
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "terrain_matching",
-            "processors": "minecraft:empty",
+            "processors": "kattersstructures:street_swamp",
             "location": "kattersstructures:village_swamp/streets/street_rare"
         }
     }]

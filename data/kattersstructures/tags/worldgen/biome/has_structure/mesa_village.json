@@ -1,0 +1,6 @@
+{
+    "values": [
+        "minecraft:badlands",
+        { "id": "eden:badlands","required": false}
+    ]
+}

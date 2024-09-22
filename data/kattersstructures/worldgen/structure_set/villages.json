@@ -20,6 +20,9 @@
     },{
         "structure": "kattersstructures:village_swamp",
         "weight": 1
+    },{
+        "structure": "kattersstructures:village_mesa",
+        "weight": 1
     }
     ]
 }

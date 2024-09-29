@@ -1,0 +1,1 @@
+summon villager ~ ~ ~ {Tags:["katters_structures.barkeeper"],CustomName:'"Barkeeper"',VillagerData:{level:2,profession:"minecraft:cleric",type:"minecraft:desert"}}

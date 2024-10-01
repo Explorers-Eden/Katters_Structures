@@ -1,8 +1,8 @@
-say hi
 execute store result score $kattersstructures.mesa_village.barkeeper.trade kattersstructures.technical run random value 1..2
 
 
 execute if score $kattersstructures.mesa_village.barkeeper.trade kattersstructures.technical matches 1 run data modify entity @s Offers.Recipes append value {rewardExp:1b,maxUses:1,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:9},sell:{id:"minecraft:player_head",count:1,components:{"minecraft:rarity":"uncommon","minecraft:item_name":'{"fallback":"Anvil","translate":"items.nvr.blockhead.anvil"}',"minecraft:profile":{id:[I;-1197051055,-942059745,-1412592671,1605317911],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjkyZDVkZjgwNWMyMzkwMjJmZTFiNDVmOTQwODgyYmY0MGI1NTk2NzE5MzdkYzcxZmJjOTZmNjMwMjUwZWJjNCJ9fX0="}]},"minecraft:note_block_sound":"minecraft:block.anvil.use"}}}
 execute if score $kattersstructures.mesa_village.barkeeper.trade kattersstructures.technical matches 2 run data modify entity @s Offers.Recipes append value {rewardExp:1b,maxUses:1,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:9},sell:{id:"minecraft:player_head",count:1,components:{"minecraft:rarity":"uncommon","minecraft:item_name":'{"fallback":"Anvil","translate":"items.nvr.blockhead.anvil"}',"minecraft:profile":{id:[I;-1197051055,-942059745,-1412592671,1605317911],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjkyZDVkZjgwNWMyMzkwMjJmZTFiNDVmOTQwODgyYmY0MGI1NTk2NzE5MzdkYzcxZmJjOTZmNjMwMjUwZWJjNCJ9fX0="}]},"minecraft:note_block_sound":"minecraft:block.anvil.use"}}}
 
-tag @s remove katters_structures.barkeeper
+tag @s remove katters_structures.barkeeper_3
+tag @s add katters_structures.barkeeper_4

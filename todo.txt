@@ -1,6 +1,6 @@
 ToDo
 
-Mesa village
+
 birch village
 Deep blue
 trader outposts
@@ -9,9 +9,12 @@ Pillager dungeon
 Herobrine dungeon
 Elden Ring Verlies
 Spider Den
+advancement stößt scoreboard für spieler an und der erhöht sich dann jede sekunde um 1 ..bei 300 wird die function getriggert
 
+Doing
 
-
+drinks for Barkeeper
+Mesa village
 
 
 Done

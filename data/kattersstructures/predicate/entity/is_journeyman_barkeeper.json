@@ -1,0 +1,8 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:villager",
+    "nbt": "{VillagerData: {profession:\"minecraft:cleric\", level: 3}, Tags:[\"katters_structures.barkeeper_2\"]}"
+  }
+}

@@ -3,6 +3,6 @@
   "entity": "this",
   "predicate": {
     "type": "minecraft:villager",
-    "nbt": "{VillagerData: {profession:\"minecraft:cleric\", level: 5}, Tags:[\"katters_structures.barkeeper\"]}"
+    "nbt": "{VillagerData: {profession:\"minecraft:cleric\", level: 2}, Tags:[\"katters_structures.barkeeper\"]}"
   }
 }

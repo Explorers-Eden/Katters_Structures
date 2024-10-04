@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:potion",
+            "count": 1,
+            "components": {
+              "minecraft:item_name": "{\"color\":\"dark_aqua\",\"fallback\":\"Gin\",\"translate\":\"item.kattersstructures.gin\"}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "kattersstructures:mesa_village/poisoning_gin"
+    }
+  }
+  

@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:potion",
+            "count": 1,
+            "components": {
+              "minecraft:item_name": "{\"color\":\"#6B451A\",\"fallback\":\"Coffee\",\"translate\":\"item.kattersstructures.coffee\"}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "kattersstructures:mesa_village/coffee_timer"
+    }
+  }
+  

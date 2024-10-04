@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:potion",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.alcohol_poisoning",
+      "fallback": "One Beer to much?"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.alcohol_poisoning",
+      "fallback": "You have drank to much, and now you must live with the consequences."
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+  },
+  "parent": "kattersstructures:root",
+    "criteria": {
+        "requirement": {
+        "trigger": "minecraft:impossible"
+    }
+    },
+    "sends_telemetry_event": true
+  }

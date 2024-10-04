@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:potion",
+            "count": 1,
+            "components": {
+              "minecraft:item_name": "{\"color\":\"red\",\"fallback\":\"Vodka\",\"translate\":\"item.kattersstructures.vodka\"}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "kattersstructures:mesa_village/poisoning_vodka"
+    }
+  }
+  

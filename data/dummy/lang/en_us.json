@@ -1,8 +1,17 @@
 {
-    
+    "generic.kattersstructures.alcohol_poisoning": "You have Drunk to much! And got yourself an alcohol poisoning.",
+
     "item.kattersstructures.boss_key": "Boss Key",
     "item.kattersstructures.boss_key_lore_1": "Key, dropped by a Boss.",
     "item.kattersstructures.boss_key_lore_2": "Opens Great Treasure",
+    "item.kattersstructures.beer": "Beer",
+    "item.kattersstructures.coffee": "Coffee",
+    "item.kattersstructures.gin": "Gin",
+    "item.kattersstructures.moonshine": "Moonshine",
+    "item.kattersstructures.vodka": "Vodka",
+    "item.kattersstructures.water": "Water",
+    "item.kattersstructures.whisky": "Whisky",
+    "item.kattersstructures.wine": "Wine",
 
     "advancement.kattersstructures.a_mini_dungeon_title": "Trial by Fire",
     "advancement.kattersstructures.a_mini_dungeon_description": "Face your first trial, a test of courage and skill.",
@@ -83,7 +92,10 @@
     "advancement.kattersstructures.windmill_title": "Windswept Wheatfields",
     "advancement.kattersstructures.windmill_description": "Discover a picturesque windmill standing tall amidst a golden sea of wheat.",
     "advancement.kattersstructures.witch_circle_title": "Witch's Circle",
-    "advancement.kattersstructures.witch_circle_description": "Uncover a mysterious ritual site, a place of ancient power and magic."
+    "advancement.kattersstructures.witch_circle_description": "Uncover a mysterious ritual site, a place of ancient power and magic.",
+    "advancement.kattersstructures.village_mesa_title": "Wild West Village",
+    "advancement.kattersstructures.village_mesa_description": "Find a thriving community in the shadow of the mesa, where the skill of the archer is paramount for survival.",
+    "advancement.kattersstructures.alcohol_poisoning_title": "One Beer to much?",
+    "advancement.kattersstructures.alcohol_poisoning_description": "You have drank to much, and now you must live with the consequences."
 
-    
 }

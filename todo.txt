@@ -2,23 +2,26 @@ ToDo
 
 
 birch village
-Deep blue
+
 trader outposts
 Magic Tower dungeon
 Pillager dungeon
 Herobrine dungeon
 Elden Ring Verlies
 Spider Den
-advancement stößt scoreboard für spieler an und der erhöht sich dann jede sekunde um 1 ..bei 300 wird die function getriggert
+
+
 
 Doing
 
-drinks for Barkeeper
 Mesa village
-
+Deep blue
 
 Done
 
-villager birch tree
+skyrtle fix
+villager birch tree fix
 witch circle spawner
 processor-list
+drinks for Barkeeper
+translation file updaten

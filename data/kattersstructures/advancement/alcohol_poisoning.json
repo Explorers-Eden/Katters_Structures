@@ -5,12 +5,12 @@
         "count": 1
       },
       "title": {
-      "translate": "advancement.kattersstructures.alcohol_poisoning",
+      "translate": "advancement.kattersstructures.alcohol_poisoning_titel",
       "fallback": "One Beer to much?"
       
     },
     "description": {
-      "translate": "advancement.kattersstructures.alcohol_poisoning",
+      "translate": "advancement.kattersstructures.alcohol_poisoning_description",
       "fallback": "You have drank to much, and now you must live with the consequences."
       },
       "frame": "challenge",

@@ -110,6 +110,22 @@
           }
         ]
       }
+    },
+    "village_mesa": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "kattersstructures:village_mesa"
+              }
+            }
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -119,7 +135,8 @@
       "village_ocean",
       "village_sky",
       "village_swamp",
-      "village_underground"
+      "village_underground",
+      "village_mesa"
     ]
   ],
   "sends_telemetry_event": true

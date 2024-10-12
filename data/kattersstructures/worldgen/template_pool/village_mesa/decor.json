@@ -6,7 +6,7 @@
     {
         "weight": 1,
         "element": {
-            "location": "kattersstructures:village_mesa/decor/decor_fischerman",
+            "location": "kattersstructures:village_mesa/decor/decor_fisherman",
             "processors": "kattersstructures:sand_mesa",
             "projection": "rigid",
             "element_type": "minecraft:single_pool_element"

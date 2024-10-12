@@ -1,9 +1,13 @@
 {
     "placement": {
         "type": "minecraft:random_spread",
-        "spacing": 16,
-        "separation": 10,
+        "spacing": 24,
+        "separation": 14,
         "salt": 537268063,
+        "exclusion_zone": {
+            "other_set": "kattersstructures:villages",
+            "chunk_count": 3
+        },
         "spread_type": "triangular"
     },
     "structures": [

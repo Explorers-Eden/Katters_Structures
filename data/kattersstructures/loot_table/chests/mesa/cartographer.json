@@ -103,7 +103,7 @@
             },
             {
               "function": "minecraft:exploration_map",
-              "destination": "kattersstructures:village",
+              "destination": "kattersstructures:village_mesa",
               "decoration": "village_plains",
               "zoom": 1,
               "skip_existing_chunks": true
@@ -198,7 +198,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.5
+          "chance": 0.9
         }
       ]
     }

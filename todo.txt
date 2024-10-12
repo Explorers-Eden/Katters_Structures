@@ -1,7 +1,7 @@
 ToDo
 
 
-birch village
+
 
 trader outposts
 Magic Tower dungeon
@@ -14,9 +14,9 @@ Spider Den
 
 Doing
 
-Mesa village
+birch village
 Deep blue
-Loottable mesa einpflegen
+
 
 Done
 
@@ -26,3 +26,5 @@ witch circle spawner
 processor-list
 drinks for Barkeeper
 translation file updaten
+Loottable mesa einpflegen
+Mesa village

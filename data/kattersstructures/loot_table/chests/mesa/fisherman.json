@@ -7,36 +7,36 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:paper",
-          "weight": 15,
+          "name": "minecraft:wheat_seeds",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 5
+                "max": 3
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:bread",
-          "weight": 15,
+          "name": "minecraft:coal",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 4
+                "max": 3
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:map",
-          "weight": 10,
+          "name": "minecraft:cod",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -50,14 +50,14 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:stick",
-          "weight": 5,
+          "name": "minecraft:barrel",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 3
               }
             }
           ]
@@ -78,57 +78,43 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:compass",
-          "weight": 5,
+          "name": "minecraft:tropical_fish",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:map",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:exploration_map",
-              "destination": "kattersstructures:village_mesa",
-              "decoration": "village_plains",
-              "zoom": 1,
-              "skip_existing_chunks": true
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "target": "custom_name",
-              "name": "Village Map"
-            },
-            {
-              "function": "minecraft:set_lore",
-              "entity": "this",
-              "lore": [
-                {
-                  "text": "showes the location of an Katters Structure Village"
-                }
-              ],
-              "mode": "insert"
+              "count": {
+                "min": 1,
+                "max": 3
+              }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:map",
+          "name": "minecraft:water_bucket",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
           "weight": 1,
           "functions": [
             {
@@ -136,82 +122,26 @@
               "count": 1
             },
             {
-              "function": "minecraft:exploration_map",
-              "destination": "kattersstructures:villager",
-              "decoration": "monument",
-              "zoom": 1,
-              "skip_existing_chunks": true
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "target": "custom_name",
-              "name": "Villager Map"
-            },
-            {
-              "function": "minecraft:set_lore",
-              "entity": "this",
-              "lore": [
-                {
-                  "text": "showes the location of an Katters Structure Villager Statue"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:luck_of_the_sea": {
+                  "min": 0,
+                  "max": 2
                 }
-              ],
-              "mode": "insert"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:map",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:exploration_map",
-              "destination": "kattersstructures:dungeon",
-              "decoration": "target_x",
-              "zoom": 1,
-              "skip_existing_chunks": true
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "target": "custom_name",
-              "name": "Dungeon Map"
-            },
-            {
-              "function": "minecraft:set_lore",
-              "entity": "this",
-              "lore": [
+              },
+              "conditions": [
                 {
-                  "text": "showes the location of an Katters Structure Dungeon"
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
                 }
-              ],
-              "mode": "insert"
-            }
-          ]
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.75
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "kattersstructures:chests/mesa/booze",
-          "conditions": [
+              ]
+            },
             {
-              "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.5,
+                "max": 1
+              }
             }
           ]
         }

@@ -23,6 +23,9 @@
     },{
         "structure": "kattersstructures:village_mesa",
         "weight": 1
+    },{
+        "structure": "kattersstructures:village_birch",
+        "weight": 1
     }
     ]
 }

@@ -16,7 +16,7 @@
             "location": "kattersstructures:village_birch/street/street_cross"
         }
     },{
-        "weight": 3,
+        "weight": 2,
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "terrain_matching",
@@ -32,7 +32,7 @@
             "location": "kattersstructures:village_birch/street/street_t"
         }
     },{
-        "weight": 3,
+        "weight": 4,
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "terrain_matching",
@@ -40,7 +40,7 @@
             "location": "kattersstructures:village_birch/street/street_straight"
         }
     },{
-        "weight": 3,
+        "weight": 4,
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "terrain_matching",
@@ -48,7 +48,7 @@
             "location": "kattersstructures:village_birch/street/street_straight_2"
         }
     },{
-        "weight": 3,
+        "weight": 4,
         "element": {
             "element_type": "minecraft:single_pool_element",
             "projection": "terrain_matching",

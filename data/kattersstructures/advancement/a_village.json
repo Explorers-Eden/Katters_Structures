@@ -126,6 +126,22 @@
           }
         ]
       }
+    },
+    "village_birch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "kattersstructures:village_birch"
+              }
+            }
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -136,7 +152,8 @@
       "village_sky",
       "village_swamp",
       "village_underground",
-      "village_mesa"
+      "village_mesa",
+      "village_birch"
     ]
   ],
   "sends_telemetry_event": true

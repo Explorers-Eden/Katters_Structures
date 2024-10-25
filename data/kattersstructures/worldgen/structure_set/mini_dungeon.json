@@ -4,7 +4,11 @@
         "spacing": 30,
         "separation": 25,
         "salt": 1783021503,
-        "spread_type": "triangular"
+        "spread_type": "triangular",
+        "exclusion_zone": {
+            "other_set": "kattersstructures:villages",
+            "chunk_count": 10
+        }
     },
     "structures": [
     {

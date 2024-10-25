@@ -115,6 +115,38 @@
             }
           ]
         }
+      },
+      "village_mesa": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:village_mesa"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "village_birch": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:village_birch"
+                }
+              }
+            }
+          ]
+        }
       }
     },
     "sends_telemetry_event": true

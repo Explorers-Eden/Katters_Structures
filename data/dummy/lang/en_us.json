@@ -96,6 +96,9 @@
     "advancement.kattersstructures.village_mesa_title": "Wild West Village",
     "advancement.kattersstructures.village_mesa_description": "Find a thriving community in the shadow of the mesa, where the skill of the archer is paramount for survival.",
     "advancement.kattersstructures.alcohol_poisoning_title": "One Beer to much?",
-    "advancement.kattersstructures.alcohol_poisoning_description": "You have drank to much, and now you must live with the consequences."
+    "advancement.kattersstructures.alcohol_poisoning_description": "You have drank to much, and now you must live with the consequences.",
+    "advancement.kattersstructures.village_birch_title": "Fungus Among Us",
+    "advancement.kattersstructures.village_birch_description": "Discovered a quaint little village, where the houses grow like mushrooms!"
+    
 
 }

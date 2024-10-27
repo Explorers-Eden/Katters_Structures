@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:spider",
+            "nbt": "{Tags:[\"katter.arachne.boss\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "kattersstructures:arachne/spawn_help"
+    }
+  }
+  

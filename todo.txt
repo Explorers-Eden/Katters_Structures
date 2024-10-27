@@ -3,12 +3,12 @@ ToDo
 
 
 
-trader outposts
+trader outposts +
 Magic Tower dungeon
 Pillager dungeon
 Herobrine dungeon
 Elden Ring Verlies
-Spider Den
+
 
 
 
@@ -16,7 +16,7 @@ Doing
 
 
 Deep blue
-
+Spider Den
 
 Done
 

@@ -5,4 +5,6 @@ execute as @e[type=villager,predicate=kattersstructures:entity/is_journeyman_bar
 execute as @e[type=villager,predicate=kattersstructures:entity/is_expert_barkeeper] run function kattersstructures:mesa_village/barkeeper_expert_trade
 execute as @e[type=villager,predicate=kattersstructures:entity/is_master_barkeeper] run function kattersstructures:mesa_village/barkeeper_master_trade
 
+execute as @e[type=player] at @s if entity @e[type=spider,tag=katter.arachne.boss,distance=..35] run tag @s remove arachne_attack_cooldown
+
 schedule function kattersstructures:schedules/schedule_2s 2s

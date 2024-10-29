@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:jungle_log",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.spider_den_title",
+      "fallback": "The Heart of the Web"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.spider_den_description",
+      "fallback": "Discover the ancient spider den, a twisted labyrinth hidden deep within the jungle."
+      }
+  },
+  "parent": "kattersstructures:root",
+    "criteria": {
+      "spider_den": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:spider_den"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

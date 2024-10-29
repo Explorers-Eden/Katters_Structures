@@ -23,6 +23,9 @@
     },{
         "structure": "kattersstructures:witch_circle",
         "weight": 10
+    },{
+        "structure": "kattersstructures:trader_outposts",
+        "weight": 10
     }
     ]
 }

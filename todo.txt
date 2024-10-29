@@ -3,7 +3,7 @@ ToDo
 
 
 
-trader outposts +
+ships
 Magic Tower dungeon
 Pillager dungeon
 Herobrine dungeon
@@ -16,7 +16,8 @@ Doing
 
 
 Deep blue
-Spider Den
+Deep blue portal
+trader outposts
 
 Done
 
@@ -29,3 +30,4 @@ translation file updaten
 Loottable mesa einpflegen
 Mesa village
 birch village
+Spider Den

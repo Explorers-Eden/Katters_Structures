@@ -7,7 +7,6 @@ execute as @e[type=player] at @s if entity @e[type=turtle,tag=katter.tenku.vehic
 
 execute as @e[type=player] at @s unless entity @e[type=turtle,tag=katter.tenku.vehicle,distance=..48] run function kattersstructures:tenku/remove_tags
 
-execute as @e[type=#kattersstructures:projectiles,nbt={inGround:0b}] at @s if entity @e[type=turtle,tag=katter.tenku.vehicle,distance=..10] run data modify entity @s Motion set value [0d,-1d,0d]
 
 function kattersstructures:tenku/dolphins
 function kattersstructures:tenku/push_player_away

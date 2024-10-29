@@ -1,5 +1,8 @@
 {
-  "description": "Blunt",
+  "description": {
+      "translate": "enchantment.kattersstructures.blunt",
+      "fallback": "Blunt"
+  },
   "exclusive_set": "#kattersstructures:exclusive_set/blunt",
   "supported_items": "#minecraft:enchantable/sharp_weapon",
   "weight": 1,

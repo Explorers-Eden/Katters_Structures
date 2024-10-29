@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.trader_outposts_title",
+      "fallback": "The Wandering Trader's Rest"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.trader_outposts_description",
+      "fallback": "Discover a outpost where wandering traders find respite."
+    }
+    },
+    "parent": "kattersstructures:trader_outposts",
+    "criteria": {
+      "village_cherry": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:trader_outposts"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

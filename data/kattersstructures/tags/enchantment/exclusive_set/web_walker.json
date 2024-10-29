@@ -1,0 +1,16 @@
+{
+    "values": [
+        "minecraft:depth_strider",
+        "minecraft:soul_speed",
+        { 
+            "id": "enchantencore:end_speed",
+            "required": false
+        },{ 
+            "id": "enchantencore:sand_speed",
+            "required": false
+        },{ 
+            "id": "enchantencore:sonic",
+            "required": false
+        }
+    ]
+}

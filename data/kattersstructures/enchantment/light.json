@@ -1,5 +1,8 @@
 {
-  "description": "Light",
+  "description": {
+      "translate": "enchantment.kattersstructures.light",
+      "fallback": "Light"
+  },
   "exclusive_set": "#kattersstructures:exclusive_set/light",
   "supported_items": "#minecraft:enchantable/armor",
   "weight": 1,

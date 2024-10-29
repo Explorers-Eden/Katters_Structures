@@ -1,0 +1,17 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 150,
+        "separation": 120,
+        "salt": 298189841,
+        "spread_type": "triangular",
+        "exclusion_zone": {
+            "other_set": "minecraft:villages",
+            "chunk_count": 10
+        }
+    },
+    "structures": [{
+        "structure": "kattersstructures:spider_den",
+        "weight": 1
+    }]
+}

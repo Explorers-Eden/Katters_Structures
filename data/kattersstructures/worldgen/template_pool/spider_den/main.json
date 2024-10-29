@@ -1,0 +1,13 @@
+{
+    "name": "kattersstructures:spider_den/main",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:spider_den/spider_den_main",
+            "processors": "kattersstructures:web",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }]
+}

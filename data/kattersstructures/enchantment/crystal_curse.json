@@ -1,6 +1,7 @@
 {
     "description": {
-      "text": "Curse of Crystal",
+      "translate": "enchantment.kattersstructures.crystal_curse",
+      "fallback": "Curse of Crystal",
       "color": "red"
     },
     "exclusive_set": "#kattersstructures:exclusive_set/crystal_curse",

@@ -13,6 +13,21 @@
     "item.kattersstructures.whisky": "Whisky",
     "item.kattersstructures.wine": "Wine",
 
+    "enchantment.kattersstructures.web_walker": "Web walker",
+    "enchantment.kattersstructures.light": "Light",
+    "enchantment.kattersstructures.heavy": "Heavy",
+    "enchantment.kattersstructures.blunt": "Blunt",
+    "enchantment.kattersstructures.crystal_curse": "Curse of Crystal",
+
+    "enchantment.kattersstructures.web_walker.desc": "Allows to faster walk in Cobwebs and gives Weaving Aspect",
+    "enchantment.kattersstructures.light.desc": "Increases Agility but lowers Defense",
+    "enchantment.kattersstructures.heavy.desc": "Increases Damage but lowers Attackspeed and Agility",
+    "enchantment.kattersstructures.blunt.desc": "Increases Damage against Armor",
+    "enchantment.kattersstructures.crystal_curse.desc": "Greatly increases Damage at the cost of robustness of the Weapon",
+
+    "enchantment.enchantencore.weaving_aspect": "Weaving Aspect",
+    "enchantment.enchantencore.weaving_aspect.desc": "Applies weaving effect to hit entities",
+
     "advancement.kattersstructures.a_mini_dungeon_title": "Trial by Fire",
     "advancement.kattersstructures.a_mini_dungeon_description": "Face your first trial, a test of courage and skill.",
     "advancement.kattersstructures.a_village_title": "Village Explorer",
@@ -98,7 +113,13 @@
     "advancement.kattersstructures.alcohol_poisoning_title": "One Beer to much?",
     "advancement.kattersstructures.alcohol_poisoning_description": "You have drank to much, and now you must live with the consequences.",
     "advancement.kattersstructures.village_birch_title": "Fungus Among Us",
-    "advancement.kattersstructures.village_birch_description": "Discovered a quaint little village, where the houses grow like mushrooms!"
+    "advancement.kattersstructures.village_birch_description": "Discovered a quaint little village, where the houses grow like mushrooms!",
+    "advancement.kattersstructures.arachne_title": "Web of Fate",
+    "advancement.kattersstructures.arachne_description": "Sever the threads of destiny and defeat Arachne, the weaver of nightmares.",
+    "advancement.kattersstructures.spider_den_title": "The Heart of the Web",
+    "advancement.kattersstructures.spider_den_description": "Discover the ancient spider den, a twisted labyrinth hidden deep within the jungle.",
+    "advancement.kattersstructures.trader_outposts_title": "The Wandering Trader's Rest",
+    "advancement.kattersstructures.trader_outposts_description": "Discover a outpost where wandering traders find respite."
     
 
 }

@@ -1,5 +1,5 @@
 {
-    "name": "kattersstructures:village_birch",
+    "name": "kattersstructures:village_birch/start",
     "fallback": "minecraft:empty",
     "elements": [{
         "weight": 1,

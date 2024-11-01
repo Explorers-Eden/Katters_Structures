@@ -7,4 +7,6 @@ execute as @e[type=villager,predicate=kattersstructures:entity/is_master_barkeep
 
 execute as @a[tag=arachne_attack_cooldown] at @s run tag @s remove arachne_attack_cooldown
 
+function kattersstructures:deep_blue/particles
+
 schedule function kattersstructures:schedules/schedule_2s 2s

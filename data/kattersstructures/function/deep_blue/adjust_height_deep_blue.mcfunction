@@ -3,6 +3,6 @@ execute store result score $kattersstructures.portal.y kattersstructures.technic
 scoreboard players operation $kattersstructures.portal.y kattersstructures.technical += $64 kattersstructures.technical
 scoreboard players operation $kattersstructures.portal.y kattersstructures.technical /= $3 kattersstructures.technical
 
-scoreboard players operation $kattersstructures.portal.dimension kattersstructures.technical = $"kattersstructures:deep_blue" kattersstructures.technical
+execute store result storage kattersstructures:temp portal.create.y int 1 run scoreboard players get $kattersstructures.portal.y kattersstructures.technical
 
-function kattersstructures:deep_blue/summon_portal with storage kattersstructures:temp portal.create
+function kattersstructures:deep_blue/summon_portal_deep_blue with storage kattersstructures:temp portal.create

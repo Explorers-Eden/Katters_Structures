@@ -30,17 +30,6 @@
             "block": "minecraft:lightning_rod",
             "properties": {}
           }
-        },
-        {
-          "effect": {
-            "type": "minecraft:summon_entity",
-            "entity": "minecraft:lightning_bolt"
-          },
-          "requirements": {
-            "condition": "minecraft:block_state_property",
-            "block": "minecraft:lightning_rod",
-            "properties": {}
-          }
         }
       ]
     }

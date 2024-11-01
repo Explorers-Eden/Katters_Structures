@@ -10,4 +10,5 @@ scoreboard objectives add kattersstructures.arachne dummy
 scoreboard objectives add kattersstructures.raj_lightning dummy
 
 scoreboard objectives add kattersstructures.coffee_timer dummy
+scoreboard objectives add kattersstructures.portal_cooldown dummy
 scoreboard objectives add kattersstructures.alcohol_poisoning dummy

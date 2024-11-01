@@ -2,5 +2,6 @@ execute as @e[type=elder_guardian,tag=katter.raj.vehicle] at @s if predicate kat
 execute as @e[type=player,nbt={FallFlying:1b}] at @s if entity @e[type=elder_guardian,tag=katter.raj.vehicle,distance=..24] run summon minecraft:lightning_bolt ~ ~ ~
 
 function kattersstructures:remove_raj
+function kattersstructures:new_raj_rod
 
 schedule function kattersstructures:schedules/schedule_10s 10s

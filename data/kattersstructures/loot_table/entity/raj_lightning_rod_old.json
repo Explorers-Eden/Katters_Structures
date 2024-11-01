@@ -8,18 +8,8 @@
           "name": "minecraft:blaze_rod",
           "functions": [
             {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "version": 2
-              }
-            },
-            {
               "function": "minecraft:set_count",
               "count": 1
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "kattersstructures:enlightning"
             },
             {
               "function": "minecraft:set_count",

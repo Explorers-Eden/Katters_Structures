@@ -119,7 +119,9 @@
     "advancement.kattersstructures.spider_den_title": "The Heart of the Web",
     "advancement.kattersstructures.spider_den_description": "Discover the ancient spider den, a twisted labyrinth hidden deep within the jungle.",
     "advancement.kattersstructures.trader_outposts_title": "The Wandering Trader's Rest",
-    "advancement.kattersstructures.trader_outposts_description": "Discover a outpost where wandering traders find respite."
+    "advancement.kattersstructures.trader_outposts_description": "Discover a outpost where wandering traders find respite.",
+    "advancement.kattersstructures.enlightning_title": "Empowered",
+    "advancement.kattersstructures.enlightning_description": "Charge a Lightning rod with Energie. A power, strong enough to break through the boundaries of space."
     
 
 }

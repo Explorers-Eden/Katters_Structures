@@ -5,11 +5,11 @@
       },
       "title": {
         "translate": "advancement.kattersstructures.enlightning_title",
-        "fallback": "You've been ... Thunderstruck!"
+        "fallback": "Empowered"
       },
       "description": {
         "translate": "advancement.kattersstructures.enlightning_description",
-        "fallback": "Bring the house down (literally) by defeating Raj Raksha and claiming his lightning-charged scepter."
+        "fallback": "Charge a Lightning rod with Energie. A power, strong enough to break through the boundaries of space."
       },
       "frame": "goal",
       "show_toast": true,

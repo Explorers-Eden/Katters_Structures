@@ -8,5 +8,3 @@ execute store result storage kattersstructures:temp portal.create.y int 1 run sc
 
 
 execute in kattersstructures:deep_blue run function kattersstructures:deep_blue/summon_portal_deep_blue with storage kattersstructures:temp portal.create
-
-say a_h_d

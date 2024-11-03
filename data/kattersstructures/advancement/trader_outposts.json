@@ -14,7 +14,7 @@
       "fallback": "Discover a outpost where wandering traders find respite."
     }
     },
-    "parent": "kattersstructures:trader_outposts",
+    "parent": "kattersstructures:root",
     "criteria": {
       "village_cherry": {
         "trigger": "minecraft:location",

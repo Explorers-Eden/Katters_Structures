@@ -8,5 +8,3 @@ execute store result storage kattersstructures:temp portal.create.y int 1 run sc
 
 
 execute in minecraft:overworld run function kattersstructures:deep_blue/summon_portal_overworld with storage kattersstructures:temp portal.create
-
-say a_h_o

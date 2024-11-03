@@ -12,5 +12,3 @@ execute store result storage kattersstructures:temp portal.create.z int 1 run sc
 execute if dimension minecraft:overworld run function kattersstructures:deep_blue/adjust_height_deep_blue with storage kattersstructures:temp portal.create
 execute if dimension kattersstructures:deep_blue run function kattersstructures:deep_blue/adjust_height_overworld with storage kattersstructures:temp portal.create
 
-
-say gety

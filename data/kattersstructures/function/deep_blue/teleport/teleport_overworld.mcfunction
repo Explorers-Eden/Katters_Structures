@@ -16,5 +16,3 @@ tag @s add katters_structures.portal_cooldown
 $execute in minecraft:overworld run forceload remove $(x) $(z)
 
 data remove storage kattersstructures:temp portal.teleport
-
-say t_o

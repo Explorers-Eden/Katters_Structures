@@ -11,4 +11,3 @@ execute store result storage kattersstructures:temp portal.teleport.z int 1 run 
 execute if dimension minecraft:overworld run function kattersstructures:deep_blue/teleport/adjust_height_deep_blue
 execute if dimension kattersstructures:deep_blue run function kattersstructures:deep_blue/teleport/adjust_height_overworld
 
-say gety

@@ -6,7 +6,7 @@
         "weight": 1,
         "element": {
             "location": "kattersstructures:deep_blue/labs/deep_blue_lab_tunnel",
-            "processors": "minecraft:empty",
+            "processors": "kattersstructures:copper_grate",
             "projection": "rigid",
             "element_type": "minecraft:single_pool_element"
         }

@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.deep_blue_lab_title",
+      "fallback": "Deep Sea Laboratory"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.deep_blue_lab_description",
+      "fallback": "Discovered the hidden laboratory of the ancient Nox, guardians of the deep."
+    }
+    },
+    "parent": "kattersstructures:deep_blue",
+    "criteria": {
+      "village_cherry": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:deep_blue_labs"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

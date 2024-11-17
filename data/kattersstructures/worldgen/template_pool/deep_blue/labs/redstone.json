@@ -35,7 +35,7 @@
             "element_type": "minecraft:single_pool_element"
         }
     },{
-        "weight": 150,
+        "weight": 1,
         "element": {
             "location": "kattersstructures:deep_blue/labs/deep_blue_redstone_05",
             "processors": "minecraft:empty",

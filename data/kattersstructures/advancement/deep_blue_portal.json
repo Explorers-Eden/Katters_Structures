@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lightning_rod",
+      "components": {
+        "enchantment_glint_override": true
+      },
+      "count": 1
+    },
+    "title": {
+    "translate": "advancement.kattersstructures.deep_blue_portal_titel",
+    "fallback": "Anchient Power"
+    
+  },
+  "description": {
+    "translate": "advancement.kattersstructures.deep_blue_portal_description",
+    "fallback": "Open a Portal to the Deep Dark."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+},
+"parent": "kattersstructures:enlightning",
+  "criteria": {
+      "requirement": {
+      "trigger": "minecraft:impossible"
+  }
+  },
+  "sends_telemetry_event": true
+}

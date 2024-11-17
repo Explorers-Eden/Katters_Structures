@@ -9,7 +9,7 @@
   "has_ceiling": true,
   "coordinate_scale": 1,
   "ambient_light": 0,
-  "fixed_time": 6000,
+  "fixed_time": 5500,
   "logical_height": 128,
   "effects": "minecraft:the_end",
   "infiniburn": "#minecraft:infiniburn_overworld",

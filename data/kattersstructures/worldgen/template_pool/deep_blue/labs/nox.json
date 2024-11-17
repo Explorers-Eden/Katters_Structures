@@ -1,0 +1,32 @@
+{
+    "name": "kattersstructures:deep_blue/labs/nox",
+    "fallback": "minecraft:empty",
+    "elements": [
+    {
+        "weight": 25,
+        "element": {
+            "location": "kattersstructures:deep_blue/labs/deep_blue_nox_01",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 5,
+        "element": {
+            "location": "kattersstructures:deep_blue/labs/deep_blue_nox_02",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:deep_blue/labs/deep_blue_nox_03",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }
+    
+]
+}

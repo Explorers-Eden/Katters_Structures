@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:water_bucket"
+    },
+    "title": {
+      "translate": "advancement.kattersstructures.deep_blue_title",
+      "fallback": "The Deep Blue"
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.deep_blue_description",
+      "fallback": "Do you have a breath?"
+    },
+    "background": "minecraft:textures/block/sand.png",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "kattersstructures:deep_blue"
+      }
+    }
+  }
+}

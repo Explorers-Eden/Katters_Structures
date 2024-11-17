@@ -153,7 +153,7 @@
           "type": "minecraft:random_patch",
           "config": {
             "tries": 96,
-            "xz_spread": 15,
+            "xz_spread": 8,
             "y_spread": 3,
             "feature": {
               "feature": {
@@ -186,7 +186,7 @@
           "type": "minecraft:random_patch",
           "config": {
             "tries": 36,
-            "xz_spread": 18,
+            "xz_spread": 8,
             "y_spread": 3,
             "feature": {
               "feature": {

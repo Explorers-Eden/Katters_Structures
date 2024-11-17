@@ -6,7 +6,7 @@
             "weight": 1,
             "element": {
                 "location": "kattersstructures:deep_blue/labs/deep_blue_lab_01",
-                "processors": "minecraft:empty",
+                "processors": "kattersstructures:copper_grate",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
             }
@@ -14,7 +14,7 @@
             "weight": 1,
             "element": {
                 "location": "kattersstructures:deep_blue/labs/deep_blue_lab_02",
-                "processors": "minecraft:empty",
+                "processors": "kattersstructures:copper_grate",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
             }
@@ -22,7 +22,7 @@
             "weight": 1,
             "element": {
                 "location": "kattersstructures:deep_blue/labs/deep_blue_lab_03",
-                "processors": "minecraft:empty",
+                "processors": "kattersstructures:copper_grate",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
             }
@@ -30,7 +30,7 @@
             "weight": 1,
             "element": {
                 "location": "kattersstructures:deep_blue/labs/deep_blue_lab_04",
-                "processors": "minecraft:empty",
+                "processors": "kattersstructures:copper_grate",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
             }
@@ -38,7 +38,7 @@
             "weight": 1,
             "element": {
                 "location": "kattersstructures:deep_blue/labs/deep_blue_lab_05",
-                "processors": "minecraft:empty",
+                "processors": "kattersstructures:copper_grate",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
             }
@@ -46,7 +46,7 @@
             "weight": 1,
             "element": {
                 "location": "kattersstructures:deep_blue/labs/deep_blue_lab_06",
-                "processors": "minecraft:empty",
+                "processors": "kattersstructures:copper_grate",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
             }
@@ -54,7 +54,7 @@
             "weight": 1,
             "element": {
                 "location": "kattersstructures:deep_blue/labs/deep_blue_lab_07",
-                "processors": "minecraft:empty",
+                "processors": "kattersstructures:copper_grate",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
             }
@@ -62,7 +62,7 @@
         "weight": 2,
         "element": {
             "location": "kattersstructures:deep_blue/labs/deep_blue_lab_08",
-            "processors": "minecraft:empty",
+            "processors": "kattersstructures:copper_grate",
             "projection": "rigid",
             "element_type": "minecraft:single_pool_element"
         }

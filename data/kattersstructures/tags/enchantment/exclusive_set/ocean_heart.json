@@ -1,0 +1,11 @@
+{
+    "values": [
+        { 
+            "id": "enchantencore:fire_alloy",
+            "required": false
+        },{ 
+            "id": "enchantencore:ice_alloy",
+            "required": false
+        }
+    ]
+}

@@ -131,6 +131,8 @@
     "advancement.kattersstructures.deep_blue_lab_title": "Deep Sea Laboratory",
     "advancement.kattersstructures.deep_blue_lab_description": "Discovered the hidden laboratory of the ancient Nox, guardians of the deep.",
     "advancement.kattersstructures.enlightning_title": "Empowered",
-    "advancement.kattersstructures.enlightning_description": "Charge a Lightning rod with Energie. A power, strong enough to break through the boundaries of space."
+    "advancement.kattersstructures.enlightning_description": "Charge a Lightning rod with Energie. A power, strong enough to break through the boundaries of space.",
+    "advancement.kattersstructures.deep_blue_wanderer_title":"Deep Blue Wanderer",
+    "advancement.kattersstructures.deep_blue_wanderer_description": "Discover every Deep Blue Biom"
 
 }

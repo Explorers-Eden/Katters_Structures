@@ -42,6 +42,30 @@
             "projection": "rigid",
             "element_type": "minecraft:single_pool_element"
         }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:deep_blue/labs/deep_blue_redstone_06",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:deep_blue/labs/deep_blue_redstone_07",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:deep_blue/labs/deep_blue_redstone_08",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
     }
 ]
 }

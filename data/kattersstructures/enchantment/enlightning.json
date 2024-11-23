@@ -1,37 +1,47 @@
 {
-    "description": {
-      "translate": "enchantment.kattersstructures.enlightning",
-      "fallback": "enlightning"
-    },
-    "supported_items": "minecraft:blaze_rod",
-    "weight": 1,
-    "max_level": 1,
-    "min_cost": {
-      "base": 0,
-      "per_level_above_first": 0
-    },
-    "max_cost": {
-      "base": 0,
-      "per_level_above_first": 0
-    },
-    "anvil_cost": 100,
-    "slots": [
-      "mainhand"
-    ],
-    "effects": {
-      "minecraft:hit_block": [
-        {
-          "effect": {
-            "type": "minecraft:run_function",
-            "function": "kattersstructures:raj_lightning_rod/enlightning"
-          },
-          "requirements": {
-            "condition": "minecraft:block_state_property",
-            "block": "minecraft:lightning_rod",
-            "properties": {}
-          }
+  "description": {
+    "translate": "enchantment.kattersstructures.enlightning",
+    "fallback": "enlightning"
+  },
+  "supported_items": "minecraft:blaze_rod",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 100,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:hit_block": [
+      {
+        "effect": {
+          "type": "minecraft:damage_item",
+          "amount": 1
+        },
+        "requirements": {
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:lightning_rod",
+          "properties": {}
         }
-      ]
-    }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "kattersstructures:raj_lightning_rod/enlightning"
+        },
+        "requirements": {
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:lightning_rod",
+          "properties": {}
+        }
+      }
+    ]
   }
-  
+}

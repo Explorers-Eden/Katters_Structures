@@ -3,7 +3,7 @@
     "spawn_overrides": {},
     "type": "minecraft:jigsaw",
     "start_pool": "kattersstructures:deep_blue/labs/start",
-    "size": 4,
+    "size": 10,
     "step": "surface_structures",
     "start_height": {
         "type": "minecraft:biased_to_bottom",

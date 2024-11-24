@@ -1,0 +1,37 @@
+# Deep and Scary Update
+
+
+- added Mesa village
+- added Birch village
+- added Spider Den
+- added new Boss in Spider Den
+- added Deep Blue Labs
+- added Deep Blue Lab Ruins (Ruined Portal)
+- added new Dimension: the Deep Blue
+- added a way to create Portals between Overworld and Deep Blue
+- added Trader Outposts
+- added Maps to Villages, Dungeons and Villager Statues to trader Outposts Loot
+- added 2 new Enchantments exclusive found in Bookshelves in the Deep Blue
+- added 1 new Enchantments exclusive found by defeating the new Arachne Boss
+- added 1 new Enchantments exclusive found on Raj Lightning Rod and Enlightning Rod
+- added 7 new Villager Books
+- added 15 new Deep Blue Books
+- added Beverages sold by the Mesa Village Barkeeper
+- added support for ___ (translation Mod)
+- changed the Mobs at Witch Circle
+- changed how structures spawn in general (less concentrated now)
+- removed Herobrine
+
+### Fixes
+
+- fixed a small part of the Skyrtle missing
+- fixed some Cartographer Maps still pointing to the Village they were found in
+
+
+### Technical
+
+- Raj Enchantment optained through Bugs will now delete themselfe from Eqipment
+- Raj Lightning Rods optained before this update will get the enchantment Enlightning if hold in hand for some seconds
+
+
+The Deep Blue is still WIP and will get more contet in future Updates, I just wanted to Push this befor 1.21.3 arrives

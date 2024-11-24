@@ -15,14 +15,11 @@ Elden Ring Verlies
 Doing
 
 
-Deep blue
-Deep blue portal
-trader outposts
+
 
 Done
 
 skyrtle fix
-villager birch tree fix
 witch circle spawner
 processor-list
 drinks for Barkeeper
@@ -31,3 +28,6 @@ Loottable mesa einpflegen
 Mesa village
 birch village
 Spider Den
+Deep blue
+Deep blue portal
+trader outposts

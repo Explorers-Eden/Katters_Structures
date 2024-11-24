@@ -116,6 +116,59 @@
             "processors": "minecraft:empty",
             "location": "kattersstructures:deep_blue/bookshelf/bookshelf_deep_blue_lore_14"
         }
+    },
+
+
+
+    {
+        "weight": 3,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:deep_blue/bookshelf/bookshelf_deep_blue_enchant_01_s"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:deep_blue/bookshelf/bookshelf_deep_blue_enchant_02_s"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:deep_blue/bookshelf/bookshelf_deep_blue_enchant_03"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:deep_blue/bookshelf/bookshelf_deep_blue_enchant_04"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:deep_blue/bookshelf/bookshelf_deep_blue_enchant_05"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:deep_blue/bookshelf/bookshelf_deep_blue_enchant_06"
+        }
     }
+
 ]
 }

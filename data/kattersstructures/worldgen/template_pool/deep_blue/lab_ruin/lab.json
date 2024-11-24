@@ -1,0 +1,15 @@
+{
+    "name": "kattersstructures:deep_blue/lab_ruin/lab",
+    "fallback": "minecraft:empty",
+    "elements": [
+    {
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:deep_blue/lab_ruin/deep_blue_labs_ruin",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }
+]
+}

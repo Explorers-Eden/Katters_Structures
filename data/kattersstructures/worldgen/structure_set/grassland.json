@@ -26,6 +26,9 @@
     },{
         "structure": "kattersstructures:trader_outposts",
         "weight": 10
+    },{
+        "structure": "kattersstructures:deep_blue_lab_ruin",
+        "weight": 5
     }
     ]
 }

@@ -1,0 +1,23 @@
+{
+    "name": "kattersstructures:deep_blue/lab_ruin/book",
+    "fallback": "minecraft:empty",
+    "elements": [
+    {
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:deep_blue/lab_ruin/deep_blue_labs_ruin_book_01",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:deep_blue/lab_ruin/deep_blue_labs_ruin_book_02",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }
+]
+}

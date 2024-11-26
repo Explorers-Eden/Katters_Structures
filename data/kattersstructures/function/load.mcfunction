@@ -16,3 +16,4 @@ scoreboard objectives add kattersstructures.alchemy_curse dummy
 
 scoreboard players set $64 kattersstructures.technical 64
 scoreboard players set $3 kattersstructures.technical 3
+scoreboard players set $10 kattersstructures.technical 10

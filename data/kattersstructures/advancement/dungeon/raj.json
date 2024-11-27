@@ -1,0 +1,39 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:lightning_rod"
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.raj_title",
+      "fallback": "For Those About to Rock"
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.raj_description",
+      "fallback": "Defeat the sky tyrant, Raj Raksha, in an epic battle for the ages."
+    },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "kattersstructures:dungeon/sky_dungeon",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {}
+            }
+          ],
+          "entity": {
+            "type": "minecraft:pillager",
+            "nbt": "{Tags:[\"katter.raj.rider\"]}"
+          }
+        }
+      }
+    }
+  }
+  

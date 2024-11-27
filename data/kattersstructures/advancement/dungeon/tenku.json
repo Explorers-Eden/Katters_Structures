@@ -1,0 +1,39 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:turtle_egg"
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.tenku_title",
+      "fallback": "Master of the Skies"
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.tenku_description",
+      "fallback": "Conquer the celestial guardian and claim dominion over the skies."
+    },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "kattersstructures:dungeon/skyrtle",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {}
+            }
+          ],
+          "entity": {
+            "type": "minecraft:turtle",
+            "nbt": "{Tags:[\"katter.tenku.vehicle\"]}"
+          }
+        }
+      }
+    }
+  }
+  

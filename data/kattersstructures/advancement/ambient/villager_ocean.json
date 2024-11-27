@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:prismarine",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.villager_ocean_title",
+      "fallback": "Ocean Observer"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.villager_ocean_description",
+      "fallback": "Find a weathered statue gazing out at the endless sea."
+    }
+    },
+    "parent": "kattersstructures:ambient/a_villager_statue",
+    "criteria": {
+      "villager_ocean": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:villager_ocean"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

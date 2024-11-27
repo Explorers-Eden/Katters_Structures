@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:cod",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.village_ocean_title",
+      "fallback": "Drifting Dwellers"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.village_ocean_description",
+      "fallback": "Discover a peaceful community of fishermen living a simple life on the open sea."
+    }
+    },
+    "parent": "kattersstructures:village/a_village",
+    "criteria": {
+      "village_ocean": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:village_ocean"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

@@ -1,81 +1,27 @@
-{
+
+        {
     "values": [
-        "minecraft:plains",
-        "minecraft:sunflower_plains",
-        "minecraft:snowy_plains",
-        "minecraft:savanna",
-        "minecraft:forest",
-        "minecraft:birch_forest",
-        "minecraft:dark_forest",
-        "minecraft:flower_forest",
-        { 
-            "id": "biomesoplenty:bog",
-            "required": false
-        },{ 
-            "id": "biomesoplenty:grassland",
-            "required": false
-        },{ 
-            "id": "biomesoplenty:clover_patch",
-            "required": false
-        },{ 
-            "id": "biomesoplenty:field",
-            "required": false
-        },{ 
-            "id": "biomesoplenty:forested_field",
-            "required": false
-        },{ 
-            "id": "biomesoplenty:lush_savanna",
-            "required": false
-        },{ 
-            "id": "biomesoplenty:marsh",
-            "required": false
-        },{ 
-            "id": "biomesoplenty:shrubland",
-            "required": false
-        },{ 
-            "id": "terralith:brushland",
-            "required": false
-        },{ 
-            "id": "terralith:hot_shrubland",
-            "required": false
-        },{ 
-            "id": "terralith:steppe",
-            "required": false
-        },
-
-
         
-        { 
-            "id": "eden:plains",
-            "required": false
-        },
-        { 
-            "id": "eden:sunflower_plains",
-            "required": false
-        },
-        { 
-            "id": "eden:snowy_plains",
-            "required": false
-        },
-        { 
-            "id": "eden:savanna",
-            "required": false
-        },
-        { 
-            "id": "eden:forest",
-            "required": false
-        },
-        { 
-            "id": "eden:birch_forest",
-            "required": false
-        },
-        { 
-            "id": "eden:dark_forest",
-            "required": false
-        },
-        { 
-            "id": "eden:flower_forest",
-            "required": false
-        }
+        { "id": "minecraft:plains","required": false},
+        { "id": "minecraft:sunflower_plains","required": false},
+        { "id": "minecraft:snowy_plains","required": false},
+        { "id": "minecraft:savanna","required": false},
+        { "id": "minecraft:forest","required": false},
+        { "id": "minecraft:birch_forest","required": false},
+        { "id": "minecraft:dark_forest","required": false},
+        { "id": "minecraft:flower_forest","required": false},
+        
+        { "id": "biomesoplenty:bog","required": false},
+        { "id": "biomesoplenty:grassland","required": false},
+        { "id": "biomesoplenty:clover_patch","required": false},
+        { "id": "biomesoplenty:field","required": false},
+        { "id": "biomesoplenty:forested_field","required": false},
+        { "id": "biomesoplenty:lush_savanna","required": false},
+        { "id": "biomesoplenty:marsh","required": false},
+        { "id": "biomesoplenty:shrubland","required": false},
+        
+        { "id": "terralith:brushland","required": false},
+        { "id": "terralith:hot_shrubland","required": false},
+        { "id": "terralith:steppe","required": false}
     ]
 }

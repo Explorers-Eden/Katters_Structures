@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:mud",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.village_swamp_title",
+      "fallback": "Muddy Metropolis"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.village_swamp_description",
+      "fallback": "Discover a hidden community thriving amidst the murky waters and lush greenery of the swamp."
+    }
+    },
+    "parent": "kattersstructures:village/a_village",
+    "criteria": {
+      "village_swamp": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:village_swamp"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

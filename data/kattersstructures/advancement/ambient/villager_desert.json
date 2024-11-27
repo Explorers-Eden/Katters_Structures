@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:sandstone",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.villager_desert_title",
+      "fallback": "Desert Deity"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.villager_desert_description",
+      "fallback": "Uncover a mysterious stone sentinel watching over the desert sands."
+    }
+    },
+    "parent": "kattersstructures:ambient/a_villager_statue",
+    "criteria": {
+      "villager_desert": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:villager_desert"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

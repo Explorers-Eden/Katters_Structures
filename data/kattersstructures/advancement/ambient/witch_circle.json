@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:campfire",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.witch_circle_title",
+      "fallback": "Witch's Circle"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.witch_circle_description",
+      "fallback": "Uncover a mysterious ritual site, a place of ancient power and magic."
+    }
+    },
+    "parent": "kattersstructures:root",
+    "criteria": {
+      "witch_circle": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:witch_circle"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

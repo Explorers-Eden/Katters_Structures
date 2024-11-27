@@ -25,5 +25,3 @@ $execute if score @s kattersstructures.raj_lightning matches 4 run summon minecr
 
 particle minecraft:end_rod ~ ~.5 ~ 1 1 1 0.02 25
 particle minecraft:wax_off ~ ~.5 ~ 1 1 1 0.2 20
-
-data remove storage katter:raj_lightning

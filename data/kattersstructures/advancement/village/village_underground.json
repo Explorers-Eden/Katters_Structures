@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:stone",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.village_underground_title",
+      "fallback": "Deep Dwellers"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.village_underground_description",
+      "fallback": "Discover a hidden underground community, a testament to Villagers adaptability and survival."
+    }
+    },
+    "parent": "kattersstructures:village/a_village",
+    "criteria": {
+      "village_underground": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:village_underground"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

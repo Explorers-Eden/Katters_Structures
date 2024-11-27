@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:turtle_scute",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.skyrtle_title",
+      "fallback": "Skyward Turtle"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.skyrtle_description",
+      "fallback": "Discover the legendary Skyrtle, a floating fortress in the sky."
+    }
+    },
+    "parent": "kattersstructures:root",
+    "criteria": {
+      "skyrtle": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:skyrtle"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

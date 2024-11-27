@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:mossy_cobblestone",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.better_vanilla_dungeon_title",
+      "fallback": "Dungeon Upgrade"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.better_vanilla_dungeon_description",
+      "fallback": "Find a dungeon that puts the original to shame."
+      }
+  },
+  "parent": "kattersstructures:root",
+    "criteria": {
+      "better_vanilla_dungeon": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:better_vanilla_dungeon"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

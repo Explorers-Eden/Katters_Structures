@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:dark_oak_sapling",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.dark_tree_title",
+      "fallback": "Allay Abode"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.dark_tree_description",
+      "fallback": "Discovere a towering dark oak tree that has become a haven for playful allays."
+    }
+    },
+    "parent": "kattersstructures:root",
+    "criteria": {
+      "dark_tree": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:dark_tree"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

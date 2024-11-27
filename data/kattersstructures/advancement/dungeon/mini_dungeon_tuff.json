@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:chiseled_tuff",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.mini_dungeon_tuff_title",
+      "fallback": "Temple Trials"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.mini_dungeon_tuff_description",
+      "fallback": "Discover a sacred site carved into the living rock."
+    }
+    },
+    "parent": "kattersstructures:dungeon/a_mini_dungeon",
+    "criteria": {
+      "mini_dungeon_tuff": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:mini_dungeon_tuff"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:diamond_helmet",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.armory_title",
+      "fallback": "Armory Arsenal"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.armory_description",
+      "fallback": "Uncover a hidden underground chamber filled with a warrior's dream: a vast collection of armor."
+      }
+  },
+  "parent": "kattersstructures:root",
+    "criteria": {
+      "armory": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:armory"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

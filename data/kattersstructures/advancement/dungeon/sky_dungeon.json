@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:poppy",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.sky_dungeon_title",
+      "fallback": "Castle in the Sky"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.sky_dungeon_description",
+      "fallback": "Find a hidden aerial domain, a challenge for the brave and daring."
+    }
+    },
+    "parent": "kattersstructures:root",
+    "criteria": {
+      "sky_dungeon": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:sky_dungeon"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

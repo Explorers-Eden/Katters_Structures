@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:pink_petals",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.village_cherry_title",
+      "fallback": "Cherry Blossom Bliss"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.village_cherry_description",
+      "fallback": "Discover a hidden village nestled amidst a breathtaking cherry blossom forest."
+    }
+    },
+    "parent": "kattersstructures:village/a_village",
+    "criteria": {
+      "village_cherry": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:village_cherry"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

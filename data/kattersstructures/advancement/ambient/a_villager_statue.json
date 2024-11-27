@@ -1,0 +1,75 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:villager_spawn_egg",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.kattersstructures.a_villager_statue_title",
+      "fallback": "Ancient Witness"
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.a_villager_statue_description",
+      "fallback": "Discover a silent guardian of the land, a relic of a bygone era."
+    }
+  },
+  "parent": "kattersstructures:root",
+  "criteria": {
+    "villager_desert": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "kattersstructures:villager_desert"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "villager_mountain": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "kattersstructures:villager_mountain"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "villager_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "kattersstructures:villager_ocean"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "villager_desert",
+      "villager_mountain",
+      "villager_ocean"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

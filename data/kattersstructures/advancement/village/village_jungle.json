@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:cocoa_beans",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.village_jungle_title",
+      "fallback": "Canopy Kingdom"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.village_jungle_description",
+      "fallback": "Find a thriving community of villagers living in harmony with a towering jungle tree."
+    }
+    },
+    "parent": "kattersstructures:village/a_village",
+    "criteria": {
+      "village_jungle": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:village_jungle"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

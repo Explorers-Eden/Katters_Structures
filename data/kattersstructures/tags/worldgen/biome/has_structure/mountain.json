@@ -1,18 +1,11 @@
 {
     "values": [
-        "minecraft:jagged_peaks",
-        "minecraft:stony_peaks",
-        { 
-            "id": "biomesoplenty:crag",
-            "required": false
-        },{ 
-            "id": "terralith:emerald_peaks",
-            "required": false
-        },{ 
-            "id": "terralith:stony_spires",
-            "required": false
-        },
-        { "id": "eden:jagged_peaks","required": false},
-        { "id": "eden:stony_peaks","required": false}
+        { "id": "minecraft:jagged_peaks","required": false},
+        { "id": "minecraft:stony_peaks","required": false},
+
+        { "id": "biomesoplenty:crag","required": false},
+
+        { "id": "terralith:emerald_peaks","required": false},
+        { "id": "terralith:stony_spires","required": false}
     ]
 }

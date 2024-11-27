@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:sand",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.desert_dungeon_title",
+      "fallback": "Desert Delve"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.desert_dungeon_description",
+      "fallback": "Uncovere a hidden oasis of danger beneath the scorching sands."
+    }
+    },
+    "parent": "kattersstructures:root",
+    "criteria": {
+      "desert_dungeon": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:desert_dungeon"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

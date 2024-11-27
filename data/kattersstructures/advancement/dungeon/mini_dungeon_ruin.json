@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:cracked_stone_bricks",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.mini_dungeon_ruin_title",
+      "fallback": "Ruins Reborn"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.mini_dungeon_ruin_description",
+      "fallback": "Uncover remnants of a forgotten civilization, a relic of the past."
+    }
+    },
+    "parent": "kattersstructures:dungeon/a_mini_dungeon",
+    "criteria": {
+      "mini_dungeon_ruin": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:mini_dungeon_ruin"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

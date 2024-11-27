@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:cherry_sapling",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.cherry_tree_title",
+      "fallback": "Cherry Blossom Shrine"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.cherry_tree_description",
+      "fallback": "Discover a sacred cherry tree, a hidden sanctuary of tranquility and spiritual power."
+      }
+  },
+  "parent": "kattersstructures:root",
+    "criteria": {
+      "cherry_tree": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:cherry_tree"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

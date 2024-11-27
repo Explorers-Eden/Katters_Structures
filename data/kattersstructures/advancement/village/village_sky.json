@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:feather",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.village_sky_title",
+      "fallback": "Crystal Clear Village"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.village_sky_description",
+      "fallback": "Discover a breathtaking sky village, its structures shimmering with the brilliance of quartz."
+    }
+    },
+    "parent": "kattersstructures:village/a_village",
+    "criteria": {
+      "village_sky": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:village_sky"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

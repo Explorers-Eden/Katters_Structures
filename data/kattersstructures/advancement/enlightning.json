@@ -16,7 +16,7 @@
       "announce_to_chat": true,
       "hidden": true
     },
-    "parent": "kattersstructures:raj_lightning_rod",
+    "parent": "kattersstructures:dungeon/raj_lightning_rod",
     "criteria": {
       "enlightning": {
         "trigger": "minecraft:impossible"

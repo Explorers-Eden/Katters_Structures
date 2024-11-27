@@ -17,7 +17,7 @@
 - added 7 new Villager Books
 - added 15 new Deep Blue Books
 - added Beverages sold by the Mesa Village Barkeeper
-- added support for ___ (translation Mod)
+- added support for Enchantment Descriptions Mod
 - changed the Mobs at Witch Circle
 - changed how structures spawn in general (less concentrated now)
 - removed Herobrine
@@ -32,6 +32,7 @@
 
 - Raj Enchantment optained through Bugs will now delete themselfe from Eqipment
 - Raj Lightning Rods optained before this update will get the enchantment Enlightning if hold in hand for some seconds
+- Advancement were moved therefore, players need to obtain most again
 
 
 The Deep Blue is still WIP and will get more contet in future Updates, I just wanted to Push this befor 1.21.3 arrives

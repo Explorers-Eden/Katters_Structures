@@ -1,0 +1,79 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:diamond_boots",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.deep_blue_wanderer_title",
+      "fallback": "Deep Blue Wanderer"
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.deep_blue_wanderer_description",
+      "fallback": "Discover every Deep Blue Biom"
+    },
+      "frame": "challenge"
+    },
+    "parent": "kattersstructures:deepblue/deep_blue",
+    "criteria": {
+      "kattersstructures:coralis": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biomes": "kattersstructures:coralis"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "kattersstructures:dark_chasm": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biomes": "kattersstructures:dark_chasm"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "kattersstructures:deep_blue_plains": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biomes": "kattersstructures:deep_blue_plains"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "kattersstructures:coralis"
+      ],[
+        "kattersstructures:dark_chasm"
+      ],[
+        "kattersstructures:deep_blue_plains"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }
+  

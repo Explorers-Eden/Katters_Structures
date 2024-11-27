@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:campfire",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.mini_dungeon_stone_title",
+      "fallback": "Mountain Menace"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.mini_dungeon_stone_description",
+      "fallback": "Discover a mysterious pyramid-shaped structure hidden within the mountain peaks."
+    }
+    },
+    "parent": "kattersstructures:dungeon/a_mini_dungeon",
+    "criteria": {
+      "mini_dungeon_stone": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:mini_dungeon_stone"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

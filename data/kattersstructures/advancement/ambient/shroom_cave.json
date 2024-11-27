@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:red_mushroom",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.shroom_cave_title",
+      "fallback": "Shroom Boom"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.shroom_cave_description",
+      "fallback": "Find a cave filled with glowing fungi, a psychedelic paradise."
+    }
+    },
+    "parent": "kattersstructures:root",
+    "criteria": {
+      "shroom_cave": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:shroom_cave"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

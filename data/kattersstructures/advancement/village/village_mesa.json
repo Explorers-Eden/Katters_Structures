@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:red_sand",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.village_mesa_title",
+      "fallback": "Wild West Village"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.village_mesa_description",
+      "fallback": "Find a thriving community in the shadow of the mesa, where the skill of the archer is paramount for survival."
+    }
+    },
+    "parent": "kattersstructures:village/a_village",
+    "criteria": {
+      "village_mesa": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:village_mesa"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:cobweb",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.mini_dungeon_rugged_shack_title",
+      "fallback": "Forest Folly"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.mini_dungeon_rugged_shack_description",
+      "fallback": "Discover a mysterious shack hidden deep within the forest."
+    }
+    },
+    "parent": "kattersstructures:dungeon/a_mini_dungeon",
+    "criteria": {
+      "mini_dungeon_rugged_shack": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:mini_dungeon_rugged_shack"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

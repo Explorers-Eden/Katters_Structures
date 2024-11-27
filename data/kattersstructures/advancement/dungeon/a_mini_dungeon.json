@@ -1,0 +1,92 @@
+{ 
+  "display": {
+    "icon": {
+      "id": "minecraft:trial_spawner",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.kattersstructures.a_mini_dungeon_title",
+      "fallback": "Trial by Fire"
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.a_mini_dungeon_description",
+      "fallback": "Face your first trial, a test of courage and skill."
+    }
+  },
+  "parent": "kattersstructures:root",
+  "criteria": {
+    "mini_dungeon_rugged_shack": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "kattersstructures:mini_dungeon_rugged_shack"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mini_dungeon_ruin": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "kattersstructures:mini_dungeon_ruin"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mini_dungeon_stone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "kattersstructures:mini_dungeon_stone"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mini_dungeon_tuff": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "kattersstructures:mini_dungeon_tuff"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mini_dungeon_rugged_shack",
+      "mini_dungeon_ruin",
+      "mini_dungeon_stone",
+      "mini_dungeon_tuff"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

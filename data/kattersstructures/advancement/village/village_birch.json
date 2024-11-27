@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:red_mushroom",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.village_birch_title",
+      "fallback": "Fungus Among Us"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.village_birch_description",
+      "fallback": "Discovered a quaint little village, where the houses grow like mushrooms!"
+    }
+    },
+    "parent": "kattersstructures:village/a_village",
+    "criteria": {
+      "village_mesa": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:village_birch"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

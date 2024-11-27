@@ -1,14 +1,10 @@
 {
     "values": [
-        "minecraft:jungle",
-        "minecraft:sparse_jungle",
-        "minecraft:bamboo_jungle",
-        { 
-            "id": "terralith:tropical_jungle",
-            "required": false
-        },
-        { "id": "eden:jungle","required": false},
-        { "id": "eden:sparse_jungle","required": false},
-        { "id": "eden:bamboo_jungle","required": false}
+        { "id": "minecraft:jungle","required": false},
+        { "id": "minecraft:sparse_jungle","required": false},
+        { "id": "minecraft:bamboo_jungle","required": false},
+        
+        { "id": "terralith:tropical_jungle","required": false}
+        
     ]
 }

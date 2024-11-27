@@ -1,0 +1,71 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:emerald_block",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.villager_all_title",
+      "fallback": "Guardian of Guardians"
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.villager_all_description",
+      "fallback": "Uncover all three enigmatic statues and become the ultimate guardian of the world."
+    },
+      "frame": "challenge",
+      "hidden": true
+    },
+    "parent": "kattersstructures:ambient/a_villager_statue",
+    "criteria": {
+      "villager_desert": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:villager_desert"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "villager_mountain": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:villager_mountain"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "villager_ocean": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:villager_ocean"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

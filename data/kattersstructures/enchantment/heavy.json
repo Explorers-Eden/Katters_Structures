@@ -47,13 +47,13 @@
     "minecraft:attributes": [
       {
         "id": "kattersstructures:gravity_01",
-        "attribute": "minecraft:generic.gravity",
+        "attribute": "minecraft:gravity",
         "amount": 0.2,
         "operation": "add_multiplied_total"
       },
       {
         "id": "kattersstructures:attackspped_01",
-        "attribute": "minecraft:generic.attack_speed",
+        "attribute": "minecraft:attack_speed",
         "amount": -0.5,
         "operation": "add_multiplied_total"
       }

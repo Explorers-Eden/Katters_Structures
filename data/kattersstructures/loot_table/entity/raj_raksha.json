@@ -90,7 +90,9 @@
           "components": {
             "minecraft:max_stack_size": 16,
             "minecraft:rarity": "epic",
-            "fire_resistant": {},
+            "minecraft:damage_resistant": {
+                "types": "#minecraft:is_fire"
+            },
             "minecraft:custom_model_data": 10001,
             "minecraft:lore": [
               "{\"fallback\":\"Key, dropped by a Boss.\",\"translate\":\"item.kattersstructures.boss_key_lore_1\"}",

@@ -42,7 +42,7 @@
     "minecraft:attributes": [
       {
         "id": "kattersstructures:gravity_02",
-        "attribute": "minecraft:generic.gravity",
+        "attribute": "minecraft:gravity",
         "amount": {
           "type": "minecraft:linear",
           "base": -0.2,
@@ -52,7 +52,7 @@
       },
       {
         "id": "kattersstructures:speed_01",
-        "attribute": "minecraft:generic.movement_speed",
+        "attribute": "minecraft:movement_speed",
         "amount": {
           "type": "minecraft:linear",
           "base": 0.3,

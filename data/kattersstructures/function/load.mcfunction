@@ -1,5 +1,6 @@
 ##init schedules
 function kattersstructures:schedules/on_load
+schedule function kattersstructures:bossbars_run 10t
 
 ##add scoreboards
 scoreboard objectives add kattersstructures.technical dummy

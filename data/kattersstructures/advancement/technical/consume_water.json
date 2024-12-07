@@ -7,7 +7,7 @@
             "items": "minecraft:potion",
             "count": 1,
             "components": {
-              "minecraft:item_name": "{\"color\":\"blue\",\"fallback\":\"Water\",\"translate\":\"item.kattersstructures.water\"}"
+              "minecraft:custom_name": "{\"color\":\"blue\",\"fallback\":\"Water\",\"translate\":\"item.kattersstructures.water\"}"
             }
           }
         }

@@ -20,6 +20,7 @@
     "enchantment.kattersstructures.crystal_curse": "Curse of Crystal",
     "enchantment.kattersstructures.ocean_heart": "Ocean Heart",
     "enchantment.kattersstructures.alchemy_curse": "Curse of Alchemy",
+    "enchantment.kattersstructures.enlightning": "Enlightning",
 
     "enchantment.kattersstructures.web_walker.desc": "Allows to faster walk in Cobwebs and gives Weaving Aspect",
     "enchantment.kattersstructures.light.desc": "Increases Agility but lowers Defense",
@@ -28,6 +29,7 @@
     "enchantment.kattersstructures.crystal_curse.desc": "Greatly increases Damage at the cost of robustness of the Weapon",
     "enchantment.kattersstructures.ocean_heart.desc": "Grants Conduit Power, in Water",
     "enchantment.kattersstructures.alchemy_curse.desc": "Grants random Effects",
+    "enchantment.kattersstructures.enlightning.desc": "Summons Lightning when hitting a Lightningrod",
 
     "enchantment.enchantencore.weaving_aspect": "Weaving Aspect",
     "enchantment.enchantencore.weaving_aspect.desc": "Applies weaving effect to hit entities",

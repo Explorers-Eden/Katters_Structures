@@ -103,7 +103,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "value": "kattersstructures:automaticons/any_tier",
+            "value": "eden:item/automaticons/any_tier",
             "conditions": [
               {
                 "condition": "minecraft:random_chance",

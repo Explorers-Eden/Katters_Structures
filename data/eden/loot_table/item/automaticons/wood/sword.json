@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "automaticons.wooden.durability",
+                  "fallback": "• 32 Durability Points",
+                  "color": "gray",
+                  "bold": false
+                },
+                {
+                  "translate": "automaticons.wooden.amount",
+                  "fallback": "• 1-2 Items Per Payout",
+                  "color": "gray",
+                  "bold": false
+                } 
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "automaticons:wood/sword",
+                "minecraft:max_stack_size": 1,
+                "minecraft:item_name": "{\"fallback\":\"Wooden Sword Automaticon\",\"translate\":\"automaticons.wooden.sword\"}",
+                "minecraft:entity_data": {
+                  "id": "minecraft:armor_stand",
+                  "Small": 1,
+                  "Invulnerable": 1,
+                  "ShowArms": 1,
+                  "Marker": 1,
+                  "NoBasePlate": 1,
+                  "Tags": [
+                    "sword_wood_tier",
+                    "automaticon",
+                    "ac_sword"
+                ],
+                  "HandItems": [
+                    {
+                  },
+                  {
+                    "id": "minecraft:wooden_sword",
+                    "count": 1
+                    }
+                ]
+                },
+                "minecraft:rarity": "uncommon"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

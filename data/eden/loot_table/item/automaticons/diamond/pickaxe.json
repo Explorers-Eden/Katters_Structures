@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "automaticons.diamond.durability",
+                  "fallback": "• 160 Durability Points",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "automaticons.diamond.amount",
+                  "fallback": "• 1-10 Items Per Payout",
+                  "color": "gray",
+                  "italic": false
+                } 
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "automaticons:diamond/pickaxe",
+                "minecraft:max_stack_size": 1,
+                "minecraft:item_name": "{\"fallback\":\"Diamond Pickaxe Automaticon\",\"translate\":\"automaticons.diamond.pickaxe\"}",
+                "minecraft:entity_data": {
+                  "id": "minecraft:armor_stand",
+                  "Small": 1,
+                  "Invulnerable": 1,
+                  "ShowArms": 1,
+                  "Marker": 1,
+                  "NoBasePlate": 1,
+                  "Tags": [
+                    "pickaxe_diamond_tier",
+                    "automaticon",
+                    "ac_pickaxe"
+                ],
+                  "HandItems": [
+                    {
+                  },
+                  {
+                    "id": "minecraft:diamond_pickaxe",
+                    "count": 1
+                    }
+                ]
+                },
+                "minecraft:rarity": "uncommon"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

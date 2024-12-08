@@ -121,7 +121,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "value": "kattersstructures:automaticons/gold_tier",
+            "value": "eden:item/automaticons/gold_tier",
             "conditions": [
               {
                 "condition": "minecraft:random_chance",

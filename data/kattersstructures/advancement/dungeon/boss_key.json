@@ -5,8 +5,7 @@
         "components": {
           "minecraft:enchantments": {
             "minecraft:fire_aspect": 1
-          },
-          "custom_model_data": 10001
+          }
         }
       },
       "title": {
@@ -38,7 +37,11 @@
             {
               "items": "minecraft:trial_key",
               "components": {
-                "custom_model_data" : 10001
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    10001
+                  ]
+                }
               }
             }
           ]

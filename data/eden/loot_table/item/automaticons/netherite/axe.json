@@ -1,0 +1,69 @@
+  {
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:armor_stand",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "translate": "automaticons.netherite.durability",
+                    "fallback": "• 192 Durability Points",
+                    "color": "gray",
+                  "italic": false
+                  },
+                  {
+                    "translate": "automaticons.netherite.amount",
+                    "fallback": "• 1-12 Items Per Payout",
+                    "color": "gray",
+                  "italic": false
+                  } 
+                ],
+                "mode": "append"
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_model": "automaticons:netherite/axe",
+                  "minecraft:max_stack_size": 1,
+                  "minecraft:item_name": "{\"fallback\":\"Netherite Axe Automaticon\",\"translate\":\"automaticons.netherite.axe\"}",
+                  "minecraft:entity_data": {
+                    "id": "minecraft:armor_stand",
+                    "Small": 1,
+                    "Invulnerable": 1,
+                    "ShowArms": 1,
+                    "Marker": 1,
+                    "NoBasePlate": 1,
+                    "Tags": [
+                      "axe_netherite_tier",
+                      "automaticon",
+                      "ac_axe"
+                  ],
+                    "HandItems": [
+                      {
+                    },
+                    {
+                      "id": "minecraft:netherite_axe",
+                      "count": 1
+                      }
+                  ]
+                  },
+                  "minecraft:rarity": "uncommon"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

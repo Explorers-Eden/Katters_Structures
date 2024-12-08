@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "automaticons.iron.durability",
+                  "fallback": "• 128 Durability Points",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "automaticons.iron.amount",
+                  "fallback": "• 1-8 Items Per Payout",
+                  "color": "gray",
+                  "italic": false
+                } 
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "automaticons:iron/hoe",
+                "minecraft:max_stack_size": 1,
+                "minecraft:item_name": "{\"fallback\":\"Iron Hoe Automaticon\",\"translate\":\"automaticons.iron.hoe\"}",
+                "minecraft:entity_data": {
+                  "id": "minecraft:armor_stand",
+                  "Small": 1,
+                  "Invulnerable": 1,
+                  "ShowArms": 1,
+                  "Marker": 1,
+                  "NoBasePlate": 1,
+                  "Tags": [
+                    "hoe_iron_tier",
+                    "automaticon",
+                    "ac_hoe"
+                ],
+                  "HandItems": [
+                    {
+                  },
+                  {
+                    "id": "minecraft:iron_hoe",
+                    "count": 1
+                    }
+                ]
+                },
+                "minecraft:rarity": "uncommon"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

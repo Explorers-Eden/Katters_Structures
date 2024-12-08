@@ -1,0 +1,34 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:item/automaticons/wood_tier"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:item/automaticons/stone_tier"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:item/automaticons/gold_tier"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:item/automaticons/iron_tier"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:item/automaticons/diamond_tier"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:item/automaticons/netherite_tier"
+          }
+        ]
+      }
+    ]
+  }
+  

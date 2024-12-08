@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "eden:item/automaticons/diamond/sword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "eden:item/automaticons/diamond/shovel"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "eden:item/automaticons/diamond/pickaxe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "eden:item/automaticons/diamond/hoe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "eden:item/automaticons/diamond/axe"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+    "name": "kattersstructures:deep_blue_city/house_03",
+    "fallback": "minecraft:empty",
+    "elements": [
+    {
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:deep_blue/city/house/deep_blue_city_house_03_01",
+            "processors": "kattersstructures:copper_grate",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:deep_blue/city/house/deep_blue_city_house_03_02",
+            "processors": "kattersstructures:copper_grate",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:deep_blue/city/house/deep_blue_city_house_03_03",
+            "processors": "kattersstructures:copper_grate",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:deep_blue/city/house/deep_blue_city_house_03_04",
+            "processors": "kattersstructures:copper_grate",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:deep_blue/city/house/deep_blue_city_house_03_05",
+            "processors": "kattersstructures:copper_grate",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }
+]
+}

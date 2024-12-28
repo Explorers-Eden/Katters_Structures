@@ -1,0 +1,38 @@
+{
+    "name": "kattersstructures:deep_blue_city/pipe_06",
+    "fallback": "minecraft:empty",
+    "elements": [
+    {
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:deep_blue/city/pipe/deep_blue_city_pipe_06_01",
+            "processors": "kattersstructures:copper_grate",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:deep_blue/city/pipe/deep_blue_city_pipe_06_02",
+            "processors": "kattersstructures:copper_grate",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:deep_blue/city/pipe/deep_blue_city_pipe_06_03",
+            "processors": "kattersstructures:copper_grate",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },
+
+    {
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:empty_pool_element"
+        }
+    }
+]
+}

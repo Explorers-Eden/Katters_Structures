@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 10,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cocoa_beans"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wheat_seeds"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:melon_seeds"
+          }
+        ]
+      }
+    ]
+  }

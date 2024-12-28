@@ -1,0 +1,79 @@
+{
+    "name": "kattersstructures:deep_blue_city/lab_01",
+    "fallback": "minecraft:empty",
+    "elements": [
+    {
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:deep_blue/city/lab/deep_blue_city_lab_01_01",
+            "processors": "kattersstructures:copper_grate",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:deep_blue/city/lab/deep_blue_city_lab_01_02",
+            "processors": "kattersstructures:copper_grate",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:deep_blue/city/lab/deep_blue_city_lab_01_03",
+            "processors": "kattersstructures:copper_grate",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:deep_blue/city/lab/deep_blue_city_lab_01_04",
+            "processors": "kattersstructures:copper_grate",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:deep_blue/city/lab/deep_blue_city_lab_01_05",
+            "processors": "kattersstructures:copper_grate",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:deep_blue/city/lab/deep_blue_city_lab_01_06",
+            "processors": "kattersstructures:copper_grate",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:deep_blue/city/lab/deep_blue_city_lab_01_07",
+            "processors": "kattersstructures:copper_grate",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:deep_blue/city/lab/deep_blue_city_lab_01_08",
+            "processors": "kattersstructures:copper_grate",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:deep_blue/city/lab/deep_blue_city_lab_01_09",
+            "processors": "kattersstructures:copper_grate",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }
+]
+}

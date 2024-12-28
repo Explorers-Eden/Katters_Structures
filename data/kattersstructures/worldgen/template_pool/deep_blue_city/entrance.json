@@ -1,0 +1,15 @@
+{
+    "name": "kattersstructures:deep_blue_city/entrance",
+    "fallback": "minecraft:empty",
+    "elements": [
+    {
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:deep_blue/city/deep_blue_city_gate",
+            "processors": "kattersstructures:copper_grate",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }
+]
+}

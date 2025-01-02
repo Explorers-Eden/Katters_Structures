@@ -1,17 +1,20 @@
 {
     "placement": {
         "type": "minecraft:random_spread",
-        "spacing": 150,
-        "separation": 120,
-        "salt": 298189841,
+        "spacing": 100,
+        "separation": 90,
+        "salt": 69881848956,
         "spread_type": "triangular",
         "exclusion_zone": {
-            "other_set": "minecraft:villages",
+            "other_set": "kattersstructures:villages",
             "chunk_count": 10
         }
     },
     "structures": [{
         "structure": "kattersstructures:spider_den",
+        "weight": 1
+    },{
+        "structure": "kattersstructures:magic_tower",
         "weight": 1
     }]
 }

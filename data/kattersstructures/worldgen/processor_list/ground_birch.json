@@ -49,10 +49,7 @@
             "block": "minecraft:moss_block"
           },
           "output_state": {
-            "Name": "minecraft:birch_planks",
-            "Properties": {
-              "level": "0"
-            }
+            "Name": "minecraft:birch_planks"
           }
         },
         {
@@ -65,10 +62,7 @@
             "block": "minecraft:podzol"
           },
           "output_state": {
-            "Name": "minecraft:birch_planks",
-            "Properties": {
-              "level": "0"
-            }
+            "Name": "minecraft:birch_planks"
           }
         },
 
@@ -85,10 +79,7 @@
             "probability": 0.8
           },
           "output_state": {
-            "Name": "minecraft:sand",
-            "Properties": {
-              "level": "0"
-            }
+            "Name": "minecraft:sand"
           }
         },
         {
@@ -102,10 +93,7 @@
             "probability": 0.6
           },
           "output_state": {
-            "Name": "minecraft:sand",
-            "Properties": {
-              "level": "0"
-            }
+            "Name": "minecraft:sand"
           }
         },
         {
@@ -119,10 +107,7 @@
             "probability": 0.1
           },
           "output_state": {
-            "Name": "minecraft:sand",
-            "Properties": {
-              "level": "0"
-            }
+            "Name": "minecraft:sand"
           }
         },
 
@@ -138,10 +123,7 @@
             "probability": 0.8
           },
           "output_state": {
-            "Name": "minecraft:stone",
-            "Properties": {
-              "level": "0"
-            }
+            "Name": "minecraft:stone"
           }
         },
         {
@@ -155,10 +137,7 @@
             "probability": 0.6
           },
           "output_state": {
-            "Name": "minecraft:stone",
-            "Properties": {
-              "level": "0"
-            }
+            "Name": "minecraft:stone"
           }
         },
         {
@@ -172,10 +151,7 @@
             "probability": 0.1
           },
           "output_state": {
-            "Name": "minecraft:stone",
-            "Properties": {
-              "level": "0"
-            }
+            "Name": "minecraft:stone"
           }
         }
       ]

@@ -1,0 +1,37 @@
+{
+    "name": "kattersstructures:magic_tower/crystal",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:magic_tower/crystal/magic_tower_crystal_01",
+            "processors": "kattersstructures:crystal",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:magic_tower/crystal/magic_tower_crystal_02",
+            "processors": "kattersstructures:crystal",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:magic_tower/crystal/magic_tower_crystal_03",
+            "processors": "kattersstructures:crystal",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:magic_tower/crystal/magic_tower_crystal_04",
+            "processors": "kattersstructures:crystal",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }]
+}

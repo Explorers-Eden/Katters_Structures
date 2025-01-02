@@ -1,0 +1,290 @@
+{
+    "processors": [
+      {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:lava"
+            },
+            "output_state": {
+              "Name": "minecraft:stone"          
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:mud"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:lava"
+            },
+            "output_state": {
+              "Name": "minecraft:mud"          
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:smooth_basalt"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:lava"
+            },
+            "output_state": {
+              "Name": "minecraft:smooth_basalt"          
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:cyan_terracotta"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:lava"
+            },
+            "output_state": {
+              "Name": "minecraft:cyan_terracotta"          
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:polished_tuff"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:lava"
+            },
+            "output_state": {
+              "Name": "minecraft:polished_tuff"          
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:pale_moss_block"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:lava"
+            },
+            "output_state": {
+              "Name": "minecraft:pale_moss_block"          
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:soul_campfire"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:lava"
+            },
+            "output_state": {
+              "Name": "minecraft:soul_campfire"          
+            }
+          },
+
+
+
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:magenta_stained_glass"
+            },
+            "output_state": {
+              "Name": "minecraft:stone"          
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:mud"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:magenta_stained_glass"
+            },
+            "output_state": {
+              "Name": "minecraft:mud"          
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:smooth_basalt"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:magenta_stained_glass"
+            },
+            "output_state": {
+              "Name": "minecraft:smooth_basalt"          
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:cyan_terracotta"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:magenta_stained_glass"
+            },
+            "output_state": {
+              "Name": "minecraft:cyan_terracotta"          
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:polished_tuff"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:magenta_stained_glass"
+            },
+            "output_state": {
+              "Name": "minecraft:polished_tuff"          
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:pale_moss_block"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:magenta_stained_glass"
+            },
+            "output_state": {
+              "Name": "minecraft:pale_moss_block"          
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:soul_campfire"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:magenta_stained_glass"
+            },
+            "output_state": {
+              "Name": "minecraft:soul_campfire"          
+            }
+          },
+
+
+
+
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:purple_stained_glass"
+            },
+            "output_state": {
+              "Name": "minecraft:stone"          
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:mud"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:purple_stained_glass"
+            },
+            "output_state": {
+              "Name": "minecraft:mud"          
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:smooth_basalt"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:purple_stained_glass"
+            },
+            "output_state": {
+              "Name": "minecraft:smooth_basalt"          
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:cyan_terracotta"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:purple_stained_glass"
+            },
+            "output_state": {
+              "Name": "minecraft:cyan_terracotta"          
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:polished_tuff"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:purple_stained_glass"
+            },
+            "output_state": {
+              "Name": "minecraft:polished_tuff"          
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:pale_moss_block"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:purple_stained_glass"
+            },
+            "output_state": {
+              "Name": "minecraft:pale_moss_block"          
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:soul_campfire"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:purple_stained_glass"
+            },
+            "output_state": {
+              "Name": "minecraft:soul_campfire"          
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

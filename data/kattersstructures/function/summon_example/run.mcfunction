@@ -1,0 +1,1 @@
+execute as @a at @s run function kattersstructures:summon_example/get_coords

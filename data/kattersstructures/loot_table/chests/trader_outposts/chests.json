@@ -105,7 +105,7 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "showes the location of an Katters Structure Village"
+                  "text": "Shows the location of a Katters Structure Village"
                 }
               ],
               "mode": "insert"
@@ -139,7 +139,7 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "showes the location of an Katters Structure Villager Statue"
+                  "text": "Shows the location of a Katters Structure Villager Statue"
                 }
               ],
               "mode": "insert"
@@ -173,7 +173,7 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "showes the location of an Katters Structure Dungeon"
+                  "text": "Shows the location of a Katters Structure Dungeon"
                 }
               ],
               "mode": "insert"

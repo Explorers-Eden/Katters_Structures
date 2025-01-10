@@ -2,6 +2,12 @@
 function kattersstructures:schedules/on_load
 schedule function kattersstructures:bossbars_run 10t
 
+##remove temp storage
+data remove storage kattersstructures:temp theron.talking
+
+##create database
+function kattersstructures:database/create
+
 ##add scoreboards
 scoreboard objectives add kattersstructures.technical dummy
 scoreboard objectives add kattersstructures.tenku dummy

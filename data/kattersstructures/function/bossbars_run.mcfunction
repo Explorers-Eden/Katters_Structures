@@ -10,4 +10,5 @@ execute as @a at @s if entity @e[type=spider,tag=katter.arachne.boss,distance=..
 execute as @a at @s unless entity @e[type=illusioner,tag=katter.theron.boss,distance=..25] run function kattersstructures:theron/bossbar/hide_bossbar/get_data
 execute as @a at @s if entity @e[type=illusioner,tag=katter.theron.boss,distance=..24] run function kattersstructures:theron/bossbar/get_data
 
+
 schedule function kattersstructures:bossbars_run 10t

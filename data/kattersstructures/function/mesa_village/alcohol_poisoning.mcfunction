@@ -6,4 +6,4 @@ tellraw @s {"fallback": "You drank too much! And got yourself an alcohol poisoni
 
 scoreboard players remove @s kattersstructures.alcohol_poisoning 500
 
-advancement grant @s only kattersstructures:alcohol_poisoning
+advancement grant @s only kattersstructures:village/alcohol_poisoning

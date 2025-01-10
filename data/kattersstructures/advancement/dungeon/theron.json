@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:redstone_block"
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.theron_title",
+      "fallback": "THE RON"
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.theron_description",
+      "fallback": "Defeat the sky tyrant, Raj Raksha, in an epic battle for the ages."
+    },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "kattersstructures:dungeon/sky_dungeon",
+    "criteria": {
+      "theron": {
+      "trigger": "minecraft:impossible"
+    }
+    }
+  }
+  

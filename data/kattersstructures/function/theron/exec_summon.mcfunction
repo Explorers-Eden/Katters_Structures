@@ -1,0 +1,7 @@
+execute store result score $mob_type kattersstructures.technical run random value 1..5
+
+$execute if score $mob_type kattersstructures.technical matches ..2 in $(dimension) run summon minecraft:pillager $(x) $(y) $(z) {CustomNameVisible:0b,DeathLootTable:"kattersstructures:placeholder",PersistenceRequired:1b,CanPickUpLoot:0b,PatrolLeader:0b,CanJoinRaid:0b,Tags:["katter.theron.boss.minion","nmr_speed_set","nmr_resized"],CustomName:'{"bold":true,"color":"dark_purple","italic":true,"text":"Theron\'s Minions"}',HandItems:[{id:"minecraft:crossbow",count:1},{}],HandDropChances:[0.085F,0.085F]}
+$execute if score $mob_type kattersstructures.technical matches 3..4 in $(dimension) run summon vindicator $(x) $(y) $(z) {CustomNameVisible:0b,DeathLootTable:"kattersstructures:placeholder",PersistenceRequired:1b,CanPickUpLoot:0b,PatrolLeader:0b,CanJoinRaid:0b,Tags:["katter.theron.boss.minion","nmr_speed_set","nmr_resized"],CustomName:'{"bold":true,"color":"dark_purple","italic":true,"text":"Theron\'s Minions"}',HandItems:[{id:"minecraft:stone_axe",count:1},{}],HandDropChances:[0.085F,0.085F]}
+$execute if score $mob_type kattersstructures.technical matches 5 in $(dimension) run summon minecraft:evoker $(x) $(y) $(z) {CustomNameVisible:0b,DeathLootTable:"kattersstructures:placeholder",PersistenceRequired:1b,CanPickUpLoot:0b,PatrolLeader:0b,CanJoinRaid:0b,Tags:["katter.theron.boss.minion","nmr_speed_set","nmr_resized"],CustomName:'{"bold":true,"color":"dark_purple","italic":true,"text":"Theron\'s Minions"}'}
+
+data remove storage ks:temp boss.pos

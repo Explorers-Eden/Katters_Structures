@@ -1,4 +1,4 @@
-summon block_display ~ ~.5625 ~ {CustomNameVisible:0b,Tags:["katter.theron.rod","katter.theron.phase_01"],CustomName:'{"color":"light_purple","text":"Magus Theron the Betrayer"}',transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-1f,-0.5625f,-1f],scale:[2f,1.125f,2f]},block_state:{Name:"minecraft:lightning_rod",Properties:{facing:"up",powered:"false",waterlogged:"false"}}}
+summon block_display ~ ~.5625 ~ {CustomNameVisible:0b,Tags:["katter.theron.rod","katter.theron.phase_00"],CustomName:'{"color":"light_purple","text":"Magus Theron the Betrayer"}',transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-1f,-0.5625f,-1f],scale:[2f,1.125f,2f]},block_state:{Name:"minecraft:lightning_rod",Properties:{facing:"up",powered:"false",waterlogged:"false"}}}
 
 summon block_display ~ ~2 ~ {shadow_strength:0f,Tags:["katter.theron.orb"],transformation:{left_rotation:[-0.3535534f,0.14644665f,0.3535534f,0.85355335f],right_rotation:[0f,0f,0f,1f],translation:[5.9604645e-8f,-0.85355335f,0.14644663f],scale:[1f,1f,1f]},block_state:{Name:"minecraft:redstone_block"}}
 

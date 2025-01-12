@@ -1,1 +1,0 @@
-$tellraw @a[distance=..30] [{"bold":true,"color":"light_purple","italic":true,"text":"Magus Theron the Betrayer: "},$(msg)]

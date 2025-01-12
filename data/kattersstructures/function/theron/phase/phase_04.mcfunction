@@ -5,4 +5,6 @@ tp @n[type=illusioner,tag=katter.theron.boss.active] ~ ~15 ~
 
 execute as @n[type=illusioner,tag=katter.theron.boss.active] at @s run function kattersstructures:theron/deactivated
 
-execute as @s at @s run function kattersstructures:theron/wave
+function kattersstructures:theron/talk/talk_retreat
+
+execute as @s at @s run function kattersstructures:theron/minion/wave

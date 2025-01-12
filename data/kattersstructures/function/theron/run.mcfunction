@@ -14,6 +14,6 @@ execute as @e[type=block_display,tag=katter.theron.phase_02] at @s unless entity
 execute as @e[type=block_display,tag=katter.theron.phase_04] at @s unless entity @e[tag=katter.theron.boss.minion,distance=..25] run function kattersstructures:theron/phase_05
 execute as @e[type=block_display,tag=katter.theron.phase_06] at @s unless entity @e[tag=katter.theron.boss.minion,distance=..25] run function kattersstructures:theron/phase_07
 
-execute as @e[type=block_display,tag=katter.theron.phase_01] at @s run function kattersstructures:theron/talk_angry
+execute as @e[type=block_display,tag=katter.theron.phase_01] if predicate kattersstructures:percentages/10 at @s run function kattersstructures:theron/talk_angry
 
 execute as @e[type=block_display,tag=katter.theron.rod,tag=!katter.theron.phase_08] at @s unless entity @p[distance=..150] run function kattersstructures:theron/reset

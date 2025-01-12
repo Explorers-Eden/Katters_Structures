@@ -144,7 +144,7 @@
                 "entity": "this",
                 "lore": [
                   {
-                    "text": "showes the location of a Katters Structure Armory"
+                    "text": "Shows the location of a Katters Structure Armory"
                   }
                 ],
                 "mode": "insert"

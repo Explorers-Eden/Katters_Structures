@@ -31,6 +31,15 @@
     "enchantment.kattersstructures.alchemy_curse.desc": "Grants random Effects",
     "enchantment.kattersstructures.enlightning.desc": "Summons Lightning when hitting a Lightningrod",
 
+    "enchantment_lore.kattersstructures:web_walker.description": "Allows to faster walk in Cobwebs and gives Weaving Aspect",
+    "enchantment_lore.kattersstructures:light.description": "Increases Agility but lowers Defense",
+    "enchantment_lore.kattersstructures:heavy.description": "Increases Damage but lowers Attackspeed and Agility",
+    "enchantment_lore.kattersstructures:blunt.description": "Increases Damage against Armor",
+    "enchantment_lore.kattersstructures:crystal_curse.description": "Greatly increases Damage at the cost of robustness of the Weapon",
+    "enchantment_lore.kattersstructures:ocean_heart.description": "Grants Conduit Power, in Water",
+    "enchantment_lore.kattersstructures:alchemy_curse.description": "Grants random Effects",
+    "enchantment_lore.kattersstructures:enlightning.description": "Summons Lightning when hitting a Lightningrod",
+
     "enchantment.enchantencore.weaving_aspect": "Weaving Aspect",
     "enchantment.enchantencore.weaving_aspect.desc": "Applies weaving effect to hit entities",
 

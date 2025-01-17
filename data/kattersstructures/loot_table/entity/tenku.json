@@ -86,31 +86,8 @@
         "rolls": 1,
         "entries": [
           {
-            "type": "minecraft:item",
-            "name": "minecraft:trial_key"
-          }
-        ],
-        "functions": [
-          {
-            "function": "minecraft:set_components",
-            "components": {
-              "minecraft:max_stack_size": 16,
-              "minecraft:rarity": "epic",
-              "minecraft:damage_resistant": {
-                "types": "#minecraft:is_fire"
-              },
-              "minecraft:custom_model_data": {
-                "floats": [
-                  10001
-                ]
-              },
-              "minecraft:lore": [
-                "{\"fallback\":\"Key, dropped by a Boss.\",\"translate\":\"item.kattersstructures.boss_key_lore_1\"}",
-                "{\"fallback\":\"Opens Great Treasure\",\"translate\":\"item.kattersstructures.boss_key_lore_2\"}"
-              ],
-              "minecraft:item_name": "{\"color\":\"gold\",\"fallback\":\"Boss Key\",\"translate\":\"item.kattersstructures.boss_key\"}",
-              "minecraft:enchantment_glint_override": true
-            }
+            "type": "minecraft:loot_table",
+            "value": "kattersstructures:items/boss_key"
           }
         ]
       }

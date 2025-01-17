@@ -1,0 +1,25 @@
+{
+    "criteria": {
+      "weather_shaper": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:blaze_rod",
+            "components": {
+              "minecraft:custom_data": {
+                "kattersstructures": "weather_shaper"
+              }
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "weather_shaper"
+      ]
+    ],
+    "rewards": {
+      "function": "kattersstructures:theron_spells/weather_shaper"
+    }
+  }

@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/handheld",
     "textures": {
-        "layer0": "kattersstructures:item/weather_shaper"
+        "layer0": "kattersstructures:item/the_beast_within"
     }
 }

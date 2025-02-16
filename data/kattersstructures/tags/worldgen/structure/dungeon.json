@@ -1,10 +1,8 @@
 {
     "values": [
-        "kattersstructures:desert_dungeon",
-        "kattersstructures:better_vanilla_dungeon",
         "kattersstructures:sky_dungeon",
         "kattersstructures:skyrtle",
-        "kattersstructures:spider_den"
-    
+        "kattersstructures:spider_den",
+        "kattersstructures:magic_tower"
     ]
   }

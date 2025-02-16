@@ -11,13 +11,13 @@ this update:
 
 "the marker incident of Florencia" book from xi
 
-sky decor
-ships
+
+
 
 
 Doing
 
-
+sky decor
 
 
 Done
@@ -27,3 +27,4 @@ theron spells
 Deeo Blue city
 "Skyhold" ruined city (theron)
 beekeeper Villager
+ships

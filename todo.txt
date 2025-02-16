@@ -1,17 +1,19 @@
 ToDo
 
 
+future:
 
-sky decor
-ships
 Pillager dungeon
 Herobrine dungeon
 Elden Ring Verlies
 
+this update:
+
 "the marker incident of Florencia" book from xi
 
-"Skyhold" ruined city (theron)
-
+sky decor
+ships
+beekeeper Villager
 
 Doing
 
@@ -22,3 +24,4 @@ Done
 Magic Tower dungeon
 theron spells
 Deeo Blue city
+"Skyhold" ruined city (theron)

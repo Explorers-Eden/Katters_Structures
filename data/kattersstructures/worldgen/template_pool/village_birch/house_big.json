@@ -98,6 +98,14 @@
             "processors": "kattersstructures:ground_birch",
             "location": "kattersstructures:village_birch/house/house_special_smith"
         }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "kattersstructures:ground_birch",
+            "location": "kattersstructures:village_birch/house/house_special_beekeeper"
+        }
     }
 ]
 }

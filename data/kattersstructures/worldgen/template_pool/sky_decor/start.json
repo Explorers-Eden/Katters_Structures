@@ -1,0 +1,55 @@
+{
+    "name": "kattersstructures:sky_decor/start",
+    "fallback": "minecraft:empty",
+    "elements": [
+    {
+        "weight": 5,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:sky_decor/sky_decor_01"
+        }
+    },{
+        "weight": 5,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:sky_decor/sky_decor_02"
+        }
+    },{
+        "weight": 5,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:sky_decor/sky_decor_03"
+        }
+    },{
+        "weight": 5,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:sky_decor/sky_decor_04"
+        }
+    },{
+        "weight": 5,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:sky_decor/sky_decor_05"
+        }
+    },{
+        "weight": 5,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:sky_decor/sky_decor_06"
+        }
+    }
+]
+}

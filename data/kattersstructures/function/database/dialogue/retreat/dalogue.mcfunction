@@ -1,6 +1,6 @@
 
 data modify storage kattersstructures:dialogue_db theron.retreat.builds.1 set value "{\"bold\":false,\"color\":\"white\",\"fallback\":\"You cannot defeat me! Not yet!\",\"italic\":false,\"translate\":\"dialogue.kattersstructures.theron.retreat.01\"}"
-data modify storage kattersstructures:dialogue_db theron.retreat.builds.2 set value "{\"bold\":false,\"color\":\"white\",\"fallback\":\"This is merely a setback!.\",\"italic\":false,\"translate\":\"dialogue.kattersstructures.theron.retreat.02\"}"
+data modify storage kattersstructures:dialogue_db theron.retreat.builds.2 set value "{\"bold\":false,\"color\":\"white\",\"fallback\":\"This is merely a setback!\",\"italic\":false,\"translate\":\"dialogue.kattersstructures.theron.retreat.02\"}"
 data modify storage kattersstructures:dialogue_db theron.retreat.builds.3 set value "{\"bold\":false,\"color\":\"white\",\"fallback\":\"My magic will mend my wounds!\",\"italic\":false,\"translate\":\"dialogue.kattersstructures.theron.retreat.03\"}"
 data modify storage kattersstructures:dialogue_db theron.retreat.builds.4 set value "{\"bold\":false,\"color\":\"white\",\"fallback\":\"Face my minions!\",\"italic\":false,\"translate\":\"dialogue.kattersstructures.theron.retreat.04\"}"
 data modify storage kattersstructures:dialogue_db theron.retreat.builds.5 set value "{\"bold\":false,\"color\":\"white\",\"fallback\":\"You will not escape my wrath!\",\"italic\":false,\"translate\":\"dialogue.kattersstructures.theron.retreat.05\"}"

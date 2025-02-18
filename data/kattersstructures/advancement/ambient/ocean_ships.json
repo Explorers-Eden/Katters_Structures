@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:tropical_fish",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.ocean_ships_title",
+      "fallback": "Seafaring Shacks"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.ocean_ships_description",
+      "fallback": "Discover tiny villager boats dotting the ocean."
+      }
+  },
+  "parent": "kattersstructures:root",
+    "criteria": {
+      "ocean_ships": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:ocean_ships"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

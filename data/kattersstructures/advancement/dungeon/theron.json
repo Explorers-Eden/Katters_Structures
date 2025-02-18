@@ -5,18 +5,18 @@
       },
       "title": {
       "translate": "advancement.kattersstructures.theron_title",
-      "fallback": "THE RON"
+      "fallback": "Theron's Downfall"
     },
     "description": {
       "translate": "advancement.kattersstructures.theron_description",
-      "fallback": "Defeat the sky tyrant, Raj Raksha, in an epic battle for the ages."
+      "fallback": "Defeat the treacherous Illusioner, Magus Theron, and claim the power of his dark arts."
     },
       "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": true
     },
-    "parent": "kattersstructures:dungeon/sky_dungeon",
+    "parent": "kattersstructures:dungeon/magic_tower",
     "criteria": {
       "theron": {
       "trigger": "minecraft:impossible"

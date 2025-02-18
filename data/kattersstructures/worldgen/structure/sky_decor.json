@@ -1,0 +1,20 @@
+{
+    "biomes": "#kattersstructures:has_structure/grassland",
+    "spawn_overrides": {},
+    "type": "minecraft:jigsaw",
+    "start_pool": "kattersstructures:sky_decor/start",
+    "size": 3,
+    "step": "surface_structures",
+    "start_height": {
+      "type": "minecraft:uniform",
+      "min_inclusive": {
+        "absolute": 200
+      },
+        "max_inclusive": {
+        "absolute": 270
+      }
+    },
+    "max_distance_from_center": 116,
+    "terrain_adaptation": "none",
+    "use_expansion_hack": false
+}

@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:iron_block",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.skyhold_title",
+      "fallback": "Skyhold's Ruins"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.skyhold_description",
+      "fallback": "Explore the shattered remnants of Skyhold, a once-great villager city, now scarred by Theron's wrath."
+      }
+  },
+  "parent": "kattersstructures:root",
+    "criteria": {
+      "skyhold": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:skyhold"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

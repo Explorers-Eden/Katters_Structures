@@ -16,7 +16,7 @@
     },
     "parent": "kattersstructures:deepblue/deep_blue",
     "criteria": {
-      "village_cherry": {
+      "deep_blue_labs": {
         "trigger": "minecraft:location",
         "conditions": {
           "player": [

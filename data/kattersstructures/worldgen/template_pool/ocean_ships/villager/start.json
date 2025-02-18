@@ -1,5 +1,5 @@
 {
-    "name": "kattersstructures:ocena_ships/villager/start",
+    "name": "kattersstructures:ocean_ships/villager/start",
     "fallback": "minecraft:empty",
     "elements": [
     {

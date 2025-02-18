@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:wither_skeleton_skull"
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.the_beast_within_title",
+      "fallback": "The Beast Within"
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.the_beast_within_description",
+      "fallback": "The beast has claimed you. Your strength became your undoing."
+    },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "kattersstructures:dungeon/theron",
+    "criteria": {
+      "theron": {
+      "trigger": "minecraft:impossible"
+    }
+    }
+  }
+  

@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.deep_blue_lab_ruin_title",
+      "fallback": "Deep Blue Lab?"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.deep_blue_lab_ruin_description",
+      "fallback": "Uncover the Nox's hidden lab, a gateway to the mysterious Deep Blue. What secrets and dangers await beyond the portal?"
+    }
+    },
+    "parent": "kattersstructures:root",
+    "criteria": {
+      "deep_blue_lab_ruin": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:deep_blue_lab_ruin"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

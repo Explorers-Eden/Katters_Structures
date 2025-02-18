@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:blackstone_wall",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.magic_tower_title",
+      "fallback": "Theron's Tower"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.magic_tower_description",
+      "fallback": "Uncovere a dark tower, home to the traitorous Illusioner, Magus Theron."
+    }
+    },
+    "parent": "kattersstructures:root",
+    "criteria": {
+      "magic_tower": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:magic_tower"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

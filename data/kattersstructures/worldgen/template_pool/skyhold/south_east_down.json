@@ -1,0 +1,13 @@
+{
+    "name": "kattersstructures:skyhold/south_east_down",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:skyhold/skyhold_south_east_d",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }]
+}

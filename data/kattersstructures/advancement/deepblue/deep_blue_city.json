@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.deep_blue_city_title",
+      "fallback": "Deep Blue City"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.deep_blue_city_description",
+      "fallback": "Discover the Nox's sprawling city in the Deep Blue.  Its central lab holds the key to their strange science."
+    }
+    },
+    "parent": "kattersstructures:deepblue/deep_blue",
+    "criteria": {
+      "deep_blue_city": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:deep_blue_city"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

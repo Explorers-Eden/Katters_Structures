@@ -9,7 +9,6 @@ Elden Ring Verlies
 
 this update:
 
-"the marker incident of Florencia" book from xi
 
 
 
@@ -17,7 +16,6 @@ this update:
 
 Doing
 
-sky decor
 
 
 Done
@@ -28,3 +26,5 @@ Deeo Blue city
 "Skyhold" ruined city (theron)
 beekeeper Villager
 ships
+sky decor
+"the marker incident of Florencia" book from xi

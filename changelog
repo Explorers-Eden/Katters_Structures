@@ -1,38 +1,26 @@
-# Deep and Scary Update
+# Pillager Update Part 1 - Therons Revenge
 
 
-- added Mesa village
-- added Birch village
-- added Spider Den
-- added new Boss in Spider Den
-- added Deep Blue Labs
-- added Deep Blue Lab Ruins (Ruined Portal)
-- added new Dimension: the Deep Blue
-- added a way to create Portals between Overworld and Deep Blue
-- added Trader Outposts
-- added Maps to Villages, Dungeons and Villager Statues to trader Outposts Loot
-- added 2 new Enchantments exclusively found in Deep Blue Bookshelves
-- added 1 new Enchantments exclusively found by defeating the new Arachne Boss
-- added 1 new Enchantments exclusively found on Raj Lightning Rod and Enlightning Rod
-- added 7 new Villager Books
-- added 15 new Deep Blue Books
-- added Beverages sold by the Mesa Village Barkeeper
-- added support for Enchantment Descriptions Mod
-- changed the Mobs at Witch Circle
-- changed how structures spawn in general (less concentrated now)
+- added Magic Tower Dungeon
+- added Deep Blue City Structure
+- added Skyhold Structure
+- added new Boss in Magic Tower
+- added multiple Ships to the ocean
+- added multiple small Sky structures
+- added 6 new Villager Books
+- added 11 new Books by Theron
+- added Beekeeper Villager in Birch Village
+- added support for Enchantment Descriptions Mod - for real this time.
+- added support for Enchantment Lore Mod
+- added Spells dropped by Theron
+- Dungeon Maps now only link to "Boss"-Dungeons
 - removed Herobrine
 
 ### Fixes
 
-- fixed a small part of the Skyrtle missing
-- fixed some Cartographer Maps still pointing to the Village they were found in
+- fixed villagers not being able to enter houses in Birch Village
 
 
 ### Technical
 
-- Raj Enchantment optained through Bugs will now delete themselfe from Eqipment
-- Raj Lightning Rods optained before this update will get the enchantment Enlightning if hold in hand for some seconds
-- Advancement were moved therefore, players need to obtain most again
-
-
-The Deep Blue is still WIP and will get more contet in future Updates, I just wanted to Push this befor 1.21.3 arrives
+- The data pack version also doubles as the resource pack. In order to use them, add them to your local resource folder. Mod versions do not require the resource pack to work in single player.

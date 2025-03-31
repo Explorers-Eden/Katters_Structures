@@ -27,10 +27,10 @@
 										}
 									]
 								},
-                                "minecraft:item_name": "{\"color\":\"dark_red\",\"fallback\":\"The Beast within\",\"translate\":\"item.kattersstructures.the_beast_within\"}",
+                                "minecraft:item_name": {color:"dark_red",fallback:"The Beast within",translate:"item.kattersstructures.the_beast_within"},
 								"minecraft:item_model": "kattersstructures:the_beast_within",
                                 "minecraft:lore": [
-                	                "{\"fallback\":\"Consumes 3 Levels to cast\",\"translate\":\"item.kattersstructures.the_beast_within_lore_1\"}"
+                	                {fallback:"Consumes 3 Levels to cast",translate:"item.kattersstructures.the_beast_within_lore_1"}
               	                ],
 								"minecraft:max_stack_size": 1,
 								"minecraft:use_cooldown": {

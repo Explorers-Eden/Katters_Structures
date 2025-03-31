@@ -11,7 +11,7 @@
       "translate": "advancement.kattersstructures.deep_blue_description",
       "fallback": "Do you have a breath?"
     },
-    "background": "minecraft:textures/block/sand.png",
+    "background": "minecraft:block/sand",
     "show_toast": true,
     "announce_to_chat": false
   },

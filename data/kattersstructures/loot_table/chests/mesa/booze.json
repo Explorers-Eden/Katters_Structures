@@ -11,7 +11,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"color\":\"gold\",\"fallback\":\"Beer\",\"translate\":\"item.kattersstructures.beer\"}",
+                  "minecraft:custom_name": {color:"gold",fallback:"Beer",translate:"item.kattersstructures.beer"},
                   "minecraft:potion_contents": {
                     "potion": "minecraft:thick",
                     "custom_color": 13218594,
@@ -43,7 +43,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"color\":\"dark_aqua\",\"fallback\":\"Gin\",\"translate\":\"item.kattersstructures.gin\"}",
+                  "minecraft:custom_name": {color:"dark_aqua",fallback:"Gin",translate:"item.kattersstructures.gin"},
                   "minecraft:potion_contents": {
                     "potion": "minecraft:thick",
                     "custom_color": 15921407,
@@ -75,7 +75,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"color\":\"red\",\"fallback\":\"Wine\",\"translate\":\"item.kattersstructures.wine\"}",
+                  "minecraft:custom_name": {color:"red",fallback:"Wine",translate:"item.kattersstructures.wine"},
                   "minecraft:potion_contents": {
                     "potion": "minecraft:thick",
                     "custom_color": 7866119,

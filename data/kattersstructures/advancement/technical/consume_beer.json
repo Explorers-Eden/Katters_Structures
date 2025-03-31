@@ -7,7 +7,7 @@
             "items": "minecraft:potion",
             "count": 1,
             "components": {
-              "minecraft:custom_name": "{\"color\":\"gold\",\"fallback\":\"Beer\",\"translate\":\"item.kattersstructures.beer\"}"
+              "minecraft:custom_name": {color:"gold",fallback:"Beer",translate:"item.kattersstructures.beer"}
             }
           }
         }

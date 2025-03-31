@@ -16,13 +16,13 @@
               "entity": "this",
               "lore": [
                 {
-                  "translate": "automaticons.stone.durability",
+                  translate: "automaticons.stone.durability",
                   "fallback": "• 64 Durability Points",
                   "color": "gray",
                   "bold": false
                 },
                 {
-                  "translate": "automaticons.stone.amount",
+                  translate: "automaticons.stone.amount",
                   "fallback": "• 1-4 Items Per Payout",
                   "color": "gray",
                   "bold": false
@@ -35,7 +35,7 @@
               "components": {
                 "minecraft:item_model": "automaticons:stone/hoe",
                 "minecraft:max_stack_size": 1,
-                "minecraft:item_name": "{\"fallback\":\"Stone Hoe Automaticon\",\"translate\":\"automaticons.stone.hoe\"}",
+                "minecraft:item_name": {fallback:"Stone Hoe Automaticon",translate:"automaticons.stone.hoe"},
                 "minecraft:entity_data": {
                   "id": "minecraft:armor_stand",
                   "Small": 1,

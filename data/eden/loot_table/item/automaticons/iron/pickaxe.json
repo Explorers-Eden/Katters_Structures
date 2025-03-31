@@ -16,13 +16,13 @@
               "entity": "this",
               "lore": [
                 {
-                  "translate": "automaticons.iron.durability",
+                  translate: "automaticons.iron.durability",
                   "fallback": "• 128 Durability Points",
                   "color": "gray",
                   "italic": false
                 },
                 {
-                  "translate": "automaticons.iron.amount",
+                  translate: "automaticons.iron.amount",
                   "fallback": "• 1-8 Items Per Payout",
                   "color": "gray",
                   "italic": false
@@ -35,7 +35,7 @@
               "components": {
                 "minecraft:item_model": "automaticons:iron/pickaxe",
                 "minecraft:max_stack_size": 1,
-                "minecraft:item_name": "{\"fallback\":\"Iron Pickaxe Automaticon\",\"translate\":\"automaticons.iron.pickaxe\"}",
+                "minecraft:item_name": {fallback:"Iron Pickaxe Automaticon",translate:"automaticons.iron.pickaxe"},
                 "minecraft:entity_data": {
                   "id": "minecraft:armor_stand",
                   "Small": 1,

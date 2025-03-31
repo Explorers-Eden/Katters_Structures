@@ -30,7 +30,7 @@
           ],
           "entity": {
             "type": "minecraft:husk",
-            "nbt": "{CustomName:'{\"text\":\"Pharaoh\",\"color\":\"gold\"}'}"
+            "nbt": "{CustomName:{text:\"Pharaoh\",color:\"gold\"}}"
           }
         }
       }

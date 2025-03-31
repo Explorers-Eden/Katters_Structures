@@ -18,7 +18,7 @@
         "item": {
           "items": "minecraft:book",
           "components": {
-            "minecraft:item_name": "{\"bold\":true,\"color\":\"dark_green\",\"text\":\"Emerald Tablet\"}"
+            "minecraft:item_name": {bold:true,color:"dark_green",text:"Emerald Tablet"}
           }
         }
       }

@@ -28,7 +28,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "{\"bold\":false,\"color\":\"white\",\"italic\":false,\"text\":\"Raj's Lightning Rod\"}",
+                "minecraft:item_name": {bold:false,color:"white",italic:false,text:"Raj's Lightning Rod"},
                 "minecraft:max_stack_size": 1,
                 "minecraft:food": {
                   "nutrition": 0,

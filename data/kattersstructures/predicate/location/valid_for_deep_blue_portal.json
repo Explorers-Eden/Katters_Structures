@@ -1,0 +1,69 @@
+[
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#kattersstructures:portal_activator"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -1,
+      "predicate": {
+        "block": {
+          "blocks": "#kattersstructures:portal_block",
+          "state": {
+            "waterlogged": "true"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -2,
+      "predicate": {
+        "block": {
+          "blocks": "#kattersstructures:portal_door"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -3,
+      "predicate": {
+        "block": {
+          "blocks": "#kattersstructures:portal_door"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -4,
+      "predicate": {
+        "block": {
+          "blocks": "#kattersstructures:portal_block",
+          "state": {
+            "waterlogged": "true"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "dimension": "minecraft:overworld"
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "dimension": "kattersstructures:deep_blue"
+          }
+        }
+      ]
+    }
+  ]

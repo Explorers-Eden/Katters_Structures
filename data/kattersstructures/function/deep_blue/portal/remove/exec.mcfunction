@@ -4,5 +4,3 @@ $execute in $(dimension) positioned $(x) $(y) $(z) run kill @n[type=marker,tag=d
 kill @s
 
 $execute in $(dimension) positioned $(x) $(y) $(z) run forceload remove ~ ~
-
-say exec

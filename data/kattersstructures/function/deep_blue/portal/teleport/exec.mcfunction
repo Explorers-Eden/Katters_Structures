@@ -10,5 +10,3 @@ scoreboard players set @s kattersstructures.portal_cooldown 20
 tag @s add katters_structures.portal_cooldown
 
 $execute in $(dimension) positioned $(x) $(y) $(z) run forceload remove ~ ~
-
-say exec

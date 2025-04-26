@@ -8,5 +8,3 @@ execute if dimension kattersstructures:deep_blue run data modify storage katters
 function kattersstructures:deep_blue/portal/teleport/exec with storage kattersstructures:temp portal.teleport
 
 data remove storage kattersstructures:temp portal.teleport
-
-say init

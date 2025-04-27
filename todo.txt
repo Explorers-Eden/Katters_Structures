@@ -6,6 +6,9 @@ future:
 Pillager dungeon
 Herobrine dungeon
 Elden Ring Verlies
+Battle Towers
+
+special Totems
 
 ArborGrizz:
 A raccoon miniboss that spawns in lush caves seems fitting, and the pants stealing idea is hilarious lol
@@ -29,9 +32,6 @@ And as he stood beneath Epsilon’s golden skies, surrounded by people who truly
 This wasn’t a mission. This wasn’t a challenge. This was home.
 
 this update:
-
-
-Mini dungeon spawner tauschen
 
 
 

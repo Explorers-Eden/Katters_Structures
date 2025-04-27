@@ -1,1 +1,1 @@
-execute as @e[type=marker,tag=deep_blue.portal,tag=!setup,tag=!placed_portal] at @s run function kattersstructures:deep_blue/portal/remove/check
+execute as @e[type=marker,tag=deep_blue.portal,tag=has_data] at @s run function kattersstructures:deep_blue/portal/remove/check

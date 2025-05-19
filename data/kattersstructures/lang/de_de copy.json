@@ -1,6 +1,10 @@
 {
     "generic.kattersstructures.alcohol_poisoning": "Du hast dir zu viele Gläschen hinter die Binde gekippt und dir 'ne fette Alkoholvergiftung spendiert!",
 
+    "biome.kattersstructures.coralis": "Korallis",
+    "biome.kattersstructures.dark_chasm": "Dunkler Abgrund",
+    "biome.kattersstructures.deep_blue_plains": "Tief blaue ebene",
+
     "item.kattersstructures.boss_key": "Boss-Schlüssel",
     "item.kattersstructures.boss_key_lore_1": "Schlüssel, den ein Boss beim Stolpern verloren hat.",
     "item.kattersstructures.boss_key_lore_2": "Öffnet einen herrlich großen Schatz!",

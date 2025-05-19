@@ -1,5 +1,9 @@
 {
-    "accessibility.onboarding.accessibility.button": "You drank too much! And got yourself an alcohol poisoning.",
+    "generic.kattersstructures.alcohol_poisoning": "You drank too much! And got yourself an alcohol poisoning.",
+
+    "biome.kattersstructures.coralis": "Coralis",
+    "biome.kattersstructures.dark_chasm": "Dark Chasm",
+    "biome.kattersstructures.deep_blue_plains": "Deep Blue Plains",
 
     "item.kattersstructures.boss_key": "Boss Key",
     "item.kattersstructures.boss_key_lore_1": "Key, dropped by a Boss.",
@@ -146,7 +150,7 @@
     "advancement.kattersstructures.trader_outposts_description": "Discover a outpost where wandering traders find respite.",
     "advancement.kattersstructures.deep_blue_title": "The Deep Blue",
     "advancement.kattersstructures.deep_blue_description": "Do you have a breath?",
-    "advancement.kattersstructures.deep_blue_portal_title": "Anchient Power",
+    "advancement.kattersstructures.deep_blue_portal_title": "Ancient Power",
     "advancement.kattersstructures.deep_blue_portal_description": "Open a Portal to the Deep Dark.",
     "advancement.kattersstructures.deep_blue_lab_title": "Deep Sea Laboratory",
     "advancement.kattersstructures.deep_blue_lab_description": "Discovered the hidden laboratory of the ancient Nox, guardians of the deep.",

@@ -1,6 +1,10 @@
 {
     "generic.kattersstructures.alcohol_poisoning": "You drank too much! And got yourself an alcohol poisoning.",
 
+    "biome.kattersstructures.coralis": "Coralis",
+    "biome.kattersstructures.dark_chasm": "Dark Chasm",
+    "biome.kattersstructures.deep_blue_plains": "Deep Blue Plains",
+
     "item.kattersstructures.boss_key": "Boss Key",
     "item.kattersstructures.boss_key_lore_1": "Key, dropped by a Boss.",
     "item.kattersstructures.boss_key_lore_2": "Opens Great Treasure",

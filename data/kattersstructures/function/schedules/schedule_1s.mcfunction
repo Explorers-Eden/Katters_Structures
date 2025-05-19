@@ -15,6 +15,9 @@ execute as @a[scores={kattersstructures.alchemy_curse=..0}] run tag @s remove ka
 execute as @a[scores={kattersstructures.alchemy_curse=..0}] run scoreboard players reset @s kattersstructures.alchemy_curse
 
 
+execute as @e[type=marker,tag=katter.tenku.spawner] at @s run function kattersstructures:tenku/summoning
+
+
 function kattersstructures:deep_blue/portal/remove/init
 
 schedule function kattersstructures:schedules/schedule_1s 1s

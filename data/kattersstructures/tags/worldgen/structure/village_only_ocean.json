@@ -1,5 +1,5 @@
 {
     "values": [
-        "kattersstructures:village_ocean"
+        { "id": "kattersstructures:village_ocean","required": false}
     ]
   }

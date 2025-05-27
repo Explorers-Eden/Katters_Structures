@@ -1,8 +1,8 @@
 {
     "values": [
-        "kattersstructures:sky_dungeon",
-        "kattersstructures:skyrtle",
-        "kattersstructures:spider_den",
-        "kattersstructures:magic_tower"
+        { "id": "kattersstructures:sky_dungeon","required": false},
+        { "id": "kattersstructures:skyrtle","required": false},
+        { "id": "kattersstructures:spider_den","required": false},
+        { "id": "kattersstructures:magic_tower","required": false}
     ]
   }

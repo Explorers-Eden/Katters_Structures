@@ -5,6 +5,10 @@
 		"separation": 34,
 		"salt": 2045093513,
 		"spread_type": "triangular",
+		"exclusion_zone": {
+            "other_set": "kattersstructures:overworld_surface",
+            "chunk_count": 3
+        },
 		"frequency_reduction_method": "default",
 		"frequency": 0.6
 	},

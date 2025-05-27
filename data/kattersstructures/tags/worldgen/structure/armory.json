@@ -1,6 +1,6 @@
 {
     "values": [
-        "kattersstructures:armory"
+        { "id": "kattersstructures:armory","required": false}
     
     ]
   }

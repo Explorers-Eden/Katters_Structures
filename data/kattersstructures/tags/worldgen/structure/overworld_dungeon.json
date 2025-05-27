@@ -1,0 +1,12 @@
+{
+    "values": [
+        { "id": "kattersstructures:spider_den","required": false},
+        { "id": "kattersstructures:magic_tower","required": false},
+        { "id": "kattersstructures:desert_dungeon","required": false},
+        { "id": "kattersstructures:armory","required": false},
+        { "id": "kattersstructures:mini_dungeon_rugged_shack","required": false},
+        { "id": "kattersstructures:mini_dungeon_ruin","required": false},
+        { "id": "kattersstructures:mini_dungeon_stone","required": false},
+        { "id": "kattersstructures:mini_dungeon_tuff","required": false}
+    ]
+  }

@@ -2,7 +2,7 @@
     "name": "kattersstructures:armory/stairs",
     "fallback": "minecraft:empty",
     "elements": [{
-        "weight": 1,
+        "weight": 2,
         "element": {
             "location": "kattersstructures:armory/stairs/armory_stairs",
             "processors": "minecraft:empty",

@@ -1,7 +1,7 @@
 {
     "values": [
-        "kattersstructures:villager_desert",    
-        "kattersstructures:villager_mountain",    
-        "kattersstructures:villager_ocean"    
+        { "id": "kattersstructures:villager_desert","required": false},    
+        { "id": "kattersstructures:villager_mountain","required": false},    
+        { "id": "kattersstructures:villager_ocean","required": false}    
     ]
   }

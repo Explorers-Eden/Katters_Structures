@@ -1,0 +1,3 @@
+schedule function kattersstructures:items/raj_lightning_rod/revoke_advancement 2s
+
+advancement revoke @a only kattersstructures:technical/used_raj_lightning_rod

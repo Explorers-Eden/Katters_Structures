@@ -22,7 +22,7 @@
       }
     },
     "rewards": {
-      "function": "kattersstructures:raj_lightning_rod/run"
+      "function": "kattersstructures:items/raj_lightning_rod/run"
     }
   }
   

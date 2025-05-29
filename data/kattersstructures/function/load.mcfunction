@@ -1,7 +1,3 @@
-##init schedules
-function kattersstructures:schedules/on_load
-schedule function kattersstructures:bossbars_run 10t
-
 ##remove temp storage
 data remove storage kattersstructures:temp theron.talking
 
@@ -13,7 +9,6 @@ scoreboard objectives add kattersstructures.technical dummy
 scoreboard objectives add kattersstructures.tenku dummy
 scoreboard objectives add kattersstructures.arachne dummy
 scoreboard objectives add kattersstructures.theron dummy
-
 
 scoreboard objectives add kattersstructures.raj_lightning dummy
 

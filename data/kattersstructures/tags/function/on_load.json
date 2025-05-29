@@ -4,10 +4,21 @@
         "kattersstructures:villages/mesa/alcohol_poisoning/init",
         "kattersstructures:items/alchemy_curse/init",
         "kattersstructures:deep_blue/portal/remove/init",
-        "kattersstructure:deep_blue/portal/teleport/cooldown_check",
+        "kattersstructures:deep_blue/portal/teleport/cooldown_check",
         "kattersstructures:boss/tenku/summoning",
         "kattersstructures:boss/raj/run",
         "kattersstructures:boss/arachne/run",
-        "kattersstructures:boss/theron/run"
+        "kattersstructures:boss/theron/run",
+        "kattersstructures:boss/tenku/run",
+        "kattersstructures:misc/remove_raj",
+        "kattersstructures:boss/raj/kill",
+        "kattersstructures:deep_blue/portal/particles",
+        "kattersstructures:boss/theron/rotate_orb",
+        "kattersstructures:boss/defense",
+        "kattersstructures:items/raj_lightning_rod/revoke_advancement",
+        "kattersstructures:villages/mesa/init",
+        "kattersstructures:villages/birch/init",
+        "kattersstructures:boss/raj/lightning",
+        "kattersstructures:bossbars_run"
     ]
 }

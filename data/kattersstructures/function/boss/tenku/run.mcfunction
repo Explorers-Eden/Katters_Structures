@@ -1,4 +1,5 @@
-schedule function kattersstructures:boss/raj/run 1s
+schedule function kattersstructures:boss/tenku/run 1t
+execute unless entity @e[type=turtle,tag=katter.tenku.vehicle] run return fail
 
 execute as @e[type=guardian,tag=katter.tenku.helper] at @s unless entity @e[type=turtle,tag=katter.tenku.vehicle,distance=..64] run kill @s
 execute as @e[type=guardian,tag=katter.tenku.helper] at @s unless data entity @s Passengers run kill @s

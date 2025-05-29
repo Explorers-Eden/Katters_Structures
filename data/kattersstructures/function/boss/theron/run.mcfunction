@@ -1,5 +1,8 @@
 schedule function kattersstructures:boss/theron/run  1s
 
+#summon
+execute as @e[type=marker,tag=katter.theron.spawner] at @s if entity @e[type=player,distance=..100] run function kattersstructures:boss/theron/summoning
+
 #inital activation
 execute as @e[type=illusioner,tag=katter.theron.boss.inactive,tag=!katter.theron.boss.running] at @s if entity @e[type=player,distance=..20] run function kattersstructures:theron/activate
 
@@ -20,7 +23,6 @@ execute as @e[type=block_display,tag=katter.theron.phase_07] at @s unless entity
 execute as @e[type=block_display,tag=katter.theron.phase_08] at @s unless entity @n[type=ravager,tag=katter.theron.boss,distance=..120] run function kattersstructures:theron/winn
 
 #talk
-
 execute as @e[type=block_display,tag=katter.theron.phase_01] if predicate kattersstructures:percentages/10 at @s run function kattersstructures:theron/talk/talk_arrogant
 execute as @e[type=block_display,tag=katter.theron.phase_03] if predicate kattersstructures:percentages/5 at @s run function kattersstructures:theron/talk/talk_arrogant
 execute as @e[type=block_display,tag=katter.theron.phase_03] if predicate kattersstructures:percentages/5 at @s run function kattersstructures:theron/talk/talk_boast

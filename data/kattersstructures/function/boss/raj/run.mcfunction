@@ -1,3 +1,5 @@
+schedule function kattersstructures:boss/raj/run 1s
+
 execute as @e[type=marker,tag=katter.raj.spawner] at @s if entity @e[type=player,distance=..16] run function kattersstructures:raj/summon_at_marker
 
 execute store result storage kattersstructures:raj lightning_x int 1 run random value 5..16

@@ -7,6 +7,7 @@
         "kattersstructure:deep_blue/portal/teleport/cooldown_check",
         "kattersstructures:boss/tenku/summoning",
         "kattersstructures:boss/raj/run",
-        "kattersstructures:boss/arachne/run"
+        "kattersstructures:boss/arachne/run",
+        "kattersstructures:boss/theron/run"
     ]
 }

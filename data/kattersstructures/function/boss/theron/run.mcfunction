@@ -1,3 +1,5 @@
+schedule function kattersstructures:boss/theron/run  1s
+
 #inital activation
 execute as @e[type=illusioner,tag=katter.theron.boss.inactive,tag=!katter.theron.boss.running] at @s if entity @e[type=player,distance=..20] run function kattersstructures:theron/activate
 

@@ -14,7 +14,7 @@
       }
     },
     "rewards": {
-      "function": "kattersstructures:mesa_village/remove_alcohol_poisoning"
+      "function": "kattersstructures:villages/mesa/alcohol_poisoning/remove"
     }
   }
   

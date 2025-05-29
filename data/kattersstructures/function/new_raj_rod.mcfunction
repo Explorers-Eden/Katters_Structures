@@ -1,1 +1,0 @@
-execute as @a if items entity @s weapon.mainhand minecraft:blaze_rod[item_name={bold:false,color:"white",italic:false,text:"Raj's Lightning Rod"},!enchantments={"kattersstructures:enlightning":1}] run item modify entity @s weapon.mainhand [{"function":"minecraft:set_enchantments","enchantments":{"kattersstructures:enlightning":1},}]

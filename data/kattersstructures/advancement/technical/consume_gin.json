@@ -7,14 +7,14 @@
             "items": "minecraft:potion",
             "count": 1,
             "components": {
-              "minecraft:custom_name": {color:"dark_aqua",fallback:"Gin",translate:"item.kattersstructures.gin"}
+              "minecraft:custom_name": {"color":"dark_aqua","fallback":"Gin","translate":"item.kattersstructures.gin"}
             }
           }
         }
       }
     },
     "rewards": {
-      "function": "kattersstructures:mesa_village/poisoning_gin"
+      "function": "kattersstructures:villages/mesa/alcohol_poisoning/trigger/gin"
     }
   }
   

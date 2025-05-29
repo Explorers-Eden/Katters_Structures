@@ -41,4 +41,7 @@ Doing
 
 Done
 
-
+Skyhold placement fix
+armory improved
+structure gen überarbeitet
+no natual spawning guadians in Skyrtle

@@ -14,7 +14,7 @@
       }
     },
     "rewards": {
-      "function": "kattersstructures:mesa_village/poisoning_vodka"
+      "function": "kattersstructures:villages/mesa/alcohol_poisoning/trigger/vodka"
     }
   }
   

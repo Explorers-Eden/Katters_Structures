@@ -7,14 +7,18 @@
             "items": "minecraft:potion",
             "count": 1,
             "components": {
-              "minecraft:custom_name": {color:"gold",fallback:"Beer",translate:"item.kattersstructures.beer"}
+              "minecraft:custom_name": {
+                "color":"gold",
+                "fallback":"Beer",
+                "translate":"item.kattersstructures.beer"
+              }
             }
           }
         }
       }
     },
     "rewards": {
-      "function": "kattersstructures:mesa_village/poisoning_beer"
+      "function": "kattersstructures:villages/mesa/poisoning_beer"
     }
   }
   

@@ -1,7 +1,5 @@
 
 
-function kattersstructures:raj/run
-function kattersstructures:arachne/run
 execute as @e[type=marker,tag=katter.theron.spawner] at @s if entity @e[type=player,distance=..100] run function kattersstructures:theron/summoning
 function kattersstructures:theron/run
 

@@ -14,7 +14,7 @@
       }
     },
     "rewards": {
-      "function": "kattersstructures:mesa_village/coffee_timer"
+      "function": "kattersstructures:villages/mesa/coffee/trigger"
     }
   }
   

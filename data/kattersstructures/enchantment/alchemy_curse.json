@@ -24,7 +24,7 @@
         {
           "effect": {
             "type": "minecraft:run_function",
-            "function": "kattersstructures:alchemy_curse"
+            "function": "kattersstructures:items/alchemy_curse/init"
           }
         }
       ]

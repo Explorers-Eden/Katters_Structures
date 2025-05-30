@@ -20,7 +20,7 @@
         {
           "effect": {
             "type": "minecraft:run_function",
-            "function": "kattersstructures:raj/armor_particles"
+            "function": "kattersstructures:boss/raj/armor_particles"
           }
         }
       ]

@@ -28,7 +28,7 @@
           "affected": "victim",
           "effect": {
             "type": "minecraft:run_function",
-            "function": "kattersstructures:raj/lightning_particles"
+            "function": "kattersstructures:boss/raj/lightning_particles"
           }
         }
       ],
@@ -42,7 +42,7 @@
         {
           "effect": {
             "type": "minecraft:run_function",
-            "function": "kattersstructures:raj/lightning_particles"
+            "function": "kattersstructures:boss/raj/lightning_particles"
           }
         }
       ]

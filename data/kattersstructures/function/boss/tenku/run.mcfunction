@@ -14,6 +14,6 @@ execute as @e[type=player] at @s unless entity @e[type=turtle,tag=katter.tenku.v
 
 function kattersstructures:boss/tenku/dolphins
 function kattersstructures:boss/tenku/push_player_away
-execute if predicate kattersstructures:percentages/10 run function kattersstructures:tenku/attacks/ominous
+execute if predicate kattersstructures:percentages/10 run function kattersstructures:boss/tenku/attacks/ominous
 execute if predicate kattersstructures:percentages/10 as @e[type=player] at @s if entity @e[type=turtle,tag=katter.tenku.vehicle,distance=..12] run function kattersstructures:boss/tenku/helper/spawn
 execute if predicate kattersstructures:percentages/10 as @e[type=player] at @s if entity @e[type=turtle,tag=katter.tenku.vehicle,distance=13..] run function kattersstructures:boss/tenku/attacks/beam_start

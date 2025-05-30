@@ -41,7 +41,7 @@
         {
           "effect": {
             "type": "minecraft:run_function",
-            "function": "kattersstructures:crystal_curse"
+            "function": "kattersstructures:items/crystal_curse"
           }
         }
       ]

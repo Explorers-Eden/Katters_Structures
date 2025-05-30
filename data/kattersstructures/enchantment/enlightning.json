@@ -34,7 +34,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "kattersstructures:raj_lightning_rod/enlightning"
+          "function": "kattersstructures:items/raj_lightning_rod/enlightning"
         },
         "requirements": {
           "condition": "minecraft:block_state_property",

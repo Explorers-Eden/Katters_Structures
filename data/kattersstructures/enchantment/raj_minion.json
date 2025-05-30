@@ -22,7 +22,7 @@
           "affected": "attacker",
           "effect": {
             "type": "minecraft:run_function",
-            "function": "kattersstructures:raj/summon_minion"
+            "function": "kattersstructures:boss/raj/summon_minion"
           }
         }
       ]

@@ -1,5 +1,7 @@
-schedule function kattersstructures:items/alchemy_curse/init 1s
+execute store result score $kattersstructures.alchemy.curse kattersstructures.technical run random value 1..39
 
-scoreboard players remove @a[tag=katters_structures.alchemy_curse,scores={kattersstructures.alchemy_curse=0..}] kattersstructures.alchemy_curse 1
-execute as @a[scores={kattersstructures.alchemy_curse=..0}] run tag @s remove katters_structures.alchemy_curse
-execute as @a[scores={kattersstructures.alchemy_curse=..0}] run scoreboard players reset @s kattersstructures.alchemy_curse
+execute if entity @s[tag=!katters_structures.alchemy_curse] run function kattersstructures:items/alchemy_curse/effect
+
+execute if entity @s[tag=!katters_structures.alchemy_curse] run scoreboard players add @s kattersstructures.alchemy_curse 4
+tag @s add katters_structures.alchemy_curse
+

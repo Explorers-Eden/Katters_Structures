@@ -20,6 +20,6 @@
       ]
     ],
     "rewards": {
-      "function": "kattersstructures:theron_spells/the_beast_within"
+      "function": "kattersstructures:items/theron_spells/the_beast_within"
     }
   }

@@ -18,7 +18,7 @@
       }
     },
     "rewards": {
-      "function": "kattersstructures:villages/mesa/poisoning_beer"
+      "function": "kattersstructures:villages/mesa/alcohol_poisoning/trigger/beer"
     }
   }
   

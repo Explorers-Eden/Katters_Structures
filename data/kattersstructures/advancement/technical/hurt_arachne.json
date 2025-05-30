@@ -11,7 +11,7 @@
       }
     },
     "rewards": {
-      "function": "kattersstructures:arachne/spawn_help"
+      "function": "kattersstructures:boss/arachne/spawn_help"
     }
   }
   

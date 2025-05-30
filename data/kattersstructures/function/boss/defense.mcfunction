@@ -1,4 +1,5 @@
 schedule function kattersstructures:boss/defense 1t
+
 execute unless entity @e[type=#kattersstructures:projectiles] run return fail
 
 execute as @e[type=#kattersstructures:projectiles] at @s if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"nbt":"{inGround:0b}"}} if entity @e[type=spider,tag=katter.arachne.boss,distance=..10] run data modify entity @s Motion set value [0d,-1d,0d]

@@ -3,8 +3,8 @@ tag @s add katter.theron.phase_04
 
 tp @n[type=illusioner,tag=katter.theron.boss.active] ~ ~15 ~
 
-execute as @n[type=illusioner,tag=katter.theron.boss.active] at @s run function kattersstructures:theron/deactivated
+execute as @n[type=illusioner,tag=katter.theron.boss.active] at @s run function kattersstructures:boss/theron/deactivated
 
-function kattersstructures:theron/talk/talk_retreat
+function kattersstructures:boss/theron/talk/talk_retreat
 
-execute as @s at @s run function kattersstructures:theron/minion/wave
+execute as @s at @s run function kattersstructures:boss/theron/minion/wave

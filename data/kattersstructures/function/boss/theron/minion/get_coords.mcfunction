@@ -18,4 +18,4 @@ execute store result storage ks:temp boss.pos.x int 1 run scoreboard players get
 data modify storage ks:temp boss.pos.y set from entity @s Pos[1]
 execute store result storage ks:temp boss.pos.z int 1 run scoreboard players get $z_input kattersstructures.technical
 
-function kattersstructures:theron/minion/exec_summon with storage ks:temp boss.pos
+function kattersstructures:boss/theron/minion/exec_summon with storage ks:temp boss.pos

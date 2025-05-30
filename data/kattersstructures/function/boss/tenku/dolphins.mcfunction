@@ -31,4 +31,4 @@ execute as @e[type=dolphin,tag=katter.tenku.asset] at @s unless entity @e[type=t
 execute as @e[type=armor_stand,tag=katter.tenku.asset] at @s unless entity @e[type=turtle,tag=katter.tenku.vehicle,distance=..12] run kill @s
 
 execute as @e[type=turtle,tag=katter.tenku.vehicle] at @s unless entity @e[type=armor_stand,tag=katter.tenku.rider.base,distance=..12] run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["katter.tenku.asset","katter.tenku.rider.base"]}
-execute as @e[type=turtle,tag=katter.tenku.vehicle] at @s unless entity @e[type=dolphin,tag=katter.tenku.asset,distance=..16] run function kattersstructures:tenku/spawn_assets
+execute as @e[type=turtle,tag=katter.tenku.vehicle] at @s unless entity @e[type=dolphin,tag=katter.tenku.asset,distance=..16] run function kattersstructures:boss/tenku/spawn_assets

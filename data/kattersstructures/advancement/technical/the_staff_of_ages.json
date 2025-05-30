@@ -20,6 +20,6 @@
       ]
     ],
     "rewards": {
-      "function": "kattersstructures:theron_spells/the_staff_of_ages"
+      "function": "kattersstructures:items/theron_spells/the_staff_of_ages"
     }
   }

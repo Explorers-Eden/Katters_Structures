@@ -12,7 +12,7 @@
       }
     },
     "rewards": {
-      "function": "kattersstructures:tenku/helper/spawn"
+      "function": "kattersstructures:boss/tenku/helper/spawn"
     }
   }
   

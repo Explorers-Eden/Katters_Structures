@@ -9,6 +9,6 @@ execute if score $kattersstructures.the_beast_within kattersstructures.technical
 
 
 execute at @s if score $kattersstructures.the_beast_within kattersstructures.technical matches 10 run tag @s add katters_structures.beast_winns
-execute as @s at @s if score $kattersstructures.the_beast_within kattersstructures.technical matches 10 run schedule function kattersstructures:theron_spells/kill_player 3t
+execute as @s at @s if score $kattersstructures.the_beast_within kattersstructures.technical matches 10 run schedule function kattersstructures:items/theron_spells/kill_player 3t
 
 

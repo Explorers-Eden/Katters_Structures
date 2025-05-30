@@ -20,6 +20,6 @@
       ]
     ],
     "rewards": {
-      "function": "kattersstructures:theron_spells/weather_shaper"
+      "function": "kattersstructures:items/theron_spells/weather_shaper"
     }
   }

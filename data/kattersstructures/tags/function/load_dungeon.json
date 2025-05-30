@@ -1,0 +1,16 @@
+{
+    "values": [
+        "kattersstructures:boss/tenku/summoning",
+        "kattersstructures:boss/tenku/run",
+        "kattersstructures:boss/raj/run",
+        "kattersstructures:boss/raj/kill",
+        "kattersstructures:boss/raj/lightning",
+        "kattersstructures:boss/arachne/run",
+        "kattersstructures:boss/theron/run",
+        "kattersstructures:boss/theron/rotate_orb",
+        "kattersstructures:boss/defense",
+        "kattersstructures:bossbars_run",
+        "kattersstructures:items/raj_lightning_rod/revoke_advancement",
+        "kattersstructures:misc/remove_raj"
+    ]
+}

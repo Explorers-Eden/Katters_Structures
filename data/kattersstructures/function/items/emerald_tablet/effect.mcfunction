@@ -3,4 +3,4 @@ execute store result score $emerald_tablet kattersstructures.technical run rando
 execute if score $emerald_tablet kattersstructures.technical matches ..99 run tellraw @s {"color":"gray","text":"The Pages are empty..."}
 execute if score $emerald_tablet kattersstructures.technical matches 100 run spreadplayers ~ ~ 0 200 false @s
 
-schedule function kattersstructures:reset_emerald_tablet 2s
+schedule function kattersstructures:items/emerald_tablet/reset 2s

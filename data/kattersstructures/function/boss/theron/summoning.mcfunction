@@ -1,2 +1,2 @@
-function kattersstructures:theron/spawn
+function kattersstructures:boss/theron/spawn
 kill @s

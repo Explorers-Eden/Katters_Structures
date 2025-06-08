@@ -1,0 +1,25 @@
+{
+    "criteria": {
+      "the_staff_of_ages": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:blaze_rod",
+            "components": {
+              "minecraft:custom_data": {
+                "kattersstructures": "the_staff_of_ages_nm"
+              }
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "the_staff_of_ages"
+      ]
+    ],
+    "rewards": {
+      "function": "kattersstructures:items/theron_spells_nm/the_staff_of_ages"
+    }
+  }

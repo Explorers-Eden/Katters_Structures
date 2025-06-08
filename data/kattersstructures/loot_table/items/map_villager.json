@@ -1,0 +1,48 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:map",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1
+						},
+						{
+              				"function": "minecraft:exploration_map",
+              				"destination": "kattersstructures:villager",
+              				"decoration": "monument",
+              				"zoom": 1,
+            				"skip_existing_chunks": true
+         				},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"target": "custom_name",
+							"name": {
+								"translate": "item.kattersstructures.map_villager.name",
+								"fallback": "Villager Map"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "item.kattersstructures.map_villager.lore",
+									"fallback": "Shows the location of a Katters Structure Villager Statue"
+								}
+							],
+							"mode": "insert"
+						}
+					]
+				}
+			]
+		}
+	]
+}

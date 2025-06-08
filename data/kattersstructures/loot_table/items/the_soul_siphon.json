@@ -27,10 +27,10 @@
 										}
 									]
 								},
-                                "minecraft:item_name": {color:"dark_purple",fallback:"The Soul Siphon",translate:"item.kattersstructures.the_soul_siphon"},
+                                "minecraft:item_name": {"color":"dark_purple","fallback":"The Soul Siphon","translate":"item.kattersstructures.the_soul_siphon"},
 								"minecraft:item_model": "kattersstructures:the_soul_siphon",
                                 "minecraft:lore": [
-                	                {fallback:"Consumes 3 Levels to cast",translate:"item.kattersstructures.the_soul_siphon_lore_1"}
+                	                {"fallback":"Consumes 3 Levels to cast","translate":"item.kattersstructures.the_soul_siphon_lore_1"}
               	                ],
 								"minecraft:max_stack_size": 1,
 								"minecraft:use_cooldown": {

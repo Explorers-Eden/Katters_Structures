@@ -1,0 +1,2 @@
+
+give @p blaze_rod[consumable={consume_seconds:1,animation:"bow",sound:"entity.evoker.cast_spell",has_consume_particles:false,on_consume_effects:[{type:"minecraft:play_sound",sound:"entity.illusioner.cast_spell"}]},item_name={color:"dark_red",fallback:"The Beast within",translate:"item.kattersstructures.the_beast_within"},lore=[{fallback:"Consumes 3 Levels to cast",translate:"item.kattersstructures.the_beast_within_lore_1"}],max_stack_size=1,use_cooldown={seconds:100,cooldown_group:"kattersstructures:the_beast_within"},custom_data={kattersstructures:the_beast_within_nm}] 1

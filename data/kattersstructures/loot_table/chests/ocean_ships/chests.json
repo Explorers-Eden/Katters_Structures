@@ -150,39 +150,9 @@
 			"bonus_rolls": 0,
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:map",
-					"weight": 1,
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": 1
-						},
-						{
-							"function": "minecraft:exploration_map",
-							"destination": "kattersstructures:village_only_ocean",
-							"decoration": "village_snowy",
-							"zoom": 1,
-							"skip_existing_chunks": true
-						},
-						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"target": "custom_name",
-							"name": "Ocean Village Map"
-						},
-						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"lore": [
-								{
-									"text": "Shows the location of a Katters Structure Ocean Village"
-								}
-							],
-							"mode": "insert"
-						}
-					]
-				}
+					"type": "minecraft:loot_table",
+					"value": "kattersstructures:items/map_village"
+				}					
 			],
 			"conditions": [
 				{

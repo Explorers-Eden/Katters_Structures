@@ -1,0 +1,48 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:map",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1
+						},
+						{
+              				"function": "minecraft:exploration_map",
+              				"destination": "kattersstructures:dungeon",
+              				"decoration": "target_x",
+              				"zoom": 1,
+              					"skip_existing_chunks": true
+            			},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"target": "custom_name",
+							"name": {
+								"translate": "item.kattersstructures.map_dungeon.name",
+								"fallback": "Dungeon Map"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "item.kattersstructures.map_dungeon.lore",
+									"fallback": "Shows the location of a Katters Structure Dungeon"
+								}
+							],
+							"mode": "insert"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -120,15 +120,26 @@
 						},
 						{
 							"function": "minecraft:exploration_map",
-							"destination": "kattersstructures:village_cherry",
+							"destination": "kattersstructures:village",
 							"decoration": "village_plains",
 							"zoom": 1,
 							"skip_existing_chunks": true,
 							"conditions": [
 								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"structures": "!#kattersstructures:village"
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:location_check",
+										"predicate": {
+											"structures": [
+												"kattersstructures:village_birch",
+												"kattersstructures:village_cherry",
+												"kattersstructures:village_jungle",
+												"kattersstructures:village_mesa",
+												"kattersstructures:village_ocean",
+												"kattersstructures:village_sky",
+												"kattersstructures:village_swamp"
+											]
+										}
 									}
 								}
 							]

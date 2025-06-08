@@ -1,5 +1,7 @@
 schedule function kattersstructures:boss/tenku/run 1t
 
+execute if data storage kattersstructures:temp settings{tenku:0b} run return fail
+
 execute as @e[type=dolphin,tag=katter.tenku.asset] at @s unless entity @e[type=turtle,tag=katter.tenku.vehicle,distance=..12] run kill @s
 execute as @e[type=armor_stand,tag=katter.tenku.asset] at @s unless entity @e[type=turtle,tag=katter.tenku.vehicle,distance=..12] run kill @s
 

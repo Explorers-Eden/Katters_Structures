@@ -1,0 +1,25 @@
+{
+    "criteria": {
+      "the_soul_siphon": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:blaze_rod",
+            "components": {
+              "minecraft:custom_data": {
+                "kattersstructures": "the_soul_siphon_nm"
+              }
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "the_soul_siphon"
+      ]
+    ],
+    "rewards": {
+      "function": "kattersstructures:items/theron_spells_nm/the_soul_siphon"
+    }
+  }

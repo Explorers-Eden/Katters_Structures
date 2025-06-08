@@ -1,5 +1,7 @@
 schedule function kattersstructures:boss/arachne/run 2s
 
+execute if data storage kattersstructures:temp settings{arachne:0b} run return fail
+
 execute as @e[type=spider,tag=katter.arachne.boss] store result score @s kattersstructures.arachne run data get entity @s Health
 
 execute if score @n[type=spider,tag=katter.arachne.boss] kattersstructures.arachne matches 60..90 run function kattersstructures:boss/arachne/attack_easy

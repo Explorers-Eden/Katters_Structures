@@ -1,5 +1,7 @@
 schedule function kattersstructures:boss/theron/run 1s
 
+execute if data storage kattersstructures:temp settings{theron:0b} run return fail
+
 #summon
 execute as @e[type=marker,tag=katter.theron.spawner] at @s if entity @e[type=player,distance=..100] run function kattersstructures:boss/theron/summoning
 

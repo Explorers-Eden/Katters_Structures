@@ -122,106 +122,17 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:map",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:exploration_map",
-              "destination": "kattersstructures:village",
-              "decoration": "village_plains",
-              "zoom": 1,
-              "skip_existing_chunks": true
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "target": "custom_name",
-              "name": "Village Map"
-            },
-            {
-              "function": "minecraft:set_lore",
-              "entity": "this",
-              "lore": [
-                {
-                  "text": "Shows the location of a Katters Structure Village"
-                }
-              ],
-              "mode": "insert"
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "value": "kattersstructures:items/map_village",
+		  "weight": 5
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:map",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:exploration_map",
-              "destination": "kattersstructures:villager",
-              "decoration": "monument",
-              "zoom": 1,
-              "skip_existing_chunks": true
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "target": "custom_name",
-              "name": "Villager Map"
-            },
-            {
-              "function": "minecraft:set_lore",
-              "entity": "this",
-              "lore": [
-                {
-                  "text": "Shows the location of a Katters Structure Villager Statue"
-                }
-              ],
-              "mode": "insert"
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "value": "kattersstructures:items/map_villager"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:map",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:exploration_map",
-              "destination": "kattersstructures:dungeon",
-              "decoration": "target_x",
-              "zoom": 1,
-              "skip_existing_chunks": true
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "target": "custom_name",
-              "name": "Dungeon Map"
-            },
-            {
-              "function": "minecraft:set_lore",
-              "entity": "this",
-              "lore": [
-                {
-                  "text": "Shows the location of a Katters Structure Dungeon"
-                }
-              ],
-              "mode": "insert"
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "value": "kattersstructures:items/map_dungeon"
         }
       ]
     }

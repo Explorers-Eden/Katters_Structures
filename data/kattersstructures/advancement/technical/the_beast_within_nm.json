@@ -1,0 +1,25 @@
+{
+    "criteria": {
+      "the_beast_within": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:blaze_rod",
+            "components": {
+              "minecraft:custom_data": {
+                "kattersstructures": "the_beast_within_nm"
+              }
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "the_beast_within"
+      ]
+    ],
+    "rewards": {
+      "function": "kattersstructures:items/theron_spells_nm/the_beast_within"
+    }
+  }

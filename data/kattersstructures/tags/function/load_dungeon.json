@@ -9,8 +9,10 @@
         "kattersstructures:boss/theron/run",
         "kattersstructures:boss/theron/rotate_orb",
         "kattersstructures:boss/defense",
-        "kattersstructures:bossbars_run",
+        "kattersstructures:boss/bossbar/run",
         "kattersstructures:items/raj_lightning_rod/revoke_advancement",
-        "kattersstructures:misc/remove_raj"
+        "kattersstructures:misc/remove_boss_enchantments",
+        "kattersstructures:items/raj_rod_block/placement/init",
+	    "kattersstructures:items/raj_rod_block/lightning"
     ]
 }

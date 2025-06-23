@@ -72,7 +72,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "kattersstructures:entity/raj_lightning_rod"
+          "value": "kattersstructures:items/raj_lightning_rod"
         }
       ]
     },

@@ -37,7 +37,7 @@
             {
               "items": "minecraft:blaze_rod",
               "components": {
-                "minecraft:item_name": {color:"gold",text:"Burning sceptre"}
+                "minecraft:item_name": {"color":"gold","text":"Burning sceptre"}
               }
             }
           ]

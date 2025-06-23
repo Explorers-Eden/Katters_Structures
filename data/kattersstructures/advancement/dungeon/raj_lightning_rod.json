@@ -37,7 +37,7 @@
             {
               "items": "minecraft:blaze_rod",
               "components": {
-                "minecraft:item_name": {bold:false,color:"white",italic:false,text:"Raj's Lightning Rod"}
+                "minecraft:item_name": {"bold":false,"color":"white","italic":false,"text":"Raj's Lightning Rod"}
               }
             }
           ]

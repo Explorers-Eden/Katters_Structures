@@ -1,4 +1,4 @@
-schedule function kattersstructures:misc/remove_raj 10s
+schedule function kattersstructures:misc/remove_boss_enchantments 10s
 
 execute as @a if items entity @s weapon.mainhand minecraft:crossbow run item modify entity @s weapon.mainhand [{"function":"minecraft:set_enchantments","enchantments":{"kattersstructures:raj_lightning":0},"conditions":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"equipment":{"mainhand":{"predicates":{"minecraft:enchantments":[{"enchantments":"kattersstructures:raj_lightning","levels":{"min":0,"max":50}}]}}}}}]}]
 execute as @a if items entity @s weapon.offhand minecraft:crossbow run item modify entity @s weapon.offhand [{"function":"minecraft:set_enchantments","enchantments":{"kattersstructures:raj_lightning":0},"conditions":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"equipment":{"offhand":{"predicates":{"minecraft:enchantments":[{"enchantments":"kattersstructures:raj_lightning","levels":{"min":0,"max":50}}]}}}}}]}]

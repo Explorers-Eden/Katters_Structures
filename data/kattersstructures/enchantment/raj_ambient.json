@@ -1,5 +1,5 @@
 {
-    "description": "Raj Ambient",
+    "description": "boss.raj_ambient",
     "supported_items": "#minecraft:enchantable/chest_armor",
     "weight": 1,
     "max_level": 1,

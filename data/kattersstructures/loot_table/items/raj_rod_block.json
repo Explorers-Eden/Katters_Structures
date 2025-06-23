@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:lightning_rod",
+                "minecraft:max_stack_size": 64,
+                "minecraft:item_name": {
+                  "fallback":"Raj's Lightning Rod holder",
+                  "translate":"blocks.kattersstructures.raj_rod.name"
+                },
+                "minecraft:lore": [
+				          {
+					          "translate": "blocks.kattersstructures.raj_rod.lore01",
+					          "fallback": "Place this holder and give it a \"Raj's Lightning Rod\""
+				          },
+				          {
+					          "translate": "blocks.kattersstructures.raj_rod.lore02",
+					          "fallback": "to periodically spawn Lightnings around it"
+				          }
+			          ],
+                "minecraft:entity_data": {
+                  "id": "minecraft:armor_stand",
+                  "Small": 1,
+                  "Invulnerable": 1,
+                  "ShowArms": 1,
+                  "Marker": 1,
+                  "DisabledSlots": 4144959,
+                  "NoBasePlate": 1,
+                  "Invisible": 1,
+                  "Tags": [
+                    "kattersstructures.raj_rod_block"
+                  ]
+                },
+                "minecraft:rarity": "uncommon",
+                "minecraft:custom_data": {
+                  "kattersstructures": "kattersstructures:raj_rod_block"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

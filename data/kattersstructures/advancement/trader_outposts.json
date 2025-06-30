@@ -7,7 +7,6 @@
       "title": {
       "translate": "advancement.kattersstructures.trader_outposts_title",
       "fallback": "The Wandering Trader's Rest"
-      
     },
     "description": {
       "translate": "advancement.kattersstructures.trader_outposts_description",
@@ -35,4 +34,3 @@
     },
     "sends_telemetry_event": true
   }
-  

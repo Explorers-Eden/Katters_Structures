@@ -1,0 +1,15 @@
+{
+    "name": "kattersstructures:fossils/mosa_2",
+    "fallback": "minecraft:empty",
+    "elements": [
+    {
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "kattersstructures:fossile_big",
+            "location": "kattersstructures:fossils/fossils_mosa_p3"
+        }
+    }
+]
+}

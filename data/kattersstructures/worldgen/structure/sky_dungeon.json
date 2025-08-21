@@ -1,5 +1,8 @@
 {
-    "biomes": "minecraft:old_growth_pine_taiga",
+    "biomes": [
+      "minecraft:old_growth_pine_taiga",
+      "minecraft:old_growth_spruce_taiga"
+    ],
     "spawn_overrides": {},
     "type": "minecraft:jigsaw",
     "start_pool": "kattersstructures:sky_dungeo/start",

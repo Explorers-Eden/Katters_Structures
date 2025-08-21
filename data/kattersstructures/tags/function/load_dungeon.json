@@ -13,6 +13,8 @@
         "kattersstructures:items/raj_lightning_rod/revoke_advancement",
         "kattersstructures:misc/remove_boss_enchantments",
         "kattersstructures:items/raj_rod_block/placement/init",
-	    "kattersstructures:items/raj_rod_block/lightning"
+	    "kattersstructures:items/raj_rod_block/lightning",
+        "kattersstructures:boss/rusta/spawn",
+        "kattersstructures:boss/rusta/run"
     ]
 }

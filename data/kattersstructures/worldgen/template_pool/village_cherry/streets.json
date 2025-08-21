@@ -1,7 +1,8 @@
 {
     "name": "kattersstructures:village_cherry/streets",
     "fallback": "minecraft:empty",
-    "elements": [{
+    "elements": [
+    {
         "weight": 4,
         "element": {
             "element_type": "minecraft:empty_pool_element"

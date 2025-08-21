@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:pillager_spawn_egg",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.pillager_village_title",
+      "fallback": "Not So Friendly Neighbors"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.pillager_village_description",
+      "fallback": "You discovered the illager's dangerous, fenced home."
+    }
+    },
+    "parent": "kattersstructures:root",
+    "criteria": {
+      "pillager_village": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:pillager_village"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

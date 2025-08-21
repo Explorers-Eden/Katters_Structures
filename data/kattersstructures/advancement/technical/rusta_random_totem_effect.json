@@ -1,0 +1,21 @@
+{
+	"parent": "kattersstructures:dungeon/pillager_village",
+	"criteria": {
+		"rusta_random_totem_effect": {
+			"trigger": "minecraft:used_totem",
+			"conditions": {
+				"item": {
+					"items": "minecraft:totem_of_undying",
+					"predicates": {
+						"minecraft:custom_data": {
+							"kattersstructures.rusta_random_totem": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "kattersstructures:items/rusta_random_totem/init"
+	}
+}

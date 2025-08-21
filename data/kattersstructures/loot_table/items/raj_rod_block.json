@@ -22,23 +22,23 @@
                 },
                 "minecraft:lore": [
 				          {
-					          "translate": "blocks.kattersstructures.raj_rod.lore01",
+					          "translate": "blocks.kattersstructures.raj_rod.lore_1",
 					          "fallback": "Place this holder and give it a \"Raj's Lightning Rod\""
 				          },
 				          {
-					          "translate": "blocks.kattersstructures.raj_rod.lore02",
+					          "translate": "blocks.kattersstructures.raj_rod.lore_2",
 					          "fallback": "to periodically spawn Lightnings around it"
 				          }
 			          ],
                 "minecraft:entity_data": {
                   "id": "minecraft:armor_stand",
-                  "Small": 1,
-                  "Invulnerable": 1,
-                  "ShowArms": 1,
-                  "Marker": 1,
+                  "Small": true,
+                  "Invulnerable": true,
+                  "ShowArms": true,
+                  "Marker": true,
                   "DisabledSlots": 4144959,
-                  "NoBasePlate": 1,
-                  "Invisible": 1,
+                  "NoBasePlate": true,
+                  "Invisible": true,
                   "Tags": [
                     "kattersstructures.raj_rod_block"
                   ]

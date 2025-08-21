@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:dandelion"
+		},
+		"title": {
+			"translate": "advancement.kattersstructures.flower_present_title",
+			"fallback": "Thank you so much for the flowers. How sweet of you."
+		},
+		"description": {
+			"translate": "advancement.kattersstructures.flower_present_description",
+			"fallback": "Get flowers from Rústas random totem."
+		},
+		"hidden": true
+	},
+	"parent": "kattersstructures:dungeon/rusta_random_totem",
+	"criteria": {
+		"flower_present": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

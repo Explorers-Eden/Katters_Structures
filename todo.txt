@@ -3,33 +3,17 @@ ToDo
 
 future:
 
-Pillager dungeon
-Herobrine dungeon
-Elden Ring Verlies
-Battle Towers
 
-special Totems
+Herobrine dungeon ?
+Elden Ring Verlies +
+Battle Towers +
+
 
 ArborGrizz:
 A raccoon miniboss that spawns in lush caves seems fitting, and the pants stealing idea is hilarious lol
-a journal from a taiga villager investigating a "strange crimson-haired fox" digging through their trash can and stealing their pants would be awesome :D
 
 
-Devi:
-I want you guys to rate my character lore for a bedrock server that I've joined recently... Its a story/lore server
-Devi came from a future where humanity had fused with artificial intelligence, evolving beyond emotion and instinct. A master strategist, he ruled the NeuroSphere, a vast digital realm where minds clashed to shape history. With his Chronal Accelerator, he manipulated time itself, subtly steering the course of civilizations.
 
-But fate had other plans. A catastrophic malfunction tore him from the timestream, hurling him onto Epsilon, a world of vast oceans, towering mountains, and sprawling cities. Its sky stretched in brilliant blues, shifting to warm gold and violet at dusk. The air hummed with unfamiliar energy, and the land felt alive in a way Devi had never known. His advanced technology lay in ruins, and for the first time in his existence, Devi was truly stranded.
-
-At first, he distanced himself—observing, analyzing, calculating. The people of Epsilon were unlike anything he had encountered. They were resilient, creative, and deeply connected to one another. Unlike the cold efficiency of his era, they embraced life in ways he had never understood—through laughter, art, shared traditions, and simple, genuine joy.
-
-Devi's knowledge quickly proved invaluable. He helped optimize their infrastructure, introduced new ways to improve daily life, and shared insights from a future they could hardly imagine. But something unexpected happened. The more he helped, the more he became a part of them. What started as strategic guidance turned into friendships. He found himself joining their festivals, sharing stories, enjoying moments that had no purpose other than to be lived.
-
-For the first time, Devi was not just a master of the game. He was a piece of it.
-
-And as he stood beneath Epsilon’s golden skies, surrounded by people who truly saw him—not as a Player, not as a strategist, but as one of their own—he realized something.
-
-This wasn’t a mission. This wasn’t a challenge. This was home.
 
 this update:
 
@@ -39,9 +23,20 @@ Doing
 
 
 
+
 Done
 
+optimize code
 Skyhold placement fix
 armory improved
 structure gen überarbeitet
 no natual spawning guadians in Skyrtle
+pillager village
+rusta, boss
+rusta random Totems
+new sky decor structure
+new ocean ships structure
+Fossiles
+Pillager ocean village: far_watch
+
+

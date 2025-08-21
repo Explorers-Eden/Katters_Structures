@@ -1,40 +1,54 @@
 {
     "placement": {
         "type": "minecraft:random_spread",
-        "spacing": 80,
-        "separation": 70,
-        "salt": 69881848956,
+        "spacing": 60,
+        "separation": 59,
+        "salt": 753203242,
         "spread_type": "triangular",
         "exclusion_zone": {
-            "other_set": "kattersstructures:overworld_surface",
+            "other_set": "kattersstructures:overworld_base",
             "chunk_count": 10
         }
     },
     "structures": [
+
     {
         "structure": "kattersstructures:spider_den",
-        "weight": 1
+        "weight": 9
     },{
         "structure": "kattersstructures:magic_tower",
-        "weight": 1
+        "weight": 45
     },{
         "structure": "kattersstructures:desert_dungeon",
-        "weight": 4
+        "weight": 36
     },{
         "structure": "kattersstructures:armory",
-        "weight": 3
+        "weight": 27
     },{
         "structure": "kattersstructures:mini_dungeon_rugged_shack",
-        "weight": 10
+        "weight": 45
     },{
         "structure": "kattersstructures:mini_dungeon_ruin",
-        "weight": 10
+        "weight": 45
     },{
         "structure": "kattersstructures:mini_dungeon_stone",
-        "weight": 10
+        "weight": 45
     },{
         "structure": "kattersstructures:mini_dungeon_tuff",
-        "weight": 10
+        "weight": 45
+    },{
+		"structure": "kattersstructures:sky_dungeon",
+		"weight": 45
+	},	{
+		"structure": "kattersstructures:skyrtle",
+		"weight": 45
+	},{
+        "structure": "kattersstructures:better_vanilla_dungeon",
+        "weight": 90
+    },{
+        "structure": "kattersstructures:pillager_village",
+        "weight": 1
     }
-]
+
+    ]
 }

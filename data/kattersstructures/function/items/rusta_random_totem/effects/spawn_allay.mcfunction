@@ -1,0 +1,2 @@
+summon allay ~ ~ ~
+summon allay ~ ~ ~

@@ -1,0 +1,70 @@
+{
+	"type": "minecraft:archaeology",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gunpowder"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:burn_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:heartbreak_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:skull_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:scrape_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "stick"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dead_brain_coral"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dead_bubble_coral_fan"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nautilus_shell"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dune_armor_trim_smithing_template"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wayfinder_armor_trim_smithing_template"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sniffer_egg"
+				}
+			]
+		}
+	]
+}

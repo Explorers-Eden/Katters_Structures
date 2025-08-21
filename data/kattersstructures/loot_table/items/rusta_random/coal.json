@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:coal",
+					"functions": []
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_name",
+					"name": {
+						"translate": "item.kattersstructures.rusta_present_1",
+						"fallback": "a Present?"
+					}
+				}
+			]
+		}
+	]
+}

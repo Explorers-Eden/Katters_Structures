@@ -1,0 +1,1 @@
+summon area_effect_cloud ~ ~ ~ {custom_particle:{type:"entity_effect",color:[0.000,0.000,0.000,1]},Radius:10f,Duration:1200,potion_contents:{custom_effects:[{id:"minecraft:darkness",amplifier:0,duration:200,show_particles:0b,show_icon:0b}]}}

@@ -1,0 +1,12 @@
+{
+    "values": [
+        { "id": "kattersstructures:village_cherry","required": false},
+        { "id": "kattersstructures:village_jungle","required": false},
+        { "id": "kattersstructures:village_swamp","required": false},
+        { "id": "kattersstructures:village_mesa","required": false},
+        { "id": "kattersstructures:village_birch","required": false} ,
+        { "id": "kattersstructures:village_ocean","required": false},
+        { "id": "kattersstructures:village_sky","required": false},
+        { "id": "kattersstructures:village_underground","required": false}   
+    ]
+  }

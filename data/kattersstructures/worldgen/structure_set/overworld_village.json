@@ -1,0 +1,47 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 25,
+        "separation": 24,
+        "salt": 567332336,
+        "spread_type": "triangular",
+        "exclusion_zone": {
+            "other_set": "kattersstructures:overworld_base",
+            "chunk_count": 10
+        },
+        "frequency": 0.8,
+        "frequency_reduction_method": "default"
+    },
+    "structures": [
+    
+    {
+        "structure": "kattersstructures:village_cherry",
+        "weight": 10
+    },{
+        "structure": "kattersstructures:village_jungle",
+        "weight": 10
+    },{
+        "structure": "kattersstructures:village_swamp",
+        "weight": 10
+    },{
+        "structure": "kattersstructures:village_mesa",
+        "weight": 10
+    },{
+        "structure": "kattersstructures:village_birch",
+        "weight": 10
+    },{
+        "structure": "kattersstructures:pillager_village",
+        "weight": 20
+    },{
+		"structure": "kattersstructures:village_sky",
+		"weight": 8
+	},{
+        "structure": "kattersstructures:village_underground",
+        "weight": 15
+    },{
+		"structure": "kattersstructures:village_ocean",
+		"weight": 15
+	}
+    
+    ]
+}

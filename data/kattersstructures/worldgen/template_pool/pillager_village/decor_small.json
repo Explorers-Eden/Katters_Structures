@@ -1,0 +1,39 @@
+{
+    "name": "kattersstructures:pillager_village/decor_small",
+    "fallback": "minecraft:empty",
+    "elements": [
+    {
+        "weight": 5,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:pillager_village/decor/pillager_village_decor_small_01"
+        }
+    },{
+        "weight": 5,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:pillager_village/decor/pillager_village_decor_small_02"
+        }
+    },{
+        "weight": 5,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:pillager_village/decor/pillager_village_decor_small_03"
+        }
+    },{
+        "weight": 5,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:pillager_village/decor/pillager_village_decor_small_04"
+        }
+    }
+]
+}

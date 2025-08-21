@@ -1,0 +1,20 @@
+{
+    "values": [
+        { "id": "kattersstructures:graveyard","required": false},
+        { "id": "kattersstructures:ruined_village","required": false},
+        { "id": "kattersstructures:windmill","required": false},
+        { "id": "kattersstructures:witch_circle","required": false},
+        { "id": "kattersstructures:skyhold","required": false},
+        { "id": "kattersstructures:dark_tree","required": false},
+        { "id": "kattersstructures:birch_tree","required": false},
+        { "id": "kattersstructures:cherry_tree","required": false},
+        { "id": "kattersstructures:villager_desert","required": false},
+        { "id": "kattersstructures:villager_mountain","required": false},
+        { "id": "kattersstructures:villager_ocean","required": false},
+
+        { "id": "kattersstructures:trader_outposts","required": false},
+
+        { "id": "kattersstructures:deep_blue_lab_ruin","required": false}
+        
+    ]
+  }

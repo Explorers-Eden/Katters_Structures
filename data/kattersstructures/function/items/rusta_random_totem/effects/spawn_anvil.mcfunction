@@ -1,0 +1,1 @@
+summon falling_block ~ ~5 ~ {BlockState:{Name:"minecraft:anvil"},Time:1,DropItem:0b,FallHurtAmount:5f}

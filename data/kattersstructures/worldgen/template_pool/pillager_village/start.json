@@ -1,0 +1,15 @@
+{
+    "name": "kattersstructures:pillager_village/start",
+    "fallback": "minecraft:empty",
+    "elements": [
+    {
+        "weight": 5,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "terrain_matching",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:pillager_village/pillager_village_main"
+        }
+    }
+]
+}

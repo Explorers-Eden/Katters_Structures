@@ -1,0 +1,16 @@
+{
+    "biomes": "minecraft:desert",
+    "spawn_overrides": {},
+    "type": "minecraft:jigsaw",
+    "start_pool": "kattersstructures:fossils/start",
+    "size": 7,
+    "step": "underground_structures",
+    "start_height": {
+        "absolute": 0
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "max_distance_from_center": 128,
+    "terrain_adaptation": "none",
+    "use_expansion_hack": false,
+    "liquid_settings": "apply_waterlogging"
+}

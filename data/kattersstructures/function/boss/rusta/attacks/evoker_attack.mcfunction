@@ -1,0 +1,1 @@
+execute as @a[tag=katter.rusta.target,gamemode=!spectator] at @s run summon evoker_fangs ~ ~ ~

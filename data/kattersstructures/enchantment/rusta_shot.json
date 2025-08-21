@@ -1,0 +1,64 @@
+{
+    "description": "boss.rusta_shot",
+    "supported_items": "minecraft:crossbow",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 0,
+    "slots": [
+      "mainhand"
+    ],
+    "effects": {
+      "minecraft:hit_block": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "kattersstructures:boss/rusta/attacks/shot_effect"
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "arrow"
+          }
+        }
+      }
+      ],
+      "minecraft:post_attack": [
+        {
+          "enchanted": "attacker",
+          "affected": "victim",
+          "effect": {
+            "type": "all_of",
+            "effects": [
+              {
+                "type": "minecraft:run_function",
+                "function": "kattersstructures:boss/rusta/attacks/shot_effect"
+              }
+            ]
+          },
+          "requirements": {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "direct_attacker",
+                "predicate": {
+                  "type": "arrow",
+                  "flags": {}
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+  

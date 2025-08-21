@@ -1,0 +1,87 @@
+{
+    "name": "kattersstructures:fossils/main",
+    "fallback": "minecraft:empty",
+    "elements": [
+    {
+        "weight": 5,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "kattersstructures:fossile_mid",
+            "location": "kattersstructures:fossils/fossils_nautilus"
+        }
+    },{
+        "weight": 10,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "kattersstructures:fossile_mid",
+            "location": "kattersstructures:fossils/fossils_skull_01"
+        }
+    },{
+        "weight": 10,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "kattersstructures:fossile_small",
+            "location": "kattersstructures:fossils/fossils_skull_02"
+        }
+    },{
+        "weight": 8,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "kattersstructures:fossile_mid",
+            "location": "kattersstructures:fossils/fossils_skull_03"
+        }
+    },{
+        "weight": 10,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "kattersstructures:fossile_mid",
+            "location": "kattersstructures:fossils/fossils_rip_01"
+        }
+    },{
+        "weight": 10,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "kattersstructures:fossile_mid",
+            "location": "kattersstructures:fossils/fossils_rip_02"
+        }
+    },{
+        "weight": 10,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "kattersstructures:fossile_small",
+            "location": "kattersstructures:fossils/fossils_rip_03_v4"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "kattersstructures:fossile_big",
+            "location": "kattersstructures:fossils/fossils_stego_p1"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "kattersstructures:fossile_big",
+            "location": "kattersstructures:fossils/fossils_spino_p2"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "kattersstructures:fossile_big",
+            "location": "kattersstructures:fossils/fossils_mosa_p2"
+        }
+    }
+]
+}

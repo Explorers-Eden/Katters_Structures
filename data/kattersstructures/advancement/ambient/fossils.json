@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:bone",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.fossils_title",
+      "fallback": "A Skeletal Discovery"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.fossils_description",
+      "fallback": "Find a large fossil, waiting to be excavated."
+    }
+    },
+    "parent": "kattersstructures:root",
+    "criteria": {
+      "fossils": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:fossils"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

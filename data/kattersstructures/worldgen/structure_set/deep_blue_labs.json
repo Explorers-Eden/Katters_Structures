@@ -5,12 +5,16 @@
         "separation": 8,
         "salt": 289841984189,
         "spread_type": "triangular"
-    },
-    "structures": [{
+    },    
+    "structures": [
+        
+    {
         "structure": "kattersstructures:deep_blue_labs",
         "weight": 20
     },{
         "structure": "kattersstructures:deep_blue_city",
         "weight": 1
-    }]
+    }
+
+    ]
 }

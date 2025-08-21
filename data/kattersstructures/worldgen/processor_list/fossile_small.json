@@ -1,0 +1,178 @@
+{
+	"processors": [
+		{
+			"processor_type": "minecraft:rule",
+			"rules": [
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:sand"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:barrier",
+						"probability": 0.2
+					},
+					"output_state": {
+						"Name": "minecraft:suspicious_sand",
+						"Properties": {
+							"dusted": "0"
+						}
+					},
+					"block_entity_modifier": {
+						"type": "minecraft:append_loot",
+						"loot_table": "kattersstructures:archaeology/fossils"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:stone"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:bone_block",
+						"probability": 0.1
+					},
+					"output_state": {
+						"Name": "minecraft:coal_ore"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:stone"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:bone_block",
+						"probability": 0.001
+					},
+					"output_state": {
+						"Name": "minecraft:diamond_ore"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:air"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:barrier"
+					},
+					"output_state": {
+						"Name": "minecraft:air"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:air"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:barrier"
+					},
+					"output_state": {
+						"Name": "minecraft:air"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:water"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:barrier"
+					},
+					"output_state": {
+						"Name": "minecraft:water"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:sandstone"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:barrier"
+					},
+					"output_state": {
+						"Name": "minecraft:sandstone"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:stone"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:barrier"
+					},
+					"output_state": {
+						"Name": "minecraft:stone"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:sand"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:barrier"
+					},
+					"output_state": {
+						"Name": "minecraft:sand"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:dirt"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:barrier"
+					},
+					"output_state": {
+						"Name": "minecraft:dirt"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:grass_block"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:barrier"
+					},
+					"output_state": {
+						"Name": "minecraft:grass_block"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:barrier"
+					},
+					"output_state": {
+						"Name": "stone"
+					}
+				}
+			]
+		},
+		{
+			"processor_type": "minecraft:protected_blocks",
+			"value": "#minecraft:features_cannot_replace"
+		}
+	]
+}

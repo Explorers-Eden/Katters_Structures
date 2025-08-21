@@ -1,0 +1,49 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:ominous_bottle"
+		},
+		"title": {
+			"translate": "advancement.kattersstructures.rusta_title",
+			"fallback": "Rústa La Vista"
+		},
+		"description": {
+			"translate": "advancement.kattersstructures.rusta_description",
+			"fallback": "You've bid farewell to the Chieftain of the Ravaged Lands."
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "kattersstructures:dungeon/pillager_village",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {}
+					}
+				],
+				"entity": {
+					"type": [
+						"minecraft:pillager",
+						"minecraft:evoker",
+						"minecraft:witch",
+						"minecraft:vindicator"
+					],
+					"nbt": "{Tags:[\"katter.rusta\"]}"
+				},
+				"killing_blow": {
+					"source_entity": {
+						"type": "minecraft:player"
+					},
+					"is_direct": true
+				}
+			}
+		}
+	}
+}

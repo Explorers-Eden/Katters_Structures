@@ -1,0 +1,15 @@
+{
+    "name": "kattersstructures:fossils/spino_1",
+    "fallback": "minecraft:empty",
+    "elements": [
+    {
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "kattersstructures:fossile_big",
+            "location": "kattersstructures:fossils/fossils_spino_p1"
+        }
+    }
+]
+}

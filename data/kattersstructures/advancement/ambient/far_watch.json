@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:ominous_bottle",
+        "count": 1
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.far_watch_title",
+      "fallback": "Sea Sentry"
+      
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.far_watch_description",
+      "fallback": "Find a hostile pillager tower on a lone rock far out at sea."
+    }
+    },
+    "parent": "kattersstructures:root",
+    "criteria": {
+      "far_watch": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "kattersstructures:far_watch"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

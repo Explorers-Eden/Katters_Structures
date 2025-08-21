@@ -6,3 +6,4 @@ function kattersstructures:boss/bossbar/arachne
 function kattersstructures:boss/bossbar/raj
 function kattersstructures:boss/bossbar/tenku
 function kattersstructures:boss/bossbar/theron
+function kattersstructures:boss/bossbar/rusta

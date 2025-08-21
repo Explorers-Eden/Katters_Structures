@@ -1,0 +1,45 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:totem_of_undying"
+      },
+      "title": {
+      "translate": "advancement.kattersstructures.rusta_random_totem_title",
+      "fallback": "Chieftain's Gamble"
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.rusta_random_totem_description",
+      "fallback": "You've acquired a Totem of Undying, imbued with an unpredictable effect."
+    },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "kattersstructures:dungeon/rusta",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {}
+            }
+          ],
+          "items": [
+            {
+              "items": "minecraft:totem_of_undying",
+              "components": {
+                "minecraft:custom_data": {
+                    "kattersstructures.is_rusta_random_totem" : true
+                }         
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

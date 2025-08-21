@@ -1,0 +1,96 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 5,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ominous_bottle",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:ominous_bottle_amplifier": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:crossbow",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 30,
+							"options": "#minecraft:exclusive_set/crossbow"
+						},
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "minecraft:mending"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 5,
+								"max": 10
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond",
+					"weight": 2
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:killed_by_player"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "kattersstructures:items/rusta_random_totem"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:killed_by_player"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "kattersstructures:items/boss_key"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.3
+				},
+				{
+					"condition": "minecraft:killed_by_player"
+				}
+			]
+		}
+	]
+}

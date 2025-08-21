@@ -1,0 +1,1 @@
+summon chicken ~ ~ ~ {CustomName:"Little Ducky",attributes:[{id:"minecraft:scale",base:4}]}

@@ -1,0 +1,36 @@
+{
+    "name": "kattersstructures:fossils/rips_5",
+    "fallback": "minecraft:empty",
+    "elements": [
+    {
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "kattersstructures:fossile_small",
+            "location": "kattersstructures:fossils/fossils_rip_03_v4"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "kattersstructures:fossile_small",
+            "location": "kattersstructures:fossils/fossils_rip_03_v5"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "kattersstructures:fossile_small",
+            "location": "kattersstructures:fossils/fossils_rip_03_v6"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:empty_pool_element"
+        }
+    }
+]
+}

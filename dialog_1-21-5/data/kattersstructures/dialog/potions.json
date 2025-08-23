@@ -1,0 +1,91 @@
+{
+	"type": "minecraft:multi_action",
+	"title": {
+		"translate": "dialog.kattersstructures.potions.titel",
+		"fallback": "Welcome to the Give Beverages menu"
+	},
+	"inputs": [],
+	"actions": [
+		{
+			"label": {
+				"translate": "item.kattersstructures.beer",
+				"fallback": "Beer"
+			},
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "function kattersstructures:give_items/potions/beer"
+
+			}
+		},{
+			"label": {
+				"translate": "item.kattersstructures.coffee",
+				"fallback": "Coffee"
+			},
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "function kattersstructures:give_items/potions/coffee"
+
+			}
+		},{
+			"label": {
+				"translate": "item.kattersstructures.gin",
+				"fallback": "Gin"
+			},
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "function kattersstructures:give_items/potions/gin"
+
+			}
+		},{
+			"label": {
+				"translate": "item.kattersstructures.moonshine",
+				"fallback": "Moonshine"
+			},
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "function kattersstructures:give_items/potions/moonshine"
+
+			}
+		},{
+			"label": {
+				"translate": "item.kattersstructures.vodka",
+				"fallback": "Vodka"
+			},
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "function kattersstructures:give_items/potions/vodka"
+
+			}
+		},{
+			"label": {
+				"translate": "item.kattersstructures.water",
+				"fallback": "Water"
+			},
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "function kattersstructures:give_items/potions/water"
+
+			}
+		},{
+			"label": {
+				"translate": "item.kattersstructures.whisky",
+				"fallback": "Whisky"
+			},
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "function kattersstructures:give_items/potions/whisky"
+
+			}
+		},{
+			"label": {
+				"translate": "item.kattersstructures.wine",
+				"fallback": "Wine"
+			},
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "function kattersstructures:give_items/potions/wine"
+
+			}
+		}
+	]
+}

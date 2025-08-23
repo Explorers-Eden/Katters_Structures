@@ -1,6 +1,6 @@
 schedule function kattersstructures:boss/arachne/run 2s
 
-execute if data storage kattersstructures:temp settings{arachne:0b} run return fail
+execute if data storage kattersstructures:gamerule settings{arachne:0b} run return fail
 
 execute as @e[type=spider,tag=katter.arachne.boss] store result score @s kattersstructures.arachne run data get entity @s Health
 

@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:multi_action",
+	"title": {
+		"translate": "dialog.kattersstructures.ks_faq.lable_8",
+		"fallback": "On what y-level is the Sky Dungeon?"
+	},
+	"body": {
+		"type": "minecraft:plain_message",
+		"contents": {
+			"translate": "dialog.kattersstructures.ks_faq.body_8",
+			"fallback": "The lowest Block, is between y= 200 and 270. The structure itself is about 80 Blocks high."
+		}
+	},
+	"inputs": [],
+	"actions": [
+		{
+			"label": {
+				"translate": "dialog.kattersstructures.ks_faq.lable_100",
+				"fallback": "return to FAQ"
+			},
+			"action": {
+				"type": "minecraft:show_dialog",
+				"dialog": "kattersstructures:ks_faq"
+			}
+		}
+	]
+}

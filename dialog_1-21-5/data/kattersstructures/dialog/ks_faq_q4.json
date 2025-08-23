@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:multi_action",
+	"title": {
+		"translate": "dialog.kattersstructures.ks_faq.lable_4",
+		"fallback": "How do I enter the Deep Blue?"
+	},
+	"body": {
+		"type": "minecraft:plain_message",
+		"contents": {
+			"translate": "dialog.kattersstructures.ks_faq.body_4",
+			"fallback": "There is a structure, \"deep blue lab ruin\" (found in grassland biomes), that contains information on how to enter it."
+		}
+	},
+	"inputs": [],
+	"actions": [
+		{
+			"label": {
+				"translate": "dialog.kattersstructures.ks_faq.lable_100",
+				"fallback": "return to FAQ"
+			},
+			"action": {
+				"type": "minecraft:show_dialog",
+				"dialog": "kattersstructures:ks_faq"
+			}
+		}
+	]
+}

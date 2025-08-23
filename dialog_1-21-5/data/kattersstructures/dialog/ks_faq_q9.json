@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:multi_action",
+	"title": {
+		"translate": "dialog.kattersstructures.ks_faq.lable_9",
+		"fallback": "I build the Portal correctly and i have the rod, but i cant get it to open. what did i do wrong?"
+	},
+	"body": {
+		"type": "minecraft:plain_message",
+		"contents": {
+			"translate": "dialog.kattersstructures.ks_faq.body_9",
+			"fallback": "Did u left or right click it? U should left click it"
+		}
+	},
+	"inputs": [],
+	"actions": [
+		{
+			"label": {
+				"translate": "dialog.kattersstructures.ks_faq.lable_100",
+				"fallback": "return to FAQ"
+			},
+			"action": {
+				"type": "minecraft:show_dialog",
+				"dialog": "kattersstructures:ks_faq"
+			}
+		}
+	]
+}

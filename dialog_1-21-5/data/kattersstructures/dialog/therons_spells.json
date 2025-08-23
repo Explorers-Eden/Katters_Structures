@@ -1,0 +1,91 @@
+{
+	"type": "minecraft:multi_action",
+	"title": {
+		"translate": "dialog.kattersstructures.therons_spells.titel",
+		"fallback": "Welcome to the Give Theron Spells menu"
+	},
+	"inputs": [],
+	"actions": [
+		{
+			"label": {
+				"translate": "item.kattersstructures.the_beast_within",
+				"fallback": "The Beast Within"
+			},
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "function kattersstructures:give_items/therons_spells/the_beast_within"
+
+			}
+		},{
+			"label": {
+				"translate": "dialog.kattersstructures.therons_spells.lable_1",
+				"fallback": "The Beast Within (no Model)"
+			},
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "function kattersstructures:give_items/therons_spells_nm/the_beast_within"
+
+			}
+        },{
+			"label": {
+				"translate": "item.kattersstructures.the_soul_siphon",
+				"fallback": "The Soul Siphon"
+			},
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "function kattersstructures:give_items/therons_spells/the_soul_siphon"
+
+			}
+		},{
+			"label": {
+				"translate": "dialog.kattersstructures.therons_spells.lable_2",
+				"fallback": "The Soul Siphon (no Model)"
+			},
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "function kattersstructures:give_items/therons_spells_nm/the_soul_siphon"
+
+			}
+        },{
+			"label": {
+				"translate": "item.kattersstructures.the_staff_of_ages",
+				"fallback": "The Staff of Ages"
+			},
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "function kattersstructures:give_items/therons_spells/the_staff_of_ages"
+
+			}
+		},{
+			"label": {
+				"translate": "dialog.kattersstructures.therons_spells.lable_3",
+				"fallback": "The Staff of Ages (no Model)"
+			},
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "function kattersstructures:give_items/therons_spells_nm/the_staff_of_ages"
+
+			}
+        },{
+			"label": {
+				"translate": "item.kattersstructures.weather_shaper",
+				"fallback": "Weather Shaper"
+			},
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "function kattersstructures:give_items/therons_spells/weather_shaper"
+
+			}
+		},{
+			"label": {
+				"translate": "dialog.kattersstructures.therons_spells.lable_4",
+				"fallback": "Weather Shaper (no Model)"
+			},
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "function kattersstructures:give_items/therons_spells_nm/weather_shaper"
+
+			}
+        }
+	]
+}

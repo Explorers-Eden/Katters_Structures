@@ -1,5 +1,7 @@
 schedule function kattersstructures:boss/rusta/run 1s
 
+execute if data storage kattersstructures:gamerule settings{rusta:0b} run return fail
+
 execute as @e[type=marker,tag=katter.rusta.spawner,tag=!katter.rusta.active] at @s if entity @e[predicate=kattersstructures:entity/is_raid_mob,distance=..50] run tag @s add katter.rusta.active
 execute as @e[type=marker,tag=katter.rusta.spawner,tag=katter.rusta.active] at @s unless entity @e[predicate=kattersstructures:entity/is_raid_mob,distance=..50] run tag @s remove katter.rusta.active
 

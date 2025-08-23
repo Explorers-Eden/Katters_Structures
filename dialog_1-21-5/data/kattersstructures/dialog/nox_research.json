@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:multi_action",
+	"title": {
+		"translate": "dialog.kattersstructures.nox_research.titel",
+		"fallback": "Welcome to the Give Books menu (Nox Research)"
+	},
+	"inputs": [],
+	"actions": [
+		{"label": {"text": "A Nox Perspective"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/nox_research/a_nox_perspective"}},
+		{"label": {"text": "A Study of Copper"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/nox_research/a_study_of_copper"}},
+		{"label": {"text": "S Study of the Clownfish"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/nox_research/a_study_of_the_clownfish"}},
+		{"label": {"text": "S Study of the Guardian"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/nox_research/a_study_of_the_guardian"}},
+		{"label": {"text": "Biology of Cod"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/nox_research/biology_of_cod"}},
+		{"label": {"text": "Copper Extraction"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/nox_research/copper_extraction"}},
+		{"label": {"text": "Mystical Art of Redstone"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/nox_research/mystical_art_of_redstone"}},
+		{"label": {"text": "Ocean Research - XXI"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/nox_research/ocean_research_xxi"}},
+		{"label": {"text": "Portal Treatise"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/nox_research/portal_treatise"}},
+		{"label": {"text": "Study of Civilizations"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/nox_research/study_of_civilizations"}},
+		{"label": {"text": "Study of the Coralis Biome"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/nox_research/study_of_the_coralis_biome"}},
+		{"label": {"text": "Study of the Dark Chasm"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/nox_research/study_of_the_dark_chasm"}},
+		{"label": {"text": "The Darkening of the Coralis"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/nox_research/the_darkening_of_the_coralis"}},
+		{"label": {"text": "The Depths of Knowledge"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/nox_research/the_depths_of_knowledge"}}
+    ]
+}

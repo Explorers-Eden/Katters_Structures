@@ -1,0 +1,91 @@
+{
+	"type": "minecraft:multi_action",
+	"title": {
+		"translate": "dialog.kattersstructures.give_items.titel",
+		"fallback": "Welcome to the Give Items menu"
+	},
+	"inputs": [],
+	"actions": [
+		{
+			"label": {
+				"translate": "dialog.kattersstructures.give_items.lable_1",
+				"fallback": "All Books"
+			},
+			"action": {
+				"type": "show_dialog",
+				"dialog": "kattersstructures:books"
+
+			}
+		},{
+			"label": {
+				"translate": "dialog.kattersstructures.give_items.lable_2",
+				"fallback": "All Beverages"
+			},
+			"action": {
+				"type": "show_dialog",
+				"dialog": "kattersstructures:potions"
+
+			}
+		},{
+			"label": {
+				"translate": "dialog.kattersstructures.give_items.lable_3",
+				"fallback": "All Spawner"
+			},
+			"action": {
+				"type": "show_dialog",
+				"dialog": "kattersstructures:spawner"
+
+			}
+		},{
+			"label": {
+				"translate": "dialog.kattersstructures.give_items.lable_4",
+				"fallback": "All Therons Spells"
+			},
+			"action": {
+				"type": "show_dialog",
+				"dialog": "kattersstructures:therons_spells"
+
+			}
+		},{
+			"label": {
+				"translate": "dialog.kattersstructures.give_items.lable_5",
+				"fallback": "All Vaults"
+			},
+			"action": {
+				"type": "show_dialog",
+				"dialog": "kattersstructures:vauls"
+
+			}
+		},{
+			"label": {
+				"translate": "dialog.kattersstructures.give_items.lable_6",
+				"fallback": "Boss Key"
+			},
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "function kattersstructures:give_items/boss_key"
+
+			}
+		},{
+			"label": {
+				"translate": "dialog.kattersstructures.give_items.lable_7",
+				"fallback": "Raj Lightning Rod"
+			},
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "function kattersstructures:give_items/raj_lightning_rod"
+
+			}
+		},{
+			"label": {
+				"translate": "dialog.kattersstructures.give_items.lable_8",
+				"fallback": "Enlightning Rod"
+			},
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "function kattersstructures:give_items/enlightning_rod"
+
+			}
+		}
+	]
+}

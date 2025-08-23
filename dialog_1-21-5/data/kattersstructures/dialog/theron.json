@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:multi_action",
+	"title": {
+		"translate": "dialog.kattersstructures.theron.titel",
+		"fallback": "Welcome to the Give Books menu (Theron)"
+	},
+	"inputs": [],
+	"actions": [
+		{"label": {"text": "Chronicle of Superiority"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/threon/chronicle_of_superiority"}},
+		{"label": {"text": "Illusionary Doppelganger"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/threon/illusionary_doppelganger"}},
+		{"label": {"text": "Taming of the Wither"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/threon/taming_of_the_wither"}},
+		{"label": {"text": "The Beast Within"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/threon/the_beast_within"}},
+		{"label": {"text": "The Crimson Orb"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/threon/the_crimson_orb"}},
+		{"label": {"text": "The Dream Weaver"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/threon/the_dream_weaver"}},
+		{"label": {"text": "The Fall of Skyhold"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/threon/the_fall_of_skyhold"}},
+		{"label": {"text": "The Portal of Shadows"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/threon/the_portal_of_shadows"}},
+		{"label": {"text": "The Soul Siphon"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/threon/the_soul_siphon"}},
+		{"label": {"text": "The Staff of Ages"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/threon/the_staff_of_ages"}},
+		{"label": {"text": "The Weather Shaper"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/threon/the_weather_shaper"}}
+    ]
+}

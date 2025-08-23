@@ -1,0 +1,1 @@
+give @s blaze_rod[item_name={"bold":false,"color":"white","italic":false,"text":"Enlightning Rod"},max_stack_size=1,max_damage=5,damage=1,enchantments={"kattersstructures:enlightning":1}] 1

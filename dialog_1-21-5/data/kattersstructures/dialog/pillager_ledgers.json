@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:multi_action",
+	"title": {
+		"translate": "dialog.kattersstructures.pillager_ledgers.titel",
+		"fallback": "Welcome to the Give Books menu (Pillager Ledgers)"
+	},
+	"inputs": [],
+	"actions": [
+		{"label": {"text": "A Day's Tedium"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/pillager_ledgers/a_days_tedium"}},
+		{"label": {"text": "A Declaration of Retribution"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/pillager_ledgers/a_declaration_of_retribution"}},
+		{"label": {"text": "A Dire Warning"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/pillager_ledgers/a_dire_warning"}},
+		{"label": {"text": "A Most Convenient Alliance"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/pillager_ledgers/a_most_convenient_alliance"}},
+		{"label": {"text": "A Most Unexpected Heir"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/pillager_ledgers/a_most_unexpected_heir"}},
+		{"label": {"text": "A Most Unwarranted Presence"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/pillager_ledgers/a_most_unwarranted_presence"}},
+		{"label": {"text": "A Private Missive"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/pillager_ledgers/a_private_missive"}},
+		{"label": {"text": "A Reckoning of Folly"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/pillager_ledgers/a_reckoning_of_folly"}},
+		{"label": {"text": "A Solemn Decree"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/pillager_ledgers/a_solemn_decree"}},
+		{"label": {"text": "A Troubling Revelation"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/pillager_ledgers/a_troubling_revelation"}},
+		{"label": {"text": "A Vision of the Seas"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/pillager_ledgers/a_vision_of_the_seas"}},
+		{"label": {"text": "Canticle to Theron the Resilient"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/pillager_ledgers/canticle_to_theron_the_resilient"}},
+		{"label": {"text": "Construction of our Dwellings"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/pillager_ledgers/construction_of_our_dwellings"}},
+		{"label": {"text": "Grimgar's Secret Council"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/pillager_ledgers/grimgars_secret_council"}},
+		{"label": {"text": "Of Illagers and their Neighbors"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/pillager_ledgers/of_illagers_and_their_neighbors"}},
+		{"label": {"text": "The Curious Ascendance"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/pillager_ledgers/the_curious_ascendance"}},
+		{"label": {"text": "The Far Watch Outpost"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/pillager_ledgers/the_far_watch_outpost"}},
+		{"label": {"text": "The Treachery of Water"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/pillager_ledgers/the_treachery_of_water"}},
+		{"label": {"text": "The True Order of Things"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/pillager_ledgers/the_true_order_of_things"}},
+		{"label": {"text": "The Unlikely Persuasion"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/pillager_ledgers/the_unlikely_persuasion"}},
+		{"label": {"text": "Whispers of Disquiet"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/pillager_ledgers/whispers_of_disquiet"}}
+    ]
+}

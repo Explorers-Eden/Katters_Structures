@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:multi_action",
+	"title": {
+		"translate": "dialog.kattersstructures.ks_faq.lable_6",
+		"fallback": "Where do I find the Dungeon XY?"
+	},
+	"body": {
+		"type": "minecraft:plain_message",
+		"contents": {
+			"translate": "dialog.kattersstructures.ks_faq.body_6",
+			"fallback": "Cartographer chests and Trader Outposts can contain Maps to Dungeons.\n - Spider Den - Jungle\n - Sky Dungeon - Old Growth Pine Taiga\n - Skyrtle - Warm Ocean\n - Magic Towe - Dark Oak Forest\n Pillager Village - Everywhere outposts could spawn"
+		}
+	},
+	"inputs": [],
+	"actions": [
+		{
+			"label": {
+				"translate": "dialog.kattersstructures.ks_faq.lable_100",
+				"fallback": "return to FAQ"
+			},
+			"action": {
+				"type": "minecraft:show_dialog",
+				"dialog": "kattersstructures:ks_faq"
+			}
+		}
+	]
+}

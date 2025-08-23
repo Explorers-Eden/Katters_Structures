@@ -26,4 +26,4 @@ scoreboard players set $10 kattersstructures.technical 10
 
 
 ##settings
-execute unless data storage kattersstructures:temp settings run function kattersstructures:gamerules/default_values
+execute unless data storage kattersstructures:gamerule settings run function kattersstructures:gamerules/default_values

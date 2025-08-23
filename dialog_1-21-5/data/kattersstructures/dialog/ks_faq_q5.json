@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:multi_action",
+	"title": {
+		"translate": "dialog.kattersstructures.ks_faq.lable_5",
+		"fallback": "Where can I find Boss XY?"
+	},
+	"body": {
+		"type": "minecraft:plain_message",
+		"contents": {
+			"translate": "dialog.kattersstructures.ks_faq.body_5",
+			"fallback": "There are currently 5 Bosses in KS. Each has their own Dungeon dedicated to him:\n - Raj Raksha - Sky Dungeon\n - Tenkū Mizu Gami - Skyrtle\n - Arachne - Spider Den\n - Magus Theron - Magic Tower\n - Rusta - Pillager Village"
+		}
+	},
+	"inputs": [],
+	"actions": [
+		{
+			"label": {
+				"translate": "dialog.kattersstructures.ks_faq.lable_100",
+				"fallback": "return to FAQ"
+			},
+			"action": {
+				"type": "minecraft:show_dialog",
+				"dialog": "kattersstructures:ks_faq"
+			}
+		}
+	]
+}

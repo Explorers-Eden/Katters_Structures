@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:multi_action",
+	"title": {
+		"translate": "dialog.kattersstructures.verdant_tome.titel",
+		"fallback": "Welcome to the Give Books menu (Verdant Tome)"
+	},
+	"inputs": [],
+	"actions": [
+		{"label": {"text": "Books 01"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/verdant_tome/book_01"}},
+		{"label": {"text": "Books 02"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/verdant_tome/book_02"}},
+		{"label": {"text": "Books 03"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/verdant_tome/book_03"}},
+		{"label": {"text": "Books 04"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/verdant_tome/book_04"}},
+		{"label": {"text": "Books 05"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/verdant_tome/book_05"}},
+		{"label": {"text": "Books 06"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/verdant_tome/book_06"}},
+		{"label": {"text": "Books 07"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/verdant_tome/book_07"}},
+		{"label": {"text": "Books 08"},"action": {"type": "minecraft:run_command","command": "function kattersstructures:give_items/books/verdant_tome/book_08"}}
+    ]
+}

@@ -1,6 +1,6 @@
 schedule function kattersstructures:boss/defense 1t
 
-execute if data storage kattersstructures:temp settings{arachne:0b} if data storage kattersstructures:temp settings{tenku:0b} run return fail
+execute if data storage kattersstructures:gamerule settings{arachne:0b} if data storage kattersstructures:gamerule settings{tenku:0b} run return fail
 
 execute unless entity @e[type=#kattersstructures:projectiles] run return fail
 

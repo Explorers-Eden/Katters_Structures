@@ -1,6 +1,6 @@
 schedule function kattersstructures:boss/raj/run 1s
 
-execute if data storage kattersstructures:temp settings{raj:0b} run return fail
+execute if data storage kattersstructures:gamerule settings{raj:0b} run return fail
 
 execute as @e[type=marker,tag=katter.raj.spawner] at @s if entity @e[type=player,distance=..16] run function kattersstructures:boss/raj/summon_at_marker
 

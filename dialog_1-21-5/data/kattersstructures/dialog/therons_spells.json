@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:multi_action",
 	"title": {
-		"translate": "dialog.kattersstructures.therons_spells.titel",
+		"translate": "dialog.kattersstructures.therons_spells.title",
 		"fallback": "Welcome to the Give Theron Spells menu"
 	},
 	"inputs": [],
@@ -18,7 +18,7 @@
 			}
 		},{
 			"label": {
-				"translate": "dialog.kattersstructures.therons_spells.lable_1",
+				"translate": "dialog.kattersstructures.therons_spells.label_1",
 				"fallback": "The Beast Within (no Model)"
 			},
 			"action": {
@@ -38,7 +38,7 @@
 			}
 		},{
 			"label": {
-				"translate": "dialog.kattersstructures.therons_spells.lable_2",
+				"translate": "dialog.kattersstructures.therons_spells.label_2",
 				"fallback": "The Soul Siphon (no Model)"
 			},
 			"action": {
@@ -58,7 +58,7 @@
 			}
 		},{
 			"label": {
-				"translate": "dialog.kattersstructures.therons_spells.lable_3",
+				"translate": "dialog.kattersstructures.therons_spells.label_3",
 				"fallback": "The Staff of Ages (no Model)"
 			},
 			"action": {
@@ -78,7 +78,7 @@
 			}
 		},{
 			"label": {
-				"translate": "dialog.kattersstructures.therons_spells.lable_4",
+				"translate": "dialog.kattersstructures.therons_spells.label_4",
 				"fallback": "Weather Shaper (no Model)"
 			},
 			"action": {

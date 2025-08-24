@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:multi_action",
 	"title": {
-		"translate": "dialog.kattersstructures.main_menu.titel",
+		"translate": "dialog.kattersstructures.main_menu.title",
 		"fallback": "Katters Structures Main menu"
 	},
 	"external_title": {
@@ -12,7 +12,7 @@
 		"type": "minecraft:plain_message",
 		"contents": {
 			"translate": "dialog.kattersstructures.main_menu.external_body",
-			"fallback": "This is the main menu of Katters Structures. \nFrom here you can give yourself any special Item from Katters Struture, \nChange the Gemerules in it, \nAnd can read the FAQ of it."
+			"fallback": "This is the main menu of Katters Structures. \nFrom here you can give yourself any special Item from Katters Strutures, \nChange the Gamerules in it, \nAnd can read the FAQ of it."
 		}
 	},
 	"can_close_with_escape": true,
@@ -26,8 +26,8 @@
 	"actions": [
 		{
 			"label": {
-				"translate": "dialog.kattersstructures.main_menu.lable_1",
-				"fallback": "Items give"
+				"translate": "dialog.kattersstructures.main_menu.label_1",
+				"fallback": "Give Items"
 			},
 			"action": {
 				"type": "minecraft:show_dialog",
@@ -36,7 +36,7 @@
 		},
 		{
 			"label": {
-				"translate": "dialog.kattersstructures.main_menu.lable_2",
+				"translate": "dialog.kattersstructures.main_menu.label_2",
 				"fallback": "Gamerules"
 			},
 			"action": {
@@ -46,7 +46,7 @@
 		},
 		{
 			"label": {
-				"translate": "dialog.kattersstructures.main_menu.lable_3",
+				"translate": "dialog.kattersstructures.main_menu.label_3",
 				"fallback": "FAQ"
 			},
 			"action": {

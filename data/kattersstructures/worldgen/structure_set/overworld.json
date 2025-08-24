@@ -1,0 +1,145 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 20,
+        "separation": 19,
+        "salt": 567332336,
+        "spread_type": "triangular",
+        "exclusion_zone": {
+            "other_set": "minecraft:villages",
+            "chunk_count": 10
+        },
+        "frequency": 0.8,
+        "frequency_reduction_method": "default"
+    },
+    "structures": [
+    
+    {
+        "structure": "kattersstructures:village_cherry",
+        "weight": 10
+    },{
+        "structure": "kattersstructures:village_jungle",
+        "weight": 10
+    },{
+        "structure": "kattersstructures:village_swamp",
+        "weight": 10
+    },{
+        "structure": "kattersstructures:village_mesa",
+        "weight": 10
+    },{
+        "structure": "kattersstructures:village_birch",
+        "weight": 10
+    },{
+		"structure": "kattersstructures:village_sky",
+		"weight": 8
+	},{
+        "structure": "kattersstructures:village_underground",
+        "weight": 8
+    },{
+		"structure": "kattersstructures:village_ocean",
+		"weight": 25
+	},
+
+
+    {
+        "structure": "kattersstructures:trader_outposts",
+        "weight": 20
+    },{
+		"structure": "kattersstructures:sky_decor",
+		"weight": 10
+	},{
+		"structure": "kattersstructures:ocean_ships",
+		"weight": 35
+	},
+
+
+    {
+        "structure": "kattersstructures:spider_den",
+        "weight": 9
+    },{
+        "structure": "kattersstructures:magic_tower",
+        "weight": 15
+    },{
+        "structure": "kattersstructures:desert_dungeon",
+        "weight": 8
+    },{
+        "structure": "kattersstructures:armory",
+        "weight": 10
+    },{
+        "structure": "kattersstructures:mini_dungeon_rugged_shack",
+        "weight": 8
+    },{
+        "structure": "kattersstructures:mini_dungeon_ruin",
+        "weight": 8
+    },{
+        "structure": "kattersstructures:mini_dungeon_stone",
+        "weight": 8
+    },{
+        "structure": "kattersstructures:mini_dungeon_tuff",
+        "weight": 8
+    },{
+		"structure": "kattersstructures:sky_dungeon",
+		"weight": 45
+	},	{
+		"structure": "kattersstructures:skyrtle",
+		"weight": 45
+	},{
+        "structure": "kattersstructures:better_vanilla_dungeon",
+        "weight": 20
+    },{
+        "structure": "kattersstructures:pillager_village",
+        "weight": 1
+    },
+
+    {
+        "structure": "kattersstructures:deep_blue_lab_ruin",
+        "weight": 10
+    },
+
+
+    {
+        "structure": "kattersstructures:graveyard",
+        "weight": 10
+    },{
+        "structure": "kattersstructures:ruined_village",
+        "weight": 25
+    },{
+        "structure": "kattersstructures:windmill",
+        "weight": 2
+    },{
+        "structure": "kattersstructures:witch_circle",
+        "weight": 20
+    },    {
+        "structure": "kattersstructures:skyhold",
+        "weight": 1
+    },{
+        "structure": "kattersstructures:dark_tree",
+        "weight": 10
+    },{
+        "structure": "kattersstructures:birch_tree",
+        "weight": 10
+    },{
+        "structure": "kattersstructures:cherry_tree",
+        "weight": 10
+    },{
+        "structure": "kattersstructures:villager_desert",
+        "weight": 20
+    },{
+        "structure": "kattersstructures:villager_mountain",
+        "weight": 20
+    },{
+        "structure": "kattersstructures:villager_ocean",
+        "weight": 20
+    },{
+        "structure": "kattersstructures:shroom_cave",
+        "weight": 25
+    },{
+        "structure": "kattersstructures:fossils",
+        "weight": 20
+    },{
+        "structure": "kattersstructures:far_watch",
+        "weight": 1
+    }
+    
+    ]
+}

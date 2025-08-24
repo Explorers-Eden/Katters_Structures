@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:multi_action",
 	"title": {
-		"translate": "dialog.kattersstructures.ks_faq.titel",
+		"translate": "dialog.kattersstructures.ks_faq.title",
 		"fallback": "Welcome to the FAQ menu"
 	},
 	"inputs": [],
@@ -9,8 +9,8 @@
 	"actions": [
 		{
 			"label": {
-				"translate": "dialog.kattersstructures.ks_faq.lable_1",
-				"fallback": "Where do I use the 'Boss Key' "
+				"translate": "dialog.kattersstructures.ks_faq.label_1",
+				"fallback": "Where do I use the \"Boss Key\""
 			},
 			"width": 400,
 			"action": {
@@ -19,7 +19,7 @@
 			}
 		},{
 			"label": {
-				"translate": "dialog.kattersstructures.ks_faq.lable_2",
+				"translate": "dialog.kattersstructures.ks_faq.label_2",
 				"fallback": "I found a Raj or Boss enchantment; What does it do?"
 			},
 			"width": 400,
@@ -29,7 +29,7 @@
 			}
 		},{
 			"label": {
-				"translate": "dialog.kattersstructures.ks_faq.lable_3",
+				"translate": "dialog.kattersstructures.ks_faq.label_3",
 				"fallback": "Where can I find Enchantment XY?"
 			},
 			"width": 400,
@@ -39,7 +39,7 @@
 			}
 		},{
 			"label": {
-				"translate": "dialog.kattersstructures.ks_faq.lable_4",
+				"translate": "dialog.kattersstructures.ks_faq.label_4",
 				"fallback": "How do I enter the Deep Blue?"
 			},
 			"width": 400,
@@ -49,7 +49,7 @@
 			}
 		},{
 			"label": {
-				"translate": "dialog.kattersstructures.ks_faq.lable_5",
+				"translate": "dialog.kattersstructures.ks_faq.label_5",
 				"fallback": "Where can I find Boss XY?"
 			},
 			"width": 400,
@@ -59,7 +59,7 @@
 			}
 		},{
 			"label": {
-				"translate": "dialog.kattersstructures.ks_faq.lable_6",
+				"translate": "dialog.kattersstructures.ks_faq.label_6",
 				"fallback": "Where do I find the Dungeon XY?"
 			},
 			"width": 400,
@@ -69,7 +69,7 @@
 			}
 		},{
 			"label": {
-				"translate": "dialog.kattersstructures.ks_faq.lable_7",
+				"translate": "dialog.kattersstructures.ks_faq.label_7",
 				"fallback": "How do I find an Armory?"
 			},
 			"width": 400,
@@ -79,7 +79,7 @@
 			}
 		},{
 			"label": {
-				"translate": "dialog.kattersstructures.ks_faq.lable_8",
+				"translate": "dialog.kattersstructures.ks_faq.label_8",
 				"fallback": "On what y-level is the Sky Dungeon?"
 			},
 			"width": 400,
@@ -89,7 +89,7 @@
 			}
 		},{
 			"label": {
-				"translate": "dialog.kattersstructures.ks_faq.lable_9",
+				"translate": "dialog.kattersstructures.ks_faq.label_9",
 				"fallback": "I build the Portal correctly and i have the rod, but i cant get it to open. what did i do wrong?"
 			},
 			"width": 400,
@@ -99,7 +99,7 @@
 			}
 		},{
 			"label": {
-				"translate": "dialog.kattersstructures.ks_faq.lable_10",
+				"translate": "dialog.kattersstructures.ks_faq.label_10",
 				"fallback": "I have still no clue how to open a deep blue portal.... ?"
 			},
 			"width": 400,

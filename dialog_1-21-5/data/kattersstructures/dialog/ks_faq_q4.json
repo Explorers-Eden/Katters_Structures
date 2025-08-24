@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:multi_action",
 	"title": {
-		"translate": "dialog.kattersstructures.ks_faq.lable_4",
+		"translate": "dialog.kattersstructures.ks_faq.label_4",
 		"fallback": "How do I enter the Deep Blue?"
 	},
 	"body": {
@@ -15,7 +15,7 @@
 	"actions": [
 		{
 			"label": {
-				"translate": "dialog.kattersstructures.ks_faq.lable_100",
+				"translate": "dialog.kattersstructures.ks_faq.label_100",
 				"fallback": "return to FAQ"
 			},
 			"action": {

@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:multi_action",
 	"title": {
-		"translate": "dialog.kattersstructures.theron.titel",
+		"translate": "dialog.kattersstructures.theron.title",
 		"fallback": "Welcome to the Give Books menu (Theron)"
 	},
 	"inputs": [],

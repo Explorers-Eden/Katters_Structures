@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:multi_action",
 	"title": {
-		"translate": "dialog.kattersstructures.potions.titel",
+		"translate": "dialog.kattersstructures.potions.title",
 		"fallback": "Welcome to the Give Beverages menu"
 	},
 	"inputs": [],

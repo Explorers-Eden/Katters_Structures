@@ -1,0 +1,38 @@
+{
+    "values": [
+        { "id": "kattersstructures:graveyard","required": false},
+        { "id": "kattersstructures:ruined_village","required": false},
+        { "id": "kattersstructures:windmill","required": false},
+        { "id": "kattersstructures:witch_circle","required": false},
+        { "id": "kattersstructures:skyhold","required": false},
+        { "id": "kattersstructures:dark_tree","required": false},
+        { "id": "kattersstructures:birch_tree","required": false},
+        { "id": "kattersstructures:cherry_tree","required": false},
+        { "id": "kattersstructures:villager_desert","required": false},
+        { "id": "kattersstructures:villager_mountain","required": false},
+        { "id": "kattersstructures:villager_ocean","required": false},
+
+        { "id": "kattersstructures:trader_outposts","required": false},
+
+        { "id": "kattersstructures:deep_blue_lab_ruin","required": false},
+        
+        { "id": "kattersstructures:spider_den","required": false},
+        { "id": "kattersstructures:magic_tower","required": false},
+        { "id": "kattersstructures:desert_dungeon","required": false},
+        { "id": "kattersstructures:armory","required": false},
+        { "id": "kattersstructures:mini_dungeon_rugged_shack","required": false},
+        { "id": "kattersstructures:mini_dungeon_ruin","required": false},
+        { "id": "kattersstructures:mini_dungeon_stone","required": false},
+        { "id": "kattersstructures:mini_dungeon_tuff","required": false},
+        { "id": "kattersstructures:pillager_village","required": false},
+
+        { "id": "kattersstructures:village_cherry","required": false},
+        { "id": "kattersstructures:village_jungle","required": false},
+        { "id": "kattersstructures:village_swamp","required": false},
+        { "id": "kattersstructures:village_mesa","required": false},
+        { "id": "kattersstructures:village_birch","required": false} ,
+        { "id": "kattersstructures:village_ocean","required": false},
+        { "id": "kattersstructures:village_sky","required": false},
+        { "id": "kattersstructures:village_underground","required": false}   
+    ]
+  }

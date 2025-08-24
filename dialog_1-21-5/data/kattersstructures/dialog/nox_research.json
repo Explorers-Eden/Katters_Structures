@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:multi_action",
 	"title": {
-		"translate": "dialog.kattersstructures.nox_research.titel",
+		"translate": "dialog.kattersstructures.nox_research.title",
 		"fallback": "Welcome to the Give Books menu (Nox Research)"
 	},
 	"inputs": [],

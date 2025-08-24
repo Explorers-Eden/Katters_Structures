@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:multi_action",
 	"title": {
-		"translate": "dialog.kattersstructures.ks_faq.lable_5",
+		"translate": "dialog.kattersstructures.ks_faq.label_5",
 		"fallback": "Where can I find Boss XY?"
 	},
 	"body": {
@@ -15,7 +15,7 @@
 	"actions": [
 		{
 			"label": {
-				"translate": "dialog.kattersstructures.ks_faq.lable_100",
+				"translate": "dialog.kattersstructures.ks_faq.label_100",
 				"fallback": "return to FAQ"
 			},
 			"action": {

@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:multi_action",
 	"title": {
-		"translate": "dialog.kattersstructures.pillager_ledgers.titel",
+		"translate": "dialog.kattersstructures.pillager_ledgers.title",
 		"fallback": "Welcome to the Give Books menu (Pillager Ledgers)"
 	},
 	"inputs": [],

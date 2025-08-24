@@ -1,24 +1,24 @@
 {
 	"type": "minecraft:multi_action",
 	"title": {
-		"translate": "dialog.kattersstructures.books.titel",
+		"translate": "dialog.kattersstructures.books.title",
 		"fallback": "Welcome to the Give Books menu"
 	},
 	"inputs": [],
 	"actions": [
 		{
 			"label": {
-				"translate": "dialog.kattersstructures.books.lable_1",
+				"translate": "dialog.kattersstructures.books.label_1",
 				"fallback": "Nox Research"
 			},
 			"action": {
 				"type": "show_dialog",
-				"dialog": "kattersstructures:books"
+				"dialog": "kattersstructures:nox_research"
 
 			}
 		},{
 			"label": {
-				"translate": "dialog.kattersstructures.books.lable_2",
+				"translate": "dialog.kattersstructures.books.label_2",
 				"fallback": "Pillager Ledgers"
 			},
 			"action": {
@@ -28,7 +28,7 @@
 			}
 		},{
 			"label": {
-				"translate": "dialog.kattersstructures.books.lable_3",
+				"translate": "dialog.kattersstructures.books.label_3",
 				"fallback": "Theron"
 			},
 			"action": {
@@ -38,7 +38,7 @@
 			}
 		},{
 			"label": {
-				"translate": "dialog.kattersstructures.books.lable_4",
+				"translate": "dialog.kattersstructures.books.label_4",
 				"fallback": "Verdant Tome"
 			},
 			"action": {
@@ -48,7 +48,7 @@
 			}
 		},{
 			"label": {
-				"translate": "dialog.kattersstructures.books.lable_5",
+				"translate": "dialog.kattersstructures.books.label_5",
 				"fallback": "Villager Tales"
 			},
 			"action": {
@@ -58,7 +58,7 @@
 			}
 		},{
 			"label": {
-				"translate": "dialog.kattersstructures.books.lable_6",
+				"translate": "dialog.kattersstructures.books.label_6",
 				"fallback": "Emerald Tablet"
 			},
 			"action": {

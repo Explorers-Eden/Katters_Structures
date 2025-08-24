@@ -1,8 +1,8 @@
 {
 	"type": "minecraft:multi_action",
 	"title": {
-		"translate": "dialog.kattersstructures.villager_tales.titel",
-		"fallback": "Welcome to the Give Books menu (vVllager Tales)"
+		"translate": "dialog.kattersstructures.villager_tales.title",
+		"fallback": "Welcome to the Give Books menu (Villager Tales)"
 	},
 	"inputs": [],
 	"actions": [

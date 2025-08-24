@@ -1,14 +1,14 @@
 {
 	"type": "minecraft:multi_action",
 	"title": {
-		"translate": "dialog.kattersstructures.give_items.titel",
+		"translate": "dialog.kattersstructures.give_items.title",
 		"fallback": "Welcome to the Give Items menu"
 	},
 	"inputs": [],
 	"actions": [
 		{
 			"label": {
-				"translate": "dialog.kattersstructures.give_items.lable_1",
+				"translate": "dialog.kattersstructures.give_items.label_1",
 				"fallback": "All Books"
 			},
 			"action": {
@@ -18,7 +18,7 @@
 			}
 		},{
 			"label": {
-				"translate": "dialog.kattersstructures.give_items.lable_2",
+				"translate": "dialog.kattersstructures.give_items.label_2",
 				"fallback": "All Beverages"
 			},
 			"action": {
@@ -28,7 +28,7 @@
 			}
 		},{
 			"label": {
-				"translate": "dialog.kattersstructures.give_items.lable_3",
+				"translate": "dialog.kattersstructures.give_items.label_3",
 				"fallback": "All Spawner"
 			},
 			"action": {
@@ -38,7 +38,7 @@
 			}
 		},{
 			"label": {
-				"translate": "dialog.kattersstructures.give_items.lable_4",
+				"translate": "dialog.kattersstructures.give_items.label_4",
 				"fallback": "All Therons Spells"
 			},
 			"action": {
@@ -48,7 +48,7 @@
 			}
 		},{
 			"label": {
-				"translate": "dialog.kattersstructures.give_items.lable_5",
+				"translate": "dialog.kattersstructures.give_items.label_5",
 				"fallback": "All Vaults"
 			},
 			"action": {
@@ -58,7 +58,7 @@
 			}
 		},{
 			"label": {
-				"translate": "dialog.kattersstructures.give_items.lable_6",
+				"translate": "dialog.kattersstructures.give_items.label_6",
 				"fallback": "Boss Key"
 			},
 			"action": {
@@ -68,7 +68,7 @@
 			}
 		},{
 			"label": {
-				"translate": "dialog.kattersstructures.give_items.lable_7",
+				"translate": "dialog.kattersstructures.give_items.label_7",
 				"fallback": "Raj Lightning Rod"
 			},
 			"action": {
@@ -78,7 +78,7 @@
 			}
 		},{
 			"label": {
-				"translate": "dialog.kattersstructures.give_items.lable_8",
+				"translate": "dialog.kattersstructures.give_items.label_8",
 				"fallback": "Enlightning Rod"
 			},
 			"action": {

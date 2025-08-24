@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:multi_action",
 	"title": {
-		"translate": "dialog.kattersstructures.ks_faq.lable_8",
+		"translate": "dialog.kattersstructures.ks_faq.label_8",
 		"fallback": "On what y-level is the Sky Dungeon?"
 	},
 	"body": {
@@ -15,7 +15,7 @@
 	"actions": [
 		{
 			"label": {
-				"translate": "dialog.kattersstructures.ks_faq.lable_100",
+				"translate": "dialog.kattersstructures.ks_faq.label_100",
 				"fallback": "return to FAQ"
 			},
 			"action": {

@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:multi_action",
 	"title": {
-		"translate": "dialog.kattersstructures.verdant_tome.titel",
+		"translate": "dialog.kattersstructures.verdant_tome.title",
 		"fallback": "Welcome to the Give Books menu (Verdant Tome)"
 	},
 	"inputs": [],

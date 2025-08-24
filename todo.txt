@@ -27,16 +27,16 @@ Doing
 Done
 
 optimize code
-Skyhold placement fix
-armory improved
-structure gen überarbeitet
-no natual spawning guadians in Skyrtle
-pillager village
-rusta, boss
-rusta random Totems
-new sky decor structure
-new ocean ships structure
-Fossiles
-Pillager ocean village: far_watch
-
+Skyhold placement fix -
+armory improved -
+structure gen überarbeitet -
+no natual spawning guadians in Skyrtle -
+pillager village -
+rusta, boss -
+rusta random Totems -
+new sky decor structure -
+new ocean ships structure -
+Fossiles -
+Pillager ocean village: far_watch -
+gamerules und dialoge
 

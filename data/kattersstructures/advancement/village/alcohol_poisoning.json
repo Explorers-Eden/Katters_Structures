@@ -5,7 +5,7 @@
         "count": 1
       },
       "title": {
-      "translate": "advancement.kattersstructures.alcohol_poisoning_titel",
+      "translate": "advancement.kattersstructures.alcohol_poisoning_title",
       "fallback": "One Beer to much?"
       
     },

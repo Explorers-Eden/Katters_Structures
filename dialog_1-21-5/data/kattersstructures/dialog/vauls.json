@@ -1,14 +1,14 @@
 {
 	"type": "minecraft:multi_action",
 	"title": {
-		"translate": "dialog.kattersstructures.vaults.titel",
+		"translate": "dialog.kattersstructures.vaults.title",
 		"fallback": "Welcome to the Give Vaults menu"
 	},
 	"inputs": [],
 	"actions": [
 		{
 			"label": {
-				"translate": "dialog.kattersstructures.vaults.lable_1",
+				"translate": "dialog.kattersstructures.vaults.label_1",
 				"fallback": "Boss Vaults"
 			},
 			"action": {
@@ -18,7 +18,7 @@
 			}
 		},{
 			"label": {
-				"translate": "dialog.kattersstructures.vaults.lable_2",
+				"translate": "dialog.kattersstructures.vaults.label_2",
 				"fallback": "Sky Dungeon High"
 			},
 			"action": {
@@ -28,7 +28,7 @@
 			}
         },{
 			"label": {
-				"translate": "dialog.kattersstructures.vaults.lable_3",
+				"translate": "dialog.kattersstructures.vaults.label_3",
 				"fallback": "Sky Dungeon Low"
 			},
 			"action": {
@@ -38,7 +38,7 @@
 			}
         },{
 			"label": {
-				"translate": "dialog.kattersstructures.vaults.lable_4",
+				"translate": "dialog.kattersstructures.vaults.label_4",
 				"fallback": "Sky Dungeon Mid"
 			},
 			"action": {

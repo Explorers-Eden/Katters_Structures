@@ -1,15 +1,15 @@
 {
 	"type": "minecraft:multi_action",
 	"title": {
-		"translate": "dialog.kattersstructures.spawner.titel",
+		"translate": "dialog.kattersstructures.spawner.title",
 		"fallback": "Welcome to the Give Spawner menu"
 	},
 	"inputs": [],
 	"actions": [
 		{
 			"label": {
-				"translate": "dialog.kattersstructures.spawner.lable_1",
-				"fallback": "Mini Dungeon Trial"
+				"translate": "dialog.kattersstructures.spawner.label_1",
+				"fallback": "Mini Dungeon Trial Spawner"
 			},
 			"action": {
 				"type": "minecraft:run_command",
@@ -18,8 +18,8 @@
 			}
 		},{
 			"label": {
-				"translate": "dialog.kattersstructures.spawner.lable_2",
-				"fallback": "Sky Dungeon Trial"
+				"translate": "dialog.kattersstructures.spawner.label_2",
+				"fallback": "Sky Dungeon Trial Spawner"
 			},
 			"action": {
 				"type": "minecraft:run_command",

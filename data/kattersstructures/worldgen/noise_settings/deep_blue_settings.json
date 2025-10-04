@@ -46,7 +46,13 @@
     "erosion": 0,
     "depth": 0,
     "ridges": 0,
-    "initial_density_without_jaggedness": 0,
+     "preliminary_surface_level": {
+      "type": "minecraft:find_top_surface",
+      "density": 0,
+      "upper_bound": 128,
+      "lower_bound": 0,
+      "cell_height": 8
+    },
     "final_density": {
       "type": "minecraft:squeeze",
       "argument": {

@@ -26,9 +26,41 @@
           "amount": 1
         },
         "requirements": {
-          "condition": "minecraft:block_state_property",
-          "block": "minecraft:lightning_rod",
-          "properties": {}
+          "condition": "minecraft:any_of",
+          "terms": [
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:lightning_rod"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:exposed_lightning_rod"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:weathered_lightning_rod"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:oxidized_lightning_rod"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:waxed_lightning_rod"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:waxed_exposed_lightning_rod"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:waxed_weathered_lightning_rod"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:waxed_oxidized_lightning_rod"
+              }
+          ]
         }
       },
       {
@@ -37,9 +69,41 @@
           "function": "kattersstructures:items/raj_lightning_rod/enlightning"
         },
         "requirements": {
-          "condition": "minecraft:block_state_property",
-          "block": "minecraft:lightning_rod",
-          "properties": {}
+          "condition": "minecraft:any_of",
+          "terms": [
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:lightning_rod"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:exposed_lightning_rod"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:weathered_lightning_rod"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:oxidized_lightning_rod"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:waxed_lightning_rod"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:waxed_exposed_lightning_rod"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:waxed_weathered_lightning_rod"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:waxed_oxidized_lightning_rod"
+              }
+          ]
         }
       }
     ]

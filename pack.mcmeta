@@ -1,6 +1,6 @@
 {
 	"pack": {
-		"pack_format": 71,
+		"pack_format": 88.0,
 		"description": [
 			{
 				"text": "Katters structures",
@@ -13,21 +13,6 @@
 			{
 				"text": "Katter 21",
 				"color": "aqua"
-			}
-		],
-		"supported_formats": {
-			"min_inclusive": 71,
-			"max_inclusive": 84
-		}
-	},
-	"overlays": {
-		"entries": [
-			{
-				"directory": "dialog_1-21-5",
-				"formats": {
-					"max_inclusive": 84,
-					"min_inclusive": 80
-				}
 			}
 		]
 	}

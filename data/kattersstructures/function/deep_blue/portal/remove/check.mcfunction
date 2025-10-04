@@ -3,7 +3,7 @@ if block ~ ~-1 ~ #kattersstructures:portal_block[waterlogged=true] \
 if block ~ ~ ~ #kattersstructures:portal_door \
 if block ~ ~1 ~ #kattersstructures:portal_door \
 if block ~ ~2 ~ #kattersstructures:portal_block[waterlogged=true] \
-if block ~ ~3 ~ minecraft:lightning_rod run return fail
+if block ~ ~3 ~ #kattersstructures:portal_activator run return fail
 
 data modify storage kattersstructures:temp portal.remove.x set from entity @s data.ExitPosX
 data modify storage kattersstructures:temp portal.remove.y set from entity @s data.ExitPosY

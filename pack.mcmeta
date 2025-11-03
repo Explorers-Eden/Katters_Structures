@@ -1,7 +1,6 @@
 {
 	"pack": {
-		"max_format": 88.0,
-		"min_format": 88.0,
+		"pack_format": 88.0,
 		"description": [
 			{
 				"text": "Katters structures",

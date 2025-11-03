@@ -1,0 +1,8 @@
+execute if score @s kattersstructures.tenku matches 390..410 run kill @n[type=dolphin,tag=katter.tenku.rider.dolphin.1,distance=..16]
+execute if score @s kattersstructures.tenku matches 340..360 run kill @n[type=dolphin,tag=katter.tenku.rider.dolphin.2,distance=..16]
+execute if score @s kattersstructures.tenku matches 290..310 run kill @n[type=dolphin,tag=katter.tenku.rider.dolphin.3,distance=..16]
+execute if score @s kattersstructures.tenku matches 240..260 run kill @n[type=dolphin,tag=katter.tenku.rider.dolphin.4,distance=..16]
+execute if score @s kattersstructures.tenku matches 190..210 run kill @n[type=dolphin,tag=katter.tenku.rider.dolphin.5,distance=..16]
+execute if score @s kattersstructures.tenku matches 140..160 run kill @n[type=dolphin,tag=katter.tenku.rider.dolphin.6,distance=..16]
+execute if score @s kattersstructures.tenku matches 90..110 run kill @n[type=dolphin,tag=katter.tenku.rider.dolphin.7,distance=..16]
+execute if score @s kattersstructures.tenku matches 40..60 run kill @n[type=dolphin,tag=katter.tenku.rider.dolphin.8,distance=..16]

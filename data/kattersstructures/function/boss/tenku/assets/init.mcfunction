@@ -7,6 +7,9 @@ execute as @e[type=armor_stand,tag=katter.tenku.rider.base] at @s run function k
 
 ##Kill
 execute as @e[type=turtle,tag=katter.tenku.vehicle] at @s run function kattersstructures:boss/tenku/assets/kill
+execute as @e[type=armor_stand,tag=katter.tenku.rider.base] at @s \
+    unless entity @e[type=dolphin,tag=katter.tenku.asset,distance=..16] \
+        run kill @s
 
 ##Summon Controller Armor Stand
 execute \

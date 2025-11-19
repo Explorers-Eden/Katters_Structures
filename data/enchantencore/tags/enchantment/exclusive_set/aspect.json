@@ -49,6 +49,10 @@
       "required": false
     },
     {
+      "id": "enchantencore:guard",
+      "required": false
+    },
+    {
         "id": "enchantplus:sword/poison_aspect",
         "required": false
     }

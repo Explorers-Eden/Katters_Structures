@@ -12,7 +12,7 @@
 		"type": "minecraft:plain_message",
 		"contents": {
 			"translate": "dialog.kattersstructures.main_menu.external_body",
-			"fallback": "This is the main menu of Katters Structures. \nFrom here you can give yourself any special Item from Katters Strutures, \nChange the Gamerules in it, \nAnd can read the FAQ of it."
+			"fallback": "This is the main menu of Katters Structures. \nFrom here you can give yourself any special Item from Katters Structures, \nChange the Gamerules in it, \nAnd can read the FAQ of it."
 		}
 	},
 	"can_close_with_escape": true,

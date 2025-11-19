@@ -316,7 +316,7 @@
 
     "dialog.kattersstructures.main_menu.title": "Katters Structures Main menu", 
     "dialog.kattersstructures.main_menu.external_title": "Main Menu (Katter Structures)",
-    "dialog.kattersstructures.main_menu.external_body": "This is the main menu of Katters Structures. \nFrom here you can give yourself any special Item from Katters Strutures, \nChange the Gamerules in it, \nAnd can read the FAQ of it.",
+    "dialog.kattersstructures.main_menu.external_body": "This is the main menu of Katters Structures. \nFrom here you can give yourself any special Item from Katters Structures, \nChange the Gamerules in it, \nAnd can read the FAQ of it.",
     "dialog.kattersstructures.main_menu.label_1": "Give Items", 
     "dialog.kattersstructures.main_menu.label_2": "Gamerules", 
     "dialog.kattersstructures.main_menu.label_3": "FAQ", 
@@ -368,7 +368,7 @@
     "dialog.kattersstructures.gamerule.label_8": "Bossbars", 
     "dialog.kattersstructures.generic_3": "Confirm",
     "dialog.kattersstructures.generic_4": "Discard changes",
-    "dialog.kattersstructures.ks_faq.title": "Welcome to the FAQ menu", 
+    "dialog.kattersstructures.ks_faq.title": "Katters Structures: FAQ", 
     "dialog.kattersstructures.ks_faq.label_1": "Where do I use the \"Boss Key\"", 
     "dialog.kattersstructures.ks_faq.label_2": "I found a Raj or Boss enchantment; What does it do?", 
     "dialog.kattersstructures.ks_faq.label_3": "Where can I find Enchantment XY?", 

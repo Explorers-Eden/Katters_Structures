@@ -28,4 +28,4 @@ scoreboard players set $10 kattersstructures.technical 10
 execute unless data storage kattersstructures:gamerule settings run function kattersstructures:gamerules/default_values
 
 ##set data pack version
-data modify storage eden:datapack kattersstructures.version set value "2.31"
+data modify storage eden:datapack kattersstructures.version set value "2.3.1"

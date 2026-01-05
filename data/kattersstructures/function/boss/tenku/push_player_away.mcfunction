@@ -1,26 +1,11 @@
-execute as @s[tag=!pushed_1] positioned ^ ^ ^-1 if block ~ ~ ~ #kattersstructures:non_solid if entity @n[type=turtle,tag=katter.tenku.vehicle,distance=..18] if score @n[type=turtle,tag=katter.tenku.vehicle] kattersstructures.tenku matches 390..410 run tp ^ ^ ^
-execute as @s[tag=!pushed_2] positioned ^ ^ ^-1 if block ~ ~ ~ #kattersstructures:non_solid if entity @n[type=turtle,tag=katter.tenku.vehicle,distance=..18] if score @n[type=turtle,tag=katter.tenku.vehicle] kattersstructures.tenku matches 340..360 run tp ^ ^ ^
-execute as @s[tag=!pushed_3] positioned ^ ^ ^-1 if block ~ ~ ~ #kattersstructures:non_solid if entity @n[type=turtle,tag=katter.tenku.vehicle,distance=..18] if score @n[type=turtle,tag=katter.tenku.vehicle] kattersstructures.tenku matches 290..310 run tp ^ ^ ^
-execute as @s[tag=!pushed_4] positioned ^ ^ ^-1 if block ~ ~ ~ #kattersstructures:non_solid if entity @n[type=turtle,tag=katter.tenku.vehicle,distance=..18] if score @n[type=turtle,tag=katter.tenku.vehicle] kattersstructures.tenku matches 240..260 run tp ^ ^ ^
-execute as @s[tag=!pushed_5] positioned ^ ^ ^-1 if block ~ ~ ~ #kattersstructures:non_solid if entity @n[type=turtle,tag=katter.tenku.vehicle,distance=..18] if score @n[type=turtle,tag=katter.tenku.vehicle] kattersstructures.tenku matches 190..210 run tp ^ ^ ^
-execute as @s[tag=!pushed_6] positioned ^ ^ ^-1 if block ~ ~ ~ #kattersstructures:non_solid if entity @n[type=turtle,tag=katter.tenku.vehicle,distance=..18] if score @n[type=turtle,tag=katter.tenku.vehicle] kattersstructures.tenku matches 140..160 run tp ^ ^ ^
-execute as @s[tag=!pushed_7] positioned ^ ^ ^-1 if block ~ ~ ~ #kattersstructures:non_solid if entity @n[type=turtle,tag=katter.tenku.vehicle,distance=..18] if score @n[type=turtle,tag=katter.tenku.vehicle] kattersstructures.tenku matches 90..110 run tp ^ ^ ^
-execute as @s[tag=!pushed_8] positioned ^ ^ ^-1 if block ~ ~ ~ #kattersstructures:non_solid if entity @n[type=turtle,tag=katter.tenku.vehicle,distance=..18] if score @n[type=turtle,tag=katter.tenku.vehicle] kattersstructures.tenku matches 40..60 run tp ^ ^ ^
+#de-/increase score predicate for cooldown
+execute unless score @s kattersstructures.tenku.push_cooldown matches 1200.. run return run scoreboard players add @s kattersstructures.tenku.push_cooldown 1
 
-execute as @s[tag=!pushed_1] positioned ^ ^ ^-1 if entity @n[type=turtle,tag=katter.tenku.vehicle,distance=18..] if score @n[type=turtle,tag=katter.tenku.vehicle] kattersstructures.tenku matches 390..410 run tag @s add pushed_1
-execute as @s[tag=!pushed_2] positioned ^ ^ ^-1 if entity @n[type=turtle,tag=katter.tenku.vehicle,distance=18..] if score @n[type=turtle,tag=katter.tenku.vehicle] kattersstructures.tenku matches 340..360 run tag @s add pushed_2
-execute as @s[tag=!pushed_3] positioned ^ ^ ^-1 if entity @n[type=turtle,tag=katter.tenku.vehicle,distance=18..] if score @n[type=turtle,tag=katter.tenku.vehicle] kattersstructures.tenku matches 290..310 run tag @s add pushed_3
-execute as @s[tag=!pushed_4] positioned ^ ^ ^-1 if entity @n[type=turtle,tag=katter.tenku.vehicle,distance=18..] if score @n[type=turtle,tag=katter.tenku.vehicle] kattersstructures.tenku matches 240..260 run tag @s add pushed_4
-execute as @s[tag=!pushed_5] positioned ^ ^ ^-1 if entity @n[type=turtle,tag=katter.tenku.vehicle,distance=18..] if score @n[type=turtle,tag=katter.tenku.vehicle] kattersstructures.tenku matches 190..210 run tag @s add pushed_5
-execute as @s[tag=!pushed_6] positioned ^ ^ ^-1 if entity @n[type=turtle,tag=katter.tenku.vehicle,distance=18..] if score @n[type=turtle,tag=katter.tenku.vehicle] kattersstructures.tenku matches 140..160 run tag @s add pushed_6
-execute as @s[tag=!pushed_7] positioned ^ ^ ^-1 if entity @n[type=turtle,tag=katter.tenku.vehicle,distance=18..] if score @n[type=turtle,tag=katter.tenku.vehicle] kattersstructures.tenku matches 90..110 run tag @s add pushed_7
-execute as @s[tag=!pushed_8] positioned ^ ^ ^-1 if entity @n[type=turtle,tag=katter.tenku.vehicle,distance=18..] if score @n[type=turtle,tag=katter.tenku.vehicle] kattersstructures.tenku matches 40..60 run tag @s add pushed_8
+rotate @s facing entity @p[gamemode=!spectator,gamemode=!creative,distance=..18]
 
-execute as @s[tag=!pushed_1] positioned ^ ^ ^-1 unless block ~ ~ ~ #kattersstructures:non_solid if entity @n[type=turtle,tag=katter.tenku.vehicle,distance=..18] if score @n[type=turtle,tag=katter.tenku.vehicle] kattersstructures.tenku matches 390..410 run tag @s add pushed_1
-execute as @s[tag=!pushed_2] positioned ^ ^ ^-1 unless block ~ ~ ~ #kattersstructures:non_solid if entity @n[type=turtle,tag=katter.tenku.vehicle,distance=..18] if score @n[type=turtle,tag=katter.tenku.vehicle] kattersstructures.tenku matches 340..360 run tag @s add pushed_2
-execute as @s[tag=!pushed_3] positioned ^ ^ ^-1 unless block ~ ~ ~ #kattersstructures:non_solid if entity @n[type=turtle,tag=katter.tenku.vehicle,distance=..18] if score @n[type=turtle,tag=katter.tenku.vehicle] kattersstructures.tenku matches 290..310 run tag @s add pushed_3
-execute as @s[tag=!pushed_4] positioned ^ ^ ^-1 unless block ~ ~ ~ #kattersstructures:non_solid if entity @n[type=turtle,tag=katter.tenku.vehicle,distance=..18] if score @n[type=turtle,tag=katter.tenku.vehicle] kattersstructures.tenku matches 240..260 run tag @s add pushed_4
-execute as @s[tag=!pushed_5] positioned ^ ^ ^-1 unless block ~ ~ ~ #kattersstructures:non_solid if entity @n[type=turtle,tag=katter.tenku.vehicle,distance=..18] if score @n[type=turtle,tag=katter.tenku.vehicle] kattersstructures.tenku matches 190..210 run tag @s add pushed_5
-execute as @s[tag=!pushed_6] positioned ^ ^ ^-1 unless block ~ ~ ~ #kattersstructures:non_solid if entity @n[type=turtle,tag=katter.tenku.vehicle,distance=..18] if score @n[type=turtle,tag=katter.tenku.vehicle] kattersstructures.tenku matches 140..160 run tag @s add pushed_6
-execute as @s[tag=!pushed_7] positioned ^ ^ ^-1 unless block ~ ~ ~ #kattersstructures:non_solid if entity @n[type=turtle,tag=katter.tenku.vehicle,distance=..18] if score @n[type=turtle,tag=katter.tenku.vehicle] kattersstructures.tenku matches 90..110 run tag @s add pushed_7
-execute as @s[tag=!pushed_8] positioned ^ ^ ^-1 unless block ~ ~ ~ #kattersstructures:non_solid if entity @n[type=turtle,tag=katter.tenku.vehicle,distance=..18] if score @n[type=turtle,tag=katter.tenku.vehicle] kattersstructures.tenku matches 40..60 run tag @s add pushed_8
+execute as @p[gamemode=!spectator,gamemode=!creative,distance=..18] at @s unless predicate kattersstructures:entity/has_vehicle run summon armor_stand ~ ~ ~ {Invulnerable:1b,Small:1b,Invisible:1b,Tags:["tenku.push.vehicle"]}
+#^ ^0.8 ^3 equals strength of motion
+execute rotated as @s positioned 0.0 0.0 0.0 positioned ^ ^0.5 ^2.5 summon minecraft:area_effect_cloud run data modify entity @n[type=minecraft:armor_stand,tag=tenku.push.vehicle] Motion set from entity @s Pos
+execute as @p[gamemode=!spectator,gamemode=!creative,distance=..18] at @s unless predicate kattersstructures:entity/has_vehicle run ride @s mount @n[type=minecraft:armor_stand,tag=tenku.push.vehicle,distance=..1]
+
+scoreboard players set @s kattersstructures.tenku.push_cooldown 0

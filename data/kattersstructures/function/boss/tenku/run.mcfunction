@@ -23,6 +23,6 @@ execute as @e[type=turtle,tag=katter.tenku.vehicle] at @s \
 execute as @e[type=armor_stand,tag=tenku.push.vehicle] unless predicate kattersstructures:entity/has_passenger run kill @s
 execute as @e[type=armor_stand,tag=tenku.push.vehicle] if predicate kattersstructures:entity/has_no_movement run kill @s
 
-#execute if predicate kattersstructures:percentages/10 run function kattersstructures:boss/tenku/attacks/ominous
-#execute if predicate kattersstructures:percentages/10 as @e[type=player,gamemode=!spectator,gamemode=!creative] at @s if entity @e[type=turtle,tag=katter.tenku.vehicle,distance=..12] run function kattersstructures:boss/tenku/helper/spawn
-#execute if predicate kattersstructures:percentages/10 as @e[type=player,gamemode=!spectator,gamemode=!creative] at @s if entity @e[type=turtle,tag=katter.tenku.vehicle,distance=13..] run function kattersstructures:boss/tenku/attacks/beam_start
+execute if predicate kattersstructures:percentages/10 run function kattersstructures:boss/tenku/attacks/ominous
+execute if predicate kattersstructures:percentages/10 as @e[type=player,gamemode=!spectator,gamemode=!creative] at @s if entity @e[type=turtle,tag=katter.tenku.vehicle,distance=..12] run function kattersstructures:boss/tenku/helper/spawn
+execute if predicate kattersstructures:percentages/10 as @e[type=player,gamemode=!spectator,gamemode=!creative] at @s if entity @e[type=turtle,tag=katter.tenku.vehicle,distance=13..] run function kattersstructures:boss/tenku/attacks/beam_start

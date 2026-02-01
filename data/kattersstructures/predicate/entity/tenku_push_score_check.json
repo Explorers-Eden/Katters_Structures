@@ -1,0 +1,85 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "kattersstructures.tenku": {
+          "min": 40,
+          "max": 60
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "kattersstructures.tenku": {
+          "min": 90,
+          "max": 110
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "kattersstructures.tenku": {
+          "min": 140,
+          "max": 160
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "kattersstructures.tenku": {
+          "min": 190,
+          "max": 210
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "kattersstructures.tenku": {
+          "min": 240,
+          "max": 260
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "kattersstructures.tenku": {
+          "min": 290,
+          "max": 310
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "kattersstructures.tenku": {
+          "min": 340,
+          "max": 360
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "kattersstructures.tenku": {
+          "min": 390,
+          "max": 410
+        }
+      }
+    }
+  ]
+}

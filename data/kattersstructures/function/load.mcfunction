@@ -7,6 +7,7 @@ function kattersstructures:database/create
 ##add scoreboards
 scoreboard objectives add kattersstructures.technical dummy
 scoreboard objectives add kattersstructures.tenku dummy
+scoreboard objectives add kattersstructures.tenku.push_cooldown dummy
 scoreboard objectives add kattersstructures.arachne dummy
 scoreboard objectives add kattersstructures.theron dummy
 scoreboard objectives add kattersstructures.rusta dummy

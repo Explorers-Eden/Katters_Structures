@@ -13,11 +13,16 @@ execute unless entity @e[type=turtle,tag=katter.tenku.vehicle] run return fail
 
 execute as @e[type=turtle,tag=katter.tenku.vehicle] store result score @s kattersstructures.tenku run data get entity @s Health
 execute as @e[type=player,gamemode=!spectator,gamemode=!creative] at @s if entity @e[type=turtle,tag=katter.tenku.vehicle,distance=..48] run effect give @s minecraft:mining_fatigue 5 4 true
-execute as @e[type=player] at @s unless entity @e[type=turtle,tag=katter.tenku.vehicle,distance=..48] run function kattersstructures:boss/tenku/remove_tags
-
 
 function kattersstructures:boss/tenku/assets/init
-execute as @e[type=player,gamemode=!spectator,gamemode=!creative] at @s run function kattersstructures:boss/tenku/push_player_away
+
+execute as @e[type=turtle,tag=katter.tenku.vehicle] at @s \
+    if predicate kattersstructures:entity/tenku_push_score_check \
+        run function kattersstructures:boss/tenku/push_player_away
+        
+execute as @e[type=armor_stand,tag=tenku.push.vehicle] unless predicate kattersstructures:entity/has_passenger run kill @s
+execute as @e[type=armor_stand,tag=tenku.push.vehicle] if predicate kattersstructures:entity/has_no_movement run kill @s
+
 execute if predicate kattersstructures:percentages/10 run function kattersstructures:boss/tenku/attacks/ominous
 execute if predicate kattersstructures:percentages/10 as @e[type=player,gamemode=!spectator,gamemode=!creative] at @s if entity @e[type=turtle,tag=katter.tenku.vehicle,distance=..12] run function kattersstructures:boss/tenku/helper/spawn
 execute if predicate kattersstructures:percentages/10 as @e[type=player,gamemode=!spectator,gamemode=!creative] at @s if entity @e[type=turtle,tag=katter.tenku.vehicle,distance=13..] run function kattersstructures:boss/tenku/attacks/beam_start

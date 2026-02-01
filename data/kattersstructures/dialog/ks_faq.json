@@ -4,7 +4,7 @@
 		"translate": "dialog.kattersstructures.ks_faq.title",
 		"fallback": "Welcome to the FAQ menu"
 	},
-	"external_title": "Katters Strutures FAQ",
+	"external_title": "Katters Structures FAQ",
 	"inputs": [],
 	"columns": 1,
 	"actions": [

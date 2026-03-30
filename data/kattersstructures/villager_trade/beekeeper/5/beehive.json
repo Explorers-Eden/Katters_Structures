@@ -1,0 +1,45 @@
+{
+	"wants": {
+		"id": "minecraft:emerald",
+		"count": 20
+	},
+	"gives": {
+		"id": "minecraft:beehive",
+		"components": {
+			"minecraft:bees": [
+				{
+					"entity_data": {
+						"id": "minecraft:bee"
+					},
+					"min_ticks_in_hive": 10,
+					"ticks_in_hive": 10
+				},
+				{
+					"entity_data": {
+						"id": "minecraft:bee"
+					},
+					"min_ticks_in_hive": 10,
+					"ticks_in_hive": 10
+				},
+				{
+					"entity_data": {
+						"id": "minecraft:bee"
+					},
+					"min_ticks_in_hive": 10,
+					"ticks_in_hive": 10
+				}
+			]
+		},
+		"count": 1
+	},
+	"max_uses": 12,
+	"reputation_discount": 0.05,
+	"xp": 10,
+	"merchant_predicate": {
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"nbt": "{Tags:[\"katters_structures.beekeeper\"]}"
+		}
+	}
+}

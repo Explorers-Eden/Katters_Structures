@@ -1,0 +1,21 @@
+{
+  "gives": {
+    "id": "minecraft:lapis_lazuli"
+  },
+  "max_uses": 12.0,
+  "reputation_discount": 0.05,
+  "wants": {
+    "id": "minecraft:emerald"
+  },
+  "xp": 5.0,
+	"merchant_predicate": {
+		"condition": "minecraft:inverted",
+		"term": {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"katters_structures.barkeeper\"]}"
+			}
+		}
+	}
+}

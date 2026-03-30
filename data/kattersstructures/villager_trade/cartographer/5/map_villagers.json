@@ -1,0 +1,53 @@
+{
+	"wants": {
+		"id": "minecraft:emerald",
+		"count": 16
+	},
+	"additional_wants": {
+		"id": "minecraft:compass",
+		"count": 1
+	},
+	"gives": {
+		"id": "minecraft:map",
+		"count": 1
+	},
+	"given_item_modifiers": [
+		{
+			"function": "minecraft:exploration_map",
+			"destination": "kattersstructures:villager",
+			"decoration": "minecraft:monument",
+			"zoom": 1,
+			"skip_existing_chunks": true,
+			"conditions": []
+		},
+		{
+			"function": "minecraft:set_name",
+			"name": {
+				"translate": "item.kattersstructures.map_villager.name",
+				"fallback": "Villager Map"
+			}
+		},
+		{
+			"function": "minecraft:set_lore",
+			"lore": [
+				{
+					"translate": "item.kattersstructures.map_villager.lore",
+					"fallback": "Shows the location of a Katters Structure Villager Statue"
+				}
+			],
+			"mode": "insert"
+		}
+	],
+	"max_uses": 2,
+	"reputation_discount": 0.05,
+	"xp": 40,
+	"merchant_predicate": {
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"location": {
+				"structures": "#kattersstructures:village"
+			}
+		}
+	}
+}

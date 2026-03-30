@@ -1,0 +1,22 @@
+{
+  "gives": {
+    "count": 4,
+    "id": "minecraft:apple"
+  },
+  "max_uses": 16.0,
+  "reputation_discount": 0.05,
+  "wants": {
+    "id": "minecraft:emerald"
+  },
+  "xp": 5.0,
+	"merchant_predicate": {
+		"condition": "minecraft:inverted",
+		"term": {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"katters_structures.beekeeper\"]}"
+			}
+		}
+	}
+}

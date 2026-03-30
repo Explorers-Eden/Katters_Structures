@@ -1,15 +1,61 @@
 {
-	"type": "minecraft:waterlogged_vegetation_patch",
+	"type": "minecraft:tree",
 	"config": {
-		"surface": "floor",
-		"depth": 1,
-		"vertical_range": 3,
-		"extra_bottom_block_chance": 0,
-		"extra_edge_column_chance": 0,
-		"vegetation_chance": 0,
-		"xz_radius": 7,
-		"replaceable": "#kattersstructures:water",
-		"ground_state": {
+		"minimum_size": {
+			"type": "minecraft:two_layers_feature_size",
+			"min_clipped_height": 1,
+			"limit": 1,
+			"lower_size": 0,
+			"upper_size": 1
+		},
+		"below_trunk_provider": {
+			"type": "minecraft:rule_based_state_provider",
+			"fallback": {
+				"type": "minecraft:simple_state_provider",
+				"state": {
+					"Name": "minecraft:sandstone"
+				}
+			},
+			"rules": [
+				{
+					"if_true": {
+						"type": "minecraft:matching_blocks",
+						"blocks": "minecraft:sand"
+					},
+					"then": {
+						"type": "minecraft:simple_state_provider",
+						"state": {
+							"Name": "minecraft:sand"
+						}
+					}
+				},
+				{
+					"if_true": {
+						"type": "minecraft:matching_blocks",
+						"blocks": "minecraft:dead_brain_coral_block"
+					},
+					"then": {
+						"type": "minecraft:simple_state_provider",
+						"state": {
+							"Name": "minecraft:dead_brain_coral_block"
+						}
+					}
+				},
+				{
+					"if_true": {
+						"type": "minecraft:matching_blocks",
+						"blocks": "minecraft:dead_bubble_coral_block"
+					},
+					"then": {
+						"type": "minecraft:simple_state_provider",
+						"state": {
+							"Name": "minecraft:dead_bubble_coral_block"
+						}
+					}
+				}
+			]
+		},
+		"trunk_provider": {
 			"type": "minecraft:weighted_state_provider",
 			"entries": [
 				{
@@ -26,7 +72,7 @@
 					"data": {
 						"Name": "minecraft:dead_brain_coral_fan",
 						"Properties": {
-							"waterlogged": "false"
+							"waterlogged": "true"
 						}
 					}
 				},
@@ -43,6 +89,24 @@
 					"weight": 1,
 					"data": {
 						"Name": "minecraft:dead_bubble_coral_fan",
+						"Properties": {
+							"waterlogged": "true"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:dead_brain_coral",
+						"Properties": {
+							"waterlogged": "true"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:dead_brain_coral_fan",
 						"Properties": {
 							"waterlogged": "true"
 						}
@@ -69,24 +133,6 @@
 				{
 					"weight": 1,
 					"data": {
-						"Name": "minecraft:dead_horn_coral",
-						"Properties": {
-							"waterlogged": "true"
-						}
-					}
-				},
-				{
-					"weight": 1,
-					"data": {
-						"Name": "minecraft:dead_horn_coral_fan",
-						"Properties": {
-							"waterlogged": "true"
-						}
-					}
-				},
-				{
-					"weight": 1,
-					"data": {
 						"Name": "minecraft:dead_tube_coral",
 						"Properties": {
 							"waterlogged": "true"
@@ -101,9 +147,45 @@
 							"waterlogged": "true"
 						}
 					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:dead_horn_coral",
+						"Properties": {
+							"waterlogged": "true"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:dead_horn_coral_fan",
+						"Properties": {
+							"waterlogged": "true"
+						}
+					}
 				}
 			]
 		},
-		"vegetation_feature": "kattersstructures:dead_corals"
+		"foliage_provider": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:water"
+			}
+		},
+		"trunk_placer": {
+			"type": "minecraft:straight_trunk_placer",
+			"base_height": 1,
+			"height_rand_a": 0,
+			"height_rand_b": 0
+		},
+		"foliage_placer": {
+			"type": "minecraft:blob_foliage_placer",
+			"radius": 0,
+			"offset": 0,
+			"height": 0
+		},
+		"decorators": []
 	}
 }

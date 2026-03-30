@@ -9,5 +9,27 @@
 	"height": 144,
 	"monster_spawn_light_level": 0,
 	"monster_spawn_block_light_limit": 0,
-	"has_ender_dragon_fight": false
+	"has_ender_dragon_fight": false,
+	"has_fixed_time": true,
+	"attributes": {
+		"gameplay/bed_rule": {
+			"can_set_spawn": "always",
+			"can_sleep": "never",
+			"explodes": false
+
+		},
+		"gameplay/can_pillager_patrol_spawn": false,
+		"gameplay/sky_light_level": 0,
+		"gameplay/bees_stay_in_hive": true,
+		"gameplay/monsters_burn": false,
+		"gameplay/piglins_zombify": false,
+		"gameplay/increased_fire_burnout": false,
+		"gameplay/respawn_anchor_works": true,
+		"gameplay/fast_lava": false,
+		"gameplay/turtle_egg_hatch_chance": 1,
+		"gameplay/villager_activity": "minecraft:work",
+		"gameplay/can_start_raid": false,
+		"gameplay/snow_golem_melts": true,
+		"gameplay/surface_slime_spawn_chance": 0
+	}
 }

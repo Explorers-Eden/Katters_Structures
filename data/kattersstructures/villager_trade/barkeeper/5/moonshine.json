@@ -1,0 +1,54 @@
+{
+	"wants": {
+		"id": "minecraft:emerald",
+		"count": 16
+	},
+	"gives": {
+		"id": "minecraft:potion",
+		"components": {
+			"minecraft:custom_name": {
+				"translate": "item.kattersstructures.moonshine",
+				"fallback": "Moonshine",
+				"color": "black"
+			},
+			"minecraft:potion_contents": {
+				"potion": "minecraft:thick",
+				"custom_color": 13158827,
+				"custom_effects": [
+					{
+						"id": "minecraft:speed",
+						"amplifier": 4,
+						"duration": 6000,
+						"ambient": true,
+						"show_particles": false
+					},
+					{
+						"id": "minecraft:jump_boost",
+						"amplifier": 2,
+						"duration": 6000,
+						"ambient": true,
+						"show_particles": false
+					},
+					{
+						"id": "minecraft:strength",
+						"amplifier": 3,
+						"duration": 6000,
+						"ambient": true,
+						"show_particles": false
+					}
+				]
+			}
+		},
+		"count": 1
+	},
+	"max_uses": 12,
+	"reputation_discount": 0.05,
+	"xp": 10,
+	"merchant_predicate": {
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"nbt": "{Tags:[\"katters_structures.barkeeper\"]}"
+		}
+	}
+}

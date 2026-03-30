@@ -1,0 +1,53 @@
+{
+	"wants": {
+		"id": "minecraft:emerald",
+		"count": 2
+	},
+	"gives": {
+		"id": "minecraft:potion",
+		"components": {
+			"minecraft:custom_name": {
+				"translate": "item.kattersstructures.coffee",
+				"fallback": "Coffee",
+				"color": "#6B451A"
+			},
+			"minecraft:potion_contents": {
+				"potion": "minecraft:thick",
+				"custom_color": 7030042,
+				"custom_effects": [
+					{
+						"id": "minecraft:speed",
+						"amplifier": 0,
+						"duration": 2000,
+						"ambient": true,
+						"show_particles": false
+					},
+					{
+						"id": "minecraft:night_vision",
+						"amplifier": 0,
+						"duration": 2000,
+						"ambient": true
+					},
+					{
+						"id": "minecraft:jump_boost",
+						"amplifier": 0,
+						"duration": 2000,
+						"ambient": true,
+						"show_particles": false
+					}
+				]
+			}
+		},
+		"count": 1
+	},
+	"max_uses": 12,
+	"reputation_discount": 0.05,
+	"xp": 10,
+	"merchant_predicate": {
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"nbt": "{Tags:[\"katters_structures.barkeeper\"]}"
+		}
+	}
+}

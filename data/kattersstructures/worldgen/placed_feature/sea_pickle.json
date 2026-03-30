@@ -1,5 +1,5 @@
 {
-    "feature": "kattersstructures:corals",
+    "feature": "kattersstructures:sea_pickle",
     "placement": [
       {
         "type": "minecraft:count_on_every_layer",
@@ -22,9 +22,7 @@
               ],
               "blocks": [
                 "minecraft:sand",
-                "minecraft:sandstone",
-                "minecraft:horn_coral_block",
-                "minecraft:fire_coral_block"
+                "minecraft:sandstone"
               ]
             }
           ]

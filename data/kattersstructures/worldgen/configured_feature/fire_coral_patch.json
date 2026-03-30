@@ -1,29 +1,26 @@
 {
-  "type": "minecraft:disk",
-  "config": {
-    "state_provider": {
-      "fallback": {
-        "type": "minecraft:simple_state_provider",
-        "state": {
-          "Name": "minecraft:fire_coral_block"
-        }
-      },
-      "rules": []
-    },
-    "target": {
-      "type": "minecraft:all_of",
-      "predicates": [
-        {
-          "type": "minecraft:matching_blocks",
-            "blocks": [
-              "minecraft:sand",
-              "minecraft:sandstone",
-              "minecraft:horn_coral_block"
-            ]
-        }
-      ]
-    },
-    "radius": 3,
-    "half_height": 2
-  }
+	"type": "minecraft:disk",
+	"config": {
+		"state_provider": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:fire_coral_block"
+			}
+		},
+		"radius": 3,
+		"half_height": 2,
+		"target": {
+			"type": "minecraft:all_of",
+			"predicates": [
+				{
+					"type": "minecraft:matching_blocks",
+					"blocks": [
+						"minecraft:sand",
+						"minecraft:sandstone",
+						"minecraft:horn_coral_block"
+					]
+				}
+			]
+		}
+	}
 }

@@ -2,13 +2,10 @@
   "type": "minecraft:disk",
   "config": {
     "state_provider": {
-      "fallback": {
-        "type": "minecraft:simple_state_provider",
-        "state": {
-          "Name": "minecraft:soul_sand"
-        }
-      },
-      "rules": []
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:soul_sand"
+      }
     },
     "target": {
       "type": "minecraft:all_of",

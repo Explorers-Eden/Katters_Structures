@@ -14,6 +14,9 @@
     },{
         "structure": "kattersstructures:deep_blue_city",
         "weight": 1
+    },{
+        "structure": "kattersstructures:red_coral",
+        "weight": 5
     }
 
     ]

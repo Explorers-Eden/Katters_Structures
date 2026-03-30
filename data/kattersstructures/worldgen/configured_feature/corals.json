@@ -1,119 +1,191 @@
 {
-  "type": "minecraft:flower",
-  "config": {
-    "tries": 96,
-    "xz_spread": 7,
-    "y_spread": 3,
-    "feature": {
-      "feature": {
-        "type": "minecraft:simple_block",
-        "config": {
-          "to_place": {
-            "type": "minecraft:weighted_state_provider",
-            "entries": [
-              {
-                "weight": 1,
-                "data": {
-                  "Name": "minecraft:brain_coral",
-                  "Properties": {
-                    "waterlogged": "true"
-                  }
-                }
-              },
-              {
-                "weight": 1,
-                "data": {
-                  "Name": "minecraft:brain_coral_fan",
-                  "Properties": {
-                    "waterlogged": "true"
-                  }
-                }
-              },
-              {
-                "weight": 1,
-                "data": {
-                  "Name": "minecraft:bubble_coral",
-                  "Properties": {
-                    "waterlogged": "true"
-                  }
-                }
-              },
-              {
-                "weight": 1,
-                "data": {
-                  "Name": "minecraft:bubble_coral_fan",
-                  "Properties": {
-                    "waterlogged": "true"
-                  }
-                }
-              },
-              {
-                "weight": 1,
-                "data": {
-                  "Name": "minecraft:fire_coral",
-                  "Properties": {
-                    "waterlogged": "true"
-                  }
-                }
-              },
-              {
-                "weight": 1,
-                "data": {
-                  "Name": "minecraft:fire_coral_fan",
-                  "Properties": {
-                    "waterlogged": "true"
-                  }
-                }
-              },
-              {
-                "weight": 1,
-                "data": {
-                  "Name": "minecraft:horn_coral",
-                  "Properties": {
-                    "waterlogged": "true"
-                  }
-                }
-              },
-              {
-                "weight": 1,
-                "data": {
-                  "Name": "minecraft:horn_coral_fan",
-                  "Properties": {
-                    "waterlogged": "true"
-                  }
-                }
-              },
-              {
-                "weight": 1,
-                "data": {
-                  "Name": "minecraft:tube_coral",
-                  "Properties": {
-                    "waterlogged": "true"
-                  }
-                }
-              },
-              {
-                "weight": 1,
-                "data": {
-                  "Name": "minecraft:tube_coral_fan",
-                  "Properties": {
-                    "waterlogged": "true"
-                  }
-                }
-              }
-            ]
-          }
-        }
-      },
-      "placement": [
-        {
-          "type": "minecraft:block_predicate_filter",
-          "predicate": {
-            "type": "minecraft:matching_blocks",
-            "blocks": "minecraft:water"
-          }
-        }
-      ]
-    }
-  }
+	"type": "minecraft:tree",
+	"config": {
+		"minimum_size": {
+			"type": "minecraft:two_layers_feature_size",
+			"min_clipped_height": 1,
+			"limit": 1,
+			"lower_size": 0,
+			"upper_size": 1
+		},
+		"below_trunk_provider": {
+			"type": "minecraft:rule_based_state_provider",
+			"fallback": {
+				"type": "minecraft:simple_state_provider",
+				"state": {
+					"Name": "minecraft:sandstone"
+				}
+			},
+			"rules": [
+				{
+					"if_true": {
+						"type": "minecraft:matching_blocks",
+						"blocks": "minecraft:sand"
+					},
+					"then": {
+						"type": "minecraft:simple_state_provider",
+						"state": {
+							"Name": "minecraft:sand"
+						}
+					}
+				},
+				{
+					"if_true": {
+						"type": "minecraft:matching_blocks",
+						"blocks": "minecraft:horn_coral_block"
+					},
+					"then": {
+						"type": "minecraft:simple_state_provider",
+						"state": {
+							"Name": "minecraft:horn_coral_block"
+						}
+					}
+				},
+				{
+					"if_true": {
+						"type": "minecraft:matching_blocks",
+						"blocks": "minecraft:fire_coral_block"
+					},
+					"then": {
+						"type": "minecraft:simple_state_provider",
+						"state": {
+							"Name": "minecraft:fire_coral_block"
+						}
+					}
+				}
+			]
+		},
+		"trunk_provider": {
+			"type": "minecraft:weighted_state_provider",
+			"entries": [
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:brain_coral",
+						"Properties": {
+							"waterlogged": "true"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:brain_coral_fan",
+						"Properties": {
+							"waterlogged": "true"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:bubble_coral",
+						"Properties": {
+							"waterlogged": "true"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:bubble_coral_fan",
+						"Properties": {
+							"waterlogged": "true"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:brain_coral",
+						"Properties": {
+							"waterlogged": "true"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:brain_coral_fan",
+						"Properties": {
+							"waterlogged": "true"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:fire_coral",
+						"Properties": {
+							"waterlogged": "true"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:fire_coral_fan",
+						"Properties": {
+							"waterlogged": "true"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:tube_coral",
+						"Properties": {
+							"waterlogged": "true"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:tube_coral_fan",
+						"Properties": {
+							"waterlogged": "true"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:horn_coral",
+						"Properties": {
+							"waterlogged": "true"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:horn_coral_fan",
+						"Properties": {
+							"waterlogged": "true"
+						}
+					}
+				}
+			]
+		},
+		"foliage_provider": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:water"
+			}
+		},
+		"trunk_placer": {
+			"type": "minecraft:straight_trunk_placer",
+			"base_height": 1,
+			"height_rand_a": 0,
+			"height_rand_b": 0
+		},
+		"foliage_placer": {
+			"type": "minecraft:blob_foliage_placer",
+			"radius": 0,
+			"offset": 0,
+			"height": 0
+		},
+		"decorators": []
+	}
 }

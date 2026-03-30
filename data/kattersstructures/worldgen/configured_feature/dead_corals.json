@@ -1,120 +1,109 @@
 {
-    "type": "minecraft:flower",
-    "config": {
-      "tries": 96,
-      "xz_spread": 7,
-      "y_spread": 3,
-      "feature": {
-        "feature": {
-          "type": "minecraft:simple_block",
-          "config": {
-            "to_place": {
-              "type": "minecraft:weighted_state_provider",
-              "entries": [
-                {
-                  "weight": 1,
-                  "data": {
-                    "Name": "minecraft:dead_brain_coral",
-                    "Properties": {
-                      "waterlogged": "true"
-                    }
-                  }
-                },
-                {
-                  "weight": 1,
-                  "data": {
-                    "Name": "minecraft:dead_brain_coral_fan",
-                    "Properties": {
-                      "waterlogged": "true"
-                    }
-                  }
-                },
-                {
-                  "weight": 1,
-                  "data": {
-                    "Name": "minecraft:dead_bubble_coral",
-                    "Properties": {
-                      "waterlogged": "true"
-                    }
-                  }
-                },
-                {
-                  "weight": 1,
-                  "data": {
-                    "Name": "minecraft:dead_bubble_coral_fan",
-                    "Properties": {
-                      "waterlogged": "true"
-                    }
-                  }
-                },
-                {
-                  "weight": 1,
-                  "data": {
-                    "Name": "minecraft:dead_fire_coral",
-                    "Properties": {
-                      "waterlogged": "true"
-                    }
-                  }
-                },
-                {
-                  "weight": 1,
-                  "data": {
-                    "Name": "minecraft:dead_fire_coral_fan",
-                    "Properties": {
-                      "waterlogged": "true"
-                    }
-                  }
-                },
-                {
-                  "weight": 1,
-                  "data": {
-                    "Name": "minecraft:dead_horn_coral",
-                    "Properties": {
-                      "waterlogged": "true"
-                    }
-                  }
-                },
-                {
-                  "weight": 1,
-                  "data": {
-                    "Name": "minecraft:dead_horn_coral_fan",
-                    "Properties": {
-                      "waterlogged": "true"
-                    }
-                  }
-                },
-                {
-                  "weight": 1,
-                  "data": {
-                    "Name": "minecraft:dead_tube_coral",
-                    "Properties": {
-                      "waterlogged": "true"
-                    }
-                  }
-                },
-                {
-                  "weight": 1,
-                  "data": {
-                    "Name": "minecraft:dead_tube_coral_fan",
-                    "Properties": {
-                      "waterlogged": "true"
-                    }
-                  }
-                }
-              ]
-            }
-          }
-        },
-        "placement": [
-          {
-            "type": "minecraft:block_predicate_filter",
-            "predicate": {
-              "type": "minecraft:matching_blocks",
-              "blocks": "minecraft:water"
-            }
-          }
-        ]
-      }
-    }
-  }
-  
+	"type": "minecraft:waterlogged_vegetation_patch",
+	"config": {
+		"surface": "floor",
+		"depth": 1,
+		"vertical_range": 3,
+		"extra_bottom_block_chance": 0,
+		"extra_edge_column_chance": 0,
+		"vegetation_chance": 0,
+		"xz_radius": 7,
+		"replaceable": "#kattersstrutures:water",
+		"ground_state": {
+			"type": "minecraft:weighted_state_provider",
+			"entries": [
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:dead_brain_coral",
+						"Properties": {
+							"waterlogged": "true"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:dead_brain_coral_fan",
+						"Properties": {
+							"waterlogged": "false"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:dead_bubble_coral",
+						"Properties": {
+							"waterlogged": "true"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:dead_bubble_coral_fan",
+						"Properties": {
+							"waterlogged": "true"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:dead_fire_coral",
+						"Properties": {
+							"waterlogged": "true"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:dead_fire_coral_fan",
+						"Properties": {
+							"waterlogged": "true"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:dead_horn_coral",
+						"Properties": {
+							"waterlogged": "true"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:dead_horn_coral_fan",
+						"Properties": {
+							"waterlogged": "true"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:dead_tube_coral",
+						"Properties": {
+							"waterlogged": "true"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:dead_tube_coral_fan",
+						"Properties": {
+							"waterlogged": "true"
+						}
+					}
+				}
+			]
+		},
+		"vegetation_feature": "kattersstructures:dead_corals"
+	}
+}

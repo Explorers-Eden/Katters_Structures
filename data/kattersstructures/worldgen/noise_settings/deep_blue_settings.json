@@ -14,8 +14,8 @@
     }
   },
   "noise": {
-    "min_y": 0,
-    "height": 128,
+    "min_y": -16,
+    "height": 144,
     "size_horizontal": 4,
     "size_vertical": 1
   },
@@ -50,7 +50,7 @@
       "type": "minecraft:find_top_surface",
       "density": 0,
       "upper_bound": 128,
-      "lower_bound": 0,
+      "lower_bound": -16,
       "cell_height": 8
     },
     "final_density": {

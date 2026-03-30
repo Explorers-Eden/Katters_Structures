@@ -2,9 +2,9 @@
 	"type": "minecraft:simple_random_selector",
 	"config": {
 		"features": [
-			"kattersstrutures:sea_pickle",
-			"kattersstrutures:seagrass",
-			"kattersstrutures:tall_seagrass"
+			"kattersstructures:sea_pickle",
+			"kattersstructures:seagrass",
+			"kattersstructures:tall_seagrass"
 		]
 	}
 }

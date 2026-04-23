@@ -1,0 +1,67 @@
+Main:
+- Copy and replace lang folder from /assets/kattersstructures to /data/kattersstructures
+- zip assets & data folders, pack.mcmeta, pack.png, license.txt and publish as release. Release name is "Katters Structures (Complete Pack)"
+- file name is "katters_structures_complete_<version>"
+- version variable for file name is in the file release_infos.yml which is in the root of the repository. Details -> Version number
+- use changelog.log in repositories root as description for the release
+
+Resources:
+- Copy assets folder from repositories root to sub_packs/resources
+- zip contents of sub_packs/resources and publish as release. Release name is "Katters Structures (Resource Pack)"
+- file name is "katters_structures_resource_pack_<version>"
+- version variable for file name is in the file release_infos.yml which is in the root of the repository. Details -> Version number
+- Remove files added to sub_packs/resources in this workflow run
+- use sub_packs/resources/changelog.log as description for the release
+
+Ambient:
+- path: sub_packs/ambient/
+- change min_format and max_format of pack.mcmeta to match repository roots pack.mcmeta
+- copy everything from /data/kattersstructures except data/kattersstructures/dimension and data/kattersstructures/dimension_type folders and data/kattersstructures/worldgen/structure_set to sub_packs/ambient/data/kattersstructures and leave out files that already exist
+- copy everything from /data/minecraft to sub_packs/ambient/data/minecraft and leave out files that already exist
+- Copy assets folder from repositories root to sub_packs/ambient
+- remove folders & files from sub_packs/ambient/ listed in sub_packs/removal_list.yml under "Ambient"
+- zip contents of sub_packs/ambient and publish as release. Release name is "Katters Structures (Ambient Only)"
+- file name is "katters_structures_ambient_<version>"
+- version variable for file name is in the file release_infos.yml which is in the root of the repository. Details -> Version number
+- remove files added to sub_packs/ambient in this workflow run
+- use sub_packs/ambient/changelog.log as description for the release
+
+Dungeons:
+- path: sub_packs/dungeons/
+- change min_format and max_format of pack.mcmeta to match repository roots pack.mcmeta
+- copy /data/enchantencore folder to sub_packs/dungeons/data/enchantencore
+- copy everything from /data/kattersstructures except data/kattersstructures/dimension and data/kattersstructures/dimension_type folders and data/kattersstructures/worldgen/structure_set to sub_packs/dungeons/data/kattersstructures and leave out files that already exist
+- copy everything from /data/minecraft to sub_packs/dungeons/data/minecraft and leave out files that already exist
+- Copy assets folder from repositories root to sub_packs/dungeons
+- remove folders & files from sub_packs/dungeons/ listed in sub_packs/removal_list.yml under "Dungeons"
+- zip contents of sub_packs/dungeons and publish as release. Release name is "Katters Structures (Dungeons Only)"
+- file name is "katters_structures_dungeons_<version>"
+- version variable for file name is in the file release_infos.yml which is in the root of the repository. Details -> Version number
+- remove files added to sub_packs/dungeons in this workflow run
+- use sub_packs/dungeons/changelog.log as description for the release
+
+Villages:
+- path: sub_packs/villages/
+- change min_format and max_format of pack.mcmeta to match repository roots pack.mcmeta
+- copy everything from /data/kattersstructures except data/kattersstructures/dimension and data/kattersstructures/dimension_type folders and data/kattersstructures/worldgen/structure_set to sub_packs/ambient/villages/kattersstructures and leave out files that already exist
+- copy everything from /data/minecraft to sub_packs/villages/data/minecraft and leave out files that already exist
+- Copy assets folder from repositories root to sub_packs/villages
+- remove folders & files from sub_packs/villages/ listed in sub_packs/removal_list.yml under "Villages"
+- zip contents of sub_packs/villages and publish as release. Release name is "Katters Structures (Villages Only)"
+- file name is "katters_structures_villages_<version>"
+- version variable for file name is in the file release_infos.yml which is in the root of the repository. Details -> Version number
+- remove files added to sub_packs/villages in this workflow run
+- use sub_packs/villages/changelog.log as description for the release
+
+Deep Blue:
+- path: sub_packs/deep_blue/
+- change min_format and max_format of pack.mcmeta to match repository roots pack.mcmeta
+- copy everything from /data/kattersstructures except data/kattersstructures/worldgen/structure_set to sub_packs/deep_blue/data/kattersstructures and leave out files that already exist
+- copy everything from /data/minecraft to sub_packs/deep_blue/data/minecraft and leave out files that already exist
+- Copy assets folder from repositories root to sub_packs/deep_blue
+- remove folders & files from sub_packs/deep_blue/ listed in sub_packs/removal_list.yml under "Deep Blue"
+- zip contents of sub_packs/deep_blue and publish as release. Release name is "Katters Structures (Deep Blue Only)"
+- file name is "katters_structures_deep_blue_<version>"
+- version variable for file name is in the file release_infos.yml which is in the root of the repository. Details -> Version number
+- remove files added to sub_packs/deep_blue in this workflow run
+- use sub_packs/deep_blue/changelog.log as description for the release

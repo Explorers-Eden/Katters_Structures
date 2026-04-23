@@ -1,21 +1,52 @@
 Ambient:
+  - data/kattersstructures/dimension
+  - data/kattersstructures/dimension_type
+  - data/minecraft/villager_trade
   - data/kattersstructures/advancement/deepblue
   - data/kattersstructures/advancement/dungeon
   - data/kattersstructures/advancement/village
+  - data/kattersstructures/worldgen/noise_settings
+  - data/kattersstructures/function/misc/old_cherry
+  - data/kattersstructures/advancement/enlightning.json
+  - data/kattersstructures/tags/function/load_deep_blue.json
+  - data/kattersstructures/tags/function/load_dungeon.json
+  - data/kattersstructures/tags/function/load_village.json
+  - data/kattersstructures/worldgen/structure_set/deep_blue.json
+  - data/kattersstructures/worldgen/structure_set/overworld.json
 
 Deep Blue:
+  - data/minecraft/villager_trade
   - data/kattersstructures/advancement/ambient
   - data/kattersstructures/advancement/dungeon
   - data/kattersstructures/advancement/village
-
+  - data/kattersstructures/function/misc/old_cherry
+  - data/kattersstructures/advancement/trader_outposts.json
+  - data/kattersstructures/tags/function/load_dungeon.json
+  - data/kattersstructures/tags/function/load_village.json
+  - data/kattersstructures/worldgen/structure_set/overworld.json
 
 Dungeons:
-  - data/kattersstructures/advancement/deepblue
+  - data/kattersstructures/dimension
+  - data/kattersstructures/dimension_type
+  - data/minecraft/villager_trade
   - data/kattersstructures/advancement/ambient
+  - data/kattersstructures/advancement/deepblue
   - data/kattersstructures/advancement/village
-
+  - data/kattersstructures/worldgen/noise_settings
+  - data/kattersstructures/tags/function/load_deep_blue.json
+  - data/kattersstructures/tags/function/load_village.json
+  - data/kattersstructures/worldgen/structure_set/deep_blue.json
+  - data/kattersstructures/worldgen/structure_set/overworld.json
 
 Villages:
+  - data/kattersstructures/dimension
+  - data/kattersstructures/dimension_type
+  - data/kattersstructures/advancement/ambient
   - data/kattersstructures/advancement/deepblue
   - data/kattersstructures/advancement/dungeon
-  - data/kattersstructures/advancement/ambient
+  - data/kattersstructures/worldgen/noise_settings
+  - data/kattersstructures/advancement/enlightning.json
+  - data/kattersstructures/tags/function/load_deep_blue.json
+  - data/kattersstructures/tags/function/load_dungeon.json
+  - data/kattersstructures/worldgen/structure_set/deep_blue.json
+  - data/kattersstructures/worldgen/structure_set/overworld.json

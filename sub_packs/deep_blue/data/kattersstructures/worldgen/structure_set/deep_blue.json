@@ -1,0 +1,23 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 10,
+        "separation": 8,
+        "salt": 289841984189,
+        "spread_type": "triangular"
+    },    
+    "structures": [
+        
+    {
+        "structure": "kattersstructures:deep_blue_labs",
+        "weight": 20
+    },{
+        "structure": "kattersstructures:deep_blue_city",
+        "weight": 1
+    },{
+        "structure": "kattersstructures:red_coral",
+        "weight": 5
+    }
+
+    ]
+}

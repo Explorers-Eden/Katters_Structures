@@ -1,0 +1,21 @@
+Ambient:
+  - data/kattersstructures/advancement/deepblue
+  - data/kattersstructures/advancement/dungeon
+  - data/kattersstructures/advancement/village
+
+Deep Blue:
+  - data/kattersstructures/advancement/ambient
+  - data/kattersstructures/advancement/dungeon
+  - data/kattersstructures/advancement/village
+
+
+Dungeons:
+  - data/kattersstructures/advancement/deepblue
+  - data/kattersstructures/advancement/ambient
+  - data/kattersstructures/advancement/village
+
+
+Villages:
+  - data/kattersstructures/advancement/deepblue
+  - data/kattersstructures/advancement/dungeon
+  - data/kattersstructures/advancement/ambient

@@ -1,0 +1,29 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 20,
+        "separation": 19,
+        "salt": 106453313,
+        "spread_type": "triangular",
+        "exclusion_zone": {
+            "other_set": "minecraft:villages",
+            "chunk_count": 10
+        },
+        "frequency": 0.8,
+        "frequency_reduction_method": "default"
+    },
+    "structures": [    
+
+    {
+        "structure": "kattersstructures:trader_outposts",
+        "weight": 20
+    },{
+		"structure": "kattersstructures:sky_decor",
+		"weight": 10
+	},{
+		"structure": "kattersstructures:ocean_ships",
+		"weight": 10
+	}
+    
+    ]
+}

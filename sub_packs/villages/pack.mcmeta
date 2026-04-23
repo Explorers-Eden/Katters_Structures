@@ -1,0 +1,20 @@
+{
+	"pack": {
+		"max_format": 101.1,
+		"min_format": 101.1,
+		"description": [
+			{
+				"text": "Katters Structures (Villages Only)",
+				"color": "dark_aqua"
+			},
+			{
+				"text": "\nAdds brand new vanilla like Structures\nCreated by ",
+				"color": "gray"
+			},
+			{
+				"text": "Katter 21",
+				"color": "aqua"
+			}
+		]
+	}
+}

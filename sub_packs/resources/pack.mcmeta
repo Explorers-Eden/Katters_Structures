@@ -1,0 +1,23 @@
+{
+	"pack": {
+		"pack_format": 55,
+		"description": [
+			{
+				"text": "Katters Structures (Resource Pack)",
+				"color": "dark_aqua"
+			},
+			{
+				"text": "\nAdds brand new vanilla like Structures\nCreated by ",
+				"color": "gray"
+			},
+			{
+				"text": "Katter 21",
+				"color": "aqua"
+			}
+		],
+		"supported_formats": {
+			"min_inclusive": 1,
+			"max_inclusive": 1000
+		}
+	}
+}

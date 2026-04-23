@@ -1,0 +1,377 @@
+name: Publish Releases
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: pip install pyyaml
+
+      - name: Build release archives
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import shutil
+          import zipfile
+          from copy import deepcopy
+          from pathlib import Path
+
+          import yaml
+
+          ROOT = Path(".").resolve()
+          DIST = ROOT / "dist"
+          BUILD = ROOT / ".build_releases"
+
+          DIST.mkdir(exist_ok=True)
+          if BUILD.exists():
+              shutil.rmtree(BUILD)
+          BUILD.mkdir()
+
+          release_info_path = ROOT / "release_infos.yml"
+          if not release_info_path.exists():
+              raise FileNotFoundError("release_infos.yml not found")
+
+          with release_info_path.open("r", encoding="utf-8") as f:
+              release_info = yaml.safe_load(f)
+
+          version = str(release_info.get("Details", {}).get("Version number", "")).strip()
+          if not version:
+              raise ValueError("Details -> Version number missing in release_infos.yml")
+
+          root_pack_meta_path = ROOT / "pack.mcmeta"
+          if not root_pack_meta_path.exists():
+              raise FileNotFoundError("pack.mcmeta not found in repository root")
+
+          with root_pack_meta_path.open("r", encoding="utf-8") as f:
+              root_pack_meta = json.load(f)
+
+          removal_list_path = ROOT / "sub_packs" / "removal_list.yml"
+          if not removal_list_path.exists():
+              raise FileNotFoundError("sub_packs/removal_list.yml not found")
+
+          with removal_list_path.open("r", encoding="utf-8") as f:
+              removal_list = yaml.safe_load(f) or {}
+
+          def ensure_exists(path: Path, label: str):
+              if not path.exists():
+                  raise FileNotFoundError(f"{label} not found: {path}")
+
+          def copytree_replace(src: Path, dst: Path):
+              if dst.exists():
+                  shutil.rmtree(dst)
+              shutil.copytree(src, dst)
+
+          def copytree_merge(src: Path, dst: Path):
+              if not src.exists():
+                  return
+              for item in src.rglob("*"):
+                  rel = item.relative_to(src)
+                  target = dst / rel
+                  if item.is_dir():
+                      target.mkdir(parents=True, exist_ok=True)
+                  else:
+                      target.parent.mkdir(parents=True, exist_ok=True)
+                      shutil.copy2(item, target)
+
+          def copy_missing_from(src_root: Path, dst_root: Path, exclude_relative_dirs=None):
+              exclude_relative_dirs = exclude_relative_dirs or []
+              exclude_relative_dirs = [Path(p) for p in exclude_relative_dirs]
+
+              for item in src_root.rglob("*"):
+                  rel = item.relative_to(src_root)
+
+                  skip = False
+                  for excluded in exclude_relative_dirs:
+                      if rel == excluded or excluded in rel.parents:
+                          skip = True
+                          break
+                  if skip:
+                      continue
+
+                  target = dst_root / rel
+                  if item.is_dir():
+                      target.mkdir(parents=True, exist_ok=True)
+                  else:
+                      if not target.exists():
+                          target.parent.mkdir(parents=True, exist_ok=True)
+                          shutil.copy2(item, target)
+
+          def sync_pack_formats(root_meta: dict, subpack_meta_path: Path):
+              ensure_exists(subpack_meta_path, "sub-pack pack.mcmeta")
+              with subpack_meta_path.open("r", encoding="utf-8") as f:
+                  sub_meta = json.load(f)
+
+              root_pack = root_meta.get("pack", {})
+              sub_pack = sub_meta.setdefault("pack", {})
+
+              if "supported_formats" in root_pack:
+                  root_supported = root_pack["supported_formats"]
+                  if isinstance(root_supported, dict):
+                      sub_pack["supported_formats"] = deepcopy(root_supported)
+                  else:
+                      sub_pack["supported_formats"] = root_supported
+              else:
+                  if "min_format" in root_pack:
+                      sub_pack["min_format"] = root_pack["min_format"]
+                  if "max_format" in root_pack:
+                      sub_pack["max_format"] = root_pack["max_format"]
+
+              with subpack_meta_path.open("w", encoding="utf-8") as f:
+                  json.dump(sub_meta, f, ensure_ascii=False, indent=2)
+                  f.write("\n")
+
+          def apply_removals(base_dir: Path, entries):
+              if not entries:
+                  return
+              for entry in entries:
+                  target = base_dir / str(entry)
+                  if target.is_dir():
+                      shutil.rmtree(target, ignore_errors=True)
+                  elif target.exists():
+                      target.unlink()
+
+          def zip_directory_contents(source_dir: Path, output_zip: Path):
+              with zipfile.ZipFile(output_zip, "w", zipfile.ZIP_DEFLATED) as zf:
+                  for path in sorted(source_dir.rglob("*")):
+                      if path.is_file():
+                          zf.write(path, path.relative_to(source_dir))
+
+          def zip_selected_paths(base_dir: Path, selected_paths, output_zip: Path):
+              with zipfile.ZipFile(output_zip, "w", zipfile.ZIP_DEFLATED) as zf:
+                  for rel in selected_paths:
+                      src = base_dir / rel
+                      ensure_exists(src, f"required path {rel}")
+                      if src.is_dir():
+                          for path in sorted(src.rglob("*")):
+                              if path.is_file():
+                                  zf.write(path, path.relative_to(base_dir))
+                      else:
+                          zf.write(src, rel)
+
+          releases = []
+
+          # COMPLETE
+          complete_build = BUILD / "complete"
+          complete_build.mkdir(parents=True, exist_ok=True)
+
+          copytree_replace(ROOT / "assets", complete_build / "assets")
+          copytree_replace(ROOT / "data", complete_build / "data")
+
+          lang_src = ROOT / "assets" / "kattersstructures" / "lang"
+          lang_dst = complete_build / "data" / "kattersstructures" / "lang"
+          ensure_exists(lang_src, "assets/kattersstructures/lang")
+          copytree_replace(lang_src, lang_dst)
+
+          for file_name in ["pack.mcmeta", "pack.png", "license.txt"]:
+              src = ROOT / file_name
+              ensure_exists(src, file_name)
+              shutil.copy2(src, complete_build / file_name)
+
+          complete_zip = DIST / f"katters_structures_complete_{version}.zip"
+          zip_selected_paths(
+              complete_build,
+              ["assets", "data", "pack.mcmeta", "pack.png", "license.txt"],
+              complete_zip,
+          )
+
+          releases.append({
+              "tag": f"complete-v{version}",
+              "name": "Katters Structures (Complete Pack)",
+              "file": str(complete_zip),
+              "notes": str(ROOT / "changelog.log"),
+          })
+
+          # RESOURCE PACK
+          resources_src = ROOT / "sub_packs" / "resources"
+          ensure_exists(resources_src, "sub_packs/resources")
+          resources_build = BUILD / "resources"
+          copytree_replace(resources_src, resources_build)
+          copytree_merge(ROOT / "assets", resources_build / "assets")
+
+          resource_zip = DIST / f"katters_structures_resource_pack_{version}.zip"
+          zip_directory_contents(resources_build, resource_zip)
+
+          releases.append({
+              "tag": f"resource-pack-v{version}",
+              "name": "Katters Structures (Resource Pack)",
+              "file": str(resource_zip),
+              "notes": str(ROOT / "sub_packs" / "resources" / "changelog.log"),
+          })
+
+          def build_variant(
+              key_name: str,
+              folder_name: str,
+              release_name: str,
+              file_stem: str,
+              remove_key: str,
+              include_enchantencore: bool = False,
+              exclude_ks_dirs=None,
+          ):
+              exclude_ks_dirs = exclude_ks_dirs or []
+
+              src_dir = ROOT / "sub_packs" / folder_name
+              ensure_exists(src_dir, f"sub_packs/{folder_name}")
+
+              build_dir = BUILD / folder_name
+              copytree_replace(src_dir, build_dir)
+
+              sync_pack_formats(root_pack_meta, build_dir / "pack.mcmeta")
+
+              ks_src = ROOT / "data" / "kattersstructures"
+              ks_dst = build_dir / "data" / "kattersstructures"
+              ensure_exists(ks_src, "data/kattersstructures")
+              ks_dst.mkdir(parents=True, exist_ok=True)
+              copy_missing_from(ks_src, ks_dst, exclude_relative_dirs=exclude_ks_dirs)
+
+              mc_src = ROOT / "data" / "minecraft"
+              mc_dst = build_dir / "data" / "minecraft"
+              ensure_exists(mc_src, "data/minecraft")
+              mc_dst.mkdir(parents=True, exist_ok=True)
+              copy_missing_from(mc_src, mc_dst, exclude_relative_dirs=[])
+
+              if include_enchantencore:
+                  ee_src = ROOT / "data" / "enchantencore"
+                  ensure_exists(ee_src, "data/enchantencore")
+                  copytree_merge(ee_src, build_dir / "data" / "enchantencore")
+
+              copytree_merge(ROOT / "assets", build_dir / "assets")
+
+              apply_removals(build_dir, removal_list.get(remove_key, []))
+
+              out_zip = DIST / f"{file_stem}_{version}.zip"
+              zip_directory_contents(build_dir, out_zip)
+
+              releases.append({
+                  "tag": f"{folder_name.replace('_', '-')}-v{version}",
+                  "name": release_name,
+                  "file": str(out_zip),
+                  "notes": str(ROOT / "sub_packs" / folder_name / "changelog.log"),
+              })
+
+          build_variant(
+              key_name="Ambient",
+              folder_name="ambient",
+              release_name="Katters Structures (Ambient Only)",
+              file_stem="katters_structures_ambient",
+              remove_key="Ambient",
+              include_enchantencore=False,
+              exclude_ks_dirs=[
+                  "dimension",
+                  "dimension_type",
+                  "worldgen/structure_set",
+              ],
+          )
+
+          build_variant(
+              key_name="Dungeons",
+              folder_name="dungeons",
+              release_name="Katters Structures (Dungeons Only)",
+              file_stem="katters_structures_dungeons",
+              remove_key="Dungeons",
+              include_enchantencore=True,
+              exclude_ks_dirs=[
+                  "dimension",
+                  "dimension_type",
+                  "worldgen/structure_set",
+              ],
+          )
+
+          build_variant(
+              key_name="Villages",
+              folder_name="villages",
+              release_name="Katters Structures (Villages Only)",
+              file_stem="katters_structures_villages",
+              remove_key="Villages",
+              include_enchantencore=False,
+              exclude_ks_dirs=[
+                  "dimension",
+                  "dimension_type",
+                  "worldgen/structure_set",
+              ],
+          )
+
+          build_variant(
+              key_name="Deep Blue",
+              folder_name="deep_blue",
+              release_name="Katters Structures (Deep Blue Only)",
+              file_stem="katters_structures_deep_blue",
+              remove_key="Deep Blue",
+              include_enchantencore=False,
+              exclude_ks_dirs=[
+                  "worldgen/structure_set",
+              ],
+          )
+
+          with (DIST / "releases.json").open("w", encoding="utf-8") as f:
+              json.dump(releases, f, ensure_ascii=False, indent=2)
+              f.write("\n")
+
+          print(f"Built {len(releases)} release archives")
+          PY
+
+      - name: Publish GitHub releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import subprocess
+          from pathlib import Path
+
+          releases_file = Path("dist/releases.json")
+          if not releases_file.exists():
+              raise FileNotFoundError("dist/releases.json not found")
+
+          with releases_file.open("r", encoding="utf-8") as f:
+              releases = json.load(f)
+
+          for release in releases:
+              tag = release["tag"]
+              name = release["name"]
+              file_path = release["file"]
+              notes = release["notes"]
+
+              if not Path(notes).exists():
+                  raise FileNotFoundError(f"Release notes file missing: {notes}")
+
+              view = subprocess.run(
+                  ["gh", "release", "view", tag],
+                  stdout=subprocess.DEVNULL,
+                  stderr=subprocess.DEVNULL,
+              )
+
+              if view.returncode == 0:
+                  subprocess.run(
+                      ["gh", "release", "edit", tag, "--title", name, "--notes-file", notes],
+                      check=True,
+                  )
+              else:
+                  subprocess.run(
+                      ["gh", "release", "create", tag, file_path, "--title", name, "--notes-file", notes],
+                      check=True,
+                  )
+
+              subprocess.run(
+                  ["gh", "release", "upload", tag, file_path, "--clobber"],
+                  check=True,
+              )
+
+              print(f"Published {name}")
+          PY

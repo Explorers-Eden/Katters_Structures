@@ -43,7 +43,7 @@ Dungeons:
 Villages:
 - path: sub_packs/villages/
 - change min_format and max_format of pack.mcmeta to match repository roots pack.mcmeta
-- copy everything from /data/kattersstructures except data/kattersstructures/dimension and data/kattersstructures/dimension_type folders and data/kattersstructures/worldgen/structure_set to sub_packs/ambient/villages/kattersstructures and leave out files that already exist
+- copy everything from /data/kattersstructures except data/kattersstructures/dimension and data/kattersstructures/dimension_type folders and data/kattersstructures/worldgen/structure_set to sub_packs/villages/kattersstructures and leave out files that already exist
 - copy everything from /data/minecraft to sub_packs/villages/data/minecraft and leave out files that already exist
 - Copy assets folder from repositories root to sub_packs/villages
 - remove folders & files from sub_packs/villages/ listed in sub_packs/removal_list.yml under "Villages"

@@ -14,7 +14,7 @@
   },
   "description": {
     "translate": "advancement.kattersstructures.deep_blue_portal_description",
-    "fallback": "Open a Portal to the Deep Dark."
+    "fallback": "Open a Portal to the Deep Blue."
     },
     "frame": "challenge",
     "show_toast": true,

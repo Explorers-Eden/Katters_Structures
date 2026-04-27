@@ -607,12 +607,13 @@ jobs:
               subprocess.run(["git", "push", "origin", tag], check=True)
 
               create_payload = {
-                  "tag_name": tag,
-                  "name": name,
-                  "body": body,
-                  "draft": False,
-                  "prerelease": False,
-              }
+                    "tag_name": tag,
+                    "name": name,
+                    "body": body,
+                    "draft": False,
+                    "prerelease": False,
+                    "make_latest": "true" if release["key"] == "main" else "false",
+                }
 
               create_response = requests.post(
                   f"https://api.github.com/repos/{repo}/releases",

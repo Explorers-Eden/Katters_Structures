@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -38,7 +40,10 @@ jobs:
           DIST = ROOT / "dist"
           BUILD = ROOT / ".build_releases"
 
+          if DIST.exists():
+              shutil.rmtree(DIST)
           DIST.mkdir(exist_ok=True)
+
           if BUILD.exists():
               shutil.rmtree(BUILD)
           BUILD.mkdir()
@@ -48,13 +53,11 @@ jobs:
               raise FileNotFoundError("release_infos.yml not found")
 
           with release_info_path.open("r", encoding="utf-8") as f:
-              release_info = yaml.safe_load(f)
+              release_info = yaml.safe_load(f) or {}
 
           version = str(release_info.get("Details", {}).get("Version number", "")).strip()
           if not version:
               raise ValueError("Details -> Version number missing in release_infos.yml")
-
-          project_id = str(release_info.get("Project-ID", "")).strip() or "katters-structures"
 
           root_pack_meta_path = ROOT / "pack.mcmeta"
           if not root_pack_meta_path.exists():
@@ -70,7 +73,19 @@ jobs:
           with removal_list_path.open("r", encoding="utf-8") as f:
               removal_list = yaml.safe_load(f) or {}
 
-          RELEASE_NAMES = {
+          file_names = release_info.get("File Name", {}) or {}
+          project_ids = release_info.get("Project-ID", {}) or {}
+
+          RELEASE_INFO_KEY = {
+              "main": "Main",
+              "resources": "Resources",
+              "ambient": "Ambient",
+              "deep_blue": "Deep Blue",
+              "dungeons": "Dungeons",
+              "villages": "Villages",
+          }
+
+          DEFAULT_FILE_NAMES = {
               "main": "Katters Structures",
               "resources": "Katters Structures Resource Pack",
               "ambient": "Katters Structures Only Ambient",
@@ -79,11 +94,46 @@ jobs:
               "villages": "Katters Structures Only Villages",
           }
 
+          LEGACY_TAG_PREFIXES = {
+              "main": ["complete-v", "main-v", "katters-structures-v"],
+              "resources": ["resource-pack-v", "resources-v", "katters-structures-resource-pack-v"],
+              "ambient": ["ambient-v", "katters-structures-only-ambient-v"],
+              "deep_blue": ["deep-blue-v", "katters-structures-only-deep-blue-v"],
+              "dungeons": ["dungeons-v", "katters-structures-only-dungeons-v"],
+              "villages": ["villages-v", "katters-structures-only-villages-v"],
+          }
+
+          def release_info_name(key: str) -> str:
+              return RELEASE_INFO_KEY[key]
+
+          def display_file_name(key: str) -> str:
+              value = str(file_names.get(release_info_name(key), "")).strip()
+              return value or DEFAULT_FILE_NAMES[key]
+
+          def release_title(key: str) -> str:
+              return f"{display_file_name(key)} v{version}"
+
+          def archive_path(key: str, extension: str) -> Path:
+              return DIST / f"{release_title(key)}.{extension}"
+
+          def tag_slug(text: str) -> str:
+              slug = text.lower()
+              slug = re.sub(r"[^a-z0-9]+", "-", slug)
+              slug = slug.strip("-")
+              return slug or "release"
+
+          def tag_for(key: str) -> str:
+              return f"{tag_slug(display_file_name(key))}-v{version}"
+
+          def project_id_for(key: str) -> str:
+              return str(project_ids.get(release_info_name(key), "")).strip()
+
           def ensure_exists(path: Path, label: str):
               if not path.exists():
                   raise FileNotFoundError(f"{label} not found: {path}")
 
           def copytree_replace(src: Path, dst: Path):
+              ensure_exists(src, str(src))
               if dst.exists():
                   shutil.rmtree(dst)
               shutil.copytree(src, dst)
@@ -101,6 +151,7 @@ jobs:
                       shutil.copy2(item, target)
 
           def copy_missing_from(src_root: Path, dst_root: Path, exclude_relative_dirs=None):
+              ensure_exists(src_root, str(src_root))
               exclude_relative_dirs = [Path(p) for p in (exclude_relative_dirs or [])]
 
               for item in src_root.rglob("*"):
@@ -179,7 +230,7 @@ jobs:
               suffix = "" if key == "main" else "_" + re.sub(r"[^a-z0-9_]+", "_", key.lower())
               return f"mr_katters_structures{suffix}"
 
-          def build_universal_jar(source_dir: Path, output_jar: Path, key: str, display_name: str):
+          def build_universal_jar(source_dir: Path, output_jar: Path, key: str):
               jar_build = BUILD / f"{key}_jar"
               if jar_build.exists():
                   shutil.rmtree(jar_build)
@@ -187,11 +238,13 @@ jobs:
 
               (jar_build / "META-INF").mkdir(parents=True, exist_ok=True)
 
+              display_name = release_title(key)
               mod_id = mod_id_for(key)
               icon = "pack.png"
               description = f"{display_name} packaged as a universal data/resource mod."
               homepage = "https://modrinth.com/datapack/katters-structures"
               sources = "https://github.com/Katters-Structures/Katters-Structures"
+              project_id = project_id_for(key) or project_id_for("main") or "katters-structures"
 
               fabric_json = {
                   "schemaVersion": 1,
@@ -271,12 +324,9 @@ jobs:
 
           releases = []
 
-          def add_release(key: str, file_stem: str, build_dir: Path, zip_paths=None, notes=None, make_jar=True):
-              display_name = RELEASE_NAMES[key]
-              title = f"{display_name} v{version}"
-
-              out_zip = DIST / f"{file_stem}_{version}.zip"
-              out_jar = DIST / f"{file_stem}_{version}.jar" if make_jar else None
+          def add_release(key: str, build_dir: Path, zip_paths=None, notes=None, make_jar=True):
+              out_zip = archive_path(key, "zip")
+              out_jar = archive_path(key, "jar") if make_jar else None
 
               if zip_paths:
                   zip_selected_paths(build_dir, zip_paths, out_zip)
@@ -284,15 +334,19 @@ jobs:
                   zip_directory_contents(build_dir, out_zip)
 
               if make_jar:
-                  build_universal_jar(build_dir, out_jar, key, display_name)
+                  build_universal_jar(build_dir, out_jar, key)
+
+              current_tag_prefix = f"{tag_slug(display_file_name(key))}-v"
+              cleanup_prefixes = sorted(set([current_tag_prefix] + LEGACY_TAG_PREFIXES.get(key, [])))
 
               releases.append({
                   "key": key,
-                  "tag": f"{key.replace('_', '-')}-v{version}",
-                  "name": title,
+                  "tag": tag_for(key),
+                  "name": release_title(key),
                   "zip": str(out_zip),
                   "jar": str(out_jar) if out_jar else "",
                   "notes": str(notes or ROOT / "changelog.log"),
+                  "cleanup_prefixes": cleanup_prefixes,
               })
 
           # MAIN / FULL PACK
@@ -311,7 +365,6 @@ jobs:
 
           add_release(
               key="main",
-              file_stem="katters_structures",
               build_dir=main_build,
               zip_paths=["assets", "data", "pack.mcmeta", "pack.png", "license.txt"],
               notes=ROOT / "changelog.log",
@@ -328,7 +381,6 @@ jobs:
 
           add_release(
               key="resources",
-              file_stem="katters_structures_resource_pack",
               build_dir=resources_build,
               notes=ROOT / "sub_packs" / "resources" / "changelog.log",
               make_jar=False,
@@ -337,7 +389,6 @@ jobs:
           def build_variant(
               key: str,
               folder_name: str,
-              file_stem: str,
               remove_key: str,
               include_enchantencore: bool = False,
               exclude_ks_dirs=None,
@@ -375,7 +426,6 @@ jobs:
 
               add_release(
                   key=key,
-                  file_stem=file_stem,
                   build_dir=build_dir,
                   notes=ROOT / "sub_packs" / folder_name / "changelog.log",
                   make_jar=True,
@@ -384,7 +434,6 @@ jobs:
           build_variant(
               key="ambient",
               folder_name="ambient",
-              file_stem="katters_structures_ambient",
               remove_key="Ambient",
               include_enchantencore=False,
               exclude_ks_dirs=[
@@ -397,7 +446,6 @@ jobs:
           build_variant(
               key="dungeons",
               folder_name="dungeons",
-              file_stem="katters_structures_dungeons",
               remove_key="Dungeons",
               include_enchantencore=True,
               exclude_ks_dirs=[
@@ -410,7 +458,6 @@ jobs:
           build_variant(
               key="villages",
               folder_name="villages",
-              file_stem="katters_structures_villages",
               remove_key="Villages",
               include_enchantencore=False,
               exclude_ks_dirs=[
@@ -423,7 +470,6 @@ jobs:
           build_variant(
               key="deep_blue",
               folder_name="deep_blue",
-              file_stem="katters_structures_deep_blue",
               remove_key="Deep Blue",
               include_enchantencore=False,
               exclude_ks_dirs=[
@@ -436,6 +482,56 @@ jobs:
               f.write("\n")
 
           print(f"Built {len(releases)} releases")
+          PY
+
+      - name: Delete older GitHub releases and tags
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import json
+          import subprocess
+          from pathlib import Path
+
+          releases_file = Path("dist/releases.json")
+          if not releases_file.exists():
+              raise FileNotFoundError("dist/releases.json not found")
+
+          with releases_file.open("r", encoding="utf-8") as f:
+              planned_releases = json.load(f)
+
+          existing = subprocess.run(
+              ["gh", "release", "list", "--limit", "1000", "--json", "tagName"],
+              check=True,
+              capture_output=True,
+              text=True,
+          )
+
+          existing_tags = [item["tagName"] for item in json.loads(existing.stdout or "[]")]
+          tags_to_delete = set()
+
+          for release in planned_releases:
+              current_tag = release["tag"]
+              prefixes = release.get("cleanup_prefixes", [])
+
+              for tag in existing_tags:
+                  if tag == current_tag:
+                      continue
+                  if any(tag.startswith(prefix) for prefix in prefixes):
+                      tags_to_delete.add(tag)
+
+          for tag in sorted(tags_to_delete):
+              print(f"Deleting old release/tag: {tag}")
+
+              subprocess.run(
+                  ["gh", "release", "delete", tag, "--yes", "--cleanup-tag"],
+                  check=False,
+              )
+
+              subprocess.run(
+                  ["git", "push", "origin", "--delete", tag],
+                  check=False,
+              )
           PY
 
       - name: Publish GitHub releases

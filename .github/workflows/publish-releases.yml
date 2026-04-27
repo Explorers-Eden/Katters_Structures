@@ -98,8 +98,12 @@ jobs:
               return RELEASE_INFO_KEY[key]
 
           def display_file_name(key: str) -> str:
-              value = str(file_names.get(release_info_name(key), "")).strip()
-              return value or DEFAULT_FILE_NAMES[key]
+            value = str(file_names.get(release_info_name(key), "")).strip()
+            value = value or DEFAULT_FILE_NAMES[key]
+            value = value.replace(".", " ")
+            value = " ".join(value.split())
+
+            return value
 
           def release_title(key: str) -> str:
               return f"{display_file_name(key)} v{version}"

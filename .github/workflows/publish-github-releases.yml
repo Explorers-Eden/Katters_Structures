@@ -170,6 +170,12 @@ jobs:
                   ensure_exists(src, file_name)
                   shutil.copy2(src, build_dir / file_name)
 
+          def copy_assets_lang_to_data(build_dir: Path):
+              lang_src = ROOT / "assets" / "kattersstructures" / "lang"
+              lang_dst = build_dir / "data" / "kattersstructures" / "lang"
+              ensure_exists(lang_src, "assets/kattersstructures/lang")
+              copytree_replace(lang_src, lang_dst)
+
           def sync_pack_formats(root_meta: dict, subpack_meta_path: Path):
               ensure_exists(subpack_meta_path, "sub-pack pack.mcmeta")
               with subpack_meta_path.open("r", encoding="utf-8") as f:
@@ -345,10 +351,7 @@ jobs:
           copytree_replace(ROOT / "assets", main_build / "assets")
           copytree_replace(ROOT / "data", main_build / "data")
 
-          lang_src = ROOT / "assets" / "kattersstructures" / "lang"
-          lang_dst = main_build / "data" / "kattersstructures" / "lang"
-          ensure_exists(lang_src, "assets/kattersstructures/lang")
-          copytree_replace(lang_src, lang_dst)
+          copy_assets_lang_to_data(main_build)
 
           copy_root_pack_files(main_build, include_pack_meta=True)
 
@@ -411,6 +414,7 @@ jobs:
                   copytree_merge(ee_src, build_dir / "data" / "enchantencore")
 
               copytree_merge(ROOT / "assets", build_dir / "assets")
+              copy_assets_lang_to_data(build_dir)
               apply_removals(build_dir, removal_list.get(remove_key, []))
 
               add_release(

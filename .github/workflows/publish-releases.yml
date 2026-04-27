@@ -94,15 +94,6 @@ jobs:
               "villages": "Katters Structures Only Villages",
           }
 
-          LEGACY_TAG_PREFIXES = {
-              "main": ["complete-v", "main-v", "katters-structures-v"],
-              "resources": ["resource-pack-v", "resources-v", "katters-structures-resource-pack-v"],
-              "ambient": ["ambient-v", "katters-structures-only-ambient-v"],
-              "deep_blue": ["deep-blue-v", "katters-structures-only-deep-blue-v"],
-              "dungeons": ["dungeons-v", "katters-structures-only-dungeons-v"],
-              "villages": ["villages-v", "katters-structures-only-villages-v"],
-          }
-
           def release_info_name(key: str) -> str:
               return RELEASE_INFO_KEY[key]
 
@@ -114,9 +105,11 @@ jobs:
               return f"{display_file_name(key)} v{version}"
 
           def archive_path(key: str, extension: str) -> Path:
-              return DIST / f"{release_title(key)}.{extension}"
+              # Keep spaces in filenames exactly as requested.
+              return DIST / f"{display_file_name(key)} v{version}.{extension}"
 
           def tag_slug(text: str) -> str:
+              # Tags are still URL-safe; filenames are not slugified.
               slug = text.lower()
               slug = re.sub(r"[^a-z0-9]+", "-", slug)
               slug = slug.strip("-")
@@ -336,9 +329,6 @@ jobs:
               if make_jar:
                   build_universal_jar(build_dir, out_jar, key)
 
-              current_tag_prefix = f"{tag_slug(display_file_name(key))}-v"
-              cleanup_prefixes = sorted(set([current_tag_prefix] + LEGACY_TAG_PREFIXES.get(key, [])))
-
               releases.append({
                   "key": key,
                   "tag": tag_for(key),
@@ -346,7 +336,6 @@ jobs:
                   "zip": str(out_zip),
                   "jar": str(out_jar) if out_jar else "",
                   "notes": str(notes or ROOT / "changelog.log"),
-                  "cleanup_prefixes": cleanup_prefixes,
               })
 
           # MAIN / FULL PACK
@@ -484,54 +473,59 @@ jobs:
           print(f"Built {len(releases)} releases")
           PY
 
-      - name: Delete older GitHub releases and tags
+      - name: Delete ALL GitHub releases and tags
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           python - <<'PY'
           import json
           import subprocess
-          from pathlib import Path
 
-          releases_file = Path("dist/releases.json")
-          if not releases_file.exists():
-              raise FileNotFoundError("dist/releases.json not found")
+          print("Deleting all GitHub releases...")
 
-          with releases_file.open("r", encoding="utf-8") as f:
-              planned_releases = json.load(f)
-
-          existing = subprocess.run(
+          result = subprocess.run(
               ["gh", "release", "list", "--limit", "1000", "--json", "tagName"],
-              check=True,
               capture_output=True,
               text=True,
+              check=True,
           )
 
-          existing_tags = [item["tagName"] for item in json.loads(existing.stdout or "[]")]
-          tags_to_delete = set()
+          releases = json.loads(result.stdout or "[]")
 
-          for release in planned_releases:
-              current_tag = release["tag"]
-              prefixes = release.get("cleanup_prefixes", [])
-
-              for tag in existing_tags:
-                  if tag == current_tag:
-                      continue
-                  if any(tag.startswith(prefix) for prefix in prefixes):
-                      tags_to_delete.add(tag)
-
-          for tag in sorted(tags_to_delete):
-              print(f"Deleting old release/tag: {tag}")
-
+          for release in releases:
+              tag = release["tagName"]
+              print(f"Deleting release and cleanup tag: {tag}")
               subprocess.run(
                   ["gh", "release", "delete", tag, "--yes", "--cleanup-tag"],
                   check=False,
               )
 
+          print("Deleting all remaining remote tags...")
+
+          result = subprocess.run(
+              ["git", "ls-remote", "--tags", "origin"],
+              capture_output=True,
+              text=True,
+              check=True,
+          )
+
+          tags = set()
+          for line in result.stdout.splitlines():
+              if "refs/tags/" not in line:
+                  continue
+              tag = line.split("refs/tags/")[-1]
+              tag = tag.replace("^{}", "")
+              if tag:
+                  tags.add(tag)
+
+          for tag in sorted(tags):
+              print(f"Deleting remote tag: {tag}")
               subprocess.run(
                   ["git", "push", "origin", "--delete", tag],
                   check=False,
               )
+
+          print("All GitHub releases and remote tags cleared.")
           PY
 
       - name: Publish GitHub releases
@@ -564,25 +558,8 @@ jobs:
               if jar_path:
                   assets.append(jar_path)
 
-              view = subprocess.run(
-                  ["gh", "release", "view", tag],
-                  stdout=subprocess.DEVNULL,
-                  stderr=subprocess.DEVNULL,
-              )
-
-              if view.returncode == 0:
-                  subprocess.run(
-                      ["gh", "release", "edit", tag, "--title", name, "--notes-file", notes],
-                      check=True,
-                  )
-              else:
-                  subprocess.run(
-                      ["gh", "release", "create", tag, *assets, "--title", name, "--notes-file", notes],
-                      check=True,
-                  )
-
               subprocess.run(
-                  ["gh", "release", "upload", tag, *assets, "--clobber"],
+                  ["gh", "release", "create", tag, *assets, "--title", name, "--notes-file", notes],
                   check=True,
               )
 

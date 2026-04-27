@@ -23,3 +23,11 @@ File Name:
   Dungeons: "Katters Structures Only Dungeons"
   Villages: "Katters Structures Only Villages"
   Resources: "Katters Structures Resource Pack"
+
+Publish: 
+  - Main
+  - Deep Blue
+  - Ambient
+  - Dungeons
+  - Villages
+  - Resources

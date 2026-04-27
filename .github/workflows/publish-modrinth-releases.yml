@@ -234,7 +234,46 @@ jobs:
 
           keys = ["main", "resources", "ambient", "deep_blue", "dungeons", "villages"]
 
-          for key in keys:
+          publish_values = release_info.get("Publish", [])
+          if publish_values is None:
+              publish_values = []
+          if isinstance(publish_values, str):
+              publish_values = [publish_values]
+          if not isinstance(publish_values, list):
+              raise ValueError("Publish must be a list in release_infos.yml")
+
+          publish_normalized = {" ".join(str(value).strip().lower().split()) for value in publish_values}
+          publish_normalized.discard("")
+
+          key_by_release_info_name = {
+              " ".join(value.lower().split()): key
+              for key, value in RELEASE_INFO_KEY.items()
+          }
+
+          unknown_publish_entries = sorted(
+              value for value in publish_normalized
+              if value not in key_by_release_info_name
+          )
+          if unknown_publish_entries:
+              allowed = ", ".join(RELEASE_INFO_KEY[key] for key in keys)
+              raise ValueError(
+                  "Unknown Publish entries in release_infos.yml: "
+                  + ", ".join(unknown_publish_entries)
+                  + f". Allowed values: {allowed}"
+              )
+
+          if not publish_normalized:
+              print("Publish list is empty. Nothing will be published to Modrinth.")
+              keys_to_publish = []
+          else:
+              keys_to_publish = [
+                  key for key in keys
+                  if " ".join(RELEASE_INFO_KEY[key].lower().split()) in publish_normalized
+              ]
+
+          print("Publishing to Modrinth:", ", ".join(RELEASE_INFO_KEY[key] for key in keys_to_publish) or "nothing")
+
+          for key in keys_to_publish:
               release = get_release_by_tag(tag_for(key))
               title = release_title(key)
 

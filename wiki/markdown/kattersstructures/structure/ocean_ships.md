@@ -1,6 +1,26 @@
 # Ocean Ships
 
-## Ocean Ships/Pillager/Ocean Ships 06
+## Summary
+
+The structure is composed of the following blocks: Dark Oak Planks, Birch Fence, Light Gray Wool, Birch Planks, Dark Oak Stairs, Dark Oak Log, Dark Oak Trapdoor, Birch Stairs, Birch Slab, Dark Oak Slab, Spruce Trapdoor, Spruce Stairs, Dark Oak Fence, Jungle Trapdoor, Spruce Slab, Campfire, Oak Trapdoor, Hay Block, Jungle Planks, Spruce Planks, Jungle Slab, Lantern, White Wool, Barrel, Gray Wool, Jungle Stairs, Jungle Wall Sign, Oak Planks, Polished Blackstone, Ladder, Dried Kelp Block, Oak Stairs, Spruce Fence, Chest, White Wall Banner, Oak Wall Sign, Oak Slab, Spruce Wall Sign, Stripped Jungle Log, Stripped Oak Log, Stripped Spruce Log, Jungle Fence, Bamboo Planks, Chain, Red Wool, White Carpet, Bamboo Mosaic, Bamboo Trapdoor, Bookshelf, Polished Blackstone Slab, Spruce Fence Gate, Light Blue Wool, Beehive, Red Wall Banner, Dark Oak Fence Gate, Decorated Pot, Polished Blackstone Wall, Jungle Fence Gate, Crafting Table, Farmland, Glass Pane, Oak Fence, Pumpkin, Spawner, Spruce Door, Stone Brick Wall, Bamboo Stairs, Brown Wall Banner, Chiseled Bookshelf, Bamboo Slab, Brown Bed, Fletching Table, Furnace, Oak Fence Gate, Pink Bed, Potted Flowering Azalea Bush, Purple Bed, Scaffolding, Spruce Button, Stripped Bamboo Block, Wheat, Anvil, Beetroots, Bell, Melon Stem, Mud Brick Wall, Polished Blackstone Button, Potted Allium, Stripped Oak Wood.
+
+### Loot Tables
+
+| Loot Table |
+|:-----|
+| kattersstructures:chests/ocean/random |
+| kattersstructures:chests/ocean_ships/chests |
+| kattersstructures:chests/sky_decor/pillager/arrows |
+| kattersstructures:chests/sky_decor/pillager/storage |
+| kattersstructures:chests/sky_decor/pillager/tnt |
+| kattersstructures:chests/sky_decor/pillager/treasure |
+
+
+
+<details>
+<summary><strong>Ocean Ships/Pillager/Ocean Ships 06</strong></summary>
+
+The structure is composed of the following blocks: Dark Oak Planks, Birch Fence, Light Gray Wool, Birch Planks, Dark Oak Stairs, Dark Oak Log, Dark Oak Trapdoor, Birch Stairs, Birch Slab, Dark Oak Slab, Dark Oak Fence, Hay Block, Gray Wool, Polished Blackstone, Dried Kelp Block, Lantern, White Wool, Chain, Barrel, Bookshelf, Chest, Polished Blackstone Slab, Light Blue Wool, Dark Oak Fence Gate, Polished Blackstone Wall, White Wall Banner, Glass Pane, Spawner, Chiseled Bookshelf, Fletching Table.
 
 ### Blocks
 
@@ -18,7 +38,6 @@
 | Dark Oak Slab | 93 |
 | Dark Oak Fence | 64 |
 | Hay Block | 29 |
-| Jigsaw | 24 |
 | Gray Wool | 22 |
 | Polished Blackstone | 21 |
 | Dried Kelp Block | 19 |
@@ -54,8 +73,12 @@ None found.
 | kattersstructures:chests/sky_decor/pillager/treasure |
 
 
+</details>
 
-## Ocean Ships/Villager/Ocean Ships 01
+<details>
+<summary><strong>Ocean Ships/Villager/Ocean Ships 01</strong></summary>
+
+The structure is composed of the following blocks: Spruce Stairs, Spruce Planks, Spruce Trapdoor, Oak Planks, Spruce Slab, Jungle Planks, Bamboo Planks, Bamboo Mosaic, Jungle Stairs, Jungle Trapdoor, Ladder, Oak Stairs, Spruce Fence, Jungle Slab, Oak Slab, Stone Brick Wall, Stripped Spruce Log, Bamboo Stairs, Barrel, Brown Wall Banner, Jungle Fence, Red Wall Banner, Stripped Oak Log, Brown Bed, Chest, Lantern, Oak Fence, Scaffolding, Spruce Button, Anvil, Crafting Table, Decorated Pot, Furnace, Potted Flowering Azalea Bush, Stripped Jungle Log, Stripped Oak Wood.
 
 ### Blocks
 
@@ -86,7 +109,6 @@ None found.
 | Stripped Oak Log | 3 |
 | Brown Bed | 2 |
 | Chest | 2 |
-| Jigsaw | 2 |
 | Lantern | 2 |
 | Oak Fence | 2 |
 | Scaffolding | 2 |
@@ -112,8 +134,12 @@ None found.
 | kattersstructures:chests/ocean_ships/chests |
 
 
+</details>
 
-## Ocean Ships/Villager/Ocean Ships 02
+<details>
+<summary><strong>Ocean Ships/Villager/Ocean Ships 02</strong></summary>
+
+The structure is composed of the following blocks: Campfire, Jungle Trapdoor, Oak Trapdoor, Spruce Trapdoor, White Wool, Oak Wall Sign, Red Wool, Spruce Wall Sign, White Carpet, Bamboo Trapdoor, Stripped Jungle Log, Stripped Oak Log, Jungle Wall Sign, Ladder, Beehive, Barrel, Chest, Farmland, Lantern, Oak Slab, Pumpkin, Stripped Spruce Log, Decorated Pot, Jungle Slab, Spruce Slab, Bamboo Slab, Spruce Fence, Stripped Bamboo Block, Wheat, Beetroots, Crafting Table, Jungle Fence, Melon Stem, Potted Flowering Azalea Bush.
 
 ### Blocks
 
@@ -142,7 +168,6 @@ None found.
 | Pumpkin | 4 |
 | Stripped Spruce Log | 4 |
 | Decorated Pot | 3 |
-| Jigsaw | 3 |
 | Jungle Slab | 3 |
 | Spruce Slab | 3 |
 | Bamboo Slab | 2 |
@@ -168,8 +193,12 @@ None found.
 | kattersstructures:chests/ocean_ships/chests |
 
 
+</details>
 
-## Ocean Ships/Villager/Ocean Ships 03
+<details>
+<summary><strong>Ocean Ships/Villager/Ocean Ships 03</strong></summary>
+
+The structure is composed of the following blocks: Spruce Trapdoor, Jungle Trapdoor, Spruce Stairs, Jungle Planks, Spruce Slab, Spruce Fence, Jungle Stairs, Oak Stairs, Spruce Planks, Stripped Spruce Log, Oak Planks, Jungle Slab, Ladder, Spruce Fence Gate, Stripped Jungle Log, Jungle Fence, Jungle Fence Gate, Lantern, White Wall Banner, Chest, Decorated Pot, Oak Slab, Oak Trapdoor, Pink Bed, Spruce Door, Stripped Oak Log, Barrel, Crafting Table, Oak Fence, Oak Fence Gate, Potted Allium.
 
 ### Blocks
 
@@ -196,7 +225,6 @@ None found.
 | White Wall Banner | 3 |
 | Chest | 2 |
 | Decorated Pot | 2 |
-| Jigsaw | 2 |
 | Oak Slab | 2 |
 | Oak Trapdoor | 2 |
 | Pink Bed | 2 |
@@ -221,8 +249,12 @@ None found.
 | kattersstructures:chests/ocean_ships/chests |
 
 
+</details>
 
-## Ocean Ships/Villager/Ocean Ships 04
+<details>
+<summary><strong>Ocean Ships/Villager/Ocean Ships 04</strong></summary>
+
+The structure is composed of the following blocks: Spruce Stairs, Jungle Slab, Jungle Wall Sign, Spruce Slab, Oak Wall Sign, Oak Trapdoor, Spruce Wall Sign, White Wall Banner, Jungle Fence, Oak Slab, Barrel, Jungle Stairs, Jungle Trapdoor, Lantern, Spruce Door, Spruce Fence Gate, Spruce Trapdoor, Furnace, Oak Fence, Oak Planks, Oak Stairs, Polished Blackstone Button, Spruce Fence.
 
 ### Blocks
 
@@ -239,7 +271,6 @@ None found.
 | Jungle Fence | 3 |
 | Oak Slab | 3 |
 | Barrel | 2 |
-| Jigsaw | 2 |
 | Jungle Stairs | 2 |
 | Jungle Trapdoor | 2 |
 | Lantern | 2 |
@@ -267,8 +298,12 @@ None found.
 | kattersstructures:chests/ocean_ships/chests |
 
 
+</details>
 
-## Ocean Ships/Villager/Ocean Ships 05
+<details>
+<summary><strong>Ocean Ships/Villager/Ocean Ships 05</strong></summary>
+
+The structure is composed of the following blocks: Spruce Trapdoor, Spruce Stairs, Jungle Trapdoor, Oak Trapdoor, Jungle Slab, Spruce Slab, White Wall Banner, Jungle Stairs, Jungle Wall Sign, Oak Stairs, Red Wall Banner, Jungle Fence, Spruce Fence Gate, Jungle Fence Gate, Oak Slab, Purple Bed, Barrel, Bell, Chest, Crafting Table, Lantern, Mud Brick Wall, Oak Fence Gate, Oak Wall Sign, Spruce Fence, Spruce Wall Sign.
 
 ### Blocks
 
@@ -287,7 +322,6 @@ None found.
 | Red Wall Banner | 4 |
 | Jungle Fence | 3 |
 | Spruce Fence Gate | 3 |
-| Jigsaw | 2 |
 | Jungle Fence Gate | 2 |
 | Oak Slab | 2 |
 | Purple Bed | 2 |
@@ -315,14 +349,16 @@ None found.
 | kattersstructures:chests/ocean_ships/chests |
 
 
+</details>
 
-## Ocean Ships/Villager/Ocean Ships Start
+<details>
+<summary><strong>Ocean Ships/Villager/Ocean Ships Start</strong></summary>
+
+The structure does not contain any notable blocks.
 
 ### Blocks
 
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
+None found.
 
 
 ### Entities
@@ -335,119 +371,4 @@ None found.
 None found.
 
 
-
-## Summary
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Dark Oak Planks | 873 |
-| Birch Fence | 422 |
-| Light Gray Wool | 406 |
-| Birch Planks | 225 |
-| Dark Oak Stairs | 213 |
-| Dark Oak Log | 187 |
-| Dark Oak Trapdoor | 176 |
-| Birch Stairs | 131 |
-| Birch Slab | 98 |
-| Dark Oak Slab | 93 |
-| Spruce Trapdoor | 85 |
-| Spruce Stairs | 71 |
-| Dark Oak Fence | 64 |
-| Jungle Trapdoor | 60 |
-| Spruce Slab | 42 |
-| Campfire | 37 |
-| Jigsaw | 36 |
-| Oak Trapdoor | 34 |
-| Hay Block | 29 |
-| Jungle Planks | 28 |
-| Spruce Planks | 28 |
-| Jungle Slab | 26 |
-| Lantern | 25 |
-| White Wool | 24 |
-| Barrel | 22 |
-| Gray Wool | 22 |
-| Jungle Stairs | 22 |
-| Jungle Wall Sign | 21 |
-| Oak Planks | 21 |
-| Polished Blackstone | 21 |
-| Ladder | 20 |
-| Dried Kelp Block | 19 |
-| Oak Stairs | 19 |
-| Spruce Fence | 19 |
-| Chest | 18 |
-| White Wall Banner | 17 |
-| Oak Wall Sign | 16 |
-| Oak Slab | 15 |
-| Spruce Wall Sign | 15 |
-| Stripped Jungle Log | 14 |
-| Stripped Oak Log | 14 |
-| Stripped Spruce Log | 14 |
-| Jungle Fence | 13 |
-| Bamboo Planks | 11 |
-| Chain | 11 |
-| Red Wool | 10 |
-| White Carpet | 10 |
-| Bamboo Mosaic | 9 |
-| Bamboo Trapdoor | 9 |
-| Bookshelf | 9 |
-| Polished Blackstone Slab | 9 |
-| Spruce Fence Gate | 9 |
-| Light Blue Wool | 8 |
-| Beehive | 7 |
-| Red Wall Banner | 7 |
-| Dark Oak Fence Gate | 6 |
-| Decorated Pot | 6 |
-| Polished Blackstone Wall | 6 |
-| Jungle Fence Gate | 5 |
-| Crafting Table | 4 |
-| Farmland | 4 |
-| Glass Pane | 4 |
-| Oak Fence | 4 |
-| Pumpkin | 4 |
-| Spawner | 4 |
-| Spruce Door | 4 |
-| Stone Brick Wall | 4 |
-| Bamboo Stairs | 3 |
-| Brown Wall Banner | 3 |
-| Chiseled Bookshelf | 3 |
-| Bamboo Slab | 2 |
-| Brown Bed | 2 |
-| Fletching Table | 2 |
-| Furnace | 2 |
-| Oak Fence Gate | 2 |
-| Pink Bed | 2 |
-| Potted Flowering Azalea Bush | 2 |
-| Purple Bed | 2 |
-| Scaffolding | 2 |
-| Spruce Button | 2 |
-| Stripped Bamboo Block | 2 |
-| Wheat | 2 |
-| Anvil | 1 |
-| Beetroots | 1 |
-| Bell | 1 |
-| Melon Stem | 1 |
-| Mud Brick Wall | 1 |
-| Polished Blackstone Button | 1 |
-| Potted Allium | 1 |
-| Stripped Oak Wood | 1 |
-
-
-### Entities
-
-None found.
-
-
-### Loot Tables
-
-| Loot Table |
-|:-----|
-| kattersstructures:chests/ocean/random |
-| kattersstructures:chests/ocean_ships/chests |
-| kattersstructures:chests/sky_decor/pillager/arrows |
-| kattersstructures:chests/sky_decor/pillager/storage |
-| kattersstructures:chests/sky_decor/pillager/tnt |
-| kattersstructures:chests/sky_decor/pillager/treasure |
-
-
+</details>

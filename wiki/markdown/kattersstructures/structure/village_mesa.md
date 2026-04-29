@@ -1,12 +1,38 @@
 # Village Mesa
 
-## Village Mesa/Barkeeper
+## Summary
+
+The structure is composed of the following blocks: Sand, Oak Planks, Jungle Planks, Bricks, Stripped Jungle Log, Warped Planks, Mangrove Planks, Birch Planks, Oak Slab, Jungle Stairs, Stripped Oak Log, Oak Stairs, Jungle Wall Sign, Oak Button, Oak Wall Sign, Oak Trapdoor, Hay Block, Jungle Slab, Jungle Fence, Jungle Trapdoor, Jungle Button, Terracotta, Brick Slab, Granite, Spruce Trapdoor, Ladder, White Wool, Rail, Smooth Sandstone, Warped Wall Sign, Stripped Warped Stem, Cyan Concrete Powder, Dried Kelp Block, Oak Fence, Brick Wall, Lantern, Netherrack, Stripped Spruce Log, Moss Block, Stripped Birch Log, Birch Slab, Jungle Fence Gate, Stripped Mangrove Log, Mangrove Wall Sign, Birch Wall Sign, Dark Oak Slab, Mangrove Button, Brick Stairs, Birch Button, Warped Trapdoor, Bookshelf, Calcite, Dead Bush, Warped Button, Coarse Dirt, Green Wool, Light Gray Wool, Mangrove Trapdoor, Spruce Fence, Gray Stained Glass Pane, Oak Fence Gate, Brown Wall Banner, Chest, Diorite, Mangrove Slab, Mud Brick Wall, Warped Slab, Dark Oak Trapdoor, Granite Slab, Mangrove Fence, Chiseled Bookshelf, Glow Lichen, Iron Bars, Mud Bricks, Stripped Dark Oak Log, Birch Trapdoor, Packed Mud, Polished Deepslate Wall, Decorated Pot, Muddy Mangrove Roots, Spruce Fence Gate, Spruce Stairs, Warped Fence, Birch Stairs, Spruce Planks, Cyan Wall Banner, Gray Bed, Jungle Pressure Plate, Light Gray Bed, Red Sandstone Wall, Soul Soil, Tripwire Hook, Dark Oak Fence Gate, Mangrove Stairs, Warped Fence Gate, Black Bed, Black Carpet, Brown Bed, Dark Oak Planks, Granite Stairs, Mangrove Roots, Sea Pickle, Warped Stairs, White Wall Banner, Brown Candle, Dark Oak Fence, Flower Pot, Granite Wall, Gray Carpet, Mangrove Fence Gate, Pointed Dripstone, Acacia Fence Gate, Anvil, Birch Fence Gate, Composter, Furnace, Green Wall Banner, Iron Door, Jungle Door, Jungle Hanging Sign, Light Gray Carpet, Polished Deepslate Stairs, Spruce Slab, Barrel, Bell, Birch Fence, Black Candle, Blast Furnace, Brewing Stand, Campfire, Cartography Table, Cobweb, Crafting Table, Dark Oak Stairs, Dark Oak Wall Hanging Sign, Fletching Table, Gray Candle, Grindstone, Iron Trapdoor, Lectern, Lever, Light Blue Stained Glass Pane, Lightning Rod, Lime Wall Banner, Mangrove Pressure Plate, Mangrove Wall Hanging Sign, Mud Brick Stairs, Oak Hanging Sign, Polished Deepslate Slab, Potted Acacia Sapling, Potted Cactus, Potted Jungle Sapling, Red Candle, Scaffolding, Smithing Table, Smooth Stone, Target, Water Cauldron, Yellow Candle.
+
+Additionally, the following entities may spawn during its generation: Item Frame, Villager.
+
+### Loot Tables
+
+| Loot Table |
+|:-----|
+| kattersstructures:chests/mesa/armorer |
+| kattersstructures:chests/mesa/cartographer |
+| kattersstructures:chests/mesa/farmer |
+| kattersstructures:chests/mesa/fisherman |
+| kattersstructures:chests/mesa/fletcher |
+| kattersstructures:chests/mesa/house |
+| kattersstructures:chests/mesa/prison |
+| kattersstructures:chests/mesa/saloon |
+| kattersstructures:chests/mesa/toolsmith |
+| kattersstructures:chests/mesa/weaponsmith |
+
+
+
+<details>
+<summary><strong>Village Mesa/Barkeeper</strong></summary>
+
+The structure does not contain any notable blocks.
+
+Additionally, the following entities may spawn during its generation: Villager.
 
 ### Blocks
 
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
+None found.
 
 
 ### Entities
@@ -21,8 +47,12 @@
 None found.
 
 
+</details>
 
-## Village Mesa/Decor/Decor Fisherman
+<details>
+<summary><strong>Village Mesa/Decor/Decor Fisherman</strong></summary>
+
+The structure is composed of the following blocks: Hay Block, Spruce Planks, Rail, Sea Pickle, Barrel, Decorated Pot, Lantern, Lightning Rod.
 
 ### Blocks
 
@@ -34,7 +64,6 @@ None found.
 | Sea Pickle | 2 |
 | Barrel | 1 |
 | Decorated Pot | 1 |
-| Jigsaw | 1 |
 | Lantern | 1 |
 | Lightning Rod | 1 |
 
@@ -51,8 +80,14 @@ None found.
 | kattersstructures:chests/mesa/fisherman |
 
 
+</details>
 
-## Village Mesa/Decor/Wagon Cartographer
+<details>
+<summary><strong>Village Mesa/Decor/Wagon Cartographer</strong></summary>
+
+The structure is composed of the following blocks: Moss Block, Dark Oak Slab, Green Wool, Dark Oak Trapdoor, Ladder, Stripped Dark Oak Log, Rail, Dark Oak Planks, Oak Trapdoor, Bookshelf, Dark Oak Fence, Dark Oak Fence Gate, Green Wall Banner, Cartography Table, Chest, Dark Oak Stairs, Flower Pot, Lantern.
+
+Additionally, the following entities may spawn during its generation: Item Frame.
 
 ### Blocks
 
@@ -75,7 +110,6 @@ None found.
 | Chest | 1 |
 | Dark Oak Stairs | 1 |
 | Flower Pot | 1 |
-| Jigsaw | 1 |
 | Lantern | 1 |
 
 
@@ -93,8 +127,12 @@ None found.
 | kattersstructures:chests/mesa/cartographer |
 
 
+</details>
 
-## Village Mesa/Decor/Wagon Farmer
+<details>
+<summary><strong>Village Mesa/Decor/Wagon Farmer</strong></summary>
+
+The structure is composed of the following blocks: Oak Slab, Calcite, Oak Trapdoor, White Wool, Ladder, Stripped Oak Log, Hay Block, Rail, Diorite, Oak Planks, Oak Fence, Oak Fence Gate, White Wall Banner, Chest, Composter, Lantern.
 
 ### Blocks
 
@@ -115,7 +153,6 @@ None found.
 | White Wall Banner | 2 |
 | Chest | 1 |
 | Composter | 1 |
-| Jigsaw | 1 |
 | Lantern | 1 |
 
 
@@ -131,8 +168,12 @@ None found.
 | kattersstructures:chests/mesa/farmer |
 
 
+</details>
 
-## Village Mesa/Decor/Wagon Librarian
+<details>
+<summary><strong>Village Mesa/Decor/Wagon Librarian</strong></summary>
+
+The structure is composed of the following blocks: Oak Slab, White Wool, Light Gray Wool, Oak Trapdoor, Ladder, Stripped Oak Log, Rail, Bookshelf, Diorite, Oak Planks, Chiseled Bookshelf, Lantern, Oak Fence, Oak Fence Gate, White Wall Banner, Lectern.
 
 ### Blocks
 
@@ -149,7 +190,6 @@ None found.
 | Diorite | 7 |
 | Oak Planks | 4 |
 | Chiseled Bookshelf | 3 |
-| Jigsaw | 3 |
 | Lantern | 2 |
 | Oak Fence | 2 |
 | Oak Fence Gate | 2 |
@@ -167,8 +207,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/Decor/Water Tower
+<details>
+<summary><strong>Village Mesa/Decor/Water Tower</strong></summary>
+
+The structure is composed of the following blocks: Spruce Trapdoor, Stripped Spruce Log, Spruce Fence, Coarse Dirt, Mud Brick Wall, Sand, Spruce Fence Gate, Spruce Stairs, Muddy Mangrove Roots, Iron Bars.
 
 ### Blocks
 
@@ -184,7 +228,6 @@ None found.
 | Spruce Stairs | 8 |
 | Muddy Mangrove Roots | 5 |
 | Iron Bars | 1 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -197,14 +240,16 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/Decor/Water Tower Way
+<details>
+<summary><strong>Village Mesa/Decor/Water Tower Way</strong></summary>
+
+The structure does not contain any notable blocks.
 
 ### Blocks
 
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 2 |
+None found.
 
 
 ### Entities
@@ -217,8 +262,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/Armorer
+<details>
+<summary><strong>Village Mesa/House/Armorer</strong></summary>
+
+The structure is composed of the following blocks: Anvil, Blast Furnace, Chest, Dark Oak Fence Gate, Polished Deepslate Stairs, Polished Deepslate Wall.
 
 ### Blocks
 
@@ -228,7 +277,6 @@ None found.
 | Blast Furnace | 1 |
 | Chest | 1 |
 | Dark Oak Fence Gate | 1 |
-| Jigsaw | 1 |
 | Polished Deepslate Stairs | 1 |
 | Polished Deepslate Wall | 1 |
 
@@ -245,8 +293,12 @@ None found.
 | kattersstructures:chests/mesa/armorer |
 
 
+</details>
 
-## Village Mesa/House/House 1
+<details>
+<summary><strong>Village Mesa/House/House 1</strong></summary>
+
+The structure is composed of the following blocks: Jungle Planks, Sand, Stripped Jungle Log, Oak Planks, Jungle Wall Sign, Jungle Slab, Jungle Stairs, Jungle Button, Jungle Fence, Oak Wall Sign, Oak Slab, Jungle Fence Gate, Oak Stairs, Oak Fence, Gray Stained Glass Pane, Glow Lichen, Lantern, Oak Fence Gate.
 
 ### Blocks
 
@@ -263,7 +315,6 @@ None found.
 | Jungle Fence | 14 |
 | Oak Wall Sign | 12 |
 | Oak Slab | 10 |
-| Jigsaw | 6 |
 | Jungle Fence Gate | 6 |
 | Oak Stairs | 6 |
 | Oak Fence | 4 |
@@ -283,8 +334,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/House 2
+<details>
+<summary><strong>Village Mesa/House/House 2</strong></summary>
+
+The structure is composed of the following blocks: Warped Planks, Sand, Cyan Concrete Powder, Stripped Warped Stem, Warped Wall Sign, Warped Slab, Warped Fence, Jungle Stairs, Jungle Planks, Warped Button, Warped Stairs, Cyan Wall Banner, Oak Stairs, Oak Planks, Stripped Jungle Log, Warped Fence Gate, Glow Lichen, Lantern.
 
 ### Blocks
 
@@ -297,7 +352,6 @@ None found.
 | Warped Wall Sign | 20 |
 | Warped Slab | 14 |
 | Warped Fence | 7 |
-| Jigsaw | 5 |
 | Jungle Stairs | 5 |
 | Jungle Planks | 4 |
 | Warped Button | 4 |
@@ -321,8 +375,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/House 3
+<details>
+<summary><strong>Village Mesa/House/House 3</strong></summary>
+
+The structure is composed of the following blocks: Birch Planks, Sand, Smooth Sandstone, Stripped Birch Log, Birch Wall Sign, Birch Button, Birch Slab, Red Sandstone Wall, Birch Stairs, Jungle Planks, Jungle Stairs, Oak Stairs, Birch Fence Gate, Oak Planks, Stripped Jungle Log, Birch Fence, Birch Trapdoor, Glow Lichen, Gray Stained Glass Pane, Lantern.
 
 ### Blocks
 
@@ -340,7 +398,6 @@ None found.
 | Jungle Planks | 5 |
 | Jungle Stairs | 4 |
 | Oak Stairs | 4 |
-| Jigsaw | 3 |
 | Birch Fence Gate | 2 |
 | Oak Planks | 2 |
 | Stripped Jungle Log | 2 |
@@ -361,8 +418,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/House 4
+<details>
+<summary><strong>Village Mesa/House/House 4</strong></summary>
+
+The structure is composed of the following blocks: Mangrove Planks, Sand, Netherrack, Stripped Mangrove Log, Mangrove Button, Mangrove Slab, Mangrove Wall Sign, Oak Planks, Jungle Planks, Jungle Stairs, Mangrove Fence, Mangrove Stairs, Oak Stairs, Mangrove Fence Gate, Glow Lichen, Gray Stained Glass Pane, Lantern, Mangrove Wall Hanging Sign.
 
 ### Blocks
 
@@ -376,7 +437,6 @@ None found.
 | Mangrove Slab | 14 |
 | Mangrove Wall Sign | 13 |
 | Oak Planks | 7 |
-| Jigsaw | 4 |
 | Jungle Planks | 4 |
 | Jungle Stairs | 4 |
 | Mangrove Fence | 4 |
@@ -399,8 +459,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/House 5
+<details>
+<summary><strong>Village Mesa/House/House 5</strong></summary>
+
+The structure is composed of the following blocks: Oak Planks, Sand, Birch Planks, Stripped Oak Log, Oak Button, Oak Trapdoor, Oak Wall Sign, Oak Slab, Oak Fence, Jungle Stairs, Oak Stairs, Oak Fence Gate, Birch Slab, Jungle Planks, Stripped Jungle Log, Glow Lichen, Gray Stained Glass Pane, Lantern.
 
 ### Blocks
 
@@ -415,7 +479,6 @@ None found.
 | Oak Wall Sign | 15 |
 | Oak Slab | 14 |
 | Oak Fence | 8 |
-| Jigsaw | 4 |
 | Jungle Stairs | 4 |
 | Oak Stairs | 4 |
 | Oak Fence Gate | 3 |
@@ -437,8 +500,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/House 6
+<details>
+<summary><strong>Village Mesa/House/House 6</strong></summary>
+
+The structure is composed of the following blocks: Jungle Planks, Sand, Mangrove Planks, Mangrove Trapdoor, Oak Planks, Jungle Slab, Stripped Jungle Log, Jungle Button, Mangrove Wall Sign, Jungle Wall Sign, Mangrove Fence, Mangrove Button, Netherrack, Oak Stairs, Stripped Mangrove Log, Jungle Stairs, Oak Slab, Stripped Oak Log, Glow Lichen, Lantern, Mangrove Fence Gate, Mangrove Pressure Plate, Mangrove Stairs.
 
 ### Blocks
 
@@ -460,7 +527,6 @@ None found.
 | Oak Stairs | 5 |
 | Stripped Mangrove Log | 5 |
 | Jungle Stairs | 4 |
-| Jigsaw | 3 |
 | Oak Slab | 3 |
 | Stripped Oak Log | 3 |
 | Glow Lichen | 1 |
@@ -480,8 +546,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/House 7
+<details>
+<summary><strong>Village Mesa/House/House 7</strong></summary>
+
+The structure is composed of the following blocks: Oak Planks, Sand, Jungle Planks, Stripped Oak Log, Oak Button, Jungle Trapdoor, Oak Slab, Oak Wall Sign, Jungle Stairs, Oak Stairs, Oak Fence Gate, Jungle Slab, Stripped Jungle Log, Decorated Pot, Glow Lichen, Gray Stained Glass Pane, Lantern, Lever, Light Blue Stained Glass Pane, Oak Trapdoor.
 
 ### Blocks
 
@@ -495,7 +565,6 @@ None found.
 | Jungle Trapdoor | 16 |
 | Oak Slab | 14 |
 | Oak Wall Sign | 12 |
-| Jigsaw | 4 |
 | Jungle Stairs | 4 |
 | Oak Stairs | 4 |
 | Oak Fence Gate | 3 |
@@ -520,8 +589,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/House 8
+<details>
+<summary><strong>Village Mesa/House/House 8</strong></summary>
+
+The structure is composed of the following blocks: Sand, Oak Planks, Warped Planks, Stripped Oak Log, Warped Trapdoor, Warped Button, Oak Slab, Birch Planks, Oak Button, Warped Wall Sign, Stripped Warped Stem, Cyan Concrete Powder, Jungle Planks, Oak Stairs, Birch Slab, Cyan Wall Banner, Jungle Stairs, Oak Wall Sign, Warped Fence Gate, Gray Stained Glass Pane, Stripped Jungle Log, Glow Lichen, Lantern, Warped Fence.
 
 ### Blocks
 
@@ -541,7 +614,6 @@ None found.
 | Cyan Concrete Powder | 5 |
 | Jungle Planks | 5 |
 | Oak Stairs | 5 |
-| Jigsaw | 4 |
 | Birch Slab | 3 |
 | Cyan Wall Banner | 3 |
 | Jungle Stairs | 3 |
@@ -564,8 +636,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/House 9
+<details>
+<summary><strong>Village Mesa/House/House 9</strong></summary>
+
+The structure is composed of the following blocks: Jungle Planks, Sand, Oak Planks, Stripped Jungle Log, Jungle Trapdoor, Jungle Wall Sign, Jungle Fence, Jungle Button, Jungle Slab, Birch Trapdoor, Oak Stairs, Jungle Fence Gate, Jungle Stairs, Stripped Oak Log, Gray Stained Glass Pane, Glow Lichen, Lantern.
 
 ### Blocks
 
@@ -582,7 +658,6 @@ None found.
 | Jungle Slab | 12 |
 | Birch Trapdoor | 8 |
 | Oak Stairs | 5 |
-| Jigsaw | 3 |
 | Jungle Fence Gate | 3 |
 | Jungle Stairs | 3 |
 | Stripped Oak Log | 3 |
@@ -601,8 +676,14 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/House Special Fletcher
+<details>
+<summary><strong>Village Mesa/House/House Special Fletcher</strong></summary>
+
+The structure is composed of the following blocks: Sand, Oak Planks, Hay Block, Spruce Trapdoor, Stripped Jungle Log, Oak Fence, Jungle Planks, Jungle Fence Gate, Jungle Stairs, Oak Stairs, Jungle Fence, Birch Stairs, Lantern, Spruce Slab, Chest, Fletching Table, Oak Fence Gate, Target.
+
+Additionally, the following entities may spawn during its generation: Item Frame.
 
 ### Blocks
 
@@ -620,7 +701,6 @@ None found.
 | Oak Stairs | 4 |
 | Jungle Fence | 3 |
 | Birch Stairs | 2 |
-| Jigsaw | 2 |
 | Lantern | 2 |
 | Spruce Slab | 2 |
 | Chest | 1 |
@@ -643,8 +723,12 @@ None found.
 | kattersstructures:chests/mesa/fletcher |
 
 
+</details>
 
-## Village Mesa/House/House Special Prison
+<details>
+<summary><strong>Village Mesa/House/House Special Prison</strong></summary>
+
+The structure is composed of the following blocks: Bricks, Sand, Granite, Terracotta, Brick Slab, Brick Wall, Brick Stairs, Iron Bars, Oak Planks, Granite Slab, Jungle Stairs, Oak Stairs, Granite Stairs, Gray Stained Glass Pane, Jungle Planks, Acacia Fence Gate, Iron Door, Light Gray Carpet, Chest, Glow Lichen, Lantern.
 
 ### Blocks
 
@@ -662,7 +746,6 @@ None found.
 | Granite Slab | 6 |
 | Jungle Stairs | 5 |
 | Oak Stairs | 5 |
-| Jigsaw | 4 |
 | Granite Stairs | 3 |
 | Gray Stained Glass Pane | 3 |
 | Jungle Planks | 3 |
@@ -686,8 +769,12 @@ None found.
 | kattersstructures:chests/mesa/prison |
 
 
+</details>
 
-## Village Mesa/House/House Special Saloon
+<details>
+<summary><strong>Village Mesa/House/House Special Saloon</strong></summary>
+
+The structure is composed of the following blocks: Oak Planks, Sand, Jungle Planks, Stripped Jungle Log, Oak Slab, Oak Wall Sign, Jungle Trapdoor, Oak Button, Jungle Wall Sign, Jungle Stairs, Oak Stairs, Brown Wall Banner, Oak Fence Gate, Oak Trapdoor, Brewing Stand, Chest, Jungle Fence, Lantern, Lime Wall Banner.
 
 ### Blocks
 
@@ -705,7 +792,6 @@ None found.
 | Jungle Stairs | 6 |
 | Oak Stairs | 6 |
 | Brown Wall Banner | 5 |
-| Jigsaw | 2 |
 | Oak Fence Gate | 2 |
 | Oak Trapdoor | 2 |
 | Brewing Stand | 1 |
@@ -727,8 +813,12 @@ None found.
 | kattersstructures:chests/mesa/saloon |
 
 
+</details>
 
-## Village Mesa/House/House Special Smith
+<details>
+<summary><strong>Village Mesa/House/House Special Smith</strong></summary>
+
+The structure is composed of the following blocks: Bricks, Sand, Brick Slab, Terracotta, Granite, Polished Deepslate Wall, Granite Slab, Jungle Stairs, Jungle Planks, Brick Wall, Granite Wall, Oak Planks, Oak Stairs, Brick Stairs, Spruce Trapdoor, Campfire, Dark Oak Wall Hanging Sign, Granite Stairs, Gray Stained Glass Pane, Iron Trapdoor, Lantern, Polished Deepslate Slab, Smooth Stone, Stripped Jungle Log.
 
 ### Blocks
 
@@ -748,7 +838,6 @@ None found.
 | Oak Planks | 3 |
 | Oak Stairs | 3 |
 | Brick Stairs | 2 |
-| Jigsaw | 2 |
 | Spruce Trapdoor | 2 |
 | Campfire | 1 |
 | Dark Oak Wall Hanging Sign | 1 |
@@ -771,8 +860,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/House Special Storage
+<details>
+<summary><strong>Village Mesa/House/House Special Storage</strong></summary>
+
+The structure is composed of the following blocks: Sand, Dried Kelp Block, Jungle Planks, Oak Planks, Stripped Jungle Log, Hay Block, Oak Button, Oak Stairs, Rail, Decorated Pot, Jungle Stairs, Chest, Flower Pot, Ladder, Sea Pickle, Black Candle, Composter, Lantern, Yellow Candle.
 
 ### Blocks
 
@@ -791,7 +884,6 @@ None found.
 | Jungle Stairs | 3 |
 | Chest | 2 |
 | Flower Pot | 2 |
-| Jigsaw | 2 |
 | Ladder | 2 |
 | Sea Pickle | 2 |
 | Black Candle | 1 |
@@ -812,8 +904,12 @@ None found.
 | kattersstructures:chests/mesa/house |
 
 
+</details>
 
-## Village Mesa/House/House Special Toilet
+<details>
+<summary><strong>Village Mesa/House/House Special Toilet</strong></summary>
+
+The structure is composed of the following blocks: Sand, Jungle Planks, Oak Planks, Oak Stairs, Stripped Jungle Log, Coarse Dirt, Jungle Stairs, Soul Soil, Brown Wall Banner, Oak Button, Oak Wall Sign, Muddy Mangrove Roots, Jungle Door, Jungle Slab, Jungle Trapdoor, Lantern, Oak Fence, Oak Fence Gate, Tripwire Hook, Water Cauldron.
 
 ### Blocks
 
@@ -834,7 +930,6 @@ None found.
 | Jungle Door | 2 |
 | Jungle Slab | 2 |
 | Jungle Trapdoor | 2 |
-| Jigsaw | 1 |
 | Lantern | 1 |
 | Oak Fence | 1 |
 | Oak Fence Gate | 1 |
@@ -852,14 +947,17 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/Interior/House Interior 1x1 01
+<details>
+<summary><strong>Village Mesa/House/Interior/House Interior 1x1 01</strong></summary>
+
+The structure is composed of the following blocks: Jungle Fence, Jungle Pressure Plate.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
-| Jigsaw | 1 |
 | Jungle Fence | 1 |
 | Jungle Pressure Plate | 1 |
 
@@ -874,15 +972,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/Interior/House Interior 1x1 02
+<details>
+<summary><strong>Village Mesa/House/Interior/House Interior 1x1 02</strong></summary>
+
+The structure is composed of the following blocks: Crafting Table.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Crafting Table | 1 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -895,15 +996,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/Interior/House Interior 1x1 03
+<details>
+<summary><strong>Village Mesa/House/Interior/House Interior 1x1 03</strong></summary>
+
+The structure is composed of the following blocks: Decorated Pot.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Decorated Pot | 1 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -916,14 +1020,17 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/Interior/House Interior 1x1 04
+<details>
+<summary><strong>Village Mesa/House/Interior/House Interior 1x1 04</strong></summary>
+
+The structure is composed of the following blocks: Potted Cactus.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
-| Jigsaw | 1 |
 | Potted Cactus | 1 |
 
 
@@ -937,15 +1044,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/Interior/House Interior 1x1 05
+<details>
+<summary><strong>Village Mesa/House/Interior/House Interior 1x1 05</strong></summary>
+
+The structure is composed of the following blocks: Jungle Fence.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Jungle Fence | 2 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -958,14 +1068,17 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/Interior/House Interior 1x1 06
+<details>
+<summary><strong>Village Mesa/House/Interior/House Interior 1x1 06</strong></summary>
+
+The structure is composed of the following blocks: Jungle Pressure Plate.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
-| Jigsaw | 1 |
 | Jungle Pressure Plate | 1 |
 
 
@@ -979,14 +1092,17 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/Interior/House Interior 1x1 07
+<details>
+<summary><strong>Village Mesa/House/Interior/House Interior 1x1 07</strong></summary>
+
+The structure is composed of the following blocks: Potted Jungle Sapling, Scaffolding.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
-| Jigsaw | 1 |
 | Potted Jungle Sapling | 1 |
 | Scaffolding | 1 |
 
@@ -1001,8 +1117,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/Interior/House Interior 3x1 01
+<details>
+<summary><strong>Village Mesa/House/Interior/House Interior 3x1 01</strong></summary>
+
+The structure is composed of the following blocks: Bookshelf, Chiseled Bookshelf, Oak Fence.
 
 ### Blocks
 
@@ -1010,7 +1130,6 @@ None found.
 |:-----|:-----:|
 | Bookshelf | 3 |
 | Chiseled Bookshelf | 2 |
-| Jigsaw | 2 |
 | Oak Fence | 2 |
 
 
@@ -1024,8 +1143,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/Interior/House Interior 3x1 02
+<details>
+<summary><strong>Village Mesa/House/Interior/House Interior 3x1 02</strong></summary>
+
+The structure is composed of the following blocks: Bookshelf, Chiseled Bookshelf, Jungle Stairs.
 
 ### Blocks
 
@@ -1033,7 +1156,6 @@ None found.
 |:-----|:-----:|
 | Bookshelf | 3 |
 | Chiseled Bookshelf | 3 |
-| Jigsaw | 2 |
 | Jungle Stairs | 1 |
 
 
@@ -1047,15 +1169,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/Interior/House Interior 3x1 03
+<details>
+<summary><strong>Village Mesa/House/Interior/House Interior 3x1 03</strong></summary>
+
+The structure is composed of the following blocks: Chiseled Bookshelf, Ladder, Bookshelf, Brown Candle.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Chiseled Bookshelf | 2 |
-| Jigsaw | 2 |
 | Ladder | 2 |
 | Bookshelf | 1 |
 | Brown Candle | 1 |
@@ -1071,8 +1196,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/Interior/House Interior 3x1 04
+<details>
+<summary><strong>Village Mesa/House/Interior/House Interior 3x1 04</strong></summary>
+
+The structure is composed of the following blocks: Jungle Fence, Decorated Pot, Tripwire Hook.
 
 ### Blocks
 
@@ -1080,7 +1209,6 @@ None found.
 |:-----|:-----:|
 | Jungle Fence | 2 |
 | Decorated Pot | 1 |
-| Jigsaw | 1 |
 | Tripwire Hook | 1 |
 
 
@@ -1094,15 +1222,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/Interior/House Interior 3x1 05
+<details>
+<summary><strong>Village Mesa/House/Interior/House Interior 3x1 05</strong></summary>
+
+The structure is composed of the following blocks: Cobweb, Jungle Fence, Jungle Pressure Plate, Jungle Stairs.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Cobweb | 1 |
-| Jigsaw | 1 |
 | Jungle Fence | 1 |
 | Jungle Pressure Plate | 1 |
 | Jungle Stairs | 1 |
@@ -1118,15 +1249,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/Interior/House Interior 3x1 06
+<details>
+<summary><strong>Village Mesa/House/Interior/House Interior 3x1 06</strong></summary>
+
+The structure is composed of the following blocks: Decorated Pot, Potted Acacia Sapling.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Decorated Pot | 1 |
-| Jigsaw | 1 |
 | Potted Acacia Sapling | 1 |
 
 
@@ -1140,8 +1274,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/Interior/House Interior 3x3 01
+<details>
+<summary><strong>Village Mesa/House/Interior/House Interior 3x3 01</strong></summary>
+
+The structure is composed of the following blocks: Light Gray Bed, Chest, Gray Candle, Jungle Stairs, Tripwire Hook.
 
 ### Blocks
 
@@ -1150,7 +1288,6 @@ None found.
 | Light Gray Bed | 2 |
 | Chest | 1 |
 | Gray Candle | 1 |
-| Jigsaw | 1 |
 | Jungle Stairs | 1 |
 | Tripwire Hook | 1 |
 
@@ -1167,8 +1304,12 @@ None found.
 | kattersstructures:chests/mesa/house |
 
 
+</details>
 
-## Village Mesa/House/Interior/House Interior 3x3 02
+<details>
+<summary><strong>Village Mesa/House/Interior/House Interior 3x3 02</strong></summary>
+
+The structure is composed of the following blocks: Oak Trapdoor, Brown Bed, Chest, Oak Slab, Red Candle, Tripwire Hook.
 
 ### Blocks
 
@@ -1177,7 +1318,6 @@ None found.
 | Oak Trapdoor | 4 |
 | Brown Bed | 2 |
 | Chest | 1 |
-| Jigsaw | 1 |
 | Oak Slab | 1 |
 | Red Candle | 1 |
 | Tripwire Hook | 1 |
@@ -1195,8 +1335,12 @@ None found.
 | kattersstructures:chests/mesa/house |
 
 
+</details>
 
-## Village Mesa/House/Interior/House Interior 3x3 03
+<details>
+<summary><strong>Village Mesa/House/Interior/House Interior 3x3 03</strong></summary>
+
+The structure is composed of the following blocks: Gray Carpet, Jungle Fence, Gray Bed, Brown Candle, Oak Trapdoor, Tripwire Hook.
 
 ### Blocks
 
@@ -1206,7 +1350,6 @@ None found.
 | Jungle Fence | 3 |
 | Gray Bed | 2 |
 | Brown Candle | 1 |
-| Jigsaw | 1 |
 | Oak Trapdoor | 1 |
 | Tripwire Hook | 1 |
 
@@ -1221,8 +1364,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/Interior/House Interior 3x3 04
+<details>
+<summary><strong>Village Mesa/House/Interior/House Interior 3x3 04</strong></summary>
+
+The structure is composed of the following blocks: Black Carpet, Black Bed, Jungle Hanging Sign, Chest, Lantern, Oak Hanging Sign.
 
 ### Blocks
 
@@ -1232,7 +1379,6 @@ None found.
 | Black Bed | 2 |
 | Jungle Hanging Sign | 2 |
 | Chest | 1 |
-| Jigsaw | 1 |
 | Lantern | 1 |
 | Oak Hanging Sign | 1 |
 
@@ -1249,8 +1395,12 @@ None found.
 | kattersstructures:chests/mesa/house |
 
 
+</details>
 
-## Village Mesa/House/Interior/House Interior 3x3 05
+<details>
+<summary><strong>Village Mesa/House/Interior/House Interior 3x3 05</strong></summary>
+
+The structure is composed of the following blocks: Oak Trapdoor, Jungle Trapdoor, Light Gray Bed, Chest, Jungle Fence, Jungle Pressure Plate, Jungle Stairs, Lantern.
 
 ### Blocks
 
@@ -1260,7 +1410,6 @@ None found.
 | Jungle Trapdoor | 3 |
 | Light Gray Bed | 2 |
 | Chest | 1 |
-| Jigsaw | 1 |
 | Jungle Fence | 1 |
 | Jungle Pressure Plate | 1 |
 | Jungle Stairs | 1 |
@@ -1279,8 +1428,12 @@ None found.
 | kattersstructures:chests/mesa/house |
 
 
+</details>
 
-## Village Mesa/House/Interior/House Interior 3x3 06
+<details>
+<summary><strong>Village Mesa/House/Interior/House Interior 3x3 06</strong></summary>
+
+The structure is composed of the following blocks: Pointed Dripstone, Gray Bed, Jungle Pressure Plate, Brown Candle, Jungle Stairs, Tripwire Hook.
 
 ### Blocks
 
@@ -1290,7 +1443,6 @@ None found.
 | Gray Bed | 2 |
 | Jungle Pressure Plate | 2 |
 | Brown Candle | 1 |
-| Jigsaw | 1 |
 | Jungle Stairs | 1 |
 | Tripwire Hook | 1 |
 
@@ -1305,15 +1457,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/Interior/House Interior Bed 01
+<details>
+<summary><strong>Village Mesa/House/Interior/House Interior Bed 01</strong></summary>
+
+The structure is composed of the following blocks: Light Gray Bed.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Light Gray Bed | 2 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -1326,15 +1481,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/Interior/House Interior Bed 02
+<details>
+<summary><strong>Village Mesa/House/Interior/House Interior Bed 02</strong></summary>
+
+The structure is composed of the following blocks: Gray Bed.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Gray Bed | 2 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -1347,15 +1505,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/Interior/House Interior Bed 03
+<details>
+<summary><strong>Village Mesa/House/Interior/House Interior Bed 03</strong></summary>
+
+The structure is composed of the following blocks: Black Bed.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Black Bed | 2 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -1368,15 +1529,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/Interior/House Interior Bed 04
+<details>
+<summary><strong>Village Mesa/House/Interior/House Interior Bed 04</strong></summary>
+
+The structure is composed of the following blocks: Brown Bed.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Brown Bed | 2 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -1389,8 +1553,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/House/Toolsmith
+<details>
+<summary><strong>Village Mesa/House/Toolsmith</strong></summary>
+
+The structure is composed of the following blocks: Anvil, Chest, Dark Oak Fence Gate, Furnace, Polished Deepslate Wall, Smithing Table.
 
 ### Blocks
 
@@ -1400,7 +1568,6 @@ None found.
 | Chest | 1 |
 | Dark Oak Fence Gate | 1 |
 | Furnace | 1 |
-| Jigsaw | 1 |
 | Polished Deepslate Wall | 1 |
 | Smithing Table | 1 |
 
@@ -1417,8 +1584,12 @@ None found.
 | kattersstructures:chests/mesa/toolsmith |
 
 
+</details>
 
-## Village Mesa/House/Weaponsmith
+<details>
+<summary><strong>Village Mesa/House/Weaponsmith</strong></summary>
+
+The structure is composed of the following blocks: Chest, Dark Oak Fence Gate, Furnace, Grindstone, Polished Deepslate Stairs, Polished Deepslate Wall.
 
 ### Blocks
 
@@ -1428,7 +1599,6 @@ None found.
 | Dark Oak Fence Gate | 1 |
 | Furnace | 1 |
 | Grindstone | 1 |
-| Jigsaw | 1 |
 | Polished Deepslate Stairs | 1 |
 | Polished Deepslate Wall | 1 |
 
@@ -1445,8 +1615,12 @@ None found.
 | kattersstructures:chests/mesa/weaponsmith |
 
 
+</details>
 
-## Village Mesa/Streets/End
+<details>
+<summary><strong>Village Mesa/Streets/End</strong></summary>
+
+The structure is composed of the following blocks: Sand, Stripped Jungle Log, Jungle Button, Jungle Wall Sign, Jungle Fence, Jungle Planks, Jungle Stairs, Jungle Fence Gate, Oak Planks, Oak Stairs, Brown Wall Banner, Lantern.
 
 ### Blocks
 
@@ -1462,7 +1636,6 @@ None found.
 | Jungle Fence Gate | 9 |
 | Oak Planks | 9 |
 | Oak Stairs | 8 |
-| Jigsaw | 5 |
 | Brown Wall Banner | 4 |
 | Lantern | 2 |
 
@@ -1477,15 +1650,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/Streets/End Under
+<details>
+<summary><strong>Village Mesa/Streets/End Under</strong></summary>
+
+The structure is composed of the following blocks: Sand.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Sand | 699 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -1498,15 +1674,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/Streets/Street Normal
+<details>
+<summary><strong>Village Mesa/Streets/Street Normal</strong></summary>
+
+The structure is composed of the following blocks: Sand, Dead Bush, Mangrove Roots.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Sand | 133 |
-| Jigsaw | 11 |
 | Dead Bush | 5 |
 | Mangrove Roots | 1 |
 
@@ -1521,15 +1700,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/Streets/Street Special
+<details>
+<summary><strong>Village Mesa/Streets/Street Special</strong></summary>
+
+The structure is composed of the following blocks: Sand, Dead Bush, Mangrove Roots.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Sand | 133 |
-| Jigsaw | 11 |
 | Dead Bush | 7 |
 | Mangrove Roots | 2 |
 
@@ -1544,15 +1726,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/Streets/Street Start
+<details>
+<summary><strong>Village Mesa/Streets/Street Start</strong></summary>
+
+The structure is composed of the following blocks: Sand, Mud Bricks, Packed Mud, Dead Bush, Mud Brick Wall, Bell, Mangrove Roots, Mud Brick Stairs.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Sand | 115 |
-| Jigsaw | 11 |
 | Mud Bricks | 10 |
 | Packed Mud | 9 |
 | Dead Bush | 5 |
@@ -1572,15 +1757,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Mesa/Streets/Street Under
+<details>
+<summary><strong>Village Mesa/Streets/Street Under</strong></summary>
+
+The structure is composed of the following blocks: Sand.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Sand | 1007 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -1593,196 +1781,4 @@ None found.
 None found.
 
 
-
-## Summary
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Sand | 3115 |
-| Oak Planks | 537 |
-| Jungle Planks | 465 |
-| Bricks | 221 |
-| Stripped Jungle Log | 179 |
-| Jigsaw | 128 |
-| Warped Planks | 128 |
-| Mangrove Planks | 124 |
-| Birch Planks | 121 |
-| Oak Slab | 113 |
-| Jungle Stairs | 95 |
-| Stripped Oak Log | 88 |
-| Oak Stairs | 80 |
-| Jungle Wall Sign | 78 |
-| Oak Button | 74 |
-| Oak Wall Sign | 65 |
-| Oak Trapdoor | 63 |
-| Hay Block | 56 |
-| Jungle Slab | 56 |
-| Jungle Fence | 55 |
-| Jungle Trapdoor | 55 |
-| Jungle Button | 52 |
-| Terracotta | 49 |
-| Brick Slab | 48 |
-| Granite | 48 |
-| Spruce Trapdoor | 42 |
-| Ladder | 40 |
-| White Wool | 33 |
-| Rail | 32 |
-| Smooth Sandstone | 30 |
-| Warped Wall Sign | 30 |
-| Stripped Warped Stem | 29 |
-| Cyan Concrete Powder | 28 |
-| Dried Kelp Block | 27 |
-| Oak Fence | 26 |
-| Brick Wall | 25 |
-| Lantern | 25 |
-| Netherrack | 25 |
-| Stripped Spruce Log | 25 |
-| Moss Block | 24 |
-| Stripped Birch Log | 23 |
-| Birch Slab | 22 |
-| Jungle Fence Gate | 22 |
-| Stripped Mangrove Log | 22 |
-| Mangrove Wall Sign | 21 |
-| Birch Wall Sign | 20 |
-| Dark Oak Slab | 20 |
-| Mangrove Button | 20 |
-| Brick Stairs | 19 |
-| Birch Button | 18 |
-| Warped Trapdoor | 18 |
-| Bookshelf | 17 |
-| Calcite | 17 |
-| Dead Bush | 17 |
-| Warped Button | 17 |
-| Coarse Dirt | 16 |
-| Green Wool | 16 |
-| Light Gray Wool | 16 |
-| Mangrove Trapdoor | 16 |
-| Spruce Fence | 16 |
-| Gray Stained Glass Pane | 15 |
-| Oak Fence Gate | 15 |
-| Brown Wall Banner | 14 |
-| Chest | 14 |
-| Diorite | 14 |
-| Mangrove Slab | 14 |
-| Mud Brick Wall | 14 |
-| Warped Slab | 14 |
-| Dark Oak Trapdoor | 13 |
-| Granite Slab | 11 |
-| Mangrove Fence | 11 |
-| Chiseled Bookshelf | 10 |
-| Glow Lichen | 10 |
-| Iron Bars | 10 |
-| Mud Bricks | 10 |
-| Stripped Dark Oak Log | 10 |
-| Birch Trapdoor | 9 |
-| Packed Mud | 9 |
-| Polished Deepslate Wall | 9 |
-| Decorated Pot | 8 |
-| Muddy Mangrove Roots | 8 |
-| Spruce Fence Gate | 8 |
-| Spruce Stairs | 8 |
-| Warped Fence | 8 |
-| Birch Stairs | 7 |
-| Spruce Planks | 7 |
-| Cyan Wall Banner | 6 |
-| Gray Bed | 6 |
-| Jungle Pressure Plate | 6 |
-| Light Gray Bed | 6 |
-| Red Sandstone Wall | 6 |
-| Soul Soil | 6 |
-| Tripwire Hook | 6 |
-| Dark Oak Fence Gate | 5 |
-| Mangrove Stairs | 5 |
-| Warped Fence Gate | 5 |
-| Black Bed | 4 |
-| Black Carpet | 4 |
-| Brown Bed | 4 |
-| Dark Oak Planks | 4 |
-| Granite Stairs | 4 |
-| Mangrove Roots | 4 |
-| Sea Pickle | 4 |
-| Warped Stairs | 4 |
-| White Wall Banner | 4 |
-| Brown Candle | 3 |
-| Dark Oak Fence | 3 |
-| Flower Pot | 3 |
-| Granite Wall | 3 |
-| Gray Carpet | 3 |
-| Mangrove Fence Gate | 3 |
-| Pointed Dripstone | 3 |
-| Acacia Fence Gate | 2 |
-| Anvil | 2 |
-| Birch Fence Gate | 2 |
-| Composter | 2 |
-| Furnace | 2 |
-| Green Wall Banner | 2 |
-| Iron Door | 2 |
-| Jungle Door | 2 |
-| Jungle Hanging Sign | 2 |
-| Light Gray Carpet | 2 |
-| Polished Deepslate Stairs | 2 |
-| Spruce Slab | 2 |
-| Barrel | 1 |
-| Bell | 1 |
-| Birch Fence | 1 |
-| Black Candle | 1 |
-| Blast Furnace | 1 |
-| Brewing Stand | 1 |
-| Campfire | 1 |
-| Cartography Table | 1 |
-| Cobweb | 1 |
-| Crafting Table | 1 |
-| Dark Oak Stairs | 1 |
-| Dark Oak Wall Hanging Sign | 1 |
-| Fletching Table | 1 |
-| Gray Candle | 1 |
-| Grindstone | 1 |
-| Iron Trapdoor | 1 |
-| Lectern | 1 |
-| Lever | 1 |
-| Light Blue Stained Glass Pane | 1 |
-| Lightning Rod | 1 |
-| Lime Wall Banner | 1 |
-| Mangrove Pressure Plate | 1 |
-| Mangrove Wall Hanging Sign | 1 |
-| Mud Brick Stairs | 1 |
-| Oak Hanging Sign | 1 |
-| Polished Deepslate Slab | 1 |
-| Potted Acacia Sapling | 1 |
-| Potted Cactus | 1 |
-| Potted Jungle Sapling | 1 |
-| Red Candle | 1 |
-| Scaffolding | 1 |
-| Smithing Table | 1 |
-| Smooth Stone | 1 |
-| Target | 1 |
-| Water Cauldron | 1 |
-| Yellow Candle | 1 |
-
-
-### Entities
-
-| Entity | Count |
-|:-----|:-----:|
-| Item Frame | 4 |
-| Villager | 1 |
-
-
-### Loot Tables
-
-| Loot Table |
-|:-----|
-| kattersstructures:chests/mesa/armorer |
-| kattersstructures:chests/mesa/cartographer |
-| kattersstructures:chests/mesa/farmer |
-| kattersstructures:chests/mesa/fisherman |
-| kattersstructures:chests/mesa/fletcher |
-| kattersstructures:chests/mesa/house |
-| kattersstructures:chests/mesa/prison |
-| kattersstructures:chests/mesa/saloon |
-| kattersstructures:chests/mesa/toolsmith |
-| kattersstructures:chests/mesa/weaponsmith |
-
-
+</details>

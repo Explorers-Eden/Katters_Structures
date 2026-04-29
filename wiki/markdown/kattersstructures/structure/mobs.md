@@ -1,152 +1,111 @@
 # Mobs
 
-## Mobs/Mobs Pillager 01
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
-
-
-### Entities
-
-| Entity | Count |
-|:-----|:-----:|
-| Pillager | 1 |
-
-
-### Loot Tables
-
-None found.
-
-
-
-## Mobs/Mobs Pillager 02
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
-
-
-### Entities
-
-| Entity | Count |
-|:-----|:-----:|
-| Vindicator | 1 |
-
-
-### Loot Tables
-
-None found.
-
-
-
-## Mobs/Mobs Pillager 03
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
-
-
-### Entities
-
-| Entity | Count |
-|:-----|:-----:|
-| Vindicator | 1 |
-
-
-### Loot Tables
-
-None found.
-
-
-
-## Mobs/Mobs Pillager 04
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
-
-
-### Entities
-
-| Entity | Count |
-|:-----|:-----:|
-| Evoker | 1 |
-
-
-### Loot Tables
-
-None found.
-
-
-
-## Mobs/Mobs Pillager 05
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
-
-
-### Entities
-
-| Entity | Count |
-|:-----|:-----:|
-| Vindicator | 1 |
-
-
-### Loot Tables
-
-None found.
-
-
-
-## Mobs/Mobs Pillager 06
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
-
-
-### Entities
-
-| Entity | Count |
-|:-----|:-----:|
-| Pillager | 1 |
-
-
-### Loot Tables
-
-None found.
-
-
-
 ## Summary
 
+The structure does not contain any notable blocks.
+
+Additionally, the following entities may spawn during its generation: Vindicator, Pillager, Evoker.
+
+### Loot Tables
+
+None found.
+
+
+
+<details>
+<summary><strong>Mobs/Mobs Pillager 01</strong></summary>
+
+The structure does not contain any notable blocks.
+
+Additionally, the following entities may spawn during its generation: Pillager.
+
 ### Blocks
 
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 6 |
+None found.
 
 
 ### Entities
 
 | Entity | Count |
 |:-----|:-----:|
-| Vindicator | 3 |
-| Pillager | 2 |
+| Pillager | 1 |
+
+
+### Loot Tables
+
+None found.
+
+
+</details>
+
+<details>
+<summary><strong>Mobs/Mobs Pillager 02</strong></summary>
+
+The structure does not contain any notable blocks.
+
+Additionally, the following entities may spawn during its generation: Vindicator.
+
+### Blocks
+
+None found.
+
+
+### Entities
+
+| Entity | Count |
+|:-----|:-----:|
+| Vindicator | 1 |
+
+
+### Loot Tables
+
+None found.
+
+
+</details>
+
+<details>
+<summary><strong>Mobs/Mobs Pillager 03</strong></summary>
+
+The structure does not contain any notable blocks.
+
+Additionally, the following entities may spawn during its generation: Vindicator.
+
+### Blocks
+
+None found.
+
+
+### Entities
+
+| Entity | Count |
+|:-----|:-----:|
+| Vindicator | 1 |
+
+
+### Loot Tables
+
+None found.
+
+
+</details>
+
+<details>
+<summary><strong>Mobs/Mobs Pillager 04</strong></summary>
+
+The structure does not contain any notable blocks.
+
+Additionally, the following entities may spawn during its generation: Evoker.
+
+### Blocks
+
+None found.
+
+
+### Entities
+
+| Entity | Count |
+|:-----|:-----:|
 | Evoker | 1 |
 
 
@@ -155,3 +114,56 @@ None found.
 None found.
 
 
+</details>
+
+<details>
+<summary><strong>Mobs/Mobs Pillager 05</strong></summary>
+
+The structure does not contain any notable blocks.
+
+Additionally, the following entities may spawn during its generation: Vindicator.
+
+### Blocks
+
+None found.
+
+
+### Entities
+
+| Entity | Count |
+|:-----|:-----:|
+| Vindicator | 1 |
+
+
+### Loot Tables
+
+None found.
+
+
+</details>
+
+<details>
+<summary><strong>Mobs/Mobs Pillager 06</strong></summary>
+
+The structure does not contain any notable blocks.
+
+Additionally, the following entities may spawn during its generation: Pillager.
+
+### Blocks
+
+None found.
+
+
+### Entities
+
+| Entity | Count |
+|:-----|:-----:|
+| Pillager | 1 |
+
+
+### Loot Tables
+
+None found.
+
+
+</details>

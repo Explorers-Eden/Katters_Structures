@@ -1,6 +1,21 @@
 # Villager Mountain
 
-## Villager Mountain/Villager Mountain
+## Summary
+
+The structure is composed of the following blocks: Stone, Granite, Glow Lichen, Andesite Stairs, Andesite, Andesite Slab, Granite Slab, Ochre Froglight, Chest, Diorite Stairs, Emerald Block.
+
+### Loot Tables
+
+| Loot Table |
+|:-----|
+| kattersstructures:chests/villager/mountain |
+
+
+
+<details>
+<summary><strong>Villager Mountain/Villager Mountain</strong></summary>
+
+The structure is composed of the following blocks: Stone, Granite, Glow Lichen, Andesite Stairs, Andesite, Andesite Slab, Granite Slab, Ochre Froglight, Diorite Stairs.
 
 ### Blocks
 
@@ -15,7 +30,6 @@
 | Granite Slab | 3 |
 | Ochre Froglight | 2 |
 | Diorite Stairs | 1 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -28,8 +42,12 @@ None found.
 None found.
 
 
+</details>
 
-## Villager Mountain/Villager Mountain Brain 1
+<details>
+<summary><strong>Villager Mountain/Villager Mountain Brain 1</strong></summary>
+
+The structure is composed of the following blocks: Chest, Granite.
 
 ### Blocks
 
@@ -37,7 +55,6 @@ None found.
 |:-----|:-----:|
 | Chest | 1 |
 | Granite | 1 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -52,8 +69,12 @@ None found.
 | kattersstructures:chests/villager/mountain |
 
 
+</details>
 
-## Villager Mountain/Villager Mountain Brain 2
+<details>
+<summary><strong>Villager Mountain/Villager Mountain Brain 2</strong></summary>
+
+The structure is composed of the following blocks: Emerald Block, Granite.
 
 ### Blocks
 
@@ -61,7 +82,6 @@ None found.
 |:-----|:-----:|
 | Emerald Block | 1 |
 | Granite | 1 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -74,15 +94,18 @@ None found.
 None found.
 
 
+</details>
 
-## Villager Mountain/Villager Mountain Brain 3
+<details>
+<summary><strong>Villager Mountain/Villager Mountain Brain 3</strong></summary>
+
+The structure is composed of the following blocks: Granite.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Granite | 2 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -95,36 +118,4 @@ None found.
 None found.
 
 
-
-## Summary
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Stone | 81 |
-| Granite | 48 |
-| Glow Lichen | 20 |
-| Andesite Stairs | 13 |
-| Andesite | 9 |
-| Andesite Slab | 5 |
-| Jigsaw | 4 |
-| Granite Slab | 3 |
-| Ochre Froglight | 2 |
-| Chest | 1 |
-| Diorite Stairs | 1 |
-| Emerald Block | 1 |
-
-
-### Entities
-
-None found.
-
-
-### Loot Tables
-
-| Loot Table |
-|:-----|
-| kattersstructures:chests/villager/mountain |
-
-
+</details>

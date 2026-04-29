@@ -1,6 +1,21 @@
 # Villager Desert
 
-## Villager Desert/Villager Desert
+## Summary
+
+The structure is composed of the following blocks: Red Sandstone, Glow Lichen, Sandstone Stairs, Sandstone, Sandstone Slab, Red Sandstone Slab, Shroomlight, Chest, Emerald Block.
+
+### Loot Tables
+
+| Loot Table |
+|:-----|
+| kattersstructures:chests/villager/desert |
+
+
+
+<details>
+<summary><strong>Villager Desert/Villager Desert</strong></summary>
+
+The structure is composed of the following blocks: Red Sandstone, Glow Lichen, Sandstone Stairs, Sandstone, Sandstone Slab, Red Sandstone Slab, Shroomlight.
 
 ### Blocks
 
@@ -13,7 +28,6 @@
 | Sandstone Slab | 5 |
 | Red Sandstone Slab | 3 |
 | Shroomlight | 2 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -26,15 +40,18 @@ None found.
 None found.
 
 
+</details>
 
-## Villager Desert/Villager Desert Brain 1
+<details>
+<summary><strong>Villager Desert/Villager Desert Brain 1</strong></summary>
+
+The structure is composed of the following blocks: Chest, Red Sandstone.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Chest | 1 |
-| Jigsaw | 1 |
 | Red Sandstone | 1 |
 
 
@@ -50,15 +67,18 @@ None found.
 | kattersstructures:chests/villager/desert |
 
 
+</details>
 
-## Villager Desert/Villager Desert Brain 2
+<details>
+<summary><strong>Villager Desert/Villager Desert Brain 2</strong></summary>
+
+The structure is composed of the following blocks: Emerald Block, Red Sandstone.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Emerald Block | 1 |
-| Jigsaw | 1 |
 | Red Sandstone | 1 |
 
 
@@ -72,15 +92,18 @@ None found.
 None found.
 
 
+</details>
 
-## Villager Desert/Villager Desert Brain 3
+<details>
+<summary><strong>Villager Desert/Villager Desert Brain 3</strong></summary>
+
+The structure is composed of the following blocks: Red Sandstone.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Red Sandstone | 2 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -93,34 +116,4 @@ None found.
 None found.
 
 
-
-## Summary
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Red Sandstone | 48 |
-| Glow Lichen | 20 |
-| Sandstone Stairs | 14 |
-| Sandstone | 9 |
-| Sandstone Slab | 5 |
-| Jigsaw | 4 |
-| Red Sandstone Slab | 3 |
-| Shroomlight | 2 |
-| Chest | 1 |
-| Emerald Block | 1 |
-
-
-### Entities
-
-None found.
-
-
-### Loot Tables
-
-| Loot Table |
-|:-----|
-| kattersstructures:chests/villager/desert |
-
-
+</details>

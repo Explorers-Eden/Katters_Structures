@@ -1,6 +1,30 @@
 # Village Underground
 
-## Village Underground/House/Edge/House Edge 1
+## Summary
+
+The structure is composed of the following blocks: Stone, Oak Slab, Stone Slab, Oak Fence, Andesite, Stone Button, Granite, Oak Log, Emerald Ore, Oak Planks, Glow Lichen, Stripped Oak Log, Oak Wall Sign, Diorite, Oak Fence Gate, Stone Stairs, Lantern, Andesite Slab, Coal Ore, Oak Stairs, Granite Slab, Stone Bricks, Oak Button, Light Gray Bed, Oak Door, Deepslate, Amethyst Block, Chest, Diorite Slab, Diamond Ore, Gravel, Tuff, Smooth Basalt, Cracked Stone Bricks, Polished Andesite Slab, Andesite Wall, Andesite Stairs, Granite Stairs, Crimson Fence, Light Gray Stained Glass Pane, Warped Fence, Coarse Dirt, Cobbled Deepslate, Cobbled Deepslate Slab, Furnace, Stone Brick Stairs, Calcite, Coal Block, Deepslate Tiles, Barrel, Chain, Hay Block, Budding Amethyst, Diorite Stairs, Iron Bars, Rooted Dirt, Spruce Trapdoor, Brown Wall Banner, Campfire, Emerald Block, Gold Ore, Gray Candle, Oak Trapdoor, Amethyst Cluster, Cobbled Deepslate Wall, Iron Trapdoor, Large Amethyst Bud, Magenta Candle, Note Block, Potted Oak Sapling, Purple Candle, Small Amethyst Bud, Anvil, Bamboo Block, Bell, Birch Stairs, Blast Furnace, Brewing Stand, Chipped Anvil, Damaged Anvil, Fletching Table, Grindstone, Jukebox, Potted Azure Bluet, Potted Dead Bush, Potted Fern, Potted Red Mushroom, Smithing Table, Spawner, Stonecutter, Target, Water Cauldron.
+
+### Loot Tables
+
+| Loot Table |
+|:-----|
+| kattersstructures:chests/underground/armorer |
+| kattersstructures:chests/underground/cleric |
+| kattersstructures:chests/underground/fletcher |
+| kattersstructures:chests/underground/house |
+| kattersstructures:chests/underground/leatherworker |
+| kattersstructures:chests/underground/mason |
+| kattersstructures:chests/underground/random |
+| kattersstructures:chests/underground/toolsmith |
+| kattersstructures:chests/underground/treasures |
+| kattersstructures:chests/underground/weaponsmith |
+
+
+
+<details>
+<summary><strong>Village Underground/House/Edge/House Edge 1</strong></summary>
+
+The structure is composed of the following blocks: Stone, Andesite, Stone Slab, Andesite Slab, Andesite Stairs, Oak Stairs, Lantern, Light Gray Bed, Oak Door, Oak Fence, Chest, Potted Fern, Stone Stairs.
 
 ### Blocks
 
@@ -17,7 +41,6 @@
 | Oak Door | 2 |
 | Oak Fence | 2 |
 | Chest | 1 |
-| Jigsaw | 1 |
 | Potted Fern | 1 |
 | Stone Stairs | 1 |
 
@@ -34,8 +57,12 @@ None found.
 | kattersstructures:chests/underground/house |
 
 
+</details>
 
-## Village Underground/House/Edge/House Edge 2
+<details>
+<summary><strong>Village Underground/House/Edge/House Edge 2</strong></summary>
+
+The structure is composed of the following blocks: Stone, Stone Slab, Diorite, Oak Door, Oak Fence, Diorite Slab, Light Gray Bed, Stone Stairs, Chest, Lantern.
 
 ### Blocks
 
@@ -50,7 +77,6 @@ None found.
 | Light Gray Bed | 2 |
 | Stone Stairs | 2 |
 | Chest | 1 |
-| Jigsaw | 1 |
 | Lantern | 1 |
 
 
@@ -66,8 +92,12 @@ None found.
 | kattersstructures:chests/underground/house |
 
 
+</details>
 
-## Village Underground/House/Edge/House Edge 3
+<details>
+<summary><strong>Village Underground/House/Edge/House Edge 3</strong></summary>
+
+The structure is composed of the following blocks: Stone, Stone Slab, Light Gray Bed, Oak Stairs, Oak Door, Lantern, Light Gray Stained Glass Pane, Potted Red Mushroom.
 
 ### Blocks
 
@@ -78,7 +108,6 @@ None found.
 | Light Gray Bed | 4 |
 | Oak Stairs | 4 |
 | Oak Door | 2 |
-| Jigsaw | 1 |
 | Lantern | 1 |
 | Light Gray Stained Glass Pane | 1 |
 | Potted Red Mushroom | 1 |
@@ -94,8 +123,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Underground/House/Edge/House Edge 4
+<details>
+<summary><strong>Village Underground/House/Edge/House Edge 4</strong></summary>
+
+The structure is composed of the following blocks: Stone, Oak Planks, Oak Fence, Oak Stairs, Stone Slab, Light Gray Bed, Oak Door, Chest, Lantern.
 
 ### Blocks
 
@@ -109,7 +142,6 @@ None found.
 | Light Gray Bed | 2 |
 | Oak Door | 2 |
 | Chest | 1 |
-| Jigsaw | 1 |
 | Lantern | 1 |
 
 
@@ -125,8 +157,12 @@ None found.
 | kattersstructures:chests/underground/house |
 
 
+</details>
 
-## Village Underground/House/Edge/House Edge 5
+<details>
+<summary><strong>Village Underground/House/Edge/House Edge 5</strong></summary>
+
+The structure is composed of the following blocks: Stone, Andesite, Stone Slab, Oak Planks, Andesite Slab, Light Gray Bed, Oak Door, Oak Fence, Chest, Lantern, Light Gray Stained Glass Pane.
 
 ### Blocks
 
@@ -141,7 +177,6 @@ None found.
 | Oak Door | 2 |
 | Oak Fence | 2 |
 | Chest | 1 |
-| Jigsaw | 1 |
 | Lantern | 1 |
 | Light Gray Stained Glass Pane | 1 |
 
@@ -158,8 +193,12 @@ None found.
 | kattersstructures:chests/underground/house |
 
 
+</details>
 
-## Village Underground/House/Edge/House Edge 6
+<details>
+<summary><strong>Village Underground/House/Edge/House Edge 6</strong></summary>
+
+The structure is composed of the following blocks: Stone, Granite, Stone Slab, Granite Slab, Light Gray Bed, Oak Door, Lantern, Oak Stairs, Potted Oak Sapling.
 
 ### Blocks
 
@@ -171,7 +210,6 @@ None found.
 | Granite Slab | 3 |
 | Light Gray Bed | 2 |
 | Oak Door | 2 |
-| Jigsaw | 1 |
 | Lantern | 1 |
 | Oak Stairs | 1 |
 | Potted Oak Sapling | 1 |
@@ -187,8 +225,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Underground/House/Edge/House Edge Armorer
+<details>
+<summary><strong>Village Underground/House/Edge/House Edge Armorer</strong></summary>
+
+The structure is composed of the following blocks: Stone, Deepslate, Stone Slab, Andesite, Coal Block, Andesite Slab, Spruce Trapdoor, Stone Button, Cobbled Deepslate Wall, Blast Furnace, Chest, Chipped Anvil, Cobbled Deepslate Slab, Iron Trapdoor, Lantern.
 
 ### Blocks
 
@@ -208,7 +250,6 @@ None found.
 | Chipped Anvil | 1 |
 | Cobbled Deepslate Slab | 1 |
 | Iron Trapdoor | 1 |
-| Jigsaw | 1 |
 | Lantern | 1 |
 
 
@@ -224,8 +265,12 @@ None found.
 | kattersstructures:chests/underground/armorer |
 
 
+</details>
 
-## Village Underground/House/Edge/House Edge Cleric
+<details>
+<summary><strong>Village Underground/House/Edge/House Edge Cleric</strong></summary>
+
+The structure is composed of the following blocks: Stone, Amethyst Block, Smooth Basalt, Crimson Fence, Warped Fence, Calcite, Budding Amethyst, Stone Button, Amethyst Cluster, Gray Candle, Large Amethyst Bud, Magenta Candle, Purple Candle, Small Amethyst Bud, Brewing Stand, Chain, Chest.
 
 ### Blocks
 
@@ -248,7 +293,6 @@ None found.
 | Brewing Stand | 1 |
 | Chain | 1 |
 | Chest | 1 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -263,8 +307,12 @@ None found.
 | kattersstructures:chests/underground/cleric |
 
 
+</details>
 
-## Village Underground/House/Edge/House Edge Empty
+<details>
+<summary><strong>Village Underground/House/Edge/House Edge Empty</strong></summary>
+
+The structure is composed of the following blocks: Stone, Stone Slab, Stone Button.
 
 ### Blocks
 
@@ -273,7 +321,6 @@ None found.
 | Stone | 144 |
 | Stone Slab | 11 |
 | Stone Button | 2 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -286,8 +333,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Underground/House/Edge/House Edge Mason
+<details>
+<summary><strong>Village Underground/House/Edge/House Edge Mason</strong></summary>
+
+The structure is composed of the following blocks: Stone, Stone Bricks, Cracked Stone Bricks, Gravel, Stone Brick Stairs, Stone Button, Lantern, Oak Door, Chest, Light Gray Stained Glass Pane, Stone Slab, Stonecutter.
 
 ### Blocks
 
@@ -302,7 +353,6 @@ None found.
 | Lantern | 2 |
 | Oak Door | 2 |
 | Chest | 1 |
-| Jigsaw | 1 |
 | Light Gray Stained Glass Pane | 1 |
 | Stone Slab | 1 |
 | Stonecutter | 1 |
@@ -320,8 +370,12 @@ None found.
 | kattersstructures:chests/underground/mason |
 
 
+</details>
 
-## Village Underground/House/Edge/House Edge Storage
+<details>
+<summary><strong>Village Underground/House/Edge/House Edge Storage</strong></summary>
+
+The structure is composed of the following blocks: Stone, Granite, Oak Planks, Oak Slab, Stone Slab, Chest, Granite Slab, Hay Block, Oak Fence, Barrel, Note Block, Furnace, Iron Trapdoor, Jukebox, Lantern.
 
 ### Blocks
 
@@ -340,7 +394,6 @@ None found.
 | Note Block | 2 |
 | Furnace | 1 |
 | Iron Trapdoor | 1 |
-| Jigsaw | 1 |
 | Jukebox | 1 |
 | Lantern | 1 |
 
@@ -357,8 +410,12 @@ None found.
 | kattersstructures:chests/underground/random |
 
 
+</details>
 
-## Village Underground/House/Edge/House Edge Storage 2
+<details>
+<summary><strong>Village Underground/House/Edge/House Edge Storage 2</strong></summary>
+
+The structure is composed of the following blocks: Stone, Emerald Ore, Stone Slab, Coal Ore, Furnace, Oak Fence, Stone Stairs, Campfire, Lantern.
 
 ### Blocks
 
@@ -372,7 +429,6 @@ None found.
 | Oak Fence | 6 |
 | Stone Stairs | 2 |
 | Campfire | 1 |
-| Jigsaw | 1 |
 | Lantern | 1 |
 
 
@@ -386,8 +442,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Underground/House/Edge/House Edge Toolsmith
+<details>
+<summary><strong>Village Underground/House/Edge/House Edge Toolsmith</strong></summary>
+
+The structure is composed of the following blocks: Stone, Deepslate, Stone Slab, Deepslate Tiles, Stone Button, Tuff, Iron Bars, Anvil, Chest, Smithing Table.
 
 ### Blocks
 
@@ -402,7 +462,6 @@ None found.
 | Iron Bars | 4 |
 | Anvil | 1 |
 | Chest | 1 |
-| Jigsaw | 1 |
 | Smithing Table | 1 |
 
 
@@ -418,8 +477,12 @@ None found.
 | kattersstructures:chests/underground/toolsmith |
 
 
+</details>
 
-## Village Underground/House/Edge/House Edge Weaponsmith
+<details>
+<summary><strong>Village Underground/House/Edge/House Edge Weaponsmith</strong></summary>
+
+The structure is composed of the following blocks: Stone, Andesite, Tuff, Cobbled Deepslate, Deepslate, Cobbled Deepslate Slab, Stone Button, Stone Slab, Andesite Slab, Andesite Wall, Chest, Damaged Anvil, Grindstone.
 
 ### Blocks
 
@@ -438,7 +501,6 @@ None found.
 | Chest | 1 |
 | Damaged Anvil | 1 |
 | Grindstone | 1 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -453,8 +515,12 @@ None found.
 | kattersstructures:chests/underground/weaponsmith |
 
 
+</details>
 
-## Village Underground/House/Side/House Side 1
+<details>
+<summary><strong>Village Underground/House/Side/House Side 1</strong></summary>
+
+The structure is composed of the following blocks: Stone, Andesite, Stone Slab, Stone Stairs, Andesite Slab, Andesite Stairs, Light Gray Bed, Oak Door, Chest, Lantern, Light Gray Stained Glass Pane, Oak Stairs, Potted Oak Sapling.
 
 ### Blocks
 
@@ -469,7 +535,6 @@ None found.
 | Light Gray Bed | 2 |
 | Oak Door | 2 |
 | Chest | 1 |
-| Jigsaw | 1 |
 | Lantern | 1 |
 | Light Gray Stained Glass Pane | 1 |
 | Oak Stairs | 1 |
@@ -488,8 +553,12 @@ None found.
 | kattersstructures:chests/underground/house |
 
 
+</details>
 
-## Village Underground/House/Side/House Side 2
+<details>
+<summary><strong>Village Underground/House/Side/House Side 2</strong></summary>
+
+The structure is composed of the following blocks: Stone, Stone Slab, Granite, Oak Fence, Stone Stairs, Light Gray Bed, Light Gray Stained Glass Pane, Oak Door, Chest, Granite Stairs, Lantern.
 
 ### Blocks
 
@@ -505,7 +574,6 @@ None found.
 | Oak Door | 2 |
 | Chest | 1 |
 | Granite Stairs | 1 |
-| Jigsaw | 1 |
 | Lantern | 1 |
 
 
@@ -521,8 +589,12 @@ None found.
 | kattersstructures:chests/underground/house |
 
 
+</details>
 
-## Village Underground/House/Side/House Side 3
+<details>
+<summary><strong>Village Underground/House/Side/House Side 3</strong></summary>
+
+The structure is composed of the following blocks: Stone, Diorite, Stone Slab, Diorite Slab, Diorite Stairs, Light Gray Bed, Oak Door, Chain, Chest, Lantern, Stone Stairs.
 
 ### Blocks
 
@@ -537,7 +609,6 @@ None found.
 | Oak Door | 2 |
 | Chain | 1 |
 | Chest | 1 |
-| Jigsaw | 1 |
 | Lantern | 1 |
 | Stone Stairs | 1 |
 
@@ -554,8 +625,12 @@ None found.
 | kattersstructures:chests/underground/house |
 
 
+</details>
 
-## Village Underground/House/Side/House Side 4
+<details>
+<summary><strong>Village Underground/House/Side/House Side 4</strong></summary>
+
+The structure is composed of the following blocks: Stone, Stone Slab, Stone Stairs, Light Gray Bed, Oak Door, Gray Candle, Oak Stairs.
 
 ### Blocks
 
@@ -567,7 +642,6 @@ None found.
 | Light Gray Bed | 2 |
 | Oak Door | 2 |
 | Gray Candle | 1 |
-| Jigsaw | 1 |
 | Oak Stairs | 1 |
 
 
@@ -581,8 +655,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Underground/House/Side/House Side 5
+<details>
+<summary><strong>Village Underground/House/Side/House Side 5</strong></summary>
+
+The structure is composed of the following blocks: Stone, Oak Planks, Oak Fence, Polished Andesite Slab, Oak Stairs, Light Gray Bed, Oak Door, Stone Slab, Chest, Lantern.
 
 ### Blocks
 
@@ -597,7 +675,6 @@ None found.
 | Oak Door | 2 |
 | Stone Slab | 2 |
 | Chest | 1 |
-| Jigsaw | 1 |
 | Lantern | 1 |
 
 
@@ -613,8 +690,12 @@ None found.
 | kattersstructures:chests/underground/house |
 
 
+</details>
 
-## Village Underground/House/Side/House Side 6
+<details>
+<summary><strong>Village Underground/House/Side/House Side 6</strong></summary>
+
+The structure is composed of the following blocks: Stone, Stone Slab, Glow Lichen, Light Gray Bed, Stone Stairs, Oak Door, Chest, Lantern, Light Gray Stained Glass Pane, Oak Stairs.
 
 ### Blocks
 
@@ -627,7 +708,6 @@ None found.
 | Stone Stairs | 3 |
 | Oak Door | 2 |
 | Chest | 1 |
-| Jigsaw | 1 |
 | Lantern | 1 |
 | Light Gray Stained Glass Pane | 1 |
 | Oak Stairs | 1 |
@@ -645,8 +725,12 @@ None found.
 | kattersstructures:chests/underground/house |
 
 
+</details>
 
-## Village Underground/House/Side/House Side 7
+<details>
+<summary><strong>Village Underground/House/Side/House Side 7</strong></summary>
+
+The structure is composed of the following blocks: Stone, Oak Planks, Oak Fence, Stone Slab, Oak Slab, Oak Stairs, Light Gray Bed, Oak Door, Chest, Lantern, Stone Stairs.
 
 ### Blocks
 
@@ -661,7 +745,6 @@ None found.
 | Light Gray Bed | 2 |
 | Oak Door | 2 |
 | Chest | 1 |
-| Jigsaw | 1 |
 | Lantern | 1 |
 | Stone Stairs | 1 |
 
@@ -678,8 +761,12 @@ None found.
 | kattersstructures:chests/underground/house |
 
 
+</details>
 
-## Village Underground/House/Side/House Side 8
+<details>
+<summary><strong>Village Underground/House/Side/House Side 8</strong></summary>
+
+The structure is composed of the following blocks: Stone, Andesite, Stone Slab, Andesite Slab, Light Gray Bed, Oak Door, Chest, Lantern, Light Gray Stained Glass Pane, Oak Stairs, Potted Azure Bluet, Stone Stairs.
 
 ### Blocks
 
@@ -692,7 +779,6 @@ None found.
 | Light Gray Bed | 2 |
 | Oak Door | 2 |
 | Chest | 1 |
-| Jigsaw | 1 |
 | Lantern | 1 |
 | Light Gray Stained Glass Pane | 1 |
 | Oak Stairs | 1 |
@@ -712,8 +798,12 @@ None found.
 | kattersstructures:chests/underground/house |
 
 
+</details>
 
-## Village Underground/House/Side/House Side Empty
+<details>
+<summary><strong>Village Underground/House/Side/House Side Empty</strong></summary>
+
+The structure is composed of the following blocks: Stone, Stone Slab, Stone Button.
 
 ### Blocks
 
@@ -722,7 +812,6 @@ None found.
 | Stone | 72 |
 | Stone Slab | 8 |
 | Stone Button | 3 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -735,8 +824,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Underground/House/Side/House Side Fletcher
+<details>
+<summary><strong>Village Underground/House/Side/House Side Fletcher</strong></summary>
+
+The structure is composed of the following blocks: Stone, Stone Slab, Oak Planks, Oak Slab, Stone Button, Oak Trapdoor, Birch Stairs, Chest, Fletching Table, Lantern, Oak Fence, Potted Dead Bush, Target.
 
 ### Blocks
 
@@ -751,7 +844,6 @@ None found.
 | Birch Stairs | 1 |
 | Chest | 1 |
 | Fletching Table | 1 |
-| Jigsaw | 1 |
 | Lantern | 1 |
 | Oak Fence | 1 |
 | Potted Dead Bush | 1 |
@@ -770,8 +862,12 @@ None found.
 | kattersstructures:chests/underground/fletcher |
 
 
+</details>
 
-## Village Underground/House/Side/House Side Leatherworker
+<details>
+<summary><strong>Village Underground/House/Side/House Side Leatherworker</strong></summary>
+
+The structure is composed of the following blocks: Stone, Stone Slab, Stone Button, Brown Wall Banner, Chest, Water Cauldron.
 
 ### Blocks
 
@@ -782,7 +878,6 @@ None found.
 | Stone Button | 4 |
 | Brown Wall Banner | 3 |
 | Chest | 1 |
-| Jigsaw | 1 |
 | Water Cauldron | 1 |
 
 
@@ -798,8 +893,12 @@ None found.
 | kattersstructures:chests/underground/leatherworker |
 
 
+</details>
 
-## Village Underground/House/Side/House Side Storage
+<details>
+<summary><strong>Village Underground/House/Side/House Side Storage</strong></summary>
+
+The structure is composed of the following blocks: Stone, Stone Slab, Stone Button, Chest, Oak Fence, Barrel, Emerald Block, Hay Block, Bamboo Block, Lantern.
 
 ### Blocks
 
@@ -814,7 +913,6 @@ None found.
 | Emerald Block | 3 |
 | Hay Block | 2 |
 | Bamboo Block | 1 |
-| Jigsaw | 1 |
 | Lantern | 1 |
 
 
@@ -830,8 +928,12 @@ None found.
 | kattersstructures:chests/underground/random |
 
 
+</details>
 
-## Village Underground/House/Side/House Side Storage 2
+<details>
+<summary><strong>Village Underground/House/Side/House Side Storage 2</strong></summary>
+
+The structure is composed of the following blocks: Stone, Oak Slab, Emerald Ore, Oak Fence, Stone Slab, Glow Lichen, Oak Planks, Coal Ore, Gold Ore, Lantern.
 
 ### Blocks
 
@@ -846,7 +948,6 @@ None found.
 | Oak Planks | 4 |
 | Coal Ore | 3 |
 | Gold Ore | 3 |
-| Jigsaw | 1 |
 | Lantern | 1 |
 
 
@@ -860,8 +961,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Underground/Streets/Rooms/Room 1
+<details>
+<summary><strong>Village Underground/Streets/Rooms/Room 1</strong></summary>
+
+The structure is composed of the following blocks: Stone, Oak Slab, Oak Fence, Stone Slab, Oak Planks, Andesite, Oak Log, Stone Button, Oak Fence Gate, Stripped Oak Log, Glow Lichen, Oak Wall Sign, Andesite Slab, Granite, Lantern, Oak Button, Stone Stairs.
 
 ### Blocks
 
@@ -881,7 +986,6 @@ None found.
 | Oak Wall Sign | 19 |
 | Andesite Slab | 14 |
 | Granite | 13 |
-| Jigsaw | 12 |
 | Lantern | 11 |
 | Oak Button | 5 |
 | Stone Stairs | 4 |
@@ -897,8 +1001,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Underground/Streets/Rooms/Room 2
+<details>
+<summary><strong>Village Underground/Streets/Rooms/Room 2</strong></summary>
+
+The structure is composed of the following blocks: Stone, Oak Slab, Stone Slab, Oak Fence, Andesite, Granite, Stone Button, Oak Log, Glow Lichen, Stripped Oak Log, Diorite, Oak Wall Sign, Granite Slab, Oak Fence Gate, Oak Planks, Lantern, Andesite Slab, Oak Button, Diorite Slab, Stone Stairs, Andesite Stairs, Granite Stairs.
 
 ### Blocks
 
@@ -919,7 +1027,6 @@ None found.
 | Granite Slab | 22 |
 | Oak Fence Gate | 21 |
 | Oak Planks | 21 |
-| Jigsaw | 13 |
 | Lantern | 12 |
 | Andesite Slab | 10 |
 | Oak Button | 7 |
@@ -939,8 +1046,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Underground/Streets/Rooms/Room 3
+<details>
+<summary><strong>Village Underground/Streets/Rooms/Room 3</strong></summary>
+
+The structure is composed of the following blocks: Stone, Oak Slab, Stone Slab, Oak Fence, Andesite, Stone Button, Oak Log, Granite, Emerald Ore, Diorite, Oak Fence Gate, Lantern, Oak Planks, Andesite Slab, Granite Slab, Stone Stairs, Andesite Stairs, Diorite Slab, Granite Stairs.
 
 ### Blocks
 
@@ -957,7 +1068,6 @@ None found.
 | Emerald Ore | 35 |
 | Diorite | 19 |
 | Oak Fence Gate | 17 |
-| Jigsaw | 15 |
 | Lantern | 13 |
 | Oak Planks | 12 |
 | Andesite Slab | 8 |
@@ -978,8 +1088,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Underground/Streets/Rooms/Room 4
+<details>
+<summary><strong>Village Underground/Streets/Rooms/Room 4</strong></summary>
+
+The structure is composed of the following blocks: Stone, Oak Slab, Stone Slab, Oak Fence, Andesite, Granite, Stone Button, Glow Lichen, Stripped Oak Log, Oak Log, Oak Wall Sign, Oak Planks, Andesite Slab, Granite Slab, Lantern, Oak Button, Oak Fence Gate, Stone Stairs.
 
 ### Blocks
 
@@ -995,7 +1109,6 @@ None found.
 | Glow Lichen | 10 |
 | Stripped Oak Log | 9 |
 | Oak Log | 7 |
-| Jigsaw | 6 |
 | Oak Wall Sign | 6 |
 | Oak Planks | 3 |
 | Andesite Slab | 2 |
@@ -1016,8 +1129,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Underground/Streets/Rooms/Room 5
+<details>
+<summary><strong>Village Underground/Streets/Rooms/Room 5</strong></summary>
+
+The structure is composed of the following blocks: Stone, Oak Slab, Oak Fence, Stone Slab, Stone Button, Granite, Andesite, Oak Log, Stripped Oak Log, Oak Wall Sign, Oak Fence Gate, Glow Lichen, Lantern, Diorite, Andesite Slab, Oak Button, Oak Planks, Diorite Slab, Granite Slab, Stone Stairs.
 
 ### Blocks
 
@@ -1035,7 +1152,6 @@ None found.
 | Oak Wall Sign | 23 |
 | Oak Fence Gate | 20 |
 | Glow Lichen | 19 |
-| Jigsaw | 15 |
 | Lantern | 12 |
 | Diorite | 11 |
 | Andesite Slab | 8 |
@@ -1056,8 +1172,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Underground/Streets/Rooms/Room 6
+<details>
+<summary><strong>Village Underground/Streets/Rooms/Room 6</strong></summary>
+
+The structure is composed of the following blocks: Stone, Oak Slab, Andesite, Stone Slab, Stone Button, Oak Fence, Granite, Oak Log, Glow Lichen, Stripped Oak Log, Oak Wall Sign, Oak Fence Gate, Diorite, Oak Planks, Lantern, Oak Button, Stone Stairs, Andesite Slab, Diorite Slab, Granite Slab, Granite Stairs.
 
 ### Blocks
 
@@ -1077,7 +1197,6 @@ None found.
 | Oak Fence Gate | 23 |
 | Diorite | 22 |
 | Oak Planks | 22 |
-| Jigsaw | 15 |
 | Lantern | 11 |
 | Oak Button | 10 |
 | Stone Stairs | 8 |
@@ -1097,8 +1216,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Underground/Streets/Rooms/Room 7
+<details>
+<summary><strong>Village Underground/Streets/Rooms/Room 7</strong></summary>
+
+The structure is composed of the following blocks: Stone, Oak Slab, Andesite, Stone Slab, Stone Button, Diorite, Oak Log, Oak Fence, Glow Lichen, Oak Fence Gate, Oak Planks, Stripped Oak Log, Oak Wall Sign, Lantern, Andesite Slab, Oak Button, Stone Stairs.
 
 ### Blocks
 
@@ -1113,7 +1236,6 @@ None found.
 | Oak Log | 7 |
 | Oak Fence | 6 |
 | Glow Lichen | 5 |
-| Jigsaw | 4 |
 | Oak Fence Gate | 4 |
 | Oak Planks | 4 |
 | Stripped Oak Log | 4 |
@@ -1134,8 +1256,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Underground/Streets/Rooms/Room Special
+<details>
+<summary><strong>Village Underground/Streets/Rooms/Room Special</strong></summary>
+
+The structure is composed of the following blocks: Stone, Emerald Ore, Coal Ore, Stone Slab, Diamond Ore, Oak Slab, Oak Fence, Oak Wall Sign, Chest, Lantern, Spawner.
 
 ### Blocks
 
@@ -1150,7 +1276,6 @@ None found.
 | Oak Fence | 14 |
 | Oak Wall Sign | 11 |
 | Chest | 1 |
-| Jigsaw | 1 |
 | Lantern | 1 |
 | Spawner | 1 |
 
@@ -1167,8 +1292,12 @@ None found.
 | kattersstructures:chests/underground/treasures |
 
 
+</details>
 
-## Village Underground/Streets/Street Curve
+<details>
+<summary><strong>Village Underground/Streets/Street Curve</strong></summary>
+
+The structure is composed of the following blocks: Stone, Oak Slab, Stone Slab, Andesite, Stone Button, Oak Fence, Stone Stairs, Granite, Glow Lichen, Oak Log, Andesite Slab, Granite Stairs, Stripped Oak Log, Andesite Stairs, Granite Slab, Lantern, Oak Wall Sign.
 
 ### Blocks
 
@@ -1186,7 +1315,6 @@ None found.
 | Oak Log | 8 |
 | Andesite Slab | 4 |
 | Granite Stairs | 4 |
-| Jigsaw | 3 |
 | Stripped Oak Log | 2 |
 | Andesite Stairs | 1 |
 | Granite Slab | 1 |
@@ -1204,8 +1332,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Underground/Streets/Street Stairs
+<details>
+<summary><strong>Village Underground/Streets/Street Stairs</strong></summary>
+
+The structure is composed of the following blocks: Stone, Oak Slab, Stone Slab, Oak Log, Stripped Oak Log, Stone Button, Andesite, Granite, Oak Fence, Oak Wall Sign, Diorite, Stone Stairs, Diorite Slab, Andesite Slab, Granite Slab, Lantern.
 
 ### Blocks
 
@@ -1224,7 +1356,6 @@ None found.
 | Diorite | 4 |
 | Stone Stairs | 3 |
 | Diorite Slab | 2 |
-| Jigsaw | 2 |
 | Andesite Slab | 1 |
 | Granite Slab | 1 |
 | Lantern | 1 |
@@ -1240,8 +1371,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Underground/Streets/Street Stairs 2
+<details>
+<summary><strong>Village Underground/Streets/Street Stairs 2</strong></summary>
+
+The structure is composed of the following blocks: Stone, Oak Slab, Stone Slab, Oak Fence, Stone Button, Andesite, Oak Log, Oak Wall Sign, Granite, Glow Lichen, Andesite Slab, Stripped Oak Log, Diorite, Stone Stairs, Lantern, Oak Fence Gate, Diorite Slab.
 
 ### Blocks
 
@@ -1261,7 +1396,6 @@ None found.
 | Stripped Oak Log | 7 |
 | Diorite | 6 |
 | Stone Stairs | 5 |
-| Jigsaw | 2 |
 | Lantern | 2 |
 | Oak Fence Gate | 2 |
 | Diorite Slab | 1 |
@@ -1277,8 +1411,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Underground/Streets/Street Straight Short
+<details>
+<summary><strong>Village Underground/Streets/Street Straight Short</strong></summary>
+
+The structure is composed of the following blocks: Stone, Oak Slab, Oak Fence, Stone Slab, Andesite, Diorite, Glow Lichen, Granite, Stone Stairs, Stone Button, Diorite Slab, Chain, Lantern.
 
 ### Blocks
 
@@ -1295,7 +1433,6 @@ None found.
 | Stone Stairs | 6 |
 | Stone Button | 5 |
 | Diorite Slab | 4 |
-| Jigsaw | 3 |
 | Chain | 1 |
 | Lantern | 1 |
 
@@ -1310,8 +1447,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Underground/Streets/Street Straight Short 2
+<details>
+<summary><strong>Village Underground/Streets/Street Straight Short 2</strong></summary>
+
+The structure is composed of the following blocks: Stone, Oak Slab, Granite, Stone Slab, Oak Fence, Glow Lichen, Oak Wall Sign, Stone Stairs, Andesite, Andesite Slab, Stone Button, Campfire, Granite Stairs.
 
 ### Blocks
 
@@ -1327,7 +1468,6 @@ None found.
 | Stone Stairs | 4 |
 | Andesite | 3 |
 | Andesite Slab | 3 |
-| Jigsaw | 2 |
 | Stone Button | 2 |
 | Campfire | 1 |
 | Granite Stairs | 1 |
@@ -1343,8 +1483,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Underground/Town Centers/Town Center
+<details>
+<summary><strong>Village Underground/Town Centers/Town Center</strong></summary>
+
+The structure is composed of the following blocks: Stone, Oak Slab, Oak Fence, Andesite, Stone Stairs, Stone Slab, Stone Button, Oak Wall Sign, Granite, Diorite, Oak Log, Gravel, Oak Stairs, Oak Fence Gate, Glow Lichen, Stripped Oak Log, Oak Planks, Andesite Wall, Coarse Dirt, Lantern, Oak Button, Rooted Dirt, Tuff, Chain, Chest, Diorite Slab, Diorite Stairs, Andesite Slab, Bell, Campfire, Granite Stairs.
 
 ### Blocks
 
@@ -1369,7 +1513,6 @@ None found.
 | Oak Planks | 8 |
 | Andesite Wall | 7 |
 | Coarse Dirt | 7 |
-| Jigsaw | 7 |
 | Lantern | 5 |
 | Oak Button | 4 |
 | Rooted Dirt | 4 |
@@ -1396,126 +1539,4 @@ None found.
 | kattersstructures:chests/underground/random |
 
 
-
-## Summary
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Stone | 11673 |
-| Oak Slab | 1618 |
-| Stone Slab | 1152 |
-| Oak Fence | 799 |
-| Andesite | 629 |
-| Stone Button | 495 |
-| Granite | 421 |
-| Oak Log | 320 |
-| Emerald Ore | 277 |
-| Oak Planks | 221 |
-| Glow Lichen | 196 |
-| Stripped Oak Log | 168 |
-| Oak Wall Sign | 154 |
-| Diorite | 140 |
-| Jigsaw | 127 |
-| Oak Fence Gate | 124 |
-| Stone Stairs | 111 |
-| Lantern | 96 |
-| Andesite Slab | 91 |
-| Coal Ore | 74 |
-| Oak Stairs | 44 |
-| Granite Slab | 42 |
-| Stone Bricks | 41 |
-| Oak Button | 34 |
-| Light Gray Bed | 32 |
-| Oak Door | 32 |
-| Deepslate | 31 |
-| Amethyst Block | 29 |
-| Chest | 28 |
-| Diorite Slab | 27 |
-| Diamond Ore | 22 |
-| Gravel | 20 |
-| Tuff | 18 |
-| Smooth Basalt | 17 |
-| Cracked Stone Bricks | 15 |
-| Polished Andesite Slab | 13 |
-| Andesite Wall | 11 |
-| Andesite Stairs | 10 |
-| Granite Stairs | 10 |
-| Crimson Fence | 9 |
-| Light Gray Stained Glass Pane | 8 |
-| Warped Fence | 8 |
-| Coarse Dirt | 7 |
-| Cobbled Deepslate | 7 |
-| Cobbled Deepslate Slab | 7 |
-| Furnace | 7 |
-| Stone Brick Stairs | 7 |
-| Calcite | 6 |
-| Coal Block | 6 |
-| Deepslate Tiles | 6 |
-| Barrel | 5 |
-| Chain | 5 |
-| Hay Block | 5 |
-| Budding Amethyst | 4 |
-| Diorite Stairs | 4 |
-| Iron Bars | 4 |
-| Rooted Dirt | 4 |
-| Spruce Trapdoor | 4 |
-| Brown Wall Banner | 3 |
-| Campfire | 3 |
-| Emerald Block | 3 |
-| Gold Ore | 3 |
-| Gray Candle | 3 |
-| Oak Trapdoor | 3 |
-| Amethyst Cluster | 2 |
-| Cobbled Deepslate Wall | 2 |
-| Iron Trapdoor | 2 |
-| Large Amethyst Bud | 2 |
-| Magenta Candle | 2 |
-| Note Block | 2 |
-| Potted Oak Sapling | 2 |
-| Purple Candle | 2 |
-| Small Amethyst Bud | 2 |
-| Anvil | 1 |
-| Bamboo Block | 1 |
-| Bell | 1 |
-| Birch Stairs | 1 |
-| Blast Furnace | 1 |
-| Brewing Stand | 1 |
-| Chipped Anvil | 1 |
-| Damaged Anvil | 1 |
-| Fletching Table | 1 |
-| Grindstone | 1 |
-| Jukebox | 1 |
-| Potted Azure Bluet | 1 |
-| Potted Dead Bush | 1 |
-| Potted Fern | 1 |
-| Potted Red Mushroom | 1 |
-| Smithing Table | 1 |
-| Spawner | 1 |
-| Stonecutter | 1 |
-| Target | 1 |
-| Water Cauldron | 1 |
-
-
-### Entities
-
-None found.
-
-
-### Loot Tables
-
-| Loot Table |
-|:-----|
-| kattersstructures:chests/underground/armorer |
-| kattersstructures:chests/underground/cleric |
-| kattersstructures:chests/underground/fletcher |
-| kattersstructures:chests/underground/house |
-| kattersstructures:chests/underground/leatherworker |
-| kattersstructures:chests/underground/mason |
-| kattersstructures:chests/underground/random |
-| kattersstructures:chests/underground/toolsmith |
-| kattersstructures:chests/underground/treasures |
-| kattersstructures:chests/underground/weaponsmith |
-
-
+</details>

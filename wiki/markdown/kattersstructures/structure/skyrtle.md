@@ -1,6 +1,21 @@
 # Skyrtle
 
-## Skyrtle/Skyrtle Back
+## Summary
+
+The structure is composed of the following blocks: White Stained Glass, Light Gray Stained Glass, Brown Mushroom Block, Terracotta, Seagrass, Blue Stained Glass, Light Blue Stained Glass, Stripped Jungle Wood, Jungle Planks, Prismarine, Dark Prismarine, Prismarine Bricks, Tall Seagrass, Raw Iron Block, Glow Lichen, Obsidian, Kelp Plant, Kelp, Waxed Exposed Copper, Sea Pickle, Sea Lantern, Iron Bars, Black Concrete, Black Stained Glass, Chest, Jungle Stairs, Waxed Exposed Cut Copper Stairs, Shroomlight.
+
+### Loot Tables
+
+| Loot Table |
+|:-----|
+| kattersstructures:chests/skyrtle/treasure |
+
+
+
+<details>
+<summary><strong>Skyrtle/Skyrtle Back</strong></summary>
+
+The structure is composed of the following blocks: White Stained Glass, Light Gray Stained Glass, Brown Mushroom Block, Seagrass, Terracotta, Light Blue Stained Glass, Blue Stained Glass, Prismarine Bricks, Prismarine, Dark Prismarine, Stripped Jungle Wood, Jungle Planks, Tall Seagrass, Raw Iron Block, Glow Lichen, Kelp Plant, Kelp, Waxed Exposed Copper, Sea Pickle, Sea Lantern.
 
 ### Blocks
 
@@ -26,7 +41,6 @@
 | Waxed Exposed Copper | 23 |
 | Sea Pickle | 19 |
 | Sea Lantern | 16 |
-| Jigsaw | 3 |
 
 
 ### Entities
@@ -39,8 +53,12 @@ None found.
 None found.
 
 
+</details>
 
-## Skyrtle/Skyrtle Back Left
+<details>
+<summary><strong>Skyrtle/Skyrtle Back Left</strong></summary>
+
+The structure is composed of the following blocks: Light Gray Stained Glass, White Stained Glass, Brown Mushroom Block, Terracotta, Prismarine Bricks, Prismarine, Dark Prismarine, Stripped Jungle Wood, Jungle Planks, Glow Lichen, Raw Iron Block, Sea Lantern, Waxed Exposed Copper.
 
 ### Blocks
 
@@ -59,7 +77,6 @@ None found.
 | Raw Iron Block | 6 |
 | Sea Lantern | 2 |
 | Waxed Exposed Copper | 2 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -72,8 +89,12 @@ None found.
 None found.
 
 
+</details>
 
-## Skyrtle/Skyrtle Back Right
+<details>
+<summary><strong>Skyrtle/Skyrtle Back Right</strong></summary>
+
+The structure is composed of the following blocks: White Stained Glass, Light Gray Stained Glass, Terracotta, Brown Mushroom Block, Blue Stained Glass, Jungle Planks, Stripped Jungle Wood, Light Blue Stained Glass, Dark Prismarine, Prismarine, Raw Iron Block, Prismarine Bricks, Seagrass, Glow Lichen, Tall Seagrass, Waxed Exposed Copper, Sea Lantern.
 
 ### Blocks
 
@@ -95,7 +116,6 @@ None found.
 | Glow Lichen | 23 |
 | Tall Seagrass | 10 |
 | Waxed Exposed Copper | 10 |
-| Jigsaw | 1 |
 | Sea Lantern | 1 |
 
 
@@ -109,8 +129,12 @@ None found.
 None found.
 
 
+</details>
 
-## Skyrtle/Skyrtle Center
+<details>
+<summary><strong>Skyrtle/Skyrtle Center</strong></summary>
+
+The structure is composed of the following blocks: Seagrass, Light Gray Stained Glass, White Stained Glass, Light Blue Stained Glass, Blue Stained Glass, Brown Mushroom Block, Terracotta, Tall Seagrass, Jungle Planks, Stripped Jungle Wood, Dark Prismarine, Prismarine Bricks, Prismarine, Raw Iron Block, Glow Lichen, Kelp Plant, Kelp, Waxed Exposed Copper, Sea Pickle, Sea Lantern.
 
 ### Blocks
 
@@ -136,7 +160,6 @@ None found.
 | Waxed Exposed Copper | 32 |
 | Sea Pickle | 29 |
 | Sea Lantern | 12 |
-| Jigsaw | 4 |
 
 
 ### Entities
@@ -149,8 +172,12 @@ None found.
 None found.
 
 
+</details>
 
-## Skyrtle/Skyrtle Front
+<details>
+<summary><strong>Skyrtle/Skyrtle Front</strong></summary>
+
+The structure is composed of the following blocks: Terracotta, Brown Mushroom Block, Seagrass, Light Blue Stained Glass, Blue Stained Glass, Stripped Jungle Wood, Obsidian, Jungle Planks, Prismarine, Dark Prismarine, Prismarine Bricks, Raw Iron Block, Tall Seagrass, Glow Lichen, Light Gray Stained Glass, White Stained Glass, Waxed Exposed Copper, Kelp Plant, Iron Bars, Kelp, Black Concrete, Sea Pickle, Black Stained Glass, Chest, Sea Lantern, Jungle Stairs, Waxed Exposed Cut Copper Stairs, Shroomlight.
 
 ### Blocks
 
@@ -183,7 +210,6 @@ None found.
 | Sea Lantern | 12 |
 | Jungle Stairs | 4 |
 | Waxed Exposed Cut Copper Stairs | 3 |
-| Jigsaw | 2 |
 | Shroomlight | 2 |
 
 
@@ -199,8 +225,12 @@ None found.
 | kattersstructures:chests/skyrtle/treasure |
 
 
+</details>
 
-## Skyrtle/Skyrtle Front Left
+<details>
+<summary><strong>Skyrtle/Skyrtle Front Left</strong></summary>
+
+The structure is composed of the following blocks: Prismarine Bricks, Prismarine, Dark Prismarine, Light Gray Stained Glass, White Stained Glass, Brown Mushroom Block, Terracotta, Jungle Planks, Light Blue Stained Glass, Blue Stained Glass, Raw Iron Block, Sea Lantern, Seagrass, Stripped Jungle Wood.
 
 ### Blocks
 
@@ -217,7 +247,6 @@ None found.
 | Light Blue Stained Glass | 4 |
 | Blue Stained Glass | 3 |
 | Raw Iron Block | 2 |
-| Jigsaw | 1 |
 | Sea Lantern | 1 |
 | Seagrass | 1 |
 | Stripped Jungle Wood | 1 |
@@ -233,8 +262,12 @@ None found.
 None found.
 
 
+</details>
 
-## Skyrtle/Skyrtle Front Right
+<details>
+<summary><strong>Skyrtle/Skyrtle Front Right</strong></summary>
+
+The structure is composed of the following blocks: Prismarine, Blue Stained Glass, Light Blue Stained Glass, Dark Prismarine, Prismarine Bricks, Brown Mushroom Block, Terracotta, Seagrass, Tall Seagrass, Stripped Jungle Wood, Jungle Planks, Glow Lichen, Raw Iron Block, Kelp, Waxed Exposed Copper, Sea Lantern, Kelp Plant, White Stained Glass, Sea Pickle.
 
 ### Blocks
 
@@ -258,7 +291,6 @@ None found.
 | Sea Lantern | 3 |
 | Kelp Plant | 2 |
 | White Stained Glass | 2 |
-| Jigsaw | 1 |
 | Sea Pickle | 1 |
 
 
@@ -272,8 +304,12 @@ None found.
 None found.
 
 
+</details>
 
-## Skyrtle/Skyrtle Left
+<details>
+<summary><strong>Skyrtle/Skyrtle Left</strong></summary>
+
+The structure is composed of the following blocks: Terracotta, Light Gray Stained Glass, White Stained Glass, Brown Mushroom Block, Stripped Jungle Wood, Jungle Planks, Dark Prismarine, Prismarine Bricks, Raw Iron Block, Light Blue Stained Glass, Prismarine, Blue Stained Glass, Glow Lichen, Seagrass, Waxed Exposed Copper, Tall Seagrass, Sea Lantern, Sea Pickle.
 
 ### Blocks
 
@@ -297,7 +333,6 @@ None found.
 | Tall Seagrass | 12 |
 | Sea Lantern | 4 |
 | Sea Pickle | 4 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -310,8 +345,12 @@ None found.
 None found.
 
 
+</details>
 
-## Skyrtle/Skyrtle Right
+<details>
+<summary><strong>Skyrtle/Skyrtle Right</strong></summary>
+
+The structure is composed of the following blocks: Light Gray Stained Glass, White Stained Glass, Brown Mushroom Block, Terracotta, Blue Stained Glass, Seagrass, Stripped Jungle Wood, Jungle Planks, Light Blue Stained Glass, Dark Prismarine, Prismarine, Prismarine Bricks, Tall Seagrass, Raw Iron Block, Glow Lichen, Kelp, Kelp Plant, Waxed Exposed Copper, Sea Pickle, Sea Lantern.
 
 ### Blocks
 
@@ -337,7 +376,6 @@ None found.
 | Waxed Exposed Copper | 27 |
 | Sea Pickle | 9 |
 | Sea Lantern | 5 |
-| Jigsaw | 2 |
 
 
 ### Entities
@@ -350,53 +388,4 @@ None found.
 None found.
 
 
-
-## Summary
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| White Stained Glass | 6886 |
-| Light Gray Stained Glass | 6844 |
-| Brown Mushroom Block | 2873 |
-| Terracotta | 2851 |
-| Seagrass | 2493 |
-| Blue Stained Glass | 2044 |
-| Light Blue Stained Glass | 2026 |
-| Stripped Jungle Wood | 1486 |
-| Jungle Planks | 1455 |
-| Prismarine | 1182 |
-| Dark Prismarine | 1166 |
-| Prismarine Bricks | 1112 |
-| Tall Seagrass | 1012 |
-| Raw Iron Block | 764 |
-| Glow Lichen | 493 |
-| Obsidian | 308 |
-| Kelp Plant | 234 |
-| Kelp | 220 |
-| Waxed Exposed Copper | 178 |
-| Sea Pickle | 77 |
-| Sea Lantern | 56 |
-| Iron Bars | 50 |
-| Black Concrete | 22 |
-| Jigsaw | 16 |
-| Black Stained Glass | 12 |
-| Chest | 12 |
-| Jungle Stairs | 4 |
-| Waxed Exposed Cut Copper Stairs | 3 |
-| Shroomlight | 2 |
-
-
-### Entities
-
-None found.
-
-
-### Loot Tables
-
-| Loot Table |
-|:-----|
-| kattersstructures:chests/skyrtle/treasure |
-
-
+</details>

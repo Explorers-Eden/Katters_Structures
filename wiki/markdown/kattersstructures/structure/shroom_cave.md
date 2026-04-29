@@ -1,6 +1,21 @@
 # Shroom Cave
 
-## Shroom Cave/Browm Shroom
+## Summary
+
+The structure is composed of the following blocks: Dirt, Mycelium, Mushroom Stem, Glow Lichen, Brown Mushroom Block, Red Mushroom Block, Brown Mushroom, Red Mushroom, Light.
+
+Additionally, the following entities may spawn during its generation: Mooshroom.
+
+### Loot Tables
+
+None found.
+
+
+
+<details>
+<summary><strong>Shroom Cave/Browm Shroom</strong></summary>
+
+The structure is composed of the following blocks: Brown Mushroom Block, Mushroom Stem.
 
 ### Blocks
 
@@ -8,7 +23,6 @@
 |:-----|:-----:|
 | Brown Mushroom Block | 45 |
 | Mushroom Stem | 5 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -21,14 +35,18 @@ None found.
 None found.
 
 
+</details>
 
-## Shroom Cave/Moo 1
+<details>
+<summary><strong>Shroom Cave/Moo 1</strong></summary>
+
+The structure does not contain any notable blocks.
+
+Additionally, the following entities may spawn during its generation: Mooshroom.
 
 ### Blocks
 
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
+None found.
 
 
 ### Entities
@@ -43,14 +61,18 @@ None found.
 None found.
 
 
+</details>
 
-## Shroom Cave/Moo 2
+<details>
+<summary><strong>Shroom Cave/Moo 2</strong></summary>
+
+The structure does not contain any notable blocks.
+
+Additionally, the following entities may spawn during its generation: Mooshroom.
 
 ### Blocks
 
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
+None found.
 
 
 ### Entities
@@ -65,14 +87,18 @@ None found.
 None found.
 
 
+</details>
 
-## Shroom Cave/Moo 3
+<details>
+<summary><strong>Shroom Cave/Moo 3</strong></summary>
+
+The structure does not contain any notable blocks.
+
+Additionally, the following entities may spawn during its generation: Mooshroom.
 
 ### Blocks
 
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
+None found.
 
 
 ### Entities
@@ -87,14 +113,18 @@ None found.
 None found.
 
 
+</details>
 
-## Shroom Cave/Moo 4
+<details>
+<summary><strong>Shroom Cave/Moo 4</strong></summary>
+
+The structure does not contain any notable blocks.
+
+Additionally, the following entities may spawn during its generation: Mooshroom.
 
 ### Blocks
 
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
+None found.
 
 
 ### Entities
@@ -109,8 +139,12 @@ None found.
 None found.
 
 
+</details>
 
-## Shroom Cave/Red Shroom
+<details>
+<summary><strong>Shroom Cave/Red Shroom</strong></summary>
+
+The structure is composed of the following blocks: Red Mushroom Block, Mushroom Stem.
 
 ### Blocks
 
@@ -118,7 +152,6 @@ None found.
 |:-----|:-----:|
 | Red Mushroom Block | 45 |
 | Mushroom Stem | 5 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -131,8 +164,12 @@ None found.
 None found.
 
 
+</details>
 
-## Shroom Cave/Shroom Cave
+<details>
+<summary><strong>Shroom Cave/Shroom Cave</strong></summary>
+
+The structure is composed of the following blocks: Dirt, Mycelium, Mushroom Stem, Glow Lichen, Brown Mushroom, Red Mushroom, Light.
 
 ### Blocks
 
@@ -144,7 +181,6 @@ None found.
 | Glow Lichen | 253 |
 | Brown Mushroom | 39 |
 | Red Mushroom | 28 |
-| Jigsaw | 7 |
 | Light | 5 |
 
 
@@ -158,34 +194,4 @@ None found.
 None found.
 
 
-
-## Summary
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Dirt | 3005 |
-| Mycelium | 475 |
-| Mushroom Stem | 418 |
-| Glow Lichen | 253 |
-| Brown Mushroom Block | 45 |
-| Red Mushroom Block | 45 |
-| Brown Mushroom | 39 |
-| Red Mushroom | 28 |
-| Jigsaw | 13 |
-| Light | 5 |
-
-
-### Entities
-
-| Entity | Count |
-|:-----|:-----:|
-| Mooshroom | 6 |
-
-
-### Loot Tables
-
-None found.
-
-
+</details>

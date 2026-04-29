@@ -1,6 +1,23 @@
 # Far Watch
 
-## Far Watch/Far Watch 01
+## Summary
+
+The structure is composed of the following blocks: Stone, Dirt, Grass Block, Dark Oak Planks, Cobblestone, Podzol, Dark Oak Log, Dark Oak Stairs, Birch Planks, Coarse Dirt, Dirt Path, Cobblestone Slab, Cobblestone Stairs, Dark Oak Fence, Glass Pane, Oak Log, Campfire, Cobblestone Wall, Spruce Log, Oak Trapdoor, Dark Oak Slab, Dark Oak Trapdoor, Hay Block, Andesite, White Wall Banner, Oak Fence, Iron Bars, Spruce Fence, Andesite Wall, Polished Andesite, Chain, Mud, Polished Andesite Stairs, White Banner, Dark Oak Wall Sign, Jack O Lantern, Oak Slab, Orange Wool, Birch Slab, Grindstone, Barrel, Birch Fence, Carved Pumpkin, Birch Stairs, Damaged Anvil, Dark Oak Fence Gate, Fire, Lever, Netherrack.
+
+Additionally, the following entities may spawn during its generation: Iron Golem.
+
+### Loot Tables
+
+| Loot Table |
+|:-----|
+| kattersstructures:chests/pillager_village/chest_2 |
+
+
+
+<details>
+<summary><strong>Far Watch/Far Watch 01</strong></summary>
+
+The structure is composed of the following blocks: Stone, Dirt, Dark Oak Planks, Grass Block, Cobblestone, Dark Oak Log, Podzol, Dark Oak Stairs, Birch Planks, Cobblestone Stairs, Cobblestone Slab, Dark Oak Fence, Dirt Path, Coarse Dirt, Glass Pane, Oak Log, Cobblestone Wall, Spruce Log, White Wall Banner, Oak Fence, Dark Oak Slab, Spruce Fence, Birch Slab, Carved Pumpkin, Hay Block, Jack O Lantern, White Banner, Birch Stairs.
 
 ### Blocks
 
@@ -27,7 +44,6 @@
 | White Wall Banner | 23 |
 | Oak Fence | 20 |
 | Dark Oak Slab | 16 |
-| Jigsaw | 14 |
 | Spruce Fence | 10 |
 | Birch Slab | 3 |
 | Carved Pumpkin | 2 |
@@ -47,15 +63,18 @@ None found.
 None found.
 
 
+</details>
 
-## Far Watch/Far Watch 01 D
+<details>
+<summary><strong>Far Watch/Far Watch 01 D</strong></summary>
+
+The structure is composed of the following blocks: Stone.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Stone | 31202 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -68,8 +87,14 @@ None found.
 None found.
 
 
+</details>
 
-## Far Watch/Far Watch 02
+<details>
+<summary><strong>Far Watch/Far Watch 02</strong></summary>
+
+The structure is composed of the following blocks: Stone, Dirt, Grass Block, Podzol, Cobblestone, Dark Oak Planks, Dark Oak Log, Dark Oak Stairs, Dirt Path, Coarse Dirt, Dark Oak Fence, Birch Planks, Cobblestone Slab, Glass Pane, Cobblestone Stairs, Oak Log, Spruce Log, Cobblestone Wall, Dark Oak Slab, Iron Bars, Hay Block, White Wall Banner, Oak Fence, Spruce Fence, Birch Fence, Jack O Lantern, Carved Pumpkin, White Banner, Barrel.
+
+Additionally, the following entities may spawn during its generation: Iron Golem.
 
 ### Blocks
 
@@ -98,7 +123,6 @@ None found.
 | Hay Block | 26 |
 | White Wall Banner | 23 |
 | Oak Fence | 22 |
-| Jigsaw | 15 |
 | Spruce Fence | 12 |
 | Birch Fence | 4 |
 | Jack O Lantern | 4 |
@@ -121,15 +145,18 @@ None found.
 | kattersstructures:chests/pillager_village/chest_2 |
 
 
+</details>
 
-## Far Watch/Far Watch 02 D
+<details>
+<summary><strong>Far Watch/Far Watch 02 D</strong></summary>
+
+The structure is composed of the following blocks: Stone.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Stone | 40929 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -142,8 +169,12 @@ None found.
 None found.
 
 
+</details>
 
-## Far Watch/Far Watch 03
+<details>
+<summary><strong>Far Watch/Far Watch 03</strong></summary>
+
+The structure is composed of the following blocks: Grass Block, Dirt, Podzol, Coarse Dirt.
 
 ### Blocks
 
@@ -151,7 +182,6 @@ None found.
 |:-----|:-----:|
 | Grass Block | 14 |
 | Dirt | 7 |
-| Jigsaw | 2 |
 | Podzol | 2 |
 | Coarse Dirt | 1 |
 
@@ -166,15 +196,18 @@ None found.
 None found.
 
 
+</details>
 
-## Far Watch/Far Watch 03 D
+<details>
+<summary><strong>Far Watch/Far Watch 03 D</strong></summary>
+
+The structure is composed of the following blocks: Stone.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Stone | 133 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -187,8 +220,12 @@ None found.
 None found.
 
 
+</details>
 
-## Far Watch/Far Watch 04
+<details>
+<summary><strong>Far Watch/Far Watch 04</strong></summary>
+
+The structure is composed of the following blocks: Stone, Dirt, Grass Block, Dark Oak Planks, Podzol, Cobblestone, Birch Planks, Coarse Dirt, Dark Oak Log, Dark Oak Stairs, Dirt Path, Cobblestone Stairs, Andesite, Cobblestone Slab, Cobblestone Wall, Dark Oak Fence, Glass Pane, Andesite Wall, Polished Andesite, Oak Log, Spruce Log, Polished Andesite Stairs, White Wall Banner, Birch Slab, Oak Fence, Dark Oak Slab, Spruce Fence, White Banner, Birch Fence.
 
 ### Blocks
 
@@ -217,7 +254,6 @@ None found.
 | Spruce Log | 26 |
 | Polished Andesite Stairs | 22 |
 | White Wall Banner | 21 |
-| Jigsaw | 15 |
 | Birch Slab | 9 |
 | Oak Fence | 7 |
 | Dark Oak Slab | 5 |
@@ -236,15 +272,18 @@ None found.
 None found.
 
 
+</details>
 
-## Far Watch/Far Watch 04 D
+<details>
+<summary><strong>Far Watch/Far Watch 04 D</strong></summary>
+
+The structure is composed of the following blocks: Stone.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Stone | 44695 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -257,8 +296,12 @@ None found.
 None found.
 
 
+</details>
 
-## Far Watch/Far Watch 05
+<details>
+<summary><strong>Far Watch/Far Watch 05</strong></summary>
+
+The structure is composed of the following blocks: Stone, Dirt, Dark Oak Planks, Grass Block, Podzol, Cobblestone, Dark Oak Stairs, Campfire, Dark Oak Log, Coarse Dirt, Birch Planks, Oak Trapdoor, Dirt Path, Cobblestone Stairs, Cobblestone Slab, Dark Oak Fence, Dark Oak Trapdoor, Hay Block, Glass Pane, Dark Oak Slab, Cobblestone Wall, Iron Bars, Oak Log, Spruce Log, White Wall Banner, Orange Wool, White Banner, Jack O Lantern, Oak Fence, Spruce Fence, Barrel, Carved Pumpkin, Fire, Netherrack.
 
 ### Blocks
 
@@ -288,7 +331,6 @@ None found.
 | Iron Bars | 33 |
 | Oak Log | 29 |
 | Spruce Log | 24 |
-| Jigsaw | 17 |
 | White Wall Banner | 15 |
 | Orange Wool | 13 |
 | White Banner | 5 |
@@ -313,15 +355,18 @@ None found.
 | kattersstructures:chests/pillager_village/chest_2 |
 
 
+</details>
 
-## Far Watch/Far Watch 05 D
+<details>
+<summary><strong>Far Watch/Far Watch 05 D</strong></summary>
+
+The structure is composed of the following blocks: Stone.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Stone | 30755 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -334,8 +379,12 @@ None found.
 None found.
 
 
+</details>
 
-## Far Watch/Far Watch 06
+<details>
+<summary><strong>Far Watch/Far Watch 06</strong></summary>
+
+The structure is composed of the following blocks: Stone, Grass Block, Dirt, Cobblestone, Oak Log, Spruce Log, Dark Oak Log, Cobblestone Slab, Podzol, Coarse Dirt, Oak Fence, Dark Oak Fence, Spruce Fence.
 
 ### Blocks
 
@@ -354,7 +403,6 @@ None found.
 | Oak Fence | 9 |
 | Dark Oak Fence | 7 |
 | Spruce Fence | 7 |
-| Jigsaw | 2 |
 
 
 ### Entities
@@ -367,15 +415,18 @@ None found.
 None found.
 
 
+</details>
 
-## Far Watch/Far Watch 06 D
+<details>
+<summary><strong>Far Watch/Far Watch 06 D</strong></summary>
+
+The structure is composed of the following blocks: Stone.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Stone | 2175 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -388,8 +439,12 @@ None found.
 None found.
 
 
+</details>
 
-## Far Watch/Far Watch 07
+<details>
+<summary><strong>Far Watch/Far Watch 07</strong></summary>
+
+The structure is composed of the following blocks: Stone, Grass Block, Dark Oak Planks, Dirt, Podzol, Cobblestone, Dark Oak Stairs, Dark Oak Log, Coarse Dirt, Birch Planks, Cobblestone Slab, Dark Oak Fence, Cobblestone Stairs, Oak Log, Glass Pane, Spruce Log, Dark Oak Slab, Cobblestone Wall, Mud, Hay Block, Dirt Path, Oak Fence, White Wall Banner, Spruce Fence, Barrel, Carved Pumpkin, White Banner.
 
 ### Blocks
 
@@ -418,7 +473,6 @@ None found.
 | Dirt Path | 22 |
 | Oak Fence | 16 |
 | White Wall Banner | 16 |
-| Jigsaw | 13 |
 | Spruce Fence | 11 |
 | Barrel | 1 |
 | Carved Pumpkin | 1 |
@@ -437,15 +491,18 @@ None found.
 | kattersstructures:chests/pillager_village/chest_2 |
 
 
+</details>
 
-## Far Watch/Far Watch 07 D
+<details>
+<summary><strong>Far Watch/Far Watch 07 D</strong></summary>
+
+The structure is composed of the following blocks: Stone.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Stone | 33596 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -458,8 +515,12 @@ None found.
 None found.
 
 
+</details>
 
-## Far Watch/Far Watch 08
+<details>
+<summary><strong>Far Watch/Far Watch 08</strong></summary>
+
+The structure is composed of the following blocks: Stone, Dirt, Grass Block, Dark Oak Planks, Cobblestone, Podzol, Dark Oak Stairs, Dark Oak Log, Campfire, Birch Planks, Coarse Dirt, Oak Trapdoor, Dirt Path, Cobblestone Slab, Cobblestone Stairs, Dark Oak Fence, Oak Log, Dark Oak Trapdoor, Spruce Log, Dark Oak Slab, Cobblestone Wall, Glass Pane, Chain, Hay Block, Oak Fence, Dark Oak Wall Sign, Oak Slab, White Wall Banner, Spruce Fence, White Banner, Grindstone, Jack O Lantern, Barrel, Damaged Anvil, Dark Oak Fence Gate, Lever.
 
 ### Blocks
 
@@ -491,7 +552,6 @@ None found.
 | Hay Block | 24 |
 | Oak Fence | 21 |
 | Dark Oak Wall Sign | 18 |
-| Jigsaw | 17 |
 | Oak Slab | 14 |
 | White Wall Banner | 14 |
 | Spruce Fence | 13 |
@@ -516,15 +576,18 @@ None found.
 | kattersstructures:chests/pillager_village/chest_2 |
 
 
+</details>
 
-## Far Watch/Far Watch 08 D
+<details>
+<summary><strong>Far Watch/Far Watch 08 D</strong></summary>
+
+The structure is composed of the following blocks: Stone.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Stone | 31594 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -537,8 +600,12 @@ None found.
 None found.
 
 
+</details>
 
-## Far Watch/Far Watch 09
+<details>
+<summary><strong>Far Watch/Far Watch 09</strong></summary>
+
+The structure is composed of the following blocks: Stone, Grass Block, Dirt, Cobblestone, Cobblestone Slab, Podzol, Coarse Dirt.
 
 ### Blocks
 
@@ -551,7 +618,6 @@ None found.
 | Cobblestone Slab | 4 |
 | Podzol | 3 |
 | Coarse Dirt | 2 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -564,76 +630,4 @@ None found.
 None found.
 
 
-
-## Summary
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Stone | 290712 |
-| Dirt | 5487 |
-| Grass Block | 4014 |
-| Dark Oak Planks | 3189 |
-| Cobblestone | 2408 |
-| Podzol | 2314 |
-| Dark Oak Log | 1522 |
-| Dark Oak Stairs | 1484 |
-| Birch Planks | 1088 |
-| Coarse Dirt | 1031 |
-| Dirt Path | 700 |
-| Cobblestone Slab | 626 |
-| Cobblestone Stairs | 590 |
-| Dark Oak Fence | 587 |
-| Glass Pane | 420 |
-| Oak Log | 414 |
-| Campfire | 408 |
-| Cobblestone Wall | 351 |
-| Spruce Log | 323 |
-| Oak Trapdoor | 249 |
-| Dark Oak Slab | 213 |
-| Dark Oak Trapdoor | 135 |
-| Hay Block | 126 |
-| Andesite | 122 |
-| White Wall Banner | 112 |
-| Jigsaw | 104 |
-| Oak Fence | 99 |
-| Iron Bars | 63 |
-| Spruce Fence | 61 |
-| Andesite Wall | 58 |
-| Polished Andesite | 48 |
-| Chain | 33 |
-| Mud | 28 |
-| Polished Andesite Stairs | 22 |
-| White Banner | 21 |
-| Dark Oak Wall Sign | 18 |
-| Jack O Lantern | 14 |
-| Oak Slab | 14 |
-| Orange Wool | 13 |
-| Birch Slab | 12 |
-| Grindstone | 7 |
-| Barrel | 6 |
-| Birch Fence | 6 |
-| Carved Pumpkin | 6 |
-| Birch Stairs | 1 |
-| Damaged Anvil | 1 |
-| Dark Oak Fence Gate | 1 |
-| Fire | 1 |
-| Lever | 1 |
-| Netherrack | 1 |
-
-
-### Entities
-
-| Entity | Count |
-|:-----|:-----:|
-| Iron Golem | 1 |
-
-
-### Loot Tables
-
-| Loot Table |
-|:-----|
-| kattersstructures:chests/pillager_village/chest_2 |
-
-
+</details>

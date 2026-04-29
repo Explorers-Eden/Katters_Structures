@@ -1,6 +1,27 @@
 # Graveyard
 
-## Graveyard/Churche
+## Summary
+
+The structure is composed of the following blocks: Stone Bricks, Dirt, Coarse Dirt, Stone Brick Wall, Birch Leaves, Grass Block, Spruce Stairs, Stone Brick Stairs, Polished Deepslate Stairs, Mossy Stone Bricks, Polished Deepslate, Stone Brick Slab, Mossy Stone Brick Wall, Cracked Stone Bricks, Deepslate Tile Stairs, Spruce Trapdoor, Deepslate Brick Stairs, Blue Stained Glass Pane, Vine, Gray Stained Glass Pane, Red Carpet, Light Blue Stained Glass Pane, Oak Fence, Chest, Moss Block, Mossy Stone Brick Stairs, Spruce Planks, Cobbled Deepslate Stairs, Polished Deepslate Slab, Spruce Fence, Stripped Spruce Wood, Glow Lichen, Red Candle, Mossy Stone Brick Slab, Oak Stairs, Chain, Jungle Fence, Stripped Jungle Wood, Stripped Oak Wood, Short Grass, Spruce Slab, Tall Grass, Deepslate Bricks, Lectern, Dead Bush, Mossy Cobblestone Slab, Spruce Wall Sign, Cobweb, Stripped Spruce Log, Mossy Cobblestone, Cracked Deepslate Tiles, Jungle Trapdoor, Poppy, Spruce Door, Hay Block, Cobblestone Stairs, Light Gray Bed, Mossy Cobblestone Stairs, Shroomlight, Smooth Stone Slab, Barrel, Bell, Dandelion, Gravel, Lantern, Light Gray Candle, Lightning Rod, Mossy Cobblestone Wall, Polished Deepslate Wall.
+
+Additionally, the following entities may spawn during its generation: Villager.
+
+### Loot Tables
+
+| Loot Table |
+|:-----|
+| kattersstructures:chests/graveyard/donation |
+| kattersstructures:chests/graveyard/grave |
+| kattersstructures:chests/graveyard/living |
+| kattersstructures:chests/graveyard/robbed |
+| kattersstructures:chests/graveyard/secret |
+
+
+
+<details>
+<summary><strong>Graveyard/Churche</strong></summary>
+
+The structure is composed of the following blocks: Stone Bricks, Dirt, Stone Brick Wall, Birch Leaves, Spruce Stairs, Stone Brick Stairs, Polished Deepslate Stairs, Coarse Dirt, Mossy Stone Bricks, Polished Deepslate, Stone Brick Slab, Grass Block, Mossy Stone Brick Wall, Cracked Stone Bricks, Deepslate Tile Stairs, Deepslate Brick Stairs, Spruce Trapdoor, Blue Stained Glass Pane, Vine, Gray Stained Glass Pane, Red Carpet, Light Blue Stained Glass Pane, Oak Fence, Moss Block, Spruce Planks, Cobbled Deepslate Stairs, Polished Deepslate Slab, Stripped Spruce Wood, Glow Lichen, Red Candle, Mossy Stone Brick Slab, Mossy Stone Brick Stairs, Oak Stairs, Chain, Jungle Fence, Spruce Fence, Stripped Jungle Wood, Stripped Oak Wood, Short Grass, Spruce Slab, Tall Grass, Deepslate Bricks, Dead Bush, Mossy Cobblestone Slab, Cobweb, Stripped Spruce Log, Mossy Cobblestone, Cracked Deepslate Tiles, Jungle Trapdoor, Spruce Door, Chest, Hay Block, Poppy, Light Gray Bed, Mossy Cobblestone Stairs, Shroomlight, Barrel, Bell, Cobblestone Stairs, Dandelion, Lantern, Lectern, Lightning Rod, Mossy Cobblestone Wall, Polished Deepslate Wall.
 
 ### Blocks
 
@@ -48,7 +69,6 @@
 | Spruce Slab | 11 |
 | Tall Grass | 10 |
 | Deepslate Bricks | 9 |
-| Jigsaw | 9 |
 | Dead Bush | 8 |
 | Mossy Cobblestone Slab | 8 |
 | Cobweb | 7 |
@@ -88,8 +108,12 @@ None found.
 | kattersstructures:chests/graveyard/secret |
 
 
+</details>
 
-## Graveyard/Grave/Grave 01
+<details>
+<summary><strong>Graveyard/Grave/Grave 01</strong></summary>
+
+The structure is composed of the following blocks: Coarse Dirt, Dirt, Mossy Stone Brick Wall, Stone Brick Wall, Chest, Grass Block, Spruce Wall Sign, Stone Brick Stairs.
 
 ### Blocks
 
@@ -101,7 +125,6 @@ None found.
 | Stone Brick Wall | 4 |
 | Chest | 2 |
 | Grass Block | 2 |
-| Jigsaw | 1 |
 | Spruce Wall Sign | 1 |
 | Stone Brick Stairs | 1 |
 
@@ -118,8 +141,12 @@ None found.
 | kattersstructures:chests/graveyard/grave |
 
 
+</details>
 
-## Graveyard/Grave/Grave 02
+<details>
+<summary><strong>Graveyard/Grave/Grave 02</strong></summary>
+
+The structure is composed of the following blocks: Coarse Dirt, Dirt, Grass Block, Chest, Mossy Stone Brick Stairs, Light Gray Candle, Spruce Wall Sign, Stone Brick Slab, Stone Brick Stairs.
 
 ### Blocks
 
@@ -130,7 +157,6 @@ None found.
 | Grass Block | 3 |
 | Chest | 2 |
 | Mossy Stone Brick Stairs | 2 |
-| Jigsaw | 1 |
 | Light Gray Candle | 1 |
 | Spruce Wall Sign | 1 |
 | Stone Brick Slab | 1 |
@@ -149,8 +175,12 @@ None found.
 | kattersstructures:chests/graveyard/grave |
 
 
+</details>
 
-## Graveyard/Grave/Grave 03
+<details>
+<summary><strong>Graveyard/Grave/Grave 03</strong></summary>
+
+The structure is composed of the following blocks: Coarse Dirt, Dirt, Stone Brick Stairs, Stone Bricks, Grass Block, Mossy Stone Brick Stairs, Chest, Mossy Stone Bricks, Spruce Wall Sign, Stone Brick Slab.
 
 ### Blocks
 
@@ -164,7 +194,6 @@ None found.
 | Mossy Stone Brick Stairs | 3 |
 | Chest | 2 |
 | Mossy Stone Bricks | 2 |
-| Jigsaw | 1 |
 | Spruce Wall Sign | 1 |
 | Stone Brick Slab | 1 |
 
@@ -181,8 +210,12 @@ None found.
 | kattersstructures:chests/graveyard/grave |
 
 
+</details>
 
-## Graveyard/Grave/Grave 04
+<details>
+<summary><strong>Graveyard/Grave/Grave 04</strong></summary>
+
+The structure is composed of the following blocks: Coarse Dirt, Dirt, Chest, Grass Block, Poppy, Spruce Wall Sign, Stone Brick Wall.
 
 ### Blocks
 
@@ -192,7 +225,6 @@ None found.
 | Dirt | 15 |
 | Chest | 2 |
 | Grass Block | 2 |
-| Jigsaw | 1 |
 | Poppy | 1 |
 | Spruce Wall Sign | 1 |
 | Stone Brick Wall | 1 |
@@ -210,8 +242,12 @@ None found.
 | kattersstructures:chests/graveyard/grave |
 
 
+</details>
 
-## Graveyard/Grave/Grave 05
+<details>
+<summary><strong>Graveyard/Grave/Grave 05</strong></summary>
+
+The structure is composed of the following blocks: Coarse Dirt, Dirt, Chest, Grass Block, Spruce Wall Sign, Stone Brick Stairs.
 
 ### Blocks
 
@@ -221,7 +257,6 @@ None found.
 | Dirt | 13 |
 | Chest | 2 |
 | Grass Block | 1 |
-| Jigsaw | 1 |
 | Spruce Wall Sign | 1 |
 | Stone Brick Stairs | 1 |
 
@@ -238,8 +273,12 @@ None found.
 | kattersstructures:chests/graveyard/grave |
 
 
+</details>
 
-## Graveyard/Grave/Grave 06
+<details>
+<summary><strong>Graveyard/Grave/Grave 06</strong></summary>
+
+The structure is composed of the following blocks: Coarse Dirt, Dirt, Birch Leaves, Grass Block.
 
 ### Blocks
 
@@ -249,7 +288,6 @@ None found.
 | Dirt | 15 |
 | Birch Leaves | 9 |
 | Grass Block | 3 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -262,8 +300,12 @@ None found.
 None found.
 
 
+</details>
 
-## Graveyard/Grave/Grave 07
+<details>
+<summary><strong>Graveyard/Grave/Grave 07</strong></summary>
+
+The structure is composed of the following blocks: Coarse Dirt, Dirt.
 
 ### Blocks
 
@@ -271,7 +313,6 @@ None found.
 |:-----|:-----:|
 | Coarse Dirt | 16 |
 | Dirt | 15 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -284,8 +325,12 @@ None found.
 None found.
 
 
+</details>
 
-## Graveyard/Grave/Grave 08
+<details>
+<summary><strong>Graveyard/Grave/Grave 08</strong></summary>
+
+The structure is composed of the following blocks: Coarse Dirt, Dirt, Grass Block, Chest, Smooth Stone Slab.
 
 ### Blocks
 
@@ -296,7 +341,6 @@ None found.
 | Grass Block | 7 |
 | Chest | 2 |
 | Smooth Stone Slab | 2 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -311,8 +355,12 @@ None found.
 | kattersstructures:chests/graveyard/grave |
 
 
+</details>
 
-## Graveyard/Grave/Grave 09
+<details>
+<summary><strong>Graveyard/Grave/Grave 09</strong></summary>
+
+The structure is composed of the following blocks: Coarse Dirt, Dirt, Stone Brick Wall, Grass Block, Chest, Spruce Wall Sign.
 
 ### Blocks
 
@@ -323,7 +371,6 @@ None found.
 | Stone Brick Wall | 6 |
 | Grass Block | 4 |
 | Chest | 2 |
-| Jigsaw | 1 |
 | Spruce Wall Sign | 1 |
 
 
@@ -339,8 +386,12 @@ None found.
 | kattersstructures:chests/graveyard/grave |
 
 
+</details>
 
-## Graveyard/Grave/Grave 10
+<details>
+<summary><strong>Graveyard/Grave/Grave 10</strong></summary>
+
+The structure is composed of the following blocks: Coarse Dirt, Dirt, Chest, Grass Block, Cobblestone Stairs, Gravel.
 
 ### Blocks
 
@@ -352,7 +403,6 @@ None found.
 | Grass Block | 2 |
 | Cobblestone Stairs | 1 |
 | Gravel | 1 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -367,8 +417,12 @@ None found.
 | kattersstructures:chests/graveyard/robbed |
 
 
+</details>
 
-## Graveyard/Grave/Grave 11
+<details>
+<summary><strong>Graveyard/Grave/Grave 11</strong></summary>
+
+The structure is composed of the following blocks: Coarse Dirt, Dirt, Spruce Fence, Chest, Grass Block, Spruce Wall Sign.
 
 ### Blocks
 
@@ -379,7 +433,6 @@ None found.
 | Spruce Fence | 6 |
 | Chest | 2 |
 | Grass Block | 1 |
-| Jigsaw | 1 |
 | Spruce Wall Sign | 1 |
 
 
@@ -395,8 +448,12 @@ None found.
 | kattersstructures:chests/graveyard/grave |
 
 
+</details>
 
-## Graveyard/Grave/Grave 12
+<details>
+<summary><strong>Graveyard/Grave/Grave 12</strong></summary>
+
+The structure is composed of the following blocks: Coarse Dirt, Dirt, Grass Block, Chest, Spruce Stairs, Spruce Trapdoor, Spruce Fence, Spruce Wall Sign.
 
 ### Blocks
 
@@ -408,7 +465,6 @@ None found.
 | Chest | 2 |
 | Spruce Stairs | 2 |
 | Spruce Trapdoor | 2 |
-| Jigsaw | 1 |
 | Spruce Fence | 1 |
 | Spruce Wall Sign | 1 |
 
@@ -425,14 +481,18 @@ None found.
 | kattersstructures:chests/graveyard/grave |
 
 
+</details>
 
-## Graveyard/Graveyard Cleric
+<details>
+<summary><strong>Graveyard/Graveyard Cleric</strong></summary>
+
+The structure does not contain any notable blocks.
+
+Additionally, the following entities may spawn during its generation: Villager.
 
 ### Blocks
 
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
+None found.
 
 
 ### Entities
@@ -447,14 +507,17 @@ None found.
 None found.
 
 
+</details>
 
-## Graveyard/Verdant Tome/Graveyard Verdant Tome 01
+<details>
+<summary><strong>Graveyard/Verdant Tome/Graveyard Verdant Tome 01</strong></summary>
+
+The structure is composed of the following blocks: Lectern.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
-| Jigsaw | 1 |
 | Lectern | 1 |
 
 
@@ -468,14 +531,17 @@ None found.
 None found.
 
 
+</details>
 
-## Graveyard/Verdant Tome/Graveyard Verdant Tome 02
+<details>
+<summary><strong>Graveyard/Verdant Tome/Graveyard Verdant Tome 02</strong></summary>
+
+The structure is composed of the following blocks: Lectern.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
-| Jigsaw | 1 |
 | Lectern | 1 |
 
 
@@ -489,14 +555,17 @@ None found.
 None found.
 
 
+</details>
 
-## Graveyard/Verdant Tome/Graveyard Verdant Tome 03
+<details>
+<summary><strong>Graveyard/Verdant Tome/Graveyard Verdant Tome 03</strong></summary>
+
+The structure is composed of the following blocks: Lectern.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
-| Jigsaw | 1 |
 | Lectern | 1 |
 
 
@@ -510,14 +579,17 @@ None found.
 None found.
 
 
+</details>
 
-## Graveyard/Verdant Tome/Graveyard Verdant Tome 04
+<details>
+<summary><strong>Graveyard/Verdant Tome/Graveyard Verdant Tome 04</strong></summary>
+
+The structure is composed of the following blocks: Lectern.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
-| Jigsaw | 1 |
 | Lectern | 1 |
 
 
@@ -531,14 +603,17 @@ None found.
 None found.
 
 
+</details>
 
-## Graveyard/Verdant Tome/Graveyard Verdant Tome 05
+<details>
+<summary><strong>Graveyard/Verdant Tome/Graveyard Verdant Tome 05</strong></summary>
+
+The structure is composed of the following blocks: Lectern.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
-| Jigsaw | 1 |
 | Lectern | 1 |
 
 
@@ -552,14 +627,17 @@ None found.
 None found.
 
 
+</details>
 
-## Graveyard/Verdant Tome/Graveyard Verdant Tome 06
+<details>
+<summary><strong>Graveyard/Verdant Tome/Graveyard Verdant Tome 06</strong></summary>
+
+The structure is composed of the following blocks: Lectern.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
-| Jigsaw | 1 |
 | Lectern | 1 |
 
 
@@ -573,14 +651,17 @@ None found.
 None found.
 
 
+</details>
 
-## Graveyard/Verdant Tome/Graveyard Verdant Tome 07
+<details>
+<summary><strong>Graveyard/Verdant Tome/Graveyard Verdant Tome 07</strong></summary>
+
+The structure is composed of the following blocks: Lectern.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
-| Jigsaw | 1 |
 | Lectern | 1 |
 
 
@@ -594,14 +675,17 @@ None found.
 None found.
 
 
+</details>
 
-## Graveyard/Verdant Tome/Graveyard Verdant Tome 08
+<details>
+<summary><strong>Graveyard/Verdant Tome/Graveyard Verdant Tome 08</strong></summary>
+
+The structure is composed of the following blocks: Lectern.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
-| Jigsaw | 1 |
 | Lectern | 1 |
 
 
@@ -615,8 +699,12 @@ None found.
 None found.
 
 
+</details>
 
-## Graveyard/Way/Graveyard Way 01
+<details>
+<summary><strong>Graveyard/Way/Graveyard Way 01</strong></summary>
+
+The structure is composed of the following blocks: Grass Block, Coarse Dirt, Dirt.
 
 ### Blocks
 
@@ -625,7 +713,6 @@ None found.
 | Grass Block | 21 |
 | Coarse Dirt | 17 |
 | Dirt | 16 |
-| Jigsaw | 9 |
 
 
 ### Entities
@@ -638,8 +725,12 @@ None found.
 None found.
 
 
+</details>
 
-## Graveyard/Way/Graveyard Way 02
+<details>
+<summary><strong>Graveyard/Way/Graveyard Way 02</strong></summary>
+
+The structure is composed of the following blocks: Grass Block, Dirt, Coarse Dirt.
 
 ### Blocks
 
@@ -648,7 +739,6 @@ None found.
 | Grass Block | 17 |
 | Dirt | 15 |
 | Coarse Dirt | 7 |
-| Jigsaw | 6 |
 
 
 ### Entities
@@ -661,8 +751,12 @@ None found.
 None found.
 
 
+</details>
 
-## Graveyard/Way/Graveyard Way 03
+<details>
+<summary><strong>Graveyard/Way/Graveyard Way 03</strong></summary>
+
+The structure is composed of the following blocks: Coarse Dirt, Grass Block, Dirt.
 
 ### Blocks
 
@@ -670,7 +764,6 @@ None found.
 |:-----|:-----:|
 | Coarse Dirt | 9 |
 | Grass Block | 5 |
-| Jigsaw | 4 |
 | Dirt | 3 |
 
 
@@ -684,15 +777,18 @@ None found.
 None found.
 
 
+</details>
 
-## Graveyard/Way/Graveyard Way Cross
+<details>
+<summary><strong>Graveyard/Way/Graveyard Way Cross</strong></summary>
+
+The structure is composed of the following blocks: Grass Block, Dirt, Coarse Dirt.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Grass Block | 3 |
-| Jigsaw | 3 |
 | Dirt | 2 |
 | Coarse Dirt | 1 |
 
@@ -707,8 +803,12 @@ None found.
 None found.
 
 
+</details>
 
-## Graveyard/Way/Graveyard Way End
+<details>
+<summary><strong>Graveyard/Way/Graveyard Way End</strong></summary>
+
+The structure is composed of the following blocks: Coarse Dirt, Grass Block.
 
 ### Blocks
 
@@ -716,7 +816,6 @@ None found.
 |:-----|:-----:|
 | Coarse Dirt | 2 |
 | Grass Block | 1 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -729,100 +828,4 @@ None found.
 None found.
 
 
-
-## Summary
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Stone Bricks | 617 |
-| Dirt | 518 |
-| Coarse Dirt | 328 |
-| Stone Brick Wall | 246 |
-| Birch Leaves | 220 |
-| Grass Block | 128 |
-| Spruce Stairs | 123 |
-| Stone Brick Stairs | 108 |
-| Polished Deepslate Stairs | 86 |
-| Mossy Stone Bricks | 70 |
-| Polished Deepslate | 63 |
-| Stone Brick Slab | 62 |
-| Jigsaw | 53 |
-| Mossy Stone Brick Wall | 53 |
-| Cracked Stone Bricks | 43 |
-| Deepslate Tile Stairs | 36 |
-| Spruce Trapdoor | 36 |
-| Deepslate Brick Stairs | 34 |
-| Blue Stained Glass Pane | 33 |
-| Vine | 30 |
-| Gray Stained Glass Pane | 29 |
-| Red Carpet | 29 |
-| Light Blue Stained Glass Pane | 28 |
-| Oak Fence | 26 |
-| Chest | 23 |
-| Moss Block | 21 |
-| Mossy Stone Brick Stairs | 21 |
-| Spruce Planks | 21 |
-| Cobbled Deepslate Stairs | 20 |
-| Polished Deepslate Slab | 20 |
-| Spruce Fence | 20 |
-| Stripped Spruce Wood | 20 |
-| Glow Lichen | 18 |
-| Red Candle | 18 |
-| Mossy Stone Brick Slab | 16 |
-| Oak Stairs | 16 |
-| Chain | 14 |
-| Jungle Fence | 13 |
-| Stripped Jungle Wood | 12 |
-| Stripped Oak Wood | 12 |
-| Short Grass | 11 |
-| Spruce Slab | 11 |
-| Tall Grass | 10 |
-| Deepslate Bricks | 9 |
-| Lectern | 9 |
-| Dead Bush | 8 |
-| Mossy Cobblestone Slab | 8 |
-| Spruce Wall Sign | 8 |
-| Cobweb | 7 |
-| Stripped Spruce Log | 7 |
-| Mossy Cobblestone | 6 |
-| Cracked Deepslate Tiles | 4 |
-| Jungle Trapdoor | 4 |
-| Poppy | 4 |
-| Spruce Door | 4 |
-| Hay Block | 3 |
-| Cobblestone Stairs | 2 |
-| Light Gray Bed | 2 |
-| Mossy Cobblestone Stairs | 2 |
-| Shroomlight | 2 |
-| Smooth Stone Slab | 2 |
-| Barrel | 1 |
-| Bell | 1 |
-| Dandelion | 1 |
-| Gravel | 1 |
-| Lantern | 1 |
-| Light Gray Candle | 1 |
-| Lightning Rod | 1 |
-| Mossy Cobblestone Wall | 1 |
-| Polished Deepslate Wall | 1 |
-
-
-### Entities
-
-| Entity | Count |
-|:-----|:-----:|
-| Villager | 1 |
-
-
-### Loot Tables
-
-| Loot Table |
-|:-----|
-| kattersstructures:chests/graveyard/donation |
-| kattersstructures:chests/graveyard/grave |
-| kattersstructures:chests/graveyard/living |
-| kattersstructures:chests/graveyard/robbed |
-| kattersstructures:chests/graveyard/secret |
-
-
+</details>

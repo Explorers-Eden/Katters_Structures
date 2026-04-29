@@ -1,6 +1,19 @@
 # Fossils
 
-## Fossils/Fossils Mosa P1
+## Summary
+
+The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Fire Coral Block, Dead Bubble Coral Block, Diorite Slab, Diorite Wall, Diorite Stairs.
+
+### Loot Tables
+
+None found.
+
+
+
+<details>
+<summary><strong>Fossils/Fossils Mosa P1</strong></summary>
+
+The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Diorite Wall, Dead Bubble Coral Block, Dead Fire Coral Block, Diorite Slab, Diorite Stairs.
 
 ### Blocks
 
@@ -14,7 +27,6 @@
 | Dead Fire Coral Block | 78 |
 | Diorite Slab | 61 |
 | Diorite Stairs | 25 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -27,8 +39,12 @@ None found.
 None found.
 
 
+</details>
 
-## Fossils/Fossils Mosa P2
+<details>
+<summary><strong>Fossils/Fossils Mosa P2</strong></summary>
+
+The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Bubble Coral Block, Dead Fire Coral Block, Diorite Slab.
 
 ### Blocks
 
@@ -40,7 +56,6 @@ None found.
 | Dead Bubble Coral Block | 60 |
 | Dead Fire Coral Block | 59 |
 | Diorite Slab | 12 |
-| Jigsaw | 5 |
 
 
 ### Entities
@@ -53,8 +68,12 @@ None found.
 None found.
 
 
+</details>
 
-## Fossils/Fossils Mosa P3
+<details>
+<summary><strong>Fossils/Fossils Mosa P3</strong></summary>
+
+The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Fire Coral Block, Dead Bubble Coral Block, Diorite Slab.
 
 ### Blocks
 
@@ -66,7 +85,6 @@ None found.
 | Dead Fire Coral Block | 57 |
 | Dead Bubble Coral Block | 48 |
 | Diorite Slab | 22 |
-| Jigsaw | 2 |
 
 
 ### Entities
@@ -79,8 +97,12 @@ None found.
 None found.
 
 
+</details>
 
-## Fossils/Fossils Mosa P4
+<details>
+<summary><strong>Fossils/Fossils Mosa P4</strong></summary>
+
+The structure is composed of the following blocks: Barrier, Bone Block, Diorite Slab, Calcite, Dead Fire Coral Block, Dead Bubble Coral Block.
 
 ### Blocks
 
@@ -92,7 +114,6 @@ None found.
 | Calcite | 32 |
 | Dead Fire Coral Block | 21 |
 | Dead Bubble Coral Block | 12 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -105,8 +126,12 @@ None found.
 None found.
 
 
+</details>
 
-## Fossils/Fossils Nautilus
+<details>
+<summary><strong>Fossils/Fossils Nautilus</strong></summary>
+
+The structure is composed of the following blocks: Bone Block, Barrier, Calcite, Dead Bubble Coral Block, Dead Fire Coral Block.
 
 ### Blocks
 
@@ -117,7 +142,6 @@ None found.
 | Calcite | 306 |
 | Dead Bubble Coral Block | 172 |
 | Dead Fire Coral Block | 116 |
-| Jigsaw | 3 |
 
 
 ### Entities
@@ -130,8 +154,12 @@ None found.
 None found.
 
 
+</details>
 
-## Fossils/Fossils Rip 01
+<details>
+<summary><strong>Fossils/Fossils Rip 01</strong></summary>
+
+The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Fire Coral Block, Dead Bubble Coral Block.
 
 ### Blocks
 
@@ -142,7 +170,6 @@ None found.
 | Calcite | 38 |
 | Dead Fire Coral Block | 22 |
 | Dead Bubble Coral Block | 15 |
-| Jigsaw | 3 |
 
 
 ### Entities
@@ -155,8 +182,12 @@ None found.
 None found.
 
 
+</details>
 
-## Fossils/Fossils Rip 02
+<details>
+<summary><strong>Fossils/Fossils Rip 02</strong></summary>
+
+The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Diorite Slab, Dead Fire Coral Block, Dead Bubble Coral Block.
 
 ### Blocks
 
@@ -168,7 +199,6 @@ None found.
 | Diorite Slab | 30 |
 | Dead Fire Coral Block | 27 |
 | Dead Bubble Coral Block | 23 |
-| Jigsaw | 3 |
 
 
 ### Entities
@@ -181,8 +211,12 @@ None found.
 None found.
 
 
+</details>
 
-## Fossils/Fossils Rip 03 V1
+<details>
+<summary><strong>Fossils/Fossils Rip 03 V1</strong></summary>
+
+The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Bubble Coral Block, Dead Fire Coral Block.
 
 ### Blocks
 
@@ -193,7 +227,6 @@ None found.
 | Calcite | 13 |
 | Dead Bubble Coral Block | 4 |
 | Dead Fire Coral Block | 2 |
-| Jigsaw | 2 |
 
 
 ### Entities
@@ -206,8 +239,12 @@ None found.
 None found.
 
 
+</details>
 
-## Fossils/Fossils Rip 03 V2
+<details>
+<summary><strong>Fossils/Fossils Rip 03 V2</strong></summary>
+
+The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Bubble Coral Block, Dead Fire Coral Block.
 
 ### Blocks
 
@@ -218,7 +255,6 @@ None found.
 | Calcite | 12 |
 | Dead Bubble Coral Block | 3 |
 | Dead Fire Coral Block | 2 |
-| Jigsaw | 2 |
 
 
 ### Entities
@@ -231,8 +267,12 @@ None found.
 None found.
 
 
+</details>
 
-## Fossils/Fossils Rip 03 V3
+<details>
+<summary><strong>Fossils/Fossils Rip 03 V3</strong></summary>
+
+The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Fire Coral Block.
 
 ### Blocks
 
@@ -242,7 +282,6 @@ None found.
 | Bone Block | 71 |
 | Calcite | 6 |
 | Dead Fire Coral Block | 2 |
-| Jigsaw | 2 |
 
 
 ### Entities
@@ -255,8 +294,12 @@ None found.
 None found.
 
 
+</details>
 
-## Fossils/Fossils Rip 03 V4
+<details>
+<summary><strong>Fossils/Fossils Rip 03 V4</strong></summary>
+
+The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Bubble Coral Block, Dead Fire Coral Block.
 
 ### Blocks
 
@@ -265,7 +308,6 @@ None found.
 | Barrier | 220 |
 | Bone Block | 60 |
 | Calcite | 10 |
-| Jigsaw | 5 |
 | Dead Bubble Coral Block | 3 |
 | Dead Fire Coral Block | 2 |
 
@@ -280,8 +322,12 @@ None found.
 None found.
 
 
+</details>
 
-## Fossils/Fossils Rip 03 V5
+<details>
+<summary><strong>Fossils/Fossils Rip 03 V5</strong></summary>
+
+The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Bubble Coral Block, Dead Fire Coral Block.
 
 ### Blocks
 
@@ -292,7 +338,6 @@ None found.
 | Calcite | 6 |
 | Dead Bubble Coral Block | 5 |
 | Dead Fire Coral Block | 5 |
-| Jigsaw | 2 |
 
 
 ### Entities
@@ -305,8 +350,12 @@ None found.
 None found.
 
 
+</details>
 
-## Fossils/Fossils Rip 03 V6
+<details>
+<summary><strong>Fossils/Fossils Rip 03 V6</strong></summary>
+
+The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Fire Coral Block, Dead Bubble Coral Block.
 
 ### Blocks
 
@@ -317,7 +366,6 @@ None found.
 | Calcite | 4 |
 | Dead Fire Coral Block | 3 |
 | Dead Bubble Coral Block | 2 |
-| Jigsaw | 2 |
 
 
 ### Entities
@@ -330,8 +378,12 @@ None found.
 None found.
 
 
+</details>
 
-## Fossils/Fossils Rip 03 V7
+<details>
+<summary><strong>Fossils/Fossils Rip 03 V7</strong></summary>
+
+The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Bubble Coral Block, Dead Fire Coral Block.
 
 ### Blocks
 
@@ -342,7 +394,6 @@ None found.
 | Calcite | 9 |
 | Dead Bubble Coral Block | 5 |
 | Dead Fire Coral Block | 4 |
-| Jigsaw | 2 |
 
 
 ### Entities
@@ -355,8 +406,12 @@ None found.
 None found.
 
 
+</details>
 
-## Fossils/Fossils Rip 03 V8
+<details>
+<summary><strong>Fossils/Fossils Rip 03 V8</strong></summary>
+
+The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Bubble Coral Block, Dead Fire Coral Block.
 
 ### Blocks
 
@@ -366,7 +421,6 @@ None found.
 | Bone Block | 32 |
 | Calcite | 5 |
 | Dead Bubble Coral Block | 3 |
-| Jigsaw | 2 |
 | Dead Fire Coral Block | 1 |
 
 
@@ -380,8 +434,12 @@ None found.
 None found.
 
 
+</details>
 
-## Fossils/Fossils Skull 01
+<details>
+<summary><strong>Fossils/Fossils Skull 01</strong></summary>
+
+The structure is composed of the following blocks: Bone Block, Barrier, Diorite Stairs, Diorite Slab, Diorite Wall, Calcite, Dead Fire Coral Block, Dead Bubble Coral Block.
 
 ### Blocks
 
@@ -395,7 +453,6 @@ None found.
 | Calcite | 81 |
 | Dead Fire Coral Block | 60 |
 | Dead Bubble Coral Block | 39 |
-| Jigsaw | 3 |
 
 
 ### Entities
@@ -408,8 +465,12 @@ None found.
 None found.
 
 
+</details>
 
-## Fossils/Fossils Skull 02
+<details>
+<summary><strong>Fossils/Fossils Skull 02</strong></summary>
+
+The structure is composed of the following blocks: Bone Block, Barrier, Calcite, Diorite Wall, Diorite Stairs, Dead Fire Coral Block, Diorite Slab, Dead Bubble Coral Block.
 
 ### Blocks
 
@@ -423,7 +484,6 @@ None found.
 | Dead Fire Coral Block | 17 |
 | Diorite Slab | 12 |
 | Dead Bubble Coral Block | 7 |
-| Jigsaw | 3 |
 
 
 ### Entities
@@ -436,8 +496,12 @@ None found.
 None found.
 
 
+</details>
 
-## Fossils/Fossils Skull 03
+<details>
+<summary><strong>Fossils/Fossils Skull 03</strong></summary>
+
+The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Bubble Coral Block, Dead Fire Coral Block, Diorite Stairs, Diorite Slab, Diorite Wall.
 
 ### Blocks
 
@@ -451,7 +515,6 @@ None found.
 | Diorite Stairs | 25 |
 | Diorite Slab | 24 |
 | Diorite Wall | 20 |
-| Jigsaw | 3 |
 
 
 ### Entities
@@ -464,8 +527,12 @@ None found.
 None found.
 
 
+</details>
 
-## Fossils/Fossils Spino P1
+<details>
+<summary><strong>Fossils/Fossils Spino P1</strong></summary>
+
+The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Fire Coral Block, Diorite Wall, Diorite Slab, Dead Bubble Coral Block, Diorite Stairs.
 
 ### Blocks
 
@@ -479,7 +546,6 @@ None found.
 | Diorite Slab | 59 |
 | Dead Bubble Coral Block | 48 |
 | Diorite Stairs | 25 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -492,8 +558,12 @@ None found.
 None found.
 
 
+</details>
 
-## Fossils/Fossils Spino P2
+<details>
+<summary><strong>Fossils/Fossils Spino P2</strong></summary>
+
+The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Fire Coral Block, Dead Bubble Coral Block, Diorite Slab, Diorite Stairs.
 
 ### Blocks
 
@@ -505,7 +575,6 @@ None found.
 | Dead Fire Coral Block | 45 |
 | Dead Bubble Coral Block | 35 |
 | Diorite Slab | 33 |
-| Jigsaw | 5 |
 | Diorite Stairs | 2 |
 
 
@@ -519,8 +588,12 @@ None found.
 None found.
 
 
+</details>
 
-## Fossils/Fossils Spino P3
+<details>
+<summary><strong>Fossils/Fossils Spino P3</strong></summary>
+
+The structure is composed of the following blocks: Barrier, Bone Block, Diorite Slab, Dead Fire Coral Block, Calcite, Dead Bubble Coral Block, Diorite Stairs.
 
 ### Blocks
 
@@ -533,7 +606,6 @@ None found.
 | Calcite | 7 |
 | Dead Bubble Coral Block | 4 |
 | Diorite Stairs | 2 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -546,14 +618,16 @@ None found.
 None found.
 
 
+</details>
 
-## Fossils/Fossils Start
+<details>
+<summary><strong>Fossils/Fossils Start</strong></summary>
+
+The structure does not contain any notable blocks.
 
 ### Blocks
 
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
+None found.
 
 
 ### Entities
@@ -566,8 +640,12 @@ None found.
 None found.
 
 
+</details>
 
-## Fossils/Fossils Stego P1
+<details>
+<summary><strong>Fossils/Fossils Stego P1</strong></summary>
+
+The structure is composed of the following blocks: Barrier, Bone Block.
 
 ### Blocks
 
@@ -575,7 +653,6 @@ None found.
 |:-----|:-----:|
 | Barrier | 928 |
 | Bone Block | 756 |
-| Jigsaw | 4 |
 
 
 ### Entities
@@ -588,8 +665,12 @@ None found.
 None found.
 
 
+</details>
 
-## Fossils/Fossils Stego P2
+<details>
+<summary><strong>Fossils/Fossils Stego P2</strong></summary>
+
+The structure is composed of the following blocks: Barrier, Bone Block.
 
 ### Blocks
 
@@ -597,7 +678,6 @@ None found.
 |:-----|:-----:|
 | Barrier | 270 |
 | Bone Block | 188 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -610,31 +690,4 @@ None found.
 None found.
 
 
-
-## Summary
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Barrier | 36786 |
-| Bone Block | 10832 |
-| Calcite | 1300 |
-| Dead Fire Coral Block | 653 |
-| Dead Bubble Coral Block | 627 |
-| Diorite Slab | 427 |
-| Diorite Wall | 319 |
-| Diorite Stairs | 227 |
-| Jigsaw | 59 |
-
-
-### Entities
-
-None found.
-
-
-### Loot Tables
-
-None found.
-
-
+</details>

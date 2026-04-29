@@ -1,12 +1,42 @@
 # Village Cherry
 
-## Village Cherry/Animals/Animal Cow 1
+## Summary
+
+The structure is composed of the following blocks: Deepslate Tile Slab, Grass Block, Dirt, Stripped Mangrove Log, Cherry Stairs, Cherry Planks, Dirt Path, Cherry Trapdoor, Mangrove Planks, Pink Petals, Cherry Fence, Mangrove Fence, Cherry Slab, Mangrove Trapdoor, Polished Tuff, Farmland, Cherry Door, Magenta Terracotta, Tuff Bricks, Tall Grass, Lantern, Deepslate Tile Stairs, Hay Block, Pink Bed, Wheat, Carrots, Beetroots, Bookshelf, Coarse Dirt, Pink Carpet, Mangrove Wall Hanging Sign, Chest, Stripped Spruce Log, Chiseled Bookshelf, Cherry Wall Sign, Pink Glazed Terracotta, Podzol, Bamboo, Deepslate Tile Wall, Polished Tuff Slab, Stripped Cherry Log, Waxed Copper Trapdoor, Cobblestone, Ladder, Mangrove Stairs, Tuff Brick Stairs, Seagrass, Spruce Trapdoor, Dark Oak Trapdoor, Polished Tuff Stairs, Chain, Cherry Log, Chiseled Tuff Bricks, Decorated Pot, Magenta Wall Banner, White Wall Banner, Dark Oak Stairs, Gray Wall Banner, Nether Wart, Pink Wall Banner, Poppy, Potted Cherry Sapling, Pumpkin, Pumpkin Stem, Soul Sand, Water Cauldron, Waxed Exposed Copper Trapdoor, Barrel, Campfire, Cherry Fence Gate, Crafting Table, Kelp, Lilac, Mangrove Wall Sign, Peony, Pitcher Plant, Stone Slab, Tripwire Hook, Tuff Brick Slab, Anvil, Bell, Birch Stairs, Blast Furnace, Brewing Stand, Cartography Table, Cherry Pressure Plate, Chipped Anvil, Composter, Damaged Anvil, Fletching Table, Flower Pot, Furnace, Gold Block, Grindstone, Lectern, Lily Pad, Loom, Mangrove Log, Mangrove Slab, Oak Fence, Oak Slab, Ochre Froglight, Smithing Table, Smoker, Smooth Stone Slab, Stone Bricks, Stonecutter, Target, Torchflower, Waxed Cut Copper Slab, Yellow Wall Banner.
+
+Additionally, the following entities may spawn during its generation: Horse, Pig, Sheep, Cow, Mule.
+
+### Loot Tables
+
+| Loot Table |
+|:-----|
+| kattersstructures:chests/cherry/armorer |
+| kattersstructures:chests/cherry/butcher |
+| kattersstructures:chests/cherry/cartographer |
+| kattersstructures:chests/cherry/cleric |
+| kattersstructures:chests/cherry/fisherman |
+| kattersstructures:chests/cherry/fletcher |
+| kattersstructures:chests/cherry/house |
+| kattersstructures:chests/cherry/leatherworker |
+| kattersstructures:chests/cherry/mason |
+| kattersstructures:chests/cherry/pagode |
+| kattersstructures:chests/cherry/shepherd |
+| kattersstructures:chests/cherry/toolsmith |
+| kattersstructures:chests/cherry/weaponsmith |
+| kattersstructures:chests/house |
+
+
+
+<details>
+<summary><strong>Village Cherry/Animals/Animal Cow 1</strong></summary>
+
+The structure does not contain any notable blocks.
+
+Additionally, the following entities may spawn during its generation: Cow.
 
 ### Blocks
 
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
+None found.
 
 
 ### Entities
@@ -21,14 +51,18 @@
 None found.
 
 
+</details>
 
-## Village Cherry/Animals/Animal Horse 1
+<details>
+<summary><strong>Village Cherry/Animals/Animal Horse 1</strong></summary>
+
+The structure does not contain any notable blocks.
+
+Additionally, the following entities may spawn during its generation: Horse.
 
 ### Blocks
 
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
+None found.
 
 
 ### Entities
@@ -43,14 +77,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Animals/Animal Horse 2
+<details>
+<summary><strong>Village Cherry/Animals/Animal Horse 2</strong></summary>
+
+The structure does not contain any notable blocks.
+
+Additionally, the following entities may spawn during its generation: Horse.
 
 ### Blocks
 
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
+None found.
 
 
 ### Entities
@@ -65,14 +103,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Animals/Animal Horse 3
+<details>
+<summary><strong>Village Cherry/Animals/Animal Horse 3</strong></summary>
+
+The structure does not contain any notable blocks.
+
+Additionally, the following entities may spawn during its generation: Horse.
 
 ### Blocks
 
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
+None found.
 
 
 ### Entities
@@ -87,14 +129,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Animals/Animal Horse 4
+<details>
+<summary><strong>Village Cherry/Animals/Animal Horse 4</strong></summary>
+
+The structure does not contain any notable blocks.
+
+Additionally, the following entities may spawn during its generation: Horse.
 
 ### Blocks
 
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
+None found.
 
 
 ### Entities
@@ -109,14 +155,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Animals/Animal Horse 5
+<details>
+<summary><strong>Village Cherry/Animals/Animal Horse 5</strong></summary>
+
+The structure does not contain any notable blocks.
+
+Additionally, the following entities may spawn during its generation: Mule.
 
 ### Blocks
 
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
+None found.
 
 
 ### Entities
@@ -131,14 +181,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Animals/Animal Horse 6
+<details>
+<summary><strong>Village Cherry/Animals/Animal Horse 6</strong></summary>
+
+The structure does not contain any notable blocks.
+
+Additionally, the following entities may spawn during its generation: Horse.
 
 ### Blocks
 
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
+None found.
 
 
 ### Entities
@@ -153,14 +207,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Animals/Animal Pig 1
+<details>
+<summary><strong>Village Cherry/Animals/Animal Pig 1</strong></summary>
+
+The structure does not contain any notable blocks.
+
+Additionally, the following entities may spawn during its generation: Pig.
 
 ### Blocks
 
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
+None found.
 
 
 ### Entities
@@ -175,14 +233,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Animals/Animal Pig 2
+<details>
+<summary><strong>Village Cherry/Animals/Animal Pig 2</strong></summary>
+
+The structure does not contain any notable blocks.
+
+Additionally, the following entities may spawn during its generation: Pig.
 
 ### Blocks
 
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
+None found.
 
 
 ### Entities
@@ -197,14 +259,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Animals/Animal Sheep 1
+<details>
+<summary><strong>Village Cherry/Animals/Animal Sheep 1</strong></summary>
+
+The structure does not contain any notable blocks.
+
+Additionally, the following entities may spawn during its generation: Sheep.
 
 ### Blocks
 
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
+None found.
 
 
 ### Entities
@@ -219,14 +285,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Animals/Animal Sheep 2
+<details>
+<summary><strong>Village Cherry/Animals/Animal Sheep 2</strong></summary>
+
+The structure does not contain any notable blocks.
+
+Additionally, the following entities may spawn during its generation: Sheep.
 
 ### Blocks
 
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
+None found.
 
 
 ### Entities
@@ -241,8 +311,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Decor/Decor Bamboo
+<details>
+<summary><strong>Village Cherry/Decor/Decor Bamboo</strong></summary>
+
+The structure is composed of the following blocks: Bamboo, Cherry Trapdoor, Grass Block.
 
 ### Blocks
 
@@ -251,7 +325,6 @@ None found.
 | Bamboo | 10 |
 | Cherry Trapdoor | 8 |
 | Grass Block | 3 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -264,15 +337,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Decor/Decor Fence
+<details>
+<summary><strong>Village Cherry/Decor/Decor Fence</strong></summary>
+
+The structure is composed of the following blocks: Cherry Fence.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Cherry Fence | 6 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -285,15 +361,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Decor/Decor Hay
+<details>
+<summary><strong>Village Cherry/Decor/Decor Hay</strong></summary>
+
+The structure is composed of the following blocks: Hay Block.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Hay Block | 11 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -306,15 +385,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Decor/Decor Light 1
+<details>
+<summary><strong>Village Cherry/Decor/Decor Light 1</strong></summary>
+
+The structure is composed of the following blocks: Waxed Copper Trapdoor, Mangrove Fence, Ochre Froglight, Waxed Cut Copper Slab.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Waxed Copper Trapdoor | 8 |
-| Jigsaw | 1 |
 | Mangrove Fence | 1 |
 | Ochre Froglight | 1 |
 | Waxed Cut Copper Slab | 1 |
@@ -330,8 +412,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Decor/Decor Light 2
+<details>
+<summary><strong>Village Cherry/Decor/Decor Light 2</strong></summary>
+
+The structure is composed of the following blocks: Mangrove Fence, Lantern.
 
 ### Blocks
 
@@ -339,7 +425,6 @@ None found.
 |:-----|:-----:|
 | Mangrove Fence | 6 |
 | Lantern | 2 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -352,8 +437,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Farms/Farm 1
+<details>
+<summary><strong>Village Cherry/Farms/Farm 1</strong></summary>
+
+The structure is composed of the following blocks: Farmland, Wheat, Dirt Path, Grass Block.
 
 ### Blocks
 
@@ -363,7 +452,6 @@ None found.
 | Wheat | 38 |
 | Dirt Path | 9 |
 | Grass Block | 1 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -376,8 +464,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Farms/Farm 2
+<details>
+<summary><strong>Village Cherry/Farms/Farm 2</strong></summary>
+
+The structure is composed of the following blocks: Beetroots, Farmland, Dirt Path.
 
 ### Blocks
 
@@ -386,7 +478,6 @@ None found.
 | Beetroots | 19 |
 | Farmland | 19 |
 | Dirt Path | 7 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -399,8 +490,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Farms/Farm 3
+<details>
+<summary><strong>Village Cherry/Farms/Farm 3</strong></summary>
+
+The structure is composed of the following blocks: Carrots, Farmland, Dirt Path.
 
 ### Blocks
 
@@ -409,7 +504,6 @@ None found.
 | Carrots | 22 |
 | Farmland | 22 |
 | Dirt Path | 8 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -422,8 +516,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Farms/Farm 4
+<details>
+<summary><strong>Village Cherry/Farms/Farm 4</strong></summary>
+
+The structure is composed of the following blocks: Dirt Path, Farmland, Grass Block, Pumpkin, Pumpkin Stem.
 
 ### Blocks
 
@@ -434,7 +532,6 @@ None found.
 | Grass Block | 3 |
 | Pumpkin | 3 |
 | Pumpkin Stem | 3 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -447,8 +544,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Farms/Farm 5
+<details>
+<summary><strong>Village Cherry/Farms/Farm 5</strong></summary>
+
+The structure is composed of the following blocks: Grass Block, Cherry Fence, Dirt Path, Cherry Fence Gate.
 
 ### Blocks
 
@@ -457,7 +558,6 @@ None found.
 | Grass Block | 36 |
 | Cherry Fence | 19 |
 | Dirt Path | 15 |
-| Jigsaw | 2 |
 | Cherry Fence Gate | 1 |
 
 
@@ -471,8 +571,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/House/Profession/House Armorer
+<details>
+<summary><strong>Village Cherry/House/Profession/House Armorer</strong></summary>
+
+The structure is composed of the following blocks: Deepslate Tile Slab, Grass Block, Cherry Stairs, Stripped Mangrove Log, Dirt, Tuff Bricks, Cherry Planks, Mangrove Planks, Cherry Trapdoor, Pink Petals, Cobblestone, Dirt Path, Cherry Door, Deepslate Tile Wall, Spruce Trapdoor, Lantern, Pink Bed, Blast Furnace, Chest, Damaged Anvil, Smooth Stone Slab, Stone Bricks.
 
 ### Blocks
 
@@ -493,7 +597,6 @@ None found.
 | Cherry Door | 4 |
 | Deepslate Tile Wall | 4 |
 | Spruce Trapdoor | 3 |
-| Jigsaw | 2 |
 | Lantern | 2 |
 | Pink Bed | 2 |
 | Blast Furnace | 1 |
@@ -515,8 +618,12 @@ None found.
 | kattersstructures:chests/cherry/armorer |
 
 
+</details>
 
-## Village Cherry/House/Profession/House Butcher
+<details>
+<summary><strong>Village Cherry/House/Profession/House Butcher</strong></summary>
+
+The structure is composed of the following blocks: Deepslate Tile Slab, Grass Block, Cherry Stairs, Cherry Planks, Stripped Mangrove Log, Dirt, Cherry Trapdoor, Pink Petals, Mangrove Planks, Cherry Fence, Cherry Door, Deepslate Tile Wall, Dirt Path, Lantern, Pink Bed, Campfire, Chain, Cherry Fence Gate, Cherry Slab, Chest, Hay Block, Mangrove Log, Smoker, Waxed Exposed Copper Trapdoor.
 
 ### Blocks
 
@@ -535,7 +642,6 @@ None found.
 | Cherry Door | 4 |
 | Deepslate Tile Wall | 4 |
 | Dirt Path | 4 |
-| Jigsaw | 3 |
 | Lantern | 3 |
 | Pink Bed | 2 |
 | Campfire | 1 |
@@ -561,8 +667,12 @@ None found.
 | kattersstructures:chests/cherry/butcher |
 
 
+</details>
 
-## Village Cherry/House/Profession/House Cartographer
+<details>
+<summary><strong>Village Cherry/House/Profession/House Cartographer</strong></summary>
+
+The structure is composed of the following blocks: Deepslate Tile Slab, Cherry Planks, Cherry Stairs, Dirt, Grass Block, Stripped Mangrove Log, Cherry Trapdoor, Mangrove Planks, Pink Petals, Mangrove Trapdoor, Bookshelf, Cherry Door, Dark Oak Stairs, Lantern, Mangrove Wall Hanging Sign, Mangrove Wall Sign, Pink Bed, Cartography Table, Chain, Chest, Decorated Pot, Dirt Path, Flower Pot, Mangrove Stairs.
 
 ### Blocks
 
@@ -581,7 +691,6 @@ None found.
 | Bookshelf | 5 |
 | Cherry Door | 4 |
 | Dark Oak Stairs | 3 |
-| Jigsaw | 3 |
 | Lantern | 3 |
 | Mangrove Wall Hanging Sign | 3 |
 | Mangrove Wall Sign | 2 |
@@ -607,8 +716,12 @@ None found.
 | kattersstructures:chests/cherry/cartographer |
 
 
+</details>
 
-## Village Cherry/House/Profession/House Cleric
+<details>
+<summary><strong>Village Cherry/House/Profession/House Cleric</strong></summary>
+
+The structure is composed of the following blocks: Deepslate Tile Slab, Dirt, Cherry Planks, Grass Block, Stripped Mangrove Log, Cherry Stairs, Mangrove Planks, Cherry Trapdoor, Pink Petals, Mangrove Trapdoor, Dark Oak Trapdoor, Tuff Bricks, Nether Wart, Soul Sand, Chain, Cherry Door, Dirt Path, Lilac, Peony, Pink Bed, Pitcher Plant, Brewing Stand, Campfire, Chest, Lantern, Torchflower.
 
 ### Blocks
 
@@ -631,7 +744,6 @@ None found.
 | Chain | 2 |
 | Cherry Door | 2 |
 | Dirt Path | 2 |
-| Jigsaw | 2 |
 | Lilac | 2 |
 | Peony | 2 |
 | Pink Bed | 2 |
@@ -655,8 +767,12 @@ None found.
 | kattersstructures:chests/cherry/cleric |
 
 
+</details>
 
-## Village Cherry/House/Profession/House Farmer
+<details>
+<summary><strong>Village Cherry/House/Profession/House Farmer</strong></summary>
+
+The structure is composed of the following blocks: Dirt, Stripped Spruce Log, Grass Block, Dirt Path, Seagrass, Kelp, Composter.
 
 ### Blocks
 
@@ -667,7 +783,6 @@ None found.
 | Grass Block | 8 |
 | Dirt Path | 7 |
 | Seagrass | 6 |
-| Jigsaw | 2 |
 | Kelp | 2 |
 | Composter | 1 |
 
@@ -682,8 +797,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/House/Profession/House Fisherman
+<details>
+<summary><strong>Village Cherry/House/Profession/House Fisherman</strong></summary>
+
+The structure is composed of the following blocks: Dirt, Deepslate Tile Slab, Stripped Mangrove Log, Cherry Stairs, Grass Block, Cherry Planks, Cherry Trapdoor, Mangrove Planks, Pink Petals, Cherry Fence, Lantern, Mangrove Wall Hanging Sign, Cherry Door, Mangrove Trapdoor, Pink Carpet, Dirt Path, Pink Bed, Tripwire Hook, Barrel, Lily Pad.
 
 ### Blocks
 
@@ -705,7 +824,6 @@ None found.
 | Mangrove Trapdoor | 4 |
 | Pink Carpet | 4 |
 | Dirt Path | 2 |
-| Jigsaw | 2 |
 | Pink Bed | 2 |
 | Tripwire Hook | 2 |
 | Barrel | 1 |
@@ -724,8 +842,12 @@ None found.
 | kattersstructures:chests/cherry/fisherman |
 
 
+</details>
 
-## Village Cherry/House/Profession/House Fletcher
+<details>
+<summary><strong>Village Cherry/House/Profession/House Fletcher</strong></summary>
+
+The structure is composed of the following blocks: Deepslate Tile Slab, Grass Block, Cherry Stairs, Cherry Planks, Dirt, Stripped Mangrove Log, Mangrove Planks, Cherry Trapdoor, Pink Petals, Dirt Path, Cherry Door, Hay Block, Spruce Trapdoor, Pink Bed, Birch Stairs, Chest, Fletching Table, Lantern, Oak Fence, Target.
 
 ### Blocks
 
@@ -744,7 +866,6 @@ None found.
 | Cherry Door | 4 |
 | Hay Block | 3 |
 | Spruce Trapdoor | 3 |
-| Jigsaw | 2 |
 | Pink Bed | 2 |
 | Birch Stairs | 1 |
 | Chest | 1 |
@@ -766,8 +887,12 @@ None found.
 | kattersstructures:chests/cherry/fletcher |
 
 
+</details>
 
-## Village Cherry/House/Profession/House Leatherworker
+<details>
+<summary><strong>Village Cherry/House/Profession/House Leatherworker</strong></summary>
+
+The structure is composed of the following blocks: Deepslate Tile Slab, Cherry Planks, Cherry Stairs, Grass Block, Dirt, Cherry Trapdoor, Stripped Mangrove Log, Mangrove Planks, Podzol, Pink Petals, Mangrove Wall Hanging Sign, Pink Carpet, Dirt Path, Magenta Wall Banner, Gray Wall Banner, Pink Wall Banner, Water Cauldron, White Wall Banner, Cherry Door, Pink Bed, Chest, Lantern.
 
 ### Blocks
 
@@ -792,7 +917,6 @@ None found.
 | Water Cauldron | 3 |
 | White Wall Banner | 3 |
 | Cherry Door | 2 |
-| Jigsaw | 2 |
 | Pink Bed | 2 |
 | Chest | 1 |
 | Lantern | 1 |
@@ -810,8 +934,12 @@ None found.
 | kattersstructures:chests/cherry/leatherworker |
 
 
+</details>
 
-## Village Cherry/House/Profession/House Librarian
+<details>
+<summary><strong>Village Cherry/House/Profession/House Librarian</strong></summary>
+
+The structure is composed of the following blocks: Deepslate Tile Slab, Cherry Stairs, Stripped Mangrove Log, Cherry Planks, Dirt, Grass Block, Cherry Trapdoor, Chiseled Bookshelf, Mangrove Planks, Bookshelf, Pink Petals, Ladder, Cherry Door, Dirt Path, Lantern, Pink Bed, Chest, Lectern.
 
 ### Blocks
 
@@ -828,7 +956,6 @@ None found.
 | Mangrove Planks | 15 |
 | Bookshelf | 14 |
 | Pink Petals | 14 |
-| Jigsaw | 4 |
 | Ladder | 4 |
 | Cherry Door | 2 |
 | Dirt Path | 2 |
@@ -850,8 +977,12 @@ None found.
 | kattersstructures:chests/cherry/house |
 
 
+</details>
 
-## Village Cherry/House/Profession/House Mason
+<details>
+<summary><strong>Village Cherry/House/Profession/House Mason</strong></summary>
+
+The structure is composed of the following blocks: Deepslate Tile Slab, Magenta Terracotta, Dirt, Stripped Mangrove Log, Grass Block, Cherry Trapdoor, Mangrove Planks, Pink Petals, Mangrove Trapdoor, Cherry Door, Pink Glazed Terracotta, Cherry Stairs, Dirt Path, Pink Bed, Stone Slab, Chest, Decorated Pot, Lantern, Stonecutter.
 
 ### Blocks
 
@@ -870,7 +1001,6 @@ None found.
 | Pink Glazed Terracotta | 4 |
 | Cherry Stairs | 2 |
 | Dirt Path | 2 |
-| Jigsaw | 2 |
 | Pink Bed | 2 |
 | Stone Slab | 2 |
 | Chest | 1 |
@@ -891,8 +1021,12 @@ None found.
 | kattersstructures:chests/cherry/mason |
 
 
+</details>
 
-## Village Cherry/House/Profession/House Shepherd
+<details>
+<summary><strong>Village Cherry/House/Profession/House Shepherd</strong></summary>
+
+The structure is composed of the following blocks: Deepslate Tile Slab, Grass Block, Cherry Planks, Cherry Stairs, Stripped Mangrove Log, Dirt, Cherry Fence, Pink Petals, Cherry Trapdoor, Mangrove Planks, Mangrove Trapdoor, Cherry Door, Dirt Path, Pink Bed, Chest, Lantern, Loom, Oak Slab, White Wall Banner, Yellow Wall Banner.
 
 ### Blocks
 
@@ -911,7 +1045,6 @@ None found.
 | Mangrove Trapdoor | 8 |
 | Cherry Door | 6 |
 | Dirt Path | 4 |
-| Jigsaw | 3 |
 | Pink Bed | 2 |
 | Chest | 1 |
 | Lantern | 1 |
@@ -933,8 +1066,12 @@ None found.
 | kattersstructures:chests/cherry/shepherd |
 
 
+</details>
 
-## Village Cherry/House/Profession/House Toolsmith
+<details>
+<summary><strong>Village Cherry/House/Profession/House Toolsmith</strong></summary>
+
+The structure is composed of the following blocks: Deepslate Tile Slab, Cherry Stairs, Cherry Planks, Grass Block, Dirt, Stripped Mangrove Log, Polished Tuff, Cherry Trapdoor, Pink Petals, Mangrove Planks, Coarse Dirt, Cherry Door, Polished Tuff Slab, Dirt Path, Pink Bed, Anvil, Chest, Decorated Pot, Lantern, Potted Cherry Sapling, Smithing Table, Waxed Exposed Copper Trapdoor.
 
 ### Blocks
 
@@ -954,7 +1091,6 @@ None found.
 | Cherry Door | 4 |
 | Polished Tuff Slab | 4 |
 | Dirt Path | 3 |
-| Jigsaw | 2 |
 | Pink Bed | 2 |
 | Anvil | 1 |
 | Chest | 1 |
@@ -977,8 +1113,12 @@ None found.
 | kattersstructures:chests/cherry/toolsmith |
 
 
+</details>
 
-## Village Cherry/House/Profession/House Weaponsmith
+<details>
+<summary><strong>Village Cherry/House/Profession/House Weaponsmith</strong></summary>
+
+The structure is composed of the following blocks: Deepslate Tile Slab, Cherry Stairs, Stripped Mangrove Log, Polished Tuff, Dirt, Grass Block, Cherry Planks, Cherry Trapdoor, Pink Petals, Mangrove Planks, Coarse Dirt, Cherry Door, Cherry Fence, Polished Tuff Slab, Dirt Path, Pink Bed, Chest, Chipped Anvil, Grindstone, Lantern, Waxed Exposed Copper Trapdoor.
 
 ### Blocks
 
@@ -999,7 +1139,6 @@ None found.
 | Cherry Fence | 4 |
 | Polished Tuff Slab | 4 |
 | Dirt Path | 2 |
-| Jigsaw | 2 |
 | Pink Bed | 2 |
 | Chest | 1 |
 | Chipped Anvil | 1 |
@@ -1020,8 +1159,12 @@ None found.
 | kattersstructures:chests/cherry/weaponsmith |
 
 
+</details>
 
-## Village Cherry/House/Rare/House Pagode
+<details>
+<summary><strong>Village Cherry/House/Rare/House Pagode</strong></summary>
+
+The structure is composed of the following blocks: Deepslate Tile Slab, Stripped Mangrove Log, Mangrove Fence, Cherry Stairs, Dirt, Cherry Planks, Cherry Trapdoor, Grass Block, Cherry Fence, Mangrove Planks, Cherry Slab, Lantern, Pink Petals, Tall Grass, Chest.
 
 ### Blocks
 
@@ -1041,7 +1184,6 @@ None found.
 | Lantern | 20 |
 | Pink Petals | 16 |
 | Tall Grass | 8 |
-| Jigsaw | 7 |
 | Chest | 1 |
 
 
@@ -1057,8 +1199,12 @@ None found.
 | kattersstructures:chests/cherry/pagode |
 
 
+</details>
 
-## Village Cherry/House/Rare/House Rare
+<details>
+<summary><strong>Village Cherry/House/Rare/House Rare</strong></summary>
+
+The structure is composed of the following blocks: Deepslate Tile Slab, Cherry Planks, Cherry Stairs, Grass Block, Stripped Mangrove Log, Dirt, Cherry Trapdoor, Cherry Slab, Mangrove Planks, Mangrove Trapdoor, Pink Petals, Hay Block, Tall Grass, Pink Glazed Terracotta, Cherry Fence, Lantern, Cherry Door, Mangrove Stairs, Pink Bed, Chest, Poppy, Crafting Table, Decorated Pot, Dirt Path, Potted Cherry Sapling.
 
 ### Blocks
 
@@ -1081,7 +1227,6 @@ None found.
 | Cherry Fence | 7 |
 | Lantern | 7 |
 | Cherry Door | 4 |
-| Jigsaw | 4 |
 | Mangrove Stairs | 4 |
 | Pink Bed | 4 |
 | Chest | 2 |
@@ -1105,8 +1250,12 @@ None found.
 | kattersstructures:chests/house |
 
 
+</details>
 
-## Village Cherry/House/Residence/House Long
+<details>
+<summary><strong>Village Cherry/House/Residence/House Long</strong></summary>
+
+The structure is composed of the following blocks: Deepslate Tile Slab, Dirt, Stripped Mangrove Log, Grass Block, Cherry Planks, Cherry Stairs, Cherry Trapdoor, Mangrove Planks, Cherry Fence, Tall Grass, Mangrove Trapdoor, Cherry Door, Lantern, Pink Bed, Cherry Slab, Chest, Dirt Path, Potted Cherry Sapling.
 
 ### Blocks
 
@@ -1124,7 +1273,6 @@ None found.
 | Tall Grass | 14 |
 | Mangrove Trapdoor | 11 |
 | Cherry Door | 8 |
-| Jigsaw | 5 |
 | Lantern | 2 |
 | Pink Bed | 2 |
 | Cherry Slab | 1 |
@@ -1145,8 +1293,12 @@ None found.
 | kattersstructures:chests/cherry/house |
 
 
+</details>
 
-## Village Cherry/House/Residence/House Small
+<details>
+<summary><strong>Village Cherry/House/Residence/House Small</strong></summary>
+
+The structure is composed of the following blocks: Deepslate Tile Slab, Cherry Planks, Cherry Stairs, Dirt, Stripped Mangrove Log, Grass Block, Cherry Trapdoor, Cherry Wall Sign, Mangrove Trapdoor, Tall Grass, Cherry Door, Mangrove Planks, Pink Bed, Chest, Lantern.
 
 ### Blocks
 
@@ -1164,7 +1316,6 @@ None found.
 | Tall Grass | 6 |
 | Cherry Door | 4 |
 | Mangrove Planks | 4 |
-| Jigsaw | 2 |
 | Pink Bed | 2 |
 | Chest | 1 |
 | Lantern | 1 |
@@ -1182,8 +1333,12 @@ None found.
 | kattersstructures:chests/cherry/house |
 
 
+</details>
 
-## Village Cherry/House/Residence/House Small 2
+<details>
+<summary><strong>Village Cherry/House/Residence/House Small 2</strong></summary>
+
+The structure is composed of the following blocks: Deepslate Tile Slab, Grass Block, Cherry Stairs, Dirt, Stripped Mangrove Log, Pink Petals, Cherry Fence, Mangrove Planks, Cherry Planks, Cherry Trapdoor, Cherry Door, Dirt Path, Lantern, Pink Bed.
 
 ### Blocks
 
@@ -1201,7 +1356,6 @@ None found.
 | Cherry Trapdoor | 7 |
 | Cherry Door | 6 |
 | Dirt Path | 5 |
-| Jigsaw | 3 |
 | Lantern | 2 |
 | Pink Bed | 2 |
 
@@ -1216,8 +1370,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/House/Residence/House Tiny
+<details>
+<summary><strong>Village Cherry/House/Residence/House Tiny</strong></summary>
+
+The structure is composed of the following blocks: Deepslate Tile Slab, Cherry Stairs, Stripped Mangrove Log, Cherry Planks, Grass Block, Dirt, Cherry Trapdoor, Pink Petals, Mangrove Planks, Pink Carpet, Cherry Door, Pink Bed, Dirt Path, Lantern.
 
 ### Blocks
 
@@ -1236,7 +1394,6 @@ None found.
 | Cherry Door | 2 |
 | Pink Bed | 2 |
 | Dirt Path | 1 |
-| Jigsaw | 1 |
 | Lantern | 1 |
 
 
@@ -1250,8 +1407,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/House/Residence/House Two Story
+<details>
+<summary><strong>Village Cherry/House/Residence/House Two Story</strong></summary>
+
+The structure is composed of the following blocks: Deepslate Tile Slab, Stripped Mangrove Log, Cherry Stairs, Grass Block, Cherry Trapdoor, Dirt, Cherry Planks, Pink Petals, Mangrove Planks, Cherry Wall Sign, Cherry Door, Ladder, Lantern, Pink Bed, Tall Grass, Barrel, Cherry Pressure Plate, Crafting Table, Dirt Path, Furnace.
 
 ### Blocks
 
@@ -1268,7 +1429,6 @@ None found.
 | Mangrove Planks | 8 |
 | Cherry Wall Sign | 6 |
 | Cherry Door | 4 |
-| Jigsaw | 3 |
 | Ladder | 3 |
 | Lantern | 2 |
 | Pink Bed | 2 |
@@ -1292,8 +1452,12 @@ None found.
 | kattersstructures:chests/cherry/house |
 
 
+</details>
 
-## Village Cherry/Streets/Street Aslant
+<details>
+<summary><strong>Village Cherry/Streets/Street Aslant</strong></summary>
+
+The structure is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Blocks
 
@@ -1301,7 +1465,6 @@ None found.
 |:-----|:-----:|
 | Dirt Path | 43 |
 | Grass Block | 16 |
-| Jigsaw | 4 |
 
 
 ### Entities
@@ -1314,8 +1477,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Streets/Street Aslant 2
+<details>
+<summary><strong>Village Cherry/Streets/Street Aslant 2</strong></summary>
+
+The structure is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Blocks
 
@@ -1323,7 +1490,6 @@ None found.
 |:-----|:-----:|
 | Dirt Path | 44 |
 | Grass Block | 15 |
-| Jigsaw | 4 |
 
 
 ### Entities
@@ -1336,8 +1502,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Streets/Street Cross
+<details>
+<summary><strong>Village Cherry/Streets/Street Cross</strong></summary>
+
+The structure is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Blocks
 
@@ -1345,7 +1515,6 @@ None found.
 |:-----|:-----:|
 | Dirt Path | 78 |
 | Grass Block | 28 |
-| Jigsaw | 8 |
 
 
 ### Entities
@@ -1358,8 +1527,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Streets/Street Curve
+<details>
+<summary><strong>Village Cherry/Streets/Street Curve</strong></summary>
+
+The structure is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Blocks
 
@@ -1367,7 +1540,6 @@ None found.
 |:-----|:-----:|
 | Dirt Path | 28 |
 | Grass Block | 8 |
-| Jigsaw | 4 |
 
 
 ### Entities
@@ -1380,8 +1552,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Streets/Street Curve 2
+<details>
+<summary><strong>Village Cherry/Streets/Street Curve 2</strong></summary>
+
+The structure is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Blocks
 
@@ -1389,7 +1565,6 @@ None found.
 |:-----|:-----:|
 | Dirt Path | 30 |
 | Grass Block | 6 |
-| Jigsaw | 4 |
 
 
 ### Entities
@@ -1402,8 +1577,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Streets/Street Curvy
+<details>
+<summary><strong>Village Cherry/Streets/Street Curvy</strong></summary>
+
+The structure is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Blocks
 
@@ -1411,7 +1590,6 @@ None found.
 |:-----|:-----:|
 | Dirt Path | 42 |
 | Grass Block | 25 |
-| Jigsaw | 4 |
 
 
 ### Entities
@@ -1424,8 +1602,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Streets/Street End
+<details>
+<summary><strong>Village Cherry/Streets/Street End</strong></summary>
+
+The structure is composed of the following blocks: Cherry Trapdoor, Cherry Slab, Grass Block, Stripped Cherry Log, Cherry Stairs, Dirt Path, Tall Grass, Cherry Log, Chiseled Tuff Bricks, Cherry Fence, Dirt, Pink Petals.
 
 ### Blocks
 
@@ -1443,7 +1625,6 @@ None found.
 | Cherry Fence | 2 |
 | Dirt | 2 |
 | Pink Petals | 2 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -1456,8 +1637,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Streets/Street Rare
+<details>
+<summary><strong>Village Cherry/Streets/Street Rare</strong></summary>
+
+The structure is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Blocks
 
@@ -1465,7 +1650,6 @@ None found.
 |:-----|:-----:|
 | Dirt Path | 17 |
 | Grass Block | 8 |
-| Jigsaw | 2 |
 
 
 ### Entities
@@ -1478,8 +1662,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Streets/Street Straight
+<details>
+<summary><strong>Village Cherry/Streets/Street Straight</strong></summary>
+
+The structure is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Blocks
 
@@ -1487,7 +1675,6 @@ None found.
 |:-----|:-----:|
 | Dirt Path | 44 |
 | Grass Block | 15 |
-| Jigsaw | 4 |
 
 
 ### Entities
@@ -1500,8 +1687,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Streets/Street Straight 2
+<details>
+<summary><strong>Village Cherry/Streets/Street Straight 2</strong></summary>
+
+The structure is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Blocks
 
@@ -1509,7 +1700,6 @@ None found.
 |:-----|:-----:|
 | Dirt Path | 46 |
 | Grass Block | 12 |
-| Jigsaw | 5 |
 
 
 ### Entities
@@ -1522,8 +1712,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Streets/Street T
+<details>
+<summary><strong>Village Cherry/Streets/Street T</strong></summary>
+
+The structure is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Blocks
 
@@ -1531,7 +1725,6 @@ None found.
 |:-----|:-----:|
 | Dirt Path | 62 |
 | Grass Block | 21 |
-| Jigsaw | 6 |
 
 
 ### Entities
@@ -1544,8 +1737,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Streets/Street Y
+<details>
+<summary><strong>Village Cherry/Streets/Street Y</strong></summary>
+
+The structure is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Blocks
 
@@ -1553,7 +1750,6 @@ None found.
 |:-----|:-----:|
 | Dirt Path | 39 |
 | Grass Block | 22 |
-| Jigsaw | 4 |
 
 
 ### Entities
@@ -1566,8 +1762,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Cherry/Town Centers/Shrine Center
+<details>
+<summary><strong>Village Cherry/Town Centers/Shrine Center</strong></summary>
+
+The structure is composed of the following blocks: Dirt, Cherry Fence, Deepslate Tile Slab, Stripped Mangrove Log, Deepslate Tile Stairs, Tuff Bricks, Mangrove Planks, Cherry Trapdoor, Polished Tuff, Grass Block, Tall Grass, Dirt Path, Tuff Brick Stairs, Polished Tuff Stairs, Lantern, Pink Petals, Deepslate Tile Wall, Mangrove Stairs, Polished Tuff Slab, Tuff Brick Slab, Bell, Gold Block, Mangrove Slab, Mangrove Trapdoor, Poppy.
 
 ### Blocks
 
@@ -1586,7 +1786,6 @@ None found.
 | Tall Grass | 10 |
 | Dirt Path | 8 |
 | Tuff Brick Stairs | 7 |
-| Jigsaw | 6 |
 | Polished Tuff Stairs | 5 |
 | Lantern | 4 |
 | Pink Petals | 4 |
@@ -1611,155 +1810,4 @@ None found.
 None found.
 
 
-
-## Summary
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Deepslate Tile Slab | 2051 |
-| Grass Block | 1027 |
-| Dirt | 916 |
-| Stripped Mangrove Log | 914 |
-| Cherry Stairs | 851 |
-| Cherry Planks | 746 |
-| Dirt Path | 591 |
-| Cherry Trapdoor | 507 |
-| Mangrove Planks | 344 |
-| Pink Petals | 243 |
-| Cherry Fence | 206 |
-| Jigsaw | 134 |
-| Mangrove Fence | 131 |
-| Cherry Slab | 107 |
-| Mangrove Trapdoor | 92 |
-| Polished Tuff | 87 |
-| Farmland | 82 |
-| Cherry Door | 72 |
-| Magenta Terracotta | 71 |
-| Tuff Bricks | 69 |
-| Tall Grass | 64 |
-| Lantern | 63 |
-| Deepslate Tile Stairs | 48 |
-| Hay Block | 38 |
-| Pink Bed | 38 |
-| Wheat | 38 |
-| Carrots | 22 |
-| Beetroots | 19 |
-| Bookshelf | 19 |
-| Coarse Dirt | 19 |
-| Pink Carpet | 18 |
-| Mangrove Wall Hanging Sign | 17 |
-| Chest | 16 |
-| Stripped Spruce Log | 16 |
-| Chiseled Bookshelf | 15 |
-| Cherry Wall Sign | 14 |
-| Pink Glazed Terracotta | 13 |
-| Podzol | 11 |
-| Bamboo | 10 |
-| Deepslate Tile Wall | 10 |
-| Polished Tuff Slab | 10 |
-| Stripped Cherry Log | 8 |
-| Waxed Copper Trapdoor | 8 |
-| Cobblestone | 7 |
-| Ladder | 7 |
-| Mangrove Stairs | 7 |
-| Tuff Brick Stairs | 7 |
-| Seagrass | 6 |
-| Spruce Trapdoor | 6 |
-| Dark Oak Trapdoor | 5 |
-| Polished Tuff Stairs | 5 |
-| Chain | 4 |
-| Cherry Log | 4 |
-| Chiseled Tuff Bricks | 4 |
-| Decorated Pot | 4 |
-| Magenta Wall Banner | 4 |
-| White Wall Banner | 4 |
-| Dark Oak Stairs | 3 |
-| Gray Wall Banner | 3 |
-| Nether Wart | 3 |
-| Pink Wall Banner | 3 |
-| Poppy | 3 |
-| Potted Cherry Sapling | 3 |
-| Pumpkin | 3 |
-| Pumpkin Stem | 3 |
-| Soul Sand | 3 |
-| Water Cauldron | 3 |
-| Waxed Exposed Copper Trapdoor | 3 |
-| Barrel | 2 |
-| Campfire | 2 |
-| Cherry Fence Gate | 2 |
-| Crafting Table | 2 |
-| Kelp | 2 |
-| Lilac | 2 |
-| Mangrove Wall Sign | 2 |
-| Peony | 2 |
-| Pitcher Plant | 2 |
-| Stone Slab | 2 |
-| Tripwire Hook | 2 |
-| Tuff Brick Slab | 2 |
-| Anvil | 1 |
-| Bell | 1 |
-| Birch Stairs | 1 |
-| Blast Furnace | 1 |
-| Brewing Stand | 1 |
-| Cartography Table | 1 |
-| Cherry Pressure Plate | 1 |
-| Chipped Anvil | 1 |
-| Composter | 1 |
-| Damaged Anvil | 1 |
-| Fletching Table | 1 |
-| Flower Pot | 1 |
-| Furnace | 1 |
-| Gold Block | 1 |
-| Grindstone | 1 |
-| Lectern | 1 |
-| Lily Pad | 1 |
-| Loom | 1 |
-| Mangrove Log | 1 |
-| Mangrove Slab | 1 |
-| Oak Fence | 1 |
-| Oak Slab | 1 |
-| Ochre Froglight | 1 |
-| Smithing Table | 1 |
-| Smoker | 1 |
-| Smooth Stone Slab | 1 |
-| Stone Bricks | 1 |
-| Stonecutter | 1 |
-| Target | 1 |
-| Torchflower | 1 |
-| Waxed Cut Copper Slab | 1 |
-| Yellow Wall Banner | 1 |
-
-
-### Entities
-
-| Entity | Count |
-|:-----|:-----:|
-| Horse | 5 |
-| Pig | 3 |
-| Sheep | 3 |
-| Cow | 1 |
-| Mule | 1 |
-
-
-### Loot Tables
-
-| Loot Table |
-|:-----|
-| kattersstructures:chests/cherry/armorer |
-| kattersstructures:chests/cherry/butcher |
-| kattersstructures:chests/cherry/cartographer |
-| kattersstructures:chests/cherry/cleric |
-| kattersstructures:chests/cherry/fisherman |
-| kattersstructures:chests/cherry/fletcher |
-| kattersstructures:chests/cherry/house |
-| kattersstructures:chests/cherry/leatherworker |
-| kattersstructures:chests/cherry/mason |
-| kattersstructures:chests/cherry/pagode |
-| kattersstructures:chests/cherry/shepherd |
-| kattersstructures:chests/cherry/toolsmith |
-| kattersstructures:chests/cherry/weaponsmith |
-| kattersstructures:chests/house |
-
-
+</details>

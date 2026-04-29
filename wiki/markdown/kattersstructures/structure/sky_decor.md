@@ -1,6 +1,27 @@
 # Sky Decor
 
-## Sky Decor/Sky Decor 01
+## Summary
+
+The structure is composed of the following blocks: Gray Wool, Light Gray Wool, Light Gray Concrete, Dark Oak Planks, Dark Oak Trapdoor, Green Concrete, White Concrete, White Wool, Brown Wool, Green Terracotta, Dark Oak Fence, Green Wool, Brown Concrete, Birch Slab, Brown Mushroom Block, Brown Terracotta, Birch Planks, Dark Oak Stairs, Pale Oak Trapdoor, Dark Oak Log, Smooth Quartz, Mushroom Stem, Mangrove Trapdoor, Warped Trapdoor, Warped Planks, Pale Oak Planks, Mangrove Planks, Mangrove Fence, Warped Fence, Dark Oak Fence Gate, Pale Oak Fence, Pale Oak Stairs, Warped Stairs, Pale Oak Slab, Mangrove Stairs, Warped Slab, Mangrove Slab, White Wall Banner, Birch Stairs, Ochre Froglight, Chest, Polished Blackstone Wall, Cyan Wall Banner, Red Wall Banner, White Carpet, Crimson Planks, Chain, Glass Pane, Polished Diorite, Red Carpet, Pearlescent Froglight, Crimson Slab, Dark Prismarine, Barrel, Decorated Pot, Crimson Stairs, Green Wall Banner, Campfire, Dark Prismarine Stairs, Lever, Polished Blackstone, Dark Oak Slab, Dark Prismarine Slab, Polished Diorite Stairs, Stripped Dark Oak Log, Bookshelf, Grindstone, Polished Diorite Slab, Soul Campfire, Crimson Fence, Lantern, Spawner, Chiseled Bookshelf, Verdant Froglight, Iron Door, Spruce Button, Fletching Table, Polished Blackstone Button.
+
+Additionally, the following entities may spawn during its generation: Allay, Glow Item Frame.
+
+### Loot Tables
+
+| Loot Table |
+|:-----|
+| kattersstructures:chests/sky_decor/chests |
+| kattersstructures:chests/sky_decor/pillager/arrows |
+| kattersstructures:chests/sky_decor/pillager/storage |
+| kattersstructures:chests/sky_decor/pillager/tnt |
+| kattersstructures:chests/sky_decor/pillager/treasure |
+
+
+
+<details>
+<summary><strong>Sky Decor/Sky Decor 01</strong></summary>
+
+The structure is composed of the following blocks: White Wool, White Concrete, Smooth Quartz, Warped Planks, Warped Fence, Warped Trapdoor, Warped Slab, Cyan Wall Banner, Warped Stairs, Dark Prismarine, Dark Prismarine Stairs, Ochre Froglight, Dark Prismarine Slab, Chain, Decorated Pot, Chest, Soul Campfire, Verdant Froglight.
 
 ### Blocks
 
@@ -22,7 +43,6 @@
 | Chain | 2 |
 | Decorated Pot | 2 |
 | Chest | 1 |
-| Jigsaw | 1 |
 | Soul Campfire | 1 |
 | Verdant Froglight | 1 |
 
@@ -39,8 +59,12 @@ None found.
 | kattersstructures:chests/sky_decor/chests |
 
 
+</details>
 
-## Sky Decor/Sky Decor 02
+<details>
+<summary><strong>Sky Decor/Sky Decor 02</strong></summary>
+
+The structure is composed of the following blocks: Brown Wool, Brown Terracotta, Brown Concrete, Mangrove Planks, Brown Mushroom Block, Mangrove Fence, Mangrove Trapdoor, Crimson Planks, Mangrove Slab, Red Wall Banner, Mangrove Stairs, Crimson Slab, Crimson Stairs, Ochre Froglight, Crimson Fence, Chain, Decorated Pot, Chest, Soul Campfire, Verdant Froglight.
 
 ### Blocks
 
@@ -64,7 +88,6 @@ None found.
 | Chain | 2 |
 | Decorated Pot | 2 |
 | Chest | 1 |
-| Jigsaw | 1 |
 | Soul Campfire | 1 |
 | Verdant Froglight | 1 |
 
@@ -81,8 +104,12 @@ None found.
 | kattersstructures:chests/sky_decor/chests |
 
 
+</details>
 
-## Sky Decor/Sky Decor 03
+<details>
+<summary><strong>Sky Decor/Sky Decor 03</strong></summary>
+
+The structure is composed of the following blocks: Green Concrete, Green Terracotta, Green Wool, Pale Oak Planks, Pale Oak Fence, Pale Oak Trapdoor, Pale Oak Slab, Polished Diorite, Pale Oak Stairs, Green Wall Banner, Pearlescent Froglight, White Wall Banner, Polished Diorite Stairs, Polished Diorite Slab, Chain, Decorated Pot, Chest, Soul Campfire, Verdant Froglight.
 
 ### Blocks
 
@@ -105,7 +132,6 @@ None found.
 | Chain | 2 |
 | Decorated Pot | 2 |
 | Chest | 1 |
-| Jigsaw | 1 |
 | Soul Campfire | 1 |
 | Verdant Froglight | 1 |
 
@@ -122,8 +148,12 @@ None found.
 | kattersstructures:chests/sky_decor/chests |
 
 
+</details>
 
-## Sky Decor/Sky Decor 04
+<details>
+<summary><strong>Sky Decor/Sky Decor 04</strong></summary>
+
+The structure is composed of the following blocks: White Concrete, White Wool, Mushroom Stem, Warped Trapdoor, Warped Stairs, Warped Fence, Warped Slab, Cyan Wall Banner, Ochre Froglight, Decorated Pot, Chain, Chest, Soul Campfire.
 
 ### Blocks
 
@@ -141,7 +171,6 @@ None found.
 | Decorated Pot | 2 |
 | Chain | 1 |
 | Chest | 1 |
-| Jigsaw | 1 |
 | Soul Campfire | 1 |
 
 
@@ -157,8 +186,12 @@ None found.
 | kattersstructures:chests/sky_decor/chests |
 
 
+</details>
 
-## Sky Decor/Sky Decor 05
+<details>
+<summary><strong>Sky Decor/Sky Decor 05</strong></summary>
+
+The structure is composed of the following blocks: Brown Mushroom Block, Brown Wool, Brown Concrete, Mangrove Trapdoor, Brown Terracotta, Mangrove Stairs, Mangrove Fence, Mangrove Slab, Ochre Froglight, Red Wall Banner, Decorated Pot, Chain, Chest, Soul Campfire.
 
 ### Blocks
 
@@ -177,7 +210,6 @@ None found.
 | Decorated Pot | 2 |
 | Chain | 1 |
 | Chest | 1 |
-| Jigsaw | 1 |
 | Soul Campfire | 1 |
 
 
@@ -193,8 +225,12 @@ None found.
 | kattersstructures:chests/sky_decor/chests |
 
 
+</details>
 
-## Sky Decor/Sky Decor 06
+<details>
+<summary><strong>Sky Decor/Sky Decor 06</strong></summary>
+
+The structure is composed of the following blocks: Green Concrete, Green Terracotta, Green Wool, Pale Oak Trapdoor, Pale Oak Stairs, Pale Oak Slab, Pale Oak Fence, Mangrove Fence, Pearlescent Froglight, White Wall Banner, Decorated Pot, Green Wall Banner, Chain, Chest, Soul Campfire.
 
 ### Blocks
 
@@ -214,7 +250,6 @@ None found.
 | Green Wall Banner | 2 |
 | Chain | 1 |
 | Chest | 1 |
-| Jigsaw | 1 |
 | Soul Campfire | 1 |
 
 
@@ -230,8 +265,14 @@ None found.
 | kattersstructures:chests/sky_decor/chests |
 
 
+</details>
 
-## Sky Decor/Sky Decor Pillager 01
+<details>
+<summary><strong>Sky Decor/Sky Decor Pillager 01</strong></summary>
+
+The structure is composed of the following blocks: Gray Wool, Light Gray Wool, Light Gray Concrete, Dark Oak Planks, Dark Oak Trapdoor, Dark Oak Fence, Birch Slab, Birch Planks, Dark Oak Stairs, Dark Oak Log, Dark Oak Fence Gate, Pale Oak Trapdoor, Birch Stairs, Polished Blackstone Wall, White Carpet, White Wall Banner, Chest, Glass Pane, Red Carpet, Barrel, Chain, Campfire, Lever, Polished Blackstone, Dark Oak Slab, Stripped Dark Oak Log, Bookshelf, Grindstone, Lantern, Spawner, Chiseled Bookshelf, Iron Door, Spruce Button, Fletching Table, Polished Blackstone Button.
+
+Additionally, the following entities may spawn during its generation: Allay, Glow Item Frame.
 
 ### Blocks
 
@@ -249,7 +290,6 @@ None found.
 | Dark Oak Log | 130 |
 | Dark Oak Fence Gate | 53 |
 | Pale Oak Trapdoor | 44 |
-| Jigsaw | 32 |
 | Birch Stairs | 28 |
 | Polished Blackstone Wall | 24 |
 | White Carpet | 22 |
@@ -293,110 +333,4 @@ None found.
 | kattersstructures:chests/sky_decor/pillager/treasure |
 
 
-
-## Summary
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Gray Wool | 675 |
-| Light Gray Wool | 600 |
-| Light Gray Concrete | 565 |
-| Dark Oak Planks | 393 |
-| Dark Oak Trapdoor | 347 |
-| Green Concrete | 315 |
-| White Concrete | 274 |
-| White Wool | 244 |
-| Brown Wool | 238 |
-| Green Terracotta | 236 |
-| Dark Oak Fence | 198 |
-| Green Wool | 194 |
-| Brown Concrete | 186 |
-| Birch Slab | 174 |
-| Brown Mushroom Block | 168 |
-| Brown Terracotta | 153 |
-| Birch Planks | 152 |
-| Dark Oak Stairs | 150 |
-| Pale Oak Trapdoor | 142 |
-| Dark Oak Log | 130 |
-| Smooth Quartz | 114 |
-| Mushroom Stem | 113 |
-| Mangrove Trapdoor | 98 |
-| Warped Trapdoor | 98 |
-| Warped Planks | 79 |
-| Pale Oak Planks | 74 |
-| Mangrove Planks | 71 |
-| Mangrove Fence | 58 |
-| Warped Fence | 56 |
-| Dark Oak Fence Gate | 53 |
-| Pale Oak Fence | 50 |
-| Pale Oak Stairs | 43 |
-| Warped Stairs | 42 |
-| Pale Oak Slab | 41 |
-| Mangrove Stairs | 40 |
-| Warped Slab | 40 |
-| Jigsaw | 38 |
-| Mangrove Slab | 34 |
-| White Wall Banner | 31 |
-| Birch Stairs | 28 |
-| Ochre Froglight | 28 |
-| Chest | 24 |
-| Polished Blackstone Wall | 24 |
-| Cyan Wall Banner | 22 |
-| Red Wall Banner | 22 |
-| White Carpet | 22 |
-| Crimson Planks | 21 |
-| Chain | 20 |
-| Glass Pane | 18 |
-| Polished Diorite | 18 |
-| Red Carpet | 18 |
-| Pearlescent Froglight | 14 |
-| Crimson Slab | 13 |
-| Dark Prismarine | 13 |
-| Barrel | 12 |
-| Decorated Pot | 12 |
-| Crimson Stairs | 10 |
-| Green Wall Banner | 10 |
-| Campfire | 9 |
-| Dark Prismarine Stairs | 8 |
-| Lever | 8 |
-| Polished Blackstone | 8 |
-| Dark Oak Slab | 7 |
-| Dark Prismarine Slab | 7 |
-| Polished Diorite Stairs | 7 |
-| Stripped Dark Oak Log | 7 |
-| Bookshelf | 6 |
-| Grindstone | 6 |
-| Polished Diorite Slab | 6 |
-| Soul Campfire | 6 |
-| Crimson Fence | 4 |
-| Lantern | 4 |
-| Spawner | 4 |
-| Chiseled Bookshelf | 3 |
-| Verdant Froglight | 3 |
-| Iron Door | 2 |
-| Spruce Button | 2 |
-| Fletching Table | 1 |
-| Polished Blackstone Button | 1 |
-
-
-### Entities
-
-| Entity | Count |
-|:-----|:-----:|
-| Allay | 12 |
-| Glow Item Frame | 1 |
-
-
-### Loot Tables
-
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky_decor/chests |
-| kattersstructures:chests/sky_decor/pillager/arrows |
-| kattersstructures:chests/sky_decor/pillager/storage |
-| kattersstructures:chests/sky_decor/pillager/tnt |
-| kattersstructures:chests/sky_decor/pillager/treasure |
-
-
+</details>

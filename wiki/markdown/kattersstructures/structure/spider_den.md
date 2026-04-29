@@ -1,6 +1,21 @@
 # Spider Den
 
-## Spider Den/Spider Den Back
+## Summary
+
+The structure is composed of the following blocks: Stripped Jungle Log, Jungle Log, Jungle Wood, Moss Carpet, White Wool, Vine, Cobweb.
+
+Additionally, the following entities may spawn during its generation: Bat.
+
+### Loot Tables
+
+None found.
+
+
+
+<details>
+<summary><strong>Spider Den/Spider Den Back</strong></summary>
+
+The structure is composed of the following blocks: Jungle Wood, Jungle Log, Stripped Jungle Log.
 
 ### Blocks
 
@@ -9,7 +24,6 @@
 | Jungle Wood | 157 |
 | Jungle Log | 100 |
 | Stripped Jungle Log | 39 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -22,8 +36,12 @@ None found.
 None found.
 
 
+</details>
 
-## Spider Den/Spider Den Left
+<details>
+<summary><strong>Spider Den/Spider Den Left</strong></summary>
+
+The structure is composed of the following blocks: Jungle Wood, Jungle Log, Stripped Jungle Log.
 
 ### Blocks
 
@@ -32,7 +50,6 @@ None found.
 | Jungle Wood | 252 |
 | Jungle Log | 167 |
 | Stripped Jungle Log | 50 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -45,8 +62,14 @@ None found.
 None found.
 
 
+</details>
 
-## Spider Den/Spider Den Main
+<details>
+<summary><strong>Spider Den/Spider Den Main</strong></summary>
+
+The structure is composed of the following blocks: Stripped Jungle Log, Jungle Log, Jungle Wood, Moss Carpet, White Wool, Vine, Cobweb.
+
+Additionally, the following entities may spawn during its generation: Bat.
 
 ### Blocks
 
@@ -59,7 +82,6 @@ None found.
 | White Wool | 582 |
 | Vine | 291 |
 | Cobweb | 24 |
-| Jigsaw | 4 |
 
 
 ### Entities
@@ -74,8 +96,12 @@ None found.
 None found.
 
 
+</details>
 
-## Spider Den/Spider Den Right
+<details>
+<summary><strong>Spider Den/Spider Den Right</strong></summary>
+
+The structure is composed of the following blocks: Jungle Wood, Jungle Log, Stripped Jungle Log.
 
 ### Blocks
 
@@ -83,7 +109,6 @@ None found.
 |:-----|:-----:|
 | Jungle Wood | 73 |
 | Jungle Log | 17 |
-| Jigsaw | 1 |
 | Stripped Jungle Log | 1 |
 
 
@@ -97,14 +122,16 @@ None found.
 None found.
 
 
+</details>
 
-## Spider Den/Spider Den Start
+<details>
+<summary><strong>Spider Den/Spider Den Start</strong></summary>
+
+The structure does not contain any notable blocks.
 
 ### Blocks
 
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
+None found.
 
 
 ### Entities
@@ -117,32 +144,4 @@ None found.
 None found.
 
 
-
-## Summary
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Stripped Jungle Log | 6724 |
-| Jungle Log | 5896 |
-| Jungle Wood | 2175 |
-| Moss Carpet | 628 |
-| White Wool | 582 |
-| Vine | 291 |
-| Cobweb | 24 |
-| Jigsaw | 8 |
-
-
-### Entities
-
-| Entity | Count |
-|:-----|:-----:|
-| Bat | 1 |
-
-
-### Loot Tables
-
-None found.
-
-
+</details>

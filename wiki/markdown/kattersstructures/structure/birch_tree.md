@@ -1,6 +1,23 @@
 # Birch Tree
 
-## Birch Tree/Big Birch Tree
+## Summary
+
+The structure is composed of the following blocks: Dirt, Jungle Leaves, Birch Leaves, Coarse Dirt, Birch Wood, Grass Block, Mushroom Stem, Cobblestone Slab, Oak Planks, Moss Carpet, Birch Log, Birch Planks, Stripped Birch Log, Vine, Moss Block, Oak Fence, Lantern, Birch Fence, Spore Blossom, Birch Door, Oak Stairs, White Bed, Birch Trapdoor, Campfire, Chest, Spawner.
+
+Additionally, the following entities may spawn during its generation: Villager.
+
+### Loot Tables
+
+| Loot Table |
+|:-----|
+| kattersstructures:chests/birch_tree/birch_tree |
+
+
+
+<details>
+<summary><strong>Birch Tree/Big Birch Tree</strong></summary>
+
+The structure is composed of the following blocks: Dirt, Jungle Leaves, Birch Leaves, Coarse Dirt, Birch Wood, Grass Block, Mushroom Stem, Moss Carpet, Lantern, Moss Block, Spore Blossom, Spawner.
 
 ### Blocks
 
@@ -13,7 +30,6 @@
 | Birch Wood | 123 |
 | Grass Block | 112 |
 | Mushroom Stem | 103 |
-| Jigsaw | 15 |
 | Moss Carpet | 13 |
 | Lantern | 6 |
 | Moss Block | 6 |
@@ -31,14 +47,16 @@ None found.
 None found.
 
 
+</details>
 
-## Birch Tree/Big Birch Tree Start
+<details>
+<summary><strong>Birch Tree/Big Birch Tree Start</strong></summary>
+
+The structure does not contain any notable blocks.
 
 ### Blocks
 
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
+None found.
 
 
 ### Entities
@@ -51,8 +69,12 @@ None found.
 None found.
 
 
+</details>
 
-## Birch Tree/Birch Camp
+<details>
+<summary><strong>Birch Tree/Birch Camp</strong></summary>
+
+The structure is composed of the following blocks: Coarse Dirt, Moss Carpet, Birch Log, Campfire.
 
 ### Blocks
 
@@ -61,7 +83,6 @@ None found.
 | Coarse Dirt | 12 |
 | Moss Carpet | 5 |
 | Birch Log | 3 |
-| Jigsaw | 2 |
 | Campfire | 1 |
 
 
@@ -75,8 +96,12 @@ None found.
 None found.
 
 
+</details>
 
-## Birch Tree/Birch Hut
+<details>
+<summary><strong>Birch Tree/Birch Hut</strong></summary>
+
+The structure is composed of the following blocks: Cobblestone Slab, Oak Planks, Birch Planks, Coarse Dirt, Vine, Oak Fence, Birch Fence, Grass Block, Moss Block, Birch Door, Oak Stairs, White Bed, Birch Trapdoor, Chest, Lantern.
 
 ### Blocks
 
@@ -96,7 +121,6 @@ None found.
 | White Bed | 2 |
 | Birch Trapdoor | 1 |
 | Chest | 1 |
-| Jigsaw | 1 |
 | Lantern | 1 |
 
 
@@ -112,8 +136,12 @@ None found.
 | kattersstructures:chests/birch_tree/birch_tree |
 
 
+</details>
 
-## Birch Tree/Birch Logs 1
+<details>
+<summary><strong>Birch Tree/Birch Logs 1</strong></summary>
+
+The structure is composed of the following blocks: Coarse Dirt, Stripped Birch Log, Birch Log.
 
 ### Blocks
 
@@ -122,7 +150,6 @@ None found.
 | Coarse Dirt | 12 |
 | Stripped Birch Log | 9 |
 | Birch Log | 2 |
-| Jigsaw | 2 |
 
 
 ### Entities
@@ -135,8 +162,12 @@ None found.
 None found.
 
 
+</details>
 
-## Birch Tree/Birch Logs 2
+<details>
+<summary><strong>Birch Tree/Birch Logs 2</strong></summary>
+
+The structure is composed of the following blocks: Coarse Dirt, Birch Log, Moss Carpet, Stripped Birch Log.
 
 ### Blocks
 
@@ -145,7 +176,6 @@ None found.
 | Coarse Dirt | 12 |
 | Birch Log | 8 |
 | Moss Carpet | 5 |
-| Jigsaw | 2 |
 | Stripped Birch Log | 2 |
 
 
@@ -159,8 +189,12 @@ None found.
 None found.
 
 
+</details>
 
-## Birch Tree/Birch Logs 3
+<details>
+<summary><strong>Birch Tree/Birch Logs 3</strong></summary>
+
+The structure is composed of the following blocks: Coarse Dirt, Moss Carpet, Birch Log.
 
 ### Blocks
 
@@ -169,7 +203,6 @@ None found.
 | Coarse Dirt | 10 |
 | Moss Carpet | 5 |
 | Birch Log | 4 |
-| Jigsaw | 2 |
 
 
 ### Entities
@@ -182,14 +215,18 @@ None found.
 None found.
 
 
+</details>
 
-## Birch Tree/Villagers Lumberjack
+<details>
+<summary><strong>Birch Tree/Villagers Lumberjack</strong></summary>
+
+The structure does not contain any notable blocks.
+
+Additionally, the following entities may spawn during its generation: Villager.
 
 ### Blocks
 
-| Block | Count |
-|:-----|:-----:|
-| Jigsaw | 1 |
+None found.
 
 
 ### Entities
@@ -204,53 +241,4 @@ None found.
 None found.
 
 
-
-## Summary
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Dirt | 602 |
-| Jungle Leaves | 343 |
-| Birch Leaves | 325 |
-| Coarse Dirt | 212 |
-| Birch Wood | 123 |
-| Grass Block | 118 |
-| Mushroom Stem | 103 |
-| Cobblestone Slab | 44 |
-| Oak Planks | 35 |
-| Moss Carpet | 28 |
-| Jigsaw | 26 |
-| Birch Log | 17 |
-| Birch Planks | 16 |
-| Stripped Birch Log | 11 |
-| Vine | 11 |
-| Moss Block | 9 |
-| Oak Fence | 9 |
-| Lantern | 7 |
-| Birch Fence | 6 |
-| Spore Blossom | 4 |
-| Birch Door | 2 |
-| Oak Stairs | 2 |
-| White Bed | 2 |
-| Birch Trapdoor | 1 |
-| Campfire | 1 |
-| Chest | 1 |
-| Spawner | 1 |
-
-
-### Entities
-
-| Entity | Count |
-|:-----|:-----:|
-| Villager | 1 |
-
-
-### Loot Tables
-
-| Loot Table |
-|:-----|
-| kattersstructures:chests/birch_tree/birch_tree |
-
-
+</details>

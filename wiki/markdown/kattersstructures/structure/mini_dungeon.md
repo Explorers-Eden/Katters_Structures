@@ -1,6 +1,19 @@
 # Mini Dungeon
 
-## Mini Dungeon/Mini Dungeon Rugged Shack
+## Summary
+
+The structure is composed of the following blocks: Stone, Stone Bricks, Polished Andesite, Dark Oak Slab, Grass Block, Stone Brick Stairs, Oak Log, Tuff Brick Slab, Tuff Bricks, Polished Tuff Slab, Coarse Dirt, Dirt, Dark Oak Stairs, Stone Brick Slab, Oak Planks, Stripped Oak Wood, Oak Fence, Oak Wall Sign, Dirt Path, Oak Stairs, Cracked Stone Bricks, Polished Tuff, Stone Stairs, Polished Andesite Stairs, Oak Slab, Tuff Brick Stairs, Cobweb, Polished Tuff Wall, Tuff Brick Wall, Chain, Oak Wall Hanging Sign, Chiseled Tuff Bricks, Fire, Netherrack, Polished Tuff Stairs, Trial Spawner, Chiseled Tuff, Oak Door, Oak Hanging Sign, Oak Pressure Plate, Light Gray Stained Glass Pane, Lodestone, Oak Fence Gate, Spruce Trapdoor.
+
+### Loot Tables
+
+None found.
+
+
+
+<details>
+<summary><strong>Mini Dungeon/Mini Dungeon Rugged Shack</strong></summary>
+
+The structure is composed of the following blocks: Dark Oak Slab, Oak Log, Tuff Bricks, Dark Oak Stairs, Oak Planks, Stripped Oak Wood, Coarse Dirt, Oak Fence, Oak Wall Sign, Oak Stairs, Grass Block, Oak Slab, Cobweb, Polished Tuff, Oak Wall Hanging Sign, Tuff Brick Slab, Polished Tuff Slab, Chain, Dirt, Oak Door, Oak Hanging Sign, Oak Pressure Plate, Light Gray Stained Glass Pane, Oak Fence Gate, Spruce Trapdoor, Trial Spawner.
 
 ### Blocks
 
@@ -44,8 +57,12 @@ None found.
 None found.
 
 
+</details>
 
-## Mini Dungeon/Mini Dungeon Ruin
+<details>
+<summary><strong>Mini Dungeon/Mini Dungeon Ruin</strong></summary>
+
+The structure is composed of the following blocks: Stone Bricks, Grass Block, Dirt Path, Cracked Stone Bricks, Coarse Dirt, Stone Brick Slab, Stone Brick Stairs, Lodestone, Trial Spawner.
 
 ### Blocks
 
@@ -72,8 +89,12 @@ None found.
 None found.
 
 
+</details>
 
-## Mini Dungeon/Mini Dungeon Stone
+<details>
+<summary><strong>Mini Dungeon/Mini Dungeon Stone</strong></summary>
+
+The structure is composed of the following blocks: Stone, Polished Andesite, Stone Bricks, Stone Brick Stairs, Stone Brick Slab, Stone Stairs, Polished Andesite Stairs, Fire, Netherrack, Trial Spawner.
 
 ### Blocks
 
@@ -101,8 +122,12 @@ None found.
 None found.
 
 
+</details>
 
-## Mini Dungeon/Mini Dungeon Tuff
+<details>
+<summary><strong>Mini Dungeon/Mini Dungeon Tuff</strong></summary>
+
+The structure is composed of the following blocks: Tuff Brick Slab, Polished Tuff Slab, Dirt, Grass Block, Tuff Brick Stairs, Polished Tuff Wall, Tuff Brick Wall, Dirt Path, Chiseled Tuff Bricks, Polished Tuff, Polished Tuff Stairs, Tuff Bricks, Chain, Chiseled Tuff, Trial Spawner.
 
 ### Blocks
 
@@ -135,66 +160,4 @@ None found.
 None found.
 
 
-
-## Summary
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Stone | 179 |
-| Stone Bricks | 90 |
-| Polished Andesite | 64 |
-| Dark Oak Slab | 52 |
-| Grass Block | 50 |
-| Stone Brick Stairs | 41 |
-| Oak Log | 38 |
-| Tuff Brick Slab | 36 |
-| Tuff Bricks | 34 |
-| Polished Tuff Slab | 30 |
-| Coarse Dirt | 27 |
-| Dirt | 27 |
-| Dark Oak Stairs | 25 |
-| Stone Brick Slab | 25 |
-| Oak Planks | 24 |
-| Stripped Oak Wood | 24 |
-| Oak Fence | 17 |
-| Oak Wall Sign | 17 |
-| Dirt Path | 16 |
-| Oak Stairs | 14 |
-| Cracked Stone Bricks | 10 |
-| Polished Tuff | 10 |
-| Stone Stairs | 10 |
-| Polished Andesite Stairs | 9 |
-| Oak Slab | 8 |
-| Tuff Brick Stairs | 8 |
-| Cobweb | 6 |
-| Polished Tuff Wall | 6 |
-| Tuff Brick Wall | 6 |
-| Chain | 5 |
-| Oak Wall Hanging Sign | 5 |
-| Chiseled Tuff Bricks | 4 |
-| Fire | 4 |
-| Netherrack | 4 |
-| Polished Tuff Stairs | 4 |
-| Trial Spawner | 4 |
-| Chiseled Tuff | 2 |
-| Oak Door | 2 |
-| Oak Hanging Sign | 2 |
-| Oak Pressure Plate | 2 |
-| Light Gray Stained Glass Pane | 1 |
-| Lodestone | 1 |
-| Oak Fence Gate | 1 |
-| Spruce Trapdoor | 1 |
-
-
-### Entities
-
-None found.
-
-
-### Loot Tables
-
-None found.
-
-
+</details>

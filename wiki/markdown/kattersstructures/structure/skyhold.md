@@ -1,6 +1,26 @@
 # Skyhold
 
-## Skyhold/Skyhold Center
+## Summary
+
+The structure is composed of the following blocks: Stone, Dirt, Grass Block, Pale Moss Block, Snow, Stone Bricks, Polished Andesite, Coarse Dirt, Sculk, Blue Ice, Iron Ore, Dirt Path, Pale Oak Planks, Pale Oak Leaves, Spruce Slab, Sculk Vein, Spruce Log, Raw Iron Block, Coal Ore, Stripped Jungle Log, Gravel, Cobblestone, Spruce Planks, Cracked Stone Bricks, Stripped Spruce Log, Polished Andesite Slab, Glow Lichen, Stripped Oak Log, Stripped Pale Oak Log, Magma Block, Stone Brick Slab, Fire, Rail, Jungle Slab, Jungle Log, Iron Bars, Oak Log, Hay Block, Pale Oak Log, Iron Block, Ladder, Polished Andesite Stairs, Netherrack, Dead Bush, Dark Oak Slab, Spruce Fence, Dark Oak Stairs, Pale Oak Wood, Black Wall Banner, Dead Bubble Coral, Spruce Trapdoor, Stone Slab, Dark Oak Trapdoor, Stone Brick Stairs, Oak Fence, Sculk Sensor, Dark Oak Door, Chain, Chest, Stone Stairs, Stripped Pale Oak Wood, Dark Oak Planks, Pale Oak Fence, Andesite Stairs, Pale Oak Trapdoor, Gray Bed, Pale Oak Slab, Redstone Block, Heavy Weighted Pressure Plate, Mossy Stone Bricks, Carved Pumpkin, Pale Oak Fence Gate, Andesite, Cobweb, Andesite Slab, Chiseled Stone Bricks, Sculk Shrieker, Iron Door, Stone Button, Sculk Catalyst, Spruce Stairs, Bell, Pale Oak Stairs.
+
+Additionally, the following entities may spawn during its generation: Ravager, Evoker, Vindicator, Iron Golem, Item.
+
+### Loot Tables
+
+| Loot Table |
+|:-----|
+| kattersstructures:chests/skyhold/house |
+| kattersstructures:chests/skyhold/iron |
+
+
+
+<details>
+<summary><strong>Skyhold/Skyhold Center</strong></summary>
+
+The structure is composed of the following blocks: Stone, Dirt, Polished Andesite, Stone Bricks, Grass Block, Sculk, Pale Moss Block, Iron Ore, Spruce Slab, Blue Ice, Snow, Sculk Vein, Spruce Log, Dirt Path, Pale Oak Leaves, Coal Ore, Spruce Planks, Gravel, Coarse Dirt, Pale Oak Planks, Raw Iron Block, Cracked Stone Bricks, Magma Block, Polished Andesite Slab, Stripped Spruce Log, Stripped Jungle Log, Cobblestone, Fire, Stone Brick Slab, Iron Block, Iron Bars, Stripped Oak Log, Rail, Jungle Log, Polished Andesite Stairs, Spruce Fence, Jungle Slab, Netherrack, Glow Lichen, Dark Oak Slab, Dark Oak Trapdoor, Chest, Oak Log, Chain, Black Wall Banner, Spruce Trapdoor, Dark Oak Door, Dead Bubble Coral, Heavy Weighted Pressure Plate, Pale Oak Fence, Sculk Sensor, Carved Pumpkin, Dead Bush, Gray Bed, Pale Oak Trapdoor, Stone Slab, Stripped Pale Oak Wood, Ladder, Pale Oak Slab, Iron Door, Stone Stairs, Cobweb, Pale Oak Fence Gate, Sculk Shrieker, Pale Oak Wood, Redstone Block, Spruce Stairs, Stripped Pale Oak Log, Pale Oak Log, Sculk Catalyst.
+
+Additionally, the following entities may spawn during its generation: Ravager, Evoker, Vindicator, Item.
 
 ### Blocks
 
@@ -63,7 +83,6 @@
 | Pale Oak Trapdoor | 6 |
 | Stone Slab | 6 |
 | Stripped Pale Oak Wood | 6 |
-| Jigsaw | 5 |
 | Ladder | 5 |
 | Pale Oak Slab | 5 |
 | Iron Door | 4 |
@@ -97,15 +116,18 @@
 | kattersstructures:chests/skyhold/iron |
 
 
+</details>
 
-## Skyhold/Skyhold Center D
+<details>
+<summary><strong>Skyhold/Skyhold Center D</strong></summary>
+
+The structure is composed of the following blocks: Stone.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Stone | 32255 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -118,8 +140,14 @@ None found.
 None found.
 
 
+</details>
 
-## Skyhold/Skyhold East
+<details>
+<summary><strong>Skyhold/Skyhold East</strong></summary>
+
+The structure is composed of the following blocks: Stone, Dirt, Grass Block, Stone Bricks, Pale Moss Block, Snow, Stripped Pale Oak Log, Polished Andesite, Cobblestone, Polished Andesite Slab, Stripped Jungle Log, Pale Oak Leaves, Raw Iron Block, Stripped Spruce Log, Stripped Oak Log, Dirt Path, Spruce Log, Blue Ice, Jungle Log, Spruce Slab, Pale Oak Planks, Spruce Planks, Cracked Stone Bricks, Spruce Fence, Iron Ore, Oak Log, Polished Andesite Stairs, Stone Brick Slab, Jungle Slab, Ladder, Stone Brick Stairs, Fire, Sculk Vein, Stone Stairs, Gravel, Stone Slab, Dark Oak Door, Dark Oak Trapdoor, Gray Bed, Oak Fence, Redstone Block, Black Wall Banner, Coal Ore, Sculk.
+
+Additionally, the following entities may spawn during its generation: Vindicator.
 
 ### Blocks
 
@@ -164,7 +192,6 @@ None found.
 | Dark Oak Door | 2 |
 | Dark Oak Trapdoor | 2 |
 | Gray Bed | 2 |
-| Jigsaw | 2 |
 | Oak Fence | 2 |
 | Redstone Block | 2 |
 | Black Wall Banner | 1 |
@@ -184,8 +211,12 @@ None found.
 None found.
 
 
+</details>
 
-## Skyhold/Skyhold East D
+<details>
+<summary><strong>Skyhold/Skyhold East D</strong></summary>
+
+The structure is composed of the following blocks: Stone, Dirt.
 
 ### Blocks
 
@@ -193,7 +224,6 @@ None found.
 |:-----|:-----:|
 | Stone | 17940 |
 | Dirt | 164 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -206,8 +236,14 @@ None found.
 None found.
 
 
+</details>
 
-## Skyhold/Skyhold North
+<details>
+<summary><strong>Skyhold/Skyhold North</strong></summary>
+
+The structure is composed of the following blocks: Stone, Dirt, Snow, Grass Block, Pale Moss Block, Polished Andesite, Stone Bricks, Blue Ice, Iron Ore, Pale Oak Leaves, Pale Oak Planks, Glow Lichen, Raw Iron Block, Coal Ore, Sculk Vein, Dirt Path, Hay Block, Rail, Spruce Log, Pale Oak Log, Cobblestone, Sculk, Spruce Slab, Cracked Stone Bricks, Stripped Jungle Log, Stone Brick Slab, Ladder, Pale Oak Wood, Stripped Oak Log, Stripped Spruce Log, Polished Andesite Slab, Coarse Dirt, Jungle Slab, Oak Log, Stone Slab, Black Wall Banner, Gravel, Fire, Jungle Log, Stripped Pale Oak Wood, Stone Stairs, Dark Oak Door, Pale Oak Fence, Redstone Block, Pale Oak Fence Gate, Pale Oak Slab, Pale Oak Trapdoor, Spruce Planks, Cobweb, Netherrack, Stripped Pale Oak Log, Chest, Dead Bush, Carved Pumpkin, Pale Oak Stairs, Polished Andesite Stairs.
+
+Additionally, the following entities may spawn during its generation: Evoker, Ravager.
 
 ### Blocks
 
@@ -260,7 +296,6 @@ None found.
 | Pale Oak Fence Gate | 5 |
 | Pale Oak Slab | 5 |
 | Pale Oak Trapdoor | 5 |
-| Jigsaw | 4 |
 | Spruce Planks | 4 |
 | Cobweb | 3 |
 | Netherrack | 3 |
@@ -287,8 +322,12 @@ None found.
 | kattersstructures:chests/skyhold/house |
 
 
+</details>
 
-## Skyhold/Skyhold North D
+<details>
+<summary><strong>Skyhold/Skyhold North D</strong></summary>
+
+The structure is composed of the following blocks: Stone, Dirt.
 
 ### Blocks
 
@@ -296,7 +335,6 @@ None found.
 |:-----|:-----:|
 | Stone | 25348 |
 | Dirt | 113 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -309,8 +347,12 @@ None found.
 None found.
 
 
+</details>
 
-## Skyhold/Skyhold North East
+<details>
+<summary><strong>Skyhold/Skyhold North East</strong></summary>
+
+The structure is composed of the following blocks: Stone, Dirt, Grass Block, Snow, Pale Moss Block, Sculk, Pale Oak Planks, Iron Ore, Stone Bricks, Sculk Vein, Blue Ice, Stripped Pale Oak Log, Sculk Sensor, Polished Andesite Slab, Raw Iron Block, Coal Ore, Polished Andesite, Sculk Shrieker, Black Wall Banner, Netherrack, Sculk Catalyst.
 
 ### Blocks
 
@@ -333,7 +375,6 @@ None found.
 | Raw Iron Block | 8 |
 | Coal Ore | 5 |
 | Polished Andesite | 4 |
-| Jigsaw | 2 |
 | Sculk Shrieker | 2 |
 | Black Wall Banner | 1 |
 | Netherrack | 1 |
@@ -350,8 +391,12 @@ None found.
 None found.
 
 
+</details>
 
-## Skyhold/Skyhold North East D
+<details>
+<summary><strong>Skyhold/Skyhold North East D</strong></summary>
+
+The structure is composed of the following blocks: Stone, Dirt.
 
 ### Blocks
 
@@ -359,7 +404,6 @@ None found.
 |:-----|:-----:|
 | Stone | 16336 |
 | Dirt | 100 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -372,8 +416,12 @@ None found.
 None found.
 
 
+</details>
 
-## Skyhold/Skyhold North West
+<details>
+<summary><strong>Skyhold/Skyhold North West</strong></summary>
+
+The structure is composed of the following blocks: Stone, Dirt, Grass Block, Pale Moss Block, Dirt Path, Gravel, Jungle Slab.
 
 ### Blocks
 
@@ -386,7 +434,6 @@ None found.
 | Dirt Path | 23 |
 | Gravel | 3 |
 | Jungle Slab | 3 |
-| Jigsaw | 2 |
 
 
 ### Entities
@@ -399,8 +446,12 @@ None found.
 None found.
 
 
+</details>
 
-## Skyhold/Skyhold North West D
+<details>
+<summary><strong>Skyhold/Skyhold North West D</strong></summary>
+
+The structure is composed of the following blocks: Stone, Dirt.
 
 ### Blocks
 
@@ -408,7 +459,6 @@ None found.
 |:-----|:-----:|
 | Stone | 3014 |
 | Dirt | 56 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -421,8 +471,12 @@ None found.
 None found.
 
 
+</details>
 
-## Skyhold/Skyhold South
+<details>
+<summary><strong>Skyhold/Skyhold South</strong></summary>
+
+The structure is composed of the following blocks: Dirt, Stone, Grass Block, Pale Moss Block.
 
 ### Blocks
 
@@ -432,7 +486,6 @@ None found.
 | Stone | 238 |
 | Grass Block | 236 |
 | Pale Moss Block | 67 |
-| Jigsaw | 4 |
 
 
 ### Entities
@@ -445,8 +498,12 @@ None found.
 None found.
 
 
+</details>
 
-## Skyhold/Skyhold South D
+<details>
+<summary><strong>Skyhold/Skyhold South D</strong></summary>
+
+The structure is composed of the following blocks: Stone, Dirt.
 
 ### Blocks
 
@@ -454,7 +511,6 @@ None found.
 |:-----|:-----:|
 | Stone | 3680 |
 | Dirt | 138 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -467,8 +523,12 @@ None found.
 None found.
 
 
+</details>
 
-## Skyhold/Skyhold South East
+<details>
+<summary><strong>Skyhold/Skyhold South East</strong></summary>
+
+The structure is composed of the following blocks: Grass Block, Dirt, Stone.
 
 ### Blocks
 
@@ -476,7 +536,6 @@ None found.
 |:-----|:-----:|
 | Grass Block | 10 |
 | Dirt | 6 |
-| Jigsaw | 2 |
 | Stone | 2 |
 
 
@@ -490,8 +549,12 @@ None found.
 None found.
 
 
+</details>
 
-## Skyhold/Skyhold South East D
+<details>
+<summary><strong>Skyhold/Skyhold South East D</strong></summary>
+
+The structure is composed of the following blocks: Stone, Dirt.
 
 ### Blocks
 
@@ -499,7 +562,6 @@ None found.
 |:-----|:-----:|
 | Stone | 105 |
 | Dirt | 12 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -512,8 +574,12 @@ None found.
 None found.
 
 
+</details>
 
-## Skyhold/Skyhold South West
+<details>
+<summary><strong>Skyhold/Skyhold South West</strong></summary>
+
+The structure is composed of the following blocks: Stone, Dirt, Grass Block, Coarse Dirt, Pale Moss Block, Dirt Path, Dead Bush, Dead Bubble Coral, Fire, Netherrack.
 
 ### Blocks
 
@@ -528,7 +594,6 @@ None found.
 | Dead Bush | 6 |
 | Dead Bubble Coral | 5 |
 | Fire | 1 |
-| Jigsaw | 1 |
 | Netherrack | 1 |
 
 
@@ -542,8 +607,12 @@ None found.
 None found.
 
 
+</details>
 
-## Skyhold/Skyhold South West D
+<details>
+<summary><strong>Skyhold/Skyhold South West D</strong></summary>
+
+The structure is composed of the following blocks: Stone, Dirt.
 
 ### Blocks
 
@@ -551,7 +620,6 @@ None found.
 |:-----|:-----:|
 | Stone | 9639 |
 | Dirt | 245 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -564,8 +632,14 @@ None found.
 None found.
 
 
+</details>
 
-## Skyhold/Skyhold West
+<details>
+<summary><strong>Skyhold/Skyhold West</strong></summary>
+
+The structure is composed of the following blocks: Stone, Dirt, Grass Block, Coarse Dirt, Pale Moss Block, Dirt Path, Stone Bricks, Stripped Jungle Log, Cobblestone, Stripped Oak Log, Stripped Spruce Log, Dark Oak Stairs, Iron Bars, Cracked Stone Bricks, Gravel, Jungle Slab, Spruce Log, Dead Bush, Oak Fence, Spruce Slab, Dark Oak Planks, Dark Oak Slab, Fire, Spruce Trapdoor, Stone Brick Stairs, Andesite Stairs, Oak Log, Netherrack, Pale Oak Leaves, Dead Bubble Coral, Mossy Stone Bricks, Spruce Planks, Jungle Log, Andesite, Stone Brick Slab, Andesite Slab, Chiseled Stone Bricks, Magma Block, Stone Button, Chain, Dark Oak Trapdoor, Gray Bed, Bell, Black Wall Banner, Carved Pumpkin, Heavy Weighted Pressure Plate.
+
+Additionally, the following entities may spawn during its generation: Ravager, Evoker, Iron Golem, Vindicator.
 
 ### Blocks
 
@@ -617,7 +691,6 @@ None found.
 | Black Wall Banner | 1 |
 | Carved Pumpkin | 1 |
 | Heavy Weighted Pressure Plate | 1 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -635,8 +708,12 @@ None found.
 None found.
 
 
+</details>
 
-## Skyhold/Skyhold West D
+<details>
+<summary><strong>Skyhold/Skyhold West D</strong></summary>
+
+The structure is composed of the following blocks: Stone, Dirt.
 
 ### Blocks
 
@@ -644,7 +721,6 @@ None found.
 |:-----|:-----:|
 | Stone | 24857 |
 | Dirt | 161 |
-| Jigsaw | 2 |
 
 
 ### Entities
@@ -657,115 +733,4 @@ None found.
 None found.
 
 
-
-## Summary
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Stone | 253925 |
-| Dirt | 9971 |
-| Grass Block | 4542 |
-| Pale Moss Block | 2123 |
-| Snow | 1785 |
-| Stone Bricks | 1773 |
-| Polished Andesite | 1576 |
-| Coarse Dirt | 898 |
-| Sculk | 697 |
-| Blue Ice | 615 |
-| Iron Ore | 554 |
-| Dirt Path | 453 |
-| Pale Oak Planks | 373 |
-| Pale Oak Leaves | 355 |
-| Spruce Slab | 326 |
-| Sculk Vein | 320 |
-| Spruce Log | 253 |
-| Raw Iron Block | 245 |
-| Coal Ore | 244 |
-| Stripped Jungle Log | 180 |
-| Gravel | 173 |
-| Cobblestone | 171 |
-| Spruce Planks | 164 |
-| Cracked Stone Bricks | 148 |
-| Stripped Spruce Log | 144 |
-| Polished Andesite Slab | 138 |
-| Glow Lichen | 118 |
-| Stripped Oak Log | 111 |
-| Stripped Pale Oak Log | 85 |
-| Magma Block | 82 |
-| Stone Brick Slab | 80 |
-| Fire | 69 |
-| Rail | 69 |
-| Jungle Slab | 61 |
-| Jungle Log | 59 |
-| Iron Bars | 57 |
-| Oak Log | 46 |
-| Hay Block | 41 |
-| Pale Oak Log | 37 |
-| Iron Block | 36 |
-| Ladder | 34 |
-| Polished Andesite Stairs | 34 |
-| Jigsaw | 33 |
-| Netherrack | 33 |
-| Dead Bush | 31 |
-| Dark Oak Slab | 28 |
-| Spruce Fence | 28 |
-| Dark Oak Stairs | 25 |
-| Pale Oak Wood | 25 |
-| Black Wall Banner | 23 |
-| Dead Bubble Coral | 23 |
-| Spruce Trapdoor | 23 |
-| Stone Slab | 23 |
-| Dark Oak Trapdoor | 19 |
-| Stone Brick Stairs | 18 |
-| Oak Fence | 17 |
-| Sculk Sensor | 17 |
-| Dark Oak Door | 16 |
-| Chain | 15 |
-| Chest | 15 |
-| Stone Stairs | 15 |
-| Stripped Pale Oak Wood | 14 |
-| Dark Oak Planks | 13 |
-| Pale Oak Fence | 13 |
-| Andesite Stairs | 12 |
-| Pale Oak Trapdoor | 11 |
-| Gray Bed | 10 |
-| Pale Oak Slab | 10 |
-| Redstone Block | 10 |
-| Heavy Weighted Pressure Plate | 9 |
-| Mossy Stone Bricks | 9 |
-| Carved Pumpkin | 8 |
-| Pale Oak Fence Gate | 8 |
-| Andesite | 6 |
-| Cobweb | 6 |
-| Andesite Slab | 5 |
-| Chiseled Stone Bricks | 5 |
-| Sculk Shrieker | 5 |
-| Iron Door | 4 |
-| Stone Button | 4 |
-| Sculk Catalyst | 2 |
-| Spruce Stairs | 2 |
-| Bell | 1 |
-| Pale Oak Stairs | 1 |
-
-
-### Entities
-
-| Entity | Count |
-|:-----|:-----:|
-| Ravager | 7 |
-| Evoker | 4 |
-| Vindicator | 4 |
-| Iron Golem | 1 |
-| Item | 1 |
-
-
-### Loot Tables
-
-| Loot Table |
-|:-----|
-| kattersstructures:chests/skyhold/house |
-| kattersstructures:chests/skyhold/iron |
-
-
+</details>

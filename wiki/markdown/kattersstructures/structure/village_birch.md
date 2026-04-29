@@ -1,6 +1,28 @@
 # Village Birch
 
-## Village Birch/Center
+## Summary
+
+The structure is composed of the following blocks: Stripped Birch Log, Birch Planks, Hay Block, Grass Block, Red Mushroom Block, Moss Block, Birch Slab, Birch Button, Birch Fence, Vine, Moss Carpet, Birch Stairs, Podzol, Mud, Chain, Jack O Lantern, Bookshelf, Birch Trapdoor, Brown Mushroom, Seagrass, Cobweb, Ladder, Mangrove Door, Red Mushroom, Chiseled Bookshelf, Birch Fence Gate, Smooth Stone, Chest, Poppy, Gray Bed, Light Gray Bed, Brown Candle, Decorated Pot, Potted Flowering Azalea Bush, Tall Seagrass, Smooth Stone Slab, Spruce Trapdoor, White Bed, Dark Oak Stairs, Farmland, Wheat, Potted Red Mushroom, Beehive, Campfire, Honeycomb Block, Oak Fence, Polished Blackstone Stairs, Tripwire Hook, Anvil, Birch Log, Composter, Furnace, Polished Blackstone Button, Polished Deepslate Slab, Barrel, Bell, Birch Sapling, Blast Furnace, Cartography Table, Damaged Anvil, Flowering Azalea Leaves, Grindstone, Honey Block, Iron Trapdoor, Lectern, Mangrove Slab, Oak Button, Polished Deepslate Stairs, Potted Brown Mushroom, Smithing Table, Stripped Birch Wood, Water Cauldron.
+
+Additionally, the following entities may spawn during its generation: Item Frame, Villager.
+
+### Loot Tables
+
+| Loot Table |
+|:-----|
+| kattersstructures:chests/birch/cartographer |
+| kattersstructures:chests/birch/fisherman |
+| kattersstructures:chests/birch/house |
+| kattersstructures:chests/birch/shepherd |
+| kattersstructures:chests/birch/toolsmith |
+| kattersstructures:chests/birch/weaponsmith |
+
+
+
+<details>
+<summary><strong>Village Birch/Center</strong></summary>
+
+The structure is composed of the following blocks: Hay Block, Stripped Birch Log, Red Mushroom Block, Grass Block, Birch Slab, Birch Planks, Vine, Moss Block, Birch Button, Podzol, Moss Carpet, Chain, Bell.
 
 ### Blocks
 
@@ -17,7 +39,6 @@
 | Birch Button | 14 |
 | Podzol | 12 |
 | Moss Carpet | 8 |
-| Jigsaw | 5 |
 | Chain | 2 |
 | Bell | 1 |
 
@@ -32,8 +53,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Birch/Decor/Decor 01
+<details>
+<summary><strong>Village Birch/Decor/Decor 01</strong></summary>
+
+The structure is composed of the following blocks: Moss Carpet, Birch Log, Stripped Birch Log, Vine.
 
 ### Blocks
 
@@ -43,7 +68,6 @@ None found.
 | Birch Log | 2 |
 | Stripped Birch Log | 2 |
 | Vine | 2 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -56,14 +80,17 @@ None found.
 None found.
 
 
+</details>
 
-## Village Birch/Decor/Decor 02
+<details>
+<summary><strong>Village Birch/Decor/Decor 02</strong></summary>
+
+The structure is composed of the following blocks: Moss Carpet.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
-| Jigsaw | 1 |
 | Moss Carpet | 1 |
 
 
@@ -77,14 +104,17 @@ None found.
 None found.
 
 
+</details>
 
-## Village Birch/Decor/Decor 03
+<details>
+<summary><strong>Village Birch/Decor/Decor 03</strong></summary>
+
+The structure is composed of the following blocks: Mangrove Slab.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
-| Jigsaw | 1 |
 | Mangrove Slab | 1 |
 
 
@@ -98,8 +128,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Birch/Decor/Decor 04
+<details>
+<summary><strong>Village Birch/Decor/Decor 04</strong></summary>
+
+The structure is composed of the following blocks: Hay Block, Moss Carpet, Vine.
 
 ### Blocks
 
@@ -108,7 +142,6 @@ None found.
 | Hay Block | 7 |
 | Moss Carpet | 3 |
 | Vine | 2 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -121,8 +154,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Birch/Decor/Decor 05
+<details>
+<summary><strong>Village Birch/Decor/Decor 05</strong></summary>
+
+The structure is composed of the following blocks: Birch Fence, Hay Block, Jack O Lantern, Moss Carpet.
 
 ### Blocks
 
@@ -131,7 +168,6 @@ None found.
 | Birch Fence | 2 |
 | Hay Block | 1 |
 | Jack O Lantern | 1 |
-| Jigsaw | 1 |
 | Moss Carpet | 1 |
 
 
@@ -145,15 +181,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Birch/Decor/Decor 06
+<details>
+<summary><strong>Village Birch/Decor/Decor 06</strong></summary>
+
+The structure is composed of the following blocks: Brown Candle.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Brown Candle | 1 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -166,15 +205,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Birch/Decor/Decor 07
+<details>
+<summary><strong>Village Birch/Decor/Decor 07</strong></summary>
+
+The structure is composed of the following blocks: Birch Fence.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Birch Fence | 4 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -187,14 +229,17 @@ None found.
 None found.
 
 
+</details>
 
-## Village Birch/Decor/Decor 08
+<details>
+<summary><strong>Village Birch/Decor/Decor 08</strong></summary>
+
+The structure is composed of the following blocks: Red Mushroom.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
-| Jigsaw | 1 |
 | Red Mushroom | 1 |
 
 
@@ -208,15 +253,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Birch/Decor/Decor 09
+<details>
+<summary><strong>Village Birch/Decor/Decor 09</strong></summary>
+
+The structure is composed of the following blocks: Brown Mushroom.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Brown Mushroom | 1 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -229,15 +277,18 @@ None found.
 None found.
 
 
+</details>
 
-## Village Birch/Decor/Decor 10
+<details>
+<summary><strong>Village Birch/Decor/Decor 10</strong></summary>
+
+The structure is composed of the following blocks: Birch Sapling.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Birch Sapling | 1 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -250,8 +301,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Birch/House/Armorer
+<details>
+<summary><strong>Village Birch/House/Armorer</strong></summary>
+
+The structure is composed of the following blocks: Spruce Trapdoor, Furnace, Polished Deepslate Slab, Anvil, Blast Furnace, Chest, Polished Deepslate Stairs.
 
 ### Blocks
 
@@ -263,7 +318,6 @@ None found.
 | Anvil | 1 |
 | Blast Furnace | 1 |
 | Chest | 1 |
-| Jigsaw | 1 |
 | Polished Deepslate Stairs | 1 |
 
 
@@ -277,8 +331,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Birch/House/House 1
+<details>
+<summary><strong>Village Birch/House/House 1</strong></summary>
+
+The structure is composed of the following blocks: Hay Block, Stripped Birch Log, Birch Planks, Birch Slab, Birch Fence, Moss Block, Red Mushroom Block, Birch Button, Vine, Moss Carpet, Grass Block, Birch Stairs, Cobweb, Ladder, Jack O Lantern, Chest, Red Mushroom, Birch Fence Gate, Brown Mushroom, Chain, Mangrove Door, Podzol, White Bed, Brown Candle, Potted Flowering Azalea Bush, Stripped Birch Wood.
 
 ### Blocks
 
@@ -304,7 +362,6 @@ None found.
 | Birch Fence Gate | 2 |
 | Brown Mushroom | 2 |
 | Chain | 2 |
-| Jigsaw | 2 |
 | Mangrove Door | 2 |
 | Podzol | 2 |
 | White Bed | 2 |
@@ -325,8 +382,12 @@ None found.
 | kattersstructures:chests/birch/house |
 
 
+</details>
 
-## Village Birch/House/House 2
+<details>
+<summary><strong>Village Birch/House/House 2</strong></summary>
+
+The structure is composed of the following blocks: Stripped Birch Log, Birch Planks, Hay Block, Birch Slab, Birch Button, Red Mushroom Block, Vine, Birch Fence, Moss Block, Moss Carpet, Birch Stairs, Grass Block, Birch Trapdoor, Birch Fence Gate, Cobweb, Brown Mushroom, Jack O Lantern, Red Mushroom, Chain, Light Gray Bed, Podzol, Chest, Gray Bed, Ladder, Mangrove Door, White Bed, Brown Candle, Decorated Pot, Potted Flowering Azalea Bush.
 
 ### Blocks
 
@@ -349,7 +410,6 @@ None found.
 | Cobweb | 7 |
 | Brown Mushroom | 6 |
 | Jack O Lantern | 5 |
-| Jigsaw | 5 |
 | Red Mushroom | 5 |
 | Chain | 4 |
 | Light Gray Bed | 4 |
@@ -376,8 +436,12 @@ None found.
 | kattersstructures:chests/birch/house |
 
 
+</details>
 
-## Village Birch/House/House 3
+<details>
+<summary><strong>Village Birch/House/House 3</strong></summary>
+
+The structure is composed of the following blocks: Birch Planks, Stripped Birch Log, Hay Block, Red Mushroom Block, Birch Button, Birch Slab, Grass Block, Birch Fence, Moss Block, Vine, Birch Stairs, Moss Carpet, Podzol, Gray Bed, Jack O Lantern, Brown Mushroom, Chain, Cobweb, Mangrove Door, Birch Trapdoor, Chest, Decorated Pot, Ladder, Potted Flowering Azalea Bush, Potted Red Mushroom, Red Mushroom.
 
 ### Blocks
 
@@ -400,7 +464,6 @@ None found.
 | Jack O Lantern | 4 |
 | Brown Mushroom | 3 |
 | Chain | 3 |
-| Jigsaw | 3 |
 | Cobweb | 2 |
 | Mangrove Door | 2 |
 | Birch Trapdoor | 1 |
@@ -424,8 +487,12 @@ None found.
 | kattersstructures:chests/birch/house |
 
 
+</details>
 
-## Village Birch/House/House 4
+<details>
+<summary><strong>Village Birch/House/House 4</strong></summary>
+
+The structure is composed of the following blocks: Stripped Birch Log, Hay Block, Birch Planks, Birch Slab, Red Mushroom Block, Birch Button, Birch Fence, Moss Block, Moss Carpet, Vine, Birch Stairs, Grass Block, Gray Bed, Jack O Lantern, Birch Fence Gate, Brown Mushroom, Chain, Chest, Mangrove Door, Red Mushroom, Decorated Pot, Podzol, Potted Flowering Azalea Bush, Potted Red Mushroom.
 
 ### Blocks
 
@@ -448,7 +515,6 @@ None found.
 | Birch Fence Gate | 3 |
 | Brown Mushroom | 3 |
 | Chain | 3 |
-| Jigsaw | 3 |
 | Chest | 2 |
 | Mangrove Door | 2 |
 | Red Mushroom | 2 |
@@ -470,8 +536,12 @@ None found.
 | kattersstructures:chests/birch/house |
 
 
+</details>
 
-## Village Birch/House/House 5
+<details>
+<summary><strong>Village Birch/House/House 5</strong></summary>
+
+The structure is composed of the following blocks: Hay Block, Stripped Birch Log, Birch Planks, Birch Fence, Red Mushroom Block, Grass Block, Birch Button, Moss Block, Vine, Birch Slab, Moss Carpet, Birch Fence Gate, Jack O Lantern, Light Gray Bed, Mangrove Door, Birch Stairs, Brown Candle, Chain, Red Mushroom.
 
 ### Blocks
 
@@ -490,7 +560,6 @@ None found.
 | Moss Carpet | 9 |
 | Birch Fence Gate | 3 |
 | Jack O Lantern | 3 |
-| Jigsaw | 2 |
 | Light Gray Bed | 2 |
 | Mangrove Door | 2 |
 | Birch Stairs | 1 |
@@ -509,8 +578,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Birch/House/House 6
+<details>
+<summary><strong>Village Birch/House/House 6</strong></summary>
+
+The structure is composed of the following blocks: Hay Block, Grass Block, Stripped Birch Log, Birch Planks, Moss Block, Red Mushroom Block, Birch Button, Birch Fence, Birch Slab, Cobweb, Moss Carpet, Podzol, Vine, Birch Fence Gate, Birch Stairs, Jack O Lantern, Light Gray Bed, Mangrove Door, Brown Candle, Chain, Chest.
 
 ### Blocks
 
@@ -532,7 +605,6 @@ None found.
 | Birch Fence Gate | 4 |
 | Birch Stairs | 3 |
 | Jack O Lantern | 2 |
-| Jigsaw | 2 |
 | Light Gray Bed | 2 |
 | Mangrove Door | 2 |
 | Brown Candle | 1 |
@@ -552,8 +624,12 @@ None found.
 | kattersstructures:chests/birch/house |
 
 
+</details>
 
-## Village Birch/House/House 7
+<details>
+<summary><strong>Village Birch/House/House 7</strong></summary>
+
+The structure is composed of the following blocks: Stripped Birch Log, Birch Planks, Birch Button, Vine, Hay Block, Grass Block, Birch Slab, Red Mushroom Block, Moss Block, Birch Stairs, Moss Carpet, Birch Fence, Ladder, Podzol, Chain, Jack O Lantern, Gray Bed, Mangrove Door, Brown Mushroom, Chest, Cobweb.
 
 ### Blocks
 
@@ -576,7 +652,6 @@ None found.
 | Chain | 5 |
 | Jack O Lantern | 3 |
 | Gray Bed | 2 |
-| Jigsaw | 2 |
 | Mangrove Door | 2 |
 | Brown Mushroom | 1 |
 | Chest | 1 |
@@ -595,8 +670,12 @@ None found.
 | kattersstructures:chests/birch/house |
 
 
+</details>
 
-## Village Birch/House/House 8
+<details>
+<summary><strong>Village Birch/House/House 8</strong></summary>
+
+The structure is composed of the following blocks: Stripped Birch Log, Hay Block, Birch Planks, Birch Slab, Grass Block, Birch Button, Red Mushroom Block, Moss Block, Moss Carpet, Vine, Birch Fence, Birch Stairs, Podzol, Ladder, Chain, Jack O Lantern, Cobweb, Red Mushroom, Birch Trapdoor, Brown Mushroom, Chest, Gray Bed, Mangrove Door, Decorated Pot, Potted Flowering Azalea Bush.
 
 ### Blocks
 
@@ -624,7 +703,6 @@ None found.
 | Brown Mushroom | 2 |
 | Chest | 2 |
 | Gray Bed | 2 |
-| Jigsaw | 2 |
 | Mangrove Door | 2 |
 | Decorated Pot | 1 |
 | Potted Flowering Azalea Bush | 1 |
@@ -642,8 +720,12 @@ None found.
 | kattersstructures:chests/birch/house |
 
 
+</details>
 
-## Village Birch/House/House 9
+<details>
+<summary><strong>Village Birch/House/House 9</strong></summary>
+
+The structure is composed of the following blocks: Birch Planks, Stripped Birch Log, Hay Block, Vine, Moss Carpet, Grass Block, Birch Slab, Birch Button, Red Mushroom Block, Moss Block, Birch Fence, Birch Stairs, Podzol, Chain, Brown Mushroom, Jack O Lantern, Light Gray Bed, Decorated Pot, Red Mushroom, Brown Candle, Mangrove Door, Potted Flowering Azalea Bush, White Bed, Potted Red Mushroom.
 
 ### Blocks
 
@@ -665,7 +747,6 @@ None found.
 | Chain | 6 |
 | Brown Mushroom | 5 |
 | Jack O Lantern | 5 |
-| Jigsaw | 4 |
 | Light Gray Bed | 4 |
 | Decorated Pot | 3 |
 | Red Mushroom | 3 |
@@ -686,8 +767,14 @@ None found.
 None found.
 
 
+</details>
 
-## Village Birch/House/House Special Beekeeper
+<details>
+<summary><strong>Village Birch/House/House Special Beekeeper</strong></summary>
+
+The structure is composed of the following blocks: Stripped Birch Log, Red Mushroom Block, Birch Planks, Hay Block, Grass Block, Birch Slab, Moss Carpet, Moss Block, Vine, Birch Fence, Birch Stairs, Birch Button, Podzol, Poppy, Birch Trapdoor, Chain, Jack O Lantern, Beehive, Brown Mushroom, Campfire, Honeycomb Block, Red Mushroom, Birch Fence Gate, Brown Candle, Decorated Pot, Light Gray Bed, Mangrove Door, Composter, Honey Block, Potted Brown Mushroom, Potted Red Mushroom.
+
+Additionally, the following entities may spawn during its generation: Villager.
 
 ### Blocks
 
@@ -722,7 +809,6 @@ None found.
 | Mangrove Door | 2 |
 | Composter | 1 |
 | Honey Block | 1 |
-| Jigsaw | 1 |
 | Potted Brown Mushroom | 1 |
 | Potted Red Mushroom | 1 |
 
@@ -739,8 +825,14 @@ None found.
 None found.
 
 
+</details>
 
-## Village Birch/House/House Special Cartographer
+<details>
+<summary><strong>Village Birch/House/House Special Cartographer</strong></summary>
+
+The structure is composed of the following blocks: Stripped Birch Log, Red Mushroom Block, Birch Planks, Hay Block, Grass Block, Vine, Moss Block, Birch Button, Moss Carpet, Bookshelf, Birch Slab, Birch Stairs, Dark Oak Stairs, Birch Fence, Birch Trapdoor, Chiseled Bookshelf, Chain, Jack O Lantern, Mangrove Door, Podzol, Potted Flowering Azalea Bush, Brown Candle, Brown Mushroom, Cartography Table, Chest, Decorated Pot, Flowering Azalea Leaves, Potted Red Mushroom, Red Mushroom.
+
+Additionally, the following entities may spawn during its generation: Item Frame.
 
 ### Blocks
 
@@ -764,7 +856,6 @@ None found.
 | Chiseled Bookshelf | 5 |
 | Chain | 3 |
 | Jack O Lantern | 3 |
-| Jigsaw | 2 |
 | Mangrove Door | 2 |
 | Podzol | 2 |
 | Potted Flowering Azalea Bush | 2 |
@@ -792,8 +883,12 @@ None found.
 | kattersstructures:chests/birch/cartographer |
 
 
+</details>
 
-## Village Birch/House/House Special Farmer
+<details>
+<summary><strong>Village Birch/House/House Special Farmer</strong></summary>
+
+The structure is composed of the following blocks: Grass Block, Stripped Birch Log, Moss Block, Farmland, Wheat, Moss Carpet, Composter.
 
 ### Blocks
 
@@ -806,7 +901,6 @@ None found.
 | Wheat | 6 |
 | Moss Carpet | 3 |
 | Composter | 1 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -819,8 +913,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Birch/House/House Special Fisherman
+<details>
+<summary><strong>Village Birch/House/House Special Fisherman</strong></summary>
+
+The structure is composed of the following blocks: Red Mushroom Block, Mud, Stripped Birch Log, Grass Block, Birch Planks, Moss Block, Birch Button, Hay Block, Seagrass, Birch Fence, Birch Slab, Birch Stairs, Moss Carpet, Tall Seagrass, Ladder, Podzol, Chain, Cobweb, Jack O Lantern, Oak Fence, Mangrove Door, Barrel, Brown Candle.
 
 ### Blocks
 
@@ -849,7 +947,6 @@ None found.
 | Mangrove Door | 2 |
 | Barrel | 1 |
 | Brown Candle | 1 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -864,8 +961,12 @@ None found.
 | kattersstructures:chests/birch/fisherman |
 
 
+</details>
 
-## Village Birch/House/House Special Leatherworker
+<details>
+<summary><strong>Village Birch/House/House Special Leatherworker</strong></summary>
+
+The structure is composed of the following blocks: Birch Planks, Stripped Birch Log, Hay Block, Birch Button, Moss Block, Birch Fence, Moss Carpet, Grass Block, Birch Slab, Red Mushroom Block, Vine, Birch Stairs, Podzol, Jack O Lantern, Birch Fence Gate, Brown Mushroom, Chain, Gray Bed, Mangrove Door, Red Mushroom, Brown Candle, Chest, Decorated Pot, Potted Flowering Azalea Bush, Water Cauldron.
 
 ### Blocks
 
@@ -889,7 +990,6 @@ None found.
 | Brown Mushroom | 2 |
 | Chain | 2 |
 | Gray Bed | 2 |
-| Jigsaw | 2 |
 | Mangrove Door | 2 |
 | Red Mushroom | 2 |
 | Brown Candle | 1 |
@@ -911,8 +1011,12 @@ None found.
 | kattersstructures:chests/birch/house |
 
 
+</details>
 
-## Village Birch/House/House Special Librarian
+<details>
+<summary><strong>Village Birch/House/House Special Librarian</strong></summary>
+
+The structure is composed of the following blocks: Stripped Birch Log, Hay Block, Birch Planks, Vine, Red Mushroom Block, Moss Block, Bookshelf, Birch Fence, Grass Block, Moss Carpet, Birch Button, Chiseled Bookshelf, Birch Stairs, Birch Slab, Ladder, Chain, Brown Mushroom, Mangrove Door, Red Mushroom, Jack O Lantern, Lectern, Podzol.
 
 ### Blocks
 
@@ -932,7 +1036,6 @@ None found.
 | Chiseled Bookshelf | 21 |
 | Birch Stairs | 10 |
 | Birch Slab | 5 |
-| Jigsaw | 5 |
 | Ladder | 4 |
 | Chain | 3 |
 | Brown Mushroom | 2 |
@@ -953,8 +1056,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Birch/House/House Special Shepherd
+<details>
+<summary><strong>Village Birch/House/House Special Shepherd</strong></summary>
+
+The structure is composed of the following blocks: Hay Block, Stripped Birch Log, Grass Block, Birch Planks, Red Mushroom Block, Birch Fence, Moss Block, Birch Button, Birch Slab, Vine, Birch Stairs, Moss Carpet, Podzol, Chain, Jack O Lantern, Birch Fence Gate, Brown Mushroom, Mangrove Door, White Bed, Chest, Decorated Pot, Potted Flowering Azalea Bush, Red Mushroom.
 
 ### Blocks
 
@@ -977,7 +1084,6 @@ None found.
 | Jack O Lantern | 3 |
 | Birch Fence Gate | 2 |
 | Brown Mushroom | 2 |
-| Jigsaw | 2 |
 | Mangrove Door | 2 |
 | White Bed | 2 |
 | Chest | 1 |
@@ -998,8 +1104,12 @@ None found.
 | kattersstructures:chests/birch/shepherd |
 
 
+</details>
 
-## Village Birch/House/House Special Smith
+<details>
+<summary><strong>Village Birch/House/House Special Smith</strong></summary>
+
+The structure is composed of the following blocks: Hay Block, Stripped Birch Log, Birch Planks, Red Mushroom Block, Birch Fence, Grass Block, Birch Button, Birch Slab, Vine, Moss Carpet, Smooth Stone, Moss Block, Podzol, Birch Stairs, Smooth Stone Slab, Chain, Jack O Lantern, Brown Mushroom, Red Mushroom, Chest, Iron Trapdoor.
 
 ### Blocks
 
@@ -1022,7 +1132,6 @@ None found.
 | Smooth Stone Slab | 4 |
 | Chain | 3 |
 | Jack O Lantern | 3 |
-| Jigsaw | 3 |
 | Brown Mushroom | 2 |
 | Red Mushroom | 2 |
 | Chest | 1 |
@@ -1041,8 +1150,12 @@ None found.
 | kattersstructures:chests/birch/house |
 
 
+</details>
 
-## Village Birch/House/Toolsmith
+<details>
+<summary><strong>Village Birch/House/Toolsmith</strong></summary>
+
+The structure is composed of the following blocks: Polished Blackstone Stairs, Spruce Trapdoor, Tripwire Hook, Polished Blackstone Button, Anvil, Chest, Smithing Table.
 
 ### Blocks
 
@@ -1054,7 +1167,6 @@ None found.
 | Polished Blackstone Button | 2 |
 | Anvil | 1 |
 | Chest | 1 |
-| Jigsaw | 1 |
 | Smithing Table | 1 |
 
 
@@ -1070,8 +1182,12 @@ None found.
 | kattersstructures:chests/birch/toolsmith |
 
 
+</details>
 
-## Village Birch/House/Weaponsmith
+<details>
+<summary><strong>Village Birch/House/Weaponsmith</strong></summary>
+
+The structure is composed of the following blocks: Smooth Stone Slab, Birch Trapdoor, Chest, Damaged Anvil, Grindstone, Oak Button.
 
 ### Blocks
 
@@ -1082,7 +1198,6 @@ None found.
 | Chest | 1 |
 | Damaged Anvil | 1 |
 | Grindstone | 1 |
-| Jigsaw | 1 |
 | Oak Button | 1 |
 
 
@@ -1098,8 +1213,12 @@ None found.
 | kattersstructures:chests/birch/weaponsmith |
 
 
+</details>
 
-## Village Birch/Street/Street Cross
+<details>
+<summary><strong>Village Birch/Street/Street Cross</strong></summary>
+
+The structure is composed of the following blocks: Moss Block, Podzol, Grass Block.
 
 ### Blocks
 
@@ -1108,7 +1227,6 @@ None found.
 | Moss Block | 22 |
 | Podzol | 20 |
 | Grass Block | 15 |
-| Jigsaw | 7 |
 
 
 ### Entities
@@ -1121,8 +1239,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Birch/Street/Street Curve
+<details>
+<summary><strong>Village Birch/Street/Street Curve</strong></summary>
+
+The structure is composed of the following blocks: Grass Block, Moss Block, Podzol.
 
 ### Blocks
 
@@ -1131,7 +1253,6 @@ None found.
 | Grass Block | 24 |
 | Moss Block | 21 |
 | Podzol | 14 |
-| Jigsaw | 5 |
 
 
 ### Entities
@@ -1144,8 +1265,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Birch/Street/Street Straight
+<details>
+<summary><strong>Village Birch/Street/Street Straight</strong></summary>
+
+The structure is composed of the following blocks: Podzol, Moss Block, Grass Block.
 
 ### Blocks
 
@@ -1154,7 +1279,6 @@ None found.
 | Podzol | 41 |
 | Moss Block | 35 |
 | Grass Block | 29 |
-| Jigsaw | 15 |
 
 
 ### Entities
@@ -1167,8 +1291,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Birch/Street/Street Straight 2
+<details>
+<summary><strong>Village Birch/Street/Street Straight 2</strong></summary>
+
+The structure is composed of the following blocks: Grass Block, Podzol, Moss Block.
 
 ### Blocks
 
@@ -1177,7 +1305,6 @@ None found.
 | Grass Block | 42 |
 | Podzol | 34 |
 | Moss Block | 32 |
-| Jigsaw | 12 |
 
 
 ### Entities
@@ -1190,8 +1317,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Birch/Street/Street Straight 3
+<details>
+<summary><strong>Village Birch/Street/Street Straight 3</strong></summary>
+
+The structure is composed of the following blocks: Grass Block, Moss Block, Podzol.
 
 ### Blocks
 
@@ -1200,7 +1331,6 @@ None found.
 | Grass Block | 39 |
 | Moss Block | 39 |
 | Podzol | 30 |
-| Jigsaw | 12 |
 
 
 ### Entities
@@ -1213,8 +1343,12 @@ None found.
 None found.
 
 
+</details>
 
-## Village Birch/Street/Street T
+<details>
+<summary><strong>Village Birch/Street/Street T</strong></summary>
+
+The structure is composed of the following blocks: Moss Block, Grass Block, Podzol.
 
 ### Blocks
 
@@ -1223,7 +1357,6 @@ None found.
 | Moss Block | 21 |
 | Grass Block | 19 |
 | Podzol | 18 |
-| Jigsaw | 6 |
 
 
 ### Entities
@@ -1236,105 +1369,4 @@ None found.
 None found.
 
 
-
-## Summary
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Stripped Birch Log | 1830 |
-| Birch Planks | 1573 |
-| Hay Block | 1562 |
-| Grass Block | 950 |
-| Red Mushroom Block | 911 |
-| Moss Block | 831 |
-| Birch Slab | 729 |
-| Birch Button | 642 |
-| Birch Fence | 590 |
-| Vine | 555 |
-| Moss Carpet | 493 |
-| Birch Stairs | 304 |
-| Podzol | 286 |
-| Jigsaw | 117 |
-| Mud | 79 |
-| Chain | 61 |
-| Jack O Lantern | 59 |
-| Bookshelf | 39 |
-| Birch Trapdoor | 36 |
-| Brown Mushroom | 35 |
-| Seagrass | 34 |
-| Cobweb | 33 |
-| Ladder | 32 |
-| Mangrove Door | 30 |
-| Red Mushroom | 30 |
-| Chiseled Bookshelf | 26 |
-| Birch Fence Gate | 25 |
-| Smooth Stone | 25 |
-| Chest | 20 |
-| Poppy | 18 |
-| Gray Bed | 16 |
-| Light Gray Bed | 14 |
-| Brown Candle | 12 |
-| Decorated Pot | 12 |
-| Potted Flowering Azalea Bush | 11 |
-| Tall Seagrass | 10 |
-| Smooth Stone Slab | 8 |
-| Spruce Trapdoor | 8 |
-| White Bed | 8 |
-| Dark Oak Stairs | 7 |
-| Farmland | 6 |
-| Wheat | 6 |
-| Potted Red Mushroom | 5 |
-| Beehive | 3 |
-| Campfire | 3 |
-| Honeycomb Block | 3 |
-| Oak Fence | 3 |
-| Polished Blackstone Stairs | 3 |
-| Tripwire Hook | 3 |
-| Anvil | 2 |
-| Birch Log | 2 |
-| Composter | 2 |
-| Furnace | 2 |
-| Polished Blackstone Button | 2 |
-| Polished Deepslate Slab | 2 |
-| Barrel | 1 |
-| Bell | 1 |
-| Birch Sapling | 1 |
-| Blast Furnace | 1 |
-| Cartography Table | 1 |
-| Damaged Anvil | 1 |
-| Flowering Azalea Leaves | 1 |
-| Grindstone | 1 |
-| Honey Block | 1 |
-| Iron Trapdoor | 1 |
-| Lectern | 1 |
-| Mangrove Slab | 1 |
-| Oak Button | 1 |
-| Polished Deepslate Stairs | 1 |
-| Potted Brown Mushroom | 1 |
-| Smithing Table | 1 |
-| Stripped Birch Wood | 1 |
-| Water Cauldron | 1 |
-
-
-### Entities
-
-| Entity | Count |
-|:-----|:-----:|
-| Item Frame | 1 |
-| Villager | 1 |
-
-
-### Loot Tables
-
-| Loot Table |
-|:-----|
-| kattersstructures:chests/birch/cartographer |
-| kattersstructures:chests/birch/fisherman |
-| kattersstructures:chests/birch/house |
-| kattersstructures:chests/birch/shepherd |
-| kattersstructures:chests/birch/toolsmith |
-| kattersstructures:chests/birch/weaponsmith |
-
-
+</details>

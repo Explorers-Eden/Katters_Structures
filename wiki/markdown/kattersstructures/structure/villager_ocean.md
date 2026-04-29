@@ -1,6 +1,21 @@
 # Villager Ocean
 
-## Villager Ocean/Villager Ocean
+## Summary
+
+The structure is composed of the following blocks: Dark Prismarine, Glow Lichen, Prismarine Brick Stairs, Prismarine Bricks, Prismarine Brick Slab, Dark Prismarine Slab, Sea Lantern, Chest, Emerald Block, Sandstone Stairs.
+
+### Loot Tables
+
+| Loot Table |
+|:-----|
+| kattersstructures:chests/villager/ocean |
+
+
+
+<details>
+<summary><strong>Villager Ocean/Villager Ocean</strong></summary>
+
+The structure is composed of the following blocks: Dark Prismarine, Glow Lichen, Prismarine Brick Stairs, Prismarine Bricks, Prismarine Brick Slab, Dark Prismarine Slab, Sea Lantern, Sandstone Stairs.
 
 ### Blocks
 
@@ -13,7 +28,6 @@
 | Prismarine Brick Slab | 5 |
 | Dark Prismarine Slab | 3 |
 | Sea Lantern | 2 |
-| Jigsaw | 1 |
 | Sandstone Stairs | 1 |
 
 
@@ -27,8 +41,12 @@ None found.
 None found.
 
 
+</details>
 
-## Villager Ocean/Villager Ocean Brain 1
+<details>
+<summary><strong>Villager Ocean/Villager Ocean Brain 1</strong></summary>
+
+The structure is composed of the following blocks: Chest, Dark Prismarine.
 
 ### Blocks
 
@@ -36,7 +54,6 @@ None found.
 |:-----|:-----:|
 | Chest | 1 |
 | Dark Prismarine | 1 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -51,8 +68,12 @@ None found.
 | kattersstructures:chests/villager/ocean |
 
 
+</details>
 
-## Villager Ocean/Villager Ocean Brain 2
+<details>
+<summary><strong>Villager Ocean/Villager Ocean Brain 2</strong></summary>
+
+The structure is composed of the following blocks: Dark Prismarine, Emerald Block.
 
 ### Blocks
 
@@ -60,7 +81,6 @@ None found.
 |:-----|:-----:|
 | Dark Prismarine | 1 |
 | Emerald Block | 1 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -73,15 +93,18 @@ None found.
 None found.
 
 
+</details>
 
-## Villager Ocean/Villager Ocean Brain 3
+<details>
+<summary><strong>Villager Ocean/Villager Ocean Brain 3</strong></summary>
+
+The structure is composed of the following blocks: Dark Prismarine.
 
 ### Blocks
 
 | Block | Count |
 |:-----|:-----:|
 | Dark Prismarine | 2 |
-| Jigsaw | 1 |
 
 
 ### Entities
@@ -94,35 +117,4 @@ None found.
 None found.
 
 
-
-## Summary
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Dark Prismarine | 51 |
-| Glow Lichen | 21 |
-| Prismarine Brick Stairs | 13 |
-| Prismarine Bricks | 6 |
-| Prismarine Brick Slab | 5 |
-| Jigsaw | 4 |
-| Dark Prismarine Slab | 3 |
-| Sea Lantern | 2 |
-| Chest | 1 |
-| Emerald Block | 1 |
-| Sandstone Stairs | 1 |
-
-
-### Entities
-
-None found.
-
-
-### Loot Tables
-
-| Loot Table |
-|:-----|
-| kattersstructures:chests/villager/ocean |
-
-
+</details>

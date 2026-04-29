@@ -7,4 +7,4 @@
 | Emerald | 10–20 | 2 | 1 | 33.3% |
 | Enchanted Book | 1 | 2 | 1 | 33.3% |
 | Raj's Lightning Rod | 1 | 3 | 1 | 100.0% |
-| Trial Key | 1 | 4 | 1 | 100.0% |
+| Boss Key | 1 | 4 | 1 | 100.0% |

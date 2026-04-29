@@ -8,4 +8,4 @@
 | Gold Ingot | 4–8 | 1 | 2 | 14.3% |
 | Potion | 1 | 1 | 2 | 14.3% |
 | Enchanted Book | 1 | 2 | 2 | 100.0% |
-| Trial Key | 1 | 3 | 1 | 100.0% |
+| Boss Key | 1 | 3 | 1 | 100.0% |

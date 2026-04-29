@@ -5,6 +5,7 @@ const nbt = require("prismarine-nbt");
 
 const inputRoot = "data";
 const outputRoot = path.join("wiki", "markdown");
+const outputExtension = ".md";
 
 const IGNORED_BLOCKS = new Set([
   "minecraft:air",
@@ -66,11 +67,7 @@ function getStructureInfo(file) {
 
   const structureFile = relativeParts.join("/").replace(/\.nbt$/, "");
 
-  return {
-    namespace,
-    topFolder,
-    structureFile
-  };
+  return { namespace, topFolder, structureFile };
 }
 
 function collectLootTables(obj, set = new Set()) {
@@ -162,7 +159,7 @@ function renderCountTable(title, singular, rows) {
   if (rows.length === 0) {
     return `### ${title}
 
-None found.
+*None*
 `;
   }
 
@@ -178,7 +175,7 @@ function renderLootTableTable(lootTables) {
   if (lootTables.length === 0) {
     return `### Loot Tables
 
-None found.
+*None*
 `;
   }
 
@@ -190,19 +187,19 @@ ${lootTables.map(id => `| ${id} |`).join("\n")}
 `;
 }
 
-function renderTextSummary(data) {
+function renderTextSummary(data, isPart = false) {
   const blocks = sortedCountRows(data.blockCounts).map(([name]) => titleCase(name));
   const entities = sortedCountRows(data.entityCounts).map(([name]) => titleCase(name));
 
   const blocksLine =
     blocks.length > 0
-      ? `The structure is composed of the following blocks: ${blocks.join(", ")}.`
-      : `The structure does not contain any notable blocks.`;
+      ? `${isPart ? "The structure part" : "The structure"} is composed of the following blocks: ${blocks.join(", ")}.`
+      : `${isPart ? "The structure part" : "The structure"} does not contain any notable blocks.`;
 
   const entitiesLine =
     entities.length > 0
       ? `Additionally, the following entities may spawn during its generation: ${entities.join(", ")}.`
-      : ``;
+      : "";
 
   return `${blocksLine}
 
@@ -213,7 +210,7 @@ function renderStructureSection(structureFile, data) {
   return `<details>
 <summary><strong>${titleCase(structureFile)}</strong></summary>
 
-${renderTextSummary(data)}${renderCountTable("Blocks", "Block", sortedCountRows(data.blockCounts))}
+${renderTextSummary(data, true)}${renderCountTable("Blocks", "Block", sortedCountRows(data.blockCounts))}
 
 ${renderCountTable("Entities", "Entity", sortedCountRows(data.entityCounts))}
 
@@ -223,16 +220,14 @@ ${renderLootTableTable(sortedLootTables(data.lootTables))}
 }
 
 function renderSummarySection(totals) {
-  return `## Summary
+  return `# Contents
 
-${renderTextSummary(totals)}${renderLootTableTable(sortedLootTables(totals.lootTables))}
-`;
+${renderTextSummary(totals, false)}`;
 }
 
 function generateMarkdown(groupName, structures, totals) {
-  return `# ${titleCase(groupName)}
-
-${renderSummarySection(totals)}
+  return `${renderSummarySection(totals)}
+## Per-Structure File Contents
 
 ${structures.map(entry => renderStructureSection(entry.structureFile, entry.data)).join("\n\n")}
 `;
@@ -244,15 +239,15 @@ async function readNbtFile(file) {
   return nbt.simplify(parsed.parsed);
 }
 
-function removeStaleMarkdownFiles(validOutputFiles, namespaces) {
+function removeStaleOutputFiles(validOutputFiles, namespaces) {
   for (const namespace of namespaces) {
     const structureRoot = path.join(outputRoot, namespace, "structure");
 
     if (!fs.existsSync(structureRoot)) continue;
 
-    const markdownFiles = walk(structureRoot).filter(file => file.endsWith(".md"));
+    const outputFiles = walk(structureRoot).filter(file => file.endsWith(outputExtension));
 
-    for (const file of markdownFiles) {
+    for (const file of outputFiles) {
       const normalized = path.normalize(file);
 
       if (!validOutputFiles.has(normalized)) {
@@ -319,7 +314,7 @@ async function main() {
       outputRoot,
       group.namespace,
       "structure",
-      `${group.topFolder}.md`
+      `${group.topFolder}${outputExtension}`
     );
 
     validOutputFiles.add(path.normalize(outputPath));
@@ -330,7 +325,7 @@ async function main() {
     console.log(`Generated ${outputPath}`);
   }
 
-  removeStaleMarkdownFiles(validOutputFiles, namespaces);
+  removeStaleOutputFiles(validOutputFiles, namespaces);
 }
 
 main().catch(error => {

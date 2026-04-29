@@ -1,23 +1,16 @@
-# Birch Tree
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Dirt, Jungle Leaves, Birch Leaves, Coarse Dirt, Birch Wood, Grass Block, Mushroom Stem, Cobblestone Slab, Oak Planks, Moss Carpet, Birch Log, Birch Planks, Stripped Birch Log, Vine, Moss Block, Oak Fence, Lantern, Birch Fence, Spore Blossom, Birch Door, Oak Stairs, White Bed, Birch Trapdoor, Campfire, Chest, Spawner.
 
 Additionally, the following entities may spawn during its generation: Villager.
 
-### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/birch_tree/birch_tree |
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Birch Tree/Big Birch Tree</strong></summary>
 
-The structure is composed of the following blocks: Dirt, Jungle Leaves, Birch Leaves, Coarse Dirt, Birch Wood, Grass Block, Mushroom Stem, Moss Carpet, Lantern, Moss Block, Spore Blossom, Spawner.
+The structure part is composed of the following blocks: Dirt, Jungle Leaves, Birch Leaves, Coarse Dirt, Birch Wood, Grass Block, Mushroom Stem, Moss Carpet, Lantern, Moss Block, Spore Blossom, Spawner.
 
 ### Blocks
 
@@ -39,12 +32,12 @@ The structure is composed of the following blocks: Dirt, Jungle Leaves, Birch Le
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -52,21 +45,21 @@ None found.
 <details>
 <summary><strong>Birch Tree/Big Birch Tree Start</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -74,7 +67,7 @@ None found.
 <details>
 <summary><strong>Birch Tree/Birch Camp</strong></summary>
 
-The structure is composed of the following blocks: Coarse Dirt, Moss Carpet, Birch Log, Campfire.
+The structure part is composed of the following blocks: Coarse Dirt, Moss Carpet, Birch Log, Campfire.
 
 ### Blocks
 
@@ -88,12 +81,12 @@ The structure is composed of the following blocks: Coarse Dirt, Moss Carpet, Bir
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -101,7 +94,7 @@ None found.
 <details>
 <summary><strong>Birch Tree/Birch Hut</strong></summary>
 
-The structure is composed of the following blocks: Cobblestone Slab, Oak Planks, Birch Planks, Coarse Dirt, Vine, Oak Fence, Birch Fence, Grass Block, Moss Block, Birch Door, Oak Stairs, White Bed, Birch Trapdoor, Chest, Lantern.
+The structure part is composed of the following blocks: Cobblestone Slab, Oak Planks, Birch Planks, Coarse Dirt, Vine, Oak Fence, Birch Fence, Grass Block, Moss Block, Birch Door, Oak Stairs, White Bed, Birch Trapdoor, Chest, Lantern.
 
 ### Blocks
 
@@ -126,7 +119,7 @@ The structure is composed of the following blocks: Cobblestone Slab, Oak Planks,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -141,7 +134,7 @@ None found.
 <details>
 <summary><strong>Birch Tree/Birch Logs 1</strong></summary>
 
-The structure is composed of the following blocks: Coarse Dirt, Stripped Birch Log, Birch Log.
+The structure part is composed of the following blocks: Coarse Dirt, Stripped Birch Log, Birch Log.
 
 ### Blocks
 
@@ -154,12 +147,12 @@ The structure is composed of the following blocks: Coarse Dirt, Stripped Birch L
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -167,7 +160,7 @@ None found.
 <details>
 <summary><strong>Birch Tree/Birch Logs 2</strong></summary>
 
-The structure is composed of the following blocks: Coarse Dirt, Birch Log, Moss Carpet, Stripped Birch Log.
+The structure part is composed of the following blocks: Coarse Dirt, Birch Log, Moss Carpet, Stripped Birch Log.
 
 ### Blocks
 
@@ -181,12 +174,12 @@ The structure is composed of the following blocks: Coarse Dirt, Birch Log, Moss 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -194,7 +187,7 @@ None found.
 <details>
 <summary><strong>Birch Tree/Birch Logs 3</strong></summary>
 
-The structure is composed of the following blocks: Coarse Dirt, Moss Carpet, Birch Log.
+The structure part is composed of the following blocks: Coarse Dirt, Moss Carpet, Birch Log.
 
 ### Blocks
 
@@ -207,12 +200,12 @@ The structure is composed of the following blocks: Coarse Dirt, Moss Carpet, Bir
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -220,13 +213,13 @@ None found.
 <details>
 <summary><strong>Birch Tree/Villagers Lumberjack</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Villager.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -238,7 +231,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>

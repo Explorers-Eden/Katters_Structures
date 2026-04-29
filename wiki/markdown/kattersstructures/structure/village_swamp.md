@@ -1,36 +1,16 @@
-# Village Swamp
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Muddy Mangrove Roots, Mangrove Slab, Mud Brick Stairs, Vine, Mangrove Stairs, Mangrove Planks, Mangrove Log, Grass Block, Mud, Moss Block, Mangrove Trapdoor, Mangrove Button, Mud Bricks, Coarse Dirt, Packed Mud, Grass, Mangrove Roots, Moss Carpet, Mangrove Wall Sign, Mud Brick Slab, Tall Grass, Large Fern, Mangrove Fence, Fern, Soul Lantern, Farmland, Mud Brick Wall, Mangrove Wood, Green Terracotta, Red Mushroom Block, Mangrove Door, Wheat, Azalea, Light Gray Terracotta, Brown Terracotta, Chest, Stone, Flowering Azalea, Hay Block, Beetroots, Brown Concrete, Stripped Mangrove Wood, Brown Bed, Seagrass, Dirt, Spruce Trapdoor, Tall Seagrass, Green Bed, Nether Wart, Potatoes, Soul Sand, Brown Wall Banner, Chiseled Bookshelf, Gray Carpet, White Carpet, Black Bed, Bookshelf, Carrots, Cobbled Deepslate Wall, Gravel, Gray Bed, Light Gray Bed, Mushroom Stem, Pumpkin Stem, Birch Stairs, Campfire, Dark Oak Stairs, Polished Andesite Stairs, Pumpkin, Anvil, Blue Bed, Brown Candle, Flower Pot, Green Wall Banner, Iron Trapdoor, Light Gray Wool, Mangrove Fence Gate, Oak Slab, Potted Fern, Potted Flowering Azalea Bush, Red Bed, Water Cauldron, White Bed, Barrel, Bell, Blast Furnace, Brewing Stand, Brown Mushroom, Cartography Table, Chain, Cobbled Deepslate Slab, Composter, Damaged Anvil, Fletching Table, Furnace, Grindstone, Lectern, Loom, Pearlescent Froglight, Potted Azalea Bush, Potted Dead Bush, Potted Warped Fungus, Raw Iron Block, Red Mushroom, Smithing Table, Stonecutter, Target.
 
 Additionally, the following entities may spawn during its generation: Villager.
 
-### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/swamp/armorer |
-| kattersstructures:chests/swamp/big_stem |
-| kattersstructures:chests/swamp/butcher |
-| kattersstructures:chests/swamp/cartographer |
-| kattersstructures:chests/swamp/cleric |
-| kattersstructures:chests/swamp/fisherman |
-| kattersstructures:chests/swamp/fletcher |
-| kattersstructures:chests/swamp/grave |
-| kattersstructures:chests/swamp/house |
-| kattersstructures:chests/swamp/leatherworker |
-| kattersstructures:chests/swamp/mason |
-| kattersstructures:chests/swamp/shepherd |
-| kattersstructures:chests/swamp/toolsmith |
-| kattersstructures:chests/swamp/weaponsmith |
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Village Swamp/Decor/Decor Dead Stem</strong></summary>
 
-The structure is composed of the following blocks: Moss Carpet, Mangrove Log, Vine, Brown Mushroom, Red Mushroom.
+The structure part is composed of the following blocks: Moss Carpet, Mangrove Log, Vine, Brown Mushroom, Red Mushroom.
 
 ### Blocks
 
@@ -45,12 +25,12 @@ The structure is composed of the following blocks: Moss Carpet, Mangrove Log, Vi
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -58,7 +38,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/Decor/Decor Hay</strong></summary>
 
-The structure is composed of the following blocks: Hay Block.
+The structure part is composed of the following blocks: Hay Block.
 
 ### Blocks
 
@@ -69,12 +49,12 @@ The structure is composed of the following blocks: Hay Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -82,7 +62,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/Decor/Decor Light</strong></summary>
 
-The structure is composed of the following blocks: Mangrove Trapdoor, Mud Brick Slab, Pearlescent Froglight.
+The structure part is composed of the following blocks: Mangrove Trapdoor, Mud Brick Slab, Pearlescent Froglight.
 
 ### Blocks
 
@@ -95,12 +75,12 @@ The structure is composed of the following blocks: Mangrove Trapdoor, Mud Brick 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -108,7 +88,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/Decor/Decor Red Shroom</strong></summary>
 
-The structure is composed of the following blocks: Red Mushroom Block, Mushroom Stem.
+The structure part is composed of the following blocks: Red Mushroom Block, Mushroom Stem.
 
 ### Blocks
 
@@ -120,12 +100,12 @@ The structure is composed of the following blocks: Red Mushroom Block, Mushroom 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -133,7 +113,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/Farms/Farm 1</strong></summary>
 
-The structure is composed of the following blocks: Farmland, Wheat, Mud.
+The structure part is composed of the following blocks: Farmland, Wheat, Mud.
 
 ### Blocks
 
@@ -146,12 +126,12 @@ The structure is composed of the following blocks: Farmland, Wheat, Mud.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -159,7 +139,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/Farms/Farm 2</strong></summary>
 
-The structure is composed of the following blocks: Farmland, Beetroots, Mud, Potatoes, Carrots.
+The structure part is composed of the following blocks: Farmland, Beetroots, Mud, Potatoes, Carrots.
 
 ### Blocks
 
@@ -174,12 +154,12 @@ The structure is composed of the following blocks: Farmland, Beetroots, Mud, Pot
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -187,7 +167,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/Farms/Farm 3</strong></summary>
 
-The structure is composed of the following blocks: Mud, Farmland, Packed Mud, Pumpkin Stem, Pumpkin.
+The structure part is composed of the following blocks: Mud, Farmland, Packed Mud, Pumpkin Stem, Pumpkin.
 
 ### Blocks
 
@@ -202,12 +182,12 @@ The structure is composed of the following blocks: Mud, Farmland, Packed Mud, Pu
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -215,7 +195,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/House/Profession/House Armorer</strong></summary>
 
-The structure is composed of the following blocks: Mud Bricks, Mangrove Stairs, Packed Mud, Grass Block, Mud Brick Wall, Vine, Moss Block, Mangrove Trapdoor, Mangrove Slab, Moss Carpet, Grass, Mangrove Planks, Tall Grass, Mangrove Roots, Cobbled Deepslate Wall, Large Fern, Soul Lantern, Polished Andesite Stairs, Spruce Trapdoor, Fern, Gray Bed, Mangrove Door, Anvil, Azalea, Blast Furnace, Chest, Cobbled Deepslate Slab, Flowering Azalea, Mud Brick Stairs.
+The structure part is composed of the following blocks: Mud Bricks, Mangrove Stairs, Packed Mud, Grass Block, Mud Brick Wall, Vine, Moss Block, Mangrove Trapdoor, Mangrove Slab, Moss Carpet, Grass, Mangrove Planks, Tall Grass, Mangrove Roots, Cobbled Deepslate Wall, Large Fern, Soul Lantern, Polished Andesite Stairs, Spruce Trapdoor, Fern, Gray Bed, Mangrove Door, Anvil, Azalea, Blast Furnace, Chest, Cobbled Deepslate Slab, Flowering Azalea, Mud Brick Stairs.
 
 ### Blocks
 
@@ -254,7 +234,7 @@ The structure is composed of the following blocks: Mud Bricks, Mangrove Stairs, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -269,7 +249,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/House/Profession/House Butcher</strong></summary>
 
-The structure is composed of the following blocks: Muddy Mangrove Roots, Grass Block, Mud Brick Stairs, Mangrove Slab, Vine, Mangrove Log, Mangrove Stairs, Moss Block, Mangrove Fence, Mud, Mangrove Button, Mangrove Wall Sign, Mangrove Trapdoor, Mangrove Roots, Moss Carpet, Grass, Mud Brick Slab, Tall Grass, Mangrove Planks, Mud Bricks, Soul Lantern, Fern, Brown Bed, Large Fern, Mangrove Door, Spruce Trapdoor, Azalea, Chest, Flowering Azalea, Mangrove Fence Gate, Raw Iron Block.
+The structure part is composed of the following blocks: Muddy Mangrove Roots, Grass Block, Mud Brick Stairs, Mangrove Slab, Vine, Mangrove Log, Mangrove Stairs, Moss Block, Mangrove Fence, Mud, Mangrove Button, Mangrove Wall Sign, Mangrove Trapdoor, Mangrove Roots, Moss Carpet, Grass, Mud Brick Slab, Tall Grass, Mangrove Planks, Mud Bricks, Soul Lantern, Fern, Brown Bed, Large Fern, Mangrove Door, Spruce Trapdoor, Azalea, Chest, Flowering Azalea, Mangrove Fence Gate, Raw Iron Block.
 
 ### Blocks
 
@@ -310,7 +290,7 @@ The structure is composed of the following blocks: Muddy Mangrove Roots, Grass B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -325,7 +305,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/House/Profession/House Cartographer</strong></summary>
 
-The structure is composed of the following blocks: Muddy Mangrove Roots, Mud Brick Stairs, Mangrove Slab, Vine, Mangrove Log, Mangrove Button, Moss Block, Mangrove Stairs, Grass Block, Grass, Mangrove Roots, Mangrove Trapdoor, Mangrove Wall Sign, Mud Brick Slab, Mangrove Planks, Tall Grass, Dark Oak Stairs, Soul Lantern, Brown Bed, Fern, Large Fern, Mangrove Door, Cartography Table, Chest, Flowering Azalea, Mangrove Fence, Potted Dead Bush.
+The structure part is composed of the following blocks: Muddy Mangrove Roots, Mud Brick Stairs, Mangrove Slab, Vine, Mangrove Log, Mangrove Button, Moss Block, Mangrove Stairs, Grass Block, Grass, Mangrove Roots, Mangrove Trapdoor, Mangrove Wall Sign, Mud Brick Slab, Mangrove Planks, Tall Grass, Dark Oak Stairs, Soul Lantern, Brown Bed, Fern, Large Fern, Mangrove Door, Cartography Table, Chest, Flowering Azalea, Mangrove Fence, Potted Dead Bush.
 
 ### Blocks
 
@@ -362,7 +342,7 @@ The structure is composed of the following blocks: Muddy Mangrove Roots, Mud Bri
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -377,7 +357,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/House/Profession/House Cleric</strong></summary>
 
-The structure is composed of the following blocks: Mangrove Trapdoor, Mud Brick Slab, Mangrove Fence, Mangrove Planks, Mud, Grass Block, Moss Block, Nether Wart, Soul Sand, Coarse Dirt, Grass, Spruce Trapdoor, Large Fern, Moss Carpet, Fern, Mangrove Stairs, Soul Lantern, Tall Grass, Azalea, Brewing Stand, Campfire, Chest, Mangrove Slab, Potted Warped Fungus.
+The structure part is composed of the following blocks: Mangrove Trapdoor, Mud Brick Slab, Mangrove Fence, Mangrove Planks, Mud, Grass Block, Moss Block, Nether Wart, Soul Sand, Coarse Dirt, Grass, Spruce Trapdoor, Large Fern, Moss Carpet, Fern, Mangrove Stairs, Soul Lantern, Tall Grass, Azalea, Brewing Stand, Campfire, Chest, Mangrove Slab, Potted Warped Fungus.
 
 ### Blocks
 
@@ -411,7 +391,7 @@ The structure is composed of the following blocks: Mangrove Trapdoor, Mud Brick 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -426,7 +406,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/House/Profession/House Farmer</strong></summary>
 
-The structure is composed of the following blocks: Mangrove Stairs, Farmland, Wheat, Beetroots, Mangrove Planks, Composter.
+The structure part is composed of the following blocks: Mangrove Stairs, Farmland, Wheat, Beetroots, Mangrove Planks, Composter.
 
 ### Blocks
 
@@ -442,12 +422,12 @@ The structure is composed of the following blocks: Mangrove Stairs, Farmland, Wh
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -455,7 +435,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/House/Profession/House Fisherman</strong></summary>
 
-The structure is composed of the following blocks: Mud Brick Stairs, Mangrove Log, Muddy Mangrove Roots, Mangrove Slab, Stone, Vine, Mangrove Button, Moss Block, Mud, Mangrove Stairs, Seagrass, Coarse Dirt, Dirt, Mangrove Wall Sign, Tall Seagrass, Grass, Large Fern, Mangrove Fence, Mangrove Roots, Mangrove Trapdoor, Blue Bed, Fern, Mangrove Door, Tall Grass, Azalea, Barrel, Mangrove Planks, Mud Brick Slab, Mud Bricks, Soul Lantern.
+The structure part is composed of the following blocks: Mud Brick Stairs, Mangrove Log, Muddy Mangrove Roots, Mangrove Slab, Stone, Vine, Mangrove Button, Moss Block, Mud, Mangrove Stairs, Seagrass, Coarse Dirt, Dirt, Mangrove Wall Sign, Tall Seagrass, Grass, Large Fern, Mangrove Fence, Mangrove Roots, Mangrove Trapdoor, Blue Bed, Fern, Mangrove Door, Tall Grass, Azalea, Barrel, Mangrove Planks, Mud Brick Slab, Mud Bricks, Soul Lantern.
 
 ### Blocks
 
@@ -495,7 +475,7 @@ The structure is composed of the following blocks: Mud Brick Stairs, Mangrove Lo
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -510,7 +490,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/House/Profession/House Fletcher</strong></summary>
 
-The structure is composed of the following blocks: Muddy Mangrove Roots, Mud Brick Stairs, Mangrove Slab, Mangrove Log, Vine, Grass Block, Mangrove Button, Mangrove Stairs, Mangrove Trapdoor, Moss Block, Mangrove Planks, Coarse Dirt, Mangrove Roots, Mangrove Wall Sign, Moss Carpet, Mud Brick Slab, Large Fern, Mud, Fern, Grass, Soul Lantern, Birch Stairs, Light Gray Bed, Mangrove Door, Mangrove Fence, Tall Grass, Azalea, Chain, Chest, Fletching Table, Flowering Azalea, Potted Azalea Bush, Target.
+The structure part is composed of the following blocks: Muddy Mangrove Roots, Mud Brick Stairs, Mangrove Slab, Mangrove Log, Vine, Grass Block, Mangrove Button, Mangrove Stairs, Mangrove Trapdoor, Moss Block, Mangrove Planks, Coarse Dirt, Mangrove Roots, Mangrove Wall Sign, Moss Carpet, Mud Brick Slab, Large Fern, Mud, Fern, Grass, Soul Lantern, Birch Stairs, Light Gray Bed, Mangrove Door, Mangrove Fence, Tall Grass, Azalea, Chain, Chest, Fletching Table, Flowering Azalea, Potted Azalea Bush, Target.
 
 ### Blocks
 
@@ -553,7 +533,7 @@ The structure is composed of the following blocks: Muddy Mangrove Roots, Mud Bri
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -568,7 +548,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/House/Profession/House Leatherworker</strong></summary>
 
-The structure is composed of the following blocks: Muddy Mangrove Roots, Mud Brick Stairs, Mangrove Slab, Mangrove Log, Vine, Mangrove Button, Moss Block, Mangrove Stairs, Grass Block, Mud Brick Slab, Mangrove Wall Sign, Mangrove Roots, Mangrove Trapdoor, Grass, Fern, Mangrove Planks, Large Fern, Tall Grass, Brown Wall Banner, Soul Lantern, Brown Bed, Coarse Dirt, Mangrove Door, Water Cauldron, Azalea, Chest, Flowering Azalea, Mud.
+The structure part is composed of the following blocks: Muddy Mangrove Roots, Mud Brick Stairs, Mangrove Slab, Mangrove Log, Vine, Mangrove Button, Moss Block, Mangrove Stairs, Grass Block, Mud Brick Slab, Mangrove Wall Sign, Mangrove Roots, Mangrove Trapdoor, Grass, Fern, Mangrove Planks, Large Fern, Tall Grass, Brown Wall Banner, Soul Lantern, Brown Bed, Coarse Dirt, Mangrove Door, Water Cauldron, Azalea, Chest, Flowering Azalea, Mud.
 
 ### Blocks
 
@@ -606,7 +586,7 @@ The structure is composed of the following blocks: Muddy Mangrove Roots, Mud Bri
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -621,7 +601,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/House/Profession/House Librarian</strong></summary>
 
-The structure is composed of the following blocks: Muddy Mangrove Roots, Mud Brick Stairs, Mangrove Slab, Vine, Mangrove Log, Grass Block, Mangrove Button, Mangrove Stairs, Moss Block, Mangrove Roots, Mangrove Trapdoor, Mangrove Wall Sign, Fern, Chiseled Bookshelf, Mud Brick Slab, Bookshelf, Large Fern, Tall Grass, Mangrove Planks, Azalea, Brown Candle, Mangrove Door, Oak Slab, Soul Lantern, Flowering Azalea, Lectern.
+The structure part is composed of the following blocks: Muddy Mangrove Roots, Mud Brick Stairs, Mangrove Slab, Vine, Mangrove Log, Grass Block, Mangrove Button, Mangrove Stairs, Moss Block, Mangrove Roots, Mangrove Trapdoor, Mangrove Wall Sign, Fern, Chiseled Bookshelf, Mud Brick Slab, Bookshelf, Large Fern, Tall Grass, Mangrove Planks, Azalea, Brown Candle, Mangrove Door, Oak Slab, Soul Lantern, Flowering Azalea, Lectern.
 
 ### Blocks
 
@@ -657,12 +637,12 @@ The structure is composed of the following blocks: Muddy Mangrove Roots, Mud Bri
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -670,7 +650,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/House/Profession/House Mason</strong></summary>
 
-The structure is composed of the following blocks: Green Terracotta, Mud Brick Stairs, Vine, Light Gray Terracotta, Brown Terracotta, Grass Block, Brown Concrete, Moss Block, Mangrove Stairs, Mangrove Trapdoor, Grass, Mangrove Roots, Tall Grass, Mud Brick Slab, Fern, Gravel, Large Fern, Coarse Dirt, Mangrove Planks, Soul Lantern, Flowering Azalea, Light Gray Bed, Mangrove Door, Azalea, Chest, Mud Brick Wall, Stonecutter.
+The structure part is composed of the following blocks: Green Terracotta, Mud Brick Stairs, Vine, Light Gray Terracotta, Brown Terracotta, Grass Block, Brown Concrete, Moss Block, Mangrove Stairs, Mangrove Trapdoor, Grass, Mangrove Roots, Tall Grass, Mud Brick Slab, Fern, Gravel, Large Fern, Coarse Dirt, Mangrove Planks, Soul Lantern, Flowering Azalea, Light Gray Bed, Mangrove Door, Azalea, Chest, Mud Brick Wall, Stonecutter.
 
 ### Blocks
 
@@ -707,7 +687,7 @@ The structure is composed of the following blocks: Green Terracotta, Mud Brick S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -722,7 +702,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/House/Profession/House Shepherd</strong></summary>
 
-The structure is composed of the following blocks: Muddy Mangrove Roots, Grass Block, Mud Brick Stairs, Mangrove Slab, Vine, Mangrove Log, Mangrove Stairs, Moss Block, Mangrove Fence, Mangrove Button, Mangrove Wall Sign, Coarse Dirt, Mangrove Roots, Mangrove Trapdoor, Grass, Mud Brick Slab, Fern, Gray Carpet, White Carpet, Large Fern, Mangrove Planks, Mud Bricks, Soul Lantern, Tall Grass, Brown Wall Banner, Green Wall Banner, Light Gray Wool, Mangrove Door, White Bed, Azalea, Chest, Flowering Azalea, Loom, Mangrove Fence Gate.
+The structure part is composed of the following blocks: Muddy Mangrove Roots, Grass Block, Mud Brick Stairs, Mangrove Slab, Vine, Mangrove Log, Mangrove Stairs, Moss Block, Mangrove Fence, Mangrove Button, Mangrove Wall Sign, Coarse Dirt, Mangrove Roots, Mangrove Trapdoor, Grass, Mud Brick Slab, Fern, Gray Carpet, White Carpet, Large Fern, Mangrove Planks, Mud Bricks, Soul Lantern, Tall Grass, Brown Wall Banner, Green Wall Banner, Light Gray Wool, Mangrove Door, White Bed, Azalea, Chest, Flowering Azalea, Loom, Mangrove Fence Gate.
 
 ### Blocks
 
@@ -766,7 +746,7 @@ The structure is composed of the following blocks: Muddy Mangrove Roots, Grass B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -781,7 +761,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/House/Profession/House Toolsmith</strong></summary>
 
-The structure is composed of the following blocks: Mud Bricks, Mangrove Stairs, Packed Mud, Moss Block, Vine, Mangrove Trapdoor, Grass Block, Mud Brick Wall, Mangrove Slab, Mangrove Roots, Moss Carpet, Large Fern, Mangrove Planks, Grass, Mud Brick Stairs, Tall Grass, Soul Lantern, Fern, Gray Bed, Mangrove Door, Anvil, Azalea, Chest, Flowering Azalea, Iron Trapdoor, Potted Flowering Azalea Bush, Smithing Table.
+The structure part is composed of the following blocks: Mud Bricks, Mangrove Stairs, Packed Mud, Moss Block, Vine, Mangrove Trapdoor, Grass Block, Mud Brick Wall, Mangrove Slab, Mangrove Roots, Moss Carpet, Large Fern, Mangrove Planks, Grass, Mud Brick Stairs, Tall Grass, Soul Lantern, Fern, Gray Bed, Mangrove Door, Anvil, Azalea, Chest, Flowering Azalea, Iron Trapdoor, Potted Flowering Azalea Bush, Smithing Table.
 
 ### Blocks
 
@@ -818,7 +798,7 @@ The structure is composed of the following blocks: Mud Bricks, Mangrove Stairs, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -833,7 +813,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/House/Profession/House Weaponsmith</strong></summary>
 
-The structure is composed of the following blocks: Mud Bricks, Mangrove Stairs, Packed Mud, Grass Block, Vine, Moss Block, Mangrove Trapdoor, Mud Brick Wall, Grass, Mangrove Slab, Fern, Mangrove Planks, Mangrove Roots, Large Fern, Mud Brick Stairs, Soul Lantern, Tall Grass, Azalea, Black Bed, Flowering Azalea, Mangrove Door, Chest, Damaged Anvil, Grindstone, Iron Trapdoor, Mangrove Fence, Mud Brick Slab.
+The structure part is composed of the following blocks: Mud Bricks, Mangrove Stairs, Packed Mud, Grass Block, Vine, Moss Block, Mangrove Trapdoor, Mud Brick Wall, Grass, Mangrove Slab, Fern, Mangrove Planks, Mangrove Roots, Large Fern, Mud Brick Stairs, Soul Lantern, Tall Grass, Azalea, Black Bed, Flowering Azalea, Mangrove Door, Chest, Damaged Anvil, Grindstone, Iron Trapdoor, Mangrove Fence, Mud Brick Slab.
 
 ### Blocks
 
@@ -870,7 +850,7 @@ The structure is composed of the following blocks: Mud Bricks, Mangrove Stairs, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -885,7 +865,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/House/Rare/House Rare</strong></summary>
 
-The structure is composed of the following blocks: Mud, Mangrove Wood, Coarse Dirt, Moss Carpet, Mangrove Fence, Mangrove Log, Stripped Mangrove Wood, Soul Lantern, Red Bed, Campfire, Chest.
+The structure part is composed of the following blocks: Mud, Mangrove Wood, Coarse Dirt, Moss Carpet, Mangrove Fence, Mangrove Log, Stripped Mangrove Wood, Soul Lantern, Red Bed, Campfire, Chest.
 
 ### Blocks
 
@@ -906,7 +886,7 @@ The structure is composed of the following blocks: Mud, Mangrove Wood, Coarse Di
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -921,7 +901,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/House/Rare/House Rare 2</strong></summary>
 
-The structure is composed of the following blocks: Muddy Mangrove Roots, Mangrove Slab, Vine, Mud Brick Stairs, Mangrove Stairs, Mangrove Log, Moss Block, Grass Block, Mangrove Trapdoor, Moss Carpet, Mangrove Button, Mangrove Roots, Tall Grass, Mangrove Planks, Grass, Mangrove Wall Sign, Large Fern, Mud Brick Slab, Fern, Soul Lantern, Azalea, Mangrove Door, Brown Bed, Chest, Mangrove Fence, Flowering Azalea, Potted Fern.
+The structure part is composed of the following blocks: Muddy Mangrove Roots, Mangrove Slab, Vine, Mud Brick Stairs, Mangrove Stairs, Mangrove Log, Moss Block, Grass Block, Mangrove Trapdoor, Moss Carpet, Mangrove Button, Mangrove Roots, Tall Grass, Mangrove Planks, Grass, Mangrove Wall Sign, Large Fern, Mud Brick Slab, Fern, Soul Lantern, Azalea, Mangrove Door, Brown Bed, Chest, Mangrove Fence, Flowering Azalea, Potted Fern.
 
 ### Blocks
 
@@ -958,7 +938,7 @@ The structure is composed of the following blocks: Muddy Mangrove Roots, Mangrov
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -973,7 +953,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/House/Rare/House Rare 3</strong></summary>
 
-The structure is composed of the following blocks: Mud, Packed Mud, Mud Brick Wall, Coarse Dirt, Chest.
+The structure part is composed of the following blocks: Mud, Packed Mud, Mud Brick Wall, Coarse Dirt, Chest.
 
 ### Blocks
 
@@ -988,7 +968,7 @@ The structure is composed of the following blocks: Mud, Packed Mud, Mud Brick Wa
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1003,7 +983,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/House/Residence/House 1</strong></summary>
 
-The structure is composed of the following blocks: Muddy Mangrove Roots, Mud Brick Stairs, Mangrove Log, Vine, Mangrove Slab, Mangrove Button, Moss Block, Mangrove Stairs, Mangrove Wall Sign, Grass Block, Grass, Mud Brick Slab, Fern, Mangrove Roots, Mangrove Trapdoor, Mangrove Planks, Soul Lantern, Black Bed, Large Fern, Mangrove Door, Tall Grass, Flowering Azalea.
+The structure part is composed of the following blocks: Muddy Mangrove Roots, Mud Brick Stairs, Mangrove Log, Vine, Mangrove Slab, Mangrove Button, Moss Block, Mangrove Stairs, Mangrove Wall Sign, Grass Block, Grass, Mud Brick Slab, Fern, Mangrove Roots, Mangrove Trapdoor, Mangrove Planks, Soul Lantern, Black Bed, Large Fern, Mangrove Door, Tall Grass, Flowering Azalea.
 
 ### Blocks
 
@@ -1035,12 +1015,12 @@ The structure is composed of the following blocks: Muddy Mangrove Roots, Mud Bri
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1048,7 +1028,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/House/Residence/House 2</strong></summary>
 
-The structure is composed of the following blocks: Muddy Mangrove Roots, Mud Brick Stairs, Mangrove Slab, Mangrove Log, Vine, Mangrove Button, Mangrove Stairs, Grass Block, Moss Block, Grass, Mangrove Wall Sign, Mud Brick Slab, Mangrove Roots, Mangrove Trapdoor, Mangrove Planks, Tall Grass, Soul Lantern, Brown Bed, Large Fern, Mangrove Door, Azalea, Chest, Fern, Potted Fern.
+The structure part is composed of the following blocks: Muddy Mangrove Roots, Mud Brick Stairs, Mangrove Slab, Mangrove Log, Vine, Mangrove Button, Mangrove Stairs, Grass Block, Moss Block, Grass, Mangrove Wall Sign, Mud Brick Slab, Mangrove Roots, Mangrove Trapdoor, Mangrove Planks, Tall Grass, Soul Lantern, Brown Bed, Large Fern, Mangrove Door, Azalea, Chest, Fern, Potted Fern.
 
 ### Blocks
 
@@ -1082,7 +1062,7 @@ The structure is composed of the following blocks: Muddy Mangrove Roots, Mud Bri
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1097,7 +1077,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/House/Residence/House 3</strong></summary>
 
-The structure is composed of the following blocks: Muddy Mangrove Roots, Mangrove Slab, Mud Brick Stairs, Vine, Mangrove Log, Grass Block, Mangrove Stairs, Mangrove Button, Moss Block, Grass, Mangrove Trapdoor, Mangrove Wall Sign, Mangrove Roots, Mud Brick Slab, Mangrove Planks, Moss Carpet, Tall Grass, Fern, Large Fern, Soul Lantern, Green Bed, Mangrove Door, Azalea, Chest, Flowering Azalea, Mangrove Fence.
+The structure part is composed of the following blocks: Muddy Mangrove Roots, Mangrove Slab, Mud Brick Stairs, Vine, Mangrove Log, Grass Block, Mangrove Stairs, Mangrove Button, Moss Block, Grass, Mangrove Trapdoor, Mangrove Wall Sign, Mangrove Roots, Mud Brick Slab, Mangrove Planks, Moss Carpet, Tall Grass, Fern, Large Fern, Soul Lantern, Green Bed, Mangrove Door, Azalea, Chest, Flowering Azalea, Mangrove Fence.
 
 ### Blocks
 
@@ -1133,7 +1113,7 @@ The structure is composed of the following blocks: Muddy Mangrove Roots, Mangrov
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1148,7 +1128,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/House/Residence/House 4</strong></summary>
 
-The structure is composed of the following blocks: Muddy Mangrove Roots, Mangrove Slab, Mud Brick Stairs, Mangrove Log, Vine, Grass Block, Mangrove Stairs, Moss Block, Mangrove Button, Grass, Mangrove Trapdoor, Mud Brick Slab, Mangrove Planks, Mangrove Wall Sign, Mangrove Roots, Moss Carpet, Soul Lantern, Fern, Large Fern, Tall Grass, Green Bed, Mangrove Door, Azalea, Chest, Flowering Azalea, Furnace, Potted Flowering Azalea Bush.
+The structure part is composed of the following blocks: Muddy Mangrove Roots, Mangrove Slab, Mud Brick Stairs, Mangrove Log, Vine, Grass Block, Mangrove Stairs, Moss Block, Mangrove Button, Grass, Mangrove Trapdoor, Mud Brick Slab, Mangrove Planks, Mangrove Wall Sign, Mangrove Roots, Moss Carpet, Soul Lantern, Fern, Large Fern, Tall Grass, Green Bed, Mangrove Door, Azalea, Chest, Flowering Azalea, Furnace, Potted Flowering Azalea Bush.
 
 ### Blocks
 
@@ -1185,7 +1165,7 @@ The structure is composed of the following blocks: Muddy Mangrove Roots, Mangrov
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1200,7 +1180,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/House/Residence/House 5</strong></summary>
 
-The structure is composed of the following blocks: Muddy Mangrove Roots, Mud Brick Stairs, Mangrove Slab, Vine, Grass Block, Mangrove Log, Mangrove Stairs, Moss Block, Mangrove Button, Mangrove Trapdoor, Mangrove Roots, Moss Carpet, Large Fern, Tall Grass, Grass, Mangrove Wall Sign, Mud Brick Slab, Fern, Mangrove Planks, Soul Lantern, Azalea, Green Bed, Mangrove Door, Chest, Flowering Azalea.
+The structure part is composed of the following blocks: Muddy Mangrove Roots, Mud Brick Stairs, Mangrove Slab, Vine, Grass Block, Mangrove Log, Mangrove Stairs, Moss Block, Mangrove Button, Mangrove Trapdoor, Mangrove Roots, Moss Carpet, Large Fern, Tall Grass, Grass, Mangrove Wall Sign, Mud Brick Slab, Fern, Mangrove Planks, Soul Lantern, Azalea, Green Bed, Mangrove Door, Chest, Flowering Azalea.
 
 ### Blocks
 
@@ -1235,7 +1215,7 @@ The structure is composed of the following blocks: Muddy Mangrove Roots, Mud Bri
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1250,7 +1230,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/Streets/Street Aslant</strong></summary>
 
-The structure is composed of the following blocks: Mangrove Planks, Mangrove Slab, Mud, Coarse Dirt.
+The structure part is composed of the following blocks: Mangrove Planks, Mangrove Slab, Mud, Coarse Dirt.
 
 ### Blocks
 
@@ -1264,12 +1244,12 @@ The structure is composed of the following blocks: Mangrove Planks, Mangrove Sla
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1277,7 +1257,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/Streets/Street Aslant 2</strong></summary>
 
-The structure is composed of the following blocks: Mangrove Planks, Coarse Dirt, Mangrove Slab, Mud.
+The structure part is composed of the following blocks: Mangrove Planks, Coarse Dirt, Mangrove Slab, Mud.
 
 ### Blocks
 
@@ -1291,12 +1271,12 @@ The structure is composed of the following blocks: Mangrove Planks, Coarse Dirt,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1304,7 +1284,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/Streets/Street Cross</strong></summary>
 
-The structure is composed of the following blocks: Mangrove Planks, Mud, Mangrove Slab, Coarse Dirt.
+The structure part is composed of the following blocks: Mangrove Planks, Mud, Mangrove Slab, Coarse Dirt.
 
 ### Blocks
 
@@ -1318,12 +1298,12 @@ The structure is composed of the following blocks: Mangrove Planks, Mud, Mangrov
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1331,7 +1311,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/Streets/Street Curve</strong></summary>
 
-The structure is composed of the following blocks: Mangrove Planks, Coarse Dirt, Mangrove Slab, Mud.
+The structure part is composed of the following blocks: Mangrove Planks, Coarse Dirt, Mangrove Slab, Mud.
 
 ### Blocks
 
@@ -1345,12 +1325,12 @@ The structure is composed of the following blocks: Mangrove Planks, Coarse Dirt,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1358,7 +1338,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/Streets/Street Curve 2</strong></summary>
 
-The structure is composed of the following blocks: Coarse Dirt, Mangrove Planks, Mud, Mangrove Slab.
+The structure part is composed of the following blocks: Coarse Dirt, Mangrove Planks, Mud, Mangrove Slab.
 
 ### Blocks
 
@@ -1372,12 +1352,12 @@ The structure is composed of the following blocks: Coarse Dirt, Mangrove Planks,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1385,7 +1365,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/Streets/Street Curvy</strong></summary>
 
-The structure is composed of the following blocks: Mangrove Planks, Mud, Coarse Dirt, Mangrove Slab.
+The structure part is composed of the following blocks: Mangrove Planks, Mud, Coarse Dirt, Mangrove Slab.
 
 ### Blocks
 
@@ -1399,12 +1379,12 @@ The structure is composed of the following blocks: Mangrove Planks, Mud, Coarse 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1412,7 +1392,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/Streets/Street Rare</strong></summary>
 
-The structure is composed of the following blocks: Mangrove Planks, Mud, Coarse Dirt.
+The structure part is composed of the following blocks: Mangrove Planks, Mud, Coarse Dirt.
 
 ### Blocks
 
@@ -1425,12 +1405,12 @@ The structure is composed of the following blocks: Mangrove Planks, Mud, Coarse 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1438,7 +1418,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/Streets/Street Straight</strong></summary>
 
-The structure is composed of the following blocks: Mangrove Planks, Mangrove Slab, Mud, Coarse Dirt.
+The structure part is composed of the following blocks: Mangrove Planks, Mangrove Slab, Mud, Coarse Dirt.
 
 ### Blocks
 
@@ -1452,12 +1432,12 @@ The structure is composed of the following blocks: Mangrove Planks, Mangrove Sla
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1465,7 +1445,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/Streets/Street Straight 2</strong></summary>
 
-The structure is composed of the following blocks: Mangrove Planks, Mangrove Slab, Mud, Coarse Dirt.
+The structure part is composed of the following blocks: Mangrove Planks, Mangrove Slab, Mud, Coarse Dirt.
 
 ### Blocks
 
@@ -1479,12 +1459,12 @@ The structure is composed of the following blocks: Mangrove Planks, Mangrove Sla
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1492,7 +1472,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/Streets/Street T</strong></summary>
 
-The structure is composed of the following blocks: Mangrove Planks, Mud, Mangrove Slab, Coarse Dirt.
+The structure part is composed of the following blocks: Mangrove Planks, Mud, Mangrove Slab, Coarse Dirt.
 
 ### Blocks
 
@@ -1506,12 +1486,12 @@ The structure is composed of the following blocks: Mangrove Planks, Mud, Mangrov
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1519,7 +1499,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/Streets/Street Y</strong></summary>
 
-The structure is composed of the following blocks: Mangrove Planks, Coarse Dirt, Mangrove Slab, Mud.
+The structure part is composed of the following blocks: Mangrove Planks, Coarse Dirt, Mangrove Slab, Mud.
 
 ### Blocks
 
@@ -1533,12 +1513,12 @@ The structure is composed of the following blocks: Mangrove Planks, Coarse Dirt,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1546,7 +1526,7 @@ None found.
 <details>
 <summary><strong>Village Swamp/Town Center/Town Center</strong></summary>
 
-The structure is composed of the following blocks: Coarse Dirt, Mud, Mangrove Planks, Mangrove Log, Vine, Grass, Mangrove Fence, Moss Carpet, Flower Pot, Bell, Campfire.
+The structure part is composed of the following blocks: Coarse Dirt, Mud, Mangrove Planks, Mangrove Log, Vine, Grass, Mangrove Fence, Moss Carpet, Flower Pot, Bell, Campfire.
 
 ### Blocks
 
@@ -1567,12 +1547,12 @@ The structure is composed of the following blocks: Coarse Dirt, Mud, Mangrove Pl
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1580,13 +1560,13 @@ None found.
 <details>
 <summary><strong>Village Swamp/Villager/Villagers Swamp Baby</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Villager.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -1598,7 +1578,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1606,13 +1586,13 @@ None found.
 <details>
 <summary><strong>Village Swamp/Villager/Villagers Swamp Nitwit</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Villager.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -1624,7 +1604,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1632,13 +1612,13 @@ None found.
 <details>
 <summary><strong>Village Swamp/Villager/Villagers Swamp Unemployed</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Villager.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -1650,7 +1630,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>

@@ -1,30 +1,14 @@
-# Village Underground
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Stone, Oak Slab, Stone Slab, Oak Fence, Andesite, Stone Button, Granite, Oak Log, Emerald Ore, Oak Planks, Glow Lichen, Stripped Oak Log, Oak Wall Sign, Diorite, Oak Fence Gate, Stone Stairs, Lantern, Andesite Slab, Coal Ore, Oak Stairs, Granite Slab, Stone Bricks, Oak Button, Light Gray Bed, Oak Door, Deepslate, Amethyst Block, Chest, Diorite Slab, Diamond Ore, Gravel, Tuff, Smooth Basalt, Cracked Stone Bricks, Polished Andesite Slab, Andesite Wall, Andesite Stairs, Granite Stairs, Crimson Fence, Light Gray Stained Glass Pane, Warped Fence, Coarse Dirt, Cobbled Deepslate, Cobbled Deepslate Slab, Furnace, Stone Brick Stairs, Calcite, Coal Block, Deepslate Tiles, Barrel, Chain, Hay Block, Budding Amethyst, Diorite Stairs, Iron Bars, Rooted Dirt, Spruce Trapdoor, Brown Wall Banner, Campfire, Emerald Block, Gold Ore, Gray Candle, Oak Trapdoor, Amethyst Cluster, Cobbled Deepslate Wall, Iron Trapdoor, Large Amethyst Bud, Magenta Candle, Note Block, Potted Oak Sapling, Purple Candle, Small Amethyst Bud, Anvil, Bamboo Block, Bell, Birch Stairs, Blast Furnace, Brewing Stand, Chipped Anvil, Damaged Anvil, Fletching Table, Grindstone, Jukebox, Potted Azure Bluet, Potted Dead Bush, Potted Fern, Potted Red Mushroom, Smithing Table, Spawner, Stonecutter, Target, Water Cauldron.
 
-### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/underground/armorer |
-| kattersstructures:chests/underground/cleric |
-| kattersstructures:chests/underground/fletcher |
-| kattersstructures:chests/underground/house |
-| kattersstructures:chests/underground/leatherworker |
-| kattersstructures:chests/underground/mason |
-| kattersstructures:chests/underground/random |
-| kattersstructures:chests/underground/toolsmith |
-| kattersstructures:chests/underground/treasures |
-| kattersstructures:chests/underground/weaponsmith |
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Village Underground/House/Edge/House Edge 1</strong></summary>
 
-The structure is composed of the following blocks: Stone, Andesite, Stone Slab, Andesite Slab, Andesite Stairs, Oak Stairs, Lantern, Light Gray Bed, Oak Door, Oak Fence, Chest, Potted Fern, Stone Stairs.
+The structure part is composed of the following blocks: Stone, Andesite, Stone Slab, Andesite Slab, Andesite Stairs, Oak Stairs, Lantern, Light Gray Bed, Oak Door, Oak Fence, Chest, Potted Fern, Stone Stairs.
 
 ### Blocks
 
@@ -47,7 +31,7 @@ The structure is composed of the following blocks: Stone, Andesite, Stone Slab, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -62,7 +46,7 @@ None found.
 <details>
 <summary><strong>Village Underground/House/Edge/House Edge 2</strong></summary>
 
-The structure is composed of the following blocks: Stone, Stone Slab, Diorite, Oak Door, Oak Fence, Diorite Slab, Light Gray Bed, Stone Stairs, Chest, Lantern.
+The structure part is composed of the following blocks: Stone, Stone Slab, Diorite, Oak Door, Oak Fence, Diorite Slab, Light Gray Bed, Stone Stairs, Chest, Lantern.
 
 ### Blocks
 
@@ -82,7 +66,7 @@ The structure is composed of the following blocks: Stone, Stone Slab, Diorite, O
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -97,7 +81,7 @@ None found.
 <details>
 <summary><strong>Village Underground/House/Edge/House Edge 3</strong></summary>
 
-The structure is composed of the following blocks: Stone, Stone Slab, Light Gray Bed, Oak Stairs, Oak Door, Lantern, Light Gray Stained Glass Pane, Potted Red Mushroom.
+The structure part is composed of the following blocks: Stone, Stone Slab, Light Gray Bed, Oak Stairs, Oak Door, Lantern, Light Gray Stained Glass Pane, Potted Red Mushroom.
 
 ### Blocks
 
@@ -115,12 +99,12 @@ The structure is composed of the following blocks: Stone, Stone Slab, Light Gray
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -128,7 +112,7 @@ None found.
 <details>
 <summary><strong>Village Underground/House/Edge/House Edge 4</strong></summary>
 
-The structure is composed of the following blocks: Stone, Oak Planks, Oak Fence, Oak Stairs, Stone Slab, Light Gray Bed, Oak Door, Chest, Lantern.
+The structure part is composed of the following blocks: Stone, Oak Planks, Oak Fence, Oak Stairs, Stone Slab, Light Gray Bed, Oak Door, Chest, Lantern.
 
 ### Blocks
 
@@ -147,7 +131,7 @@ The structure is composed of the following blocks: Stone, Oak Planks, Oak Fence,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -162,7 +146,7 @@ None found.
 <details>
 <summary><strong>Village Underground/House/Edge/House Edge 5</strong></summary>
 
-The structure is composed of the following blocks: Stone, Andesite, Stone Slab, Oak Planks, Andesite Slab, Light Gray Bed, Oak Door, Oak Fence, Chest, Lantern, Light Gray Stained Glass Pane.
+The structure part is composed of the following blocks: Stone, Andesite, Stone Slab, Oak Planks, Andesite Slab, Light Gray Bed, Oak Door, Oak Fence, Chest, Lantern, Light Gray Stained Glass Pane.
 
 ### Blocks
 
@@ -183,7 +167,7 @@ The structure is composed of the following blocks: Stone, Andesite, Stone Slab, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -198,7 +182,7 @@ None found.
 <details>
 <summary><strong>Village Underground/House/Edge/House Edge 6</strong></summary>
 
-The structure is composed of the following blocks: Stone, Granite, Stone Slab, Granite Slab, Light Gray Bed, Oak Door, Lantern, Oak Stairs, Potted Oak Sapling.
+The structure part is composed of the following blocks: Stone, Granite, Stone Slab, Granite Slab, Light Gray Bed, Oak Door, Lantern, Oak Stairs, Potted Oak Sapling.
 
 ### Blocks
 
@@ -217,12 +201,12 @@ The structure is composed of the following blocks: Stone, Granite, Stone Slab, G
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -230,7 +214,7 @@ None found.
 <details>
 <summary><strong>Village Underground/House/Edge/House Edge Armorer</strong></summary>
 
-The structure is composed of the following blocks: Stone, Deepslate, Stone Slab, Andesite, Coal Block, Andesite Slab, Spruce Trapdoor, Stone Button, Cobbled Deepslate Wall, Blast Furnace, Chest, Chipped Anvil, Cobbled Deepslate Slab, Iron Trapdoor, Lantern.
+The structure part is composed of the following blocks: Stone, Deepslate, Stone Slab, Andesite, Coal Block, Andesite Slab, Spruce Trapdoor, Stone Button, Cobbled Deepslate Wall, Blast Furnace, Chest, Chipped Anvil, Cobbled Deepslate Slab, Iron Trapdoor, Lantern.
 
 ### Blocks
 
@@ -255,7 +239,7 @@ The structure is composed of the following blocks: Stone, Deepslate, Stone Slab,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -270,7 +254,7 @@ None found.
 <details>
 <summary><strong>Village Underground/House/Edge/House Edge Cleric</strong></summary>
 
-The structure is composed of the following blocks: Stone, Amethyst Block, Smooth Basalt, Crimson Fence, Warped Fence, Calcite, Budding Amethyst, Stone Button, Amethyst Cluster, Gray Candle, Large Amethyst Bud, Magenta Candle, Purple Candle, Small Amethyst Bud, Brewing Stand, Chain, Chest.
+The structure part is composed of the following blocks: Stone, Amethyst Block, Smooth Basalt, Crimson Fence, Warped Fence, Calcite, Budding Amethyst, Stone Button, Amethyst Cluster, Gray Candle, Large Amethyst Bud, Magenta Candle, Purple Candle, Small Amethyst Bud, Brewing Stand, Chain, Chest.
 
 ### Blocks
 
@@ -297,7 +281,7 @@ The structure is composed of the following blocks: Stone, Amethyst Block, Smooth
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -312,7 +296,7 @@ None found.
 <details>
 <summary><strong>Village Underground/House/Edge/House Edge Empty</strong></summary>
 
-The structure is composed of the following blocks: Stone, Stone Slab, Stone Button.
+The structure part is composed of the following blocks: Stone, Stone Slab, Stone Button.
 
 ### Blocks
 
@@ -325,12 +309,12 @@ The structure is composed of the following blocks: Stone, Stone Slab, Stone Butt
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -338,7 +322,7 @@ None found.
 <details>
 <summary><strong>Village Underground/House/Edge/House Edge Mason</strong></summary>
 
-The structure is composed of the following blocks: Stone, Stone Bricks, Cracked Stone Bricks, Gravel, Stone Brick Stairs, Stone Button, Lantern, Oak Door, Chest, Light Gray Stained Glass Pane, Stone Slab, Stonecutter.
+The structure part is composed of the following blocks: Stone, Stone Bricks, Cracked Stone Bricks, Gravel, Stone Brick Stairs, Stone Button, Lantern, Oak Door, Chest, Light Gray Stained Glass Pane, Stone Slab, Stonecutter.
 
 ### Blocks
 
@@ -360,7 +344,7 @@ The structure is composed of the following blocks: Stone, Stone Bricks, Cracked 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -375,7 +359,7 @@ None found.
 <details>
 <summary><strong>Village Underground/House/Edge/House Edge Storage</strong></summary>
 
-The structure is composed of the following blocks: Stone, Granite, Oak Planks, Oak Slab, Stone Slab, Chest, Granite Slab, Hay Block, Oak Fence, Barrel, Note Block, Furnace, Iron Trapdoor, Jukebox, Lantern.
+The structure part is composed of the following blocks: Stone, Granite, Oak Planks, Oak Slab, Stone Slab, Chest, Granite Slab, Hay Block, Oak Fence, Barrel, Note Block, Furnace, Iron Trapdoor, Jukebox, Lantern.
 
 ### Blocks
 
@@ -400,7 +384,7 @@ The structure is composed of the following blocks: Stone, Granite, Oak Planks, O
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -415,7 +399,7 @@ None found.
 <details>
 <summary><strong>Village Underground/House/Edge/House Edge Storage 2</strong></summary>
 
-The structure is composed of the following blocks: Stone, Emerald Ore, Stone Slab, Coal Ore, Furnace, Oak Fence, Stone Stairs, Campfire, Lantern.
+The structure part is composed of the following blocks: Stone, Emerald Ore, Stone Slab, Coal Ore, Furnace, Oak Fence, Stone Stairs, Campfire, Lantern.
 
 ### Blocks
 
@@ -434,12 +418,12 @@ The structure is composed of the following blocks: Stone, Emerald Ore, Stone Sla
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -447,7 +431,7 @@ None found.
 <details>
 <summary><strong>Village Underground/House/Edge/House Edge Toolsmith</strong></summary>
 
-The structure is composed of the following blocks: Stone, Deepslate, Stone Slab, Deepslate Tiles, Stone Button, Tuff, Iron Bars, Anvil, Chest, Smithing Table.
+The structure part is composed of the following blocks: Stone, Deepslate, Stone Slab, Deepslate Tiles, Stone Button, Tuff, Iron Bars, Anvil, Chest, Smithing Table.
 
 ### Blocks
 
@@ -467,7 +451,7 @@ The structure is composed of the following blocks: Stone, Deepslate, Stone Slab,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -482,7 +466,7 @@ None found.
 <details>
 <summary><strong>Village Underground/House/Edge/House Edge Weaponsmith</strong></summary>
 
-The structure is composed of the following blocks: Stone, Andesite, Tuff, Cobbled Deepslate, Deepslate, Cobbled Deepslate Slab, Stone Button, Stone Slab, Andesite Slab, Andesite Wall, Chest, Damaged Anvil, Grindstone.
+The structure part is composed of the following blocks: Stone, Andesite, Tuff, Cobbled Deepslate, Deepslate, Cobbled Deepslate Slab, Stone Button, Stone Slab, Andesite Slab, Andesite Wall, Chest, Damaged Anvil, Grindstone.
 
 ### Blocks
 
@@ -505,7 +489,7 @@ The structure is composed of the following blocks: Stone, Andesite, Tuff, Cobble
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -520,7 +504,7 @@ None found.
 <details>
 <summary><strong>Village Underground/House/Side/House Side 1</strong></summary>
 
-The structure is composed of the following blocks: Stone, Andesite, Stone Slab, Stone Stairs, Andesite Slab, Andesite Stairs, Light Gray Bed, Oak Door, Chest, Lantern, Light Gray Stained Glass Pane, Oak Stairs, Potted Oak Sapling.
+The structure part is composed of the following blocks: Stone, Andesite, Stone Slab, Stone Stairs, Andesite Slab, Andesite Stairs, Light Gray Bed, Oak Door, Chest, Lantern, Light Gray Stained Glass Pane, Oak Stairs, Potted Oak Sapling.
 
 ### Blocks
 
@@ -543,7 +527,7 @@ The structure is composed of the following blocks: Stone, Andesite, Stone Slab, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -558,7 +542,7 @@ None found.
 <details>
 <summary><strong>Village Underground/House/Side/House Side 2</strong></summary>
 
-The structure is composed of the following blocks: Stone, Stone Slab, Granite, Oak Fence, Stone Stairs, Light Gray Bed, Light Gray Stained Glass Pane, Oak Door, Chest, Granite Stairs, Lantern.
+The structure part is composed of the following blocks: Stone, Stone Slab, Granite, Oak Fence, Stone Stairs, Light Gray Bed, Light Gray Stained Glass Pane, Oak Door, Chest, Granite Stairs, Lantern.
 
 ### Blocks
 
@@ -579,7 +563,7 @@ The structure is composed of the following blocks: Stone, Stone Slab, Granite, O
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -594,7 +578,7 @@ None found.
 <details>
 <summary><strong>Village Underground/House/Side/House Side 3</strong></summary>
 
-The structure is composed of the following blocks: Stone, Diorite, Stone Slab, Diorite Slab, Diorite Stairs, Light Gray Bed, Oak Door, Chain, Chest, Lantern, Stone Stairs.
+The structure part is composed of the following blocks: Stone, Diorite, Stone Slab, Diorite Slab, Diorite Stairs, Light Gray Bed, Oak Door, Chain, Chest, Lantern, Stone Stairs.
 
 ### Blocks
 
@@ -615,7 +599,7 @@ The structure is composed of the following blocks: Stone, Diorite, Stone Slab, D
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -630,7 +614,7 @@ None found.
 <details>
 <summary><strong>Village Underground/House/Side/House Side 4</strong></summary>
 
-The structure is composed of the following blocks: Stone, Stone Slab, Stone Stairs, Light Gray Bed, Oak Door, Gray Candle, Oak Stairs.
+The structure part is composed of the following blocks: Stone, Stone Slab, Stone Stairs, Light Gray Bed, Oak Door, Gray Candle, Oak Stairs.
 
 ### Blocks
 
@@ -647,12 +631,12 @@ The structure is composed of the following blocks: Stone, Stone Slab, Stone Stai
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -660,7 +644,7 @@ None found.
 <details>
 <summary><strong>Village Underground/House/Side/House Side 5</strong></summary>
 
-The structure is composed of the following blocks: Stone, Oak Planks, Oak Fence, Polished Andesite Slab, Oak Stairs, Light Gray Bed, Oak Door, Stone Slab, Chest, Lantern.
+The structure part is composed of the following blocks: Stone, Oak Planks, Oak Fence, Polished Andesite Slab, Oak Stairs, Light Gray Bed, Oak Door, Stone Slab, Chest, Lantern.
 
 ### Blocks
 
@@ -680,7 +664,7 @@ The structure is composed of the following blocks: Stone, Oak Planks, Oak Fence,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -695,7 +679,7 @@ None found.
 <details>
 <summary><strong>Village Underground/House/Side/House Side 6</strong></summary>
 
-The structure is composed of the following blocks: Stone, Stone Slab, Glow Lichen, Light Gray Bed, Stone Stairs, Oak Door, Chest, Lantern, Light Gray Stained Glass Pane, Oak Stairs.
+The structure part is composed of the following blocks: Stone, Stone Slab, Glow Lichen, Light Gray Bed, Stone Stairs, Oak Door, Chest, Lantern, Light Gray Stained Glass Pane, Oak Stairs.
 
 ### Blocks
 
@@ -715,7 +699,7 @@ The structure is composed of the following blocks: Stone, Stone Slab, Glow Liche
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -730,7 +714,7 @@ None found.
 <details>
 <summary><strong>Village Underground/House/Side/House Side 7</strong></summary>
 
-The structure is composed of the following blocks: Stone, Oak Planks, Oak Fence, Stone Slab, Oak Slab, Oak Stairs, Light Gray Bed, Oak Door, Chest, Lantern, Stone Stairs.
+The structure part is composed of the following blocks: Stone, Oak Planks, Oak Fence, Stone Slab, Oak Slab, Oak Stairs, Light Gray Bed, Oak Door, Chest, Lantern, Stone Stairs.
 
 ### Blocks
 
@@ -751,7 +735,7 @@ The structure is composed of the following blocks: Stone, Oak Planks, Oak Fence,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -766,7 +750,7 @@ None found.
 <details>
 <summary><strong>Village Underground/House/Side/House Side 8</strong></summary>
 
-The structure is composed of the following blocks: Stone, Andesite, Stone Slab, Andesite Slab, Light Gray Bed, Oak Door, Chest, Lantern, Light Gray Stained Glass Pane, Oak Stairs, Potted Azure Bluet, Stone Stairs.
+The structure part is composed of the following blocks: Stone, Andesite, Stone Slab, Andesite Slab, Light Gray Bed, Oak Door, Chest, Lantern, Light Gray Stained Glass Pane, Oak Stairs, Potted Azure Bluet, Stone Stairs.
 
 ### Blocks
 
@@ -788,7 +772,7 @@ The structure is composed of the following blocks: Stone, Andesite, Stone Slab, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -803,7 +787,7 @@ None found.
 <details>
 <summary><strong>Village Underground/House/Side/House Side Empty</strong></summary>
 
-The structure is composed of the following blocks: Stone, Stone Slab, Stone Button.
+The structure part is composed of the following blocks: Stone, Stone Slab, Stone Button.
 
 ### Blocks
 
@@ -816,12 +800,12 @@ The structure is composed of the following blocks: Stone, Stone Slab, Stone Butt
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -829,7 +813,7 @@ None found.
 <details>
 <summary><strong>Village Underground/House/Side/House Side Fletcher</strong></summary>
 
-The structure is composed of the following blocks: Stone, Stone Slab, Oak Planks, Oak Slab, Stone Button, Oak Trapdoor, Birch Stairs, Chest, Fletching Table, Lantern, Oak Fence, Potted Dead Bush, Target.
+The structure part is composed of the following blocks: Stone, Stone Slab, Oak Planks, Oak Slab, Stone Button, Oak Trapdoor, Birch Stairs, Chest, Fletching Table, Lantern, Oak Fence, Potted Dead Bush, Target.
 
 ### Blocks
 
@@ -852,7 +836,7 @@ The structure is composed of the following blocks: Stone, Stone Slab, Oak Planks
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -867,7 +851,7 @@ None found.
 <details>
 <summary><strong>Village Underground/House/Side/House Side Leatherworker</strong></summary>
 
-The structure is composed of the following blocks: Stone, Stone Slab, Stone Button, Brown Wall Banner, Chest, Water Cauldron.
+The structure part is composed of the following blocks: Stone, Stone Slab, Stone Button, Brown Wall Banner, Chest, Water Cauldron.
 
 ### Blocks
 
@@ -883,7 +867,7 @@ The structure is composed of the following blocks: Stone, Stone Slab, Stone Butt
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -898,7 +882,7 @@ None found.
 <details>
 <summary><strong>Village Underground/House/Side/House Side Storage</strong></summary>
 
-The structure is composed of the following blocks: Stone, Stone Slab, Stone Button, Chest, Oak Fence, Barrel, Emerald Block, Hay Block, Bamboo Block, Lantern.
+The structure part is composed of the following blocks: Stone, Stone Slab, Stone Button, Chest, Oak Fence, Barrel, Emerald Block, Hay Block, Bamboo Block, Lantern.
 
 ### Blocks
 
@@ -918,7 +902,7 @@ The structure is composed of the following blocks: Stone, Stone Slab, Stone Butt
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -933,7 +917,7 @@ None found.
 <details>
 <summary><strong>Village Underground/House/Side/House Side Storage 2</strong></summary>
 
-The structure is composed of the following blocks: Stone, Oak Slab, Emerald Ore, Oak Fence, Stone Slab, Glow Lichen, Oak Planks, Coal Ore, Gold Ore, Lantern.
+The structure part is composed of the following blocks: Stone, Oak Slab, Emerald Ore, Oak Fence, Stone Slab, Glow Lichen, Oak Planks, Coal Ore, Gold Ore, Lantern.
 
 ### Blocks
 
@@ -953,12 +937,12 @@ The structure is composed of the following blocks: Stone, Oak Slab, Emerald Ore,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -966,7 +950,7 @@ None found.
 <details>
 <summary><strong>Village Underground/Streets/Rooms/Room 1</strong></summary>
 
-The structure is composed of the following blocks: Stone, Oak Slab, Oak Fence, Stone Slab, Oak Planks, Andesite, Oak Log, Stone Button, Oak Fence Gate, Stripped Oak Log, Glow Lichen, Oak Wall Sign, Andesite Slab, Granite, Lantern, Oak Button, Stone Stairs.
+The structure part is composed of the following blocks: Stone, Oak Slab, Oak Fence, Stone Slab, Oak Planks, Andesite, Oak Log, Stone Button, Oak Fence Gate, Stripped Oak Log, Glow Lichen, Oak Wall Sign, Andesite Slab, Granite, Lantern, Oak Button, Stone Stairs.
 
 ### Blocks
 
@@ -993,12 +977,12 @@ The structure is composed of the following blocks: Stone, Oak Slab, Oak Fence, S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1006,7 +990,7 @@ None found.
 <details>
 <summary><strong>Village Underground/Streets/Rooms/Room 2</strong></summary>
 
-The structure is composed of the following blocks: Stone, Oak Slab, Stone Slab, Oak Fence, Andesite, Granite, Stone Button, Oak Log, Glow Lichen, Stripped Oak Log, Diorite, Oak Wall Sign, Granite Slab, Oak Fence Gate, Oak Planks, Lantern, Andesite Slab, Oak Button, Diorite Slab, Stone Stairs, Andesite Stairs, Granite Stairs.
+The structure part is composed of the following blocks: Stone, Oak Slab, Stone Slab, Oak Fence, Andesite, Granite, Stone Button, Oak Log, Glow Lichen, Stripped Oak Log, Diorite, Oak Wall Sign, Granite Slab, Oak Fence Gate, Oak Planks, Lantern, Andesite Slab, Oak Button, Diorite Slab, Stone Stairs, Andesite Stairs, Granite Stairs.
 
 ### Blocks
 
@@ -1038,12 +1022,12 @@ The structure is composed of the following blocks: Stone, Oak Slab, Stone Slab, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1051,7 +1035,7 @@ None found.
 <details>
 <summary><strong>Village Underground/Streets/Rooms/Room 3</strong></summary>
 
-The structure is composed of the following blocks: Stone, Oak Slab, Stone Slab, Oak Fence, Andesite, Stone Button, Oak Log, Granite, Emerald Ore, Diorite, Oak Fence Gate, Lantern, Oak Planks, Andesite Slab, Granite Slab, Stone Stairs, Andesite Stairs, Diorite Slab, Granite Stairs.
+The structure part is composed of the following blocks: Stone, Oak Slab, Stone Slab, Oak Fence, Andesite, Stone Button, Oak Log, Granite, Emerald Ore, Diorite, Oak Fence Gate, Lantern, Oak Planks, Andesite Slab, Granite Slab, Stone Stairs, Andesite Stairs, Diorite Slab, Granite Stairs.
 
 ### Blocks
 
@@ -1080,12 +1064,12 @@ The structure is composed of the following blocks: Stone, Oak Slab, Stone Slab, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1093,7 +1077,7 @@ None found.
 <details>
 <summary><strong>Village Underground/Streets/Rooms/Room 4</strong></summary>
 
-The structure is composed of the following blocks: Stone, Oak Slab, Stone Slab, Oak Fence, Andesite, Granite, Stone Button, Glow Lichen, Stripped Oak Log, Oak Log, Oak Wall Sign, Oak Planks, Andesite Slab, Granite Slab, Lantern, Oak Button, Oak Fence Gate, Stone Stairs.
+The structure part is composed of the following blocks: Stone, Oak Slab, Stone Slab, Oak Fence, Andesite, Granite, Stone Button, Glow Lichen, Stripped Oak Log, Oak Log, Oak Wall Sign, Oak Planks, Andesite Slab, Granite Slab, Lantern, Oak Button, Oak Fence Gate, Stone Stairs.
 
 ### Blocks
 
@@ -1121,12 +1105,12 @@ The structure is composed of the following blocks: Stone, Oak Slab, Stone Slab, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1134,7 +1118,7 @@ None found.
 <details>
 <summary><strong>Village Underground/Streets/Rooms/Room 5</strong></summary>
 
-The structure is composed of the following blocks: Stone, Oak Slab, Oak Fence, Stone Slab, Stone Button, Granite, Andesite, Oak Log, Stripped Oak Log, Oak Wall Sign, Oak Fence Gate, Glow Lichen, Lantern, Diorite, Andesite Slab, Oak Button, Oak Planks, Diorite Slab, Granite Slab, Stone Stairs.
+The structure part is composed of the following blocks: Stone, Oak Slab, Oak Fence, Stone Slab, Stone Button, Granite, Andesite, Oak Log, Stripped Oak Log, Oak Wall Sign, Oak Fence Gate, Glow Lichen, Lantern, Diorite, Andesite Slab, Oak Button, Oak Planks, Diorite Slab, Granite Slab, Stone Stairs.
 
 ### Blocks
 
@@ -1164,12 +1148,12 @@ The structure is composed of the following blocks: Stone, Oak Slab, Oak Fence, S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1177,7 +1161,7 @@ None found.
 <details>
 <summary><strong>Village Underground/Streets/Rooms/Room 6</strong></summary>
 
-The structure is composed of the following blocks: Stone, Oak Slab, Andesite, Stone Slab, Stone Button, Oak Fence, Granite, Oak Log, Glow Lichen, Stripped Oak Log, Oak Wall Sign, Oak Fence Gate, Diorite, Oak Planks, Lantern, Oak Button, Stone Stairs, Andesite Slab, Diorite Slab, Granite Slab, Granite Stairs.
+The structure part is composed of the following blocks: Stone, Oak Slab, Andesite, Stone Slab, Stone Button, Oak Fence, Granite, Oak Log, Glow Lichen, Stripped Oak Log, Oak Wall Sign, Oak Fence Gate, Diorite, Oak Planks, Lantern, Oak Button, Stone Stairs, Andesite Slab, Diorite Slab, Granite Slab, Granite Stairs.
 
 ### Blocks
 
@@ -1208,12 +1192,12 @@ The structure is composed of the following blocks: Stone, Oak Slab, Andesite, St
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1221,7 +1205,7 @@ None found.
 <details>
 <summary><strong>Village Underground/Streets/Rooms/Room 7</strong></summary>
 
-The structure is composed of the following blocks: Stone, Oak Slab, Andesite, Stone Slab, Stone Button, Diorite, Oak Log, Oak Fence, Glow Lichen, Oak Fence Gate, Oak Planks, Stripped Oak Log, Oak Wall Sign, Lantern, Andesite Slab, Oak Button, Stone Stairs.
+The structure part is composed of the following blocks: Stone, Oak Slab, Andesite, Stone Slab, Stone Button, Diorite, Oak Log, Oak Fence, Glow Lichen, Oak Fence Gate, Oak Planks, Stripped Oak Log, Oak Wall Sign, Lantern, Andesite Slab, Oak Button, Stone Stairs.
 
 ### Blocks
 
@@ -1248,12 +1232,12 @@ The structure is composed of the following blocks: Stone, Oak Slab, Andesite, St
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1261,7 +1245,7 @@ None found.
 <details>
 <summary><strong>Village Underground/Streets/Rooms/Room Special</strong></summary>
 
-The structure is composed of the following blocks: Stone, Emerald Ore, Coal Ore, Stone Slab, Diamond Ore, Oak Slab, Oak Fence, Oak Wall Sign, Chest, Lantern, Spawner.
+The structure part is composed of the following blocks: Stone, Emerald Ore, Coal Ore, Stone Slab, Diamond Ore, Oak Slab, Oak Fence, Oak Wall Sign, Chest, Lantern, Spawner.
 
 ### Blocks
 
@@ -1282,7 +1266,7 @@ The structure is composed of the following blocks: Stone, Emerald Ore, Coal Ore,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1297,7 +1281,7 @@ None found.
 <details>
 <summary><strong>Village Underground/Streets/Street Curve</strong></summary>
 
-The structure is composed of the following blocks: Stone, Oak Slab, Stone Slab, Andesite, Stone Button, Oak Fence, Stone Stairs, Granite, Glow Lichen, Oak Log, Andesite Slab, Granite Stairs, Stripped Oak Log, Andesite Stairs, Granite Slab, Lantern, Oak Wall Sign.
+The structure part is composed of the following blocks: Stone, Oak Slab, Stone Slab, Andesite, Stone Button, Oak Fence, Stone Stairs, Granite, Glow Lichen, Oak Log, Andesite Slab, Granite Stairs, Stripped Oak Log, Andesite Stairs, Granite Slab, Lantern, Oak Wall Sign.
 
 ### Blocks
 
@@ -1324,12 +1308,12 @@ The structure is composed of the following blocks: Stone, Oak Slab, Stone Slab, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1337,7 +1321,7 @@ None found.
 <details>
 <summary><strong>Village Underground/Streets/Street Stairs</strong></summary>
 
-The structure is composed of the following blocks: Stone, Oak Slab, Stone Slab, Oak Log, Stripped Oak Log, Stone Button, Andesite, Granite, Oak Fence, Oak Wall Sign, Diorite, Stone Stairs, Diorite Slab, Andesite Slab, Granite Slab, Lantern.
+The structure part is composed of the following blocks: Stone, Oak Slab, Stone Slab, Oak Log, Stripped Oak Log, Stone Button, Andesite, Granite, Oak Fence, Oak Wall Sign, Diorite, Stone Stairs, Diorite Slab, Andesite Slab, Granite Slab, Lantern.
 
 ### Blocks
 
@@ -1363,12 +1347,12 @@ The structure is composed of the following blocks: Stone, Oak Slab, Stone Slab, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1376,7 +1360,7 @@ None found.
 <details>
 <summary><strong>Village Underground/Streets/Street Stairs 2</strong></summary>
 
-The structure is composed of the following blocks: Stone, Oak Slab, Stone Slab, Oak Fence, Stone Button, Andesite, Oak Log, Oak Wall Sign, Granite, Glow Lichen, Andesite Slab, Stripped Oak Log, Diorite, Stone Stairs, Lantern, Oak Fence Gate, Diorite Slab.
+The structure part is composed of the following blocks: Stone, Oak Slab, Stone Slab, Oak Fence, Stone Button, Andesite, Oak Log, Oak Wall Sign, Granite, Glow Lichen, Andesite Slab, Stripped Oak Log, Diorite, Stone Stairs, Lantern, Oak Fence Gate, Diorite Slab.
 
 ### Blocks
 
@@ -1403,12 +1387,12 @@ The structure is composed of the following blocks: Stone, Oak Slab, Stone Slab, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1416,7 +1400,7 @@ None found.
 <details>
 <summary><strong>Village Underground/Streets/Street Straight Short</strong></summary>
 
-The structure is composed of the following blocks: Stone, Oak Slab, Oak Fence, Stone Slab, Andesite, Diorite, Glow Lichen, Granite, Stone Stairs, Stone Button, Diorite Slab, Chain, Lantern.
+The structure part is composed of the following blocks: Stone, Oak Slab, Oak Fence, Stone Slab, Andesite, Diorite, Glow Lichen, Granite, Stone Stairs, Stone Button, Diorite Slab, Chain, Lantern.
 
 ### Blocks
 
@@ -1439,12 +1423,12 @@ The structure is composed of the following blocks: Stone, Oak Slab, Oak Fence, S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1452,7 +1436,7 @@ None found.
 <details>
 <summary><strong>Village Underground/Streets/Street Straight Short 2</strong></summary>
 
-The structure is composed of the following blocks: Stone, Oak Slab, Granite, Stone Slab, Oak Fence, Glow Lichen, Oak Wall Sign, Stone Stairs, Andesite, Andesite Slab, Stone Button, Campfire, Granite Stairs.
+The structure part is composed of the following blocks: Stone, Oak Slab, Granite, Stone Slab, Oak Fence, Glow Lichen, Oak Wall Sign, Stone Stairs, Andesite, Andesite Slab, Stone Button, Campfire, Granite Stairs.
 
 ### Blocks
 
@@ -1475,12 +1459,12 @@ The structure is composed of the following blocks: Stone, Oak Slab, Granite, Sto
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1488,7 +1472,7 @@ None found.
 <details>
 <summary><strong>Village Underground/Town Centers/Town Center</strong></summary>
 
-The structure is composed of the following blocks: Stone, Oak Slab, Oak Fence, Andesite, Stone Stairs, Stone Slab, Stone Button, Oak Wall Sign, Granite, Diorite, Oak Log, Gravel, Oak Stairs, Oak Fence Gate, Glow Lichen, Stripped Oak Log, Oak Planks, Andesite Wall, Coarse Dirt, Lantern, Oak Button, Rooted Dirt, Tuff, Chain, Chest, Diorite Slab, Diorite Stairs, Andesite Slab, Bell, Campfire, Granite Stairs.
+The structure part is composed of the following blocks: Stone, Oak Slab, Oak Fence, Andesite, Stone Stairs, Stone Slab, Stone Button, Oak Wall Sign, Granite, Diorite, Oak Log, Gravel, Oak Stairs, Oak Fence Gate, Glow Lichen, Stripped Oak Log, Oak Planks, Andesite Wall, Coarse Dirt, Lantern, Oak Button, Rooted Dirt, Tuff, Chain, Chest, Diorite Slab, Diorite Stairs, Andesite Slab, Bell, Campfire, Granite Stairs.
 
 ### Blocks
 
@@ -1529,7 +1513,7 @@ The structure is composed of the following blocks: Stone, Oak Slab, Oak Fence, A
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables

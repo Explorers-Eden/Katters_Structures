@@ -1,38 +1,22 @@
-# Village Mesa
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Sand, Oak Planks, Jungle Planks, Bricks, Stripped Jungle Log, Warped Planks, Mangrove Planks, Birch Planks, Oak Slab, Jungle Stairs, Stripped Oak Log, Oak Stairs, Jungle Wall Sign, Oak Button, Oak Wall Sign, Oak Trapdoor, Hay Block, Jungle Slab, Jungle Fence, Jungle Trapdoor, Jungle Button, Terracotta, Brick Slab, Granite, Spruce Trapdoor, Ladder, White Wool, Rail, Smooth Sandstone, Warped Wall Sign, Stripped Warped Stem, Cyan Concrete Powder, Dried Kelp Block, Oak Fence, Brick Wall, Lantern, Netherrack, Stripped Spruce Log, Moss Block, Stripped Birch Log, Birch Slab, Jungle Fence Gate, Stripped Mangrove Log, Mangrove Wall Sign, Birch Wall Sign, Dark Oak Slab, Mangrove Button, Brick Stairs, Birch Button, Warped Trapdoor, Bookshelf, Calcite, Dead Bush, Warped Button, Coarse Dirt, Green Wool, Light Gray Wool, Mangrove Trapdoor, Spruce Fence, Gray Stained Glass Pane, Oak Fence Gate, Brown Wall Banner, Chest, Diorite, Mangrove Slab, Mud Brick Wall, Warped Slab, Dark Oak Trapdoor, Granite Slab, Mangrove Fence, Chiseled Bookshelf, Glow Lichen, Iron Bars, Mud Bricks, Stripped Dark Oak Log, Birch Trapdoor, Packed Mud, Polished Deepslate Wall, Decorated Pot, Muddy Mangrove Roots, Spruce Fence Gate, Spruce Stairs, Warped Fence, Birch Stairs, Spruce Planks, Cyan Wall Banner, Gray Bed, Jungle Pressure Plate, Light Gray Bed, Red Sandstone Wall, Soul Soil, Tripwire Hook, Dark Oak Fence Gate, Mangrove Stairs, Warped Fence Gate, Black Bed, Black Carpet, Brown Bed, Dark Oak Planks, Granite Stairs, Mangrove Roots, Sea Pickle, Warped Stairs, White Wall Banner, Brown Candle, Dark Oak Fence, Flower Pot, Granite Wall, Gray Carpet, Mangrove Fence Gate, Pointed Dripstone, Acacia Fence Gate, Anvil, Birch Fence Gate, Composter, Furnace, Green Wall Banner, Iron Door, Jungle Door, Jungle Hanging Sign, Light Gray Carpet, Polished Deepslate Stairs, Spruce Slab, Barrel, Bell, Birch Fence, Black Candle, Blast Furnace, Brewing Stand, Campfire, Cartography Table, Cobweb, Crafting Table, Dark Oak Stairs, Dark Oak Wall Hanging Sign, Fletching Table, Gray Candle, Grindstone, Iron Trapdoor, Lectern, Lever, Light Blue Stained Glass Pane, Lightning Rod, Lime Wall Banner, Mangrove Pressure Plate, Mangrove Wall Hanging Sign, Mud Brick Stairs, Oak Hanging Sign, Polished Deepslate Slab, Potted Acacia Sapling, Potted Cactus, Potted Jungle Sapling, Red Candle, Scaffolding, Smithing Table, Smooth Stone, Target, Water Cauldron, Yellow Candle.
 
 Additionally, the following entities may spawn during its generation: Item Frame, Villager.
 
-### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/mesa/armorer |
-| kattersstructures:chests/mesa/cartographer |
-| kattersstructures:chests/mesa/farmer |
-| kattersstructures:chests/mesa/fisherman |
-| kattersstructures:chests/mesa/fletcher |
-| kattersstructures:chests/mesa/house |
-| kattersstructures:chests/mesa/prison |
-| kattersstructures:chests/mesa/saloon |
-| kattersstructures:chests/mesa/toolsmith |
-| kattersstructures:chests/mesa/weaponsmith |
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Village Mesa/Barkeeper</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Villager.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -44,7 +28,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -52,7 +36,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/Decor/Decor Fisherman</strong></summary>
 
-The structure is composed of the following blocks: Hay Block, Spruce Planks, Rail, Sea Pickle, Barrel, Decorated Pot, Lantern, Lightning Rod.
+The structure part is composed of the following blocks: Hay Block, Spruce Planks, Rail, Sea Pickle, Barrel, Decorated Pot, Lantern, Lightning Rod.
 
 ### Blocks
 
@@ -70,7 +54,7 @@ The structure is composed of the following blocks: Hay Block, Spruce Planks, Rai
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -85,7 +69,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/Decor/Wagon Cartographer</strong></summary>
 
-The structure is composed of the following blocks: Moss Block, Dark Oak Slab, Green Wool, Dark Oak Trapdoor, Ladder, Stripped Dark Oak Log, Rail, Dark Oak Planks, Oak Trapdoor, Bookshelf, Dark Oak Fence, Dark Oak Fence Gate, Green Wall Banner, Cartography Table, Chest, Dark Oak Stairs, Flower Pot, Lantern.
+The structure part is composed of the following blocks: Moss Block, Dark Oak Slab, Green Wool, Dark Oak Trapdoor, Ladder, Stripped Dark Oak Log, Rail, Dark Oak Planks, Oak Trapdoor, Bookshelf, Dark Oak Fence, Dark Oak Fence Gate, Green Wall Banner, Cartography Table, Chest, Dark Oak Stairs, Flower Pot, Lantern.
 
 Additionally, the following entities may spawn during its generation: Item Frame.
 
@@ -132,7 +116,7 @@ Additionally, the following entities may spawn during its generation: Item Frame
 <details>
 <summary><strong>Village Mesa/Decor/Wagon Farmer</strong></summary>
 
-The structure is composed of the following blocks: Oak Slab, Calcite, Oak Trapdoor, White Wool, Ladder, Stripped Oak Log, Hay Block, Rail, Diorite, Oak Planks, Oak Fence, Oak Fence Gate, White Wall Banner, Chest, Composter, Lantern.
+The structure part is composed of the following blocks: Oak Slab, Calcite, Oak Trapdoor, White Wool, Ladder, Stripped Oak Log, Hay Block, Rail, Diorite, Oak Planks, Oak Fence, Oak Fence Gate, White Wall Banner, Chest, Composter, Lantern.
 
 ### Blocks
 
@@ -158,7 +142,7 @@ The structure is composed of the following blocks: Oak Slab, Calcite, Oak Trapdo
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -173,7 +157,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/Decor/Wagon Librarian</strong></summary>
 
-The structure is composed of the following blocks: Oak Slab, White Wool, Light Gray Wool, Oak Trapdoor, Ladder, Stripped Oak Log, Rail, Bookshelf, Diorite, Oak Planks, Chiseled Bookshelf, Lantern, Oak Fence, Oak Fence Gate, White Wall Banner, Lectern.
+The structure part is composed of the following blocks: Oak Slab, White Wool, Light Gray Wool, Oak Trapdoor, Ladder, Stripped Oak Log, Rail, Bookshelf, Diorite, Oak Planks, Chiseled Bookshelf, Lantern, Oak Fence, Oak Fence Gate, White Wall Banner, Lectern.
 
 ### Blocks
 
@@ -199,12 +183,12 @@ The structure is composed of the following blocks: Oak Slab, White Wool, Light G
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -212,7 +196,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/Decor/Water Tower</strong></summary>
 
-The structure is composed of the following blocks: Spruce Trapdoor, Stripped Spruce Log, Spruce Fence, Coarse Dirt, Mud Brick Wall, Sand, Spruce Fence Gate, Spruce Stairs, Muddy Mangrove Roots, Iron Bars.
+The structure part is composed of the following blocks: Spruce Trapdoor, Stripped Spruce Log, Spruce Fence, Coarse Dirt, Mud Brick Wall, Sand, Spruce Fence Gate, Spruce Stairs, Muddy Mangrove Roots, Iron Bars.
 
 ### Blocks
 
@@ -232,12 +216,12 @@ The structure is composed of the following blocks: Spruce Trapdoor, Stripped Spr
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -245,21 +229,21 @@ None found.
 <details>
 <summary><strong>Village Mesa/Decor/Water Tower Way</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -267,7 +251,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/Armorer</strong></summary>
 
-The structure is composed of the following blocks: Anvil, Blast Furnace, Chest, Dark Oak Fence Gate, Polished Deepslate Stairs, Polished Deepslate Wall.
+The structure part is composed of the following blocks: Anvil, Blast Furnace, Chest, Dark Oak Fence Gate, Polished Deepslate Stairs, Polished Deepslate Wall.
 
 ### Blocks
 
@@ -283,7 +267,7 @@ The structure is composed of the following blocks: Anvil, Blast Furnace, Chest, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -298,7 +282,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/House 1</strong></summary>
 
-The structure is composed of the following blocks: Jungle Planks, Sand, Stripped Jungle Log, Oak Planks, Jungle Wall Sign, Jungle Slab, Jungle Stairs, Jungle Button, Jungle Fence, Oak Wall Sign, Oak Slab, Jungle Fence Gate, Oak Stairs, Oak Fence, Gray Stained Glass Pane, Glow Lichen, Lantern, Oak Fence Gate.
+The structure part is composed of the following blocks: Jungle Planks, Sand, Stripped Jungle Log, Oak Planks, Jungle Wall Sign, Jungle Slab, Jungle Stairs, Jungle Button, Jungle Fence, Oak Wall Sign, Oak Slab, Jungle Fence Gate, Oak Stairs, Oak Fence, Gray Stained Glass Pane, Glow Lichen, Lantern, Oak Fence Gate.
 
 ### Blocks
 
@@ -326,12 +310,12 @@ The structure is composed of the following blocks: Jungle Planks, Sand, Stripped
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -339,7 +323,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/House 2</strong></summary>
 
-The structure is composed of the following blocks: Warped Planks, Sand, Cyan Concrete Powder, Stripped Warped Stem, Warped Wall Sign, Warped Slab, Warped Fence, Jungle Stairs, Jungle Planks, Warped Button, Warped Stairs, Cyan Wall Banner, Oak Stairs, Oak Planks, Stripped Jungle Log, Warped Fence Gate, Glow Lichen, Lantern.
+The structure part is composed of the following blocks: Warped Planks, Sand, Cyan Concrete Powder, Stripped Warped Stem, Warped Wall Sign, Warped Slab, Warped Fence, Jungle Stairs, Jungle Planks, Warped Button, Warped Stairs, Cyan Wall Banner, Oak Stairs, Oak Planks, Stripped Jungle Log, Warped Fence Gate, Glow Lichen, Lantern.
 
 ### Blocks
 
@@ -367,12 +351,12 @@ The structure is composed of the following blocks: Warped Planks, Sand, Cyan Con
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -380,7 +364,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/House 3</strong></summary>
 
-The structure is composed of the following blocks: Birch Planks, Sand, Smooth Sandstone, Stripped Birch Log, Birch Wall Sign, Birch Button, Birch Slab, Red Sandstone Wall, Birch Stairs, Jungle Planks, Jungle Stairs, Oak Stairs, Birch Fence Gate, Oak Planks, Stripped Jungle Log, Birch Fence, Birch Trapdoor, Glow Lichen, Gray Stained Glass Pane, Lantern.
+The structure part is composed of the following blocks: Birch Planks, Sand, Smooth Sandstone, Stripped Birch Log, Birch Wall Sign, Birch Button, Birch Slab, Red Sandstone Wall, Birch Stairs, Jungle Planks, Jungle Stairs, Oak Stairs, Birch Fence Gate, Oak Planks, Stripped Jungle Log, Birch Fence, Birch Trapdoor, Glow Lichen, Gray Stained Glass Pane, Lantern.
 
 ### Blocks
 
@@ -410,12 +394,12 @@ The structure is composed of the following blocks: Birch Planks, Sand, Smooth Sa
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -423,7 +407,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/House 4</strong></summary>
 
-The structure is composed of the following blocks: Mangrove Planks, Sand, Netherrack, Stripped Mangrove Log, Mangrove Button, Mangrove Slab, Mangrove Wall Sign, Oak Planks, Jungle Planks, Jungle Stairs, Mangrove Fence, Mangrove Stairs, Oak Stairs, Mangrove Fence Gate, Glow Lichen, Gray Stained Glass Pane, Lantern, Mangrove Wall Hanging Sign.
+The structure part is composed of the following blocks: Mangrove Planks, Sand, Netherrack, Stripped Mangrove Log, Mangrove Button, Mangrove Slab, Mangrove Wall Sign, Oak Planks, Jungle Planks, Jungle Stairs, Mangrove Fence, Mangrove Stairs, Oak Stairs, Mangrove Fence Gate, Glow Lichen, Gray Stained Glass Pane, Lantern, Mangrove Wall Hanging Sign.
 
 ### Blocks
 
@@ -451,12 +435,12 @@ The structure is composed of the following blocks: Mangrove Planks, Sand, Nether
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -464,7 +448,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/House 5</strong></summary>
 
-The structure is composed of the following blocks: Oak Planks, Sand, Birch Planks, Stripped Oak Log, Oak Button, Oak Trapdoor, Oak Wall Sign, Oak Slab, Oak Fence, Jungle Stairs, Oak Stairs, Oak Fence Gate, Birch Slab, Jungle Planks, Stripped Jungle Log, Glow Lichen, Gray Stained Glass Pane, Lantern.
+The structure part is composed of the following blocks: Oak Planks, Sand, Birch Planks, Stripped Oak Log, Oak Button, Oak Trapdoor, Oak Wall Sign, Oak Slab, Oak Fence, Jungle Stairs, Oak Stairs, Oak Fence Gate, Birch Slab, Jungle Planks, Stripped Jungle Log, Glow Lichen, Gray Stained Glass Pane, Lantern.
 
 ### Blocks
 
@@ -492,12 +476,12 @@ The structure is composed of the following blocks: Oak Planks, Sand, Birch Plank
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -505,7 +489,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/House 6</strong></summary>
 
-The structure is composed of the following blocks: Jungle Planks, Sand, Mangrove Planks, Mangrove Trapdoor, Oak Planks, Jungle Slab, Stripped Jungle Log, Jungle Button, Mangrove Wall Sign, Jungle Wall Sign, Mangrove Fence, Mangrove Button, Netherrack, Oak Stairs, Stripped Mangrove Log, Jungle Stairs, Oak Slab, Stripped Oak Log, Glow Lichen, Lantern, Mangrove Fence Gate, Mangrove Pressure Plate, Mangrove Stairs.
+The structure part is composed of the following blocks: Jungle Planks, Sand, Mangrove Planks, Mangrove Trapdoor, Oak Planks, Jungle Slab, Stripped Jungle Log, Jungle Button, Mangrove Wall Sign, Jungle Wall Sign, Mangrove Fence, Mangrove Button, Netherrack, Oak Stairs, Stripped Mangrove Log, Jungle Stairs, Oak Slab, Stripped Oak Log, Glow Lichen, Lantern, Mangrove Fence Gate, Mangrove Pressure Plate, Mangrove Stairs.
 
 ### Blocks
 
@@ -538,12 +522,12 @@ The structure is composed of the following blocks: Jungle Planks, Sand, Mangrove
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -551,7 +535,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/House 7</strong></summary>
 
-The structure is composed of the following blocks: Oak Planks, Sand, Jungle Planks, Stripped Oak Log, Oak Button, Jungle Trapdoor, Oak Slab, Oak Wall Sign, Jungle Stairs, Oak Stairs, Oak Fence Gate, Jungle Slab, Stripped Jungle Log, Decorated Pot, Glow Lichen, Gray Stained Glass Pane, Lantern, Lever, Light Blue Stained Glass Pane, Oak Trapdoor.
+The structure part is composed of the following blocks: Oak Planks, Sand, Jungle Planks, Stripped Oak Log, Oak Button, Jungle Trapdoor, Oak Slab, Oak Wall Sign, Jungle Stairs, Oak Stairs, Oak Fence Gate, Jungle Slab, Stripped Jungle Log, Decorated Pot, Glow Lichen, Gray Stained Glass Pane, Lantern, Lever, Light Blue Stained Glass Pane, Oak Trapdoor.
 
 ### Blocks
 
@@ -581,12 +565,12 @@ The structure is composed of the following blocks: Oak Planks, Sand, Jungle Plan
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -594,7 +578,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/House 8</strong></summary>
 
-The structure is composed of the following blocks: Sand, Oak Planks, Warped Planks, Stripped Oak Log, Warped Trapdoor, Warped Button, Oak Slab, Birch Planks, Oak Button, Warped Wall Sign, Stripped Warped Stem, Cyan Concrete Powder, Jungle Planks, Oak Stairs, Birch Slab, Cyan Wall Banner, Jungle Stairs, Oak Wall Sign, Warped Fence Gate, Gray Stained Glass Pane, Stripped Jungle Log, Glow Lichen, Lantern, Warped Fence.
+The structure part is composed of the following blocks: Sand, Oak Planks, Warped Planks, Stripped Oak Log, Warped Trapdoor, Warped Button, Oak Slab, Birch Planks, Oak Button, Warped Wall Sign, Stripped Warped Stem, Cyan Concrete Powder, Jungle Planks, Oak Stairs, Birch Slab, Cyan Wall Banner, Jungle Stairs, Oak Wall Sign, Warped Fence Gate, Gray Stained Glass Pane, Stripped Jungle Log, Glow Lichen, Lantern, Warped Fence.
 
 ### Blocks
 
@@ -628,12 +612,12 @@ The structure is composed of the following blocks: Sand, Oak Planks, Warped Plan
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -641,7 +625,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/House 9</strong></summary>
 
-The structure is composed of the following blocks: Jungle Planks, Sand, Oak Planks, Stripped Jungle Log, Jungle Trapdoor, Jungle Wall Sign, Jungle Fence, Jungle Button, Jungle Slab, Birch Trapdoor, Oak Stairs, Jungle Fence Gate, Jungle Stairs, Stripped Oak Log, Gray Stained Glass Pane, Glow Lichen, Lantern.
+The structure part is composed of the following blocks: Jungle Planks, Sand, Oak Planks, Stripped Jungle Log, Jungle Trapdoor, Jungle Wall Sign, Jungle Fence, Jungle Button, Jungle Slab, Birch Trapdoor, Oak Stairs, Jungle Fence Gate, Jungle Stairs, Stripped Oak Log, Gray Stained Glass Pane, Glow Lichen, Lantern.
 
 ### Blocks
 
@@ -668,12 +652,12 @@ The structure is composed of the following blocks: Jungle Planks, Sand, Oak Plan
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -681,7 +665,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/House Special Fletcher</strong></summary>
 
-The structure is composed of the following blocks: Sand, Oak Planks, Hay Block, Spruce Trapdoor, Stripped Jungle Log, Oak Fence, Jungle Planks, Jungle Fence Gate, Jungle Stairs, Oak Stairs, Jungle Fence, Birch Stairs, Lantern, Spruce Slab, Chest, Fletching Table, Oak Fence Gate, Target.
+The structure part is composed of the following blocks: Sand, Oak Planks, Hay Block, Spruce Trapdoor, Stripped Jungle Log, Oak Fence, Jungle Planks, Jungle Fence Gate, Jungle Stairs, Oak Stairs, Jungle Fence, Birch Stairs, Lantern, Spruce Slab, Chest, Fletching Table, Oak Fence Gate, Target.
 
 Additionally, the following entities may spawn during its generation: Item Frame.
 
@@ -728,7 +712,7 @@ Additionally, the following entities may spawn during its generation: Item Frame
 <details>
 <summary><strong>Village Mesa/House/House Special Prison</strong></summary>
 
-The structure is composed of the following blocks: Bricks, Sand, Granite, Terracotta, Brick Slab, Brick Wall, Brick Stairs, Iron Bars, Oak Planks, Granite Slab, Jungle Stairs, Oak Stairs, Granite Stairs, Gray Stained Glass Pane, Jungle Planks, Acacia Fence Gate, Iron Door, Light Gray Carpet, Chest, Glow Lichen, Lantern.
+The structure part is composed of the following blocks: Bricks, Sand, Granite, Terracotta, Brick Slab, Brick Wall, Brick Stairs, Iron Bars, Oak Planks, Granite Slab, Jungle Stairs, Oak Stairs, Granite Stairs, Gray Stained Glass Pane, Jungle Planks, Acacia Fence Gate, Iron Door, Light Gray Carpet, Chest, Glow Lichen, Lantern.
 
 ### Blocks
 
@@ -759,7 +743,7 @@ The structure is composed of the following blocks: Bricks, Sand, Granite, Terrac
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -774,7 +758,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/House Special Saloon</strong></summary>
 
-The structure is composed of the following blocks: Oak Planks, Sand, Jungle Planks, Stripped Jungle Log, Oak Slab, Oak Wall Sign, Jungle Trapdoor, Oak Button, Jungle Wall Sign, Jungle Stairs, Oak Stairs, Brown Wall Banner, Oak Fence Gate, Oak Trapdoor, Brewing Stand, Chest, Jungle Fence, Lantern, Lime Wall Banner.
+The structure part is composed of the following blocks: Oak Planks, Sand, Jungle Planks, Stripped Jungle Log, Oak Slab, Oak Wall Sign, Jungle Trapdoor, Oak Button, Jungle Wall Sign, Jungle Stairs, Oak Stairs, Brown Wall Banner, Oak Fence Gate, Oak Trapdoor, Brewing Stand, Chest, Jungle Fence, Lantern, Lime Wall Banner.
 
 ### Blocks
 
@@ -803,7 +787,7 @@ The structure is composed of the following blocks: Oak Planks, Sand, Jungle Plan
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -818,7 +802,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/House Special Smith</strong></summary>
 
-The structure is composed of the following blocks: Bricks, Sand, Brick Slab, Terracotta, Granite, Polished Deepslate Wall, Granite Slab, Jungle Stairs, Jungle Planks, Brick Wall, Granite Wall, Oak Planks, Oak Stairs, Brick Stairs, Spruce Trapdoor, Campfire, Dark Oak Wall Hanging Sign, Granite Stairs, Gray Stained Glass Pane, Iron Trapdoor, Lantern, Polished Deepslate Slab, Smooth Stone, Stripped Jungle Log.
+The structure part is composed of the following blocks: Bricks, Sand, Brick Slab, Terracotta, Granite, Polished Deepslate Wall, Granite Slab, Jungle Stairs, Jungle Planks, Brick Wall, Granite Wall, Oak Planks, Oak Stairs, Brick Stairs, Spruce Trapdoor, Campfire, Dark Oak Wall Hanging Sign, Granite Stairs, Gray Stained Glass Pane, Iron Trapdoor, Lantern, Polished Deepslate Slab, Smooth Stone, Stripped Jungle Log.
 
 ### Blocks
 
@@ -852,12 +836,12 @@ The structure is composed of the following blocks: Bricks, Sand, Brick Slab, Ter
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -865,7 +849,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/House Special Storage</strong></summary>
 
-The structure is composed of the following blocks: Sand, Dried Kelp Block, Jungle Planks, Oak Planks, Stripped Jungle Log, Hay Block, Oak Button, Oak Stairs, Rail, Decorated Pot, Jungle Stairs, Chest, Flower Pot, Ladder, Sea Pickle, Black Candle, Composter, Lantern, Yellow Candle.
+The structure part is composed of the following blocks: Sand, Dried Kelp Block, Jungle Planks, Oak Planks, Stripped Jungle Log, Hay Block, Oak Button, Oak Stairs, Rail, Decorated Pot, Jungle Stairs, Chest, Flower Pot, Ladder, Sea Pickle, Black Candle, Composter, Lantern, Yellow Candle.
 
 ### Blocks
 
@@ -894,7 +878,7 @@ The structure is composed of the following blocks: Sand, Dried Kelp Block, Jungl
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -909,7 +893,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/House Special Toilet</strong></summary>
 
-The structure is composed of the following blocks: Sand, Jungle Planks, Oak Planks, Oak Stairs, Stripped Jungle Log, Coarse Dirt, Jungle Stairs, Soul Soil, Brown Wall Banner, Oak Button, Oak Wall Sign, Muddy Mangrove Roots, Jungle Door, Jungle Slab, Jungle Trapdoor, Lantern, Oak Fence, Oak Fence Gate, Tripwire Hook, Water Cauldron.
+The structure part is composed of the following blocks: Sand, Jungle Planks, Oak Planks, Oak Stairs, Stripped Jungle Log, Coarse Dirt, Jungle Stairs, Soul Soil, Brown Wall Banner, Oak Button, Oak Wall Sign, Muddy Mangrove Roots, Jungle Door, Jungle Slab, Jungle Trapdoor, Lantern, Oak Fence, Oak Fence Gate, Tripwire Hook, Water Cauldron.
 
 ### Blocks
 
@@ -939,12 +923,12 @@ The structure is composed of the following blocks: Sand, Jungle Planks, Oak Plan
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -952,7 +936,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/Interior/House Interior 1x1 01</strong></summary>
 
-The structure is composed of the following blocks: Jungle Fence, Jungle Pressure Plate.
+The structure part is composed of the following blocks: Jungle Fence, Jungle Pressure Plate.
 
 ### Blocks
 
@@ -964,12 +948,12 @@ The structure is composed of the following blocks: Jungle Fence, Jungle Pressure
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -977,7 +961,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/Interior/House Interior 1x1 02</strong></summary>
 
-The structure is composed of the following blocks: Crafting Table.
+The structure part is composed of the following blocks: Crafting Table.
 
 ### Blocks
 
@@ -988,12 +972,12 @@ The structure is composed of the following blocks: Crafting Table.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1001,7 +985,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/Interior/House Interior 1x1 03</strong></summary>
 
-The structure is composed of the following blocks: Decorated Pot.
+The structure part is composed of the following blocks: Decorated Pot.
 
 ### Blocks
 
@@ -1012,12 +996,12 @@ The structure is composed of the following blocks: Decorated Pot.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1025,7 +1009,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/Interior/House Interior 1x1 04</strong></summary>
 
-The structure is composed of the following blocks: Potted Cactus.
+The structure part is composed of the following blocks: Potted Cactus.
 
 ### Blocks
 
@@ -1036,12 +1020,12 @@ The structure is composed of the following blocks: Potted Cactus.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1049,7 +1033,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/Interior/House Interior 1x1 05</strong></summary>
 
-The structure is composed of the following blocks: Jungle Fence.
+The structure part is composed of the following blocks: Jungle Fence.
 
 ### Blocks
 
@@ -1060,12 +1044,12 @@ The structure is composed of the following blocks: Jungle Fence.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1073,7 +1057,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/Interior/House Interior 1x1 06</strong></summary>
 
-The structure is composed of the following blocks: Jungle Pressure Plate.
+The structure part is composed of the following blocks: Jungle Pressure Plate.
 
 ### Blocks
 
@@ -1084,12 +1068,12 @@ The structure is composed of the following blocks: Jungle Pressure Plate.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1097,7 +1081,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/Interior/House Interior 1x1 07</strong></summary>
 
-The structure is composed of the following blocks: Potted Jungle Sapling, Scaffolding.
+The structure part is composed of the following blocks: Potted Jungle Sapling, Scaffolding.
 
 ### Blocks
 
@@ -1109,12 +1093,12 @@ The structure is composed of the following blocks: Potted Jungle Sapling, Scaffo
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1122,7 +1106,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/Interior/House Interior 3x1 01</strong></summary>
 
-The structure is composed of the following blocks: Bookshelf, Chiseled Bookshelf, Oak Fence.
+The structure part is composed of the following blocks: Bookshelf, Chiseled Bookshelf, Oak Fence.
 
 ### Blocks
 
@@ -1135,12 +1119,12 @@ The structure is composed of the following blocks: Bookshelf, Chiseled Bookshelf
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1148,7 +1132,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/Interior/House Interior 3x1 02</strong></summary>
 
-The structure is composed of the following blocks: Bookshelf, Chiseled Bookshelf, Jungle Stairs.
+The structure part is composed of the following blocks: Bookshelf, Chiseled Bookshelf, Jungle Stairs.
 
 ### Blocks
 
@@ -1161,12 +1145,12 @@ The structure is composed of the following blocks: Bookshelf, Chiseled Bookshelf
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1174,7 +1158,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/Interior/House Interior 3x1 03</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf, Ladder, Bookshelf, Brown Candle.
+The structure part is composed of the following blocks: Chiseled Bookshelf, Ladder, Bookshelf, Brown Candle.
 
 ### Blocks
 
@@ -1188,12 +1172,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf, Ladder, B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1201,7 +1185,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/Interior/House Interior 3x1 04</strong></summary>
 
-The structure is composed of the following blocks: Jungle Fence, Decorated Pot, Tripwire Hook.
+The structure part is composed of the following blocks: Jungle Fence, Decorated Pot, Tripwire Hook.
 
 ### Blocks
 
@@ -1214,12 +1198,12 @@ The structure is composed of the following blocks: Jungle Fence, Decorated Pot, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1227,7 +1211,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/Interior/House Interior 3x1 05</strong></summary>
 
-The structure is composed of the following blocks: Cobweb, Jungle Fence, Jungle Pressure Plate, Jungle Stairs.
+The structure part is composed of the following blocks: Cobweb, Jungle Fence, Jungle Pressure Plate, Jungle Stairs.
 
 ### Blocks
 
@@ -1241,12 +1225,12 @@ The structure is composed of the following blocks: Cobweb, Jungle Fence, Jungle 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1254,7 +1238,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/Interior/House Interior 3x1 06</strong></summary>
 
-The structure is composed of the following blocks: Decorated Pot, Potted Acacia Sapling.
+The structure part is composed of the following blocks: Decorated Pot, Potted Acacia Sapling.
 
 ### Blocks
 
@@ -1266,12 +1250,12 @@ The structure is composed of the following blocks: Decorated Pot, Potted Acacia 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1279,7 +1263,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/Interior/House Interior 3x3 01</strong></summary>
 
-The structure is composed of the following blocks: Light Gray Bed, Chest, Gray Candle, Jungle Stairs, Tripwire Hook.
+The structure part is composed of the following blocks: Light Gray Bed, Chest, Gray Candle, Jungle Stairs, Tripwire Hook.
 
 ### Blocks
 
@@ -1294,7 +1278,7 @@ The structure is composed of the following blocks: Light Gray Bed, Chest, Gray C
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1309,7 +1293,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/Interior/House Interior 3x3 02</strong></summary>
 
-The structure is composed of the following blocks: Oak Trapdoor, Brown Bed, Chest, Oak Slab, Red Candle, Tripwire Hook.
+The structure part is composed of the following blocks: Oak Trapdoor, Brown Bed, Chest, Oak Slab, Red Candle, Tripwire Hook.
 
 ### Blocks
 
@@ -1325,7 +1309,7 @@ The structure is composed of the following blocks: Oak Trapdoor, Brown Bed, Ches
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1340,7 +1324,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/Interior/House Interior 3x3 03</strong></summary>
 
-The structure is composed of the following blocks: Gray Carpet, Jungle Fence, Gray Bed, Brown Candle, Oak Trapdoor, Tripwire Hook.
+The structure part is composed of the following blocks: Gray Carpet, Jungle Fence, Gray Bed, Brown Candle, Oak Trapdoor, Tripwire Hook.
 
 ### Blocks
 
@@ -1356,12 +1340,12 @@ The structure is composed of the following blocks: Gray Carpet, Jungle Fence, Gr
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1369,7 +1353,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/Interior/House Interior 3x3 04</strong></summary>
 
-The structure is composed of the following blocks: Black Carpet, Black Bed, Jungle Hanging Sign, Chest, Lantern, Oak Hanging Sign.
+The structure part is composed of the following blocks: Black Carpet, Black Bed, Jungle Hanging Sign, Chest, Lantern, Oak Hanging Sign.
 
 ### Blocks
 
@@ -1385,7 +1369,7 @@ The structure is composed of the following blocks: Black Carpet, Black Bed, Jung
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1400,7 +1384,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/Interior/House Interior 3x3 05</strong></summary>
 
-The structure is composed of the following blocks: Oak Trapdoor, Jungle Trapdoor, Light Gray Bed, Chest, Jungle Fence, Jungle Pressure Plate, Jungle Stairs, Lantern.
+The structure part is composed of the following blocks: Oak Trapdoor, Jungle Trapdoor, Light Gray Bed, Chest, Jungle Fence, Jungle Pressure Plate, Jungle Stairs, Lantern.
 
 ### Blocks
 
@@ -1418,7 +1402,7 @@ The structure is composed of the following blocks: Oak Trapdoor, Jungle Trapdoor
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1433,7 +1417,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/Interior/House Interior 3x3 06</strong></summary>
 
-The structure is composed of the following blocks: Pointed Dripstone, Gray Bed, Jungle Pressure Plate, Brown Candle, Jungle Stairs, Tripwire Hook.
+The structure part is composed of the following blocks: Pointed Dripstone, Gray Bed, Jungle Pressure Plate, Brown Candle, Jungle Stairs, Tripwire Hook.
 
 ### Blocks
 
@@ -1449,12 +1433,12 @@ The structure is composed of the following blocks: Pointed Dripstone, Gray Bed, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1462,7 +1446,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/Interior/House Interior Bed 01</strong></summary>
 
-The structure is composed of the following blocks: Light Gray Bed.
+The structure part is composed of the following blocks: Light Gray Bed.
 
 ### Blocks
 
@@ -1473,12 +1457,12 @@ The structure is composed of the following blocks: Light Gray Bed.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1486,7 +1470,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/Interior/House Interior Bed 02</strong></summary>
 
-The structure is composed of the following blocks: Gray Bed.
+The structure part is composed of the following blocks: Gray Bed.
 
 ### Blocks
 
@@ -1497,12 +1481,12 @@ The structure is composed of the following blocks: Gray Bed.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1510,7 +1494,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/Interior/House Interior Bed 03</strong></summary>
 
-The structure is composed of the following blocks: Black Bed.
+The structure part is composed of the following blocks: Black Bed.
 
 ### Blocks
 
@@ -1521,12 +1505,12 @@ The structure is composed of the following blocks: Black Bed.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1534,7 +1518,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/Interior/House Interior Bed 04</strong></summary>
 
-The structure is composed of the following blocks: Brown Bed.
+The structure part is composed of the following blocks: Brown Bed.
 
 ### Blocks
 
@@ -1545,12 +1529,12 @@ The structure is composed of the following blocks: Brown Bed.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1558,7 +1542,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/Toolsmith</strong></summary>
 
-The structure is composed of the following blocks: Anvil, Chest, Dark Oak Fence Gate, Furnace, Polished Deepslate Wall, Smithing Table.
+The structure part is composed of the following blocks: Anvil, Chest, Dark Oak Fence Gate, Furnace, Polished Deepslate Wall, Smithing Table.
 
 ### Blocks
 
@@ -1574,7 +1558,7 @@ The structure is composed of the following blocks: Anvil, Chest, Dark Oak Fence 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1589,7 +1573,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/House/Weaponsmith</strong></summary>
 
-The structure is composed of the following blocks: Chest, Dark Oak Fence Gate, Furnace, Grindstone, Polished Deepslate Stairs, Polished Deepslate Wall.
+The structure part is composed of the following blocks: Chest, Dark Oak Fence Gate, Furnace, Grindstone, Polished Deepslate Stairs, Polished Deepslate Wall.
 
 ### Blocks
 
@@ -1605,7 +1589,7 @@ The structure is composed of the following blocks: Chest, Dark Oak Fence Gate, F
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1620,7 +1604,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/Streets/End</strong></summary>
 
-The structure is composed of the following blocks: Sand, Stripped Jungle Log, Jungle Button, Jungle Wall Sign, Jungle Fence, Jungle Planks, Jungle Stairs, Jungle Fence Gate, Oak Planks, Oak Stairs, Brown Wall Banner, Lantern.
+The structure part is composed of the following blocks: Sand, Stripped Jungle Log, Jungle Button, Jungle Wall Sign, Jungle Fence, Jungle Planks, Jungle Stairs, Jungle Fence Gate, Oak Planks, Oak Stairs, Brown Wall Banner, Lantern.
 
 ### Blocks
 
@@ -1642,12 +1626,12 @@ The structure is composed of the following blocks: Sand, Stripped Jungle Log, Ju
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1655,7 +1639,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/Streets/End Under</strong></summary>
 
-The structure is composed of the following blocks: Sand.
+The structure part is composed of the following blocks: Sand.
 
 ### Blocks
 
@@ -1666,12 +1650,12 @@ The structure is composed of the following blocks: Sand.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1679,7 +1663,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/Streets/Street Normal</strong></summary>
 
-The structure is composed of the following blocks: Sand, Dead Bush, Mangrove Roots.
+The structure part is composed of the following blocks: Sand, Dead Bush, Mangrove Roots.
 
 ### Blocks
 
@@ -1692,12 +1676,12 @@ The structure is composed of the following blocks: Sand, Dead Bush, Mangrove Roo
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1705,7 +1689,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/Streets/Street Special</strong></summary>
 
-The structure is composed of the following blocks: Sand, Dead Bush, Mangrove Roots.
+The structure part is composed of the following blocks: Sand, Dead Bush, Mangrove Roots.
 
 ### Blocks
 
@@ -1718,12 +1702,12 @@ The structure is composed of the following blocks: Sand, Dead Bush, Mangrove Roo
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1731,7 +1715,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/Streets/Street Start</strong></summary>
 
-The structure is composed of the following blocks: Sand, Mud Bricks, Packed Mud, Dead Bush, Mud Brick Wall, Bell, Mangrove Roots, Mud Brick Stairs.
+The structure part is composed of the following blocks: Sand, Mud Bricks, Packed Mud, Dead Bush, Mud Brick Wall, Bell, Mangrove Roots, Mud Brick Stairs.
 
 ### Blocks
 
@@ -1749,12 +1733,12 @@ The structure is composed of the following blocks: Sand, Mud Bricks, Packed Mud,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1762,7 +1746,7 @@ None found.
 <details>
 <summary><strong>Village Mesa/Streets/Street Under</strong></summary>
 
-The structure is composed of the following blocks: Sand.
+The structure part is composed of the following blocks: Sand.
 
 ### Blocks
 
@@ -1773,12 +1757,12 @@ The structure is composed of the following blocks: Sand.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>

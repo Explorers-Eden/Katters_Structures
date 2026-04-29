@@ -1,22 +1,14 @@
-# Magic Tower
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Cracked Polished Blackstone Bricks, Mud, Smooth Basalt, Cyan Terracotta, Bookshelf, Purple Stained Glass, Stone, Pale Moss Block, Polished Tuff, Magenta Stained Glass, Red Nether Bricks, Nether Wart Block, Dark Oak Slab, Black Concrete Powder, Polished Blackstone Bricks, Chiseled Bookshelf, Dark Oak Planks, Cracked Deepslate Tiles, Deepslate Bricks, Polished Deepslate, Polished Blackstone Brick Slab, Stripped Dark Oak Log, Chain, Polished Deepslate Wall, Polished Blackstone Brick Stairs, Cracked Deepslate Bricks, Tripwire, Deepslate Tiles, Ladder, Deepslate Brick Stairs, Soul Lantern, Dark Oak Fence, Dark Oak Stairs, Blackstone Stairs, Glow Lichen, Soul Campfire, Chiseled Deepslate, Iron Bars, Deepslate Tile Stairs, Polished Blackstone Brick Wall, Cobweb, Resin Brick Stairs, Chest, Deepslate Brick Slab, Light, Deepslate Tile Slab, Resin Block, Brown Wall Banner, Dark Oak Trapdoor, Large Amethyst Bud, Purple Wall Banner, Black Candle, Black Wall Banner, Hay Block, Magenta Wall Banner, Polished Blackstone Stairs, Potted Jungle Sapling.
 
-### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/magic_tower/basic |
-| kattersstructures:chests/magic_tower/boss_loot |
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Magic Tower/Crystal/Magic Tower Crystal 01</strong></summary>
 
-The structure is composed of the following blocks: Purple Stained Glass, Magenta Stained Glass.
+The structure part is composed of the following blocks: Purple Stained Glass, Magenta Stained Glass.
 
 ### Blocks
 
@@ -28,12 +20,12 @@ The structure is composed of the following blocks: Purple Stained Glass, Magenta
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -41,7 +33,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Crystal/Magic Tower Crystal 02</strong></summary>
 
-The structure is composed of the following blocks: Purple Stained Glass, Magenta Stained Glass.
+The structure part is composed of the following blocks: Purple Stained Glass, Magenta Stained Glass.
 
 ### Blocks
 
@@ -53,12 +45,12 @@ The structure is composed of the following blocks: Purple Stained Glass, Magenta
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -66,7 +58,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Crystal/Magic Tower Crystal 03</strong></summary>
 
-The structure is composed of the following blocks: Purple Stained Glass, Magenta Stained Glass.
+The structure part is composed of the following blocks: Purple Stained Glass, Magenta Stained Glass.
 
 ### Blocks
 
@@ -78,12 +70,12 @@ The structure is composed of the following blocks: Purple Stained Glass, Magenta
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -91,7 +83,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Crystal/Magic Tower Crystal 04</strong></summary>
 
-The structure is composed of the following blocks: Purple Stained Glass, Magenta Stained Glass.
+The structure part is composed of the following blocks: Purple Stained Glass, Magenta Stained Glass.
 
 ### Blocks
 
@@ -103,12 +95,12 @@ The structure is composed of the following blocks: Purple Stained Glass, Magenta
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -116,7 +108,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Decor/Books/Bookshelf Theron Lore 01</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -127,12 +119,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -140,7 +132,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Decor/Books/Bookshelf Theron Lore 02</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -151,12 +143,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -164,7 +156,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Decor/Books/Bookshelf Theron Lore 03</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -175,12 +167,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -188,7 +180,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Decor/Books/Bookshelf Theron Lore 04</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -199,12 +191,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -212,7 +204,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Decor/Books/Bookshelf Theron Lore 05</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -223,12 +215,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -236,7 +228,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Decor/Books/Bookshelf Theron Lore 06</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -247,12 +239,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -260,7 +252,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Decor/Books/Bookshelf Theron Lore 07</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -271,12 +263,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -284,7 +276,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Decor/Books/Bookshelf Theron Lore 08</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -295,12 +287,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -308,7 +300,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Decor/Books/Bookshelf Theron Lore 09</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -319,12 +311,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -332,7 +324,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Decor/Books/Bookshelf Theron Lore 10</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -343,12 +335,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -356,7 +348,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Decor/Books/Bookshelf Theron Lore 11</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -367,12 +359,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -380,7 +372,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Decor/Magic Tower Banner Decor 01</strong></summary>
 
-The structure is composed of the following blocks: Black Wall Banner.
+The structure part is composed of the following blocks: Black Wall Banner.
 
 ### Blocks
 
@@ -391,12 +383,12 @@ The structure is composed of the following blocks: Black Wall Banner.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -404,7 +396,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Decor/Magic Tower Banner Decor 02</strong></summary>
 
-The structure is composed of the following blocks: Purple Wall Banner.
+The structure part is composed of the following blocks: Purple Wall Banner.
 
 ### Blocks
 
@@ -415,12 +407,12 @@ The structure is composed of the following blocks: Purple Wall Banner.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -428,7 +420,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Decor/Magic Tower Banner Decor 03</strong></summary>
 
-The structure is composed of the following blocks: Magenta Wall Banner.
+The structure part is composed of the following blocks: Magenta Wall Banner.
 
 ### Blocks
 
@@ -439,12 +431,12 @@ The structure is composed of the following blocks: Magenta Wall Banner.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -452,7 +444,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Decor/Magic Tower Banner Decor 04</strong></summary>
 
-The structure is composed of the following blocks: Purple Wall Banner.
+The structure part is composed of the following blocks: Purple Wall Banner.
 
 ### Blocks
 
@@ -463,12 +455,12 @@ The structure is composed of the following blocks: Purple Wall Banner.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -476,7 +468,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Decor/Magic Tower Banner Decor 05</strong></summary>
 
-The structure is composed of the following blocks: Brown Wall Banner.
+The structure part is composed of the following blocks: Brown Wall Banner.
 
 ### Blocks
 
@@ -487,12 +479,12 @@ The structure is composed of the following blocks: Brown Wall Banner.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -500,7 +492,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Decor/Magic Tower Book Decor 01</strong></summary>
 
-The structure is composed of the following blocks: Black Candle, Bookshelf.
+The structure part is composed of the following blocks: Black Candle, Bookshelf.
 
 ### Blocks
 
@@ -512,12 +504,12 @@ The structure is composed of the following blocks: Black Candle, Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -525,7 +517,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Decor/Magic Tower Book Decor 02</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Stairs, Soul Lantern.
+The structure part is composed of the following blocks: Dark Oak Stairs, Soul Lantern.
 
 ### Blocks
 
@@ -537,12 +529,12 @@ The structure is composed of the following blocks: Dark Oak Stairs, Soul Lantern
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -550,7 +542,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Decor/Magic Tower Book Decor 03</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Fence.
+The structure part is composed of the following blocks: Dark Oak Fence.
 
 ### Blocks
 
@@ -561,12 +553,12 @@ The structure is composed of the following blocks: Dark Oak Fence.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -574,7 +566,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Decor/Magic Tower Book Decor 04</strong></summary>
 
-The structure is composed of the following blocks: Polished Blackstone Brick Wall.
+The structure part is composed of the following blocks: Polished Blackstone Brick Wall.
 
 ### Blocks
 
@@ -585,12 +577,12 @@ The structure is composed of the following blocks: Polished Blackstone Brick Wal
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -598,7 +590,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Decor/Magic Tower Book Decor 05</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Trapdoor.
+The structure part is composed of the following blocks: Dark Oak Trapdoor.
 
 ### Blocks
 
@@ -609,12 +601,12 @@ The structure is composed of the following blocks: Dark Oak Trapdoor.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -622,7 +614,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Decor/Magic Tower Book Decor 06</strong></summary>
 
-The structure is composed of the following blocks: Bookshelf, Large Amethyst Bud.
+The structure part is composed of the following blocks: Bookshelf, Large Amethyst Bud.
 
 ### Blocks
 
@@ -634,12 +626,12 @@ The structure is composed of the following blocks: Bookshelf, Large Amethyst Bud
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -647,7 +639,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Decor/Magic Tower Book Decor 07</strong></summary>
 
-The structure is composed of the following blocks: Bookshelf, Large Amethyst Bud.
+The structure part is composed of the following blocks: Bookshelf, Large Amethyst Bud.
 
 ### Blocks
 
@@ -659,12 +651,12 @@ The structure is composed of the following blocks: Bookshelf, Large Amethyst Bud
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -672,7 +664,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Decor/Magic Tower Book Decor 08</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Potted Jungle Sapling.
+The structure part is composed of the following blocks: Dark Oak Slab, Potted Jungle Sapling.
 
 ### Blocks
 
@@ -684,12 +676,12 @@ The structure is composed of the following blocks: Dark Oak Slab, Potted Jungle 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -697,7 +689,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Magic Tower Base</strong></summary>
 
-The structure is composed of the following blocks: Mud, Smooth Basalt, Cyan Terracotta, Stone, Pale Moss Block, Polished Tuff, Bookshelf, Cracked Polished Blackstone Bricks, Dark Oak Slab, Dark Oak Planks, Chiseled Bookshelf, Deepslate Bricks, Polished Deepslate Wall, Black Concrete Powder, Magenta Stained Glass, Stripped Dark Oak Log, Cracked Deepslate Tiles, Ladder, Deepslate Brick Stairs, Dark Oak Stairs, Glow Lichen, Polished Blackstone Bricks, Chain, Soul Campfire, Deepslate Tiles, Polished Deepslate, Cracked Deepslate Bricks, Purple Stained Glass, Soul Lantern, Chiseled Deepslate, Polished Blackstone Brick Stairs, Tripwire, Blackstone Stairs, Polished Blackstone Brick Slab, Deepslate Tile Stairs, Brown Wall Banner, Deepslate Tile Slab, Polished Blackstone Stairs.
+The structure part is composed of the following blocks: Mud, Smooth Basalt, Cyan Terracotta, Stone, Pale Moss Block, Polished Tuff, Bookshelf, Cracked Polished Blackstone Bricks, Dark Oak Slab, Dark Oak Planks, Chiseled Bookshelf, Deepslate Bricks, Polished Deepslate Wall, Black Concrete Powder, Magenta Stained Glass, Stripped Dark Oak Log, Cracked Deepslate Tiles, Ladder, Deepslate Brick Stairs, Dark Oak Stairs, Glow Lichen, Polished Blackstone Bricks, Chain, Soul Campfire, Deepslate Tiles, Polished Deepslate, Cracked Deepslate Bricks, Purple Stained Glass, Soul Lantern, Chiseled Deepslate, Polished Blackstone Brick Stairs, Tripwire, Blackstone Stairs, Polished Blackstone Brick Slab, Deepslate Tile Stairs, Brown Wall Banner, Deepslate Tile Slab, Polished Blackstone Stairs.
 
 ### Blocks
 
@@ -745,12 +737,12 @@ The structure is composed of the following blocks: Mud, Smooth Basalt, Cyan Terr
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -758,7 +750,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Magic Tower Base 2</strong></summary>
 
-The structure is composed of the following blocks: Cracked Polished Blackstone Bricks, Black Concrete Powder, Bookshelf, Polished Blackstone Bricks, Red Nether Bricks, Nether Wart Block, Magenta Stained Glass, Purple Stained Glass, Cracked Deepslate Tiles, Polished Blackstone Brick Slab, Polished Deepslate, Polished Blackstone Brick Stairs, Dark Oak Slab, Cracked Deepslate Bricks, Tripwire, Chiseled Bookshelf, Chain, Mud, Blackstone Stairs, Deepslate Tiles, Soul Lantern, Deepslate Bricks, Chiseled Deepslate, Iron Bars, Deepslate Tile Stairs, Resin Brick Stairs, Chest, Deepslate Brick Stairs, Deepslate Brick Slab, Dark Oak Stairs, Polished Blackstone Brick Wall, Ladder, Dark Oak Fence, Light, Resin Block, Stripped Dark Oak Log, Deepslate Tile Slab, Cobweb.
+The structure part is composed of the following blocks: Cracked Polished Blackstone Bricks, Black Concrete Powder, Bookshelf, Polished Blackstone Bricks, Red Nether Bricks, Nether Wart Block, Magenta Stained Glass, Purple Stained Glass, Cracked Deepslate Tiles, Polished Blackstone Brick Slab, Polished Deepslate, Polished Blackstone Brick Stairs, Dark Oak Slab, Cracked Deepslate Bricks, Tripwire, Chiseled Bookshelf, Chain, Mud, Blackstone Stairs, Deepslate Tiles, Soul Lantern, Deepslate Bricks, Chiseled Deepslate, Iron Bars, Deepslate Tile Stairs, Resin Brick Stairs, Chest, Deepslate Brick Stairs, Deepslate Brick Slab, Dark Oak Stairs, Polished Blackstone Brick Wall, Ladder, Dark Oak Fence, Light, Resin Block, Stripped Dark Oak Log, Deepslate Tile Slab, Cobweb.
 
 ### Blocks
 
@@ -806,7 +798,7 @@ The structure is composed of the following blocks: Cracked Polished Blackstone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -822,7 +814,7 @@ None found.
 <details>
 <summary><strong>Magic Tower/Magic Tower Base 3</strong></summary>
 
-The structure is composed of the following blocks: Nether Wart Block, Red Nether Bricks, Cracked Polished Blackstone Bricks, Bookshelf, Dark Oak Slab, Dark Oak Fence, Black Concrete Powder, Chiseled Bookshelf, Stripped Dark Oak Log, Polished Blackstone Bricks, Chain, Iron Bars, Polished Deepslate, Polished Blackstone Brick Slab, Polished Blackstone Brick Wall, Cobweb, Polished Blackstone Brick Stairs, Ladder, Soul Lantern, Blackstone Stairs, Light, Dark Oak Stairs, Soul Campfire, Cracked Deepslate Tiles, Hay Block.
+The structure part is composed of the following blocks: Nether Wart Block, Red Nether Bricks, Cracked Polished Blackstone Bricks, Bookshelf, Dark Oak Slab, Dark Oak Fence, Black Concrete Powder, Chiseled Bookshelf, Stripped Dark Oak Log, Polished Blackstone Bricks, Chain, Iron Bars, Polished Deepslate, Polished Blackstone Brick Slab, Polished Blackstone Brick Wall, Cobweb, Polished Blackstone Brick Stairs, Ladder, Soul Lantern, Blackstone Stairs, Light, Dark Oak Stairs, Soul Campfire, Cracked Deepslate Tiles, Hay Block.
 
 ### Blocks
 
@@ -857,12 +849,12 @@ The structure is composed of the following blocks: Nether Wart Block, Red Nether
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -870,21 +862,21 @@ None found.
 <details>
 <summary><strong>Magic Tower/Magic Tower Conector 1</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -892,21 +884,21 @@ None found.
 <details>
 <summary><strong>Magic Tower/Magic Tower Conector 2</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>

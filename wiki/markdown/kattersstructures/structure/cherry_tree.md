@@ -1,19 +1,14 @@
-# Cherry Tree
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Cherry Leaves, Cherry Wood, Acacia Leaves, Cherry Log, Azure Bluet, Cherry Trapdoor, Stripped Cherry Wood, Cherry Slab, Grass Block, Birch Fence Gate, Birch Fence, Stripped Cherry Log, Dirt Path, White Wall Banner, Cherry Stairs, Tall Grass, Chiseled Tuff Bricks, Cherry Fence, Dirt, Pink Petals, Spore Blossom.
 
-### Loot Tables
 
-None found.
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Cherry Tree/Big Cherry Tree</strong></summary>
 
-The structure is composed of the following blocks: Cherry Leaves, Cherry Wood, Acacia Leaves, Cherry Log, Azure Bluet, Stripped Cherry Wood, Birch Fence Gate, Birch Fence, White Wall Banner, Stripped Cherry Log, Spore Blossom.
+The structure part is composed of the following blocks: Cherry Leaves, Cherry Wood, Acacia Leaves, Cherry Log, Azure Bluet, Stripped Cherry Wood, Birch Fence Gate, Birch Fence, White Wall Banner, Stripped Cherry Log, Spore Blossom.
 
 ### Blocks
 
@@ -34,12 +29,12 @@ The structure is composed of the following blocks: Cherry Leaves, Cherry Wood, A
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -47,7 +42,7 @@ None found.
 <details>
 <summary><strong>Cherry Tree/Big Cherry Tree Gate</strong></summary>
 
-The structure is composed of the following blocks: Cherry Trapdoor, Cherry Slab, Grass Block, Dirt Path, Stripped Cherry Log, Cherry Stairs, Tall Grass, Cherry Log, Chiseled Tuff Bricks, Cherry Fence, Dirt, Pink Petals.
+The structure part is composed of the following blocks: Cherry Trapdoor, Cherry Slab, Grass Block, Dirt Path, Stripped Cherry Log, Cherry Stairs, Tall Grass, Cherry Log, Chiseled Tuff Bricks, Cherry Fence, Dirt, Pink Petals.
 
 ### Blocks
 
@@ -69,12 +64,12 @@ The structure is composed of the following blocks: Cherry Trapdoor, Cherry Slab,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>

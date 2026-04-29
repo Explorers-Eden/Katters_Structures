@@ -1,19 +1,14 @@
-# Fossils
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Fire Coral Block, Dead Bubble Coral Block, Diorite Slab, Diorite Wall, Diorite Stairs.
 
-### Loot Tables
 
-None found.
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Fossils/Fossils Mosa P1</strong></summary>
 
-The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Diorite Wall, Dead Bubble Coral Block, Dead Fire Coral Block, Diorite Slab, Diorite Stairs.
+The structure part is composed of the following blocks: Barrier, Bone Block, Calcite, Diorite Wall, Dead Bubble Coral Block, Dead Fire Coral Block, Diorite Slab, Diorite Stairs.
 
 ### Blocks
 
@@ -31,12 +26,12 @@ The structure is composed of the following blocks: Barrier, Bone Block, Calcite,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -44,7 +39,7 @@ None found.
 <details>
 <summary><strong>Fossils/Fossils Mosa P2</strong></summary>
 
-The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Bubble Coral Block, Dead Fire Coral Block, Diorite Slab.
+The structure part is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Bubble Coral Block, Dead Fire Coral Block, Diorite Slab.
 
 ### Blocks
 
@@ -60,12 +55,12 @@ The structure is composed of the following blocks: Barrier, Bone Block, Calcite,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -73,7 +68,7 @@ None found.
 <details>
 <summary><strong>Fossils/Fossils Mosa P3</strong></summary>
 
-The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Fire Coral Block, Dead Bubble Coral Block, Diorite Slab.
+The structure part is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Fire Coral Block, Dead Bubble Coral Block, Diorite Slab.
 
 ### Blocks
 
@@ -89,12 +84,12 @@ The structure is composed of the following blocks: Barrier, Bone Block, Calcite,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -102,7 +97,7 @@ None found.
 <details>
 <summary><strong>Fossils/Fossils Mosa P4</strong></summary>
 
-The structure is composed of the following blocks: Barrier, Bone Block, Diorite Slab, Calcite, Dead Fire Coral Block, Dead Bubble Coral Block.
+The structure part is composed of the following blocks: Barrier, Bone Block, Diorite Slab, Calcite, Dead Fire Coral Block, Dead Bubble Coral Block.
 
 ### Blocks
 
@@ -118,12 +113,12 @@ The structure is composed of the following blocks: Barrier, Bone Block, Diorite 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -131,7 +126,7 @@ None found.
 <details>
 <summary><strong>Fossils/Fossils Nautilus</strong></summary>
 
-The structure is composed of the following blocks: Bone Block, Barrier, Calcite, Dead Bubble Coral Block, Dead Fire Coral Block.
+The structure part is composed of the following blocks: Bone Block, Barrier, Calcite, Dead Bubble Coral Block, Dead Fire Coral Block.
 
 ### Blocks
 
@@ -146,12 +141,12 @@ The structure is composed of the following blocks: Bone Block, Barrier, Calcite,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -159,7 +154,7 @@ None found.
 <details>
 <summary><strong>Fossils/Fossils Rip 01</strong></summary>
 
-The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Fire Coral Block, Dead Bubble Coral Block.
+The structure part is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Fire Coral Block, Dead Bubble Coral Block.
 
 ### Blocks
 
@@ -174,12 +169,12 @@ The structure is composed of the following blocks: Barrier, Bone Block, Calcite,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -187,7 +182,7 @@ None found.
 <details>
 <summary><strong>Fossils/Fossils Rip 02</strong></summary>
 
-The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Diorite Slab, Dead Fire Coral Block, Dead Bubble Coral Block.
+The structure part is composed of the following blocks: Barrier, Bone Block, Calcite, Diorite Slab, Dead Fire Coral Block, Dead Bubble Coral Block.
 
 ### Blocks
 
@@ -203,12 +198,12 @@ The structure is composed of the following blocks: Barrier, Bone Block, Calcite,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -216,7 +211,7 @@ None found.
 <details>
 <summary><strong>Fossils/Fossils Rip 03 V1</strong></summary>
 
-The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Bubble Coral Block, Dead Fire Coral Block.
+The structure part is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Bubble Coral Block, Dead Fire Coral Block.
 
 ### Blocks
 
@@ -231,12 +226,12 @@ The structure is composed of the following blocks: Barrier, Bone Block, Calcite,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -244,7 +239,7 @@ None found.
 <details>
 <summary><strong>Fossils/Fossils Rip 03 V2</strong></summary>
 
-The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Bubble Coral Block, Dead Fire Coral Block.
+The structure part is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Bubble Coral Block, Dead Fire Coral Block.
 
 ### Blocks
 
@@ -259,12 +254,12 @@ The structure is composed of the following blocks: Barrier, Bone Block, Calcite,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -272,7 +267,7 @@ None found.
 <details>
 <summary><strong>Fossils/Fossils Rip 03 V3</strong></summary>
 
-The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Fire Coral Block.
+The structure part is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Fire Coral Block.
 
 ### Blocks
 
@@ -286,12 +281,12 @@ The structure is composed of the following blocks: Barrier, Bone Block, Calcite,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -299,7 +294,7 @@ None found.
 <details>
 <summary><strong>Fossils/Fossils Rip 03 V4</strong></summary>
 
-The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Bubble Coral Block, Dead Fire Coral Block.
+The structure part is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Bubble Coral Block, Dead Fire Coral Block.
 
 ### Blocks
 
@@ -314,12 +309,12 @@ The structure is composed of the following blocks: Barrier, Bone Block, Calcite,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -327,7 +322,7 @@ None found.
 <details>
 <summary><strong>Fossils/Fossils Rip 03 V5</strong></summary>
 
-The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Bubble Coral Block, Dead Fire Coral Block.
+The structure part is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Bubble Coral Block, Dead Fire Coral Block.
 
 ### Blocks
 
@@ -342,12 +337,12 @@ The structure is composed of the following blocks: Barrier, Bone Block, Calcite,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -355,7 +350,7 @@ None found.
 <details>
 <summary><strong>Fossils/Fossils Rip 03 V6</strong></summary>
 
-The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Fire Coral Block, Dead Bubble Coral Block.
+The structure part is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Fire Coral Block, Dead Bubble Coral Block.
 
 ### Blocks
 
@@ -370,12 +365,12 @@ The structure is composed of the following blocks: Barrier, Bone Block, Calcite,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -383,7 +378,7 @@ None found.
 <details>
 <summary><strong>Fossils/Fossils Rip 03 V7</strong></summary>
 
-The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Bubble Coral Block, Dead Fire Coral Block.
+The structure part is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Bubble Coral Block, Dead Fire Coral Block.
 
 ### Blocks
 
@@ -398,12 +393,12 @@ The structure is composed of the following blocks: Barrier, Bone Block, Calcite,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -411,7 +406,7 @@ None found.
 <details>
 <summary><strong>Fossils/Fossils Rip 03 V8</strong></summary>
 
-The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Bubble Coral Block, Dead Fire Coral Block.
+The structure part is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Bubble Coral Block, Dead Fire Coral Block.
 
 ### Blocks
 
@@ -426,12 +421,12 @@ The structure is composed of the following blocks: Barrier, Bone Block, Calcite,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -439,7 +434,7 @@ None found.
 <details>
 <summary><strong>Fossils/Fossils Skull 01</strong></summary>
 
-The structure is composed of the following blocks: Bone Block, Barrier, Diorite Stairs, Diorite Slab, Diorite Wall, Calcite, Dead Fire Coral Block, Dead Bubble Coral Block.
+The structure part is composed of the following blocks: Bone Block, Barrier, Diorite Stairs, Diorite Slab, Diorite Wall, Calcite, Dead Fire Coral Block, Dead Bubble Coral Block.
 
 ### Blocks
 
@@ -457,12 +452,12 @@ The structure is composed of the following blocks: Bone Block, Barrier, Diorite 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -470,7 +465,7 @@ None found.
 <details>
 <summary><strong>Fossils/Fossils Skull 02</strong></summary>
 
-The structure is composed of the following blocks: Bone Block, Barrier, Calcite, Diorite Wall, Diorite Stairs, Dead Fire Coral Block, Diorite Slab, Dead Bubble Coral Block.
+The structure part is composed of the following blocks: Bone Block, Barrier, Calcite, Diorite Wall, Diorite Stairs, Dead Fire Coral Block, Diorite Slab, Dead Bubble Coral Block.
 
 ### Blocks
 
@@ -488,12 +483,12 @@ The structure is composed of the following blocks: Bone Block, Barrier, Calcite,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -501,7 +496,7 @@ None found.
 <details>
 <summary><strong>Fossils/Fossils Skull 03</strong></summary>
 
-The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Bubble Coral Block, Dead Fire Coral Block, Diorite Stairs, Diorite Slab, Diorite Wall.
+The structure part is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Bubble Coral Block, Dead Fire Coral Block, Diorite Stairs, Diorite Slab, Diorite Wall.
 
 ### Blocks
 
@@ -519,12 +514,12 @@ The structure is composed of the following blocks: Barrier, Bone Block, Calcite,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -532,7 +527,7 @@ None found.
 <details>
 <summary><strong>Fossils/Fossils Spino P1</strong></summary>
 
-The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Fire Coral Block, Diorite Wall, Diorite Slab, Dead Bubble Coral Block, Diorite Stairs.
+The structure part is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Fire Coral Block, Diorite Wall, Diorite Slab, Dead Bubble Coral Block, Diorite Stairs.
 
 ### Blocks
 
@@ -550,12 +545,12 @@ The structure is composed of the following blocks: Barrier, Bone Block, Calcite,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -563,7 +558,7 @@ None found.
 <details>
 <summary><strong>Fossils/Fossils Spino P2</strong></summary>
 
-The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Fire Coral Block, Dead Bubble Coral Block, Diorite Slab, Diorite Stairs.
+The structure part is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Fire Coral Block, Dead Bubble Coral Block, Diorite Slab, Diorite Stairs.
 
 ### Blocks
 
@@ -580,12 +575,12 @@ The structure is composed of the following blocks: Barrier, Bone Block, Calcite,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -593,7 +588,7 @@ None found.
 <details>
 <summary><strong>Fossils/Fossils Spino P3</strong></summary>
 
-The structure is composed of the following blocks: Barrier, Bone Block, Diorite Slab, Dead Fire Coral Block, Calcite, Dead Bubble Coral Block, Diorite Stairs.
+The structure part is composed of the following blocks: Barrier, Bone Block, Diorite Slab, Dead Fire Coral Block, Calcite, Dead Bubble Coral Block, Diorite Stairs.
 
 ### Blocks
 
@@ -610,12 +605,12 @@ The structure is composed of the following blocks: Barrier, Bone Block, Diorite 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -623,21 +618,21 @@ None found.
 <details>
 <summary><strong>Fossils/Fossils Start</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -645,7 +640,7 @@ None found.
 <details>
 <summary><strong>Fossils/Fossils Stego P1</strong></summary>
 
-The structure is composed of the following blocks: Barrier, Bone Block.
+The structure part is composed of the following blocks: Barrier, Bone Block.
 
 ### Blocks
 
@@ -657,12 +652,12 @@ The structure is composed of the following blocks: Barrier, Bone Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -670,7 +665,7 @@ None found.
 <details>
 <summary><strong>Fossils/Fossils Stego P2</strong></summary>
 
-The structure is composed of the following blocks: Barrier, Bone Block.
+The structure part is composed of the following blocks: Barrier, Bone Block.
 
 ### Blocks
 
@@ -682,12 +677,12 @@ The structure is composed of the following blocks: Barrier, Bone Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>

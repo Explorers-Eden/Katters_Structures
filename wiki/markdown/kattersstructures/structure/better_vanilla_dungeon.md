@@ -1,22 +1,14 @@
-# Better Vanilla Dungeon
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Mossy Cobblestone, Cobblestone, Infested Cobblestone, Mossy Stone Bricks, Infested Mossy Stone Bricks, Stone Bricks, Cobblestone Stairs, Infested Stone Bricks, Mossy Cobblestone Stairs, Oak Slab, Gravel, Hay Block, Cobweb, Oak Fence, Spruce Trapdoor, Cobblestone Slab, Bookshelf, Oak Stairs, Chest, Mossy Cobblestone Slab, Oak Wall Sign, Stone, Chiseled Bookshelf, Stone Stairs, Moss Carpet, Spruce Door, Stone Slab, Chain, Hopper, Spawner, Stone Brick Slab, Cobblestone Wall, Iron Bars, Mossy Stone Brick Stairs, Oak Planks, Stone Brick Stairs, Weathered Copper, Barrel, Mossy Cobblestone Wall, Observer, Sandstone Slab.
 
-### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/better_vanilla_dungeon/loot1 |
-| kattersstructures:chests/better_vanilla_dungeon/loot2 |
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Better Vanilla Dungeon/Better Vanilla Dungeon Empty</strong></summary>
 
-The structure is composed of the following blocks: Cobblestone, Mossy Cobblestone, Infested Cobblestone.
+The structure part is composed of the following blocks: Cobblestone, Mossy Cobblestone, Infested Cobblestone.
 
 ### Blocks
 
@@ -29,12 +21,12 @@ The structure is composed of the following blocks: Cobblestone, Mossy Cobbleston
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -42,7 +34,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Corridor/Better Vanilla Dungeon Corridor 01</strong></summary>
 
-The structure is composed of the following blocks: Cobblestone, Infested Cobblestone, Mossy Cobblestone, Mossy Stone Bricks, Infested Mossy Stone Bricks, Infested Stone Bricks.
+The structure part is composed of the following blocks: Cobblestone, Infested Cobblestone, Mossy Cobblestone, Mossy Stone Bricks, Infested Mossy Stone Bricks, Infested Stone Bricks.
 
 ### Blocks
 
@@ -58,12 +50,12 @@ The structure is composed of the following blocks: Cobblestone, Infested Cobbles
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -71,7 +63,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Corridor/Better Vanilla Dungeon Corridor 02</strong></summary>
 
-The structure is composed of the following blocks: Cobblestone, Infested Cobblestone, Mossy Cobblestone, Mossy Stone Bricks, Infested Mossy Stone Bricks, Infested Stone Bricks, Stone Bricks.
+The structure part is composed of the following blocks: Cobblestone, Infested Cobblestone, Mossy Cobblestone, Mossy Stone Bricks, Infested Mossy Stone Bricks, Infested Stone Bricks, Stone Bricks.
 
 ### Blocks
 
@@ -88,12 +80,12 @@ The structure is composed of the following blocks: Cobblestone, Infested Cobbles
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -101,7 +93,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Corridor/Better Vanilla Dungeon Corridor 03</strong></summary>
 
-The structure is composed of the following blocks: Cobblestone, Infested Cobblestone, Mossy Cobblestone, Cobblestone Stairs, Infested Mossy Stone Bricks, Mossy Stone Brick Stairs, Stone Brick Stairs, Mossy Cobblestone Stairs, Mossy Stone Bricks.
+The structure part is composed of the following blocks: Cobblestone, Infested Cobblestone, Mossy Cobblestone, Cobblestone Stairs, Infested Mossy Stone Bricks, Mossy Stone Brick Stairs, Stone Brick Stairs, Mossy Cobblestone Stairs, Mossy Stone Bricks.
 
 ### Blocks
 
@@ -120,12 +112,12 @@ The structure is composed of the following blocks: Cobblestone, Infested Cobbles
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -133,7 +125,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Corridor/Better Vanilla Dungeon Corridor 04</strong></summary>
 
-The structure is composed of the following blocks: Cobblestone, Infested Cobblestone, Mossy Cobblestone, Stone Bricks, Mossy Stone Bricks, Infested Stone Bricks.
+The structure part is composed of the following blocks: Cobblestone, Infested Cobblestone, Mossy Cobblestone, Stone Bricks, Mossy Stone Bricks, Infested Stone Bricks.
 
 ### Blocks
 
@@ -149,12 +141,12 @@ The structure is composed of the following blocks: Cobblestone, Infested Cobbles
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -162,7 +154,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Corridor/Better Vanilla Dungeon Corridor 05</strong></summary>
 
-The structure is composed of the following blocks: Mossy Cobblestone, Cobblestone, Infested Cobblestone, Mossy Stone Bricks, Infested Mossy Stone Bricks, Infested Stone Bricks, Stone Bricks.
+The structure part is composed of the following blocks: Mossy Cobblestone, Cobblestone, Infested Cobblestone, Mossy Stone Bricks, Infested Mossy Stone Bricks, Infested Stone Bricks, Stone Bricks.
 
 ### Blocks
 
@@ -179,12 +171,12 @@ The structure is composed of the following blocks: Mossy Cobblestone, Cobbleston
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -192,7 +184,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Door/Better Vanilla Dungeon Door 01</strong></summary>
 
-The structure is composed of the following blocks: Iron Bars.
+The structure part is composed of the following blocks: Iron Bars.
 
 ### Blocks
 
@@ -203,12 +195,12 @@ The structure is composed of the following blocks: Iron Bars.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -216,7 +208,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Door/Better Vanilla Dungeon Door 02</strong></summary>
 
-The structure is composed of the following blocks: Spruce Door.
+The structure part is composed of the following blocks: Spruce Door.
 
 ### Blocks
 
@@ -227,12 +219,12 @@ The structure is composed of the following blocks: Spruce Door.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -240,7 +232,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Door/Better Vanilla Dungeon Door 03</strong></summary>
 
-The structure is composed of the following blocks: Spruce Door.
+The structure part is composed of the following blocks: Spruce Door.
 
 ### Blocks
 
@@ -251,12 +243,12 @@ The structure is composed of the following blocks: Spruce Door.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -264,7 +256,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Door/Better Vanilla Dungeon Door 04</strong></summary>
 
-The structure is composed of the following blocks: Spruce Trapdoor.
+The structure part is composed of the following blocks: Spruce Trapdoor.
 
 ### Blocks
 
@@ -275,12 +267,12 @@ The structure is composed of the following blocks: Spruce Trapdoor.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -288,7 +280,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Door/Better Vanilla Dungeon Door 05</strong></summary>
 
-The structure is composed of the following blocks: Spruce Trapdoor.
+The structure part is composed of the following blocks: Spruce Trapdoor.
 
 ### Blocks
 
@@ -299,12 +291,12 @@ The structure is composed of the following blocks: Spruce Trapdoor.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -312,7 +304,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Door/Better Vanilla Dungeon Door 06</strong></summary>
 
-The structure is composed of the following blocks: Gravel.
+The structure part is composed of the following blocks: Gravel.
 
 ### Blocks
 
@@ -323,12 +315,12 @@ The structure is composed of the following blocks: Gravel.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -336,7 +328,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Edge/Better Vanilla Dungeon Deco Edge 01</strong></summary>
 
-The structure is composed of the following blocks: Infested Cobblestone, Cobblestone, Mossy Cobblestone, Cobblestone Stairs, Mossy Cobblestone Stairs.
+The structure part is composed of the following blocks: Infested Cobblestone, Cobblestone, Mossy Cobblestone, Cobblestone Stairs, Mossy Cobblestone Stairs.
 
 ### Blocks
 
@@ -351,12 +343,12 @@ The structure is composed of the following blocks: Infested Cobblestone, Cobbles
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -364,7 +356,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Edge/Better Vanilla Dungeon Deco Edge 02</strong></summary>
 
-The structure is composed of the following blocks: Oak Slab, Oak Fence.
+The structure part is composed of the following blocks: Oak Slab, Oak Fence.
 
 ### Blocks
 
@@ -376,12 +368,12 @@ The structure is composed of the following blocks: Oak Slab, Oak Fence.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -389,7 +381,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Edge/Better Vanilla Dungeon Deco Edge 03</strong></summary>
 
-The structure is composed of the following blocks: Hay Block.
+The structure part is composed of the following blocks: Hay Block.
 
 ### Blocks
 
@@ -400,12 +392,12 @@ The structure is composed of the following blocks: Hay Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -413,7 +405,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Edge/Better Vanilla Dungeon Deco Edge 04</strong></summary>
 
-The structure is composed of the following blocks: Infested Cobblestone, Cobblestone, Mossy Cobblestone, Cobblestone Stairs, Chest.
+The structure part is composed of the following blocks: Infested Cobblestone, Cobblestone, Mossy Cobblestone, Cobblestone Stairs, Chest.
 
 ### Blocks
 
@@ -428,12 +420,12 @@ The structure is composed of the following blocks: Infested Cobblestone, Cobbles
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -441,7 +433,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Edge/Better Vanilla Dungeon Deco Edge 05</strong></summary>
 
-The structure is composed of the following blocks: Cobweb.
+The structure part is composed of the following blocks: Cobweb.
 
 ### Blocks
 
@@ -452,12 +444,12 @@ The structure is composed of the following blocks: Cobweb.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -465,7 +457,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Edge/Better Vanilla Dungeon Deco Edge 06</strong></summary>
 
-The structure is composed of the following blocks: Oak Slab, Oak Fence, Oak Planks, Oak Stairs, Cobweb.
+The structure part is composed of the following blocks: Oak Slab, Oak Fence, Oak Planks, Oak Stairs, Cobweb.
 
 ### Blocks
 
@@ -480,12 +472,12 @@ The structure is composed of the following blocks: Oak Slab, Oak Fence, Oak Plan
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -493,7 +485,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Edge/Better Vanilla Dungeon Deco Edge 07</strong></summary>
 
-The structure is composed of the following blocks: Gravel.
+The structure part is composed of the following blocks: Gravel.
 
 ### Blocks
 
@@ -504,12 +496,12 @@ The structure is composed of the following blocks: Gravel.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -517,7 +509,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Edge/Better Vanilla Dungeon Deco Edge 08</strong></summary>
 
-The structure is composed of the following blocks: Cobblestone, Infested Cobblestone, Mossy Cobblestone, Cobblestone Stairs.
+The structure part is composed of the following blocks: Cobblestone, Infested Cobblestone, Mossy Cobblestone, Cobblestone Stairs.
 
 ### Blocks
 
@@ -531,12 +523,12 @@ The structure is composed of the following blocks: Cobblestone, Infested Cobbles
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -544,7 +536,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Edge/Better Vanilla Dungeon Deco Edge 09</strong></summary>
 
-The structure is composed of the following blocks: Mossy Cobblestone, Infested Cobblestone, Cobblestone, Cobblestone Stairs.
+The structure part is composed of the following blocks: Mossy Cobblestone, Infested Cobblestone, Cobblestone, Cobblestone Stairs.
 
 ### Blocks
 
@@ -558,12 +550,12 @@ The structure is composed of the following blocks: Mossy Cobblestone, Infested C
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -571,21 +563,21 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Ground/Better Vanilla Dungeon Deco Ground 01</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -593,21 +585,21 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Ground/Better Vanilla Dungeon Deco Ground 02</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -615,21 +607,21 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Ground/Better Vanilla Dungeon Deco Ground 03</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -637,21 +629,21 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Ground/Better Vanilla Dungeon Deco Ground 04</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -659,21 +651,21 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Ground/Better Vanilla Dungeon Deco Ground 05</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -681,21 +673,21 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Ground/Better Vanilla Dungeon Deco Ground 06</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -703,7 +695,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Mid/Better Vanilla Dungeon Deco Mid 01</strong></summary>
 
-The structure is composed of the following blocks: Cobblestone Stairs, Mossy Cobblestone Stairs, Cobblestone, Infested Cobblestone, Mossy Cobblestone, Mossy Cobblestone Wall.
+The structure part is composed of the following blocks: Cobblestone Stairs, Mossy Cobblestone Stairs, Cobblestone, Infested Cobblestone, Mossy Cobblestone, Mossy Cobblestone Wall.
 
 ### Blocks
 
@@ -719,12 +711,12 @@ The structure is composed of the following blocks: Cobblestone Stairs, Mossy Cob
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -732,7 +724,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Mid/Better Vanilla Dungeon Deco Mid 02</strong></summary>
 
-The structure is composed of the following blocks: Cobblestone, Infested Cobblestone, Mossy Cobblestone, Cobweb.
+The structure part is composed of the following blocks: Cobblestone, Infested Cobblestone, Mossy Cobblestone, Cobweb.
 
 ### Blocks
 
@@ -746,12 +738,12 @@ The structure is composed of the following blocks: Cobblestone, Infested Cobbles
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -759,7 +751,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Mid/Better Vanilla Dungeon Deco Mid 03</strong></summary>
 
-The structure is composed of the following blocks: Gravel.
+The structure part is composed of the following blocks: Gravel.
 
 ### Blocks
 
@@ -770,12 +762,12 @@ The structure is composed of the following blocks: Gravel.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -783,7 +775,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Mid/Better Vanilla Dungeon Deco Mid 04</strong></summary>
 
-The structure is composed of the following blocks: Mossy Cobblestone, Cobblestone, Infested Cobblestone, Mossy Cobblestone Slab, Cobblestone Slab, Cobblestone Stairs.
+The structure part is composed of the following blocks: Mossy Cobblestone, Cobblestone, Infested Cobblestone, Mossy Cobblestone Slab, Cobblestone Slab, Cobblestone Stairs.
 
 ### Blocks
 
@@ -799,12 +791,12 @@ The structure is composed of the following blocks: Mossy Cobblestone, Cobbleston
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -812,7 +804,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Mid/Better Vanilla Dungeon Deco Mid 05</strong></summary>
 
-The structure is composed of the following blocks: Spruce Trapdoor.
+The structure part is composed of the following blocks: Spruce Trapdoor.
 
 ### Blocks
 
@@ -823,12 +815,12 @@ The structure is composed of the following blocks: Spruce Trapdoor.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -836,7 +828,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Spawner/Better Vanilla Dungeon Spawner 01</strong></summary>
 
-The structure is composed of the following blocks: Chain, Spawner.
+The structure part is composed of the following blocks: Chain, Spawner.
 
 ### Blocks
 
@@ -848,12 +840,12 @@ The structure is composed of the following blocks: Chain, Spawner.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -861,7 +853,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Spawner/Better Vanilla Dungeon Spawner 02</strong></summary>
 
-The structure is composed of the following blocks: Chain, Spawner.
+The structure part is composed of the following blocks: Chain, Spawner.
 
 ### Blocks
 
@@ -873,12 +865,12 @@ The structure is composed of the following blocks: Chain, Spawner.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -886,7 +878,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Spawner/Better Vanilla Dungeon Spawner 03</strong></summary>
 
-The structure is composed of the following blocks: Chain, Spawner.
+The structure part is composed of the following blocks: Chain, Spawner.
 
 ### Blocks
 
@@ -898,12 +890,12 @@ The structure is composed of the following blocks: Chain, Spawner.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -911,7 +903,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Wall Mid/Better Vanilla Dungeon Deco Wall Mid 01</strong></summary>
 
-The structure is composed of the following blocks: Stone, Mossy Stone Bricks, Stone Stairs, Infested Mossy Stone Bricks, Moss Carpet, Stone Bricks, Stone Slab, Stone Brick Slab, Infested Stone Bricks, Weathered Copper, Sandstone Slab.
+The structure part is composed of the following blocks: Stone, Mossy Stone Bricks, Stone Stairs, Infested Mossy Stone Bricks, Moss Carpet, Stone Bricks, Stone Slab, Stone Brick Slab, Infested Stone Bricks, Weathered Copper, Sandstone Slab.
 
 ### Blocks
 
@@ -932,12 +924,12 @@ The structure is composed of the following blocks: Stone, Mossy Stone Bricks, St
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -945,7 +937,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Wall Mid/Better Vanilla Dungeon Deco Wall Mid 02</strong></summary>
 
-The structure is composed of the following blocks: Hopper, Oak Fence, Cobblestone Wall, Cobblestone, Observer, Spruce Trapdoor.
+The structure part is composed of the following blocks: Hopper, Oak Fence, Cobblestone Wall, Cobblestone, Observer, Spruce Trapdoor.
 
 ### Blocks
 
@@ -961,12 +953,12 @@ The structure is composed of the following blocks: Hopper, Oak Fence, Cobbleston
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -974,7 +966,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Wall Mid/Better Vanilla Dungeon Deco Wall Mid 03</strong></summary>
 
-The structure is composed of the following blocks: Cobblestone Slab, Cobblestone Stairs, Cobblestone, Mossy Cobblestone, Mossy Cobblestone Stairs.
+The structure part is composed of the following blocks: Cobblestone Slab, Cobblestone Stairs, Cobblestone, Mossy Cobblestone, Mossy Cobblestone Stairs.
 
 ### Blocks
 
@@ -989,12 +981,12 @@ The structure is composed of the following blocks: Cobblestone Slab, Cobblestone
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1002,7 +994,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Wall Mid/Better Vanilla Dungeon Deco Wall Mid 04</strong></summary>
 
-The structure is composed of the following blocks: Hay Block.
+The structure part is composed of the following blocks: Hay Block.
 
 ### Blocks
 
@@ -1013,12 +1005,12 @@ The structure is composed of the following blocks: Hay Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1026,7 +1018,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Wall Mid/Better Vanilla Dungeon Deco Wall Mid 05</strong></summary>
 
-The structure is composed of the following blocks: Spruce Trapdoor, Oak Wall Sign, Oak Slab, Oak Fence, Cobweb.
+The structure part is composed of the following blocks: Spruce Trapdoor, Oak Wall Sign, Oak Slab, Oak Fence, Cobweb.
 
 ### Blocks
 
@@ -1041,12 +1033,12 @@ The structure is composed of the following blocks: Spruce Trapdoor, Oak Wall Sig
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1054,7 +1046,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Wall Mid/Better Vanilla Dungeon Deco Wall Mid 06</strong></summary>
 
-The structure is composed of the following blocks: Oak Fence, Cobblestone, Cobblestone Slab, Cobblestone Stairs, Infested Cobblestone, Mossy Cobblestone, Mossy Cobblestone Stairs.
+The structure part is composed of the following blocks: Oak Fence, Cobblestone, Cobblestone Slab, Cobblestone Stairs, Infested Cobblestone, Mossy Cobblestone, Mossy Cobblestone Stairs.
 
 ### Blocks
 
@@ -1071,12 +1063,12 @@ The structure is composed of the following blocks: Oak Fence, Cobblestone, Cobbl
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1084,7 +1076,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Wall Mid/Better Vanilla Dungeon Deco Wall Mid 07</strong></summary>
 
-The structure is composed of the following blocks: Gravel.
+The structure part is composed of the following blocks: Gravel.
 
 ### Blocks
 
@@ -1095,12 +1087,12 @@ The structure is composed of the following blocks: Gravel.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1108,7 +1100,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Wall Small/Better Vanilla Dungeon Deco Wall Small 01</strong></summary>
 
-The structure is composed of the following blocks: Cobblestone Slab, Mossy Cobblestone, Infested Cobblestone, Cobblestone Stairs, Mossy Cobblestone Stairs.
+The structure part is composed of the following blocks: Cobblestone Slab, Mossy Cobblestone, Infested Cobblestone, Cobblestone Stairs, Mossy Cobblestone Stairs.
 
 ### Blocks
 
@@ -1123,12 +1115,12 @@ The structure is composed of the following blocks: Cobblestone Slab, Mossy Cobbl
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1136,7 +1128,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Wall Small/Better Vanilla Dungeon Deco Wall Small 02</strong></summary>
 
-The structure is composed of the following blocks: Mossy Cobblestone, Cobblestone, Cobblestone Slab, Mossy Cobblestone Stairs, Cobblestone Stairs, Infested Cobblestone.
+The structure part is composed of the following blocks: Mossy Cobblestone, Cobblestone, Cobblestone Slab, Mossy Cobblestone Stairs, Cobblestone Stairs, Infested Cobblestone.
 
 ### Blocks
 
@@ -1152,12 +1144,12 @@ The structure is composed of the following blocks: Mossy Cobblestone, Cobbleston
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1165,7 +1157,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Wall Small/Better Vanilla Dungeon Deco Wall Small 03</strong></summary>
 
-The structure is composed of the following blocks: Mossy Cobblestone Slab, Cobblestone, Cobblestone Slab, Cobblestone Stairs, Infested Cobblestone, Mossy Cobblestone, Mossy Cobblestone Stairs.
+The structure part is composed of the following blocks: Mossy Cobblestone Slab, Cobblestone, Cobblestone Slab, Cobblestone Stairs, Infested Cobblestone, Mossy Cobblestone, Mossy Cobblestone Stairs.
 
 ### Blocks
 
@@ -1182,12 +1174,12 @@ The structure is composed of the following blocks: Mossy Cobblestone Slab, Cobbl
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1195,7 +1187,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Wall/Better Vanilla Dungeon Deco Wall 01</strong></summary>
 
-The structure is composed of the following blocks: Oak Slab, Oak Fence, Oak Stairs, Chest.
+The structure part is composed of the following blocks: Oak Slab, Oak Fence, Oak Stairs, Chest.
 
 ### Blocks
 
@@ -1209,7 +1201,7 @@ The structure is composed of the following blocks: Oak Slab, Oak Fence, Oak Stai
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1224,7 +1216,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Wall/Better Vanilla Dungeon Deco Wall 02</strong></summary>
 
-The structure is composed of the following blocks: Bookshelf, Oak Slab, Chiseled Bookshelf, Oak Stairs.
+The structure part is composed of the following blocks: Bookshelf, Oak Slab, Chiseled Bookshelf, Oak Stairs.
 
 ### Blocks
 
@@ -1238,12 +1230,12 @@ The structure is composed of the following blocks: Bookshelf, Oak Slab, Chiseled
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1251,7 +1243,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Wall/Better Vanilla Dungeon Deco Wall 03</strong></summary>
 
-The structure is composed of the following blocks: Mossy Cobblestone, Infested Cobblestone, Cobblestone, Cobblestone Stairs, Mossy Cobblestone Stairs.
+The structure part is composed of the following blocks: Mossy Cobblestone, Infested Cobblestone, Cobblestone, Cobblestone Stairs, Mossy Cobblestone Stairs.
 
 ### Blocks
 
@@ -1266,12 +1258,12 @@ The structure is composed of the following blocks: Mossy Cobblestone, Infested C
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1279,7 +1271,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Wall/Better Vanilla Dungeon Deco Wall 04</strong></summary>
 
-The structure is composed of the following blocks: Oak Slab, Oak Fence.
+The structure part is composed of the following blocks: Oak Slab, Oak Fence.
 
 ### Blocks
 
@@ -1291,12 +1283,12 @@ The structure is composed of the following blocks: Oak Slab, Oak Fence.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1304,7 +1296,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Wall/Better Vanilla Dungeon Deco Wall 05</strong></summary>
 
-The structure is composed of the following blocks: Hay Block.
+The structure part is composed of the following blocks: Hay Block.
 
 ### Blocks
 
@@ -1315,12 +1307,12 @@ The structure is composed of the following blocks: Hay Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1328,7 +1320,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Wall/Better Vanilla Dungeon Deco Wall 06</strong></summary>
 
-The structure is composed of the following blocks: Mossy Cobblestone, Cobblestone, Infested Cobblestone, Cobblestone Stairs.
+The structure part is composed of the following blocks: Mossy Cobblestone, Cobblestone, Infested Cobblestone, Cobblestone Stairs.
 
 ### Blocks
 
@@ -1342,12 +1334,12 @@ The structure is composed of the following blocks: Mossy Cobblestone, Cobbleston
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1355,7 +1347,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Wall/Better Vanilla Dungeon Deco Wall 07</strong></summary>
 
-The structure is composed of the following blocks: Gravel.
+The structure part is composed of the following blocks: Gravel.
 
 ### Blocks
 
@@ -1366,12 +1358,12 @@ The structure is composed of the following blocks: Gravel.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1379,7 +1371,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Wall/Better Vanilla Dungeon Deco Wall 08</strong></summary>
 
-The structure is composed of the following blocks: Cobblestone, Mossy Cobblestone, Infested Cobblestone, Mossy Cobblestone Stairs, Cobblestone Stairs.
+The structure part is composed of the following blocks: Cobblestone, Mossy Cobblestone, Infested Cobblestone, Mossy Cobblestone Stairs, Cobblestone Stairs.
 
 ### Blocks
 
@@ -1394,12 +1386,12 @@ The structure is composed of the following blocks: Cobblestone, Mossy Cobbleston
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1407,7 +1399,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Decor/Wall/Better Vanilla Dungeon Deco Wall 09</strong></summary>
 
-The structure is composed of the following blocks: Cobweb, Infested Cobblestone, Cobblestone, Mossy Cobblestone, Cobblestone Stairs, Chest.
+The structure part is composed of the following blocks: Cobweb, Infested Cobblestone, Cobblestone, Mossy Cobblestone, Cobblestone Stairs, Chest.
 
 ### Blocks
 
@@ -1423,12 +1415,12 @@ The structure is composed of the following blocks: Cobweb, Infested Cobblestone,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1436,7 +1428,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Room/Better Vanilla Dungeon Room 01</strong></summary>
 
-The structure is composed of the following blocks: Mossy Cobblestone, Cobblestone, Infested Cobblestone, Mossy Stone Bricks, Infested Mossy Stone Bricks, Infested Stone Bricks, Stone Bricks, Cobblestone Stairs, Mossy Cobblestone Stairs.
+The structure part is composed of the following blocks: Mossy Cobblestone, Cobblestone, Infested Cobblestone, Mossy Stone Bricks, Infested Mossy Stone Bricks, Infested Stone Bricks, Stone Bricks, Cobblestone Stairs, Mossy Cobblestone Stairs.
 
 ### Blocks
 
@@ -1455,12 +1447,12 @@ The structure is composed of the following blocks: Mossy Cobblestone, Cobbleston
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1468,7 +1460,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Room/Better Vanilla Dungeon Room 02</strong></summary>
 
-The structure is composed of the following blocks: Cobblestone, Infested Cobblestone, Mossy Cobblestone, Mossy Stone Bricks, Stone Bricks, Cobblestone Stairs, Infested Stone Bricks, Infested Mossy Stone Bricks, Mossy Cobblestone Stairs.
+The structure part is composed of the following blocks: Cobblestone, Infested Cobblestone, Mossy Cobblestone, Mossy Stone Bricks, Stone Bricks, Cobblestone Stairs, Infested Stone Bricks, Infested Mossy Stone Bricks, Mossy Cobblestone Stairs.
 
 ### Blocks
 
@@ -1487,12 +1479,12 @@ The structure is composed of the following blocks: Cobblestone, Infested Cobbles
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1500,7 +1492,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Room/Better Vanilla Dungeon Room 03</strong></summary>
 
-The structure is composed of the following blocks: Mossy Cobblestone, Cobblestone, Infested Cobblestone, Infested Mossy Stone Bricks, Mossy Stone Bricks, Infested Stone Bricks, Stone Bricks, Cobblestone Stairs, Mossy Cobblestone Stairs.
+The structure part is composed of the following blocks: Mossy Cobblestone, Cobblestone, Infested Cobblestone, Infested Mossy Stone Bricks, Mossy Stone Bricks, Infested Stone Bricks, Stone Bricks, Cobblestone Stairs, Mossy Cobblestone Stairs.
 
 ### Blocks
 
@@ -1519,12 +1511,12 @@ The structure is composed of the following blocks: Mossy Cobblestone, Cobbleston
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1532,7 +1524,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Room/Better Vanilla Dungeon Room 04</strong></summary>
 
-The structure is composed of the following blocks: Mossy Cobblestone, Infested Cobblestone, Cobblestone, Mossy Stone Bricks, Infested Stone Bricks, Infested Mossy Stone Bricks, Cobblestone Stairs, Stone Bricks, Mossy Cobblestone Stairs.
+The structure part is composed of the following blocks: Mossy Cobblestone, Infested Cobblestone, Cobblestone, Mossy Stone Bricks, Infested Stone Bricks, Infested Mossy Stone Bricks, Cobblestone Stairs, Stone Bricks, Mossy Cobblestone Stairs.
 
 ### Blocks
 
@@ -1551,12 +1543,12 @@ The structure is composed of the following blocks: Mossy Cobblestone, Infested C
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1564,7 +1556,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Room/Better Vanilla Dungeon Room 05</strong></summary>
 
-The structure is composed of the following blocks: Infested Cobblestone, Mossy Cobblestone, Cobblestone, Mossy Stone Bricks, Infested Mossy Stone Bricks, Stone Bricks, Cobblestone Stairs, Infested Stone Bricks, Mossy Cobblestone Stairs.
+The structure part is composed of the following blocks: Infested Cobblestone, Mossy Cobblestone, Cobblestone, Mossy Stone Bricks, Infested Mossy Stone Bricks, Stone Bricks, Cobblestone Stairs, Infested Stone Bricks, Mossy Cobblestone Stairs.
 
 ### Blocks
 
@@ -1583,12 +1575,12 @@ The structure is composed of the following blocks: Infested Cobblestone, Mossy C
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1596,7 +1588,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Room/Better Vanilla Dungeon Room 06</strong></summary>
 
-The structure is composed of the following blocks: Cobblestone, Mossy Cobblestone, Infested Cobblestone, Infested Mossy Stone Bricks, Mossy Stone Bricks, Stone Bricks, Infested Stone Bricks, Cobblestone Stairs, Mossy Cobblestone Stairs.
+The structure part is composed of the following blocks: Cobblestone, Mossy Cobblestone, Infested Cobblestone, Infested Mossy Stone Bricks, Mossy Stone Bricks, Stone Bricks, Infested Stone Bricks, Cobblestone Stairs, Mossy Cobblestone Stairs.
 
 ### Blocks
 
@@ -1615,12 +1607,12 @@ The structure is composed of the following blocks: Cobblestone, Mossy Cobbleston
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1628,7 +1620,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Room/Better Vanilla Dungeon Room 07</strong></summary>
 
-The structure is composed of the following blocks: Mossy Cobblestone, Cobblestone, Infested Cobblestone, Mossy Stone Bricks, Infested Mossy Stone Bricks, Stone Bricks, Infested Stone Bricks, Cobblestone Stairs, Mossy Cobblestone Stairs.
+The structure part is composed of the following blocks: Mossy Cobblestone, Cobblestone, Infested Cobblestone, Mossy Stone Bricks, Infested Mossy Stone Bricks, Stone Bricks, Infested Stone Bricks, Cobblestone Stairs, Mossy Cobblestone Stairs.
 
 ### Blocks
 
@@ -1647,12 +1639,12 @@ The structure is composed of the following blocks: Mossy Cobblestone, Cobbleston
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1660,7 +1652,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Room/Better Vanilla Dungeon Room 08</strong></summary>
 
-The structure is composed of the following blocks: Infested Cobblestone, Cobblestone, Mossy Cobblestone, Mossy Stone Bricks, Stone Bricks, Cobblestone Stairs, Infested Stone Bricks, Infested Mossy Stone Bricks, Mossy Cobblestone Stairs.
+The structure part is composed of the following blocks: Infested Cobblestone, Cobblestone, Mossy Cobblestone, Mossy Stone Bricks, Stone Bricks, Cobblestone Stairs, Infested Stone Bricks, Infested Mossy Stone Bricks, Mossy Cobblestone Stairs.
 
 ### Blocks
 
@@ -1679,12 +1671,12 @@ The structure is composed of the following blocks: Infested Cobblestone, Cobbles
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1692,7 +1684,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Room/Chamber/Better Vanilla Dungeon Chamber 01</strong></summary>
 
-The structure is composed of the following blocks: Cobblestone, Mossy Cobblestone, Infested Cobblestone, Chest, Infested Stone Bricks, Mossy Stone Bricks.
+The structure part is composed of the following blocks: Cobblestone, Mossy Cobblestone, Infested Cobblestone, Chest, Infested Stone Bricks, Mossy Stone Bricks.
 
 ### Blocks
 
@@ -1708,7 +1700,7 @@ The structure is composed of the following blocks: Cobblestone, Mossy Cobbleston
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1723,7 +1715,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Room/Chamber/Better Vanilla Dungeon Chamber 02</strong></summary>
 
-The structure is composed of the following blocks: Cobblestone, Mossy Cobblestone, Infested Cobblestone, Barrel, Infested Mossy Stone Bricks, Mossy Stone Bricks.
+The structure part is composed of the following blocks: Cobblestone, Mossy Cobblestone, Infested Cobblestone, Barrel, Infested Mossy Stone Bricks, Mossy Stone Bricks.
 
 ### Blocks
 
@@ -1739,7 +1731,7 @@ The structure is composed of the following blocks: Cobblestone, Mossy Cobbleston
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1754,7 +1746,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Room/Chamber/Better Vanilla Dungeon Chamber 03</strong></summary>
 
-The structure is composed of the following blocks: Mossy Cobblestone, Cobblestone, Infested Cobblestone, Mossy Stone Bricks, Chest.
+The structure part is composed of the following blocks: Mossy Cobblestone, Cobblestone, Infested Cobblestone, Mossy Stone Bricks, Chest.
 
 ### Blocks
 
@@ -1769,7 +1761,7 @@ The structure is composed of the following blocks: Mossy Cobblestone, Cobbleston
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1784,7 +1776,7 @@ None found.
 <details>
 <summary><strong>Better Vanilla Dungeon/Room/Chamber/Better Vanilla Dungeon Chamber 04</strong></summary>
 
-The structure is composed of the following blocks: Mossy Cobblestone, Cobblestone, Infested Cobblestone, Infested Mossy Stone Bricks, Infested Stone Bricks.
+The structure part is composed of the following blocks: Mossy Cobblestone, Cobblestone, Infested Cobblestone, Infested Mossy Stone Bricks, Infested Stone Bricks.
 
 ### Blocks
 
@@ -1799,12 +1791,12 @@ The structure is composed of the following blocks: Mossy Cobblestone, Cobbleston
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>

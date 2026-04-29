@@ -1,21 +1,14 @@
-# Villager Desert
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Red Sandstone, Glow Lichen, Sandstone Stairs, Sandstone, Sandstone Slab, Red Sandstone Slab, Shroomlight, Chest, Emerald Block.
 
-### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/villager/desert |
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Villager Desert/Villager Desert</strong></summary>
 
-The structure is composed of the following blocks: Red Sandstone, Glow Lichen, Sandstone Stairs, Sandstone, Sandstone Slab, Red Sandstone Slab, Shroomlight.
+The structure part is composed of the following blocks: Red Sandstone, Glow Lichen, Sandstone Stairs, Sandstone, Sandstone Slab, Red Sandstone Slab, Shroomlight.
 
 ### Blocks
 
@@ -32,12 +25,12 @@ The structure is composed of the following blocks: Red Sandstone, Glow Lichen, S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -45,7 +38,7 @@ None found.
 <details>
 <summary><strong>Villager Desert/Villager Desert Brain 1</strong></summary>
 
-The structure is composed of the following blocks: Chest, Red Sandstone.
+The structure part is composed of the following blocks: Chest, Red Sandstone.
 
 ### Blocks
 
@@ -57,7 +50,7 @@ The structure is composed of the following blocks: Chest, Red Sandstone.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -72,7 +65,7 @@ None found.
 <details>
 <summary><strong>Villager Desert/Villager Desert Brain 2</strong></summary>
 
-The structure is composed of the following blocks: Emerald Block, Red Sandstone.
+The structure part is composed of the following blocks: Emerald Block, Red Sandstone.
 
 ### Blocks
 
@@ -84,12 +77,12 @@ The structure is composed of the following blocks: Emerald Block, Red Sandstone.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -97,7 +90,7 @@ None found.
 <details>
 <summary><strong>Villager Desert/Villager Desert Brain 3</strong></summary>
 
-The structure is composed of the following blocks: Red Sandstone.
+The structure part is composed of the following blocks: Red Sandstone.
 
 ### Blocks
 
@@ -108,12 +101,12 @@ The structure is composed of the following blocks: Red Sandstone.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>

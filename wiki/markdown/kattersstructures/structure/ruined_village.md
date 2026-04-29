@@ -1,23 +1,16 @@
-# Ruined Village
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Dirt, Grass Block, Stone, Oak Leaves, Vine, Stone Bricks, Grass, Dirt Path, Tall Grass, Andesite, Mossy Stone Bricks, Stone Stairs, Stone Brick Stairs, Cracked Stone Bricks, Coarse Dirt, Coal Ore, Stone Brick Wall, Iron Ore, Poppy, Farmland, Wheat, Granite, Dark Oak Stairs, Gravel, Mossy Stone Brick Wall, Stone Brick Slab, Dandelion, Dark Oak Slab, Diamond Ore, Lapis Ore, Birch Log, Chest, Emerald Ore, Infested Chiseled Stone Bricks, Lantern, Spawner, Carved Pumpkin, Chain, Cobweb, Mossy Stone Brick Slab, Dark Oak Planks, Moss Carpet, Stone Slab, Campfire, Soul Campfire, Soul Lantern.
 
 Additionally, the following entities may spawn during its generation: Zombie, Chicken, Zombie Horse, Zombie Villager.
 
-### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/ruins/loot |
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Ruined Village/Center/Ruined Center 1</strong></summary>
 
-The structure is composed of the following blocks: Stone, Grass Block, Dirt, Grass, Andesite, Tall Grass, Stone Bricks, Granite, Poppy, Chain, Chest, Cracked Stone Bricks, Dandelion, Infested Chiseled Stone Bricks, Lantern, Spawner.
+The structure part is composed of the following blocks: Stone, Grass Block, Dirt, Grass, Andesite, Tall Grass, Stone Bricks, Granite, Poppy, Chain, Chest, Cracked Stone Bricks, Dandelion, Infested Chiseled Stone Bricks, Lantern, Spawner.
 
 ### Blocks
 
@@ -43,7 +36,7 @@ The structure is composed of the following blocks: Stone, Grass Block, Dirt, Gra
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -58,7 +51,7 @@ None found.
 <details>
 <summary><strong>Ruined Village/Center/Ruined Center 2</strong></summary>
 
-The structure is composed of the following blocks: Dirt, Stone, Grass Block, Grass, Andesite, Tall Grass, Stone Bricks, Granite, Chain, Chest, Dandelion, Infested Chiseled Stone Bricks, Lantern, Poppy, Spawner.
+The structure part is composed of the following blocks: Dirt, Stone, Grass Block, Grass, Andesite, Tall Grass, Stone Bricks, Granite, Chain, Chest, Dandelion, Infested Chiseled Stone Bricks, Lantern, Poppy, Spawner.
 
 ### Blocks
 
@@ -83,7 +76,7 @@ The structure is composed of the following blocks: Dirt, Stone, Grass Block, Gra
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -98,7 +91,7 @@ None found.
 <details>
 <summary><strong>Ruined Village/Center/Ruined Center 3</strong></summary>
 
-The structure is composed of the following blocks: Stone, Grass Block, Dirt, Grass, Andesite, Tall Grass, Stone Bricks, Poppy, Granite, Chain, Chest, Dandelion, Infested Chiseled Stone Bricks, Soul Lantern, Spawner.
+The structure part is composed of the following blocks: Stone, Grass Block, Dirt, Grass, Andesite, Tall Grass, Stone Bricks, Poppy, Granite, Chain, Chest, Dandelion, Infested Chiseled Stone Bricks, Soul Lantern, Spawner.
 
 ### Blocks
 
@@ -123,7 +116,7 @@ The structure is composed of the following blocks: Stone, Grass Block, Dirt, Gra
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -138,7 +131,7 @@ None found.
 <details>
 <summary><strong>Ruined Village/Center/Ruined Center 4</strong></summary>
 
-The structure is composed of the following blocks: Stone, Dirt, Grass Block, Grass, Andesite, Coarse Dirt, Tall Grass, Granite, Cracked Stone Bricks, Stone Bricks, Chest, Infested Chiseled Stone Bricks, Lantern, Poppy.
+The structure part is composed of the following blocks: Stone, Dirt, Grass Block, Grass, Andesite, Coarse Dirt, Tall Grass, Granite, Cracked Stone Bricks, Stone Bricks, Chest, Infested Chiseled Stone Bricks, Lantern, Poppy.
 
 ### Blocks
 
@@ -162,7 +155,7 @@ The structure is composed of the following blocks: Stone, Dirt, Grass Block, Gra
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -177,21 +170,21 @@ None found.
 <details>
 <summary><strong>Ruined Village/Center/Ruined Main Center</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -199,13 +192,13 @@ None found.
 <details>
 <summary><strong>Ruined Village/Mobs/Mob 1</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Zombie.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -217,7 +210,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -225,13 +218,13 @@ None found.
 <details>
 <summary><strong>Ruined Village/Mobs/Mob 2</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Zombie.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -243,7 +236,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -251,13 +244,13 @@ None found.
 <details>
 <summary><strong>Ruined Village/Mobs/Mob 3</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Zombie Villager.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -269,7 +262,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -277,13 +270,13 @@ None found.
 <details>
 <summary><strong>Ruined Village/Mobs/Mob 4</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Chicken.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -295,7 +288,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -303,13 +296,13 @@ None found.
 <details>
 <summary><strong>Ruined Village/Mobs/Mob 5</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Zombie.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -321,7 +314,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -329,13 +322,13 @@ None found.
 <details>
 <summary><strong>Ruined Village/Mobs/Mob 6</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Zombie Horse.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -347,7 +340,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -355,7 +348,7 @@ None found.
 <details>
 <summary><strong>Ruined Village/Ruins/Ruin 1</strong></summary>
 
-The structure is composed of the following blocks: Dirt, Grass Block, Oak Leaves, Stone Bricks, Vine, Dirt Path, Mossy Stone Bricks, Cracked Stone Bricks, Dark Oak Stairs, Stone Brick Slab, Stone Brick Stairs, Dark Oak Slab, Dark Oak Planks, Mossy Stone Brick Slab.
+The structure part is composed of the following blocks: Dirt, Grass Block, Oak Leaves, Stone Bricks, Vine, Dirt Path, Mossy Stone Bricks, Cracked Stone Bricks, Dark Oak Stairs, Stone Brick Slab, Stone Brick Stairs, Dark Oak Slab, Dark Oak Planks, Mossy Stone Brick Slab.
 
 ### Blocks
 
@@ -379,12 +372,12 @@ The structure is composed of the following blocks: Dirt, Grass Block, Oak Leaves
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -392,7 +385,7 @@ None found.
 <details>
 <summary><strong>Ruined Village/Ruins/Ruin 10</strong></summary>
 
-The structure is composed of the following blocks: Grass Block, Oak Leaves, Dirt, Tall Grass, Stone Brick Stairs, Stone Bricks, Grass, Mossy Stone Bricks, Cracked Stone Bricks.
+The structure part is composed of the following blocks: Grass Block, Oak Leaves, Dirt, Tall Grass, Stone Brick Stairs, Stone Bricks, Grass, Mossy Stone Bricks, Cracked Stone Bricks.
 
 ### Blocks
 
@@ -411,12 +404,12 @@ The structure is composed of the following blocks: Grass Block, Oak Leaves, Dirt
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -424,7 +417,7 @@ None found.
 <details>
 <summary><strong>Ruined Village/Ruins/Ruin 11</strong></summary>
 
-The structure is composed of the following blocks: Dirt, Oak Leaves, Grass Block, Vine, Stone Bricks, Coarse Dirt, Dirt Path, Grass, Stone Brick Stairs, Mossy Stone Bricks, Cracked Stone Bricks, Dark Oak Stairs, Dandelion, Poppy, Tall Grass, Dark Oak Slab, Soul Campfire.
+The structure part is composed of the following blocks: Dirt, Oak Leaves, Grass Block, Vine, Stone Bricks, Coarse Dirt, Dirt Path, Grass, Stone Brick Stairs, Mossy Stone Bricks, Cracked Stone Bricks, Dark Oak Stairs, Dandelion, Poppy, Tall Grass, Dark Oak Slab, Soul Campfire.
 
 ### Blocks
 
@@ -451,12 +444,12 @@ The structure is composed of the following blocks: Dirt, Oak Leaves, Grass Block
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -464,7 +457,7 @@ None found.
 <details>
 <summary><strong>Ruined Village/Ruins/Ruin 12</strong></summary>
 
-The structure is composed of the following blocks: Oak Leaves, Grass Block, Dirt, Vine, Mossy Stone Bricks.
+The structure part is composed of the following blocks: Oak Leaves, Grass Block, Dirt, Vine, Mossy Stone Bricks.
 
 ### Blocks
 
@@ -479,12 +472,12 @@ The structure is composed of the following blocks: Oak Leaves, Grass Block, Dirt
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -492,7 +485,7 @@ None found.
 <details>
 <summary><strong>Ruined Village/Ruins/Ruin 13</strong></summary>
 
-The structure is composed of the following blocks: Dirt, Oak Leaves, Grass Block, Stone Bricks, Vine, Tall Grass, Dirt Path, Cracked Stone Bricks, Mossy Stone Bricks, Grass, Mossy Stone Brick Slab, Stone Brick Slab.
+The structure part is composed of the following blocks: Dirt, Oak Leaves, Grass Block, Stone Bricks, Vine, Tall Grass, Dirt Path, Cracked Stone Bricks, Mossy Stone Bricks, Grass, Mossy Stone Brick Slab, Stone Brick Slab.
 
 ### Blocks
 
@@ -514,12 +507,12 @@ The structure is composed of the following blocks: Dirt, Oak Leaves, Grass Block
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -527,7 +520,7 @@ None found.
 <details>
 <summary><strong>Ruined Village/Ruins/Ruin 14</strong></summary>
 
-The structure is composed of the following blocks: Dirt Path, Oak Leaves, Dirt, Grass Block.
+The structure part is composed of the following blocks: Dirt Path, Oak Leaves, Dirt, Grass Block.
 
 ### Blocks
 
@@ -541,12 +534,12 @@ The structure is composed of the following blocks: Dirt Path, Oak Leaves, Dirt, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -554,7 +547,7 @@ None found.
 <details>
 <summary><strong>Ruined Village/Ruins/Ruin 2</strong></summary>
 
-The structure is composed of the following blocks: Dirt, Oak Leaves, Grass Block, Vine, Stone Stairs, Stone, Tall Grass, Gravel, Grass, Andesite, Emerald Ore, Poppy, Stone Brick Stairs.
+The structure part is composed of the following blocks: Dirt, Oak Leaves, Grass Block, Vine, Stone Stairs, Stone, Tall Grass, Gravel, Grass, Andesite, Emerald Ore, Poppy, Stone Brick Stairs.
 
 ### Blocks
 
@@ -577,12 +570,12 @@ The structure is composed of the following blocks: Dirt, Oak Leaves, Grass Block
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -590,7 +583,7 @@ None found.
 <details>
 <summary><strong>Ruined Village/Ruins/Ruin 3</strong></summary>
 
-The structure is composed of the following blocks: Dirt, Grass Block, Vine, Oak Leaves, Stone Stairs, Stone, Tall Grass, Gravel, Andesite, Coal Ore, Grass, Poppy, Emerald Ore.
+The structure part is composed of the following blocks: Dirt, Grass Block, Vine, Oak Leaves, Stone Stairs, Stone, Tall Grass, Gravel, Andesite, Coal Ore, Grass, Poppy, Emerald Ore.
 
 ### Blocks
 
@@ -613,12 +606,12 @@ The structure is composed of the following blocks: Dirt, Grass Block, Vine, Oak 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -626,7 +619,7 @@ None found.
 <details>
 <summary><strong>Ruined Village/Ruins/Ruin 4</strong></summary>
 
-The structure is composed of the following blocks: Stone, Vine, Oak Leaves, Dirt, Andesite, Coal Ore, Grass Block, Iron Ore, Stone Stairs, Diamond Ore, Lapis Ore, Stone Slab.
+The structure part is composed of the following blocks: Stone, Vine, Oak Leaves, Dirt, Andesite, Coal Ore, Grass Block, Iron Ore, Stone Stairs, Diamond Ore, Lapis Ore, Stone Slab.
 
 ### Blocks
 
@@ -648,12 +641,12 @@ The structure is composed of the following blocks: Stone, Vine, Oak Leaves, Dirt
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -661,7 +654,7 @@ None found.
 <details>
 <summary><strong>Ruined Village/Ruins/Ruin 5</strong></summary>
 
-The structure is composed of the following blocks: Dirt, Oak Leaves, Stone Bricks, Grass Block, Dirt Path, Mossy Stone Bricks, Stone Brick Stairs, Grass, Cobweb, Cracked Stone Bricks, Tall Grass, Carved Pumpkin, Poppy, Spawner.
+The structure part is composed of the following blocks: Dirt, Oak Leaves, Stone Bricks, Grass Block, Dirt Path, Mossy Stone Bricks, Stone Brick Stairs, Grass, Cobweb, Cracked Stone Bricks, Tall Grass, Carved Pumpkin, Poppy, Spawner.
 
 ### Blocks
 
@@ -685,12 +678,12 @@ The structure is composed of the following blocks: Dirt, Oak Leaves, Stone Brick
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -698,7 +691,7 @@ None found.
 <details>
 <summary><strong>Ruined Village/Ruins/Ruin 6</strong></summary>
 
-The structure is composed of the following blocks: Dirt, Grass Block, Oak Leaves, Dirt Path, Grass, Stone Bricks, Tall Grass, Mossy Stone Bricks, Stone Brick Stairs, Cracked Stone Bricks, Poppy, Emerald Ore.
+The structure part is composed of the following blocks: Dirt, Grass Block, Oak Leaves, Dirt Path, Grass, Stone Bricks, Tall Grass, Mossy Stone Bricks, Stone Brick Stairs, Cracked Stone Bricks, Poppy, Emerald Ore.
 
 ### Blocks
 
@@ -720,12 +713,12 @@ The structure is composed of the following blocks: Dirt, Grass Block, Oak Leaves
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -733,7 +726,7 @@ None found.
 <details>
 <summary><strong>Ruined Village/Ruins/Ruin 7</strong></summary>
 
-The structure is composed of the following blocks: Grass Block, Dirt, Grass, Dirt Path, Stone Brick Wall, Stone Bricks, Tall Grass, Dandelion, Lantern, Poppy.
+The structure part is composed of the following blocks: Grass Block, Dirt, Grass, Dirt Path, Stone Brick Wall, Stone Bricks, Tall Grass, Dandelion, Lantern, Poppy.
 
 ### Blocks
 
@@ -753,12 +746,12 @@ The structure is composed of the following blocks: Grass Block, Dirt, Grass, Dir
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -766,7 +759,7 @@ None found.
 <details>
 <summary><strong>Ruined Village/Ruins/Ruin 8</strong></summary>
 
-The structure is composed of the following blocks: Grass Block, Dirt, Tall Grass, Stone Brick Wall, Farmland, Wheat, Mossy Stone Brick Wall, Stone Bricks, Grass, Carved Pumpkin, Dirt Path.
+The structure part is composed of the following blocks: Grass Block, Dirt, Tall Grass, Stone Brick Wall, Farmland, Wheat, Mossy Stone Brick Wall, Stone Bricks, Grass, Carved Pumpkin, Dirt Path.
 
 ### Blocks
 
@@ -787,12 +780,12 @@ The structure is composed of the following blocks: Grass Block, Dirt, Tall Grass
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -800,7 +793,7 @@ None found.
 <details>
 <summary><strong>Ruined Village/Ruins/Ruin 9</strong></summary>
 
-The structure is composed of the following blocks: Grass Block, Dirt, Tall Grass, Dirt Path, Grass, Birch Log, Moss Carpet, Campfire, Gravel.
+The structure part is composed of the following blocks: Grass Block, Dirt, Tall Grass, Dirt Path, Grass, Birch Log, Moss Carpet, Campfire, Gravel.
 
 ### Blocks
 
@@ -819,12 +812,12 @@ The structure is composed of the following blocks: Grass Block, Dirt, Tall Grass
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -832,21 +825,21 @@ None found.
 <details>
 <summary><strong>Ruined Village/Streets/Ruined Street 1</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -854,21 +847,21 @@ None found.
 <details>
 <summary><strong>Ruined Village/Streets/Ruined Street 2</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -876,21 +869,21 @@ None found.
 <details>
 <summary><strong>Ruined Village/Streets/Ruined Street 3</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>

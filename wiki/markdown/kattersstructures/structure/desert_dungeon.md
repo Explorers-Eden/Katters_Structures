@@ -1,25 +1,16 @@
-# Desert Dungeon
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Sandstone, Sand, Smooth Sandstone, Chiseled Sandstone, Smooth Sandstone Stairs, Spruce Fence, Stripped Spruce Log, Spruce Slab, Pointed Dripstone, Birch Pressure Plate, Spruce Wall Sign, Brown Wall Banner, Orange Wall Banner, Cactus, Sandstone Stairs, Ladder, Gold Block, Smooth Red Sandstone, Sandstone Slab, Cobweb, Raw Gold Block, Red Sandstone, Smooth Red Sandstone Stairs, Decorated Pot, Red Sandstone Stairs, Spruce Trapdoor, Chain, Spawner, Spruce Button, Tnt, Chest, Redstone Torch, Smooth Red Sandstone Slab, Bamboo Fence, Barrel, Campfire, Red Sandstone Slab, Emerald Block, Potted Acacia Sapling, Potted Bamboo, Potted Dead Bush, Redstone Wall Torch, Redstone Wire, Repeater, Scaffolding, Stripped Bamboo Block.
 
 Additionally, the following entities may spawn during its generation: Husk, Creeper, Skeleton.
 
-### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/desert_dungeon/generic |
-| kattersstructures:chests/desert_dungeon/treasure |
-| kattersstructures:chests/desert_dungeon/treasure_02 |
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Desert Dungeon/Corridor/Corridor 01</strong></summary>
 
-The structure is composed of the following blocks: Sandstone, Smooth Sandstone, Chiseled Sandstone, Sand, Stripped Spruce Log, Smooth Sandstone Stairs, Birch Pressure Plate, Brown Wall Banner.
+The structure part is composed of the following blocks: Sandstone, Smooth Sandstone, Chiseled Sandstone, Sand, Stripped Spruce Log, Smooth Sandstone Stairs, Birch Pressure Plate, Brown Wall Banner.
 
 ### Blocks
 
@@ -37,12 +28,12 @@ The structure is composed of the following blocks: Sandstone, Smooth Sandstone, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -50,7 +41,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Corridor/Corridor 02</strong></summary>
 
-The structure is composed of the following blocks: Sandstone, Smooth Sandstone, Chiseled Sandstone, Sand, Stripped Spruce Log, Smooth Sandstone Stairs, Birch Pressure Plate, Brown Wall Banner.
+The structure part is composed of the following blocks: Sandstone, Smooth Sandstone, Chiseled Sandstone, Sand, Stripped Spruce Log, Smooth Sandstone Stairs, Birch Pressure Plate, Brown Wall Banner.
 
 ### Blocks
 
@@ -68,12 +59,12 @@ The structure is composed of the following blocks: Sandstone, Smooth Sandstone, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -81,7 +72,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Corridor/Corridor 03</strong></summary>
 
-The structure is composed of the following blocks: Sandstone, Smooth Sandstone, Chiseled Sandstone, Sand, Stripped Spruce Log, Smooth Sandstone Stairs, Birch Pressure Plate, Brown Wall Banner, Orange Wall Banner.
+The structure part is composed of the following blocks: Sandstone, Smooth Sandstone, Chiseled Sandstone, Sand, Stripped Spruce Log, Smooth Sandstone Stairs, Birch Pressure Plate, Brown Wall Banner, Orange Wall Banner.
 
 ### Blocks
 
@@ -100,12 +91,12 @@ The structure is composed of the following blocks: Sandstone, Smooth Sandstone, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -113,7 +104,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Corridor/Corridor 04</strong></summary>
 
-The structure is composed of the following blocks: Sandstone, Smooth Sandstone, Sand, Chiseled Sandstone, Stripped Spruce Log, Smooth Sandstone Stairs, Brown Wall Banner, Birch Pressure Plate.
+The structure part is composed of the following blocks: Sandstone, Smooth Sandstone, Sand, Chiseled Sandstone, Stripped Spruce Log, Smooth Sandstone Stairs, Brown Wall Banner, Birch Pressure Plate.
 
 ### Blocks
 
@@ -131,12 +122,12 @@ The structure is composed of the following blocks: Sandstone, Smooth Sandstone, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -144,7 +135,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Corridor/Corridor 05</strong></summary>
 
-The structure is composed of the following blocks: Sandstone, Sand, Smooth Sandstone, Chiseled Sandstone, Stripped Spruce Log, Smooth Sandstone Stairs, Birch Pressure Plate, Brown Wall Banner, Orange Wall Banner.
+The structure part is composed of the following blocks: Sandstone, Sand, Smooth Sandstone, Chiseled Sandstone, Stripped Spruce Log, Smooth Sandstone Stairs, Birch Pressure Plate, Brown Wall Banner, Orange Wall Banner.
 
 ### Blocks
 
@@ -163,12 +154,12 @@ The structure is composed of the following blocks: Sandstone, Sand, Smooth Sands
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -176,7 +167,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Corridor/Corridor 06</strong></summary>
 
-The structure is composed of the following blocks: Sandstone, Smooth Sandstone, Chiseled Sandstone, Stripped Spruce Log, Smooth Sandstone Stairs, Sandstone Stairs, Sand, Brown Wall Banner.
+The structure part is composed of the following blocks: Sandstone, Smooth Sandstone, Chiseled Sandstone, Stripped Spruce Log, Smooth Sandstone Stairs, Sandstone Stairs, Sand, Brown Wall Banner.
 
 ### Blocks
 
@@ -194,12 +185,12 @@ The structure is composed of the following blocks: Sandstone, Smooth Sandstone, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -207,7 +198,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Corridor/Corridor 07</strong></summary>
 
-The structure is composed of the following blocks: Sandstone, Smooth Sandstone, Chiseled Sandstone, Stripped Spruce Log, Sand, Smooth Sandstone Stairs, Sandstone Slab, Brown Wall Banner, Orange Wall Banner.
+The structure part is composed of the following blocks: Sandstone, Smooth Sandstone, Chiseled Sandstone, Stripped Spruce Log, Sand, Smooth Sandstone Stairs, Sandstone Slab, Brown Wall Banner, Orange Wall Banner.
 
 ### Blocks
 
@@ -226,12 +217,12 @@ The structure is composed of the following blocks: Sandstone, Smooth Sandstone, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -239,7 +230,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Decor/Desert Dungeon Decor 01</strong></summary>
 
-The structure is composed of the following blocks: Chest.
+The structure part is composed of the following blocks: Chest.
 
 ### Blocks
 
@@ -250,7 +241,7 @@ The structure is composed of the following blocks: Chest.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -265,7 +256,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Decor/Desert Dungeon Decor 02</strong></summary>
 
-The structure is composed of the following blocks: Barrel.
+The structure part is composed of the following blocks: Barrel.
 
 ### Blocks
 
@@ -276,7 +267,7 @@ The structure is composed of the following blocks: Barrel.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -291,7 +282,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Decor/Desert Dungeon Decor 03</strong></summary>
 
-The structure is composed of the following blocks: Scaffolding.
+The structure part is composed of the following blocks: Scaffolding.
 
 ### Blocks
 
@@ -302,12 +293,12 @@ The structure is composed of the following blocks: Scaffolding.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -315,7 +306,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Decor/Desert Dungeon Decor 04</strong></summary>
 
-The structure is composed of the following blocks: Birch Pressure Plate.
+The structure part is composed of the following blocks: Birch Pressure Plate.
 
 ### Blocks
 
@@ -326,12 +317,12 @@ The structure is composed of the following blocks: Birch Pressure Plate.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -339,7 +330,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Decor/Desert Dungeon Decor 05</strong></summary>
 
-The structure is composed of the following blocks: Decorated Pot.
+The structure part is composed of the following blocks: Decorated Pot.
 
 ### Blocks
 
@@ -350,12 +341,12 @@ The structure is composed of the following blocks: Decorated Pot.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -363,7 +354,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Decor/Desert Dungeon Decor 06</strong></summary>
 
-The structure is composed of the following blocks: Decorated Pot.
+The structure part is composed of the following blocks: Decorated Pot.
 
 ### Blocks
 
@@ -374,12 +365,12 @@ The structure is composed of the following blocks: Decorated Pot.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -387,7 +378,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Decor/Desert Dungeon Decor 07</strong></summary>
 
-The structure is composed of the following blocks: Decorated Pot.
+The structure part is composed of the following blocks: Decorated Pot.
 
 ### Blocks
 
@@ -398,12 +389,12 @@ The structure is composed of the following blocks: Decorated Pot.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -411,7 +402,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Decor/Desert Dungeon Decor 08</strong></summary>
 
-The structure is composed of the following blocks: Decorated Pot.
+The structure part is composed of the following blocks: Decorated Pot.
 
 ### Blocks
 
@@ -422,12 +413,12 @@ The structure is composed of the following blocks: Decorated Pot.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -435,7 +426,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Decor/Desert Dungeon Decor 09</strong></summary>
 
-The structure is composed of the following blocks: Decorated Pot.
+The structure part is composed of the following blocks: Decorated Pot.
 
 ### Blocks
 
@@ -446,12 +437,12 @@ The structure is composed of the following blocks: Decorated Pot.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -459,7 +450,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Decor/Desert Dungeon Decor 10</strong></summary>
 
-The structure is composed of the following blocks: Decorated Pot.
+The structure part is composed of the following blocks: Decorated Pot.
 
 ### Blocks
 
@@ -470,12 +461,12 @@ The structure is composed of the following blocks: Decorated Pot.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -483,7 +474,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Decor/Desert Dungeon Decor 11</strong></summary>
 
-The structure is composed of the following blocks: Decorated Pot.
+The structure part is composed of the following blocks: Decorated Pot.
 
 ### Blocks
 
@@ -494,12 +485,12 @@ The structure is composed of the following blocks: Decorated Pot.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -507,7 +498,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Decor/Desert Dungeon Decor 12</strong></summary>
 
-The structure is composed of the following blocks: Decorated Pot.
+The structure part is composed of the following blocks: Decorated Pot.
 
 ### Blocks
 
@@ -518,12 +509,12 @@ The structure is composed of the following blocks: Decorated Pot.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -531,7 +522,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Decor/Desert Dungeon Decor 13</strong></summary>
 
-The structure is composed of the following blocks: Potted Acacia Sapling.
+The structure part is composed of the following blocks: Potted Acacia Sapling.
 
 ### Blocks
 
@@ -542,12 +533,12 @@ The structure is composed of the following blocks: Potted Acacia Sapling.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -555,7 +546,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Decor/Desert Dungeon Decor 14</strong></summary>
 
-The structure is composed of the following blocks: Potted Dead Bush.
+The structure part is composed of the following blocks: Potted Dead Bush.
 
 ### Blocks
 
@@ -566,12 +557,12 @@ The structure is composed of the following blocks: Potted Dead Bush.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -579,7 +570,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Decor/Desert Dungeon Decor 15</strong></summary>
 
-The structure is composed of the following blocks: Cobweb.
+The structure part is composed of the following blocks: Cobweb.
 
 ### Blocks
 
@@ -590,12 +581,12 @@ The structure is composed of the following blocks: Cobweb.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -603,7 +594,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Decor/Desert Dungeon Decor 16</strong></summary>
 
-The structure is composed of the following blocks: Tnt.
+The structure part is composed of the following blocks: Tnt.
 
 ### Blocks
 
@@ -614,12 +605,12 @@ The structure is composed of the following blocks: Tnt.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -627,7 +618,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Decor/Desert Dungeon Decor 17</strong></summary>
 
-The structure is composed of the following blocks: Emerald Block.
+The structure part is composed of the following blocks: Emerald Block.
 
 ### Blocks
 
@@ -638,12 +629,12 @@ The structure is composed of the following blocks: Emerald Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -651,7 +642,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Decor/Desert Dungeon Decor 18</strong></summary>
 
-The structure is composed of the following blocks: Potted Bamboo.
+The structure part is composed of the following blocks: Potted Bamboo.
 
 ### Blocks
 
@@ -662,12 +653,12 @@ The structure is composed of the following blocks: Potted Bamboo.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -675,7 +666,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Decor/Desert Dungeon Decor 19</strong></summary>
 
-The structure is composed of the following blocks: Bamboo Fence, Stripped Bamboo Block.
+The structure part is composed of the following blocks: Bamboo Fence, Stripped Bamboo Block.
 
 ### Blocks
 
@@ -687,12 +678,12 @@ The structure is composed of the following blocks: Bamboo Fence, Stripped Bamboo
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -700,7 +691,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Decor/Desert Dungeon Decor 20</strong></summary>
 
-The structure is composed of the following blocks: Sand.
+The structure part is composed of the following blocks: Sand.
 
 ### Blocks
 
@@ -711,12 +702,12 @@ The structure is composed of the following blocks: Sand.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -724,7 +715,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Decor/Spawner/Desert Dungeon Spawner 01</strong></summary>
 
-The structure is composed of the following blocks: Chain, Spawner.
+The structure part is composed of the following blocks: Chain, Spawner.
 
 ### Blocks
 
@@ -736,12 +727,12 @@ The structure is composed of the following blocks: Chain, Spawner.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -749,7 +740,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Decor/Spawner/Desert Dungeon Spawner 02</strong></summary>
 
-The structure is composed of the following blocks: Chain, Spawner.
+The structure part is composed of the following blocks: Chain, Spawner.
 
 ### Blocks
 
@@ -761,12 +752,12 @@ The structure is composed of the following blocks: Chain, Spawner.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -774,7 +765,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Decor/Spawner/Desert Dungeon Spawner 03</strong></summary>
 
-The structure is composed of the following blocks: Chain, Spawner.
+The structure part is composed of the following blocks: Chain, Spawner.
 
 ### Blocks
 
@@ -786,12 +777,12 @@ The structure is composed of the following blocks: Chain, Spawner.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -799,7 +790,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Decor/Spawner/Desert Dungeon Spawner 04</strong></summary>
 
-The structure is composed of the following blocks: Chain, Spawner.
+The structure part is composed of the following blocks: Chain, Spawner.
 
 ### Blocks
 
@@ -811,12 +802,12 @@ The structure is composed of the following blocks: Chain, Spawner.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -824,7 +815,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Decor/Treasure/Desert Dungeon Treasure 01</strong></summary>
 
-The structure is composed of the following blocks: Chest.
+The structure part is composed of the following blocks: Chest.
 
 ### Blocks
 
@@ -835,7 +826,7 @@ The structure is composed of the following blocks: Chest.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -850,7 +841,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Decor/Treasure/Desert Dungeon Treasure 02</strong></summary>
 
-The structure is composed of the following blocks: Chest.
+The structure part is composed of the following blocks: Chest.
 
 ### Blocks
 
@@ -861,7 +852,7 @@ The structure is composed of the following blocks: Chest.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -876,7 +867,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Decor/Treasure/Desert Dungeon Treasure 03</strong></summary>
 
-The structure is composed of the following blocks: Barrel.
+The structure part is composed of the following blocks: Barrel.
 
 ### Blocks
 
@@ -887,7 +878,7 @@ The structure is composed of the following blocks: Barrel.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -902,7 +893,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Desert Dungeon Empty</strong></summary>
 
-The structure is composed of the following blocks: Sandstone, Smooth Sandstone, Chiseled Sandstone, Sand.
+The structure part is composed of the following blocks: Sandstone, Smooth Sandstone, Chiseled Sandstone, Sand.
 
 ### Blocks
 
@@ -916,12 +907,12 @@ The structure is composed of the following blocks: Sandstone, Smooth Sandstone, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -929,7 +920,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Desert Dungeon Start</strong></summary>
 
-The structure is composed of the following blocks: Sandstone, Smooth Sandstone, Sand, Spruce Slab, Stripped Spruce Log, Chiseled Sandstone, Smooth Sandstone Stairs, Spruce Fence, Smooth Red Sandstone, Red Sandstone, Smooth Red Sandstone Stairs, Birch Pressure Plate, Brown Wall Banner, Orange Wall Banner, Red Sandstone Stairs, Spruce Trapdoor, Spruce Button, Smooth Red Sandstone Slab, Red Sandstone Slab, Campfire.
+The structure part is composed of the following blocks: Sandstone, Smooth Sandstone, Sand, Spruce Slab, Stripped Spruce Log, Chiseled Sandstone, Smooth Sandstone Stairs, Spruce Fence, Smooth Red Sandstone, Red Sandstone, Smooth Red Sandstone Stairs, Birch Pressure Plate, Brown Wall Banner, Orange Wall Banner, Red Sandstone Stairs, Spruce Trapdoor, Spruce Button, Smooth Red Sandstone Slab, Red Sandstone Slab, Campfire.
 
 ### Blocks
 
@@ -959,12 +950,12 @@ The structure is composed of the following blocks: Sandstone, Smooth Sandstone, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -972,13 +963,13 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Mobs/Desert Dungeon Mob 01</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Skeleton.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -990,7 +981,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -998,13 +989,13 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Mobs/Desert Dungeon Mob 02</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Husk.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -1016,7 +1007,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1024,13 +1015,13 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Mobs/Desert Dungeon Mob 03</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Husk.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -1042,7 +1033,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1050,13 +1041,13 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Mobs/Desert Dungeon Mob 04</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Creeper.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -1068,7 +1059,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1076,13 +1067,13 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Mobs/Desert Dungeon Mob 05</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Husk.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -1094,7 +1085,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1102,7 +1093,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Room/Desert Dungeon Room 01</strong></summary>
 
-The structure is composed of the following blocks: Sandstone, Smooth Sandstone, Spruce Fence, Sand, Chiseled Sandstone, Smooth Sandstone Stairs, Sandstone Stairs, Stripped Spruce Log, Sandstone Slab, Birch Pressure Plate, Brown Wall Banner, Orange Wall Banner, Campfire.
+The structure part is composed of the following blocks: Sandstone, Smooth Sandstone, Spruce Fence, Sand, Chiseled Sandstone, Smooth Sandstone Stairs, Sandstone Stairs, Stripped Spruce Log, Sandstone Slab, Birch Pressure Plate, Brown Wall Banner, Orange Wall Banner, Campfire.
 
 ### Blocks
 
@@ -1125,12 +1116,12 @@ The structure is composed of the following blocks: Sandstone, Smooth Sandstone, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1138,7 +1129,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Room/Desert Dungeon Room 02</strong></summary>
 
-The structure is composed of the following blocks: Sandstone, Sand, Smooth Sandstone, Cactus, Chiseled Sandstone, Smooth Sandstone Stairs, Spruce Fence, Stripped Spruce Log, Sandstone Stairs, Birch Pressure Plate, Orange Wall Banner, Brown Wall Banner.
+The structure part is composed of the following blocks: Sandstone, Sand, Smooth Sandstone, Cactus, Chiseled Sandstone, Smooth Sandstone Stairs, Spruce Fence, Stripped Spruce Log, Sandstone Stairs, Birch Pressure Plate, Orange Wall Banner, Brown Wall Banner.
 
 ### Blocks
 
@@ -1160,12 +1151,12 @@ The structure is composed of the following blocks: Sandstone, Sand, Smooth Sands
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1173,7 +1164,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Room/Desert Dungeon Room 03</strong></summary>
 
-The structure is composed of the following blocks: Sandstone, Smooth Sandstone, Sand, Chiseled Sandstone, Spruce Fence, Smooth Sandstone Stairs, Birch Pressure Plate, Stripped Spruce Log, Brown Wall Banner, Orange Wall Banner.
+The structure part is composed of the following blocks: Sandstone, Smooth Sandstone, Sand, Chiseled Sandstone, Spruce Fence, Smooth Sandstone Stairs, Birch Pressure Plate, Stripped Spruce Log, Brown Wall Banner, Orange Wall Banner.
 
 ### Blocks
 
@@ -1193,12 +1184,12 @@ The structure is composed of the following blocks: Sandstone, Smooth Sandstone, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1206,7 +1197,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Room/Desert Dungeon Room 04</strong></summary>
 
-The structure is composed of the following blocks: Sandstone, Sand, Smooth Sandstone, Chiseled Sandstone, Smooth Sandstone Stairs, Spruce Fence, Brown Wall Banner, Orange Wall Banner, Birch Pressure Plate.
+The structure part is composed of the following blocks: Sandstone, Sand, Smooth Sandstone, Chiseled Sandstone, Smooth Sandstone Stairs, Spruce Fence, Brown Wall Banner, Orange Wall Banner, Birch Pressure Plate.
 
 ### Blocks
 
@@ -1225,12 +1216,12 @@ The structure is composed of the following blocks: Sandstone, Sand, Smooth Sands
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1238,7 +1229,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Room/Desert Dungeon Room 05</strong></summary>
 
-The structure is composed of the following blocks: Sandstone, Sand, Chiseled Sandstone, Smooth Sandstone, Smooth Sandstone Stairs, Ladder, Spruce Fence, Cobweb, Brown Wall Banner, Orange Wall Banner, Sandstone Stairs, Birch Pressure Plate.
+The structure part is composed of the following blocks: Sandstone, Sand, Chiseled Sandstone, Smooth Sandstone, Smooth Sandstone Stairs, Ladder, Spruce Fence, Cobweb, Brown Wall Banner, Orange Wall Banner, Sandstone Stairs, Birch Pressure Plate.
 
 ### Blocks
 
@@ -1260,12 +1251,12 @@ The structure is composed of the following blocks: Sandstone, Sand, Chiseled San
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1273,7 +1264,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Room/Desert Dungeon Room 06</strong></summary>
 
-The structure is composed of the following blocks: Sandstone, Sand, Pointed Dripstone, Spruce Wall Sign, Smooth Sandstone, Smooth Sandstone Stairs, Chiseled Sandstone, Spruce Fence, Birch Pressure Plate, Brown Wall Banner, Orange Wall Banner, Tnt.
+The structure part is composed of the following blocks: Sandstone, Sand, Pointed Dripstone, Spruce Wall Sign, Smooth Sandstone, Smooth Sandstone Stairs, Chiseled Sandstone, Spruce Fence, Birch Pressure Plate, Brown Wall Banner, Orange Wall Banner, Tnt.
 
 ### Blocks
 
@@ -1295,12 +1286,12 @@ The structure is composed of the following blocks: Sandstone, Sand, Pointed Drip
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1308,7 +1299,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Room/Desert Dungeon Room 07</strong></summary>
 
-The structure is composed of the following blocks: Sandstone, Sand, Smooth Sandstone, Chiseled Sandstone, Smooth Sandstone Stairs, Spruce Fence, Brown Wall Banner, Orange Wall Banner, Birch Pressure Plate.
+The structure part is composed of the following blocks: Sandstone, Sand, Smooth Sandstone, Chiseled Sandstone, Smooth Sandstone Stairs, Spruce Fence, Brown Wall Banner, Orange Wall Banner, Birch Pressure Plate.
 
 ### Blocks
 
@@ -1327,12 +1318,12 @@ The structure is composed of the following blocks: Sandstone, Sand, Smooth Sands
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1340,7 +1331,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Room/Desert Dungeon Room 08</strong></summary>
 
-The structure is composed of the following blocks: Sandstone, Sand, Smooth Sandstone, Chiseled Sandstone, Smooth Sandstone Stairs, Spruce Fence, Birch Pressure Plate, Brown Wall Banner, Orange Wall Banner.
+The structure part is composed of the following blocks: Sandstone, Sand, Smooth Sandstone, Chiseled Sandstone, Smooth Sandstone Stairs, Spruce Fence, Birch Pressure Plate, Brown Wall Banner, Orange Wall Banner.
 
 ### Blocks
 
@@ -1359,12 +1350,12 @@ The structure is composed of the following blocks: Sandstone, Sand, Smooth Sands
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1372,7 +1363,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Room/Desert Dungeon Room 09</strong></summary>
 
-The structure is composed of the following blocks: Sandstone, Sand, Smooth Sandstone, Chiseled Sandstone, Smooth Sandstone Stairs, Spruce Fence, Birch Pressure Plate, Brown Wall Banner, Orange Wall Banner, Sandstone Slab.
+The structure part is composed of the following blocks: Sandstone, Sand, Smooth Sandstone, Chiseled Sandstone, Smooth Sandstone Stairs, Spruce Fence, Birch Pressure Plate, Brown Wall Banner, Orange Wall Banner, Sandstone Slab.
 
 ### Blocks
 
@@ -1392,12 +1383,12 @@ The structure is composed of the following blocks: Sandstone, Sand, Smooth Sands
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1405,7 +1396,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Room/Desert Dungeon Room 10</strong></summary>
 
-The structure is composed of the following blocks: Sandstone, Sand, Smooth Sandstone, Chiseled Sandstone, Spruce Fence, Birch Pressure Plate, Brown Wall Banner, Orange Wall Banner, Redstone Torch, Redstone Wall Torch, Redstone Wire, Repeater, Tnt.
+The structure part is composed of the following blocks: Sandstone, Sand, Smooth Sandstone, Chiseled Sandstone, Spruce Fence, Birch Pressure Plate, Brown Wall Banner, Orange Wall Banner, Redstone Torch, Redstone Wall Torch, Redstone Wire, Repeater, Tnt.
 
 ### Blocks
 
@@ -1428,12 +1419,12 @@ The structure is composed of the following blocks: Sandstone, Sand, Smooth Sands
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1441,7 +1432,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Room/Desert Dungeon Room 11</strong></summary>
 
-The structure is composed of the following blocks: Sandstone, Sand, Smooth Sandstone, Chiseled Sandstone, Smooth Sandstone Stairs, Spruce Fence, Birch Pressure Plate, Orange Wall Banner, Sandstone Slab, Brown Wall Banner.
+The structure part is composed of the following blocks: Sandstone, Sand, Smooth Sandstone, Chiseled Sandstone, Smooth Sandstone Stairs, Spruce Fence, Birch Pressure Plate, Orange Wall Banner, Sandstone Slab, Brown Wall Banner.
 
 ### Blocks
 
@@ -1461,12 +1452,12 @@ The structure is composed of the following blocks: Sandstone, Sand, Smooth Sands
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1474,7 +1465,7 @@ None found.
 <details>
 <summary><strong>Desert Dungeon/Room/Desert Dungeon Treasure Room</strong></summary>
 
-The structure is composed of the following blocks: Sandstone, Smooth Sandstone, Chiseled Sandstone, Gold Block, Raw Gold Block, Smooth Sandstone Stairs, Spruce Fence, Sand, Stripped Spruce Log, Birch Pressure Plate, Brown Wall Banner, Orange Wall Banner, Tnt.
+The structure part is composed of the following blocks: Sandstone, Smooth Sandstone, Chiseled Sandstone, Gold Block, Raw Gold Block, Smooth Sandstone Stairs, Spruce Fence, Sand, Stripped Spruce Log, Birch Pressure Plate, Brown Wall Banner, Orange Wall Banner, Tnt.
 
 ### Blocks
 
@@ -1497,12 +1488,12 @@ The structure is composed of the following blocks: Sandstone, Smooth Sandstone, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>

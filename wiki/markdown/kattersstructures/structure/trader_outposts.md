@@ -1,29 +1,22 @@
-# Trader Outposts
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Grass Block, Dirt Path, Jungle Stairs, Oak Slab, Green Concrete, White Wool, Oak Trapdoor, Ladder, Calcite, Light Blue Wool, Jungle Fence, Green Wool, Oak Stairs, Orange Concrete, Stripped Oak Log, Light Blue Concrete, Rail, Moss Block, Diorite, Jungle Slab, Smooth Red Sandstone, Jungle Planks, Oak Planks, Mud Brick Wall, Oak Log, Orange Wool, Red Sand, Hay Block, Green Wall Banner, White Wall Banner, Chest, Oak Fence, Oak Fence Gate, Light Blue Wall Banner, Orange Wall Banner, Red Carpet, Bookshelf, Glow Lichen, Acacia Wall Sign, Green Bed, Light Gray Bed, Chiseled Bookshelf, Brown Bed, Cyan Concrete, Light Blue Bed, Magma Block, Moss Carpet, Orange Bed, Campfire, Gravel, Lantern, Stripped Jungle Log.
 
 Additionally, the following entities may spawn during its generation: Villager, Chicken.
 
-### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/trader_outposts/chests |
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Trader Outposts/Villager 01</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Villager.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -35,7 +28,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -43,13 +36,13 @@ None found.
 <details>
 <summary><strong>Trader Outposts/Villager 02</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Villager.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -61,7 +54,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -69,13 +62,13 @@ None found.
 <details>
 <summary><strong>Trader Outposts/Villager 03</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Villager.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -87,7 +80,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -95,13 +88,13 @@ None found.
 <details>
 <summary><strong>Trader Outposts/Villager 04</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Villager.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -113,7 +106,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -121,13 +114,13 @@ None found.
 <details>
 <summary><strong>Trader Outposts/Villager 05</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Villager.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -139,7 +132,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -147,7 +140,7 @@ None found.
 <details>
 <summary><strong>Trader Outposts/Villager Outpost Campsite</strong></summary>
 
-The structure is composed of the following blocks: Dirt Path, Grass Block, Moss Carpet, Oak Log, Oak Stairs, Campfire, Gravel, Stripped Jungle Log.
+The structure part is composed of the following blocks: Dirt Path, Grass Block, Moss Carpet, Oak Log, Oak Stairs, Campfire, Gravel, Stripped Jungle Log.
 
 ### Blocks
 
@@ -165,12 +158,12 @@ The structure is composed of the following blocks: Dirt Path, Grass Block, Moss 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -178,7 +171,7 @@ None found.
 <details>
 <summary><strong>Trader Outposts/Villager Outpost Tent 01</strong></summary>
 
-The structure is composed of the following blocks: Grass Block, White Wool, Calcite, Jungle Stairs, Diorite, Dirt Path, Jungle Fence, Jungle Slab, Oak Stairs, Jungle Planks, Ladder, White Wall Banner, Mud Brick Wall, Oak Slab, Light Gray Bed, Chest.
+The structure part is composed of the following blocks: Grass Block, White Wool, Calcite, Jungle Stairs, Diorite, Dirt Path, Jungle Fence, Jungle Slab, Oak Stairs, Jungle Planks, Ladder, White Wall Banner, Mud Brick Wall, Oak Slab, Light Gray Bed, Chest.
 
 ### Blocks
 
@@ -204,7 +197,7 @@ The structure is composed of the following blocks: Grass Block, White Wool, Calc
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -219,7 +212,7 @@ None found.
 <details>
 <summary><strong>Trader Outposts/Villager Outpost Tent 02</strong></summary>
 
-The structure is composed of the following blocks: Grass Block, Green Concrete, Green Wool, Jungle Stairs, Moss Block, Oak Stairs, Dirt Path, Jungle Fence, Oak Slab, Green Wall Banner, Jungle Slab, Ladder, Jungle Planks, Mud Brick Wall, Green Bed, Chest, Oak Planks.
+The structure part is composed of the following blocks: Grass Block, Green Concrete, Green Wool, Jungle Stairs, Moss Block, Oak Stairs, Dirt Path, Jungle Fence, Oak Slab, Green Wall Banner, Jungle Slab, Ladder, Jungle Planks, Mud Brick Wall, Green Bed, Chest, Oak Planks.
 
 ### Blocks
 
@@ -246,7 +239,7 @@ The structure is composed of the following blocks: Grass Block, Green Concrete, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -261,7 +254,7 @@ None found.
 <details>
 <summary><strong>Trader Outposts/Villager Outpost Tent 03</strong></summary>
 
-The structure is composed of the following blocks: Grass Block, Orange Concrete, Jungle Stairs, Smooth Red Sandstone, Dirt Path, Jungle Fence, Orange Wool, Jungle Slab, Oak Stairs, Red Sand, Acacia Wall Sign, Jungle Planks, Ladder, Orange Wall Banner, Mud Brick Wall, Oak Slab, Orange Bed, Chest.
+The structure part is composed of the following blocks: Grass Block, Orange Concrete, Jungle Stairs, Smooth Red Sandstone, Dirt Path, Jungle Fence, Orange Wool, Jungle Slab, Oak Stairs, Red Sand, Acacia Wall Sign, Jungle Planks, Ladder, Orange Wall Banner, Mud Brick Wall, Oak Slab, Orange Bed, Chest.
 
 ### Blocks
 
@@ -289,7 +282,7 @@ The structure is composed of the following blocks: Grass Block, Orange Concrete,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -304,7 +297,7 @@ None found.
 <details>
 <summary><strong>Trader Outposts/Villager Outpost Tent 04</strong></summary>
 
-The structure is composed of the following blocks: Grass Block, Light Blue Wool, Jungle Stairs, Dirt Path, Light Blue Concrete, Jungle Fence, Oak Stairs, Jungle Planks, Light Blue Wall Banner, Mud Brick Wall, Oak Slab, Jungle Slab, Light Blue Bed, Chest.
+The structure part is composed of the following blocks: Grass Block, Light Blue Wool, Jungle Stairs, Dirt Path, Light Blue Concrete, Jungle Fence, Oak Stairs, Jungle Planks, Light Blue Wall Banner, Mud Brick Wall, Oak Slab, Jungle Slab, Light Blue Bed, Chest.
 
 ### Blocks
 
@@ -328,7 +321,7 @@ The structure is composed of the following blocks: Grass Block, Light Blue Wool,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -343,7 +336,7 @@ None found.
 <details>
 <summary><strong>Trader Outposts/Villager Outpost Tent 05</strong></summary>
 
-The structure is composed of the following blocks: Grass Block, Green Concrete, Green Wool, Jungle Stairs, Dirt Path, Jungle Fence, Moss Block, Oak Stairs, Green Wall Banner, Jungle Slab, Mud Brick Wall, Green Bed, Jungle Planks, Oak Planks, Oak Slab, Chest.
+The structure part is composed of the following blocks: Grass Block, Green Concrete, Green Wool, Jungle Stairs, Dirt Path, Jungle Fence, Moss Block, Oak Stairs, Green Wall Banner, Jungle Slab, Mud Brick Wall, Green Bed, Jungle Planks, Oak Planks, Oak Slab, Chest.
 
 ### Blocks
 
@@ -369,7 +362,7 @@ The structure is composed of the following blocks: Grass Block, Green Concrete, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -384,7 +377,7 @@ None found.
 <details>
 <summary><strong>Trader Outposts/Villager Outpost Tent 06</strong></summary>
 
-The structure is composed of the following blocks: Grass Block, White Wool, Dirt Path, Jungle Stairs, Calcite, Diorite, Jungle Fence, Oak Stairs, Jungle Planks, White Wall Banner, Mud Brick Wall, Oak Slab, Jungle Slab, Light Gray Bed, Chest.
+The structure part is composed of the following blocks: Grass Block, White Wool, Dirt Path, Jungle Stairs, Calcite, Diorite, Jungle Fence, Oak Stairs, Jungle Planks, White Wall Banner, Mud Brick Wall, Oak Slab, Jungle Slab, Light Gray Bed, Chest.
 
 ### Blocks
 
@@ -409,7 +402,7 @@ The structure is composed of the following blocks: Grass Block, White Wool, Dirt
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -424,7 +417,7 @@ None found.
 <details>
 <summary><strong>Trader Outposts/Villager Outpost Wagon 01</strong></summary>
 
-The structure is composed of the following blocks: Grass Block, Oak Slab, Calcite, Oak Trapdoor, White Wool, Ladder, Dirt Path, Stripped Oak Log, Rail, Diorite, Oak Planks, Oak Fence, Oak Fence Gate, White Wall Banner.
+The structure part is composed of the following blocks: Grass Block, Oak Slab, Calcite, Oak Trapdoor, White Wool, Ladder, Dirt Path, Stripped Oak Log, Rail, Diorite, Oak Planks, Oak Fence, Oak Fence Gate, White Wall Banner.
 
 ### Blocks
 
@@ -448,12 +441,12 @@ The structure is composed of the following blocks: Grass Block, Oak Slab, Calcit
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -461,7 +454,7 @@ None found.
 <details>
 <summary><strong>Trader Outposts/Villager Outpost Wagon 02</strong></summary>
 
-The structure is composed of the following blocks: Grass Block, Green Concrete, Oak Slab, Oak Trapdoor, Green Wool, Ladder, Stripped Oak Log, Moss Block, Rail, Dirt Path, Oak Planks, Green Wall Banner, Oak Fence, Oak Fence Gate.
+The structure part is composed of the following blocks: Grass Block, Green Concrete, Oak Slab, Oak Trapdoor, Green Wool, Ladder, Stripped Oak Log, Moss Block, Rail, Dirt Path, Oak Planks, Green Wall Banner, Oak Fence, Oak Fence Gate.
 
 ### Blocks
 
@@ -485,12 +478,12 @@ The structure is composed of the following blocks: Grass Block, Green Concrete, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -498,7 +491,7 @@ None found.
 <details>
 <summary><strong>Trader Outposts/Villager Outpost Wagon 03</strong></summary>
 
-The structure is composed of the following blocks: Grass Block, Light Blue Wool, Oak Slab, Light Blue Concrete, Oak Trapdoor, Ladder, Stripped Oak Log, Rail, Dirt Path, Oak Planks, Cyan Concrete, Light Blue Wall Banner, Oak Fence, Oak Fence Gate.
+The structure part is composed of the following blocks: Grass Block, Light Blue Wool, Oak Slab, Light Blue Concrete, Oak Trapdoor, Ladder, Stripped Oak Log, Rail, Dirt Path, Oak Planks, Cyan Concrete, Light Blue Wall Banner, Oak Fence, Oak Fence Gate.
 
 ### Blocks
 
@@ -522,12 +515,12 @@ The structure is composed of the following blocks: Grass Block, Light Blue Wool,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -535,7 +528,7 @@ None found.
 <details>
 <summary><strong>Trader Outposts/Villager Outpost Wagon 04</strong></summary>
 
-The structure is composed of the following blocks: Grass Block, Oak Slab, Oak Trapdoor, Orange Concrete, Smooth Red Sandstone, Ladder, Stripped Oak Log, Dirt Path, Rail, Red Sand, Orange Wool, Oak Planks, Magma Block, Oak Fence, Oak Fence Gate, Orange Wall Banner.
+The structure part is composed of the following blocks: Grass Block, Oak Slab, Oak Trapdoor, Orange Concrete, Smooth Red Sandstone, Ladder, Stripped Oak Log, Dirt Path, Rail, Red Sand, Orange Wool, Oak Planks, Magma Block, Oak Fence, Oak Fence Gate, Orange Wall Banner.
 
 ### Blocks
 
@@ -561,12 +554,12 @@ The structure is composed of the following blocks: Grass Block, Oak Slab, Oak Tr
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -574,7 +567,7 @@ None found.
 <details>
 <summary><strong>Trader Outposts/Wagon Interior 01</strong></summary>
 
-The structure is composed of the following blocks: Bookshelf, Chiseled Bookshelf, Chest.
+The structure part is composed of the following blocks: Bookshelf, Chiseled Bookshelf, Chest.
 
 ### Blocks
 
@@ -587,7 +580,7 @@ The structure is composed of the following blocks: Bookshelf, Chiseled Bookshelf
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -602,7 +595,7 @@ None found.
 <details>
 <summary><strong>Trader Outposts/Wagon Interior 02</strong></summary>
 
-The structure is composed of the following blocks: Hay Block, Chest.
+The structure part is composed of the following blocks: Hay Block, Chest.
 
 ### Blocks
 
@@ -614,7 +607,7 @@ The structure is composed of the following blocks: Hay Block, Chest.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -629,7 +622,7 @@ None found.
 <details>
 <summary><strong>Trader Outposts/Wagon Interior 03</strong></summary>
 
-The structure is composed of the following blocks: Glow Lichen, Hay Block.
+The structure part is composed of the following blocks: Glow Lichen, Hay Block.
 
 Additionally, the following entities may spawn during its generation: Chicken.
 
@@ -650,7 +643,7 @@ Additionally, the following entities may spawn during its generation: Chicken.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -658,7 +651,7 @@ None found.
 <details>
 <summary><strong>Trader Outposts/Wagon Interior 04</strong></summary>
 
-The structure is composed of the following blocks: Oak Log, Rail.
+The structure part is composed of the following blocks: Oak Log, Rail.
 
 ### Blocks
 
@@ -670,12 +663,12 @@ The structure is composed of the following blocks: Oak Log, Rail.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -683,7 +676,7 @@ None found.
 <details>
 <summary><strong>Trader Outposts/Wagon Interior 05</strong></summary>
 
-The structure is composed of the following blocks: Red Carpet, Brown Bed, Chest, Lantern.
+The structure part is composed of the following blocks: Red Carpet, Brown Bed, Chest, Lantern.
 
 ### Blocks
 
@@ -697,7 +690,7 @@ The structure is composed of the following blocks: Red Carpet, Brown Bed, Chest,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables

@@ -1,21 +1,16 @@
-# Shroom Cave
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Dirt, Mycelium, Mushroom Stem, Glow Lichen, Brown Mushroom Block, Red Mushroom Block, Brown Mushroom, Red Mushroom, Light.
 
 Additionally, the following entities may spawn during its generation: Mooshroom.
 
-### Loot Tables
 
-None found.
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Shroom Cave/Browm Shroom</strong></summary>
 
-The structure is composed of the following blocks: Brown Mushroom Block, Mushroom Stem.
+The structure part is composed of the following blocks: Brown Mushroom Block, Mushroom Stem.
 
 ### Blocks
 
@@ -27,12 +22,12 @@ The structure is composed of the following blocks: Brown Mushroom Block, Mushroo
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -40,13 +35,13 @@ None found.
 <details>
 <summary><strong>Shroom Cave/Moo 1</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Mooshroom.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -58,7 +53,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -66,13 +61,13 @@ None found.
 <details>
 <summary><strong>Shroom Cave/Moo 2</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Mooshroom.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -84,7 +79,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -92,13 +87,13 @@ None found.
 <details>
 <summary><strong>Shroom Cave/Moo 3</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Mooshroom.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -110,7 +105,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -118,13 +113,13 @@ None found.
 <details>
 <summary><strong>Shroom Cave/Moo 4</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Mooshroom.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -136,7 +131,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -144,7 +139,7 @@ None found.
 <details>
 <summary><strong>Shroom Cave/Red Shroom</strong></summary>
 
-The structure is composed of the following blocks: Red Mushroom Block, Mushroom Stem.
+The structure part is composed of the following blocks: Red Mushroom Block, Mushroom Stem.
 
 ### Blocks
 
@@ -156,12 +151,12 @@ The structure is composed of the following blocks: Red Mushroom Block, Mushroom 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -169,7 +164,7 @@ None found.
 <details>
 <summary><strong>Shroom Cave/Shroom Cave</strong></summary>
 
-The structure is composed of the following blocks: Dirt, Mycelium, Mushroom Stem, Glow Lichen, Brown Mushroom, Red Mushroom, Light.
+The structure part is composed of the following blocks: Dirt, Mycelium, Mushroom Stem, Glow Lichen, Brown Mushroom, Red Mushroom, Light.
 
 ### Blocks
 
@@ -186,12 +181,12 @@ The structure is composed of the following blocks: Dirt, Mycelium, Mushroom Stem
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>

@@ -1,35 +1,16 @@
-# Village Jungle
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Jungle Leaves, Stripped Jungle Log, Jungle Wood, Jungle Log, Jungle Slab, Bamboo Slab, Jungle Planks, Grass Block, Jungle Fence, Packed Mud, Mud Brick Slab, Vine, Stripped Jungle Wood, Mud Bricks, Bamboo Mosaic Slab, Shroomlight, Jungle Stairs, Mud, Podzol, Mud Brick Wall, Jungle Trapdoor, Mud Brick Stairs, Jungle Door, Moss Carpet, Dirt, Brown Bed, Lantern, Farmland, Ladder, Wheat, Seagrass, Chest, Chain, Honeycomb Block, Polished Granite Stairs, Polished Granite, Bookshelf, Bamboo Fence, Chiseled Bookshelf, White Terracotta, Cocoa, Hay Block, Red Mushroom Block, Tall Seagrass, Bamboo Sapling, Bamboo, Ochre Froglight, Dirt Path, Honey Block, Pearlescent Froglight, Verdant Froglight, Moss Block, Brown Wall Banner, Cobblestone Wall, Deepslate Brick Wall, Nether Wart, Soul Sand, Dark Oak Stairs, Potted Bamboo, Spruce Trapdoor, Andesite, Bee Nest, Cobblestone Stairs, Damaged Anvil, Iron Trapdoor, Red Mushroom, Sugar Cane, Andesite Slab, Barrel, Bell, Birch Stairs, Blast Furnace, Brewing Stand, Campfire, Cartography Table, Chipped Anvil, Cobblestone, Cobblestone Slab, Composter, Fletching Table, Flower Pot, Grindstone, Jukebox, Jungle Fence Gate, Lectern, Loom, Mangrove Log, Polished Deepslate Slab, Potted Fern, Potted Jungle Sapling, Smithing Table, Smoker, Smooth Stone, Smooth Stone Slab, Stonecutter, Target, Water Cauldron.
 
 Additionally, the following entities may spawn during its generation: Bee, Parrot, Villager.
 
-### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/jungle/armorer |
-| kattersstructures:chests/jungle/butcher |
-| kattersstructures:chests/jungle/cartographer |
-| kattersstructures:chests/jungle/cleric |
-| kattersstructures:chests/jungle/disco |
-| kattersstructures:chests/jungle/fisherman |
-| kattersstructures:chests/jungle/fletcher |
-| kattersstructures:chests/jungle/house |
-| kattersstructures:chests/jungle/leatherworker |
-| kattersstructures:chests/jungle/mason |
-| kattersstructures:chests/jungle/shepherd |
-| kattersstructures:chests/jungle/toolsmith |
-| kattersstructures:chests/jungle/weaponsmith |
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Village Jungle/Decor/Decor Fence</strong></summary>
 
-The structure is composed of the following blocks: Jungle Fence.
+The structure part is composed of the following blocks: Jungle Fence.
 
 ### Blocks
 
@@ -40,12 +21,12 @@ The structure is composed of the following blocks: Jungle Fence.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -53,7 +34,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Decor/Decor Hay</strong></summary>
 
-The structure is composed of the following blocks: Hay Block.
+The structure part is composed of the following blocks: Hay Block.
 
 ### Blocks
 
@@ -64,12 +45,12 @@ The structure is composed of the following blocks: Hay Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -77,7 +58,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Decor/Decor Light</strong></summary>
 
-The structure is composed of the following blocks: Jungle Trapdoor, Shroomlight.
+The structure part is composed of the following blocks: Jungle Trapdoor, Shroomlight.
 
 ### Blocks
 
@@ -89,12 +70,12 @@ The structure is composed of the following blocks: Jungle Trapdoor, Shroomlight.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -102,7 +83,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Farms/Farm 1</strong></summary>
 
-The structure is composed of the following blocks: Farmland, Wheat, Jungle Planks.
+The structure part is composed of the following blocks: Farmland, Wheat, Jungle Planks.
 
 ### Blocks
 
@@ -115,12 +96,12 @@ The structure is composed of the following blocks: Farmland, Wheat, Jungle Plank
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -128,7 +109,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Farms/Farm 2</strong></summary>
 
-The structure is composed of the following blocks: Bamboo Sapling, Grass Block.
+The structure part is composed of the following blocks: Bamboo Sapling, Grass Block.
 
 ### Blocks
 
@@ -140,12 +121,12 @@ The structure is composed of the following blocks: Bamboo Sapling, Grass Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -153,7 +134,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/House/Profession/House Armorer</strong></summary>
 
-The structure is composed of the following blocks: Bamboo Slab, Mud Bricks, Packed Mud, Mud Brick Wall, Grass Block, Mud Brick Stairs, Bamboo Mosaic Slab, Deepslate Brick Wall, Spruce Trapdoor, Brown Bed, Jungle Door, Jungle Fence, Blast Furnace, Chest, Chipped Anvil, Polished Deepslate Slab, Smooth Stone Slab.
+The structure part is composed of the following blocks: Bamboo Slab, Mud Bricks, Packed Mud, Mud Brick Wall, Grass Block, Mud Brick Stairs, Bamboo Mosaic Slab, Deepslate Brick Wall, Spruce Trapdoor, Brown Bed, Jungle Door, Jungle Fence, Blast Furnace, Chest, Chipped Anvil, Polished Deepslate Slab, Smooth Stone Slab.
 
 ### Blocks
 
@@ -180,7 +161,7 @@ The structure is composed of the following blocks: Bamboo Slab, Mud Bricks, Pack
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -195,7 +176,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/House/Profession/House Butcher</strong></summary>
 
-The structure is composed of the following blocks: Bamboo Slab, Grass Block, Jungle Fence, Jungle Stairs, Packed Mud, Jungle Planks, Bamboo Mosaic Slab, Stripped Jungle Log, Cobblestone Wall, Jungle Door, Jungle Trapdoor, Mud, Mud Bricks, Brown Bed, Cobblestone Stairs, Campfire, Chain, Chest, Cobblestone, Cobblestone Slab, Mangrove Log, Smoker.
+The structure part is composed of the following blocks: Bamboo Slab, Grass Block, Jungle Fence, Jungle Stairs, Packed Mud, Jungle Planks, Bamboo Mosaic Slab, Stripped Jungle Log, Cobblestone Wall, Jungle Door, Jungle Trapdoor, Mud, Mud Bricks, Brown Bed, Cobblestone Stairs, Campfire, Chain, Chest, Cobblestone, Cobblestone Slab, Mangrove Log, Smoker.
 
 ### Blocks
 
@@ -227,7 +208,7 @@ The structure is composed of the following blocks: Bamboo Slab, Grass Block, Jun
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -242,7 +223,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/House/Profession/House Fisherman</strong></summary>
 
-The structure is composed of the following blocks: Packed Mud, Dirt, Seagrass, Mud, Jungle Fence, Tall Seagrass, Bamboo Slab, Bamboo, Jungle Slab, Bamboo Mosaic Slab, Sugar Cane, Bamboo Sapling, Barrel.
+The structure part is composed of the following blocks: Packed Mud, Dirt, Seagrass, Mud, Jungle Fence, Tall Seagrass, Bamboo Slab, Bamboo, Jungle Slab, Bamboo Mosaic Slab, Sugar Cane, Bamboo Sapling, Barrel.
 
 ### Blocks
 
@@ -265,7 +246,7 @@ The structure is composed of the following blocks: Packed Mud, Dirt, Seagrass, M
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -280,7 +261,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/House/Profession/House Fletcher</strong></summary>
 
-The structure is composed of the following blocks: Bamboo Slab, Packed Mud, Jungle Fence, Grass Block, Jungle Planks, Jungle Stairs, Bamboo Mosaic Slab, Jungle Trapdoor, Stripped Jungle Log, Brown Bed, Jungle Door, Lantern, Birch Stairs, Chest, Fletching Table, Mud Bricks, Target.
+The structure part is composed of the following blocks: Bamboo Slab, Packed Mud, Jungle Fence, Grass Block, Jungle Planks, Jungle Stairs, Bamboo Mosaic Slab, Jungle Trapdoor, Stripped Jungle Log, Brown Bed, Jungle Door, Lantern, Birch Stairs, Chest, Fletching Table, Mud Bricks, Target.
 
 ### Blocks
 
@@ -307,7 +288,7 @@ The structure is composed of the following blocks: Bamboo Slab, Packed Mud, Jung
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -322,7 +303,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/House/Profession/House Leatherworker</strong></summary>
 
-The structure is composed of the following blocks: Bamboo Slab, Mud Bricks, Mud Brick Wall, Mud Brick Stairs, Grass Block, Packed Mud, Brown Wall Banner, Jungle Fence, Chest, Water Cauldron.
+The structure part is composed of the following blocks: Bamboo Slab, Mud Bricks, Mud Brick Wall, Mud Brick Stairs, Grass Block, Packed Mud, Brown Wall Banner, Jungle Fence, Chest, Water Cauldron.
 
 ### Blocks
 
@@ -342,7 +323,7 @@ The structure is composed of the following blocks: Bamboo Slab, Mud Bricks, Mud 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -357,7 +338,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/House/Profession/House Mason</strong></summary>
 
-The structure is composed of the following blocks: Bamboo Slab, Grass Block, Polished Granite Stairs, Polished Granite, Mud Bricks, Bamboo Fence, Bamboo Mosaic Slab, White Terracotta, Jungle Fence, Andesite, Brown Bed, Jungle Door, Andesite Slab, Chest, Lantern, Smooth Stone, Stonecutter.
+The structure part is composed of the following blocks: Bamboo Slab, Grass Block, Polished Granite Stairs, Polished Granite, Mud Bricks, Bamboo Fence, Bamboo Mosaic Slab, White Terracotta, Jungle Fence, Andesite, Brown Bed, Jungle Door, Andesite Slab, Chest, Lantern, Smooth Stone, Stonecutter.
 
 ### Blocks
 
@@ -384,7 +365,7 @@ The structure is composed of the following blocks: Bamboo Slab, Grass Block, Pol
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -399,7 +380,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/House/Profession/House Shepherd</strong></summary>
 
-The structure is composed of the following blocks: Grass Block, Jungle Fence, Jungle Planks, Bamboo Slab, Jungle Stairs, Packed Mud, Bamboo Mosaic Slab, Mud, Brown Bed, Jungle Door, Chest, Jungle Fence Gate, Lantern, Loom.
+The structure part is composed of the following blocks: Grass Block, Jungle Fence, Jungle Planks, Bamboo Slab, Jungle Stairs, Packed Mud, Bamboo Mosaic Slab, Mud, Brown Bed, Jungle Door, Chest, Jungle Fence Gate, Lantern, Loom.
 
 ### Blocks
 
@@ -423,7 +404,7 @@ The structure is composed of the following blocks: Grass Block, Jungle Fence, Ju
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -438,7 +419,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/House/Profession/House Toolsmith</strong></summary>
 
-The structure is composed of the following blocks: Bamboo Slab, Mud Bricks, Mud Brick Stairs, Packed Mud, Grass Block, Mud Brick Wall, Bamboo Mosaic Slab, Jungle Fence, Brown Bed, Jungle Door, Chest, Damaged Anvil, Iron Trapdoor, Jungle Trapdoor, Lantern, Smithing Table.
+The structure part is composed of the following blocks: Bamboo Slab, Mud Bricks, Mud Brick Stairs, Packed Mud, Grass Block, Mud Brick Wall, Bamboo Mosaic Slab, Jungle Fence, Brown Bed, Jungle Door, Chest, Damaged Anvil, Iron Trapdoor, Jungle Trapdoor, Lantern, Smithing Table.
 
 ### Blocks
 
@@ -464,7 +445,7 @@ The structure is composed of the following blocks: Bamboo Slab, Mud Bricks, Mud 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -479,7 +460,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/House/Profession/House Weaponsmith</strong></summary>
 
-The structure is composed of the following blocks: Bamboo Slab, Mud Bricks, Mud Brick Stairs, Grass Block, Packed Mud, Mud Brick Wall, Bamboo Mosaic Slab, Jungle Fence, Brown Bed, Jungle Door, Chest, Damaged Anvil, Grindstone, Iron Trapdoor, Lantern.
+The structure part is composed of the following blocks: Bamboo Slab, Mud Bricks, Mud Brick Stairs, Grass Block, Packed Mud, Mud Brick Wall, Bamboo Mosaic Slab, Jungle Fence, Brown Bed, Jungle Door, Chest, Damaged Anvil, Grindstone, Iron Trapdoor, Lantern.
 
 ### Blocks
 
@@ -504,7 +485,7 @@ The structure is composed of the following blocks: Bamboo Slab, Mud Bricks, Mud 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -519,7 +500,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/House/Residence/House 1</strong></summary>
 
-The structure is composed of the following blocks: Bamboo Slab, Grass Block, Jungle Fence, Jungle Stairs, Jungle Planks, Packed Mud, Bamboo Mosaic Slab, Stripped Jungle Log, Mud Bricks, Brown Bed, Jungle Door, Lantern.
+The structure part is composed of the following blocks: Bamboo Slab, Grass Block, Jungle Fence, Jungle Stairs, Jungle Planks, Packed Mud, Bamboo Mosaic Slab, Stripped Jungle Log, Mud Bricks, Brown Bed, Jungle Door, Lantern.
 
 ### Blocks
 
@@ -541,12 +522,12 @@ The structure is composed of the following blocks: Bamboo Slab, Grass Block, Jun
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -554,7 +535,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/House/Residence/House 2</strong></summary>
 
-The structure is composed of the following blocks: Bamboo Slab, Jungle Fence, Grass Block, Jungle Planks, Jungle Stairs, Packed Mud, Bamboo Mosaic Slab, Stripped Jungle Log, Moss Carpet, Mud Bricks, Brown Bed, Jungle Door, Chest, Lantern.
+The structure part is composed of the following blocks: Bamboo Slab, Jungle Fence, Grass Block, Jungle Planks, Jungle Stairs, Packed Mud, Bamboo Mosaic Slab, Stripped Jungle Log, Moss Carpet, Mud Bricks, Brown Bed, Jungle Door, Chest, Lantern.
 
 ### Blocks
 
@@ -578,7 +559,7 @@ The structure is composed of the following blocks: Bamboo Slab, Jungle Fence, Gr
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -593,7 +574,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/House/Residence/House 3</strong></summary>
 
-The structure is composed of the following blocks: Bamboo Slab, Grass Block, Jungle Fence, Jungle Stairs, Jungle Planks, Stripped Jungle Log, Packed Mud, Bamboo Mosaic Slab, Mud Bricks, Brown Bed, Jungle Door, Chest, Lantern.
+The structure part is composed of the following blocks: Bamboo Slab, Grass Block, Jungle Fence, Jungle Stairs, Jungle Planks, Stripped Jungle Log, Packed Mud, Bamboo Mosaic Slab, Mud Bricks, Brown Bed, Jungle Door, Chest, Lantern.
 
 ### Blocks
 
@@ -616,7 +597,7 @@ The structure is composed of the following blocks: Bamboo Slab, Grass Block, Jun
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -631,7 +612,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/House/Residence/House 4</strong></summary>
 
-The structure is composed of the following blocks: Jungle Fence, Bamboo Slab, Jungle Planks, Jungle Stairs, Grass Block, Stripped Jungle Log, Bamboo Mosaic Slab, Packed Mud, Jungle Slab, Mud Bricks, Mud Brick Slab, Brown Bed, Chest, Jungle Door, Lantern, Potted Bamboo.
+The structure part is composed of the following blocks: Jungle Fence, Bamboo Slab, Jungle Planks, Jungle Stairs, Grass Block, Stripped Jungle Log, Bamboo Mosaic Slab, Packed Mud, Jungle Slab, Mud Bricks, Mud Brick Slab, Brown Bed, Chest, Jungle Door, Lantern, Potted Bamboo.
 
 ### Blocks
 
@@ -657,7 +638,7 @@ The structure is composed of the following blocks: Jungle Fence, Bamboo Slab, Ju
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -672,7 +653,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Bigdecor/Tree Bigdecor Clear</strong></summary>
 
-The structure is composed of the following blocks: Stripped Jungle Log, Jungle Log, Jungle Wood, Jungle Leaves, Vine, Jungle Slab, Mud Brick Slab, Jungle Fence.
+The structure part is composed of the following blocks: Stripped Jungle Log, Jungle Log, Jungle Wood, Jungle Leaves, Vine, Jungle Slab, Mud Brick Slab, Jungle Fence.
 
 ### Blocks
 
@@ -690,12 +671,12 @@ The structure is composed of the following blocks: Stripped Jungle Log, Jungle L
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -703,7 +684,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Bigdecor/Tree Bigdecor Honey</strong></summary>
 
-The structure is composed of the following blocks: Stripped Jungle Log, Jungle Log, Jungle Wood, Honeycomb Block, Jungle Leaves, Jungle Slab, Vine, Honey Block, Mud Brick Slab, Bee Nest, Jungle Fence.
+The structure part is composed of the following blocks: Stripped Jungle Log, Jungle Log, Jungle Wood, Honeycomb Block, Jungle Leaves, Jungle Slab, Vine, Honey Block, Mud Brick Slab, Bee Nest, Jungle Fence.
 
 Additionally, the following entities may spawn during its generation: Bee.
 
@@ -733,7 +714,7 @@ Additionally, the following entities may spawn during its generation: Bee.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -741,7 +722,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Bigdecor/Tree Bigdecor Mushroom</strong></summary>
 
-The structure is composed of the following blocks: Stripped Jungle Log, Jungle Log, Jungle Wood, Vine, Jungle Slab, Red Mushroom Block, Jungle Leaves, Mud Brick Slab, Red Mushroom, Jungle Fence.
+The structure part is composed of the following blocks: Stripped Jungle Log, Jungle Log, Jungle Wood, Vine, Jungle Slab, Red Mushroom Block, Jungle Leaves, Mud Brick Slab, Red Mushroom, Jungle Fence.
 
 ### Blocks
 
@@ -761,12 +742,12 @@ The structure is composed of the following blocks: Stripped Jungle Log, Jungle L
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -774,7 +755,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Branch 1/Tree Branch 1 Clear</strong></summary>
 
-The structure is composed of the following blocks: Stripped Jungle Log, Jungle Log, Jungle Leaves, Jungle Wood, Jungle Slab, Mud Brick Slab, Vine, Jungle Fence, Mud Brick Wall, Shroomlight.
+The structure part is composed of the following blocks: Stripped Jungle Log, Jungle Log, Jungle Leaves, Jungle Wood, Jungle Slab, Mud Brick Slab, Vine, Jungle Fence, Mud Brick Wall, Shroomlight.
 
 ### Blocks
 
@@ -794,12 +775,12 @@ The structure is composed of the following blocks: Stripped Jungle Log, Jungle L
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -807,7 +788,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Branch 1/Tree Branch 1 House 1</strong></summary>
 
-The structure is composed of the following blocks: Stripped Jungle Log, Jungle Log, Jungle Planks, Jungle Slab, Jungle Wood, Vine, Jungle Fence, Mud Brick Slab, Jungle Leaves, Jungle Stairs, Mud Brick Wall, Ladder, Moss Carpet, Brown Bed, Jungle Door, Lantern, Chest, Stripped Jungle Wood.
+The structure part is composed of the following blocks: Stripped Jungle Log, Jungle Log, Jungle Planks, Jungle Slab, Jungle Wood, Vine, Jungle Fence, Mud Brick Slab, Jungle Leaves, Jungle Stairs, Mud Brick Wall, Ladder, Moss Carpet, Brown Bed, Jungle Door, Lantern, Chest, Stripped Jungle Wood.
 
 ### Blocks
 
@@ -835,7 +816,7 @@ The structure is composed of the following blocks: Stripped Jungle Log, Jungle L
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -850,7 +831,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Branch 1/Tree Branch 1 House 2</strong></summary>
 
-The structure is composed of the following blocks: Stripped Jungle Log, Jungle Log, Jungle Wood, Jungle Leaves, Jungle Slab, Vine, Mud Brick Slab, Jungle Planks, Jungle Fence, Ladder, Stripped Jungle Wood, Jungle Stairs, Mud Brick Wall, Brown Bed, Jungle Door, Lantern, Jungle Trapdoor.
+The structure part is composed of the following blocks: Stripped Jungle Log, Jungle Log, Jungle Wood, Jungle Leaves, Jungle Slab, Vine, Mud Brick Slab, Jungle Planks, Jungle Fence, Ladder, Stripped Jungle Wood, Jungle Stairs, Mud Brick Wall, Brown Bed, Jungle Door, Lantern, Jungle Trapdoor.
 
 ### Blocks
 
@@ -877,12 +858,12 @@ The structure is composed of the following blocks: Stripped Jungle Log, Jungle L
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -890,7 +871,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Branch 2/Tree Branch 2 Clear</strong></summary>
 
-The structure is composed of the following blocks: Stripped Jungle Log, Jungle Wood, Jungle Leaves, Jungle Log, Jungle Slab, Stripped Jungle Wood, Mud Brick Slab, Jungle Fence, Mud Brick Wall.
+The structure part is composed of the following blocks: Stripped Jungle Log, Jungle Wood, Jungle Leaves, Jungle Log, Jungle Slab, Stripped Jungle Wood, Mud Brick Slab, Jungle Fence, Mud Brick Wall.
 
 ### Blocks
 
@@ -909,12 +890,12 @@ The structure is composed of the following blocks: Stripped Jungle Log, Jungle W
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -922,7 +903,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Branch 2/Tree Branch 2 Clear 2</strong></summary>
 
-The structure is composed of the following blocks: Jungle Leaves, Jungle Wood, Shroomlight, Stripped Jungle Log.
+The structure part is composed of the following blocks: Jungle Leaves, Jungle Wood, Shroomlight, Stripped Jungle Log.
 
 ### Blocks
 
@@ -936,12 +917,12 @@ The structure is composed of the following blocks: Jungle Leaves, Jungle Wood, S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -949,7 +930,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Branch 2/Tree Branch 2 Cleric</strong></summary>
 
-The structure is composed of the following blocks: Jungle Leaves, Jungle Wood, Jungle Planks, Bamboo Mosaic Slab, Bamboo Slab, Shroomlight, Jungle Slab, Jungle Fence, Jungle Trapdoor, Moss Carpet, Nether Wart, Soul Sand, Stripped Jungle Log, Jungle Door, Jungle Stairs, Stripped Jungle Wood, Brewing Stand, Chest, Potted Jungle Sapling.
+The structure part is composed of the following blocks: Jungle Leaves, Jungle Wood, Jungle Planks, Bamboo Mosaic Slab, Bamboo Slab, Shroomlight, Jungle Slab, Jungle Fence, Jungle Trapdoor, Moss Carpet, Nether Wart, Soul Sand, Stripped Jungle Log, Jungle Door, Jungle Stairs, Stripped Jungle Wood, Brewing Stand, Chest, Potted Jungle Sapling.
 
 ### Blocks
 
@@ -978,7 +959,7 @@ The structure is composed of the following blocks: Jungle Leaves, Jungle Wood, J
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -993,7 +974,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Branch 2/Tree Branch 2 House 1</strong></summary>
 
-The structure is composed of the following blocks: Stripped Jungle Log, Jungle Wood, Jungle Leaves, Jungle Log, Jungle Slab, Stripped Jungle Wood, Jungle Fence, Mud Brick Slab, Moss Carpet, Brown Bed, Jungle Door, Chest, Lantern, Mud Brick Wall.
+The structure part is composed of the following blocks: Stripped Jungle Log, Jungle Wood, Jungle Leaves, Jungle Log, Jungle Slab, Stripped Jungle Wood, Jungle Fence, Mud Brick Slab, Moss Carpet, Brown Bed, Jungle Door, Chest, Lantern, Mud Brick Wall.
 
 ### Blocks
 
@@ -1017,7 +998,7 @@ The structure is composed of the following blocks: Stripped Jungle Log, Jungle W
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1032,7 +1013,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Branch 2/Tree Branch 2 House 2</strong></summary>
 
-The structure is composed of the following blocks: Jungle Leaves, Jungle Wood, Bamboo Mosaic Slab, Jungle Planks, Jungle Stairs, Shroomlight, Bamboo Slab, Jungle Trapdoor, Jungle Door, Stripped Jungle Log, Brown Bed, Jungle Slab, Lantern, Stripped Jungle Wood.
+The structure part is composed of the following blocks: Jungle Leaves, Jungle Wood, Bamboo Mosaic Slab, Jungle Planks, Jungle Stairs, Shroomlight, Bamboo Slab, Jungle Trapdoor, Jungle Door, Stripped Jungle Log, Brown Bed, Jungle Slab, Lantern, Stripped Jungle Wood.
 
 ### Blocks
 
@@ -1056,12 +1037,12 @@ The structure is composed of the following blocks: Jungle Leaves, Jungle Wood, B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1069,7 +1050,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Branch 2/Tree Branch 2 Librarian</strong></summary>
 
-The structure is composed of the following blocks: Stripped Jungle Log, Jungle Wood, Jungle Leaves, Jungle Log, Bookshelf, Jungle Slab, Stripped Jungle Wood, Chiseled Bookshelf, Mud Brick Slab, Jungle Fence, Jungle Door, Jungle Trapdoor, Lantern, Lectern, Mud Brick Wall.
+The structure part is composed of the following blocks: Stripped Jungle Log, Jungle Wood, Jungle Leaves, Jungle Log, Bookshelf, Jungle Slab, Stripped Jungle Wood, Chiseled Bookshelf, Mud Brick Slab, Jungle Fence, Jungle Door, Jungle Trapdoor, Lantern, Lectern, Mud Brick Wall.
 
 ### Blocks
 
@@ -1094,12 +1075,12 @@ The structure is composed of the following blocks: Stripped Jungle Log, Jungle W
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1107,7 +1088,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Branch 3/Tree Branch 3</strong></summary>
 
-The structure is composed of the following blocks: Jungle Leaves, Jungle Wood, Shroomlight.
+The structure part is composed of the following blocks: Jungle Leaves, Jungle Wood, Shroomlight.
 
 ### Blocks
 
@@ -1120,12 +1101,12 @@ The structure is composed of the following blocks: Jungle Leaves, Jungle Wood, S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1133,7 +1114,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Branch 4/Tree Branch 4 Clear</strong></summary>
 
-The structure is composed of the following blocks: Jungle Leaves, Jungle Wood, Shroomlight.
+The structure part is composed of the following blocks: Jungle Leaves, Jungle Wood, Shroomlight.
 
 ### Blocks
 
@@ -1146,12 +1127,12 @@ The structure is composed of the following blocks: Jungle Leaves, Jungle Wood, S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1159,7 +1140,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Branch 4/Tree Branch 4 House 1</strong></summary>
 
-The structure is composed of the following blocks: Jungle Leaves, Jungle Wood, Bamboo Slab, Shroomlight, Jungle Slab, Jungle Planks, Bamboo Mosaic Slab, Jungle Fence, Brown Bed, Jungle Door, Chest, Jungle Stairs, Lantern.
+The structure part is composed of the following blocks: Jungle Leaves, Jungle Wood, Bamboo Slab, Shroomlight, Jungle Slab, Jungle Planks, Bamboo Mosaic Slab, Jungle Fence, Brown Bed, Jungle Door, Chest, Jungle Stairs, Lantern.
 
 ### Blocks
 
@@ -1182,7 +1163,7 @@ The structure is composed of the following blocks: Jungle Leaves, Jungle Wood, B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1197,7 +1178,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Branch 4/Tree Branch 4 House 2</strong></summary>
 
-The structure is composed of the following blocks: Jungle Leaves, Bamboo Slab, Jungle Wood, Jungle Planks, Jungle Stairs, Bamboo Mosaic Slab, Jungle Slab, Jungle Fence, Shroomlight, Stripped Jungle Wood, Jungle Trapdoor, Brown Bed, Jungle Door, Chest, Lantern, Potted Fern.
+The structure part is composed of the following blocks: Jungle Leaves, Bamboo Slab, Jungle Wood, Jungle Planks, Jungle Stairs, Bamboo Mosaic Slab, Jungle Slab, Jungle Fence, Shroomlight, Stripped Jungle Wood, Jungle Trapdoor, Brown Bed, Jungle Door, Chest, Lantern, Potted Fern.
 
 ### Blocks
 
@@ -1223,7 +1204,7 @@ The structure is composed of the following blocks: Jungle Leaves, Bamboo Slab, J
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1238,7 +1219,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Branch 4/Tree Branch 4 Lookout</strong></summary>
 
-The structure is composed of the following blocks: Jungle Leaves, Jungle Wood, Jungle Slab, Shroomlight, Jungle Fence, Stripped Jungle Wood.
+The structure part is composed of the following blocks: Jungle Leaves, Jungle Wood, Jungle Slab, Shroomlight, Jungle Fence, Stripped Jungle Wood.
 
 ### Blocks
 
@@ -1254,12 +1235,12 @@ The structure is composed of the following blocks: Jungle Leaves, Jungle Wood, J
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1267,7 +1248,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Branch 5/Tree Branch 5 Clear</strong></summary>
 
-The structure is composed of the following blocks: Jungle Leaves, Jungle Wood, Shroomlight.
+The structure part is composed of the following blocks: Jungle Leaves, Jungle Wood, Shroomlight.
 
 ### Blocks
 
@@ -1280,12 +1261,12 @@ The structure is composed of the following blocks: Jungle Leaves, Jungle Wood, S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1293,7 +1274,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Branch 6/Tree Branch 6 Clear</strong></summary>
 
-The structure is composed of the following blocks: Jungle Leaves, Jungle Wood, Shroomlight.
+The structure part is composed of the following blocks: Jungle Leaves, Jungle Wood, Shroomlight.
 
 ### Blocks
 
@@ -1306,12 +1287,12 @@ The structure is composed of the following blocks: Jungle Leaves, Jungle Wood, S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1319,7 +1300,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Branch 7/Tree Branch 7 Clear</strong></summary>
 
-The structure is composed of the following blocks: Jungle Leaves, Shroomlight.
+The structure part is composed of the following blocks: Jungle Leaves, Shroomlight.
 
 ### Blocks
 
@@ -1331,12 +1312,12 @@ The structure is composed of the following blocks: Jungle Leaves, Shroomlight.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1344,7 +1325,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Branch 8/Tree Branch 8 Clear</strong></summary>
 
-The structure is composed of the following blocks: Jungle Leaves, Jungle Wood.
+The structure part is composed of the following blocks: Jungle Leaves, Jungle Wood.
 
 ### Blocks
 
@@ -1356,12 +1337,12 @@ The structure is composed of the following blocks: Jungle Leaves, Jungle Wood.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1369,7 +1350,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Decor/Tree Decor Lamp 1</strong></summary>
 
-The structure is composed of the following blocks: Chain, Lantern.
+The structure part is composed of the following blocks: Chain, Lantern.
 
 ### Blocks
 
@@ -1381,12 +1362,12 @@ The structure is composed of the following blocks: Chain, Lantern.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1394,7 +1375,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Decor/Tree Decor Lamp 2</strong></summary>
 
-The structure is composed of the following blocks: Chain, Lantern.
+The structure part is composed of the following blocks: Chain, Lantern.
 
 ### Blocks
 
@@ -1406,12 +1387,12 @@ The structure is composed of the following blocks: Chain, Lantern.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1419,7 +1400,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Decor/Tree Decor Lamp 3</strong></summary>
 
-The structure is composed of the following blocks: Chain, Lantern.
+The structure part is composed of the following blocks: Chain, Lantern.
 
 ### Blocks
 
@@ -1431,12 +1412,12 @@ The structure is composed of the following blocks: Chain, Lantern.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1444,7 +1425,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Decor/Tree Decor Lamp 4</strong></summary>
 
-The structure is composed of the following blocks: Jungle Trapdoor, Chain, Shroomlight.
+The structure part is composed of the following blocks: Jungle Trapdoor, Chain, Shroomlight.
 
 ### Blocks
 
@@ -1457,12 +1438,12 @@ The structure is composed of the following blocks: Jungle Trapdoor, Chain, Shroo
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1470,7 +1451,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/House 1/Tree House 1 Clear</strong></summary>
 
-The structure is composed of the following blocks: Stripped Jungle Log, Jungle Log, Jungle Wood, Vine, Mud Brick Slab, Jungle Slab.
+The structure part is composed of the following blocks: Stripped Jungle Log, Jungle Log, Jungle Wood, Vine, Mud Brick Slab, Jungle Slab.
 
 ### Blocks
 
@@ -1486,12 +1467,12 @@ The structure is composed of the following blocks: Stripped Jungle Log, Jungle L
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1499,7 +1480,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/House 1/Tree House 1 House 1</strong></summary>
 
-The structure is composed of the following blocks: Stripped Jungle Log, Jungle Wood, Stripped Jungle Wood, Jungle Log, Jungle Planks, Vine, Jungle Slab, Brown Bed, Jungle Door, Jungle Stairs, Mud Brick Slab, Chest, Jungle Fence, Lantern.
+The structure part is composed of the following blocks: Stripped Jungle Log, Jungle Wood, Stripped Jungle Wood, Jungle Log, Jungle Planks, Vine, Jungle Slab, Brown Bed, Jungle Door, Jungle Stairs, Mud Brick Slab, Chest, Jungle Fence, Lantern.
 
 ### Blocks
 
@@ -1523,7 +1504,7 @@ The structure is composed of the following blocks: Stripped Jungle Log, Jungle W
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1538,7 +1519,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/House 1/Tree House 1 House 2</strong></summary>
 
-The structure is composed of the following blocks: Stripped Jungle Log, Jungle Wood, Jungle Log, Stripped Jungle Wood, Vine, Brown Bed, Jungle Door, Mud Brick Slab, Jungle Slab, Lantern.
+The structure part is composed of the following blocks: Stripped Jungle Log, Jungle Wood, Jungle Log, Stripped Jungle Wood, Vine, Brown Bed, Jungle Door, Mud Brick Slab, Jungle Slab, Lantern.
 
 ### Blocks
 
@@ -1558,12 +1539,12 @@ The structure is composed of the following blocks: Stripped Jungle Log, Jungle W
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1571,7 +1552,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/House 1/Tree House 1 House 3</strong></summary>
 
-The structure is composed of the following blocks: Stripped Jungle Log, Jungle Wood, Stripped Jungle Wood, Jungle Log, Vine, Moss Carpet, Jungle Trapdoor, Brown Bed, Jungle Slab, Jungle Fence, Jungle Door, Moss Block, Mud Brick Slab, Lantern.
+The structure part is composed of the following blocks: Stripped Jungle Log, Jungle Wood, Stripped Jungle Wood, Jungle Log, Vine, Moss Carpet, Jungle Trapdoor, Brown Bed, Jungle Slab, Jungle Fence, Jungle Door, Moss Block, Mud Brick Slab, Lantern.
 
 ### Blocks
 
@@ -1595,12 +1576,12 @@ The structure is composed of the following blocks: Stripped Jungle Log, Jungle W
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1608,7 +1589,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/House 2/Tree House 2 Cartographer</strong></summary>
 
-The structure is composed of the following blocks: Stripped Jungle Log, Jungle Log, Stripped Jungle Wood, Jungle Trapdoor, Jungle Wood, Mud Brick Slab, Chiseled Bookshelf, Jungle Leaves, Bookshelf, Jungle Slab, Dark Oak Stairs, Jungle Door, Cartography Table, Chest, Flower Pot, Jungle Fence, Lantern.
+The structure part is composed of the following blocks: Stripped Jungle Log, Jungle Log, Stripped Jungle Wood, Jungle Trapdoor, Jungle Wood, Mud Brick Slab, Chiseled Bookshelf, Jungle Leaves, Bookshelf, Jungle Slab, Dark Oak Stairs, Jungle Door, Cartography Table, Chest, Flower Pot, Jungle Fence, Lantern.
 
 ### Blocks
 
@@ -1635,7 +1616,7 @@ The structure is composed of the following blocks: Stripped Jungle Log, Jungle L
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1650,7 +1631,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/House 2/Tree House 2 Clear</strong></summary>
 
-The structure is composed of the following blocks: Stripped Jungle Log, Jungle Log, Jungle Wood, Mud Brick Slab, Jungle Leaves, Jungle Slab.
+The structure part is composed of the following blocks: Stripped Jungle Log, Jungle Log, Jungle Wood, Mud Brick Slab, Jungle Leaves, Jungle Slab.
 
 ### Blocks
 
@@ -1666,12 +1647,12 @@ The structure is composed of the following blocks: Stripped Jungle Log, Jungle L
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1679,7 +1660,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/House 2/Tree House 2 House 1</strong></summary>
 
-The structure is composed of the following blocks: Stripped Jungle Log, Jungle Log, Stripped Jungle Wood, Moss Carpet, Jungle Wood, Mud Brick Slab, Jungle Leaves, Jungle Trapdoor, Jungle Slab, Moss Block, Brown Bed, Jungle Door, Chest, Lantern.
+The structure part is composed of the following blocks: Stripped Jungle Log, Jungle Log, Stripped Jungle Wood, Moss Carpet, Jungle Wood, Mud Brick Slab, Jungle Leaves, Jungle Trapdoor, Jungle Slab, Moss Block, Brown Bed, Jungle Door, Chest, Lantern.
 
 ### Blocks
 
@@ -1703,7 +1684,7 @@ The structure is composed of the following blocks: Stripped Jungle Log, Jungle L
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1718,7 +1699,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/House 3/Tree House 3 Clear</strong></summary>
 
-The structure is composed of the following blocks: Stripped Jungle Log, Jungle Log, Jungle Leaves, Jungle Wood, Mud Brick Slab, Jungle Slab, Stripped Jungle Wood, Ladder, Shroomlight.
+The structure part is composed of the following blocks: Stripped Jungle Log, Jungle Log, Jungle Leaves, Jungle Wood, Mud Brick Slab, Jungle Slab, Stripped Jungle Wood, Ladder, Shroomlight.
 
 ### Blocks
 
@@ -1737,12 +1718,12 @@ The structure is composed of the following blocks: Stripped Jungle Log, Jungle L
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1750,7 +1731,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/House 3/Tree House 3 Disco</strong></summary>
 
-The structure is composed of the following blocks: Jungle Log, Jungle Leaves, Stripped Jungle Log, Jungle Wood, Stripped Jungle Wood, Jungle Slab, Mud Brick Slab, Ochre Froglight, Pearlescent Froglight, Verdant Froglight, Jungle Fence, Ladder, Jungle Trapdoor, Jungle Door, Potted Bamboo, Chest, Jukebox, Shroomlight.
+The structure part is composed of the following blocks: Jungle Log, Jungle Leaves, Stripped Jungle Log, Jungle Wood, Stripped Jungle Wood, Jungle Slab, Mud Brick Slab, Ochre Froglight, Pearlescent Froglight, Verdant Froglight, Jungle Fence, Ladder, Jungle Trapdoor, Jungle Door, Potted Bamboo, Chest, Jukebox, Shroomlight.
 
 Additionally, the following entities may spawn during its generation: Parrot.
 
@@ -1797,7 +1778,7 @@ Additionally, the following entities may spawn during its generation: Parrot.
 <details>
 <summary><strong>Village Jungle/Main Tree/House 3/Tree House 3 House 1</strong></summary>
 
-The structure is composed of the following blocks: Stripped Jungle Log, Jungle Log, Jungle Leaves, Jungle Wood, Stripped Jungle Wood, Mud Brick Slab, Jungle Slab, Moss Carpet, Jungle Fence, Ladder, Brown Bed, Jungle Door, Jungle Trapdoor, Shroomlight, Chest.
+The structure part is composed of the following blocks: Stripped Jungle Log, Jungle Log, Jungle Leaves, Jungle Wood, Stripped Jungle Wood, Mud Brick Slab, Jungle Slab, Moss Carpet, Jungle Fence, Ladder, Brown Bed, Jungle Door, Jungle Trapdoor, Shroomlight, Chest.
 
 ### Blocks
 
@@ -1822,7 +1803,7 @@ The structure is composed of the following blocks: Stripped Jungle Log, Jungle L
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1837,7 +1818,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/House 3/Tree House 3 House 2</strong></summary>
 
-The structure is composed of the following blocks: Stripped Jungle Log, Jungle Log, Jungle Leaves, Jungle Wood, Stripped Jungle Wood, Mud Brick Slab, Jungle Slab, Moss Carpet, Ladder, Brown Bed, Jungle Door, Lantern, Shroomlight.
+The structure part is composed of the following blocks: Stripped Jungle Log, Jungle Log, Jungle Leaves, Jungle Wood, Stripped Jungle Wood, Mud Brick Slab, Jungle Slab, Moss Carpet, Ladder, Brown Bed, Jungle Door, Lantern, Shroomlight.
 
 ### Blocks
 
@@ -1860,12 +1841,12 @@ The structure is composed of the following blocks: Stripped Jungle Log, Jungle L
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1873,7 +1854,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Tree Trunk Base</strong></summary>
 
-The structure is composed of the following blocks: Jungle Leaves, Stripped Jungle Log, Jungle Wood, Jungle Log, Jungle Slab, Vine, Mud Brick Slab, Podzol, Grass Block, Mud, Shroomlight, Jungle Fence, Stripped Jungle Wood, Lantern, Mud Brick Wall, Cocoa, Mud Bricks, Packed Mud, Chain, Jungle Planks, Dirt Path, Ladder, Dirt, Composter.
+The structure part is composed of the following blocks: Jungle Leaves, Stripped Jungle Log, Jungle Wood, Jungle Log, Jungle Slab, Vine, Mud Brick Slab, Podzol, Grass Block, Mud, Shroomlight, Jungle Fence, Stripped Jungle Wood, Lantern, Mud Brick Wall, Cocoa, Mud Bricks, Packed Mud, Chain, Jungle Planks, Dirt Path, Ladder, Dirt, Composter.
 
 ### Blocks
 
@@ -1907,12 +1888,12 @@ The structure is composed of the following blocks: Jungle Leaves, Stripped Jungl
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1920,7 +1901,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Tree Trunk Top</strong></summary>
 
-The structure is composed of the following blocks: Jungle Leaves, Jungle Wood, Shroomlight, Jungle Log, Stripped Jungle Log, Chain, Bell, Mud Brick Wall.
+The structure part is composed of the following blocks: Jungle Leaves, Jungle Wood, Shroomlight, Jungle Log, Stripped Jungle Log, Chain, Bell, Mud Brick Wall.
 
 ### Blocks
 
@@ -1938,12 +1919,12 @@ The structure is composed of the following blocks: Jungle Leaves, Jungle Wood, S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1951,21 +1932,21 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Tree Trunk Top Bind</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1973,21 +1954,21 @@ None found.
 <details>
 <summary><strong>Village Jungle/Main Tree/Tree Trunk Top Bind 2</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1995,7 +1976,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Streets/Street Aslant</strong></summary>
 
-The structure is composed of the following blocks: Mud Bricks, Jungle Planks, Packed Mud, Jungle Slab, Mud Brick Slab.
+The structure part is composed of the following blocks: Mud Bricks, Jungle Planks, Packed Mud, Jungle Slab, Mud Brick Slab.
 
 ### Blocks
 
@@ -2010,12 +1991,12 @@ The structure is composed of the following blocks: Mud Bricks, Jungle Planks, Pa
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2023,7 +2004,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Streets/Street Cross</strong></summary>
 
-The structure is composed of the following blocks: Packed Mud, Jungle Planks, Mud Bricks, Jungle Slab, Mud Brick Slab.
+The structure part is composed of the following blocks: Packed Mud, Jungle Planks, Mud Bricks, Jungle Slab, Mud Brick Slab.
 
 ### Blocks
 
@@ -2038,12 +2019,12 @@ The structure is composed of the following blocks: Packed Mud, Jungle Planks, Mu
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2051,7 +2032,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Streets/Street Curve</strong></summary>
 
-The structure is composed of the following blocks: Mud Bricks, Packed Mud, Jungle Planks, Jungle Slab, Mud Brick Slab.
+The structure part is composed of the following blocks: Mud Bricks, Packed Mud, Jungle Planks, Jungle Slab, Mud Brick Slab.
 
 ### Blocks
 
@@ -2066,12 +2047,12 @@ The structure is composed of the following blocks: Mud Bricks, Packed Mud, Jungl
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2079,7 +2060,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Streets/Street End</strong></summary>
 
-The structure is composed of the following blocks: Packed Mud, Jungle Planks, Jungle Slab, Mud Bricks.
+The structure part is composed of the following blocks: Packed Mud, Jungle Planks, Jungle Slab, Mud Bricks.
 
 ### Blocks
 
@@ -2093,12 +2074,12 @@ The structure is composed of the following blocks: Packed Mud, Jungle Planks, Ju
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2106,7 +2087,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Streets/Street Straight 1</strong></summary>
 
-The structure is composed of the following blocks: Packed Mud, Jungle Planks, Mud Bricks, Jungle Slab, Mud Brick Slab.
+The structure part is composed of the following blocks: Packed Mud, Jungle Planks, Mud Bricks, Jungle Slab, Mud Brick Slab.
 
 ### Blocks
 
@@ -2121,12 +2102,12 @@ The structure is composed of the following blocks: Packed Mud, Jungle Planks, Mu
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2134,7 +2115,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Streets/Street Straight 2</strong></summary>
 
-The structure is composed of the following blocks: Mud Bricks, Jungle Planks, Packed Mud, Jungle Slab, Mud Brick Slab.
+The structure part is composed of the following blocks: Mud Bricks, Jungle Planks, Packed Mud, Jungle Slab, Mud Brick Slab.
 
 ### Blocks
 
@@ -2149,12 +2130,12 @@ The structure is composed of the following blocks: Mud Bricks, Jungle Planks, Pa
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2162,7 +2143,7 @@ None found.
 <details>
 <summary><strong>Village Jungle/Streets/Street T</strong></summary>
 
-The structure is composed of the following blocks: Mud Bricks, Packed Mud, Jungle Planks, Jungle Slab, Mud Brick Slab.
+The structure part is composed of the following blocks: Mud Bricks, Packed Mud, Jungle Planks, Jungle Slab, Mud Brick Slab.
 
 ### Blocks
 
@@ -2177,12 +2158,12 @@ The structure is composed of the following blocks: Mud Bricks, Packed Mud, Jungl
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2190,13 +2171,13 @@ None found.
 <details>
 <summary><strong>Village Jungle/Villager/Villagers Jungle Baby</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Villager.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -2208,7 +2189,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2216,13 +2197,13 @@ None found.
 <details>
 <summary><strong>Village Jungle/Villager/Villagers Jungle Nitwit</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Villager.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -2234,7 +2215,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2242,13 +2223,13 @@ None found.
 <details>
 <summary><strong>Village Jungle/Villager/Villagers Jungle Unemployed</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Villager.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -2260,7 +2241,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>

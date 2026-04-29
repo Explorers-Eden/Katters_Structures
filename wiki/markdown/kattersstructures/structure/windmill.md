@@ -1,21 +1,14 @@
-# Windmill
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Farmland, Wheat, Dirt Path, Deepslate, Spruce Fence, Spruce Trapdoor, Spruce Stairs, Oak Log, Spruce Planks, Hay Block, Oak Planks, Spruce Slab, Oak Leaves, Stripped Spruce Log, Stone Bricks, Vine, Dirt, Dark Oak Stairs, Spruce Wall Sign, Stripped Oak Log, Dark Oak Slab, Stone Button, Moss Block, Spruce Button, White Wool, Oak Wall Sign, Polished Deepslate, Lantern, Cracked Stone Bricks, Mossy Cobblestone, Mossy Stone Bricks, Stone Brick Wall, Bamboo Trapdoor, Coarse Dirt, Ladder, Oak Slab, Light Gray Stained Glass Pane, Spruce Fence Gate, Cobbled Deepslate, Oak Stairs, Jungle Fence, Polished Deepslate Wall, Mossy Stone Brick Wall, Composter, Light Gray Wool, Moss Carpet, Polished Andesite, Rooted Dirt, Cobblestone, Cobweb, Grindstone, Mossy Cobblestone Wall, Oak Button, Spruce Log, White Stained Glass Pane, Brown Bed, Short Grass, Spruce Door, Bamboo Mosaic Slab, Chain, Cobbled Deepslate Stairs, Glow Lichen, Chest, Polished Andesite Stairs, Stripped Jungle Log, Brown Mushroom, Carved Pumpkin, Dark Oak Planks, Jungle Fence Gate, Cobblestone Wall, Jack O Lantern, Red Mushroom, Tall Grass, Barrel, Lightning Rod.
 
-### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/windmill/windmill |
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Windmill/Decor/Hay 01</strong></summary>
 
-The structure is composed of the following blocks: Hay Block, Lantern.
+The structure part is composed of the following blocks: Hay Block, Lantern.
 
 ### Blocks
 
@@ -27,12 +20,12 @@ The structure is composed of the following blocks: Hay Block, Lantern.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -40,7 +33,7 @@ None found.
 <details>
 <summary><strong>Windmill/Decor/Hay 02</strong></summary>
 
-The structure is composed of the following blocks: Hay Block, Bamboo Trapdoor, Lantern.
+The structure part is composed of the following blocks: Hay Block, Bamboo Trapdoor, Lantern.
 
 ### Blocks
 
@@ -53,12 +46,12 @@ The structure is composed of the following blocks: Hay Block, Bamboo Trapdoor, L
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -66,7 +59,7 @@ None found.
 <details>
 <summary><strong>Windmill/Decor/Lamp 01</strong></summary>
 
-The structure is composed of the following blocks: Lantern.
+The structure part is composed of the following blocks: Lantern.
 
 ### Blocks
 
@@ -77,12 +70,12 @@ The structure is composed of the following blocks: Lantern.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -90,7 +83,7 @@ None found.
 <details>
 <summary><strong>Windmill/Decor/Lamp 02</strong></summary>
 
-The structure is composed of the following blocks: Lantern, Spruce Fence.
+The structure part is composed of the following blocks: Lantern, Spruce Fence.
 
 ### Blocks
 
@@ -102,12 +95,12 @@ The structure is composed of the following blocks: Lantern, Spruce Fence.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -115,7 +108,7 @@ None found.
 <details>
 <summary><strong>Windmill/Decor/Lamp 03</strong></summary>
 
-The structure is composed of the following blocks: Spruce Fence, Lantern.
+The structure part is composed of the following blocks: Spruce Fence, Lantern.
 
 ### Blocks
 
@@ -127,12 +120,12 @@ The structure is composed of the following blocks: Spruce Fence, Lantern.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -140,7 +133,7 @@ None found.
 <details>
 <summary><strong>Windmill/Decor/Lamp 04</strong></summary>
 
-The structure is composed of the following blocks: Spruce Fence, Lantern.
+The structure part is composed of the following blocks: Spruce Fence, Lantern.
 
 ### Blocks
 
@@ -152,12 +145,12 @@ The structure is composed of the following blocks: Spruce Fence, Lantern.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -165,7 +158,7 @@ None found.
 <details>
 <summary><strong>Windmill/Decor/Lamp 05</strong></summary>
 
-The structure is composed of the following blocks: Lantern.
+The structure part is composed of the following blocks: Lantern.
 
 ### Blocks
 
@@ -176,12 +169,12 @@ The structure is composed of the following blocks: Lantern.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -189,7 +182,7 @@ None found.
 <details>
 <summary><strong>Windmill/Decor/Scarecrow 01</strong></summary>
 
-The structure is composed of the following blocks: Bamboo Trapdoor, Spruce Fence, Bamboo Mosaic Slab, Carved Pumpkin, Hay Block.
+The structure part is composed of the following blocks: Bamboo Trapdoor, Spruce Fence, Bamboo Mosaic Slab, Carved Pumpkin, Hay Block.
 
 ### Blocks
 
@@ -204,12 +197,12 @@ The structure is composed of the following blocks: Bamboo Trapdoor, Spruce Fence
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -217,7 +210,7 @@ None found.
 <details>
 <summary><strong>Windmill/Decor/Scarecrow 02</strong></summary>
 
-The structure is composed of the following blocks: Bamboo Trapdoor, Spruce Fence, Bamboo Mosaic Slab, Hay Block, Jack O Lantern.
+The structure part is composed of the following blocks: Bamboo Trapdoor, Spruce Fence, Bamboo Mosaic Slab, Hay Block, Jack O Lantern.
 
 ### Blocks
 
@@ -232,12 +225,12 @@ The structure is composed of the following blocks: Bamboo Trapdoor, Spruce Fence
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -245,7 +238,7 @@ None found.
 <details>
 <summary><strong>Windmill/Decor/Scarecrow 03</strong></summary>
 
-The structure is composed of the following blocks: Bamboo Trapdoor, Spruce Fence, Bamboo Mosaic Slab, Carved Pumpkin, Hay Block, Lantern.
+The structure part is composed of the following blocks: Bamboo Trapdoor, Spruce Fence, Bamboo Mosaic Slab, Carved Pumpkin, Hay Block, Lantern.
 
 ### Blocks
 
@@ -261,12 +254,12 @@ The structure is composed of the following blocks: Bamboo Trapdoor, Spruce Fence
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -274,7 +267,7 @@ None found.
 <details>
 <summary><strong>Windmill/Decor/Scarecrow 04</strong></summary>
 
-The structure is composed of the following blocks: Bamboo Trapdoor, Spruce Fence, Bamboo Mosaic Slab, Hay Block, Jack O Lantern.
+The structure part is composed of the following blocks: Bamboo Trapdoor, Spruce Fence, Bamboo Mosaic Slab, Hay Block, Jack O Lantern.
 
 ### Blocks
 
@@ -289,12 +282,12 @@ The structure is composed of the following blocks: Bamboo Trapdoor, Spruce Fence
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -302,7 +295,7 @@ None found.
 <details>
 <summary><strong>Windmill/Decor/Scarecrow 05</strong></summary>
 
-The structure is composed of the following blocks: Bamboo Trapdoor, Spruce Fence, Bamboo Mosaic Slab, Carved Pumpkin, Lantern.
+The structure part is composed of the following blocks: Bamboo Trapdoor, Spruce Fence, Bamboo Mosaic Slab, Carved Pumpkin, Lantern.
 
 ### Blocks
 
@@ -317,12 +310,12 @@ The structure is composed of the following blocks: Bamboo Trapdoor, Spruce Fence
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -330,7 +323,7 @@ None found.
 <details>
 <summary><strong>Windmill/Decor/Stone 01</strong></summary>
 
-The structure is composed of the following blocks: Mossy Cobblestone, Moss Carpet, Cobblestone, Moss Block.
+The structure part is composed of the following blocks: Mossy Cobblestone, Moss Carpet, Cobblestone, Moss Block.
 
 ### Blocks
 
@@ -344,12 +337,12 @@ The structure is composed of the following blocks: Mossy Cobblestone, Moss Carpe
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -357,7 +350,7 @@ None found.
 <details>
 <summary><strong>Windmill/Fields/Field 01</strong></summary>
 
-The structure is composed of the following blocks: Farmland, Wheat, Dirt Path.
+The structure part is composed of the following blocks: Farmland, Wheat, Dirt Path.
 
 ### Blocks
 
@@ -370,12 +363,12 @@ The structure is composed of the following blocks: Farmland, Wheat, Dirt Path.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -383,7 +376,7 @@ None found.
 <details>
 <summary><strong>Windmill/Fields/Field 02</strong></summary>
 
-The structure is composed of the following blocks: Farmland, Wheat, Dirt Path.
+The structure part is composed of the following blocks: Farmland, Wheat, Dirt Path.
 
 ### Blocks
 
@@ -396,12 +389,12 @@ The structure is composed of the following blocks: Farmland, Wheat, Dirt Path.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -409,7 +402,7 @@ None found.
 <details>
 <summary><strong>Windmill/Fields/Field 03</strong></summary>
 
-The structure is composed of the following blocks: Farmland, Wheat, Dirt Path.
+The structure part is composed of the following blocks: Farmland, Wheat, Dirt Path.
 
 ### Blocks
 
@@ -422,12 +415,12 @@ The structure is composed of the following blocks: Farmland, Wheat, Dirt Path.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -435,7 +428,7 @@ None found.
 <details>
 <summary><strong>Windmill/Fields/Field 04</strong></summary>
 
-The structure is composed of the following blocks: Farmland, Wheat, Dirt Path.
+The structure part is composed of the following blocks: Farmland, Wheat, Dirt Path.
 
 ### Blocks
 
@@ -448,12 +441,12 @@ The structure is composed of the following blocks: Farmland, Wheat, Dirt Path.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -461,7 +454,7 @@ None found.
 <details>
 <summary><strong>Windmill/Fields/Field 05</strong></summary>
 
-The structure is composed of the following blocks: Farmland, Wheat, Dirt Path, Spruce Fence, Lantern.
+The structure part is composed of the following blocks: Farmland, Wheat, Dirt Path, Spruce Fence, Lantern.
 
 ### Blocks
 
@@ -476,12 +469,12 @@ The structure is composed of the following blocks: Farmland, Wheat, Dirt Path, S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -489,7 +482,7 @@ None found.
 <details>
 <summary><strong>Windmill/Fields/Field 06</strong></summary>
 
-The structure is composed of the following blocks: Farmland, Wheat, Dirt Path, Spruce Fence, Lantern.
+The structure part is composed of the following blocks: Farmland, Wheat, Dirt Path, Spruce Fence, Lantern.
 
 ### Blocks
 
@@ -504,12 +497,12 @@ The structure is composed of the following blocks: Farmland, Wheat, Dirt Path, S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -517,7 +510,7 @@ None found.
 <details>
 <summary><strong>Windmill/Fields/Field 07</strong></summary>
 
-The structure is composed of the following blocks: Farmland, Wheat, Dirt Path, Spruce Fence, Lantern.
+The structure part is composed of the following blocks: Farmland, Wheat, Dirt Path, Spruce Fence, Lantern.
 
 ### Blocks
 
@@ -532,12 +525,12 @@ The structure is composed of the following blocks: Farmland, Wheat, Dirt Path, S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -545,7 +538,7 @@ None found.
 <details>
 <summary><strong>Windmill/Fields/Field 08</strong></summary>
 
-The structure is composed of the following blocks: Farmland, Wheat, Dirt Path, Spruce Fence, Lantern.
+The structure part is composed of the following blocks: Farmland, Wheat, Dirt Path, Spruce Fence, Lantern.
 
 ### Blocks
 
@@ -560,12 +553,12 @@ The structure is composed of the following blocks: Farmland, Wheat, Dirt Path, S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -573,7 +566,7 @@ None found.
 <details>
 <summary><strong>Windmill/Fields/Field 09</strong></summary>
 
-The structure is composed of the following blocks: Farmland, Wheat, Spruce Fence, Dirt Path, Lantern.
+The structure part is composed of the following blocks: Farmland, Wheat, Spruce Fence, Dirt Path, Lantern.
 
 ### Blocks
 
@@ -588,12 +581,12 @@ The structure is composed of the following blocks: Farmland, Wheat, Spruce Fence
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -601,7 +594,7 @@ None found.
 <details>
 <summary><strong>Windmill/Fields/Field 10</strong></summary>
 
-The structure is composed of the following blocks: Farmland, Wheat, Dirt Path, Spruce Fence, Lantern.
+The structure part is composed of the following blocks: Farmland, Wheat, Dirt Path, Spruce Fence, Lantern.
 
 ### Blocks
 
@@ -616,12 +609,12 @@ The structure is composed of the following blocks: Farmland, Wheat, Dirt Path, S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -629,7 +622,7 @@ None found.
 <details>
 <summary><strong>Windmill/Fields/Field 11</strong></summary>
 
-The structure is composed of the following blocks: Farmland, Wheat, Spruce Fence, Dirt Path, Lantern.
+The structure part is composed of the following blocks: Farmland, Wheat, Spruce Fence, Dirt Path, Lantern.
 
 ### Blocks
 
@@ -644,12 +637,12 @@ The structure is composed of the following blocks: Farmland, Wheat, Spruce Fence
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -657,7 +650,7 @@ None found.
 <details>
 <summary><strong>Windmill/Fields/Field Way 01</strong></summary>
 
-The structure is composed of the following blocks: Farmland, Wheat, Dirt Path, Deepslate, Stone Button.
+The structure part is composed of the following blocks: Farmland, Wheat, Dirt Path, Deepslate, Stone Button.
 
 ### Blocks
 
@@ -672,12 +665,12 @@ The structure is composed of the following blocks: Farmland, Wheat, Dirt Path, D
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -685,7 +678,7 @@ None found.
 <details>
 <summary><strong>Windmill/Fields/Field Way 02</strong></summary>
 
-The structure is composed of the following blocks: Farmland, Wheat, Deepslate, Dirt Path, Stone Button.
+The structure part is composed of the following blocks: Farmland, Wheat, Deepslate, Dirt Path, Stone Button.
 
 ### Blocks
 
@@ -700,12 +693,12 @@ The structure is composed of the following blocks: Farmland, Wheat, Deepslate, D
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -713,7 +706,7 @@ None found.
 <details>
 <summary><strong>Windmill/Fields/Field Way 03</strong></summary>
 
-The structure is composed of the following blocks: Farmland, Wheat, Dirt Path, Deepslate, Stone Button.
+The structure part is composed of the following blocks: Farmland, Wheat, Dirt Path, Deepslate, Stone Button.
 
 ### Blocks
 
@@ -728,12 +721,12 @@ The structure is composed of the following blocks: Farmland, Wheat, Dirt Path, D
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -741,7 +734,7 @@ None found.
 <details>
 <summary><strong>Windmill/Windmill</strong></summary>
 
-The structure is composed of the following blocks: Spruce Trapdoor, Spruce Stairs, Oak Log, Spruce Planks, Oak Planks, Spruce Slab, Deepslate, Oak Leaves, Spruce Fence, Hay Block, Stripped Spruce Log, Stone Bricks, Vine, Dirt, Dark Oak Stairs, Spruce Wall Sign, Stripped Oak Log, Dark Oak Slab, Spruce Button, White Wool, Moss Block, Oak Wall Sign, Polished Deepslate, Cracked Stone Bricks, Mossy Stone Bricks, Stone Brick Wall, Mossy Cobblestone, Coarse Dirt, Ladder, Oak Slab, Light Gray Stained Glass Pane, Spruce Fence Gate, Dirt Path, Cobbled Deepslate, Oak Stairs, Stone Button, Jungle Fence, Polished Deepslate Wall, Mossy Stone Brick Wall, Composter, Light Gray Wool, Polished Andesite, Rooted Dirt, Cobweb, Grindstone, Lantern, Moss Carpet, Mossy Cobblestone Wall, Oak Button, Spruce Log, White Stained Glass Pane, Brown Bed, Cobblestone, Short Grass, Spruce Door, Chain, Cobbled Deepslate Stairs, Glow Lichen, Chest, Polished Andesite Stairs, Stripped Jungle Log, Brown Mushroom, Dark Oak Planks, Jungle Fence Gate, Cobblestone Wall, Red Mushroom, Tall Grass, Barrel, Lightning Rod.
+The structure part is composed of the following blocks: Spruce Trapdoor, Spruce Stairs, Oak Log, Spruce Planks, Oak Planks, Spruce Slab, Deepslate, Oak Leaves, Spruce Fence, Hay Block, Stripped Spruce Log, Stone Bricks, Vine, Dirt, Dark Oak Stairs, Spruce Wall Sign, Stripped Oak Log, Dark Oak Slab, Spruce Button, White Wool, Moss Block, Oak Wall Sign, Polished Deepslate, Cracked Stone Bricks, Mossy Stone Bricks, Stone Brick Wall, Mossy Cobblestone, Coarse Dirt, Ladder, Oak Slab, Light Gray Stained Glass Pane, Spruce Fence Gate, Dirt Path, Cobbled Deepslate, Oak Stairs, Stone Button, Jungle Fence, Polished Deepslate Wall, Mossy Stone Brick Wall, Composter, Light Gray Wool, Polished Andesite, Rooted Dirt, Cobweb, Grindstone, Lantern, Moss Carpet, Mossy Cobblestone Wall, Oak Button, Spruce Log, White Stained Glass Pane, Brown Bed, Cobblestone, Short Grass, Spruce Door, Chain, Cobbled Deepslate Stairs, Glow Lichen, Chest, Polished Andesite Stairs, Stripped Jungle Log, Brown Mushroom, Dark Oak Planks, Jungle Fence Gate, Cobblestone Wall, Red Mushroom, Tall Grass, Barrel, Lightning Rod.
 
 ### Blocks
 
@@ -820,7 +813,7 @@ The structure is composed of the following blocks: Spruce Trapdoor, Spruce Stair
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables

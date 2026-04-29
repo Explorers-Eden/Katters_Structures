@@ -1,21 +1,16 @@
-# Spider Den
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Stripped Jungle Log, Jungle Log, Jungle Wood, Moss Carpet, White Wool, Vine, Cobweb.
 
 Additionally, the following entities may spawn during its generation: Bat.
 
-### Loot Tables
 
-None found.
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Spider Den/Spider Den Back</strong></summary>
 
-The structure is composed of the following blocks: Jungle Wood, Jungle Log, Stripped Jungle Log.
+The structure part is composed of the following blocks: Jungle Wood, Jungle Log, Stripped Jungle Log.
 
 ### Blocks
 
@@ -28,12 +23,12 @@ The structure is composed of the following blocks: Jungle Wood, Jungle Log, Stri
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -41,7 +36,7 @@ None found.
 <details>
 <summary><strong>Spider Den/Spider Den Left</strong></summary>
 
-The structure is composed of the following blocks: Jungle Wood, Jungle Log, Stripped Jungle Log.
+The structure part is composed of the following blocks: Jungle Wood, Jungle Log, Stripped Jungle Log.
 
 ### Blocks
 
@@ -54,12 +49,12 @@ The structure is composed of the following blocks: Jungle Wood, Jungle Log, Stri
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -67,7 +62,7 @@ None found.
 <details>
 <summary><strong>Spider Den/Spider Den Main</strong></summary>
 
-The structure is composed of the following blocks: Stripped Jungle Log, Jungle Log, Jungle Wood, Moss Carpet, White Wool, Vine, Cobweb.
+The structure part is composed of the following blocks: Stripped Jungle Log, Jungle Log, Jungle Wood, Moss Carpet, White Wool, Vine, Cobweb.
 
 Additionally, the following entities may spawn during its generation: Bat.
 
@@ -93,7 +88,7 @@ Additionally, the following entities may spawn during its generation: Bat.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -101,7 +96,7 @@ None found.
 <details>
 <summary><strong>Spider Den/Spider Den Right</strong></summary>
 
-The structure is composed of the following blocks: Jungle Wood, Jungle Log, Stripped Jungle Log.
+The structure part is composed of the following blocks: Jungle Wood, Jungle Log, Stripped Jungle Log.
 
 ### Blocks
 
@@ -114,12 +109,12 @@ The structure is composed of the following blocks: Jungle Wood, Jungle Log, Stri
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -127,21 +122,21 @@ None found.
 <details>
 <summary><strong>Spider Den/Spider Den Start</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>

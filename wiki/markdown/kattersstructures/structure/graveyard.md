@@ -1,27 +1,16 @@
-# Graveyard
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Stone Bricks, Dirt, Coarse Dirt, Stone Brick Wall, Birch Leaves, Grass Block, Spruce Stairs, Stone Brick Stairs, Polished Deepslate Stairs, Mossy Stone Bricks, Polished Deepslate, Stone Brick Slab, Mossy Stone Brick Wall, Cracked Stone Bricks, Deepslate Tile Stairs, Spruce Trapdoor, Deepslate Brick Stairs, Blue Stained Glass Pane, Vine, Gray Stained Glass Pane, Red Carpet, Light Blue Stained Glass Pane, Oak Fence, Chest, Moss Block, Mossy Stone Brick Stairs, Spruce Planks, Cobbled Deepslate Stairs, Polished Deepslate Slab, Spruce Fence, Stripped Spruce Wood, Glow Lichen, Red Candle, Mossy Stone Brick Slab, Oak Stairs, Chain, Jungle Fence, Stripped Jungle Wood, Stripped Oak Wood, Short Grass, Spruce Slab, Tall Grass, Deepslate Bricks, Lectern, Dead Bush, Mossy Cobblestone Slab, Spruce Wall Sign, Cobweb, Stripped Spruce Log, Mossy Cobblestone, Cracked Deepslate Tiles, Jungle Trapdoor, Poppy, Spruce Door, Hay Block, Cobblestone Stairs, Light Gray Bed, Mossy Cobblestone Stairs, Shroomlight, Smooth Stone Slab, Barrel, Bell, Dandelion, Gravel, Lantern, Light Gray Candle, Lightning Rod, Mossy Cobblestone Wall, Polished Deepslate Wall.
 
 Additionally, the following entities may spawn during its generation: Villager.
 
-### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/graveyard/donation |
-| kattersstructures:chests/graveyard/grave |
-| kattersstructures:chests/graveyard/living |
-| kattersstructures:chests/graveyard/robbed |
-| kattersstructures:chests/graveyard/secret |
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Graveyard/Churche</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Dirt, Stone Brick Wall, Birch Leaves, Spruce Stairs, Stone Brick Stairs, Polished Deepslate Stairs, Coarse Dirt, Mossy Stone Bricks, Polished Deepslate, Stone Brick Slab, Grass Block, Mossy Stone Brick Wall, Cracked Stone Bricks, Deepslate Tile Stairs, Deepslate Brick Stairs, Spruce Trapdoor, Blue Stained Glass Pane, Vine, Gray Stained Glass Pane, Red Carpet, Light Blue Stained Glass Pane, Oak Fence, Moss Block, Spruce Planks, Cobbled Deepslate Stairs, Polished Deepslate Slab, Stripped Spruce Wood, Glow Lichen, Red Candle, Mossy Stone Brick Slab, Mossy Stone Brick Stairs, Oak Stairs, Chain, Jungle Fence, Spruce Fence, Stripped Jungle Wood, Stripped Oak Wood, Short Grass, Spruce Slab, Tall Grass, Deepslate Bricks, Dead Bush, Mossy Cobblestone Slab, Cobweb, Stripped Spruce Log, Mossy Cobblestone, Cracked Deepslate Tiles, Jungle Trapdoor, Spruce Door, Chest, Hay Block, Poppy, Light Gray Bed, Mossy Cobblestone Stairs, Shroomlight, Barrel, Bell, Cobblestone Stairs, Dandelion, Lantern, Lectern, Lightning Rod, Mossy Cobblestone Wall, Polished Deepslate Wall.
+The structure part is composed of the following blocks: Stone Bricks, Dirt, Stone Brick Wall, Birch Leaves, Spruce Stairs, Stone Brick Stairs, Polished Deepslate Stairs, Coarse Dirt, Mossy Stone Bricks, Polished Deepslate, Stone Brick Slab, Grass Block, Mossy Stone Brick Wall, Cracked Stone Bricks, Deepslate Tile Stairs, Deepslate Brick Stairs, Spruce Trapdoor, Blue Stained Glass Pane, Vine, Gray Stained Glass Pane, Red Carpet, Light Blue Stained Glass Pane, Oak Fence, Moss Block, Spruce Planks, Cobbled Deepslate Stairs, Polished Deepslate Slab, Stripped Spruce Wood, Glow Lichen, Red Candle, Mossy Stone Brick Slab, Mossy Stone Brick Stairs, Oak Stairs, Chain, Jungle Fence, Spruce Fence, Stripped Jungle Wood, Stripped Oak Wood, Short Grass, Spruce Slab, Tall Grass, Deepslate Bricks, Dead Bush, Mossy Cobblestone Slab, Cobweb, Stripped Spruce Log, Mossy Cobblestone, Cracked Deepslate Tiles, Jungle Trapdoor, Spruce Door, Chest, Hay Block, Poppy, Light Gray Bed, Mossy Cobblestone Stairs, Shroomlight, Barrel, Bell, Cobblestone Stairs, Dandelion, Lantern, Lectern, Lightning Rod, Mossy Cobblestone Wall, Polished Deepslate Wall.
 
 ### Blocks
 
@@ -96,7 +85,7 @@ The structure is composed of the following blocks: Stone Bricks, Dirt, Stone Bri
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -113,7 +102,7 @@ None found.
 <details>
 <summary><strong>Graveyard/Grave/Grave 01</strong></summary>
 
-The structure is composed of the following blocks: Coarse Dirt, Dirt, Mossy Stone Brick Wall, Stone Brick Wall, Chest, Grass Block, Spruce Wall Sign, Stone Brick Stairs.
+The structure part is composed of the following blocks: Coarse Dirt, Dirt, Mossy Stone Brick Wall, Stone Brick Wall, Chest, Grass Block, Spruce Wall Sign, Stone Brick Stairs.
 
 ### Blocks
 
@@ -131,7 +120,7 @@ The structure is composed of the following blocks: Coarse Dirt, Dirt, Mossy Ston
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -146,7 +135,7 @@ None found.
 <details>
 <summary><strong>Graveyard/Grave/Grave 02</strong></summary>
 
-The structure is composed of the following blocks: Coarse Dirt, Dirt, Grass Block, Chest, Mossy Stone Brick Stairs, Light Gray Candle, Spruce Wall Sign, Stone Brick Slab, Stone Brick Stairs.
+The structure part is composed of the following blocks: Coarse Dirt, Dirt, Grass Block, Chest, Mossy Stone Brick Stairs, Light Gray Candle, Spruce Wall Sign, Stone Brick Slab, Stone Brick Stairs.
 
 ### Blocks
 
@@ -165,7 +154,7 @@ The structure is composed of the following blocks: Coarse Dirt, Dirt, Grass Bloc
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -180,7 +169,7 @@ None found.
 <details>
 <summary><strong>Graveyard/Grave/Grave 03</strong></summary>
 
-The structure is composed of the following blocks: Coarse Dirt, Dirt, Stone Brick Stairs, Stone Bricks, Grass Block, Mossy Stone Brick Stairs, Chest, Mossy Stone Bricks, Spruce Wall Sign, Stone Brick Slab.
+The structure part is composed of the following blocks: Coarse Dirt, Dirt, Stone Brick Stairs, Stone Bricks, Grass Block, Mossy Stone Brick Stairs, Chest, Mossy Stone Bricks, Spruce Wall Sign, Stone Brick Slab.
 
 ### Blocks
 
@@ -200,7 +189,7 @@ The structure is composed of the following blocks: Coarse Dirt, Dirt, Stone Bric
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -215,7 +204,7 @@ None found.
 <details>
 <summary><strong>Graveyard/Grave/Grave 04</strong></summary>
 
-The structure is composed of the following blocks: Coarse Dirt, Dirt, Chest, Grass Block, Poppy, Spruce Wall Sign, Stone Brick Wall.
+The structure part is composed of the following blocks: Coarse Dirt, Dirt, Chest, Grass Block, Poppy, Spruce Wall Sign, Stone Brick Wall.
 
 ### Blocks
 
@@ -232,7 +221,7 @@ The structure is composed of the following blocks: Coarse Dirt, Dirt, Chest, Gra
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -247,7 +236,7 @@ None found.
 <details>
 <summary><strong>Graveyard/Grave/Grave 05</strong></summary>
 
-The structure is composed of the following blocks: Coarse Dirt, Dirt, Chest, Grass Block, Spruce Wall Sign, Stone Brick Stairs.
+The structure part is composed of the following blocks: Coarse Dirt, Dirt, Chest, Grass Block, Spruce Wall Sign, Stone Brick Stairs.
 
 ### Blocks
 
@@ -263,7 +252,7 @@ The structure is composed of the following blocks: Coarse Dirt, Dirt, Chest, Gra
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -278,7 +267,7 @@ None found.
 <details>
 <summary><strong>Graveyard/Grave/Grave 06</strong></summary>
 
-The structure is composed of the following blocks: Coarse Dirt, Dirt, Birch Leaves, Grass Block.
+The structure part is composed of the following blocks: Coarse Dirt, Dirt, Birch Leaves, Grass Block.
 
 ### Blocks
 
@@ -292,12 +281,12 @@ The structure is composed of the following blocks: Coarse Dirt, Dirt, Birch Leav
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -305,7 +294,7 @@ None found.
 <details>
 <summary><strong>Graveyard/Grave/Grave 07</strong></summary>
 
-The structure is composed of the following blocks: Coarse Dirt, Dirt.
+The structure part is composed of the following blocks: Coarse Dirt, Dirt.
 
 ### Blocks
 
@@ -317,12 +306,12 @@ The structure is composed of the following blocks: Coarse Dirt, Dirt.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -330,7 +319,7 @@ None found.
 <details>
 <summary><strong>Graveyard/Grave/Grave 08</strong></summary>
 
-The structure is composed of the following blocks: Coarse Dirt, Dirt, Grass Block, Chest, Smooth Stone Slab.
+The structure part is composed of the following blocks: Coarse Dirt, Dirt, Grass Block, Chest, Smooth Stone Slab.
 
 ### Blocks
 
@@ -345,7 +334,7 @@ The structure is composed of the following blocks: Coarse Dirt, Dirt, Grass Bloc
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -360,7 +349,7 @@ None found.
 <details>
 <summary><strong>Graveyard/Grave/Grave 09</strong></summary>
 
-The structure is composed of the following blocks: Coarse Dirt, Dirt, Stone Brick Wall, Grass Block, Chest, Spruce Wall Sign.
+The structure part is composed of the following blocks: Coarse Dirt, Dirt, Stone Brick Wall, Grass Block, Chest, Spruce Wall Sign.
 
 ### Blocks
 
@@ -376,7 +365,7 @@ The structure is composed of the following blocks: Coarse Dirt, Dirt, Stone Bric
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -391,7 +380,7 @@ None found.
 <details>
 <summary><strong>Graveyard/Grave/Grave 10</strong></summary>
 
-The structure is composed of the following blocks: Coarse Dirt, Dirt, Chest, Grass Block, Cobblestone Stairs, Gravel.
+The structure part is composed of the following blocks: Coarse Dirt, Dirt, Chest, Grass Block, Cobblestone Stairs, Gravel.
 
 ### Blocks
 
@@ -407,7 +396,7 @@ The structure is composed of the following blocks: Coarse Dirt, Dirt, Chest, Gra
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -422,7 +411,7 @@ None found.
 <details>
 <summary><strong>Graveyard/Grave/Grave 11</strong></summary>
 
-The structure is composed of the following blocks: Coarse Dirt, Dirt, Spruce Fence, Chest, Grass Block, Spruce Wall Sign.
+The structure part is composed of the following blocks: Coarse Dirt, Dirt, Spruce Fence, Chest, Grass Block, Spruce Wall Sign.
 
 ### Blocks
 
@@ -438,7 +427,7 @@ The structure is composed of the following blocks: Coarse Dirt, Dirt, Spruce Fen
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -453,7 +442,7 @@ None found.
 <details>
 <summary><strong>Graveyard/Grave/Grave 12</strong></summary>
 
-The structure is composed of the following blocks: Coarse Dirt, Dirt, Grass Block, Chest, Spruce Stairs, Spruce Trapdoor, Spruce Fence, Spruce Wall Sign.
+The structure part is composed of the following blocks: Coarse Dirt, Dirt, Grass Block, Chest, Spruce Stairs, Spruce Trapdoor, Spruce Fence, Spruce Wall Sign.
 
 ### Blocks
 
@@ -471,7 +460,7 @@ The structure is composed of the following blocks: Coarse Dirt, Dirt, Grass Bloc
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -486,13 +475,13 @@ None found.
 <details>
 <summary><strong>Graveyard/Graveyard Cleric</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Villager.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -504,7 +493,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -512,7 +501,7 @@ None found.
 <details>
 <summary><strong>Graveyard/Verdant Tome/Graveyard Verdant Tome 01</strong></summary>
 
-The structure is composed of the following blocks: Lectern.
+The structure part is composed of the following blocks: Lectern.
 
 ### Blocks
 
@@ -523,12 +512,12 @@ The structure is composed of the following blocks: Lectern.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -536,7 +525,7 @@ None found.
 <details>
 <summary><strong>Graveyard/Verdant Tome/Graveyard Verdant Tome 02</strong></summary>
 
-The structure is composed of the following blocks: Lectern.
+The structure part is composed of the following blocks: Lectern.
 
 ### Blocks
 
@@ -547,12 +536,12 @@ The structure is composed of the following blocks: Lectern.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -560,7 +549,7 @@ None found.
 <details>
 <summary><strong>Graveyard/Verdant Tome/Graveyard Verdant Tome 03</strong></summary>
 
-The structure is composed of the following blocks: Lectern.
+The structure part is composed of the following blocks: Lectern.
 
 ### Blocks
 
@@ -571,12 +560,12 @@ The structure is composed of the following blocks: Lectern.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -584,7 +573,7 @@ None found.
 <details>
 <summary><strong>Graveyard/Verdant Tome/Graveyard Verdant Tome 04</strong></summary>
 
-The structure is composed of the following blocks: Lectern.
+The structure part is composed of the following blocks: Lectern.
 
 ### Blocks
 
@@ -595,12 +584,12 @@ The structure is composed of the following blocks: Lectern.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -608,7 +597,7 @@ None found.
 <details>
 <summary><strong>Graveyard/Verdant Tome/Graveyard Verdant Tome 05</strong></summary>
 
-The structure is composed of the following blocks: Lectern.
+The structure part is composed of the following blocks: Lectern.
 
 ### Blocks
 
@@ -619,12 +608,12 @@ The structure is composed of the following blocks: Lectern.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -632,7 +621,7 @@ None found.
 <details>
 <summary><strong>Graveyard/Verdant Tome/Graveyard Verdant Tome 06</strong></summary>
 
-The structure is composed of the following blocks: Lectern.
+The structure part is composed of the following blocks: Lectern.
 
 ### Blocks
 
@@ -643,12 +632,12 @@ The structure is composed of the following blocks: Lectern.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -656,7 +645,7 @@ None found.
 <details>
 <summary><strong>Graveyard/Verdant Tome/Graveyard Verdant Tome 07</strong></summary>
 
-The structure is composed of the following blocks: Lectern.
+The structure part is composed of the following blocks: Lectern.
 
 ### Blocks
 
@@ -667,12 +656,12 @@ The structure is composed of the following blocks: Lectern.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -680,7 +669,7 @@ None found.
 <details>
 <summary><strong>Graveyard/Verdant Tome/Graveyard Verdant Tome 08</strong></summary>
 
-The structure is composed of the following blocks: Lectern.
+The structure part is composed of the following blocks: Lectern.
 
 ### Blocks
 
@@ -691,12 +680,12 @@ The structure is composed of the following blocks: Lectern.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -704,7 +693,7 @@ None found.
 <details>
 <summary><strong>Graveyard/Way/Graveyard Way 01</strong></summary>
 
-The structure is composed of the following blocks: Grass Block, Coarse Dirt, Dirt.
+The structure part is composed of the following blocks: Grass Block, Coarse Dirt, Dirt.
 
 ### Blocks
 
@@ -717,12 +706,12 @@ The structure is composed of the following blocks: Grass Block, Coarse Dirt, Dir
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -730,7 +719,7 @@ None found.
 <details>
 <summary><strong>Graveyard/Way/Graveyard Way 02</strong></summary>
 
-The structure is composed of the following blocks: Grass Block, Dirt, Coarse Dirt.
+The structure part is composed of the following blocks: Grass Block, Dirt, Coarse Dirt.
 
 ### Blocks
 
@@ -743,12 +732,12 @@ The structure is composed of the following blocks: Grass Block, Dirt, Coarse Dir
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -756,7 +745,7 @@ None found.
 <details>
 <summary><strong>Graveyard/Way/Graveyard Way 03</strong></summary>
 
-The structure is composed of the following blocks: Coarse Dirt, Grass Block, Dirt.
+The structure part is composed of the following blocks: Coarse Dirt, Grass Block, Dirt.
 
 ### Blocks
 
@@ -769,12 +758,12 @@ The structure is composed of the following blocks: Coarse Dirt, Grass Block, Dir
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -782,7 +771,7 @@ None found.
 <details>
 <summary><strong>Graveyard/Way/Graveyard Way Cross</strong></summary>
 
-The structure is composed of the following blocks: Grass Block, Dirt, Coarse Dirt.
+The structure part is composed of the following blocks: Grass Block, Dirt, Coarse Dirt.
 
 ### Blocks
 
@@ -795,12 +784,12 @@ The structure is composed of the following blocks: Grass Block, Dirt, Coarse Dir
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -808,7 +797,7 @@ None found.
 <details>
 <summary><strong>Graveyard/Way/Graveyard Way End</strong></summary>
 
-The structure is composed of the following blocks: Coarse Dirt, Grass Block.
+The structure part is composed of the following blocks: Coarse Dirt, Grass Block.
 
 ### Blocks
 
@@ -820,12 +809,12 @@ The structure is composed of the following blocks: Coarse Dirt, Grass Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>

@@ -1,25 +1,16 @@
-# Pillager Village
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Dark Oak Planks, Cobblestone, Birch Planks, Dark Oak Log, Podzol, Dark Oak Stairs, Cobblestone Stairs, Coarse Dirt, Dirt, Cobblestone Wall, Dark Oak Fence, Grass Block, Glass Pane, Cobblestone Slab, Sand, Gravel, Oak Log, Spruce Log, Dark Oak Slab, Dark Oak Trapdoor, White Wall Banner, Red Carpet, Hay Block, White Carpet, White Wool, Dark Oak Wall Sign, Bookshelf, Birch Fence, Chain, Birch Stairs, Oak Slab, Andesite Stairs, Birch Slab, Chiseled Bookshelf, Spruce Slab, Stripped Spruce Log, Barrel, Chest, Andesite, Spruce Planks, Andesite Slab, Chiseled Stone Bricks, Iron Trapdoor, Dark Oak Fence Gate, Dried Kelp Block, Grindstone, Oak Trapdoor, Pumpkin, Spruce Trapdoor, Stone Button, Jack O Lantern, Magma Block, Tripwire Hook, White Banner, Carved Pumpkin, Crafting Table, Damaged Anvil, Fire, Fletching Table, Lectern, Lever, Target.
 
 Additionally, the following entities may spawn during its generation: Armor Stand, Chicken, Iron Golem, Item Frame, Ravager.
 
-### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/pillager_village/arrows |
-| kattersstructures:chests/pillager_village/chest_1 |
-| kattersstructures:chests/pillager_village/chest_2 |
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Pillager Village/Building/Pillager Village Building Big 01</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Planks, Cobblestone, Dark Oak Log, Dark Oak Stairs, Birch Planks, Cobblestone Stairs, Glass Pane, Dark Oak Fence, Cobblestone Wall, Cobblestone Slab, Red Carpet, White Carpet, Birch Fence, Birch Stairs, White Wall Banner.
+The structure part is composed of the following blocks: Dark Oak Planks, Cobblestone, Dark Oak Log, Dark Oak Stairs, Birch Planks, Cobblestone Stairs, Glass Pane, Dark Oak Fence, Cobblestone Wall, Cobblestone Slab, Red Carpet, White Carpet, Birch Fence, Birch Stairs, White Wall Banner.
 
 ### Blocks
 
@@ -44,12 +35,12 @@ The structure is composed of the following blocks: Dark Oak Planks, Cobblestone,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -57,7 +48,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Building/Pillager Village Building Big 02</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Planks, Birch Planks, Cobblestone, Dark Oak Log, Cobblestone Stairs, Dark Oak Stairs, Glass Pane, Cobblestone Wall, Dark Oak Fence, Cobblestone Slab, Red Carpet, White Carpet, Birch Stairs, White Wall Banner, Birch Fence, Dark Oak Slab.
+The structure part is composed of the following blocks: Dark Oak Planks, Birch Planks, Cobblestone, Dark Oak Log, Cobblestone Stairs, Dark Oak Stairs, Glass Pane, Cobblestone Wall, Dark Oak Fence, Cobblestone Slab, Red Carpet, White Carpet, Birch Stairs, White Wall Banner, Birch Fence, Dark Oak Slab.
 
 ### Blocks
 
@@ -83,12 +74,12 @@ The structure is composed of the following blocks: Dark Oak Planks, Birch Planks
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -96,7 +87,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Building/Pillager Village Building Small 01</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Planks, Cobblestone, Dark Oak Stairs, Dark Oak Log, Cobblestone Stairs, Glass Pane, Birch Planks, Cobblestone Slab, Cobblestone Wall, Dark Oak Fence, White Wall Banner, Dark Oak Slab.
+The structure part is composed of the following blocks: Dark Oak Planks, Cobblestone, Dark Oak Stairs, Dark Oak Log, Cobblestone Stairs, Glass Pane, Birch Planks, Cobblestone Slab, Cobblestone Wall, Dark Oak Fence, White Wall Banner, Dark Oak Slab.
 
 ### Blocks
 
@@ -118,12 +109,12 @@ The structure is composed of the following blocks: Dark Oak Planks, Cobblestone,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -131,7 +122,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Building/Pillager Village Building Small 02</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Planks, Cobblestone, Dark Oak Stairs, Cobblestone Stairs, Dark Oak Log, Birch Planks, Cobblestone Slab, Cobblestone Wall, Glass Pane, Dark Oak Fence, White Wall Banner, Dark Oak Slab.
+The structure part is composed of the following blocks: Dark Oak Planks, Cobblestone, Dark Oak Stairs, Cobblestone Stairs, Dark Oak Log, Birch Planks, Cobblestone Slab, Cobblestone Wall, Glass Pane, Dark Oak Fence, White Wall Banner, Dark Oak Slab.
 
 ### Blocks
 
@@ -153,12 +144,12 @@ The structure is composed of the following blocks: Dark Oak Planks, Cobblestone,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -166,7 +157,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Building/Pillager Village Building Small 03</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Planks, Cobblestone, Dark Oak Stairs, Dark Oak Log, Birch Planks, Cobblestone Stairs, Glass Pane, Cobblestone Wall, Cobblestone Slab, Dark Oak Fence, Dark Oak Slab, White Wall Banner.
+The structure part is composed of the following blocks: Dark Oak Planks, Cobblestone, Dark Oak Stairs, Dark Oak Log, Birch Planks, Cobblestone Stairs, Glass Pane, Cobblestone Wall, Cobblestone Slab, Dark Oak Fence, Dark Oak Slab, White Wall Banner.
 
 ### Blocks
 
@@ -188,12 +179,12 @@ The structure is composed of the following blocks: Dark Oak Planks, Cobblestone,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -201,7 +192,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Building/Pillager Village Tower 01</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Planks, Birch Planks, Cobblestone, Dark Oak Log, Cobblestone Stairs, Cobblestone Wall, Dark Oak Fence, Cobblestone Slab, Dark Oak Stairs, White Wall Banner, Birch Slab, Birch Fence, Birch Stairs, Dark Oak Slab.
+The structure part is composed of the following blocks: Dark Oak Planks, Birch Planks, Cobblestone, Dark Oak Log, Cobblestone Stairs, Cobblestone Wall, Dark Oak Fence, Cobblestone Slab, Dark Oak Stairs, White Wall Banner, Birch Slab, Birch Fence, Birch Stairs, Dark Oak Slab.
 
 ### Blocks
 
@@ -225,12 +216,12 @@ The structure is composed of the following blocks: Dark Oak Planks, Birch Planks
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -238,7 +229,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Building/Pillager Village Tower 02</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Log, Dark Oak Stairs, Dark Oak Planks, Dark Oak Slab, Cobblestone Stairs, Dark Oak Fence, Cobblestone Wall, White Wall Banner, Birch Planks.
+The structure part is composed of the following blocks: Dark Oak Log, Dark Oak Stairs, Dark Oak Planks, Dark Oak Slab, Cobblestone Stairs, Dark Oak Fence, Cobblestone Wall, White Wall Banner, Birch Planks.
 
 ### Blocks
 
@@ -257,12 +248,12 @@ The structure is composed of the following blocks: Dark Oak Log, Dark Oak Stairs
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -270,7 +261,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Building/Pillager Village Weapon 01</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Stairs, Andesite Stairs, Dark Oak Planks, Spruce Slab, Stripped Spruce Log, Andesite, Spruce Planks, Andesite Slab, Chiseled Stone Bricks, Dark Oak Slab, Spruce Trapdoor, Stone Button, Chain, Magma Block, Fire.
+The structure part is composed of the following blocks: Dark Oak Stairs, Andesite Stairs, Dark Oak Planks, Spruce Slab, Stripped Spruce Log, Andesite, Spruce Planks, Andesite Slab, Chiseled Stone Bricks, Dark Oak Slab, Spruce Trapdoor, Stone Button, Chain, Magma Block, Fire.
 
 ### Blocks
 
@@ -295,12 +286,12 @@ The structure is composed of the following blocks: Dark Oak Stairs, Andesite Sta
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -308,7 +299,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Building/Pillager Village Weapon 02</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Wall Sign, Oak Slab, Chain, Dark Oak Slab, Dark Oak Trapdoor, Dark Oak Stairs, Grindstone, Oak Trapdoor, Dark Oak Fence, Damaged Anvil, Dark Oak Fence Gate, Dark Oak Log, Lever.
+The structure part is composed of the following blocks: Dark Oak Wall Sign, Oak Slab, Chain, Dark Oak Slab, Dark Oak Trapdoor, Dark Oak Stairs, Grindstone, Oak Trapdoor, Dark Oak Fence, Damaged Anvil, Dark Oak Fence Gate, Dark Oak Log, Lever.
 
 ### Blocks
 
@@ -331,12 +322,12 @@ The structure is composed of the following blocks: Dark Oak Wall Sign, Oak Slab,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -344,7 +335,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Building/Pillager Village Weapon Platform</strong></summary>
 
-The structure is composed of the following blocks: Birch Planks, Cobblestone, Dark Oak Planks, Cobblestone Wall, Cobblestone Stairs.
+The structure part is composed of the following blocks: Birch Planks, Cobblestone, Dark Oak Planks, Cobblestone Wall, Cobblestone Stairs.
 
 ### Blocks
 
@@ -359,12 +350,12 @@ The structure is composed of the following blocks: Birch Planks, Cobblestone, Da
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -372,7 +363,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Decor/Pillager Village Big Decor 01</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Fence, Dark Oak Log, Dark Oak Stairs, Birch Fence, Dark Oak Slab.
+The structure part is composed of the following blocks: Dark Oak Fence, Dark Oak Log, Dark Oak Stairs, Birch Fence, Dark Oak Slab.
 
 Additionally, the following entities may spawn during its generation: Iron Golem.
 
@@ -396,7 +387,7 @@ Additionally, the following entities may spawn during its generation: Iron Golem
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -404,7 +395,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Decor/Pillager Village Big Decor 02</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Stairs, White Banner.
+The structure part is composed of the following blocks: Dark Oak Stairs, White Banner.
 
 ### Blocks
 
@@ -416,12 +407,12 @@ The structure is composed of the following blocks: Dark Oak Stairs, White Banner
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -429,7 +420,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Decor/Pillager Village Big Decor 03</strong></summary>
 
-The structure is composed of the following blocks: White Wool, Dark Oak Fence, Pumpkin, Crafting Table.
+The structure part is composed of the following blocks: White Wool, Dark Oak Fence, Pumpkin, Crafting Table.
 
 ### Blocks
 
@@ -443,12 +434,12 @@ The structure is composed of the following blocks: White Wool, Dark Oak Fence, P
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -456,7 +447,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Decor/Pillager Village Big Decor 04</strong></summary>
 
-The structure is composed of the following blocks: Hay Block, Barrel.
+The structure part is composed of the following blocks: Hay Block, Barrel.
 
 ### Blocks
 
@@ -468,7 +459,7 @@ The structure is composed of the following blocks: Hay Block, Barrel.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -483,7 +474,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Decor/Pillager Village Big Decor 05</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Fence, Carved Pumpkin, Hay Block.
+The structure part is composed of the following blocks: Dark Oak Fence, Carved Pumpkin, Hay Block.
 
 ### Blocks
 
@@ -496,12 +487,12 @@ The structure is composed of the following blocks: Dark Oak Fence, Carved Pumpki
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -509,7 +500,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Decor/Pillager Village Big Decor 06</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Trapdoor, Barrel, Dark Oak Fence, Target.
+The structure part is composed of the following blocks: Dark Oak Trapdoor, Barrel, Dark Oak Fence, Target.
 
 ### Blocks
 
@@ -523,7 +514,7 @@ The structure is composed of the following blocks: Dark Oak Trapdoor, Barrel, Da
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -538,7 +529,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Decor/Pillager Village Big Decor 07</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Fence, Iron Trapdoor, Cobblestone Wall.
+The structure part is composed of the following blocks: Dark Oak Fence, Iron Trapdoor, Cobblestone Wall.
 
 Additionally, the following entities may spawn during its generation: Chicken.
 
@@ -560,7 +551,7 @@ Additionally, the following entities may spawn during its generation: Chicken.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -568,7 +559,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Decor/Pillager Village Big Decor 08</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Fence, Jack O Lantern, Cobblestone Wall.
+The structure part is composed of the following blocks: Dark Oak Fence, Jack O Lantern, Cobblestone Wall.
 
 ### Blocks
 
@@ -581,12 +572,12 @@ The structure is composed of the following blocks: Dark Oak Fence, Jack O Lanter
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -594,7 +585,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Decor/Pillager Village Big Decor 09</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Fence, White Wall Banner, Cobblestone Wall.
+The structure part is composed of the following blocks: Dark Oak Fence, White Wall Banner, Cobblestone Wall.
 
 ### Blocks
 
@@ -607,12 +598,12 @@ The structure is composed of the following blocks: Dark Oak Fence, White Wall Ba
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -620,7 +611,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Decor/Pillager Village Big Decor 10</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Fence, Dark Oak Fence Gate.
+The structure part is composed of the following blocks: Dark Oak Fence, Dark Oak Fence Gate.
 
 Additionally, the following entities may spawn during its generation: Ravager.
 
@@ -641,7 +632,7 @@ Additionally, the following entities may spawn during its generation: Ravager.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -649,7 +640,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Decor/Pillager Village Big Decor 11</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Fence, White Wall Banner.
+The structure part is composed of the following blocks: Dark Oak Fence, White Wall Banner.
 
 ### Blocks
 
@@ -661,12 +652,12 @@ The structure is composed of the following blocks: Dark Oak Fence, White Wall Ba
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -674,7 +665,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Decor/Pillager Village Decor 1x1 01</strong></summary>
 
-The structure is composed of the following blocks: Chest.
+The structure part is composed of the following blocks: Chest.
 
 ### Blocks
 
@@ -685,7 +676,7 @@ The structure is composed of the following blocks: Chest.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -700,7 +691,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Decor/Pillager Village Decor 1x1 02</strong></summary>
 
-The structure is composed of the following blocks: Barrel.
+The structure part is composed of the following blocks: Barrel.
 
 ### Blocks
 
@@ -711,7 +702,7 @@ The structure is composed of the following blocks: Barrel.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -726,7 +717,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Decor/Pillager Village Decor 1x1 03</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Fence, Dark Oak Trapdoor.
+The structure part is composed of the following blocks: Dark Oak Fence, Dark Oak Trapdoor.
 
 ### Blocks
 
@@ -738,12 +729,12 @@ The structure is composed of the following blocks: Dark Oak Fence, Dark Oak Trap
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -751,7 +742,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Decor/Pillager Village Decor 1x1 04</strong></summary>
 
-The structure is composed of the following blocks: White Banner.
+The structure part is composed of the following blocks: White Banner.
 
 ### Blocks
 
@@ -762,12 +753,12 @@ The structure is composed of the following blocks: White Banner.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -775,13 +766,13 @@ None found.
 <details>
 <summary><strong>Pillager Village/Decor/Pillager Village Decor 1x1 05</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Armor Stand.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -793,7 +784,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -801,7 +792,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Decor/Pillager Village Decor Roof 01</strong></summary>
 
-The structure is composed of the following blocks: Barrel.
+The structure part is composed of the following blocks: Barrel.
 
 Additionally, the following entities may spawn during its generation: Item Frame.
 
@@ -831,7 +822,7 @@ Additionally, the following entities may spawn during its generation: Item Frame
 <details>
 <summary><strong>Pillager Village/Decor/Pillager Village Decor Roof 02</strong></summary>
 
-The structure is composed of the following blocks: Barrel.
+The structure part is composed of the following blocks: Barrel.
 
 ### Blocks
 
@@ -842,7 +833,7 @@ The structure is composed of the following blocks: Barrel.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -857,7 +848,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Decor/Pillager Village Decor Small 01</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Trapdoor, Chest, Barrel, Fletching Table.
+The structure part is composed of the following blocks: Dark Oak Trapdoor, Chest, Barrel, Fletching Table.
 
 ### Blocks
 
@@ -871,7 +862,7 @@ The structure is composed of the following blocks: Dark Oak Trapdoor, Chest, Bar
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -886,7 +877,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Decor/Pillager Village Decor Small 02</strong></summary>
 
-The structure is composed of the following blocks: Bookshelf, Chiseled Bookshelf, Dark Oak Trapdoor, Dark Oak Log, Dark Oak Slab, Lectern.
+The structure part is composed of the following blocks: Bookshelf, Chiseled Bookshelf, Dark Oak Trapdoor, Dark Oak Log, Dark Oak Slab, Lectern.
 
 ### Blocks
 
@@ -902,12 +893,12 @@ The structure is composed of the following blocks: Bookshelf, Chiseled Bookshelf
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -915,7 +906,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Decor/Pillager Village Decor Small 03</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Trapdoor, White Wall Banner, Dark Oak Log, Dark Oak Slab.
+The structure part is composed of the following blocks: Dark Oak Trapdoor, White Wall Banner, Dark Oak Log, Dark Oak Slab.
 
 ### Blocks
 
@@ -929,12 +920,12 @@ The structure is composed of the following blocks: Dark Oak Trapdoor, White Wall
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -942,7 +933,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Decor/Pillager Village Decor Small 04</strong></summary>
 
-The structure is composed of the following blocks: Hay Block, Dark Oak Trapdoor, Dried Kelp Block.
+The structure part is composed of the following blocks: Hay Block, Dark Oak Trapdoor, Dried Kelp Block.
 
 ### Blocks
 
@@ -955,12 +946,12 @@ The structure is composed of the following blocks: Hay Block, Dark Oak Trapdoor,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -968,7 +959,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Decor/Pillager Village Decor Wall 01</strong></summary>
 
-The structure is composed of the following blocks: Bookshelf, Dark Oak Trapdoor, Dark Oak Stairs, Dark Oak Slab.
+The structure part is composed of the following blocks: Bookshelf, Dark Oak Trapdoor, Dark Oak Stairs, Dark Oak Slab.
 
 ### Blocks
 
@@ -982,12 +973,12 @@ The structure is composed of the following blocks: Bookshelf, Dark Oak Trapdoor,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -995,7 +986,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Decor/Pillager Village Decor Wall 02</strong></summary>
 
-The structure is composed of the following blocks: Chest, Dark Oak Trapdoor, Dark Oak Stairs.
+The structure part is composed of the following blocks: Chest, Dark Oak Trapdoor, Dark Oak Stairs.
 
 ### Blocks
 
@@ -1008,7 +999,7 @@ The structure is composed of the following blocks: Chest, Dark Oak Trapdoor, Dar
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1024,7 +1015,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Decor/Pillager Village Decor Wall 03</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Stairs, Tripwire Hook, Barrel.
+The structure part is composed of the following blocks: Dark Oak Stairs, Tripwire Hook, Barrel.
 
 ### Blocks
 
@@ -1037,7 +1028,7 @@ The structure is composed of the following blocks: Dark Oak Stairs, Tripwire Hoo
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1052,7 +1043,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Decor/Pillager Village Decor Wall 04</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Trapdoor.
+The structure part is composed of the following blocks: Dark Oak Trapdoor.
 
 ### Blocks
 
@@ -1063,12 +1054,12 @@ The structure is composed of the following blocks: Dark Oak Trapdoor.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1076,7 +1067,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Decor/Pillager Village Decor Wall 05</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Fence, White Wall Banner.
+The structure part is composed of the following blocks: Dark Oak Fence, White Wall Banner.
 
 ### Blocks
 
@@ -1088,12 +1079,12 @@ The structure is composed of the following blocks: Dark Oak Fence, White Wall Ba
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1101,7 +1092,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Pillager Village Boss</strong></summary>
 
-The structure is composed of the following blocks: Cobblestone Stairs, Cobblestone.
+The structure part is composed of the following blocks: Cobblestone Stairs, Cobblestone.
 
 ### Blocks
 
@@ -1113,12 +1104,12 @@ The structure is composed of the following blocks: Cobblestone Stairs, Cobblesto
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1126,7 +1117,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Pillager Village Main</strong></summary>
 
-The structure is composed of the following blocks: Podzol, Coarse Dirt, Dirt, Grass Block, Sand, Gravel.
+The structure part is composed of the following blocks: Podzol, Coarse Dirt, Dirt, Grass Block, Sand, Gravel.
 
 ### Blocks
 
@@ -1142,12 +1133,12 @@ The structure is composed of the following blocks: Podzol, Coarse Dirt, Dirt, Gr
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1155,7 +1146,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Wall/Pillager Village Wall 01</strong></summary>
 
-The structure is composed of the following blocks: Cobblestone, Dark Oak Log, Podzol, Oak Log, Spruce Log, Cobblestone Slab.
+The structure part is composed of the following blocks: Cobblestone, Dark Oak Log, Podzol, Oak Log, Spruce Log, Cobblestone Slab.
 
 ### Blocks
 
@@ -1171,12 +1162,12 @@ The structure is composed of the following blocks: Cobblestone, Dark Oak Log, Po
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1184,7 +1175,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Wall/Pillager Village Wall 02</strong></summary>
 
-The structure is composed of the following blocks: Cobblestone, Podzol, Oak Log, Spruce Log, Cobblestone Slab, Dark Oak Log.
+The structure part is composed of the following blocks: Cobblestone, Podzol, Oak Log, Spruce Log, Cobblestone Slab, Dark Oak Log.
 
 ### Blocks
 
@@ -1200,12 +1191,12 @@ The structure is composed of the following blocks: Cobblestone, Podzol, Oak Log,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1213,7 +1204,7 @@ None found.
 <details>
 <summary><strong>Pillager Village/Wall/Pillager Village Wall 03</strong></summary>
 
-The structure is composed of the following blocks: Cobblestone, Podzol, Dark Oak Log, Oak Log, Spruce Log, Cobblestone Slab.
+The structure part is composed of the following blocks: Cobblestone, Podzol, Dark Oak Log, Oak Log, Spruce Log, Cobblestone Slab.
 
 ### Blocks
 
@@ -1229,12 +1220,12 @@ The structure is composed of the following blocks: Cobblestone, Podzol, Dark Oak
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>

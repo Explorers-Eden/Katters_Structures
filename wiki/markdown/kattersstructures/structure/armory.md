@@ -1,25 +1,16 @@
-# Armory
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Tuff Bricks, Polished Tuff, Weathered Copper Trapdoor, Tuff Brick Stairs, Grass Block, Polished Tuff Stairs, Dirt, Chiseled Tuff Bricks, Redstone Wall Torch, Chiseled Tuff, Stripped Dark Oak Log, Exposed Copper Trapdoor, Azalea Leaves, Polished Tuff Slab, Vine, Weathered Copper Grate, Flowering Azalea Leaves, Weathered Copper Door, Raw Gold Block, Tuff Brick Slab, Lightning Rod, Chest, Polished Tuff Wall, Tuff Brick Wall, Chiseled Bookshelf, Weathered Cut Copper Stairs, Weathered Chiseled Copper, Bookshelf, Vault, Weathered Cut Copper Slab, Weathered Cut Copper, Waxed Weathered Copper Grate, Decorated Pot, Exposed Copper Bulb, Lever, Cobweb, Light Blue Stained Glass Pane, Ochre Froglight.
 
 Additionally, the following entities may spawn during its generation: Armor Stand.
 
-### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/armory/basic |
-| kattersstructures:vault/armory |
-| kattersstructures:vault/boss_vault |
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Armory/Armory Empty</strong></summary>
 
-The structure is composed of the following blocks: Polished Tuff, Tuff Bricks.
+The structure part is composed of the following blocks: Polished Tuff, Tuff Bricks.
 
 ### Blocks
 
@@ -31,12 +22,12 @@ The structure is composed of the following blocks: Polished Tuff, Tuff Bricks.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -44,7 +35,7 @@ None found.
 <details>
 <summary><strong>Armory/Armory Entrance</strong></summary>
 
-The structure is composed of the following blocks: Grass Block, Dirt, Azalea Leaves, Exposed Copper Trapdoor, Vine, Polished Tuff Stairs, Tuff Bricks, Flowering Azalea Leaves, Polished Tuff Slab, Weathered Copper Trapdoor, Polished Tuff Wall, Tuff Brick Wall, Polished Tuff, Stripped Dark Oak Log, Chiseled Tuff, Chiseled Tuff Bricks, Tuff Brick Slab, Redstone Wall Torch, Weathered Copper Door.
+The structure part is composed of the following blocks: Grass Block, Dirt, Azalea Leaves, Exposed Copper Trapdoor, Vine, Polished Tuff Stairs, Tuff Bricks, Flowering Azalea Leaves, Polished Tuff Slab, Weathered Copper Trapdoor, Polished Tuff Wall, Tuff Brick Wall, Polished Tuff, Stripped Dark Oak Log, Chiseled Tuff, Chiseled Tuff Bricks, Tuff Brick Slab, Redstone Wall Torch, Weathered Copper Door.
 
 ### Blocks
 
@@ -73,12 +64,12 @@ The structure is composed of the following blocks: Grass Block, Dirt, Azalea Lea
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -86,7 +77,7 @@ None found.
 <details>
 <summary><strong>Armory/Big Decor/Armory Decor Big 01</strong></summary>
 
-The structure is composed of the following blocks: Polished Tuff, Weathered Cut Copper Stairs, Weathered Cut Copper Slab, Weathered Cut Copper, Polished Tuff Slab, Exposed Copper Bulb, Weathered Chiseled Copper.
+The structure part is composed of the following blocks: Polished Tuff, Weathered Cut Copper Stairs, Weathered Cut Copper Slab, Weathered Cut Copper, Polished Tuff Slab, Exposed Copper Bulb, Weathered Chiseled Copper.
 
 ### Blocks
 
@@ -103,12 +94,12 @@ The structure is composed of the following blocks: Polished Tuff, Weathered Cut 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -116,7 +107,7 @@ None found.
 <details>
 <summary><strong>Armory/Big Decor/Armory Decor Big 02</strong></summary>
 
-The structure is composed of the following blocks: Polished Tuff Stairs, Redstone Wall Torch, Tuff Brick Stairs, Polished Tuff, Tuff Bricks.
+The structure part is composed of the following blocks: Polished Tuff Stairs, Redstone Wall Torch, Tuff Brick Stairs, Polished Tuff, Tuff Bricks.
 
 ### Blocks
 
@@ -131,12 +122,12 @@ The structure is composed of the following blocks: Polished Tuff Stairs, Redston
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -144,7 +135,7 @@ None found.
 <details>
 <summary><strong>Armory/Big Decor/Armory Decor Big 03</strong></summary>
 
-The structure is composed of the following blocks: Lightning Rod, Exposed Copper Trapdoor, Polished Tuff, Waxed Weathered Copper Grate, Weathered Chiseled Copper.
+The structure part is composed of the following blocks: Lightning Rod, Exposed Copper Trapdoor, Polished Tuff, Waxed Weathered Copper Grate, Weathered Chiseled Copper.
 
 ### Blocks
 
@@ -159,12 +150,12 @@ The structure is composed of the following blocks: Lightning Rod, Exposed Copper
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -172,7 +163,7 @@ None found.
 <details>
 <summary><strong>Armory/Big Decor/Armory Decor Big 04</strong></summary>
 
-The structure is composed of the following blocks: Weathered Copper Trapdoor, Weathered Copper Grate, Weathered Chiseled Copper.
+The structure part is composed of the following blocks: Weathered Copper Trapdoor, Weathered Copper Grate, Weathered Chiseled Copper.
 
 ### Blocks
 
@@ -185,12 +176,12 @@ The structure is composed of the following blocks: Weathered Copper Trapdoor, We
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -198,7 +189,7 @@ None found.
 <details>
 <summary><strong>Armory/Corridor/Armory Boss Treasure</strong></summary>
 
-The structure is composed of the following blocks: Tuff Bricks, Polished Tuff, Raw Gold Block, Weathered Copper Trapdoor, Chiseled Tuff Bricks, Ochre Froglight, Vault.
+The structure part is composed of the following blocks: Tuff Bricks, Polished Tuff, Raw Gold Block, Weathered Copper Trapdoor, Chiseled Tuff Bricks, Ochre Froglight, Vault.
 
 ### Blocks
 
@@ -215,7 +206,7 @@ The structure is composed of the following blocks: Tuff Bricks, Polished Tuff, R
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -230,7 +221,7 @@ None found.
 <details>
 <summary><strong>Armory/Corridor/Armory Corridor 01</strong></summary>
 
-The structure is composed of the following blocks: Tuff Bricks, Polished Tuff, Chiseled Tuff, Weathered Copper Door, Polished Tuff Stairs, Redstone Wall Torch, Tuff Brick Stairs.
+The structure part is composed of the following blocks: Tuff Bricks, Polished Tuff, Chiseled Tuff, Weathered Copper Door, Polished Tuff Stairs, Redstone Wall Torch, Tuff Brick Stairs.
 
 ### Blocks
 
@@ -247,12 +238,12 @@ The structure is composed of the following blocks: Tuff Bricks, Polished Tuff, C
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -260,7 +251,7 @@ None found.
 <details>
 <summary><strong>Armory/Corridor/Armory Corridor 02</strong></summary>
 
-The structure is composed of the following blocks: Tuff Bricks, Polished Tuff, Chiseled Tuff Bricks, Polished Tuff Stairs, Redstone Wall Torch, Weathered Copper Door, Tuff Brick Stairs.
+The structure part is composed of the following blocks: Tuff Bricks, Polished Tuff, Chiseled Tuff Bricks, Polished Tuff Stairs, Redstone Wall Torch, Weathered Copper Door, Tuff Brick Stairs.
 
 ### Blocks
 
@@ -277,12 +268,12 @@ The structure is composed of the following blocks: Tuff Bricks, Polished Tuff, C
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -290,7 +281,7 @@ None found.
 <details>
 <summary><strong>Armory/Corridor/Armory Corridor 03</strong></summary>
 
-The structure is composed of the following blocks: Polished Tuff, Tuff Bricks, Chiseled Tuff Bricks, Polished Tuff Stairs, Weathered Copper Door, Redstone Wall Torch, Tuff Brick Stairs.
+The structure part is composed of the following blocks: Polished Tuff, Tuff Bricks, Chiseled Tuff Bricks, Polished Tuff Stairs, Weathered Copper Door, Redstone Wall Torch, Tuff Brick Stairs.
 
 ### Blocks
 
@@ -307,12 +298,12 @@ The structure is composed of the following blocks: Polished Tuff, Tuff Bricks, C
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -320,7 +311,7 @@ None found.
 <details>
 <summary><strong>Armory/Corridor/Armory Corridor 04</strong></summary>
 
-The structure is composed of the following blocks: Polished Tuff, Tuff Bricks, Chiseled Tuff, Redstone Wall Torch, Polished Tuff Stairs, Weathered Copper Door, Tuff Brick Stairs.
+The structure part is composed of the following blocks: Polished Tuff, Tuff Bricks, Chiseled Tuff, Redstone Wall Torch, Polished Tuff Stairs, Weathered Copper Door, Tuff Brick Stairs.
 
 ### Blocks
 
@@ -337,12 +328,12 @@ The structure is composed of the following blocks: Polished Tuff, Tuff Bricks, C
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -350,7 +341,7 @@ None found.
 <details>
 <summary><strong>Armory/Corridor/Armory Corridor Connecter</strong></summary>
 
-The structure is composed of the following blocks: Polished Tuff, Tuff Bricks, Chiseled Tuff Bricks, Redstone Wall Torch, Tuff Brick Stairs, Polished Tuff Stairs.
+The structure part is composed of the following blocks: Polished Tuff, Tuff Bricks, Chiseled Tuff Bricks, Redstone Wall Torch, Tuff Brick Stairs, Polished Tuff Stairs.
 
 ### Blocks
 
@@ -366,12 +357,12 @@ The structure is composed of the following blocks: Polished Tuff, Tuff Bricks, C
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -379,7 +370,7 @@ None found.
 <details>
 <summary><strong>Armory/Corridor/Armory Corridor Corner 01</strong></summary>
 
-The structure is composed of the following blocks: Polished Tuff, Tuff Bricks, Chiseled Tuff Bricks, Redstone Wall Torch, Tuff Brick Stairs.
+The structure part is composed of the following blocks: Polished Tuff, Tuff Bricks, Chiseled Tuff Bricks, Redstone Wall Torch, Tuff Brick Stairs.
 
 ### Blocks
 
@@ -394,12 +385,12 @@ The structure is composed of the following blocks: Polished Tuff, Tuff Bricks, C
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -407,7 +398,7 @@ None found.
 <details>
 <summary><strong>Armory/Corridor/Armory Corridor Corner 02</strong></summary>
 
-The structure is composed of the following blocks: Polished Tuff, Tuff Bricks, Chiseled Tuff Bricks, Redstone Wall Torch, Tuff Brick Stairs.
+The structure part is composed of the following blocks: Polished Tuff, Tuff Bricks, Chiseled Tuff Bricks, Redstone Wall Torch, Tuff Brick Stairs.
 
 ### Blocks
 
@@ -422,12 +413,12 @@ The structure is composed of the following blocks: Polished Tuff, Tuff Bricks, C
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -435,7 +426,7 @@ None found.
 <details>
 <summary><strong>Armory/Corridor/Armory Corridor Crossing</strong></summary>
 
-The structure is composed of the following blocks: Polished Tuff, Tuff Bricks, Tuff Brick Stairs, Polished Tuff Stairs, Chiseled Tuff Bricks, Redstone Wall Torch, Tuff Brick Slab.
+The structure part is composed of the following blocks: Polished Tuff, Tuff Bricks, Tuff Brick Stairs, Polished Tuff Stairs, Chiseled Tuff Bricks, Redstone Wall Torch, Tuff Brick Slab.
 
 ### Blocks
 
@@ -452,12 +443,12 @@ The structure is composed of the following blocks: Polished Tuff, Tuff Bricks, T
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -465,7 +456,7 @@ None found.
 <details>
 <summary><strong>Armory/Corridor/Decor/Armory Decor 01</strong></summary>
 
-The structure is composed of the following blocks: Weathered Copper Trapdoor, Exposed Copper Trapdoor.
+The structure part is composed of the following blocks: Weathered Copper Trapdoor, Exposed Copper Trapdoor.
 
 ### Blocks
 
@@ -477,12 +468,12 @@ The structure is composed of the following blocks: Weathered Copper Trapdoor, Ex
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -490,7 +481,7 @@ None found.
 <details>
 <summary><strong>Armory/Corridor/Decor/Armory Decor 02</strong></summary>
 
-The structure is composed of the following blocks: Weathered Copper Trapdoor, Exposed Copper Trapdoor.
+The structure part is composed of the following blocks: Weathered Copper Trapdoor, Exposed Copper Trapdoor.
 
 ### Blocks
 
@@ -502,12 +493,12 @@ The structure is composed of the following blocks: Weathered Copper Trapdoor, Ex
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -515,7 +506,7 @@ None found.
 <details>
 <summary><strong>Armory/Corridor/Decor/Armory Decor 03</strong></summary>
 
-The structure is composed of the following blocks: Lightning Rod.
+The structure part is composed of the following blocks: Lightning Rod.
 
 ### Blocks
 
@@ -526,12 +517,12 @@ The structure is composed of the following blocks: Lightning Rod.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -539,7 +530,7 @@ None found.
 <details>
 <summary><strong>Armory/Corridor/Decor/Armory Decor 04</strong></summary>
 
-The structure is composed of the following blocks: Decorated Pot.
+The structure part is composed of the following blocks: Decorated Pot.
 
 ### Blocks
 
@@ -550,12 +541,12 @@ The structure is composed of the following blocks: Decorated Pot.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -563,7 +554,7 @@ None found.
 <details>
 <summary><strong>Armory/Corridor/Decor/Armory Decor 05</strong></summary>
 
-The structure is composed of the following blocks: Weathered Copper Trapdoor, Weathered Copper Door.
+The structure part is composed of the following blocks: Weathered Copper Trapdoor, Weathered Copper Door.
 
 ### Blocks
 
@@ -575,12 +566,12 @@ The structure is composed of the following blocks: Weathered Copper Trapdoor, We
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -588,7 +579,7 @@ None found.
 <details>
 <summary><strong>Armory/Corridor/Decor/Armory Decor 06</strong></summary>
 
-The structure is composed of the following blocks: Cobweb, Weathered Copper Trapdoor.
+The structure part is composed of the following blocks: Cobweb, Weathered Copper Trapdoor.
 
 ### Blocks
 
@@ -600,12 +591,12 @@ The structure is composed of the following blocks: Cobweb, Weathered Copper Trap
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -613,7 +604,7 @@ None found.
 <details>
 <summary><strong>Armory/Corridor/Decor/Armory Decor 07</strong></summary>
 
-The structure is composed of the following blocks: Weathered Copper Trapdoor, Exposed Copper Trapdoor.
+The structure part is composed of the following blocks: Weathered Copper Trapdoor, Exposed Copper Trapdoor.
 
 ### Blocks
 
@@ -625,12 +616,12 @@ The structure is composed of the following blocks: Weathered Copper Trapdoor, Ex
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -638,7 +629,7 @@ None found.
 <details>
 <summary><strong>Armory/Corridor/Decor/Armory Decor 08</strong></summary>
 
-The structure is composed of the following blocks: Lightning Rod, Lever, Waxed Weathered Copper Grate.
+The structure part is composed of the following blocks: Lightning Rod, Lever, Waxed Weathered Copper Grate.
 
 ### Blocks
 
@@ -651,12 +642,12 @@ The structure is composed of the following blocks: Lightning Rod, Lever, Waxed W
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -664,7 +655,7 @@ None found.
 <details>
 <summary><strong>Armory/Corridor/Decor/Armory Decor 09</strong></summary>
 
-The structure is composed of the following blocks: Lightning Rod, Waxed Weathered Copper Grate.
+The structure part is composed of the following blocks: Lightning Rod, Waxed Weathered Copper Grate.
 
 ### Blocks
 
@@ -676,12 +667,12 @@ The structure is composed of the following blocks: Lightning Rod, Waxed Weathere
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -689,7 +680,7 @@ None found.
 <details>
 <summary><strong>Armory/Corridor/Decor/Armory Decor 10</strong></summary>
 
-The structure is composed of the following blocks: Weathered Copper Trapdoor, Exposed Copper Trapdoor.
+The structure part is composed of the following blocks: Weathered Copper Trapdoor, Exposed Copper Trapdoor.
 
 ### Blocks
 
@@ -701,12 +692,12 @@ The structure is composed of the following blocks: Weathered Copper Trapdoor, Ex
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -714,7 +705,7 @@ None found.
 <details>
 <summary><strong>Armory/Corridor/Decor/Armory Decor 11</strong></summary>
 
-The structure is composed of the following blocks: Decorated Pot, Lever, Light Blue Stained Glass Pane.
+The structure part is composed of the following blocks: Decorated Pot, Lever, Light Blue Stained Glass Pane.
 
 ### Blocks
 
@@ -727,12 +718,12 @@ The structure is composed of the following blocks: Decorated Pot, Lever, Light B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -740,7 +731,7 @@ None found.
 <details>
 <summary><strong>Armory/Corridor/Decor/Armory Decor 12</strong></summary>
 
-The structure is composed of the following blocks: Stripped Dark Oak Log.
+The structure part is composed of the following blocks: Stripped Dark Oak Log.
 
 ### Blocks
 
@@ -751,12 +742,12 @@ The structure is composed of the following blocks: Stripped Dark Oak Log.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -764,7 +755,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Armory Room Leftside 01</strong></summary>
 
-The structure is composed of the following blocks: Polished Tuff, Tuff Bricks, Redstone Wall Torch, Tuff Brick Stairs.
+The structure part is composed of the following blocks: Polished Tuff, Tuff Bricks, Redstone Wall Torch, Tuff Brick Stairs.
 
 ### Blocks
 
@@ -778,12 +769,12 @@ The structure is composed of the following blocks: Polished Tuff, Tuff Bricks, R
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -791,7 +782,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Armory Room Leftside 02</strong></summary>
 
-The structure is composed of the following blocks: Polished Tuff, Tuff Bricks, Chiseled Tuff, Redstone Wall Torch, Tuff Brick Stairs.
+The structure part is composed of the following blocks: Polished Tuff, Tuff Bricks, Chiseled Tuff, Redstone Wall Torch, Tuff Brick Stairs.
 
 ### Blocks
 
@@ -806,12 +797,12 @@ The structure is composed of the following blocks: Polished Tuff, Tuff Bricks, C
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -819,7 +810,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Armory Room Normal 01</strong></summary>
 
-The structure is composed of the following blocks: Tuff Bricks, Polished Tuff, Chiseled Tuff, Redstone Wall Torch, Tuff Brick Stairs.
+The structure part is composed of the following blocks: Tuff Bricks, Polished Tuff, Chiseled Tuff, Redstone Wall Torch, Tuff Brick Stairs.
 
 ### Blocks
 
@@ -834,12 +825,12 @@ The structure is composed of the following blocks: Tuff Bricks, Polished Tuff, C
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -847,7 +838,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Armory Room Normal 02</strong></summary>
 
-The structure is composed of the following blocks: Tuff Bricks, Polished Tuff, Chiseled Tuff, Redstone Wall Torch, Tuff Brick Stairs.
+The structure part is composed of the following blocks: Tuff Bricks, Polished Tuff, Chiseled Tuff, Redstone Wall Torch, Tuff Brick Stairs.
 
 ### Blocks
 
@@ -862,12 +853,12 @@ The structure is composed of the following blocks: Tuff Bricks, Polished Tuff, C
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -875,7 +866,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Armory Room Normal 03</strong></summary>
 
-The structure is composed of the following blocks: Tuff Bricks, Polished Tuff, Chiseled Tuff, Polished Tuff Stairs, Redstone Wall Torch, Tuff Brick Stairs.
+The structure part is composed of the following blocks: Tuff Bricks, Polished Tuff, Chiseled Tuff, Polished Tuff Stairs, Redstone Wall Torch, Tuff Brick Stairs.
 
 ### Blocks
 
@@ -891,12 +882,12 @@ The structure is composed of the following blocks: Tuff Bricks, Polished Tuff, C
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -904,7 +895,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Armory Room Rightside 01</strong></summary>
 
-The structure is composed of the following blocks: Polished Tuff, Tuff Bricks, Redstone Wall Torch, Tuff Brick Stairs.
+The structure part is composed of the following blocks: Polished Tuff, Tuff Bricks, Redstone Wall Torch, Tuff Brick Stairs.
 
 ### Blocks
 
@@ -918,12 +909,12 @@ The structure is composed of the following blocks: Polished Tuff, Tuff Bricks, R
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -931,7 +922,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Armory Room Rightside 02</strong></summary>
 
-The structure is composed of the following blocks: Polished Tuff, Tuff Bricks, Chiseled Tuff, Redstone Wall Torch, Tuff Brick Stairs.
+The structure part is composed of the following blocks: Polished Tuff, Tuff Bricks, Chiseled Tuff, Redstone Wall Torch, Tuff Brick Stairs.
 
 ### Blocks
 
@@ -946,12 +937,12 @@ The structure is composed of the following blocks: Polished Tuff, Tuff Bricks, C
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -959,7 +950,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Armory Room Twodoor 01</strong></summary>
 
-The structure is composed of the following blocks: Polished Tuff, Tuff Bricks, Chiseled Tuff, Redstone Wall Torch, Tuff Brick Stairs.
+The structure part is composed of the following blocks: Polished Tuff, Tuff Bricks, Chiseled Tuff, Redstone Wall Torch, Tuff Brick Stairs.
 
 ### Blocks
 
@@ -974,12 +965,12 @@ The structure is composed of the following blocks: Polished Tuff, Tuff Bricks, C
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -987,7 +978,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Armory Room Twodoor 02</strong></summary>
 
-The structure is composed of the following blocks: Polished Tuff, Tuff Bricks, Chiseled Tuff, Redstone Wall Torch, Tuff Brick Stairs.
+The structure part is composed of the following blocks: Polished Tuff, Tuff Bricks, Chiseled Tuff, Redstone Wall Torch, Tuff Brick Stairs.
 
 ### Blocks
 
@@ -1002,12 +993,12 @@ The structure is composed of the following blocks: Polished Tuff, Tuff Bricks, C
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1015,7 +1006,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Armory Room Twodoor 03</strong></summary>
 
-The structure is composed of the following blocks: Tuff Bricks, Polished Tuff, Tuff Brick Stairs, Polished Tuff Stairs, Redstone Wall Torch.
+The structure part is composed of the following blocks: Tuff Bricks, Polished Tuff, Tuff Brick Stairs, Polished Tuff Stairs, Redstone Wall Torch.
 
 ### Blocks
 
@@ -1030,12 +1021,12 @@ The structure is composed of the following blocks: Tuff Bricks, Polished Tuff, T
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1043,13 +1034,13 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Armorstand 01</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Armor Stand.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -1061,7 +1052,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1069,13 +1060,13 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Armorstand 02</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Armor Stand.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -1087,7 +1078,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1095,13 +1086,13 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Armorstand 03</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Armor Stand.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -1113,7 +1104,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1121,13 +1112,13 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Armorstand 04</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Armor Stand.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -1139,7 +1130,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1147,13 +1138,13 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Armorstand 05</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Armor Stand.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -1165,7 +1156,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1173,13 +1164,13 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Armorstand 06</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Armor Stand.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -1191,7 +1182,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1199,13 +1190,13 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Armorstand 07</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Armor Stand.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -1217,7 +1208,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1225,13 +1216,13 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Armorstand 08</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Armor Stand.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -1243,7 +1234,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1251,13 +1242,13 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Armorstand 09</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Armor Stand.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -1269,7 +1260,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1277,13 +1268,13 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Armorstand 10</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Armor Stand.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -1295,7 +1286,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1303,7 +1294,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Room Chest Normal 01</strong></summary>
 
-The structure is composed of the following blocks: Chest.
+The structure part is composed of the following blocks: Chest.
 
 ### Blocks
 
@@ -1314,7 +1305,7 @@ The structure is composed of the following blocks: Chest.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1329,7 +1320,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Room Decor 01</strong></summary>
 
-The structure is composed of the following blocks: Weathered Copper Trapdoor, Stripped Dark Oak Log, Chest.
+The structure part is composed of the following blocks: Weathered Copper Trapdoor, Stripped Dark Oak Log, Chest.
 
 ### Blocks
 
@@ -1342,7 +1333,7 @@ The structure is composed of the following blocks: Weathered Copper Trapdoor, St
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1357,7 +1348,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Room Decor 02</strong></summary>
 
-The structure is composed of the following blocks: Weathered Copper Trapdoor, Stripped Dark Oak Log, Chest.
+The structure part is composed of the following blocks: Weathered Copper Trapdoor, Stripped Dark Oak Log, Chest.
 
 ### Blocks
 
@@ -1370,7 +1361,7 @@ The structure is composed of the following blocks: Weathered Copper Trapdoor, St
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1385,7 +1376,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Room Decor 03</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf, Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf, Bookshelf.
 
 ### Blocks
 
@@ -1397,12 +1388,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf, Bookshelf
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1410,7 +1401,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Room Decor 04</strong></summary>
 
-The structure is composed of the following blocks: Stripped Dark Oak Log, Weathered Copper Trapdoor.
+The structure part is composed of the following blocks: Stripped Dark Oak Log, Weathered Copper Trapdoor.
 
 ### Blocks
 
@@ -1422,12 +1413,12 @@ The structure is composed of the following blocks: Stripped Dark Oak Log, Weathe
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1435,7 +1426,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Room Decor 05</strong></summary>
 
-The structure is composed of the following blocks: Weathered Copper Trapdoor, Vault, Weathered Chiseled Copper, Weathered Copper Grate.
+The structure part is composed of the following blocks: Weathered Copper Trapdoor, Vault, Weathered Chiseled Copper, Weathered Copper Grate.
 
 ### Blocks
 
@@ -1449,7 +1440,7 @@ The structure is composed of the following blocks: Weathered Copper Trapdoor, Va
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1464,7 +1455,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Room Decor 06</strong></summary>
 
-The structure is composed of the following blocks: Tuff Brick Stairs, Weathered Copper Trapdoor, Vault.
+The structure part is composed of the following blocks: Tuff Brick Stairs, Weathered Copper Trapdoor, Vault.
 
 ### Blocks
 
@@ -1477,7 +1468,7 @@ The structure is composed of the following blocks: Tuff Brick Stairs, Weathered 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1492,7 +1483,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Room Decor 07</strong></summary>
 
-The structure is composed of the following blocks: Weathered Copper Trapdoor, Chest.
+The structure part is composed of the following blocks: Weathered Copper Trapdoor, Chest.
 
 ### Blocks
 
@@ -1504,7 +1495,7 @@ The structure is composed of the following blocks: Weathered Copper Trapdoor, Ch
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1519,7 +1510,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Room Decor 08</strong></summary>
 
-The structure is composed of the following blocks: Weathered Copper Grate, Chest, Weathered Copper Trapdoor.
+The structure part is composed of the following blocks: Weathered Copper Grate, Chest, Weathered Copper Trapdoor.
 
 ### Blocks
 
@@ -1532,7 +1523,7 @@ The structure is composed of the following blocks: Weathered Copper Grate, Chest
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1547,7 +1538,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Room Decor 09</strong></summary>
 
-The structure is composed of the following blocks: Stripped Dark Oak Log, Chiseled Tuff Bricks.
+The structure part is composed of the following blocks: Stripped Dark Oak Log, Chiseled Tuff Bricks.
 
 ### Blocks
 
@@ -1559,12 +1550,12 @@ The structure is composed of the following blocks: Stripped Dark Oak Log, Chisel
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1572,7 +1563,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Room Decor 10</strong></summary>
 
-The structure is composed of the following blocks: Lightning Rod, Weathered Chiseled Copper.
+The structure part is composed of the following blocks: Lightning Rod, Weathered Chiseled Copper.
 
 ### Blocks
 
@@ -1584,12 +1575,12 @@ The structure is composed of the following blocks: Lightning Rod, Weathered Chis
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1597,7 +1588,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Room Decor High 01</strong></summary>
 
-The structure is composed of the following blocks: Weathered Copper Trapdoor, Stripped Dark Oak Log, Chest.
+The structure part is composed of the following blocks: Weathered Copper Trapdoor, Stripped Dark Oak Log, Chest.
 
 ### Blocks
 
@@ -1610,7 +1601,7 @@ The structure is composed of the following blocks: Weathered Copper Trapdoor, St
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1625,7 +1616,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Room Decor High 02</strong></summary>
 
-The structure is composed of the following blocks: Weathered Copper Trapdoor, Stripped Dark Oak Log, Chest.
+The structure part is composed of the following blocks: Weathered Copper Trapdoor, Stripped Dark Oak Log, Chest.
 
 ### Blocks
 
@@ -1638,7 +1629,7 @@ The structure is composed of the following blocks: Weathered Copper Trapdoor, St
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1653,7 +1644,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Room Decor High 03</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf, Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf, Bookshelf.
 
 ### Blocks
 
@@ -1665,12 +1656,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf, Bookshelf
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1678,7 +1669,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Room Decor High 04</strong></summary>
 
-The structure is composed of the following blocks: Stripped Dark Oak Log, Weathered Copper Trapdoor.
+The structure part is composed of the following blocks: Stripped Dark Oak Log, Weathered Copper Trapdoor.
 
 ### Blocks
 
@@ -1690,12 +1681,12 @@ The structure is composed of the following blocks: Stripped Dark Oak Log, Weathe
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1703,7 +1694,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Room Decor High 05</strong></summary>
 
-The structure is composed of the following blocks: Weathered Copper Trapdoor, Vault, Weathered Chiseled Copper, Weathered Copper Grate.
+The structure part is composed of the following blocks: Weathered Copper Trapdoor, Vault, Weathered Chiseled Copper, Weathered Copper Grate.
 
 ### Blocks
 
@@ -1717,7 +1708,7 @@ The structure is composed of the following blocks: Weathered Copper Trapdoor, Va
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1732,7 +1723,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Room Decor High 06</strong></summary>
 
-The structure is composed of the following blocks: Tuff Brick Stairs, Weathered Copper Trapdoor, Vault.
+The structure part is composed of the following blocks: Tuff Brick Stairs, Weathered Copper Trapdoor, Vault.
 
 ### Blocks
 
@@ -1745,7 +1736,7 @@ The structure is composed of the following blocks: Tuff Brick Stairs, Weathered 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1760,7 +1751,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Room Decor High 07</strong></summary>
 
-The structure is composed of the following blocks: Weathered Copper Trapdoor, Exposed Copper Trapdoor, Chest.
+The structure part is composed of the following blocks: Weathered Copper Trapdoor, Exposed Copper Trapdoor, Chest.
 
 ### Blocks
 
@@ -1773,7 +1764,7 @@ The structure is composed of the following blocks: Weathered Copper Trapdoor, Ex
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1788,7 +1779,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Room Decor High 08</strong></summary>
 
-The structure is composed of the following blocks: Weathered Copper Grate, Weathered Copper Trapdoor, Chest.
+The structure part is composed of the following blocks: Weathered Copper Grate, Weathered Copper Trapdoor, Chest.
 
 ### Blocks
 
@@ -1801,7 +1792,7 @@ The structure is composed of the following blocks: Weathered Copper Grate, Weath
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1816,7 +1807,7 @@ None found.
 <details>
 <summary><strong>Armory/Room/Decor/Armory Room Decor High 09</strong></summary>
 
-The structure is composed of the following blocks: Stripped Dark Oak Log, Chiseled Tuff Bricks.
+The structure part is composed of the following blocks: Stripped Dark Oak Log, Chiseled Tuff Bricks.
 
 ### Blocks
 
@@ -1828,12 +1819,12 @@ The structure is composed of the following blocks: Stripped Dark Oak Log, Chisel
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1841,7 +1832,7 @@ None found.
 <details>
 <summary><strong>Armory/Stairs/Armory Down Entrance</strong></summary>
 
-The structure is composed of the following blocks: Polished Tuff, Tuff Bricks, Redstone Wall Torch, Stripped Dark Oak Log, Tuff Brick Slab, Polished Tuff Slab, Tuff Brick Stairs.
+The structure part is composed of the following blocks: Polished Tuff, Tuff Bricks, Redstone Wall Torch, Stripped Dark Oak Log, Tuff Brick Slab, Polished Tuff Slab, Tuff Brick Stairs.
 
 ### Blocks
 
@@ -1858,12 +1849,12 @@ The structure is composed of the following blocks: Polished Tuff, Tuff Bricks, R
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1871,7 +1862,7 @@ None found.
 <details>
 <summary><strong>Armory/Stairs/Armory Down Exit</strong></summary>
 
-The structure is composed of the following blocks: Tuff Bricks, Polished Tuff, Tuff Brick Slab, Polished Tuff Slab, Stripped Dark Oak Log, Redstone Wall Torch, Tuff Brick Stairs.
+The structure part is composed of the following blocks: Tuff Bricks, Polished Tuff, Tuff Brick Slab, Polished Tuff Slab, Stripped Dark Oak Log, Redstone Wall Torch, Tuff Brick Stairs.
 
 ### Blocks
 
@@ -1888,12 +1879,12 @@ The structure is composed of the following blocks: Tuff Bricks, Polished Tuff, T
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1901,7 +1892,7 @@ None found.
 <details>
 <summary><strong>Armory/Stairs/Armory Stairs</strong></summary>
 
-The structure is composed of the following blocks: Tuff Bricks, Polished Tuff, Polished Tuff Slab, Redstone Wall Torch, Tuff Brick Slab, Stripped Dark Oak Log.
+The structure part is composed of the following blocks: Tuff Bricks, Polished Tuff, Polished Tuff Slab, Redstone Wall Torch, Tuff Brick Slab, Stripped Dark Oak Log.
 
 ### Blocks
 
@@ -1917,12 +1908,12 @@ The structure is composed of the following blocks: Tuff Bricks, Polished Tuff, P
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>

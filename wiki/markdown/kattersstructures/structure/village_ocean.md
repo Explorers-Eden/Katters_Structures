@@ -1,34 +1,16 @@
-# Village Ocean
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Campfire, Azalea Leaves, Jungle Trapdoor, Spruce Trapdoor, Vine, Oak Trapdoor, Jungle Slab, Flowering Azalea Leaves, Bamboo Trapdoor, Oak Slab, Granite, Stripped Jungle Log, Jungle Fence, Spruce Slab, Stone, Birch Planks, Stripped Oak Log, Stripped Spruce Log, Oak Fence, Bamboo Slab, Lantern, Stripped Bamboo Block, Spruce Stairs, Jungle Fence Gate, Birch Leaves, Mangrove Planks, Mangrove Slab, Glow Lichen, Jungle Wall Sign, Oak Fence Gate, Birch Wall Sign, Jungle Stairs, Spruce Fence, Bamboo Fence, Moss Block, Oak Stairs, Bamboo Fence Gate, Farmland, Jungle Planks, Mangrove Wall Sign, Stripped Birch Log, Barrel, Grass Block, Oak Planks, Oak Wall Sign, Spruce Fence Gate, Chest, Hay Block, Spruce Planks, Birch Slab, Nether Wart Block, Brick Slab, Bamboo Stairs, Spruce Wall Sign, Stripped Mangrove Log, Ladder, Birch Fence, Warped Wart Block, White Wall Banner, Wheat, Mangrove Fence, Smooth Quartz Stairs, Polished Diorite Stairs, Quartz Stairs, Bamboo Planks, White Wool, Bookshelf, Red Wool, White Carpet, Bamboo Mosaic, Beetroots, Red Wall Banner, Spore Blossom, Brown Wall Banner, Diorite Stairs, Jungle Button, Beehive, Decorated Pot, Carrots, Chain, Crimson Fence Gate, Yellow Wall Banner, Chiseled Bookshelf, Crimson Fence, Warped Fence Gate, Warped Trapdoor, Bamboo Wall Sign, Birch Trapdoor, Cobblestone Wall, Crafting Table, Orange Bed, Orange Wall Banner, Pink Bed, Polished Deepslate Wall, Pumpkin, Scaffolding, Spruce Door, Stone Brick Wall, Stripped Crimson Stem, Stripped Warped Stem, Weeping Vines, Bamboo Mosaic Stairs, Crimson Slab, Crimson Trapdoor, Gravel, Lily Pad, Mangrove Fence Gate, Mangrove Trapdoor, Potatoes, Warped Fence, White Banner, Anvil, Bell, Brown Bed, Dark Oak Stairs, Deepslate Tile Slab, Deepslate Tile Stairs, Furnace, Lime Bed, Lime Wall Banner, Loom, Mangrove Door, Moss Carpet, Potted Flowering Azalea Bush, Purple Bed, Smooth Stone Slab, Spruce Button, Stripped Oak Wood, Twisting Vines, Warped Slab, Weeping Vines Plant, Yellow Bed, Birch Stairs, Blast Furnace, Brewing Stand, Cartography Table, Chipped Anvil, Cobblestone Slab, Composter, Crimson Fungus, Crimson Roots, Damaged Anvil, Dark Oak Fence, Fletching Table, Granite Stairs, Grindstone, Lectern, Melon Stem, Mud Brick Wall, Nether Sprouts, Polished Blackstone Button, Polished Deepslate Slab, Potted Allium, Potted Torchflower, Shroomlight, Smithing Table, Smoker, Stonecutter, Target, Twisting Vines Plant, Water Cauldron.
 
 Additionally, the following entities may spawn during its generation: Cod, Villager.
 
-### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/ocean/armorer |
-| kattersstructures:chests/ocean/butcher |
-| kattersstructures:chests/ocean/cartographer |
-| kattersstructures:chests/ocean/cleric |
-| kattersstructures:chests/ocean/fletcher |
-| kattersstructures:chests/ocean/house |
-| kattersstructures:chests/ocean/leatherworker |
-| kattersstructures:chests/ocean/lighthouse |
-| kattersstructures:chests/ocean/mason |
-| kattersstructures:chests/ocean/random |
-| kattersstructures:chests/ocean/shepherd |
-| kattersstructures:chests/ocean/toolsmith |
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Village Ocean/Decor/Decor Boat 1</strong></summary>
 
-The structure is composed of the following blocks: Spruce Trapdoor, Spruce Stairs, Oak Trapdoor, Spruce Slab, Red Wall Banner, Spruce Fence, White Banner, Barrel, Lantern.
+The structure part is composed of the following blocks: Spruce Trapdoor, Spruce Stairs, Oak Trapdoor, Spruce Slab, Red Wall Banner, Spruce Fence, White Banner, Barrel, Lantern.
 
 ### Blocks
 
@@ -47,7 +29,7 @@ The structure is composed of the following blocks: Spruce Trapdoor, Spruce Stair
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -62,7 +44,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/Decor/Decor Boat 2</strong></summary>
 
-The structure is composed of the following blocks: Jungle Trapdoor, Spruce Trapdoor, Jungle Fence, Spruce Wall Sign, Jungle Stairs, White Wall Banner, Oak Fence, Barrel, Jungle Slab, Lantern, White Banner.
+The structure part is composed of the following blocks: Jungle Trapdoor, Spruce Trapdoor, Jungle Fence, Spruce Wall Sign, Jungle Stairs, White Wall Banner, Oak Fence, Barrel, Jungle Slab, Lantern, White Banner.
 
 ### Blocks
 
@@ -83,7 +65,7 @@ The structure is composed of the following blocks: Jungle Trapdoor, Spruce Trapd
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -98,7 +80,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/Decor/Decor Boat 3</strong></summary>
 
-The structure is composed of the following blocks: Campfire, Jungle Trapdoor, Spruce Trapdoor, Oak Trapdoor, Jungle Wall Sign, Oak Wall Sign, Spruce Fence, White Wall Banner, Spruce Wall Sign, Barrel.
+The structure part is composed of the following blocks: Campfire, Jungle Trapdoor, Spruce Trapdoor, Oak Trapdoor, Jungle Wall Sign, Oak Wall Sign, Spruce Fence, White Wall Banner, Spruce Wall Sign, Barrel.
 
 ### Blocks
 
@@ -118,7 +100,7 @@ The structure is composed of the following blocks: Campfire, Jungle Trapdoor, Sp
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -133,7 +115,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/Decor/Decor Hay</strong></summary>
 
-The structure is composed of the following blocks: Hay Block, Campfire, Bamboo Trapdoor, Jungle Trapdoor, Stripped Oak Log, Oak Trapdoor, Spruce Trapdoor, Jungle Slab, Oak Slab.
+The structure part is composed of the following blocks: Hay Block, Campfire, Bamboo Trapdoor, Jungle Trapdoor, Stripped Oak Log, Oak Trapdoor, Spruce Trapdoor, Jungle Slab, Oak Slab.
 
 ### Blocks
 
@@ -152,12 +134,12 @@ The structure is composed of the following blocks: Hay Block, Campfire, Bamboo T
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -165,7 +147,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/Decor/Decor Lamp 1</strong></summary>
 
-The structure is composed of the following blocks: Jungle Trapdoor, Jungle Wall Sign, Jungle Fence, Lantern, Stripped Jungle Log.
+The structure part is composed of the following blocks: Jungle Trapdoor, Jungle Wall Sign, Jungle Fence, Lantern, Stripped Jungle Log.
 
 ### Blocks
 
@@ -180,12 +162,12 @@ The structure is composed of the following blocks: Jungle Trapdoor, Jungle Wall 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -193,7 +175,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/Decor/Decor Lamp 2</strong></summary>
 
-The structure is composed of the following blocks: Bamboo Trapdoor, Bamboo Wall Sign, Bamboo Fence, Lantern, Stripped Bamboo Block.
+The structure part is composed of the following blocks: Bamboo Trapdoor, Bamboo Wall Sign, Bamboo Fence, Lantern, Stripped Bamboo Block.
 
 ### Blocks
 
@@ -208,12 +190,12 @@ The structure is composed of the following blocks: Bamboo Trapdoor, Bamboo Wall 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -221,7 +203,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/Decor/Decor Lamp 3</strong></summary>
 
-The structure is composed of the following blocks: Oak Trapdoor, Oak Wall Sign, Oak Fence, Lantern, Stripped Oak Log.
+The structure part is composed of the following blocks: Oak Trapdoor, Oak Wall Sign, Oak Fence, Lantern, Stripped Oak Log.
 
 ### Blocks
 
@@ -236,12 +218,12 @@ The structure is composed of the following blocks: Oak Trapdoor, Oak Wall Sign, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -249,7 +231,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/Decor/Decor Storage</strong></summary>
 
-The structure is composed of the following blocks: Campfire, Jungle Trapdoor, Bamboo Trapdoor, Stripped Jungle Log, Barrel, Chest, Oak Trapdoor, Oak Slab, Bamboo Slab, Jungle Slab, Lantern, Spruce Trapdoor.
+The structure part is composed of the following blocks: Campfire, Jungle Trapdoor, Bamboo Trapdoor, Stripped Jungle Log, Barrel, Chest, Oak Trapdoor, Oak Slab, Bamboo Slab, Jungle Slab, Lantern, Spruce Trapdoor.
 
 ### Blocks
 
@@ -271,7 +253,7 @@ The structure is composed of the following blocks: Campfire, Jungle Trapdoor, Ba
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -286,7 +268,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/Farms/Farm 1</strong></summary>
 
-The structure is composed of the following blocks: Campfire, Farmland, Wheat, Jungle Trapdoor, Bamboo Trapdoor, Stripped Bamboo Block, Stripped Spruce Log, Oak Slab, Spruce Slab, Spruce Trapdoor, Jungle Slab, Lantern, Oak Fence.
+The structure part is composed of the following blocks: Campfire, Farmland, Wheat, Jungle Trapdoor, Bamboo Trapdoor, Stripped Bamboo Block, Stripped Spruce Log, Oak Slab, Spruce Slab, Spruce Trapdoor, Jungle Slab, Lantern, Oak Fence.
 
 ### Blocks
 
@@ -309,12 +291,12 @@ The structure is composed of the following blocks: Campfire, Farmland, Wheat, Ju
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -322,7 +304,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/Farms/Farm 2</strong></summary>
 
-The structure is composed of the following blocks: Campfire, Farmland, Jungle Trapdoor, Carrots, Spruce Trapdoor, Stripped Jungle Log, Stripped Spruce Log, Potatoes, Bamboo Trapdoor, Oak Slab, Oak Trapdoor, Bamboo Fence, Bamboo Slab, Jungle Slab, Lantern.
+The structure part is composed of the following blocks: Campfire, Farmland, Jungle Trapdoor, Carrots, Spruce Trapdoor, Stripped Jungle Log, Stripped Spruce Log, Potatoes, Bamboo Trapdoor, Oak Slab, Oak Trapdoor, Bamboo Fence, Bamboo Slab, Jungle Slab, Lantern.
 
 ### Blocks
 
@@ -347,12 +329,12 @@ The structure is composed of the following blocks: Campfire, Farmland, Jungle Tr
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -360,7 +342,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/Farms/Farm 3</strong></summary>
 
-The structure is composed of the following blocks: Campfire, Beetroots, Farmland, Jungle Trapdoor, Stripped Jungle Log, Oak Trapdoor, Bamboo Trapdoor, Spruce Trapdoor, Bamboo Slab, Jungle Slab, Lantern, Oak Fence, Oak Slab, Spruce Slab.
+The structure part is composed of the following blocks: Campfire, Beetroots, Farmland, Jungle Trapdoor, Stripped Jungle Log, Oak Trapdoor, Bamboo Trapdoor, Spruce Trapdoor, Bamboo Slab, Jungle Slab, Lantern, Oak Fence, Oak Slab, Spruce Slab.
 
 ### Blocks
 
@@ -384,12 +366,12 @@ The structure is composed of the following blocks: Campfire, Beetroots, Farmland
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -397,7 +379,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/House/Profession/House Armorer</strong></summary>
 
-The structure is composed of the following blocks: Azalea Leaves, Vine, Campfire, Flowering Azalea Leaves, Spruce Trapdoor, Jungle Trapdoor, Birch Leaves, Jungle Slab, Jungle Fence Gate, Oak Fence, Stripped Spruce Log, Spruce Slab, Oak Fence Gate, Oak Trapdoor, Polished Deepslate Wall, Stripped Jungle Log, Bamboo Fence Gate, Jungle Fence, Oak Slab, Stripped Oak Log, Orange Bed, Smooth Stone Slab, Spruce Fence, Spruce Fence Gate, Bamboo Fence, Blast Furnace, Chest, Damaged Anvil, Jungle Stairs, Lantern, Polished Deepslate Slab, Spore Blossom.
+The structure part is composed of the following blocks: Azalea Leaves, Vine, Campfire, Flowering Azalea Leaves, Spruce Trapdoor, Jungle Trapdoor, Birch Leaves, Jungle Slab, Jungle Fence Gate, Oak Fence, Stripped Spruce Log, Spruce Slab, Oak Fence Gate, Oak Trapdoor, Polished Deepslate Wall, Stripped Jungle Log, Bamboo Fence Gate, Jungle Fence, Oak Slab, Stripped Oak Log, Orange Bed, Smooth Stone Slab, Spruce Fence, Spruce Fence Gate, Bamboo Fence, Blast Furnace, Chest, Damaged Anvil, Jungle Stairs, Lantern, Polished Deepslate Slab, Spore Blossom.
 
 ### Blocks
 
@@ -439,7 +421,7 @@ The structure is composed of the following blocks: Azalea Leaves, Vine, Campfire
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -454,7 +436,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/House/Profession/House Butcher</strong></summary>
 
-The structure is composed of the following blocks: Vine, Campfire, Azalea Leaves, Flowering Azalea Leaves, Jungle Fence, Jungle Trapdoor, Grass Block, Oak Trapdoor, Bamboo Trapdoor, Oak Fence, Jungle Slab, Oak Fence Gate, Moss Block, Bamboo Fence, Stripped Bamboo Block, Stripped Spruce Log, Cobblestone Wall, Spruce Trapdoor, Bamboo Slab, Birch Leaves, Jungle Fence Gate, Lantern, Stripped Jungle Log, Bamboo Fence Gate, Oak Slab, Spruce Fence, Stripped Oak Log, Chest, Cobblestone Slab, Smoker, Spore Blossom, Spruce Slab, Stripped Oak Wood.
+The structure part is composed of the following blocks: Vine, Campfire, Azalea Leaves, Flowering Azalea Leaves, Jungle Fence, Jungle Trapdoor, Grass Block, Oak Trapdoor, Bamboo Trapdoor, Oak Fence, Jungle Slab, Oak Fence Gate, Moss Block, Bamboo Fence, Stripped Bamboo Block, Stripped Spruce Log, Cobblestone Wall, Spruce Trapdoor, Bamboo Slab, Birch Leaves, Jungle Fence Gate, Lantern, Stripped Jungle Log, Bamboo Fence Gate, Oak Slab, Spruce Fence, Stripped Oak Log, Chest, Cobblestone Slab, Smoker, Spore Blossom, Spruce Slab, Stripped Oak Wood.
 
 ### Blocks
 
@@ -497,7 +479,7 @@ The structure is composed of the following blocks: Vine, Campfire, Azalea Leaves
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -512,7 +494,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/House/Profession/House Cartographer</strong></summary>
 
-The structure is composed of the following blocks: Azalea Leaves, Vine, Flowering Azalea Leaves, Campfire, Jungle Fence Gate, Oak Trapdoor, Oak Fence, Stripped Oak Log, Bamboo Fence, Bamboo Trapdoor, Birch Leaves, Jungle Fence, Stripped Bamboo Block, Dark Oak Stairs, Jungle Slab, Jungle Trapdoor, Moss Carpet, Oak Fence Gate, Oak Slab, Bamboo Fence Gate, Bamboo Slab, Cartography Table, Chest, Dark Oak Fence, Lantern, Spore Blossom, Spruce Fence, Spruce Fence Gate, Spruce Slab.
+The structure part is composed of the following blocks: Azalea Leaves, Vine, Flowering Azalea Leaves, Campfire, Jungle Fence Gate, Oak Trapdoor, Oak Fence, Stripped Oak Log, Bamboo Fence, Bamboo Trapdoor, Birch Leaves, Jungle Fence, Stripped Bamboo Block, Dark Oak Stairs, Jungle Slab, Jungle Trapdoor, Moss Carpet, Oak Fence Gate, Oak Slab, Bamboo Fence Gate, Bamboo Slab, Cartography Table, Chest, Dark Oak Fence, Lantern, Spore Blossom, Spruce Fence, Spruce Fence Gate, Spruce Slab.
 
 ### Blocks
 
@@ -551,7 +533,7 @@ The structure is composed of the following blocks: Azalea Leaves, Vine, Flowerin
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -566,7 +548,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/House/Profession/House Cleric</strong></summary>
 
-The structure is composed of the following blocks: Nether Wart Block, Warped Wart Block, Campfire, Crimson Fence Gate, Crimson Fence, Warped Fence Gate, Warped Trapdoor, Mangrove Fence, Stripped Crimson Stem, Stripped Warped Stem, Weeping Vines, Chain, Crimson Slab, Crimson Trapdoor, Mangrove Fence Gate, Warped Fence, Twisting Vines, Warped Slab, Weeping Vines Plant, Brewing Stand, Chest, Crimson Fungus, Crimson Roots, Jungle Trapdoor, Nether Sprouts, Oak Slab, Oak Trapdoor, Shroomlight, Twisting Vines Plant.
+The structure part is composed of the following blocks: Nether Wart Block, Warped Wart Block, Campfire, Crimson Fence Gate, Crimson Fence, Warped Fence Gate, Warped Trapdoor, Mangrove Fence, Stripped Crimson Stem, Stripped Warped Stem, Weeping Vines, Chain, Crimson Slab, Crimson Trapdoor, Mangrove Fence Gate, Warped Fence, Twisting Vines, Warped Slab, Weeping Vines Plant, Brewing Stand, Chest, Crimson Fungus, Crimson Roots, Jungle Trapdoor, Nether Sprouts, Oak Slab, Oak Trapdoor, Shroomlight, Twisting Vines Plant.
 
 ### Blocks
 
@@ -605,7 +587,7 @@ The structure is composed of the following blocks: Nether Wart Block, Warped War
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -620,7 +602,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/House/Profession/House Farmer</strong></summary>
 
-The structure is composed of the following blocks: Campfire, Farmland, Wheat, Spruce Trapdoor, Oak Trapdoor, Jungle Trapdoor, Stripped Oak Log, Stripped Spruce Log, Jungle Slab, Oak Slab, Carrots, Composter, Lantern, Spruce Slab.
+The structure part is composed of the following blocks: Campfire, Farmland, Wheat, Spruce Trapdoor, Oak Trapdoor, Jungle Trapdoor, Stripped Oak Log, Stripped Spruce Log, Jungle Slab, Oak Slab, Carrots, Composter, Lantern, Spruce Slab.
 
 ### Blocks
 
@@ -644,12 +626,12 @@ The structure is composed of the following blocks: Campfire, Farmland, Wheat, Sp
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -657,7 +639,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/House/Profession/House Fletcher</strong></summary>
 
-The structure is composed of the following blocks: Azalea Leaves, Vine, Bamboo Trapdoor, Campfire, Flowering Azalea Leaves, Jungle Trapdoor, Bamboo Fence, Stripped Jungle Log, Stripped Spruce Log, Birch Fence, Jungle Fence, Jungle Slab, Oak Fence Gate, Oak Slab, Spruce Trapdoor, Bamboo Fence Gate, Birch Leaves, Birch Stairs, Chest, Fletching Table, Lantern, Oak Fence, Oak Trapdoor, Spruce Slab, Stripped Bamboo Block, Target.
+The structure part is composed of the following blocks: Azalea Leaves, Vine, Bamboo Trapdoor, Campfire, Flowering Azalea Leaves, Jungle Trapdoor, Bamboo Fence, Stripped Jungle Log, Stripped Spruce Log, Birch Fence, Jungle Fence, Jungle Slab, Oak Fence Gate, Oak Slab, Spruce Trapdoor, Bamboo Fence Gate, Birch Leaves, Birch Stairs, Chest, Fletching Table, Lantern, Oak Fence, Oak Trapdoor, Spruce Slab, Stripped Bamboo Block, Target.
 
 ### Blocks
 
@@ -693,7 +675,7 @@ The structure is composed of the following blocks: Azalea Leaves, Vine, Bamboo T
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -708,7 +690,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/House/Profession/House Leatherworker</strong></summary>
 
-The structure is composed of the following blocks: Azalea Leaves, Vine, Campfire, Flowering Azalea Leaves, Bamboo Trapdoor, Birch Leaves, Brown Wall Banner, Oak Fence, Jungle Fence, Oak Trapdoor, Spruce Trapdoor, Lily Pad, Stripped Bamboo Block, Stripped Oak Log, Stripped Spruce Log, Bamboo Fence, Bamboo Fence Gate, Jungle Slab, Jungle Trapdoor, Oak Fence Gate, Oak Stairs, Spruce Slab, Bamboo Slab, Chain, Chest, Jungle Fence Gate, Jungle Stairs, Lantern, Oak Slab, Spruce Fence, Spruce Fence Gate, Water Cauldron.
+The structure part is composed of the following blocks: Azalea Leaves, Vine, Campfire, Flowering Azalea Leaves, Bamboo Trapdoor, Birch Leaves, Brown Wall Banner, Oak Fence, Jungle Fence, Oak Trapdoor, Spruce Trapdoor, Lily Pad, Stripped Bamboo Block, Stripped Oak Log, Stripped Spruce Log, Bamboo Fence, Bamboo Fence Gate, Jungle Slab, Jungle Trapdoor, Oak Fence Gate, Oak Stairs, Spruce Slab, Bamboo Slab, Chain, Chest, Jungle Fence Gate, Jungle Stairs, Lantern, Oak Slab, Spruce Fence, Spruce Fence Gate, Water Cauldron.
 
 ### Blocks
 
@@ -750,7 +732,7 @@ The structure is composed of the following blocks: Azalea Leaves, Vine, Campfire
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -765,7 +747,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/House/Profession/House Librarian</strong></summary>
 
-The structure is composed of the following blocks: Jungle Stairs, Bamboo Slab, Bamboo Trapdoor, Jungle Slab, Bamboo Stairs, Bookshelf, Jungle Trapdoor, Oak Slab, Oak Stairs, Spruce Stairs, Spruce Trapdoor, Campfire, Spruce Slab, Chiseled Bookshelf, Oak Trapdoor, Bamboo Mosaic Stairs, Stripped Bamboo Block, Stripped Spruce Log, Lantern, Lectern, Stripped Jungle Log.
+The structure part is composed of the following blocks: Jungle Stairs, Bamboo Slab, Bamboo Trapdoor, Jungle Slab, Bamboo Stairs, Bookshelf, Jungle Trapdoor, Oak Slab, Oak Stairs, Spruce Stairs, Spruce Trapdoor, Campfire, Spruce Slab, Chiseled Bookshelf, Oak Trapdoor, Bamboo Mosaic Stairs, Stripped Bamboo Block, Stripped Spruce Log, Lantern, Lectern, Stripped Jungle Log.
 
 ### Blocks
 
@@ -796,12 +778,12 @@ The structure is composed of the following blocks: Jungle Stairs, Bamboo Slab, B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -809,7 +791,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/House/Profession/House Mason</strong></summary>
 
-The structure is composed of the following blocks: Brick Slab, Smooth Quartz Stairs, Bamboo Trapdoor, Polished Diorite Stairs, Glow Lichen, Stripped Bamboo Block, Campfire, Diorite Stairs, Jungle Trapdoor, Quartz Stairs, Spruce Trapdoor, Stripped Spruce Log, Jungle Fence, Jungle Slab, Oak Trapdoor, Lantern, Stonecutter.
+The structure part is composed of the following blocks: Brick Slab, Smooth Quartz Stairs, Bamboo Trapdoor, Polished Diorite Stairs, Glow Lichen, Stripped Bamboo Block, Campfire, Diorite Stairs, Jungle Trapdoor, Quartz Stairs, Spruce Trapdoor, Stripped Spruce Log, Jungle Fence, Jungle Slab, Oak Trapdoor, Lantern, Stonecutter.
 
 ### Blocks
 
@@ -836,12 +818,12 @@ The structure is composed of the following blocks: Brick Slab, Smooth Quartz Sta
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -849,7 +831,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/House/Profession/House Mason 2</strong></summary>
 
-The structure is composed of the following blocks: Quartz Stairs, Polished Diorite Stairs, Diorite Stairs, Smooth Quartz Stairs, Campfire, Gravel, Chest, Glow Lichen.
+The structure part is composed of the following blocks: Quartz Stairs, Polished Diorite Stairs, Diorite Stairs, Smooth Quartz Stairs, Campfire, Gravel, Chest, Glow Lichen.
 
 ### Blocks
 
@@ -867,7 +849,7 @@ The structure is composed of the following blocks: Quartz Stairs, Polished Diori
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -882,7 +864,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/House/Profession/House Shepherd</strong></summary>
 
-The structure is composed of the following blocks: Azalea Leaves, Campfire, Flowering Azalea Leaves, Oak Fence, Spruce Trapdoor, Jungle Trapdoor, Oak Trapdoor, Jungle Fence Gate, Oak Slab, Bamboo Trapdoor, Jungle Fence, Grass Block, Bamboo Fence, Oak Fence Gate, Spruce Fence, Spruce Slab, Stripped Bamboo Block, Stripped Spruce Log, Birch Leaves, Jungle Slab, Lantern, Stripped Jungle Log, Stripped Oak Log, Yellow Wall Banner, Bamboo Fence Gate, Orange Wall Banner, Bamboo Slab, Chest, Lime Wall Banner, Loom, Oak Stairs, Spore Blossom, Spruce Fence Gate.
+The structure part is composed of the following blocks: Azalea Leaves, Campfire, Flowering Azalea Leaves, Oak Fence, Spruce Trapdoor, Jungle Trapdoor, Oak Trapdoor, Jungle Fence Gate, Oak Slab, Bamboo Trapdoor, Jungle Fence, Grass Block, Bamboo Fence, Oak Fence Gate, Spruce Fence, Spruce Slab, Stripped Bamboo Block, Stripped Spruce Log, Birch Leaves, Jungle Slab, Lantern, Stripped Jungle Log, Stripped Oak Log, Yellow Wall Banner, Bamboo Fence Gate, Orange Wall Banner, Bamboo Slab, Chest, Lime Wall Banner, Loom, Oak Stairs, Spore Blossom, Spruce Fence Gate.
 
 ### Blocks
 
@@ -925,7 +907,7 @@ The structure is composed of the following blocks: Azalea Leaves, Campfire, Flow
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -940,7 +922,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/House/Profession/House Toolsmith</strong></summary>
 
-The structure is composed of the following blocks: Azalea Leaves, Vine, Campfire, Flowering Azalea Leaves, Birch Leaves, Bamboo Trapdoor, Spruce Trapdoor, Jungle Trapdoor, Jungle Fence Gate, Oak Fence Gate, Jungle Slab, Oak Fence, Stripped Bamboo Block, Stripped Jungle Log, Stripped Spruce Log, Bamboo Fence, Bamboo Fence Gate, Jungle Fence, Jungle Stairs, Oak Slab, Oak Trapdoor, Spruce Fence, Bamboo Slab, Bamboo Stairs, Chain, Chest, Chipped Anvil, Deepslate Tile Slab, Deepslate Tile Stairs, Lantern, Smithing Table, Spruce Slab.
+The structure part is composed of the following blocks: Azalea Leaves, Vine, Campfire, Flowering Azalea Leaves, Birch Leaves, Bamboo Trapdoor, Spruce Trapdoor, Jungle Trapdoor, Jungle Fence Gate, Oak Fence Gate, Jungle Slab, Oak Fence, Stripped Bamboo Block, Stripped Jungle Log, Stripped Spruce Log, Bamboo Fence, Bamboo Fence Gate, Jungle Fence, Jungle Stairs, Oak Slab, Oak Trapdoor, Spruce Fence, Bamboo Slab, Bamboo Stairs, Chain, Chest, Chipped Anvil, Deepslate Tile Slab, Deepslate Tile Stairs, Lantern, Smithing Table, Spruce Slab.
 
 ### Blocks
 
@@ -982,7 +964,7 @@ The structure is composed of the following blocks: Azalea Leaves, Vine, Campfire
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -997,7 +979,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/House/Profession/House Weaponsmith</strong></summary>
 
-The structure is composed of the following blocks: Azalea Leaves, Vine, Campfire, Flowering Azalea Leaves, Birch Leaves, Jungle Trapdoor, Oak Trapdoor, Oak Fence Gate, Bamboo Trapdoor, Jungle Fence, Jungle Fence Gate, Oak Fence, Oak Slab, Stripped Bamboo Block, Stripped Jungle Log, Stripped Oak Log, Bamboo Fence, Jungle Slab, Lantern, Oak Stairs, Spruce Trapdoor, Anvil, Bamboo Fence Gate, Bamboo Slab, Chest, Deepslate Tile Slab, Deepslate Tile Stairs, Grindstone, Jungle Stairs, Spruce Fence, Spruce Slab.
+The structure part is composed of the following blocks: Azalea Leaves, Vine, Campfire, Flowering Azalea Leaves, Birch Leaves, Jungle Trapdoor, Oak Trapdoor, Oak Fence Gate, Bamboo Trapdoor, Jungle Fence, Jungle Fence Gate, Oak Fence, Oak Slab, Stripped Bamboo Block, Stripped Jungle Log, Stripped Oak Log, Bamboo Fence, Jungle Slab, Lantern, Oak Stairs, Spruce Trapdoor, Anvil, Bamboo Fence Gate, Bamboo Slab, Chest, Deepslate Tile Slab, Deepslate Tile Stairs, Grindstone, Jungle Stairs, Spruce Fence, Spruce Slab.
 
 ### Blocks
 
@@ -1038,7 +1020,7 @@ The structure is composed of the following blocks: Azalea Leaves, Vine, Campfire
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1053,7 +1035,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/House/Rare/House Rare 1</strong></summary>
 
-The structure is composed of the following blocks: Granite, Stone, Birch Planks, Mangrove Planks, Mangrove Slab, Glow Lichen, Birch Wall Sign, Jungle Slab, Jungle Wall Sign, Moss Block, Mangrove Wall Sign, Stripped Birch Log, Birch Slab, Stripped Jungle Log, Stripped Mangrove Log, Oak Slab, Jungle Fence, Lantern, Birch Fence, Campfire, Jungle Trapdoor, Mangrove Fence, Oak Fence, Grass Block, Hay Block, Oak Planks, Oak Trapdoor, Jungle Planks, Oak Wall Sign, Birch Trapdoor, Mangrove Trapdoor, Stripped Oak Log, Barrel, Mangrove Door, Bamboo Slab, Granite Stairs, Spruce Slab, Spruce Trapdoor.
+The structure part is composed of the following blocks: Granite, Stone, Birch Planks, Mangrove Planks, Mangrove Slab, Glow Lichen, Birch Wall Sign, Jungle Slab, Jungle Wall Sign, Moss Block, Mangrove Wall Sign, Stripped Birch Log, Birch Slab, Stripped Jungle Log, Stripped Mangrove Log, Oak Slab, Jungle Fence, Lantern, Birch Fence, Campfire, Jungle Trapdoor, Mangrove Fence, Oak Fence, Grass Block, Hay Block, Oak Planks, Oak Trapdoor, Jungle Planks, Oak Wall Sign, Birch Trapdoor, Mangrove Trapdoor, Stripped Oak Log, Barrel, Mangrove Door, Bamboo Slab, Granite Stairs, Spruce Slab, Spruce Trapdoor.
 
 ### Blocks
 
@@ -1101,7 +1083,7 @@ The structure is composed of the following blocks: Granite, Stone, Birch Planks,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1117,7 +1099,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/House/Rare/House Rare 2</strong></summary>
 
-The structure is composed of the following blocks: Spruce Stairs, Spruce Planks, Spruce Trapdoor, Oak Planks, Spruce Slab, Jungle Planks, Bamboo Planks, Jungle Trapdoor, Bamboo Mosaic, Jungle Stairs, Ladder, Oak Stairs, Spruce Fence, Jungle Slab, Oak Slab, Stone Brick Wall, Stripped Spruce Log, Bamboo Stairs, Barrel, Brown Wall Banner, Campfire, Jungle Fence, Red Wall Banner, Stripped Oak Log, Brown Bed, Chest, Lantern, Oak Fence, Scaffolding, Spruce Button, Anvil, Bamboo Trapdoor, Crafting Table, Decorated Pot, Furnace, Oak Trapdoor, Potted Flowering Azalea Bush, Stripped Jungle Log, Stripped Oak Wood.
+The structure part is composed of the following blocks: Spruce Stairs, Spruce Planks, Spruce Trapdoor, Oak Planks, Spruce Slab, Jungle Planks, Bamboo Planks, Jungle Trapdoor, Bamboo Mosaic, Jungle Stairs, Ladder, Oak Stairs, Spruce Fence, Jungle Slab, Oak Slab, Stone Brick Wall, Stripped Spruce Log, Bamboo Stairs, Barrel, Brown Wall Banner, Campfire, Jungle Fence, Red Wall Banner, Stripped Oak Log, Brown Bed, Chest, Lantern, Oak Fence, Scaffolding, Spruce Button, Anvil, Bamboo Trapdoor, Crafting Table, Decorated Pot, Furnace, Oak Trapdoor, Potted Flowering Azalea Bush, Stripped Jungle Log, Stripped Oak Wood.
 
 ### Blocks
 
@@ -1166,7 +1148,7 @@ The structure is composed of the following blocks: Spruce Stairs, Spruce Planks,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1181,7 +1163,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/House/Rare/House Rare 3</strong></summary>
 
-The structure is composed of the following blocks: Campfire, Jungle Trapdoor, Oak Trapdoor, Spruce Trapdoor, White Wool, Red Wool, Spruce Wall Sign, White Carpet, Bamboo Trapdoor, Jungle Wall Sign, Oak Wall Sign, Stripped Jungle Log, Stripped Oak Log, Ladder, Beehive, Barrel, Chest, Farmland, Lantern, Oak Slab, Pumpkin, Stripped Spruce Log, Decorated Pot, Jungle Slab, Spruce Slab, Bamboo Slab, Spruce Fence, Stripped Bamboo Block, Wheat, Beetroots, Crafting Table, Jungle Fence, Melon Stem, Potted Flowering Azalea Bush.
+The structure part is composed of the following blocks: Campfire, Jungle Trapdoor, Oak Trapdoor, Spruce Trapdoor, White Wool, Red Wool, Spruce Wall Sign, White Carpet, Bamboo Trapdoor, Jungle Wall Sign, Oak Wall Sign, Stripped Jungle Log, Stripped Oak Log, Ladder, Beehive, Barrel, Chest, Farmland, Lantern, Oak Slab, Pumpkin, Stripped Spruce Log, Decorated Pot, Jungle Slab, Spruce Slab, Bamboo Slab, Spruce Fence, Stripped Bamboo Block, Wheat, Beetroots, Crafting Table, Jungle Fence, Melon Stem, Potted Flowering Azalea Bush.
 
 Additionally, the following entities may spawn during its generation: Cod.
 
@@ -1244,7 +1226,7 @@ Additionally, the following entities may spawn during its generation: Cod.
 <details>
 <summary><strong>Village Ocean/House/Rare/House Rare 4</strong></summary>
 
-The structure is composed of the following blocks: Spruce Trapdoor, Jungle Trapdoor, Spruce Stairs, Jungle Planks, Spruce Slab, Spruce Fence, Jungle Stairs, Oak Stairs, Spruce Planks, Stripped Spruce Log, Oak Planks, Jungle Slab, Ladder, Spruce Fence Gate, Stripped Jungle Log, Jungle Fence, Jungle Fence Gate, Lantern, White Wall Banner, Chest, Decorated Pot, Oak Slab, Oak Trapdoor, Pink Bed, Spruce Door, Stripped Oak Log, Barrel, Crafting Table, Oak Fence, Oak Fence Gate, Potted Allium.
+The structure part is composed of the following blocks: Spruce Trapdoor, Jungle Trapdoor, Spruce Stairs, Jungle Planks, Spruce Slab, Spruce Fence, Jungle Stairs, Oak Stairs, Spruce Planks, Stripped Spruce Log, Oak Planks, Jungle Slab, Ladder, Spruce Fence Gate, Stripped Jungle Log, Jungle Fence, Jungle Fence Gate, Lantern, White Wall Banner, Chest, Decorated Pot, Oak Slab, Oak Trapdoor, Pink Bed, Spruce Door, Stripped Oak Log, Barrel, Crafting Table, Oak Fence, Oak Fence Gate, Potted Allium.
 
 ### Blocks
 
@@ -1285,7 +1267,7 @@ The structure is composed of the following blocks: Spruce Trapdoor, Jungle Trapd
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1300,7 +1282,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/House/Rare/House Rare 5</strong></summary>
 
-The structure is composed of the following blocks: Spruce Trapdoor, Spruce Stairs, Jungle Trapdoor, Oak Trapdoor, Jungle Slab, Spruce Slab, White Wall Banner, Jungle Stairs, Jungle Wall Sign, Oak Stairs, Red Wall Banner, Jungle Fence, Spruce Fence Gate, Jungle Fence Gate, Oak Slab, Purple Bed, Barrel, Bell, Chest, Crafting Table, Lantern, Mud Brick Wall, Oak Fence Gate, Oak Wall Sign, Spruce Fence, Spruce Wall Sign.
+The structure part is composed of the following blocks: Spruce Trapdoor, Spruce Stairs, Jungle Trapdoor, Oak Trapdoor, Jungle Slab, Spruce Slab, White Wall Banner, Jungle Stairs, Jungle Wall Sign, Oak Stairs, Red Wall Banner, Jungle Fence, Spruce Fence Gate, Jungle Fence Gate, Oak Slab, Purple Bed, Barrel, Bell, Chest, Crafting Table, Lantern, Mud Brick Wall, Oak Fence Gate, Oak Wall Sign, Spruce Fence, Spruce Wall Sign.
 
 ### Blocks
 
@@ -1336,7 +1318,7 @@ The structure is composed of the following blocks: Spruce Trapdoor, Spruce Stair
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1351,7 +1333,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/House/Rare/House Rare 6</strong></summary>
 
-The structure is composed of the following blocks: Spruce Stairs, Jungle Slab, Jungle Wall Sign, Spruce Slab, Oak Wall Sign, Oak Trapdoor, Spruce Wall Sign, White Wall Banner, Jungle Fence, Oak Slab, Barrel, Jungle Stairs, Jungle Trapdoor, Lantern, Spruce Door, Spruce Fence Gate, Spruce Trapdoor, Furnace, Oak Fence, Oak Planks, Oak Stairs, Polished Blackstone Button, Spruce Fence.
+The structure part is composed of the following blocks: Spruce Stairs, Jungle Slab, Jungle Wall Sign, Spruce Slab, Oak Wall Sign, Oak Trapdoor, Spruce Wall Sign, White Wall Banner, Jungle Fence, Oak Slab, Barrel, Jungle Stairs, Jungle Trapdoor, Lantern, Spruce Door, Spruce Fence Gate, Spruce Trapdoor, Furnace, Oak Fence, Oak Planks, Oak Stairs, Polished Blackstone Button, Spruce Fence.
 
 ### Blocks
 
@@ -1384,7 +1366,7 @@ The structure is composed of the following blocks: Spruce Stairs, Jungle Slab, J
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1399,7 +1381,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/House/Residence/House 1</strong></summary>
 
-The structure is composed of the following blocks: Azalea Leaves, Vine, Flowering Azalea Leaves, Bamboo Slab, Birch Leaves, Jungle Fence Gate, Oak Slab, Bamboo Fence, Bamboo Fence Gate, Oak Fence Gate, Stripped Bamboo Block, Stripped Spruce Log, Bamboo Trapdoor, Jungle Fence, Spruce Slab, Spruce Trapdoor, Jungle Slab, Jungle Trapdoor, Oak Fence, Campfire, Orange Bed, Chest, Lantern, Oak Trapdoor, Spore Blossom, Spruce Fence.
+The structure part is composed of the following blocks: Azalea Leaves, Vine, Flowering Azalea Leaves, Bamboo Slab, Birch Leaves, Jungle Fence Gate, Oak Slab, Bamboo Fence, Bamboo Fence Gate, Oak Fence Gate, Stripped Bamboo Block, Stripped Spruce Log, Bamboo Trapdoor, Jungle Fence, Spruce Slab, Spruce Trapdoor, Jungle Slab, Jungle Trapdoor, Oak Fence, Campfire, Orange Bed, Chest, Lantern, Oak Trapdoor, Spore Blossom, Spruce Fence.
 
 ### Blocks
 
@@ -1435,7 +1417,7 @@ The structure is composed of the following blocks: Azalea Leaves, Vine, Flowerin
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1450,7 +1432,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/House/Residence/House 2</strong></summary>
 
-The structure is composed of the following blocks: Azalea Leaves, Vine, Flowering Azalea Leaves, Bamboo Slab, Jungle Slab, Oak Slab, Bamboo Trapdoor, Birch Leaves, Spruce Trapdoor, Bamboo Fence Gate, Jungle Fence Gate, Oak Trapdoor, Stripped Bamboo Block, Stripped Spruce Log, Bamboo Fence, Bamboo Stairs, Campfire, Jungle Fence, Jungle Trapdoor, Oak Fence Gate, Jungle Stairs, Stripped Oak Log, Lime Bed, Oak Fence, Scaffolding, Spruce Fence, Spruce Slab, Chest, Lantern, Oak Stairs, Spore Blossom, Spruce Fence Gate, Spruce Stairs.
+The structure part is composed of the following blocks: Azalea Leaves, Vine, Flowering Azalea Leaves, Bamboo Slab, Jungle Slab, Oak Slab, Bamboo Trapdoor, Birch Leaves, Spruce Trapdoor, Bamboo Fence Gate, Jungle Fence Gate, Oak Trapdoor, Stripped Bamboo Block, Stripped Spruce Log, Bamboo Fence, Bamboo Stairs, Campfire, Jungle Fence, Jungle Trapdoor, Oak Fence Gate, Jungle Stairs, Stripped Oak Log, Lime Bed, Oak Fence, Scaffolding, Spruce Fence, Spruce Slab, Chest, Lantern, Oak Stairs, Spore Blossom, Spruce Fence Gate, Spruce Stairs.
 
 ### Blocks
 
@@ -1493,7 +1475,7 @@ The structure is composed of the following blocks: Azalea Leaves, Vine, Flowerin
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1508,7 +1490,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/House/Residence/House 3</strong></summary>
 
-The structure is composed of the following blocks: Azalea Leaves, Flowering Azalea Leaves, Vine, Spruce Trapdoor, Stripped Spruce Log, Oak Trapdoor, Birch Leaves, Jungle Fence, Jungle Fence Gate, Jungle Trapdoor, Oak Fence Gate, Stripped Jungle Log, Oak Fence, Bamboo Trapdoor, Campfire, Spruce Fence Gate, Stripped Oak Log, Oak Stairs, Spruce Fence, Bamboo Fence, Bamboo Fence Gate, Bamboo Slab, Bamboo Stairs, Chain, Jungle Slab, Lantern, Oak Slab, Spore Blossom, Stripped Bamboo Block.
+The structure part is composed of the following blocks: Azalea Leaves, Flowering Azalea Leaves, Vine, Spruce Trapdoor, Stripped Spruce Log, Oak Trapdoor, Birch Leaves, Jungle Fence, Jungle Fence Gate, Jungle Trapdoor, Oak Fence Gate, Stripped Jungle Log, Oak Fence, Bamboo Trapdoor, Campfire, Spruce Fence Gate, Stripped Oak Log, Oak Stairs, Spruce Fence, Bamboo Fence, Bamboo Fence Gate, Bamboo Slab, Bamboo Stairs, Chain, Jungle Slab, Lantern, Oak Slab, Spore Blossom, Stripped Bamboo Block.
 
 ### Blocks
 
@@ -1547,12 +1529,12 @@ The structure is composed of the following blocks: Azalea Leaves, Flowering Azal
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1560,7 +1542,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/House/Residence/House 3 2</strong></summary>
 
-The structure is composed of the following blocks: Campfire, Jungle Fence Gate, Oak Fence Gate, Bamboo Fence Gate, Stripped Oak Log, Spruce Fence Gate, Stripped Bamboo Block, Jungle Stairs, Stripped Jungle Log, Stripped Spruce Log, Yellow Bed, Bamboo Slab, Chest, Jungle Slab, Oak Slab, Oak Stairs, Spruce Slab, Spruce Stairs.
+The structure part is composed of the following blocks: Campfire, Jungle Fence Gate, Oak Fence Gate, Bamboo Fence Gate, Stripped Oak Log, Spruce Fence Gate, Stripped Bamboo Block, Jungle Stairs, Stripped Jungle Log, Stripped Spruce Log, Yellow Bed, Bamboo Slab, Chest, Jungle Slab, Oak Slab, Oak Stairs, Spruce Slab, Spruce Stairs.
 
 ### Blocks
 
@@ -1588,7 +1570,7 @@ The structure is composed of the following blocks: Campfire, Jungle Fence Gate, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1603,7 +1585,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/House/Residence/House 4</strong></summary>
 
-The structure is composed of the following blocks: Azalea Leaves, Vine, Flowering Azalea Leaves, Campfire, Birch Leaves, Jungle Fence, Oak Fence Gate, Jungle Fence Gate, Oak Fence, Bamboo Fence Gate, Oak Trapdoor, Spruce Fence Gate, Bamboo Trapdoor, Jungle Trapdoor, Stripped Oak Log, Bamboo Fence, Jungle Slab, Bamboo Slab, Jungle Stairs, Oak Slab, Spruce Fence, Spruce Slab, Stripped Bamboo Block, Bamboo Stairs, Oak Stairs, Pink Bed, Chest, Decorated Pot, Lantern, Potted Torchflower, Spore Blossom, Spruce Stairs, Spruce Trapdoor.
+The structure part is composed of the following blocks: Azalea Leaves, Vine, Flowering Azalea Leaves, Campfire, Birch Leaves, Jungle Fence, Oak Fence Gate, Jungle Fence Gate, Oak Fence, Bamboo Fence Gate, Oak Trapdoor, Spruce Fence Gate, Bamboo Trapdoor, Jungle Trapdoor, Stripped Oak Log, Bamboo Fence, Jungle Slab, Bamboo Slab, Jungle Stairs, Oak Slab, Spruce Fence, Spruce Slab, Stripped Bamboo Block, Bamboo Stairs, Oak Stairs, Pink Bed, Chest, Decorated Pot, Lantern, Potted Torchflower, Spore Blossom, Spruce Stairs, Spruce Trapdoor.
 
 ### Blocks
 
@@ -1646,7 +1628,7 @@ The structure is composed of the following blocks: Azalea Leaves, Vine, Flowerin
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1661,7 +1643,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/House/Residence/House Shepherd</strong></summary>
 
-The structure is composed of the following blocks: Azalea Leaves, Campfire, Flowering Azalea Leaves, Oak Fence, Spruce Trapdoor, Jungle Trapdoor, Oak Trapdoor, Jungle Fence Gate, Oak Slab, Bamboo Trapdoor, Jungle Fence, Grass Block, Bamboo Fence, Oak Fence Gate, Spruce Fence, Spruce Slab, Stripped Bamboo Block, Stripped Spruce Log, Birch Leaves, Jungle Slab, Lantern, Stripped Jungle Log, Stripped Oak Log, Yellow Wall Banner, Bamboo Fence Gate, Orange Wall Banner, Bamboo Slab, Chest, Lime Wall Banner, Loom, Oak Stairs, Spore Blossom, Spruce Fence Gate.
+The structure part is composed of the following blocks: Azalea Leaves, Campfire, Flowering Azalea Leaves, Oak Fence, Spruce Trapdoor, Jungle Trapdoor, Oak Trapdoor, Jungle Fence Gate, Oak Slab, Bamboo Trapdoor, Jungle Fence, Grass Block, Bamboo Fence, Oak Fence Gate, Spruce Fence, Spruce Slab, Stripped Bamboo Block, Stripped Spruce Log, Birch Leaves, Jungle Slab, Lantern, Stripped Jungle Log, Stripped Oak Log, Yellow Wall Banner, Bamboo Fence Gate, Orange Wall Banner, Bamboo Slab, Chest, Lime Wall Banner, Loom, Oak Stairs, Spore Blossom, Spruce Fence Gate.
 
 ### Blocks
 
@@ -1704,7 +1686,7 @@ The structure is composed of the following blocks: Azalea Leaves, Campfire, Flow
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1719,7 +1701,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/Streets/Street Cross</strong></summary>
 
-The structure is composed of the following blocks: Campfire, Jungle Trapdoor, Oak Slab, Bamboo Trapdoor, Oak Trapdoor, Stripped Oak Log, Spruce Trapdoor, Stripped Jungle Log, Jungle Slab, Bamboo Slab, Stripped Bamboo Block, Lantern, Stripped Spruce Log, Spruce Slab, Barrel, Bamboo Fence, Oak Fence, Jungle Fence, Spruce Fence.
+The structure part is composed of the following blocks: Campfire, Jungle Trapdoor, Oak Slab, Bamboo Trapdoor, Oak Trapdoor, Stripped Oak Log, Spruce Trapdoor, Stripped Jungle Log, Jungle Slab, Bamboo Slab, Stripped Bamboo Block, Lantern, Stripped Spruce Log, Spruce Slab, Barrel, Bamboo Fence, Oak Fence, Jungle Fence, Spruce Fence.
 
 ### Blocks
 
@@ -1748,7 +1730,7 @@ The structure is composed of the following blocks: Campfire, Jungle Trapdoor, Oa
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1763,7 +1745,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/Streets/Street Curve</strong></summary>
 
-The structure is composed of the following blocks: Campfire, Jungle Trapdoor, Oak Trapdoor, Spruce Slab, Jungle Slab, Bamboo Slab, Bamboo Trapdoor, Spruce Trapdoor, Stripped Jungle Log, Stripped Oak Log, Lantern, Oak Slab, Stripped Bamboo Block, Stripped Spruce Log, Bamboo Fence, Barrel, Jungle Fence.
+The structure part is composed of the following blocks: Campfire, Jungle Trapdoor, Oak Trapdoor, Spruce Slab, Jungle Slab, Bamboo Slab, Bamboo Trapdoor, Spruce Trapdoor, Stripped Jungle Log, Stripped Oak Log, Lantern, Oak Slab, Stripped Bamboo Block, Stripped Spruce Log, Bamboo Fence, Barrel, Jungle Fence.
 
 ### Blocks
 
@@ -1790,7 +1772,7 @@ The structure is composed of the following blocks: Campfire, Jungle Trapdoor, Oa
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1805,7 +1787,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/Streets/Street End</strong></summary>
 
-The structure is composed of the following blocks: Campfire, Jungle Trapdoor, Oak Slab, Spruce Trapdoor, Bamboo Trapdoor, Jungle Slab, Oak Trapdoor, Stripped Bamboo Block, Stripped Jungle Log, Stripped Oak Log, Stripped Spruce Log, Bamboo Slab, Barrel, Lantern, Jungle Fence, Oak Fence, Spruce Slab.
+The structure part is composed of the following blocks: Campfire, Jungle Trapdoor, Oak Slab, Spruce Trapdoor, Bamboo Trapdoor, Jungle Slab, Oak Trapdoor, Stripped Bamboo Block, Stripped Jungle Log, Stripped Oak Log, Stripped Spruce Log, Bamboo Slab, Barrel, Lantern, Jungle Fence, Oak Fence, Spruce Slab.
 
 ### Blocks
 
@@ -1832,7 +1814,7 @@ The structure is composed of the following blocks: Campfire, Jungle Trapdoor, Oa
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1847,7 +1829,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/Streets/Street Straight</strong></summary>
 
-The structure is composed of the following blocks: Campfire, Jungle Trapdoor, Bamboo Slab, Oak Trapdoor, Jungle Slab, Stripped Oak Log, Bamboo Trapdoor, Spruce Trapdoor, Stripped Jungle Log, Lantern, Spruce Slab, Oak Slab, Stripped Bamboo Block, Stripped Spruce Log, Barrel, Oak Fence, Bamboo Fence, Jungle Fence.
+The structure part is composed of the following blocks: Campfire, Jungle Trapdoor, Bamboo Slab, Oak Trapdoor, Jungle Slab, Stripped Oak Log, Bamboo Trapdoor, Spruce Trapdoor, Stripped Jungle Log, Lantern, Spruce Slab, Oak Slab, Stripped Bamboo Block, Stripped Spruce Log, Barrel, Oak Fence, Bamboo Fence, Jungle Fence.
 
 ### Blocks
 
@@ -1875,7 +1857,7 @@ The structure is composed of the following blocks: Campfire, Jungle Trapdoor, Ba
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1890,7 +1872,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/Streets/Street Straight Rare</strong></summary>
 
-The structure is composed of the following blocks: Campfire, Oak Trapdoor, Jungle Trapdoor, Oak Slab, Stripped Oak Log, Spruce Trapdoor, Bamboo Trapdoor, Jungle Slab, Stripped Spruce Log, Lantern, Bamboo Slab, Spruce Slab, Stripped Bamboo Block, Stripped Jungle Log, Barrel, Jungle Fence, Bamboo Fence, Oak Fence, Spruce Fence.
+The structure part is composed of the following blocks: Campfire, Oak Trapdoor, Jungle Trapdoor, Oak Slab, Stripped Oak Log, Spruce Trapdoor, Bamboo Trapdoor, Jungle Slab, Stripped Spruce Log, Lantern, Bamboo Slab, Spruce Slab, Stripped Bamboo Block, Stripped Jungle Log, Barrel, Jungle Fence, Bamboo Fence, Oak Fence, Spruce Fence.
 
 ### Blocks
 
@@ -1919,7 +1901,7 @@ The structure is composed of the following blocks: Campfire, Oak Trapdoor, Jungl
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1934,7 +1916,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/Streets/Street T</strong></summary>
 
-The structure is composed of the following blocks: Campfire, Oak Trapdoor, Spruce Slab, Jungle Trapdoor, Spruce Trapdoor, Stripped Jungle Log, Stripped Spruce Log, Jungle Slab, Bamboo Trapdoor, Bamboo Slab, Lantern, Oak Slab, Stripped Oak Log, Jungle Fence, Stripped Bamboo Block, Barrel, Spruce Fence, Bamboo Fence.
+The structure part is composed of the following blocks: Campfire, Oak Trapdoor, Spruce Slab, Jungle Trapdoor, Spruce Trapdoor, Stripped Jungle Log, Stripped Spruce Log, Jungle Slab, Bamboo Trapdoor, Bamboo Slab, Lantern, Oak Slab, Stripped Oak Log, Jungle Fence, Stripped Bamboo Block, Barrel, Spruce Fence, Bamboo Fence.
 
 ### Blocks
 
@@ -1962,7 +1944,7 @@ The structure is composed of the following blocks: Campfire, Oak Trapdoor, Spruc
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1977,7 +1959,7 @@ None found.
 <details>
 <summary><strong>Village Ocean/Town Centers/Town Center</strong></summary>
 
-The structure is composed of the following blocks: Azalea Leaves, Campfire, Jungle Button, Jungle Fence, Stripped Jungle Log, Bamboo Trapdoor, Flowering Azalea Leaves, Jungle Slab, Jungle Trapdoor, Oak Trapdoor, Stripped Bamboo Block, Birch Leaves, Oak Slab, Vine, Bamboo Fence, Jungle Fence Gate, Oak Fence, Bamboo Slab, Spruce Fence, Stripped Oak Log, Oak Fence Gate, Bamboo Fence Gate, Bell, Spruce Slab, Spruce Trapdoor.
+The structure part is composed of the following blocks: Azalea Leaves, Campfire, Jungle Button, Jungle Fence, Stripped Jungle Log, Bamboo Trapdoor, Flowering Azalea Leaves, Jungle Slab, Jungle Trapdoor, Oak Trapdoor, Stripped Bamboo Block, Birch Leaves, Oak Slab, Vine, Bamboo Fence, Jungle Fence Gate, Oak Fence, Bamboo Slab, Spruce Fence, Stripped Oak Log, Oak Fence Gate, Bamboo Fence Gate, Bell, Spruce Slab, Spruce Trapdoor.
 
 ### Blocks
 
@@ -2012,12 +1994,12 @@ The structure is composed of the following blocks: Azalea Leaves, Campfire, Jung
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2025,13 +2007,13 @@ None found.
 <details>
 <summary><strong>Village Ocean/Villager/Villagers Ocean Master</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Villager.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -2043,7 +2025,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>

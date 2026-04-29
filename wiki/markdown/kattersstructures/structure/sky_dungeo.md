@@ -1,23 +1,16 @@
-# Sky Dungeo
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs, Stone Brick Slab, Vine, Oak Leaves, Jungle Fence, Mossy Stone Bricks, Cracked Deepslate Tiles, Birch Leaves, Deepslate Tiles, Polished Andesite, Iron Bars, Oak Stairs, Oak Planks, Deepslate Tile Stairs, Stripped Jungle Wood, Oak Fence, Jungle Stairs, Chain, Mossy Stone Brick Slab, Ladder, Moss Block, Gravel, Spruce Door, Grass Block, Moss Carpet, Spruce Trapdoor, Emerald Block, Mossy Stone Brick Stairs, Stripped Spruce Log, Dead Horn Coral Wall Fan, Tall Grass, Short Grass, Stone Brick Wall, Deepslate Tile Slab, Rooted Dirt, Stripped Oak Wood, Stripped Spruce Wood, Bookshelf, Cobweb, Oak Slab, Scaffolding, Hanging Roots, Polished Granite Stairs, Hay Block, Trial Spawner, Jungle Slab, Oak Trapdoor, Polished Granite, Chiseled Bookshelf, Dead Horn Coral Fan, Spruce Planks, Polished Granite Slab, Chiseled Stone Bricks, Deepslate Brick Wall, Spruce Button, Spruce Fence, Vault, Waxed Cut Copper Stairs, Stone Button, Decorated Pot, Gold Block, Potted Acacia Sapling, Waxed Cut Copper, Fire, Lectern, Netherrack, Potted Jungle Sapling, Sandstone, Waxed Cut Copper Slab.
 
 Additionally, the following entities may spawn during its generation: Painting.
 
-### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky_dungeo/loot_mid |
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Sky Dungeo/Decor/Big/Sky Dungeo Decor Big 01</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Polished Granite Stairs, Cracked Stone Bricks, Polished Granite, Polished Granite Slab, Stone Brick Slab, Gold Block, Sandstone.
+The structure part is composed of the following blocks: Stone Bricks, Polished Granite Stairs, Cracked Stone Bricks, Polished Granite, Polished Granite Slab, Stone Brick Slab, Gold Block, Sandstone.
 
 ### Blocks
 
@@ -35,12 +28,12 @@ The structure is composed of the following blocks: Stone Bricks, Polished Granit
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -48,7 +41,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Big/Sky Dungeo Decor Big 02</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Chiseled Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Chiseled Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -62,12 +55,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -75,7 +68,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Big/Sky Dungeo Decor Big 03</strong></summary>
 
-The structure is composed of the following blocks: Stone Brick Stairs, Fire, Netherrack, Stone Bricks.
+The structure part is composed of the following blocks: Stone Brick Stairs, Fire, Netherrack, Stone Bricks.
 
 ### Blocks
 
@@ -89,12 +82,12 @@ The structure is composed of the following blocks: Stone Brick Stairs, Fire, Net
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -102,7 +95,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Big/Sky Dungeo Decor Big 04</strong></summary>
 
-The structure is composed of the following blocks: Scaffolding, Potted Acacia Sapling.
+The structure part is composed of the following blocks: Scaffolding, Potted Acacia Sapling.
 
 ### Blocks
 
@@ -114,12 +107,12 @@ The structure is composed of the following blocks: Scaffolding, Potted Acacia Sa
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -127,7 +120,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Big/Sky Dungeo Decor Big 05</strong></summary>
 
-The structure is composed of the following blocks: Stripped Spruce Log, Spruce Button, Stone Brick Stairs, Waxed Cut Copper Stairs, Chain, Waxed Cut Copper, Waxed Cut Copper Slab.
+The structure part is composed of the following blocks: Stripped Spruce Log, Spruce Button, Stone Brick Stairs, Waxed Cut Copper Stairs, Chain, Waxed Cut Copper, Waxed Cut Copper Slab.
 
 ### Blocks
 
@@ -144,12 +137,12 @@ The structure is composed of the following blocks: Stripped Spruce Log, Spruce B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -157,7 +150,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Big/Sky Dungeo Decor Big 06</strong></summary>
 
-The structure is composed of the following blocks: Hay Block, Moss Carpet.
+The structure part is composed of the following blocks: Hay Block, Moss Carpet.
 
 ### Blocks
 
@@ -169,12 +162,12 @@ The structure is composed of the following blocks: Hay Block, Moss Carpet.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -182,7 +175,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Big/Sky Dungeo Decor Big 07</strong></summary>
 
-The structure is composed of the following blocks: Stone Brick Stairs, Cracked Stone Bricks, Stone Button, Stone Bricks.
+The structure part is composed of the following blocks: Stone Brick Stairs, Cracked Stone Bricks, Stone Button, Stone Bricks.
 
 ### Blocks
 
@@ -196,12 +189,12 @@ The structure is composed of the following blocks: Stone Brick Stairs, Cracked S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -209,7 +202,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Big/Sky Dungeo Decor Big 08</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Brick Slab, Stone Bricks, Spruce Trapdoor, Stone Brick Stairs.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Brick Slab, Stone Bricks, Spruce Trapdoor, Stone Brick Stairs.
 
 ### Blocks
 
@@ -224,12 +217,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -237,7 +230,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Decor Wall/Sky Dungeo Wallx3 01</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf, Ladder, Oak Slab.
+The structure part is composed of the following blocks: Chiseled Bookshelf, Ladder, Oak Slab.
 
 ### Blocks
 
@@ -250,12 +243,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf, Ladder, O
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -263,7 +256,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Decor Wall/Sky Dungeo Wallx3 02</strong></summary>
 
-The structure is composed of the following blocks: Gravel, Mossy Stone Brick Slab.
+The structure part is composed of the following blocks: Gravel, Mossy Stone Brick Slab.
 
 ### Blocks
 
@@ -275,12 +268,12 @@ The structure is composed of the following blocks: Gravel, Mossy Stone Brick Sla
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -288,7 +281,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Decor Wall/Sky Dungeo Wallx3 03</strong></summary>
 
-The structure is composed of the following blocks: Scaffolding, Gravel, Mossy Stone Brick Slab.
+The structure part is composed of the following blocks: Scaffolding, Gravel, Mossy Stone Brick Slab.
 
 ### Blocks
 
@@ -301,12 +294,12 @@ The structure is composed of the following blocks: Scaffolding, Gravel, Mossy St
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -314,7 +307,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Decor Wall/Sky Dungeo Wallx3 04</strong></summary>
 
-The structure is composed of the following blocks: Cobweb, Cracked Stone Bricks, Dead Horn Coral Fan, Stone Brick Stairs.
+The structure part is composed of the following blocks: Cobweb, Cracked Stone Bricks, Dead Horn Coral Fan, Stone Brick Stairs.
 
 ### Blocks
 
@@ -328,12 +321,12 @@ The structure is composed of the following blocks: Cobweb, Cracked Stone Bricks,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -341,7 +334,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Decor Wall/Sky Dungeo Wallx3 05</strong></summary>
 
-The structure is composed of the following blocks: Bookshelf, Oak Slab, Chiseled Bookshelf, Oak Stairs.
+The structure part is composed of the following blocks: Bookshelf, Oak Slab, Chiseled Bookshelf, Oak Stairs.
 
 ### Blocks
 
@@ -355,12 +348,12 @@ The structure is composed of the following blocks: Bookshelf, Oak Slab, Chiseled
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -368,7 +361,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Decor Wall/Sky Dungeo Wallx3 06</strong></summary>
 
-The structure is composed of the following blocks: Spruce Trapdoor, Stripped Spruce Log.
+The structure part is composed of the following blocks: Spruce Trapdoor, Stripped Spruce Log.
 
 ### Blocks
 
@@ -380,12 +373,12 @@ The structure is composed of the following blocks: Spruce Trapdoor, Stripped Spr
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -393,7 +386,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Medium/Sky Dungeo Decor Medium 01</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Spruce Trapdoor, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Spruce Trapdoor, Stone Brick Stairs.
 
 ### Blocks
 
@@ -407,12 +400,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -420,7 +413,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Medium/Sky Dungeo Decor Medium 02</strong></summary>
 
-The structure is composed of the following blocks: Stone Brick Stairs, Cracked Stone Bricks, Stone Bricks.
+The structure part is composed of the following blocks: Stone Brick Stairs, Cracked Stone Bricks, Stone Bricks.
 
 ### Blocks
 
@@ -433,12 +426,12 @@ The structure is composed of the following blocks: Stone Brick Stairs, Cracked S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -446,7 +439,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Medium/Sky Dungeo Decor Medium 03</strong></summary>
 
-The structure is composed of the following blocks: Oak Trapdoor, Bookshelf, Oak Slab.
+The structure part is composed of the following blocks: Oak Trapdoor, Bookshelf, Oak Slab.
 
 ### Blocks
 
@@ -459,12 +452,12 @@ The structure is composed of the following blocks: Oak Trapdoor, Bookshelf, Oak 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -472,7 +465,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Medium/Sky Dungeo Decor Medium 04</strong></summary>
 
-The structure is composed of the following blocks: Gravel, Mossy Stone Brick Slab, Stripped Spruce Log.
+The structure part is composed of the following blocks: Gravel, Mossy Stone Brick Slab, Stripped Spruce Log.
 
 ### Blocks
 
@@ -485,12 +478,12 @@ The structure is composed of the following blocks: Gravel, Mossy Stone Brick Sla
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -498,7 +491,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Medium/Sky Dungeo Decor Medium 05</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Mossy Stone Brick Slab, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Mossy Stone Brick Slab, Cracked Stone Bricks, Stone Brick Stairs.
 
 Additionally, the following entities may spawn during its generation: Painting.
 
@@ -521,7 +514,7 @@ Additionally, the following entities may spawn during its generation: Painting.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -529,7 +522,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Medium/Sky Dungeo Decor Medium 06</strong></summary>
 
-The structure is composed of the following blocks: Stone Brick Stairs, Cracked Stone Bricks, Stone Bricks.
+The structure part is composed of the following blocks: Stone Brick Stairs, Cracked Stone Bricks, Stone Bricks.
 
 ### Blocks
 
@@ -542,12 +535,12 @@ The structure is composed of the following blocks: Stone Brick Stairs, Cracked S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -555,7 +548,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Small/Sky Dungeo Decor Small 01</strong></summary>
 
-The structure is composed of the following blocks: Spruce Trapdoor.
+The structure part is composed of the following blocks: Spruce Trapdoor.
 
 ### Blocks
 
@@ -566,12 +559,12 @@ The structure is composed of the following blocks: Spruce Trapdoor.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -579,7 +572,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Small/Sky Dungeo Decor Small 02</strong></summary>
 
-The structure is composed of the following blocks: Gravel, Mossy Stone Brick Slab.
+The structure part is composed of the following blocks: Gravel, Mossy Stone Brick Slab.
 
 ### Blocks
 
@@ -591,12 +584,12 @@ The structure is composed of the following blocks: Gravel, Mossy Stone Brick Sla
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -604,7 +597,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Small/Sky Dungeo Decor Small 03</strong></summary>
 
-The structure is composed of the following blocks: Mossy Stone Brick Slab, Gravel, Mossy Stone Bricks.
+The structure part is composed of the following blocks: Mossy Stone Brick Slab, Gravel, Mossy Stone Bricks.
 
 ### Blocks
 
@@ -617,12 +610,12 @@ The structure is composed of the following blocks: Mossy Stone Brick Slab, Grave
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -630,7 +623,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Small/Sky Dungeo Decor Small 04</strong></summary>
 
-The structure is composed of the following blocks: Bookshelf, Oak Slab, Lectern.
+The structure part is composed of the following blocks: Bookshelf, Oak Slab, Lectern.
 
 ### Blocks
 
@@ -643,12 +636,12 @@ The structure is composed of the following blocks: Bookshelf, Oak Slab, Lectern.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -656,7 +649,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Small/Sky Dungeo Decor Small 05</strong></summary>
 
-The structure is composed of the following blocks: Decorated Pot.
+The structure part is composed of the following blocks: Decorated Pot.
 
 ### Blocks
 
@@ -667,12 +660,12 @@ The structure is composed of the following blocks: Decorated Pot.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -680,7 +673,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Small/Sky Dungeo Decor Small 06</strong></summary>
 
-The structure is composed of the following blocks: Cobweb.
+The structure part is composed of the following blocks: Cobweb.
 
 ### Blocks
 
@@ -691,12 +684,12 @@ The structure is composed of the following blocks: Cobweb.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -704,7 +697,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Small/Sky Dungeo Decor Small 07</strong></summary>
 
-The structure is composed of the following blocks: Oak Leaves.
+The structure part is composed of the following blocks: Oak Leaves.
 
 ### Blocks
 
@@ -715,12 +708,12 @@ The structure is composed of the following blocks: Oak Leaves.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -728,7 +721,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Spawner/Sky Dungeo Spawner 01</strong></summary>
 
-The structure is composed of the following blocks: Stone Brick Stairs, Trial Spawner.
+The structure part is composed of the following blocks: Stone Brick Stairs, Trial Spawner.
 
 ### Blocks
 
@@ -740,12 +733,12 @@ The structure is composed of the following blocks: Stone Brick Stairs, Trial Spa
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -753,7 +746,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Spawner/Sky Dungeo Spawner 02</strong></summary>
 
-The structure is composed of the following blocks: Stone Brick Stairs, Trial Spawner.
+The structure part is composed of the following blocks: Stone Brick Stairs, Trial Spawner.
 
 ### Blocks
 
@@ -765,12 +758,12 @@ The structure is composed of the following blocks: Stone Brick Stairs, Trial Spa
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -778,7 +771,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Spawner/Sky Dungeo Spawner 03</strong></summary>
 
-The structure is composed of the following blocks: Stone Brick Stairs, Trial Spawner.
+The structure part is composed of the following blocks: Stone Brick Stairs, Trial Spawner.
 
 ### Blocks
 
@@ -790,12 +783,12 @@ The structure is composed of the following blocks: Stone Brick Stairs, Trial Spa
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -803,7 +796,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Spawner/Sky Dungeo Spawner 04</strong></summary>
 
-The structure is composed of the following blocks: Stone Brick Stairs, Trial Spawner.
+The structure part is composed of the following blocks: Stone Brick Stairs, Trial Spawner.
 
 ### Blocks
 
@@ -815,12 +808,12 @@ The structure is composed of the following blocks: Stone Brick Stairs, Trial Spa
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -828,7 +821,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Spawner/Sky Dungeo Spawner 05</strong></summary>
 
-The structure is composed of the following blocks: Stone Brick Stairs, Trial Spawner.
+The structure part is composed of the following blocks: Stone Brick Stairs, Trial Spawner.
 
 ### Blocks
 
@@ -840,12 +833,12 @@ The structure is composed of the following blocks: Stone Brick Stairs, Trial Spa
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -853,7 +846,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Wall/Sky Dungeo Wall 01</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks.
 
 ### Blocks
 
@@ -865,12 +858,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -878,7 +871,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Wall/Sky Dungeo Wall 02</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -891,12 +884,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -904,7 +897,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Wall/Sky Dungeo Wall 03</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -917,12 +910,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -930,7 +923,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Wall/Sky Dungeo Wall 04</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks.
 
 ### Blocks
 
@@ -942,12 +935,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -955,7 +948,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Wall/Sky Dungeo Wall 05</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -968,12 +961,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -981,7 +974,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Decor/Wall/Sky Dungeo Wall 06</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -993,12 +986,12 @@ The structure is composed of the following blocks: Stone Bricks, Stone Brick Sta
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1006,7 +999,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/B1/Sky Dungeo Maze Room 1 01</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1019,12 +1012,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1032,7 +1025,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/B1/Sky Dungeo Maze Room 1 02</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1045,12 +1038,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1058,7 +1051,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/B1/Sky Dungeo Maze Room 1 03</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1071,12 +1064,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1084,7 +1077,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/B1/Sky Dungeo Maze Room 1 04</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1097,12 +1090,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1110,7 +1103,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/B3/Sky Dungeo Maze Room 3 01</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1123,12 +1116,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1136,7 +1129,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/B3/Sky Dungeo Maze Room 3 02</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1149,12 +1142,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1162,7 +1155,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/B3/Sky Dungeo Maze Room 3 03</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks.
 
 ### Blocks
 
@@ -1174,12 +1167,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1187,7 +1180,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/B3/Sky Dungeo Maze Room 3 04</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks.
 
 ### Blocks
 
@@ -1199,12 +1192,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1212,7 +1205,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/B4/Sky Dungeo Maze Room 4 01</strong></summary>
 
-The structure is composed of the following blocks: Stone Brick Stairs, Cracked Stone Bricks, Stone Bricks.
+The structure part is composed of the following blocks: Stone Brick Stairs, Cracked Stone Bricks, Stone Bricks.
 
 ### Blocks
 
@@ -1225,12 +1218,12 @@ The structure is composed of the following blocks: Stone Brick Stairs, Cracked S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1238,7 +1231,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/B4/Sky Dungeo Maze Room 4 02</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1251,12 +1244,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1264,7 +1257,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/B4/Sky Dungeo Maze Room 4 03</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Stone Brick Stairs, Cracked Stone Bricks, Gravel, Stone Brick Slab.
+The structure part is composed of the following blocks: Stone Bricks, Stone Brick Stairs, Cracked Stone Bricks, Gravel, Stone Brick Slab.
 
 ### Blocks
 
@@ -1279,12 +1272,12 @@ The structure is composed of the following blocks: Stone Bricks, Stone Brick Sta
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1292,7 +1285,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/B4/Sky Dungeo Maze Room 4 04</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1305,12 +1298,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1318,7 +1311,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Bc/Sky Dungeo Maze Room 2 Curve 01</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1331,12 +1324,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1344,7 +1337,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Bc/Sky Dungeo Maze Room 2 Curve 02</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1357,12 +1350,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1370,7 +1363,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Bc/Sky Dungeo Maze Room 2 Curve 03</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1383,12 +1376,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1396,7 +1389,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Bc/Sky Dungeo Maze Room 2 Curve 04</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1409,12 +1402,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1422,7 +1415,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Bs/Sky Dungeo Maze Room 2 Straight 01</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1435,12 +1428,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1448,7 +1441,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Bs/Sky Dungeo Maze Room 2 Straight 02</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1461,12 +1454,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1474,7 +1467,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Bs/Sky Dungeo Maze Room 2 Straight 03</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1487,12 +1480,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1500,7 +1493,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Bs/Sky Dungeo Maze Room 2 Straight 04</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Bricks.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Bricks.
 
 ### Blocks
 
@@ -1512,12 +1505,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1525,7 +1518,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Cl2/Sky Dungeo Maze Corner R Both 01</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1538,12 +1531,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1551,7 +1544,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Cl2/Sky Dungeo Maze Corner R Both 02</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1564,12 +1557,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1577,7 +1570,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Cl2/Sky Dungeo Maze Corner R Both 03</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1590,12 +1583,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1603,7 +1596,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Cl2/Sky Dungeo Maze Corner R Both 04</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1616,12 +1609,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1629,7 +1622,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Clf/Sky Dungeo Maze Corner R Front 01</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1642,12 +1635,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1655,7 +1648,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Clf/Sky Dungeo Maze Corner R Front 02</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1668,12 +1661,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1681,7 +1674,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Clf/Sky Dungeo Maze Corner R Front 03</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1694,12 +1687,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1707,7 +1700,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Clf/Sky Dungeo Maze Corner R Front 04</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1720,12 +1713,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1733,7 +1726,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Cls/Sky Dungeo Maze Corner R Side 01</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1746,12 +1739,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1759,7 +1752,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Cls/Sky Dungeo Maze Corner R Side 02</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1772,12 +1765,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1785,7 +1778,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Cls/Sky Dungeo Maze Corner R Side 03</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1798,12 +1791,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1811,7 +1804,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Cls/Sky Dungeo Maze Corner R Side 04</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1824,12 +1817,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1837,7 +1830,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Cr2/Sky Dungeo Maze Corner L Both 01</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1850,12 +1843,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1863,7 +1856,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Cr2/Sky Dungeo Maze Corner L Both 02</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1876,12 +1869,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1889,7 +1882,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Cr2/Sky Dungeo Maze Corner L Both 03</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1902,12 +1895,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1915,7 +1908,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Cr2/Sky Dungeo Maze Corner L Both 04</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1928,12 +1921,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1941,7 +1934,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Crf/Sky Dungeo Maze Corner L Front 01</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1954,12 +1947,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1967,7 +1960,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Crf/Sky Dungeo Maze Corner L Front 02</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -1980,12 +1973,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1993,7 +1986,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Crf/Sky Dungeo Maze Corner L Front 03</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -2006,12 +1999,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2019,7 +2012,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Crf/Sky Dungeo Maze Corner L Front 04</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -2032,12 +2025,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2045,7 +2038,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Crs/Sky Dungeo Maze Corner L Side 01</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -2058,12 +2051,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2071,7 +2064,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Crs/Sky Dungeo Maze Corner L Side 02</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -2084,12 +2077,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2097,7 +2090,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Crs/Sky Dungeo Maze Corner L Side 03</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -2110,12 +2103,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2123,7 +2116,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Crs/Sky Dungeo Maze Corner L Side 04</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -2136,12 +2129,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2149,7 +2142,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Decor/2x2/Sky Dungeo Maze Decor 2x2 01</strong></summary>
 
-The structure is composed of the following blocks: Stone Brick Slab.
+The structure part is composed of the following blocks: Stone Brick Slab.
 
 ### Blocks
 
@@ -2160,12 +2153,12 @@ The structure is composed of the following blocks: Stone Brick Slab.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2173,7 +2166,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Decor/2x2/Sky Dungeo Maze Decor 2x2 02</strong></summary>
 
-The structure is composed of the following blocks: Cobweb.
+The structure part is composed of the following blocks: Cobweb.
 
 ### Blocks
 
@@ -2184,12 +2177,12 @@ The structure is composed of the following blocks: Cobweb.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2197,7 +2190,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Decor/2x2/Sky Dungeo Maze Decor 2x2 03</strong></summary>
 
-The structure is composed of the following blocks: Scaffolding.
+The structure part is composed of the following blocks: Scaffolding.
 
 ### Blocks
 
@@ -2208,12 +2201,12 @@ The structure is composed of the following blocks: Scaffolding.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2221,7 +2214,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Decor/2x2/Sky Dungeo Maze Decor 2x2 04</strong></summary>
 
-The structure is composed of the following blocks: Bookshelf.
+The structure part is composed of the following blocks: Bookshelf.
 
 ### Blocks
 
@@ -2232,12 +2225,12 @@ The structure is composed of the following blocks: Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2245,7 +2238,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Decor/Loot/Sky Dungeo Maze Loot 01</strong></summary>
 
-The structure is composed of the following blocks: Vault.
+The structure part is composed of the following blocks: Vault.
 
 ### Blocks
 
@@ -2256,7 +2249,7 @@ The structure is composed of the following blocks: Vault.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -2271,7 +2264,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Decor/Loot/Sky Dungeo Maze Loot 02</strong></summary>
 
-The structure is composed of the following blocks: Vault.
+The structure part is composed of the following blocks: Vault.
 
 ### Blocks
 
@@ -2282,7 +2275,7 @@ The structure is composed of the following blocks: Vault.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -2297,7 +2290,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Decor/Sky Dungeo Maze Decor 01</strong></summary>
 
-The structure is composed of the following blocks: Scaffolding.
+The structure part is composed of the following blocks: Scaffolding.
 
 ### Blocks
 
@@ -2308,12 +2301,12 @@ The structure is composed of the following blocks: Scaffolding.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2321,7 +2314,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Decor/Sky Dungeo Maze Decor 02</strong></summary>
 
-The structure is composed of the following blocks: Bookshelf.
+The structure part is composed of the following blocks: Bookshelf.
 
 ### Blocks
 
@@ -2332,12 +2325,12 @@ The structure is composed of the following blocks: Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2345,7 +2338,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Decor/Sky Dungeo Maze Decor 03</strong></summary>
 
-The structure is composed of the following blocks: Bookshelf.
+The structure part is composed of the following blocks: Bookshelf.
 
 ### Blocks
 
@@ -2356,12 +2349,12 @@ The structure is composed of the following blocks: Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2369,7 +2362,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Decor/Sky Dungeo Maze Decor 04</strong></summary>
 
-The structure is composed of the following blocks: Decorated Pot.
+The structure part is composed of the following blocks: Decorated Pot.
 
 ### Blocks
 
@@ -2380,12 +2373,12 @@ The structure is composed of the following blocks: Decorated Pot.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2393,7 +2386,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Decor/Sky Dungeo Maze Decor 05</strong></summary>
 
-The structure is composed of the following blocks: Potted Jungle Sapling.
+The structure part is composed of the following blocks: Potted Jungle Sapling.
 
 ### Blocks
 
@@ -2404,12 +2397,12 @@ The structure is composed of the following blocks: Potted Jungle Sapling.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2417,7 +2410,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Decor/Sky Dungeo Maze Decor 06</strong></summary>
 
-The structure is composed of the following blocks: Stone Brick Slab.
+The structure part is composed of the following blocks: Stone Brick Slab.
 
 ### Blocks
 
@@ -2428,12 +2421,12 @@ The structure is composed of the following blocks: Stone Brick Slab.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2441,7 +2434,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Decor/Sky Dungeo Maze Decor 07</strong></summary>
 
-The structure is composed of the following blocks: Cobweb.
+The structure part is composed of the following blocks: Cobweb.
 
 ### Blocks
 
@@ -2452,12 +2445,12 @@ The structure is composed of the following blocks: Cobweb.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2465,7 +2458,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Decor/Spawner/Sky Dungeo Maze Spawner 01</strong></summary>
 
-The structure is composed of the following blocks: Trial Spawner.
+The structure part is composed of the following blocks: Trial Spawner.
 
 ### Blocks
 
@@ -2476,12 +2469,12 @@ The structure is composed of the following blocks: Trial Spawner.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2489,7 +2482,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Decor/Spawner/Sky Dungeo Maze Spawner 02</strong></summary>
 
-The structure is composed of the following blocks: Trial Spawner.
+The structure part is composed of the following blocks: Trial Spawner.
 
 ### Blocks
 
@@ -2500,12 +2493,12 @@ The structure is composed of the following blocks: Trial Spawner.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2513,7 +2506,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Decor/Spawner/Sky Dungeo Maze Spawner 03</strong></summary>
 
-The structure is composed of the following blocks: Trial Spawner.
+The structure part is composed of the following blocks: Trial Spawner.
 
 ### Blocks
 
@@ -2524,12 +2517,12 @@ The structure is composed of the following blocks: Trial Spawner.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2537,7 +2530,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Decor/Spawner/Sky Dungeo Maze Spawner 04</strong></summary>
 
-The structure is composed of the following blocks: Trial Spawner.
+The structure part is composed of the following blocks: Trial Spawner.
 
 ### Blocks
 
@@ -2548,12 +2541,12 @@ The structure is composed of the following blocks: Trial Spawner.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2561,7 +2554,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Decor/Spawner/Sky Dungeo Maze Spawner 05</strong></summary>
 
-The structure is composed of the following blocks: Trial Spawner.
+The structure part is composed of the following blocks: Trial Spawner.
 
 ### Blocks
 
@@ -2572,12 +2565,12 @@ The structure is composed of the following blocks: Trial Spawner.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2585,7 +2578,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Decor/Spawner/Sky Dungeo Maze Spawner 06</strong></summary>
 
-The structure is composed of the following blocks: Trial Spawner.
+The structure part is composed of the following blocks: Trial Spawner.
 
 ### Blocks
 
@@ -2596,12 +2589,12 @@ The structure is composed of the following blocks: Trial Spawner.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2609,7 +2602,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/E3/Sky Dungeo Maze Edge Sides 01</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -2622,12 +2615,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2635,7 +2628,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/E3/Sky Dungeo Maze Edge Sides 02</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -2648,12 +2641,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2661,7 +2654,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/E3/Sky Dungeo Maze Edge Sides 03</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -2674,12 +2667,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2687,7 +2680,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/E3/Sky Dungeo Maze Edge Sides 04</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -2700,12 +2693,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2713,7 +2706,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/E3b/Sky Dungeo Maze Edge Middel Left 01</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Stone Brick Stairs, Cracked Stone Bricks.
+The structure part is composed of the following blocks: Stone Bricks, Stone Brick Stairs, Cracked Stone Bricks.
 
 ### Blocks
 
@@ -2726,12 +2719,12 @@ The structure is composed of the following blocks: Stone Bricks, Stone Brick Sta
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2739,7 +2732,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/E3b/Sky Dungeo Maze Edge Middel Left 02</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -2752,12 +2745,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2765,7 +2758,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/E3b/Sky Dungeo Maze Edge Middel Left 03</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -2778,12 +2771,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2791,7 +2784,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/E3b/Sky Dungeo Maze Edge Middel Left 04</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -2804,12 +2797,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2817,7 +2810,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/E4/Sky Dungeo Maze Edge All 01</strong></summary>
 
-The structure is composed of the following blocks: Stone Brick Stairs, Stone Bricks, Cracked Stone Bricks.
+The structure part is composed of the following blocks: Stone Brick Stairs, Stone Bricks, Cracked Stone Bricks.
 
 ### Blocks
 
@@ -2830,12 +2823,12 @@ The structure is composed of the following blocks: Stone Brick Stairs, Stone Bri
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2843,7 +2836,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/E4/Sky Dungeo Maze Edge All 02</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -2856,12 +2849,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2869,7 +2862,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/E4/Sky Dungeo Maze Edge All 03</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -2882,12 +2875,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2895,7 +2888,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/E4/Sky Dungeo Maze Edge All 04</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -2908,12 +2901,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2921,7 +2914,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/El/Sky Dungeo Maze Edge Left 01</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -2934,12 +2927,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2947,7 +2940,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/El/Sky Dungeo Maze Edge Left 02</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -2960,12 +2953,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2973,7 +2966,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/El/Sky Dungeo Maze Edge Left 03</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -2986,12 +2979,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2999,7 +2992,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/El/Sky Dungeo Maze Edge Left 04</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -3012,12 +3005,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3025,7 +3018,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Er/Sky Dungeo Maze Edge Right 01</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -3038,12 +3031,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3051,7 +3044,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Er/Sky Dungeo Maze Edge Right 02</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -3064,12 +3057,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3077,7 +3070,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Er/Sky Dungeo Maze Edge Right 03</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -3090,12 +3083,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3103,7 +3096,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Er/Sky Dungeo Maze Edge Right 04</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -3116,12 +3109,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3129,7 +3122,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Es/Sky Dungeo Maze Edge Middel 01</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -3142,12 +3135,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3155,7 +3148,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Es/Sky Dungeo Maze Edge Middel 02</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -3168,12 +3161,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3181,7 +3174,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Es/Sky Dungeo Maze Edge Middel 03</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -3194,12 +3187,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3207,7 +3200,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Es/Sky Dungeo Maze Edge Middel 04</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
+The structure part is composed of the following blocks: Stone Bricks, Cracked Stone Bricks, Stone Brick Stairs.
 
 ### Blocks
 
@@ -3220,12 +3213,12 @@ The structure is composed of the following blocks: Stone Bricks, Cracked Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3233,7 +3226,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Sky Dungeo Big Maze 01</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Slab, Stone Brick Stairs, Jungle Fence, Oak Leaves, Chain, Stripped Spruce Log, Vine, Birch Leaves, Mossy Stone Bricks, Mossy Stone Brick Slab.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Slab, Stone Brick Stairs, Jungle Fence, Oak Leaves, Chain, Stripped Spruce Log, Vine, Birch Leaves, Mossy Stone Bricks, Mossy Stone Brick Slab.
 
 ### Blocks
 
@@ -3255,12 +3248,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3268,7 +3261,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Maze/Sky Dungeo Big Maze 02</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs, Jungle Fence, Oak Leaves, Stone Brick Slab, Chain, Vine, Birch Leaves, Mossy Stone Bricks, Mossy Stone Brick Slab.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs, Jungle Fence, Oak Leaves, Stone Brick Slab, Chain, Vine, Birch Leaves, Mossy Stone Bricks, Mossy Stone Brick Slab.
 
 ### Blocks
 
@@ -3289,12 +3282,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3302,7 +3295,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Room/3x3/Sky Dungeo 3x3 01</strong></summary>
 
-The structure is composed of the following blocks: Vault.
+The structure part is composed of the following blocks: Vault.
 
 ### Blocks
 
@@ -3313,7 +3306,7 @@ The structure is composed of the following blocks: Vault.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -3328,7 +3321,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Room/3x3/Sky Dungeo 3x3 02</strong></summary>
 
-The structure is composed of the following blocks: Stone Brick Stairs, Stone Brick Wall.
+The structure part is composed of the following blocks: Stone Brick Stairs, Stone Brick Wall.
 
 ### Blocks
 
@@ -3340,12 +3333,12 @@ The structure is composed of the following blocks: Stone Brick Stairs, Stone Bri
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3353,7 +3346,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Room/3x3/Sky Dungeo 3x3 03</strong></summary>
 
-The structure is composed of the following blocks: Cobweb.
+The structure part is composed of the following blocks: Cobweb.
 
 ### Blocks
 
@@ -3364,12 +3357,12 @@ The structure is composed of the following blocks: Cobweb.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3377,7 +3370,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Room/3x3/Sky Dungeo 3x3 04</strong></summary>
 
-The structure is composed of the following blocks: Stripped Spruce Log.
+The structure part is composed of the following blocks: Stripped Spruce Log.
 
 ### Blocks
 
@@ -3388,12 +3381,12 @@ The structure is composed of the following blocks: Stripped Spruce Log.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3401,7 +3394,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Room/3x3/Sky Dungeo 3x3 05</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Stone Brick Stairs, Stone Brick Wall.
+The structure part is composed of the following blocks: Stone Bricks, Stone Brick Stairs, Stone Brick Wall.
 
 ### Blocks
 
@@ -3414,12 +3407,12 @@ The structure is composed of the following blocks: Stone Bricks, Stone Brick Sta
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3427,7 +3420,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Room/5x5/Sky Dungeo 5x5 01</strong></summary>
 
-The structure is composed of the following blocks: Stone Brick Stairs, Cracked Stone Bricks, Stone Bricks, Vault.
+The structure part is composed of the following blocks: Stone Brick Stairs, Cracked Stone Bricks, Stone Bricks, Vault.
 
 ### Blocks
 
@@ -3441,7 +3434,7 @@ The structure is composed of the following blocks: Stone Brick Stairs, Cracked S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -3456,7 +3449,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Room/5x5/Sky Dungeo 5x5 02</strong></summary>
 
-The structure is composed of the following blocks: Stripped Spruce Log, Spruce Planks, Cobweb.
+The structure part is composed of the following blocks: Stripped Spruce Log, Spruce Planks, Cobweb.
 
 ### Blocks
 
@@ -3469,12 +3462,12 @@ The structure is composed of the following blocks: Stripped Spruce Log, Spruce P
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3482,7 +3475,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Room/5x5/Sky Dungeo 5x5 03</strong></summary>
 
-The structure is composed of the following blocks: Spruce Trapdoor, Stripped Spruce Log.
+The structure part is composed of the following blocks: Spruce Trapdoor, Stripped Spruce Log.
 
 ### Blocks
 
@@ -3494,12 +3487,12 @@ The structure is composed of the following blocks: Spruce Trapdoor, Stripped Spr
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3507,21 +3500,21 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Ruins/Air/Sky Dungeo Air 01</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3529,21 +3522,21 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Ruins/Air/Sky Dungeo Air 02</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3551,21 +3544,21 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Ruins/Air/Sky Dungeo Air 03</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3573,21 +3566,21 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Ruins/Air/Sky Dungeo Air 04</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3595,7 +3588,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Ruins/Ruins/Sky Dungeo Ruins 01</strong></summary>
 
-The structure is composed of the following blocks: Stone Brick Slab, Cracked Stone Bricks, Stone Brick Stairs, Stone Bricks.
+The structure part is composed of the following blocks: Stone Brick Slab, Cracked Stone Bricks, Stone Brick Stairs, Stone Bricks.
 
 ### Blocks
 
@@ -3609,12 +3602,12 @@ The structure is composed of the following blocks: Stone Brick Slab, Cracked Sto
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3622,7 +3615,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Ruins/Ruins/Sky Dungeo Ruins 02</strong></summary>
 
-The structure is composed of the following blocks: Oak Leaves, Stone Bricks, Cracked Stone Bricks, Stone Brick Slab, Stone Brick Stairs.
+The structure part is composed of the following blocks: Oak Leaves, Stone Bricks, Cracked Stone Bricks, Stone Brick Slab, Stone Brick Stairs.
 
 ### Blocks
 
@@ -3637,12 +3630,12 @@ The structure is composed of the following blocks: Oak Leaves, Stone Bricks, Cra
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3650,7 +3643,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Ruins/Ruins/Sky Dungeo Ruins 03</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Oak Leaves, Jungle Fence, Stone Brick Slab, Stone Bricks.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Oak Leaves, Jungle Fence, Stone Brick Slab, Stone Bricks.
 
 ### Blocks
 
@@ -3665,12 +3658,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Oak Lea
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3678,7 +3671,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Ruins/Ruins/Sky Dungeo Ruins 04</strong></summary>
 
-The structure is composed of the following blocks: Cracked Deepslate Tiles, Cracked Stone Bricks, Gravel, Stone Bricks, Spruce Trapdoor, Stone Brick Stairs, Deepslate Tile Stairs, Stone Brick Slab.
+The structure part is composed of the following blocks: Cracked Deepslate Tiles, Cracked Stone Bricks, Gravel, Stone Bricks, Spruce Trapdoor, Stone Brick Stairs, Deepslate Tile Stairs, Stone Brick Slab.
 
 ### Blocks
 
@@ -3696,12 +3689,12 @@ The structure is composed of the following blocks: Cracked Deepslate Tiles, Crac
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3709,7 +3702,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Ruins/Stones/Sky Dungeo Stones 01</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Brick Slab.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Brick Slab.
 
 ### Blocks
 
@@ -3721,12 +3714,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3734,7 +3727,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Ruins/Stones/Sky Dungeo Stones 02</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Brick Slab.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Brick Slab.
 
 ### Blocks
 
@@ -3746,12 +3739,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3759,21 +3752,21 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Sky Dungeo Boss</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3781,7 +3774,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Sky Dungeo Core</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Slab, Deepslate Tiles, Cracked Deepslate Tiles, Oak Leaves, Vine, Jungle Fence, Birch Leaves, Stone Brick Stairs, Iron Bars, Mossy Stone Bricks, Oak Planks, Polished Andesite, Deepslate Tile Stairs, Oak Stairs, Stripped Jungle Wood, Oak Fence, Moss Block, Moss Carpet, Deepslate Tile Slab, Spruce Door, Stripped Oak Wood, Mossy Stone Brick Stairs, Stripped Spruce Wood, Mossy Stone Brick Slab, Dead Horn Coral Wall Fan, Chain, Jungle Stairs, Ladder, Gravel, Rooted Dirt, Spruce Trapdoor, Oak Slab, Stone Brick Wall, Dead Horn Coral Fan, Deepslate Brick Wall, Hanging Roots.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Slab, Deepslate Tiles, Cracked Deepslate Tiles, Oak Leaves, Vine, Jungle Fence, Birch Leaves, Stone Brick Stairs, Iron Bars, Mossy Stone Bricks, Oak Planks, Polished Andesite, Deepslate Tile Stairs, Oak Stairs, Stripped Jungle Wood, Oak Fence, Moss Block, Moss Carpet, Deepslate Tile Slab, Spruce Door, Stripped Oak Wood, Mossy Stone Brick Stairs, Stripped Spruce Wood, Mossy Stone Brick Slab, Dead Horn Coral Wall Fan, Chain, Jungle Stairs, Ladder, Gravel, Rooted Dirt, Spruce Trapdoor, Oak Slab, Stone Brick Wall, Dead Horn Coral Fan, Deepslate Brick Wall, Hanging Roots.
 
 ### Blocks
 
@@ -3829,12 +3822,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3842,7 +3835,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Sky Dungeo Core Down</strong></summary>
 
-The structure is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Slab, Jungle Fence, Vine, Mossy Stone Bricks, Polished Andesite, Stone Brick Stairs, Oak Leaves, Birch Leaves, Oak Stairs, Jungle Stairs, Oak Fence, Ladder, Grass Block, Emerald Block, Chain, Stripped Jungle Wood, Mossy Stone Brick Slab, Moss Block, Spruce Door, Tall Grass, Short Grass, Dead Horn Coral Wall Fan, Moss Carpet, Mossy Stone Brick Stairs, Stone Brick Wall, Gravel, Rooted Dirt, Hanging Roots, Jungle Slab, Iron Bars, Oak Slab, Bookshelf, Cobweb, Spruce Fence, Spruce Trapdoor, Stripped Spruce Wood, Dead Horn Coral Fan, Oak Trapdoor.
+The structure part is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Slab, Jungle Fence, Vine, Mossy Stone Bricks, Polished Andesite, Stone Brick Stairs, Oak Leaves, Birch Leaves, Oak Stairs, Jungle Stairs, Oak Fence, Ladder, Grass Block, Emerald Block, Chain, Stripped Jungle Wood, Mossy Stone Brick Slab, Moss Block, Spruce Door, Tall Grass, Short Grass, Dead Horn Coral Wall Fan, Moss Carpet, Mossy Stone Brick Stairs, Stone Brick Wall, Gravel, Rooted Dirt, Hanging Roots, Jungle Slab, Iron Bars, Oak Slab, Bookshelf, Cobweb, Spruce Fence, Spruce Trapdoor, Stripped Spruce Wood, Dead Horn Coral Fan, Oak Trapdoor.
 
 ### Blocks
 
@@ -3892,12 +3885,12 @@ The structure is composed of the following blocks: Cracked Stone Bricks, Stone B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3905,7 +3898,7 @@ None found.
 <details>
 <summary><strong>Sky Dungeo/Sky Dungeo Leaves</strong></summary>
 
-The structure is composed of the following blocks: Oak Leaves, Vine.
+The structure part is composed of the following blocks: Oak Leaves, Vine.
 
 ### Blocks
 
@@ -3917,12 +3910,12 @@ The structure is composed of the following blocks: Oak Leaves, Vine.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>

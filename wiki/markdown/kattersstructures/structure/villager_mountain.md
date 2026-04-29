@@ -1,21 +1,14 @@
-# Villager Mountain
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Stone, Granite, Glow Lichen, Andesite Stairs, Andesite, Andesite Slab, Granite Slab, Ochre Froglight, Chest, Diorite Stairs, Emerald Block.
 
-### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/villager/mountain |
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Villager Mountain/Villager Mountain</strong></summary>
 
-The structure is composed of the following blocks: Stone, Granite, Glow Lichen, Andesite Stairs, Andesite, Andesite Slab, Granite Slab, Ochre Froglight, Diorite Stairs.
+The structure part is composed of the following blocks: Stone, Granite, Glow Lichen, Andesite Stairs, Andesite, Andesite Slab, Granite Slab, Ochre Froglight, Diorite Stairs.
 
 ### Blocks
 
@@ -34,12 +27,12 @@ The structure is composed of the following blocks: Stone, Granite, Glow Lichen, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -47,7 +40,7 @@ None found.
 <details>
 <summary><strong>Villager Mountain/Villager Mountain Brain 1</strong></summary>
 
-The structure is composed of the following blocks: Chest, Granite.
+The structure part is composed of the following blocks: Chest, Granite.
 
 ### Blocks
 
@@ -59,7 +52,7 @@ The structure is composed of the following blocks: Chest, Granite.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -74,7 +67,7 @@ None found.
 <details>
 <summary><strong>Villager Mountain/Villager Mountain Brain 2</strong></summary>
 
-The structure is composed of the following blocks: Emerald Block, Granite.
+The structure part is composed of the following blocks: Emerald Block, Granite.
 
 ### Blocks
 
@@ -86,12 +79,12 @@ The structure is composed of the following blocks: Emerald Block, Granite.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -99,7 +92,7 @@ None found.
 <details>
 <summary><strong>Villager Mountain/Villager Mountain Brain 3</strong></summary>
 
-The structure is composed of the following blocks: Granite.
+The structure part is composed of the following blocks: Granite.
 
 ### Blocks
 
@@ -110,12 +103,12 @@ The structure is composed of the following blocks: Granite.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>

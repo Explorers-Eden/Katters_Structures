@@ -1,42 +1,22 @@
-# Village Cherry
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Deepslate Tile Slab, Grass Block, Dirt, Stripped Mangrove Log, Cherry Stairs, Cherry Planks, Dirt Path, Cherry Trapdoor, Mangrove Planks, Pink Petals, Cherry Fence, Mangrove Fence, Cherry Slab, Mangrove Trapdoor, Polished Tuff, Farmland, Cherry Door, Magenta Terracotta, Tuff Bricks, Tall Grass, Lantern, Deepslate Tile Stairs, Hay Block, Pink Bed, Wheat, Carrots, Beetroots, Bookshelf, Coarse Dirt, Pink Carpet, Mangrove Wall Hanging Sign, Chest, Stripped Spruce Log, Chiseled Bookshelf, Cherry Wall Sign, Pink Glazed Terracotta, Podzol, Bamboo, Deepslate Tile Wall, Polished Tuff Slab, Stripped Cherry Log, Waxed Copper Trapdoor, Cobblestone, Ladder, Mangrove Stairs, Tuff Brick Stairs, Seagrass, Spruce Trapdoor, Dark Oak Trapdoor, Polished Tuff Stairs, Chain, Cherry Log, Chiseled Tuff Bricks, Decorated Pot, Magenta Wall Banner, White Wall Banner, Dark Oak Stairs, Gray Wall Banner, Nether Wart, Pink Wall Banner, Poppy, Potted Cherry Sapling, Pumpkin, Pumpkin Stem, Soul Sand, Water Cauldron, Waxed Exposed Copper Trapdoor, Barrel, Campfire, Cherry Fence Gate, Crafting Table, Kelp, Lilac, Mangrove Wall Sign, Peony, Pitcher Plant, Stone Slab, Tripwire Hook, Tuff Brick Slab, Anvil, Bell, Birch Stairs, Blast Furnace, Brewing Stand, Cartography Table, Cherry Pressure Plate, Chipped Anvil, Composter, Damaged Anvil, Fletching Table, Flower Pot, Furnace, Gold Block, Grindstone, Lectern, Lily Pad, Loom, Mangrove Log, Mangrove Slab, Oak Fence, Oak Slab, Ochre Froglight, Smithing Table, Smoker, Smooth Stone Slab, Stone Bricks, Stonecutter, Target, Torchflower, Waxed Cut Copper Slab, Yellow Wall Banner.
 
 Additionally, the following entities may spawn during its generation: Horse, Pig, Sheep, Cow, Mule.
 
-### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/cherry/armorer |
-| kattersstructures:chests/cherry/butcher |
-| kattersstructures:chests/cherry/cartographer |
-| kattersstructures:chests/cherry/cleric |
-| kattersstructures:chests/cherry/fisherman |
-| kattersstructures:chests/cherry/fletcher |
-| kattersstructures:chests/cherry/house |
-| kattersstructures:chests/cherry/leatherworker |
-| kattersstructures:chests/cherry/mason |
-| kattersstructures:chests/cherry/pagode |
-| kattersstructures:chests/cherry/shepherd |
-| kattersstructures:chests/cherry/toolsmith |
-| kattersstructures:chests/cherry/weaponsmith |
-| kattersstructures:chests/house |
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Village Cherry/Animals/Animal Cow 1</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Cow.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -48,7 +28,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -56,13 +36,13 @@ None found.
 <details>
 <summary><strong>Village Cherry/Animals/Animal Horse 1</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Horse.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -74,7 +54,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -82,13 +62,13 @@ None found.
 <details>
 <summary><strong>Village Cherry/Animals/Animal Horse 2</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Horse.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -100,7 +80,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -108,13 +88,13 @@ None found.
 <details>
 <summary><strong>Village Cherry/Animals/Animal Horse 3</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Horse.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -126,7 +106,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -134,13 +114,13 @@ None found.
 <details>
 <summary><strong>Village Cherry/Animals/Animal Horse 4</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Horse.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -152,7 +132,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -160,13 +140,13 @@ None found.
 <details>
 <summary><strong>Village Cherry/Animals/Animal Horse 5</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Mule.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -178,7 +158,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -186,13 +166,13 @@ None found.
 <details>
 <summary><strong>Village Cherry/Animals/Animal Horse 6</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Horse.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -204,7 +184,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -212,13 +192,13 @@ None found.
 <details>
 <summary><strong>Village Cherry/Animals/Animal Pig 1</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Pig.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -230,7 +210,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -238,13 +218,13 @@ None found.
 <details>
 <summary><strong>Village Cherry/Animals/Animal Pig 2</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Pig.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -256,7 +236,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -264,13 +244,13 @@ None found.
 <details>
 <summary><strong>Village Cherry/Animals/Animal Sheep 1</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Sheep.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -282,7 +262,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -290,13 +270,13 @@ None found.
 <details>
 <summary><strong>Village Cherry/Animals/Animal Sheep 2</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Sheep.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -308,7 +288,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -316,7 +296,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/Decor/Decor Bamboo</strong></summary>
 
-The structure is composed of the following blocks: Bamboo, Cherry Trapdoor, Grass Block.
+The structure part is composed of the following blocks: Bamboo, Cherry Trapdoor, Grass Block.
 
 ### Blocks
 
@@ -329,12 +309,12 @@ The structure is composed of the following blocks: Bamboo, Cherry Trapdoor, Gras
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -342,7 +322,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/Decor/Decor Fence</strong></summary>
 
-The structure is composed of the following blocks: Cherry Fence.
+The structure part is composed of the following blocks: Cherry Fence.
 
 ### Blocks
 
@@ -353,12 +333,12 @@ The structure is composed of the following blocks: Cherry Fence.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -366,7 +346,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/Decor/Decor Hay</strong></summary>
 
-The structure is composed of the following blocks: Hay Block.
+The structure part is composed of the following blocks: Hay Block.
 
 ### Blocks
 
@@ -377,12 +357,12 @@ The structure is composed of the following blocks: Hay Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -390,7 +370,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/Decor/Decor Light 1</strong></summary>
 
-The structure is composed of the following blocks: Waxed Copper Trapdoor, Mangrove Fence, Ochre Froglight, Waxed Cut Copper Slab.
+The structure part is composed of the following blocks: Waxed Copper Trapdoor, Mangrove Fence, Ochre Froglight, Waxed Cut Copper Slab.
 
 ### Blocks
 
@@ -404,12 +384,12 @@ The structure is composed of the following blocks: Waxed Copper Trapdoor, Mangro
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -417,7 +397,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/Decor/Decor Light 2</strong></summary>
 
-The structure is composed of the following blocks: Mangrove Fence, Lantern.
+The structure part is composed of the following blocks: Mangrove Fence, Lantern.
 
 ### Blocks
 
@@ -429,12 +409,12 @@ The structure is composed of the following blocks: Mangrove Fence, Lantern.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -442,7 +422,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/Farms/Farm 1</strong></summary>
 
-The structure is composed of the following blocks: Farmland, Wheat, Dirt Path, Grass Block.
+The structure part is composed of the following blocks: Farmland, Wheat, Dirt Path, Grass Block.
 
 ### Blocks
 
@@ -456,12 +436,12 @@ The structure is composed of the following blocks: Farmland, Wheat, Dirt Path, G
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -469,7 +449,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/Farms/Farm 2</strong></summary>
 
-The structure is composed of the following blocks: Beetroots, Farmland, Dirt Path.
+The structure part is composed of the following blocks: Beetroots, Farmland, Dirt Path.
 
 ### Blocks
 
@@ -482,12 +462,12 @@ The structure is composed of the following blocks: Beetroots, Farmland, Dirt Pat
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -495,7 +475,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/Farms/Farm 3</strong></summary>
 
-The structure is composed of the following blocks: Carrots, Farmland, Dirt Path.
+The structure part is composed of the following blocks: Carrots, Farmland, Dirt Path.
 
 ### Blocks
 
@@ -508,12 +488,12 @@ The structure is composed of the following blocks: Carrots, Farmland, Dirt Path.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -521,7 +501,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/Farms/Farm 4</strong></summary>
 
-The structure is composed of the following blocks: Dirt Path, Farmland, Grass Block, Pumpkin, Pumpkin Stem.
+The structure part is composed of the following blocks: Dirt Path, Farmland, Grass Block, Pumpkin, Pumpkin Stem.
 
 ### Blocks
 
@@ -536,12 +516,12 @@ The structure is composed of the following blocks: Dirt Path, Farmland, Grass Bl
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -549,7 +529,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/Farms/Farm 5</strong></summary>
 
-The structure is composed of the following blocks: Grass Block, Cherry Fence, Dirt Path, Cherry Fence Gate.
+The structure part is composed of the following blocks: Grass Block, Cherry Fence, Dirt Path, Cherry Fence Gate.
 
 ### Blocks
 
@@ -563,12 +543,12 @@ The structure is composed of the following blocks: Grass Block, Cherry Fence, Di
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -576,7 +556,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/House/Profession/House Armorer</strong></summary>
 
-The structure is composed of the following blocks: Deepslate Tile Slab, Grass Block, Cherry Stairs, Stripped Mangrove Log, Dirt, Tuff Bricks, Cherry Planks, Mangrove Planks, Cherry Trapdoor, Pink Petals, Cobblestone, Dirt Path, Cherry Door, Deepslate Tile Wall, Spruce Trapdoor, Lantern, Pink Bed, Blast Furnace, Chest, Damaged Anvil, Smooth Stone Slab, Stone Bricks.
+The structure part is composed of the following blocks: Deepslate Tile Slab, Grass Block, Cherry Stairs, Stripped Mangrove Log, Dirt, Tuff Bricks, Cherry Planks, Mangrove Planks, Cherry Trapdoor, Pink Petals, Cobblestone, Dirt Path, Cherry Door, Deepslate Tile Wall, Spruce Trapdoor, Lantern, Pink Bed, Blast Furnace, Chest, Damaged Anvil, Smooth Stone Slab, Stone Bricks.
 
 ### Blocks
 
@@ -608,7 +588,7 @@ The structure is composed of the following blocks: Deepslate Tile Slab, Grass Bl
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -623,7 +603,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/House/Profession/House Butcher</strong></summary>
 
-The structure is composed of the following blocks: Deepslate Tile Slab, Grass Block, Cherry Stairs, Cherry Planks, Stripped Mangrove Log, Dirt, Cherry Trapdoor, Pink Petals, Mangrove Planks, Cherry Fence, Cherry Door, Deepslate Tile Wall, Dirt Path, Lantern, Pink Bed, Campfire, Chain, Cherry Fence Gate, Cherry Slab, Chest, Hay Block, Mangrove Log, Smoker, Waxed Exposed Copper Trapdoor.
+The structure part is composed of the following blocks: Deepslate Tile Slab, Grass Block, Cherry Stairs, Cherry Planks, Stripped Mangrove Log, Dirt, Cherry Trapdoor, Pink Petals, Mangrove Planks, Cherry Fence, Cherry Door, Deepslate Tile Wall, Dirt Path, Lantern, Pink Bed, Campfire, Chain, Cherry Fence Gate, Cherry Slab, Chest, Hay Block, Mangrove Log, Smoker, Waxed Exposed Copper Trapdoor.
 
 ### Blocks
 
@@ -657,7 +637,7 @@ The structure is composed of the following blocks: Deepslate Tile Slab, Grass Bl
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -672,7 +652,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/House/Profession/House Cartographer</strong></summary>
 
-The structure is composed of the following blocks: Deepslate Tile Slab, Cherry Planks, Cherry Stairs, Dirt, Grass Block, Stripped Mangrove Log, Cherry Trapdoor, Mangrove Planks, Pink Petals, Mangrove Trapdoor, Bookshelf, Cherry Door, Dark Oak Stairs, Lantern, Mangrove Wall Hanging Sign, Mangrove Wall Sign, Pink Bed, Cartography Table, Chain, Chest, Decorated Pot, Dirt Path, Flower Pot, Mangrove Stairs.
+The structure part is composed of the following blocks: Deepslate Tile Slab, Cherry Planks, Cherry Stairs, Dirt, Grass Block, Stripped Mangrove Log, Cherry Trapdoor, Mangrove Planks, Pink Petals, Mangrove Trapdoor, Bookshelf, Cherry Door, Dark Oak Stairs, Lantern, Mangrove Wall Hanging Sign, Mangrove Wall Sign, Pink Bed, Cartography Table, Chain, Chest, Decorated Pot, Dirt Path, Flower Pot, Mangrove Stairs.
 
 ### Blocks
 
@@ -706,7 +686,7 @@ The structure is composed of the following blocks: Deepslate Tile Slab, Cherry P
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -721,7 +701,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/House/Profession/House Cleric</strong></summary>
 
-The structure is composed of the following blocks: Deepslate Tile Slab, Dirt, Cherry Planks, Grass Block, Stripped Mangrove Log, Cherry Stairs, Mangrove Planks, Cherry Trapdoor, Pink Petals, Mangrove Trapdoor, Dark Oak Trapdoor, Tuff Bricks, Nether Wart, Soul Sand, Chain, Cherry Door, Dirt Path, Lilac, Peony, Pink Bed, Pitcher Plant, Brewing Stand, Campfire, Chest, Lantern, Torchflower.
+The structure part is composed of the following blocks: Deepslate Tile Slab, Dirt, Cherry Planks, Grass Block, Stripped Mangrove Log, Cherry Stairs, Mangrove Planks, Cherry Trapdoor, Pink Petals, Mangrove Trapdoor, Dark Oak Trapdoor, Tuff Bricks, Nether Wart, Soul Sand, Chain, Cherry Door, Dirt Path, Lilac, Peony, Pink Bed, Pitcher Plant, Brewing Stand, Campfire, Chest, Lantern, Torchflower.
 
 ### Blocks
 
@@ -757,7 +737,7 @@ The structure is composed of the following blocks: Deepslate Tile Slab, Dirt, Ch
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -772,7 +752,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/House/Profession/House Farmer</strong></summary>
 
-The structure is composed of the following blocks: Dirt, Stripped Spruce Log, Grass Block, Dirt Path, Seagrass, Kelp, Composter.
+The structure part is composed of the following blocks: Dirt, Stripped Spruce Log, Grass Block, Dirt Path, Seagrass, Kelp, Composter.
 
 ### Blocks
 
@@ -789,12 +769,12 @@ The structure is composed of the following blocks: Dirt, Stripped Spruce Log, Gr
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -802,7 +782,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/House/Profession/House Fisherman</strong></summary>
 
-The structure is composed of the following blocks: Dirt, Deepslate Tile Slab, Stripped Mangrove Log, Cherry Stairs, Grass Block, Cherry Planks, Cherry Trapdoor, Mangrove Planks, Pink Petals, Cherry Fence, Lantern, Mangrove Wall Hanging Sign, Cherry Door, Mangrove Trapdoor, Pink Carpet, Dirt Path, Pink Bed, Tripwire Hook, Barrel, Lily Pad.
+The structure part is composed of the following blocks: Dirt, Deepslate Tile Slab, Stripped Mangrove Log, Cherry Stairs, Grass Block, Cherry Planks, Cherry Trapdoor, Mangrove Planks, Pink Petals, Cherry Fence, Lantern, Mangrove Wall Hanging Sign, Cherry Door, Mangrove Trapdoor, Pink Carpet, Dirt Path, Pink Bed, Tripwire Hook, Barrel, Lily Pad.
 
 ### Blocks
 
@@ -832,7 +812,7 @@ The structure is composed of the following blocks: Dirt, Deepslate Tile Slab, St
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -847,7 +827,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/House/Profession/House Fletcher</strong></summary>
 
-The structure is composed of the following blocks: Deepslate Tile Slab, Grass Block, Cherry Stairs, Cherry Planks, Dirt, Stripped Mangrove Log, Mangrove Planks, Cherry Trapdoor, Pink Petals, Dirt Path, Cherry Door, Hay Block, Spruce Trapdoor, Pink Bed, Birch Stairs, Chest, Fletching Table, Lantern, Oak Fence, Target.
+The structure part is composed of the following blocks: Deepslate Tile Slab, Grass Block, Cherry Stairs, Cherry Planks, Dirt, Stripped Mangrove Log, Mangrove Planks, Cherry Trapdoor, Pink Petals, Dirt Path, Cherry Door, Hay Block, Spruce Trapdoor, Pink Bed, Birch Stairs, Chest, Fletching Table, Lantern, Oak Fence, Target.
 
 ### Blocks
 
@@ -877,7 +857,7 @@ The structure is composed of the following blocks: Deepslate Tile Slab, Grass Bl
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -892,7 +872,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/House/Profession/House Leatherworker</strong></summary>
 
-The structure is composed of the following blocks: Deepslate Tile Slab, Cherry Planks, Cherry Stairs, Grass Block, Dirt, Cherry Trapdoor, Stripped Mangrove Log, Mangrove Planks, Podzol, Pink Petals, Mangrove Wall Hanging Sign, Pink Carpet, Dirt Path, Magenta Wall Banner, Gray Wall Banner, Pink Wall Banner, Water Cauldron, White Wall Banner, Cherry Door, Pink Bed, Chest, Lantern.
+The structure part is composed of the following blocks: Deepslate Tile Slab, Cherry Planks, Cherry Stairs, Grass Block, Dirt, Cherry Trapdoor, Stripped Mangrove Log, Mangrove Planks, Podzol, Pink Petals, Mangrove Wall Hanging Sign, Pink Carpet, Dirt Path, Magenta Wall Banner, Gray Wall Banner, Pink Wall Banner, Water Cauldron, White Wall Banner, Cherry Door, Pink Bed, Chest, Lantern.
 
 ### Blocks
 
@@ -924,7 +904,7 @@ The structure is composed of the following blocks: Deepslate Tile Slab, Cherry P
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -939,7 +919,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/House/Profession/House Librarian</strong></summary>
 
-The structure is composed of the following blocks: Deepslate Tile Slab, Cherry Stairs, Stripped Mangrove Log, Cherry Planks, Dirt, Grass Block, Cherry Trapdoor, Chiseled Bookshelf, Mangrove Planks, Bookshelf, Pink Petals, Ladder, Cherry Door, Dirt Path, Lantern, Pink Bed, Chest, Lectern.
+The structure part is composed of the following blocks: Deepslate Tile Slab, Cherry Stairs, Stripped Mangrove Log, Cherry Planks, Dirt, Grass Block, Cherry Trapdoor, Chiseled Bookshelf, Mangrove Planks, Bookshelf, Pink Petals, Ladder, Cherry Door, Dirt Path, Lantern, Pink Bed, Chest, Lectern.
 
 ### Blocks
 
@@ -967,7 +947,7 @@ The structure is composed of the following blocks: Deepslate Tile Slab, Cherry S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -982,7 +962,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/House/Profession/House Mason</strong></summary>
 
-The structure is composed of the following blocks: Deepslate Tile Slab, Magenta Terracotta, Dirt, Stripped Mangrove Log, Grass Block, Cherry Trapdoor, Mangrove Planks, Pink Petals, Mangrove Trapdoor, Cherry Door, Pink Glazed Terracotta, Cherry Stairs, Dirt Path, Pink Bed, Stone Slab, Chest, Decorated Pot, Lantern, Stonecutter.
+The structure part is composed of the following blocks: Deepslate Tile Slab, Magenta Terracotta, Dirt, Stripped Mangrove Log, Grass Block, Cherry Trapdoor, Mangrove Planks, Pink Petals, Mangrove Trapdoor, Cherry Door, Pink Glazed Terracotta, Cherry Stairs, Dirt Path, Pink Bed, Stone Slab, Chest, Decorated Pot, Lantern, Stonecutter.
 
 ### Blocks
 
@@ -1011,7 +991,7 @@ The structure is composed of the following blocks: Deepslate Tile Slab, Magenta 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1026,7 +1006,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/House/Profession/House Shepherd</strong></summary>
 
-The structure is composed of the following blocks: Deepslate Tile Slab, Grass Block, Cherry Planks, Cherry Stairs, Stripped Mangrove Log, Dirt, Cherry Fence, Pink Petals, Cherry Trapdoor, Mangrove Planks, Mangrove Trapdoor, Cherry Door, Dirt Path, Pink Bed, Chest, Lantern, Loom, Oak Slab, White Wall Banner, Yellow Wall Banner.
+The structure part is composed of the following blocks: Deepslate Tile Slab, Grass Block, Cherry Planks, Cherry Stairs, Stripped Mangrove Log, Dirt, Cherry Fence, Pink Petals, Cherry Trapdoor, Mangrove Planks, Mangrove Trapdoor, Cherry Door, Dirt Path, Pink Bed, Chest, Lantern, Loom, Oak Slab, White Wall Banner, Yellow Wall Banner.
 
 ### Blocks
 
@@ -1056,7 +1036,7 @@ The structure is composed of the following blocks: Deepslate Tile Slab, Grass Bl
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1071,7 +1051,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/House/Profession/House Toolsmith</strong></summary>
 
-The structure is composed of the following blocks: Deepslate Tile Slab, Cherry Stairs, Cherry Planks, Grass Block, Dirt, Stripped Mangrove Log, Polished Tuff, Cherry Trapdoor, Pink Petals, Mangrove Planks, Coarse Dirt, Cherry Door, Polished Tuff Slab, Dirt Path, Pink Bed, Anvil, Chest, Decorated Pot, Lantern, Potted Cherry Sapling, Smithing Table, Waxed Exposed Copper Trapdoor.
+The structure part is composed of the following blocks: Deepslate Tile Slab, Cherry Stairs, Cherry Planks, Grass Block, Dirt, Stripped Mangrove Log, Polished Tuff, Cherry Trapdoor, Pink Petals, Mangrove Planks, Coarse Dirt, Cherry Door, Polished Tuff Slab, Dirt Path, Pink Bed, Anvil, Chest, Decorated Pot, Lantern, Potted Cherry Sapling, Smithing Table, Waxed Exposed Copper Trapdoor.
 
 ### Blocks
 
@@ -1103,7 +1083,7 @@ The structure is composed of the following blocks: Deepslate Tile Slab, Cherry S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1118,7 +1098,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/House/Profession/House Weaponsmith</strong></summary>
 
-The structure is composed of the following blocks: Deepslate Tile Slab, Cherry Stairs, Stripped Mangrove Log, Polished Tuff, Dirt, Grass Block, Cherry Planks, Cherry Trapdoor, Pink Petals, Mangrove Planks, Coarse Dirt, Cherry Door, Cherry Fence, Polished Tuff Slab, Dirt Path, Pink Bed, Chest, Chipped Anvil, Grindstone, Lantern, Waxed Exposed Copper Trapdoor.
+The structure part is composed of the following blocks: Deepslate Tile Slab, Cherry Stairs, Stripped Mangrove Log, Polished Tuff, Dirt, Grass Block, Cherry Planks, Cherry Trapdoor, Pink Petals, Mangrove Planks, Coarse Dirt, Cherry Door, Cherry Fence, Polished Tuff Slab, Dirt Path, Pink Bed, Chest, Chipped Anvil, Grindstone, Lantern, Waxed Exposed Copper Trapdoor.
 
 ### Blocks
 
@@ -1149,7 +1129,7 @@ The structure is composed of the following blocks: Deepslate Tile Slab, Cherry S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1164,7 +1144,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/House/Rare/House Pagode</strong></summary>
 
-The structure is composed of the following blocks: Deepslate Tile Slab, Stripped Mangrove Log, Mangrove Fence, Cherry Stairs, Dirt, Cherry Planks, Cherry Trapdoor, Grass Block, Cherry Fence, Mangrove Planks, Cherry Slab, Lantern, Pink Petals, Tall Grass, Chest.
+The structure part is composed of the following blocks: Deepslate Tile Slab, Stripped Mangrove Log, Mangrove Fence, Cherry Stairs, Dirt, Cherry Planks, Cherry Trapdoor, Grass Block, Cherry Fence, Mangrove Planks, Cherry Slab, Lantern, Pink Petals, Tall Grass, Chest.
 
 ### Blocks
 
@@ -1189,7 +1169,7 @@ The structure is composed of the following blocks: Deepslate Tile Slab, Stripped
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1204,7 +1184,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/House/Rare/House Rare</strong></summary>
 
-The structure is composed of the following blocks: Deepslate Tile Slab, Cherry Planks, Cherry Stairs, Grass Block, Stripped Mangrove Log, Dirt, Cherry Trapdoor, Cherry Slab, Mangrove Planks, Mangrove Trapdoor, Pink Petals, Hay Block, Tall Grass, Pink Glazed Terracotta, Cherry Fence, Lantern, Cherry Door, Mangrove Stairs, Pink Bed, Chest, Poppy, Crafting Table, Decorated Pot, Dirt Path, Potted Cherry Sapling.
+The structure part is composed of the following blocks: Deepslate Tile Slab, Cherry Planks, Cherry Stairs, Grass Block, Stripped Mangrove Log, Dirt, Cherry Trapdoor, Cherry Slab, Mangrove Planks, Mangrove Trapdoor, Pink Petals, Hay Block, Tall Grass, Pink Glazed Terracotta, Cherry Fence, Lantern, Cherry Door, Mangrove Stairs, Pink Bed, Chest, Poppy, Crafting Table, Decorated Pot, Dirt Path, Potted Cherry Sapling.
 
 ### Blocks
 
@@ -1239,7 +1219,7 @@ The structure is composed of the following blocks: Deepslate Tile Slab, Cherry P
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1255,7 +1235,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/House/Residence/House Long</strong></summary>
 
-The structure is composed of the following blocks: Deepslate Tile Slab, Dirt, Stripped Mangrove Log, Grass Block, Cherry Planks, Cherry Stairs, Cherry Trapdoor, Mangrove Planks, Cherry Fence, Tall Grass, Mangrove Trapdoor, Cherry Door, Lantern, Pink Bed, Cherry Slab, Chest, Dirt Path, Potted Cherry Sapling.
+The structure part is composed of the following blocks: Deepslate Tile Slab, Dirt, Stripped Mangrove Log, Grass Block, Cherry Planks, Cherry Stairs, Cherry Trapdoor, Mangrove Planks, Cherry Fence, Tall Grass, Mangrove Trapdoor, Cherry Door, Lantern, Pink Bed, Cherry Slab, Chest, Dirt Path, Potted Cherry Sapling.
 
 ### Blocks
 
@@ -1283,7 +1263,7 @@ The structure is composed of the following blocks: Deepslate Tile Slab, Dirt, St
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1298,7 +1278,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/House/Residence/House Small</strong></summary>
 
-The structure is composed of the following blocks: Deepslate Tile Slab, Cherry Planks, Cherry Stairs, Dirt, Stripped Mangrove Log, Grass Block, Cherry Trapdoor, Cherry Wall Sign, Mangrove Trapdoor, Tall Grass, Cherry Door, Mangrove Planks, Pink Bed, Chest, Lantern.
+The structure part is composed of the following blocks: Deepslate Tile Slab, Cherry Planks, Cherry Stairs, Dirt, Stripped Mangrove Log, Grass Block, Cherry Trapdoor, Cherry Wall Sign, Mangrove Trapdoor, Tall Grass, Cherry Door, Mangrove Planks, Pink Bed, Chest, Lantern.
 
 ### Blocks
 
@@ -1323,7 +1303,7 @@ The structure is composed of the following blocks: Deepslate Tile Slab, Cherry P
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1338,7 +1318,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/House/Residence/House Small 2</strong></summary>
 
-The structure is composed of the following blocks: Deepslate Tile Slab, Grass Block, Cherry Stairs, Dirt, Stripped Mangrove Log, Pink Petals, Cherry Fence, Mangrove Planks, Cherry Planks, Cherry Trapdoor, Cherry Door, Dirt Path, Lantern, Pink Bed.
+The structure part is composed of the following blocks: Deepslate Tile Slab, Grass Block, Cherry Stairs, Dirt, Stripped Mangrove Log, Pink Petals, Cherry Fence, Mangrove Planks, Cherry Planks, Cherry Trapdoor, Cherry Door, Dirt Path, Lantern, Pink Bed.
 
 ### Blocks
 
@@ -1362,12 +1342,12 @@ The structure is composed of the following blocks: Deepslate Tile Slab, Grass Bl
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1375,7 +1355,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/House/Residence/House Tiny</strong></summary>
 
-The structure is composed of the following blocks: Deepslate Tile Slab, Cherry Stairs, Stripped Mangrove Log, Cherry Planks, Grass Block, Dirt, Cherry Trapdoor, Pink Petals, Mangrove Planks, Pink Carpet, Cherry Door, Pink Bed, Dirt Path, Lantern.
+The structure part is composed of the following blocks: Deepslate Tile Slab, Cherry Stairs, Stripped Mangrove Log, Cherry Planks, Grass Block, Dirt, Cherry Trapdoor, Pink Petals, Mangrove Planks, Pink Carpet, Cherry Door, Pink Bed, Dirt Path, Lantern.
 
 ### Blocks
 
@@ -1399,12 +1379,12 @@ The structure is composed of the following blocks: Deepslate Tile Slab, Cherry S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1412,7 +1392,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/House/Residence/House Two Story</strong></summary>
 
-The structure is composed of the following blocks: Deepslate Tile Slab, Stripped Mangrove Log, Cherry Stairs, Grass Block, Cherry Trapdoor, Dirt, Cherry Planks, Pink Petals, Mangrove Planks, Cherry Wall Sign, Cherry Door, Ladder, Lantern, Pink Bed, Tall Grass, Barrel, Cherry Pressure Plate, Crafting Table, Dirt Path, Furnace.
+The structure part is composed of the following blocks: Deepslate Tile Slab, Stripped Mangrove Log, Cherry Stairs, Grass Block, Cherry Trapdoor, Dirt, Cherry Planks, Pink Petals, Mangrove Planks, Cherry Wall Sign, Cherry Door, Ladder, Lantern, Pink Bed, Tall Grass, Barrel, Cherry Pressure Plate, Crafting Table, Dirt Path, Furnace.
 
 ### Blocks
 
@@ -1442,7 +1422,7 @@ The structure is composed of the following blocks: Deepslate Tile Slab, Stripped
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1457,7 +1437,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/Streets/Street Aslant</strong></summary>
 
-The structure is composed of the following blocks: Dirt Path, Grass Block.
+The structure part is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Blocks
 
@@ -1469,12 +1449,12 @@ The structure is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1482,7 +1462,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/Streets/Street Aslant 2</strong></summary>
 
-The structure is composed of the following blocks: Dirt Path, Grass Block.
+The structure part is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Blocks
 
@@ -1494,12 +1474,12 @@ The structure is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1507,7 +1487,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/Streets/Street Cross</strong></summary>
 
-The structure is composed of the following blocks: Dirt Path, Grass Block.
+The structure part is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Blocks
 
@@ -1519,12 +1499,12 @@ The structure is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1532,7 +1512,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/Streets/Street Curve</strong></summary>
 
-The structure is composed of the following blocks: Dirt Path, Grass Block.
+The structure part is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Blocks
 
@@ -1544,12 +1524,12 @@ The structure is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1557,7 +1537,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/Streets/Street Curve 2</strong></summary>
 
-The structure is composed of the following blocks: Dirt Path, Grass Block.
+The structure part is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Blocks
 
@@ -1569,12 +1549,12 @@ The structure is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1582,7 +1562,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/Streets/Street Curvy</strong></summary>
 
-The structure is composed of the following blocks: Dirt Path, Grass Block.
+The structure part is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Blocks
 
@@ -1594,12 +1574,12 @@ The structure is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1607,7 +1587,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/Streets/Street End</strong></summary>
 
-The structure is composed of the following blocks: Cherry Trapdoor, Cherry Slab, Grass Block, Stripped Cherry Log, Cherry Stairs, Dirt Path, Tall Grass, Cherry Log, Chiseled Tuff Bricks, Cherry Fence, Dirt, Pink Petals.
+The structure part is composed of the following blocks: Cherry Trapdoor, Cherry Slab, Grass Block, Stripped Cherry Log, Cherry Stairs, Dirt Path, Tall Grass, Cherry Log, Chiseled Tuff Bricks, Cherry Fence, Dirt, Pink Petals.
 
 ### Blocks
 
@@ -1629,12 +1609,12 @@ The structure is composed of the following blocks: Cherry Trapdoor, Cherry Slab,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1642,7 +1622,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/Streets/Street Rare</strong></summary>
 
-The structure is composed of the following blocks: Dirt Path, Grass Block.
+The structure part is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Blocks
 
@@ -1654,12 +1634,12 @@ The structure is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1667,7 +1647,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/Streets/Street Straight</strong></summary>
 
-The structure is composed of the following blocks: Dirt Path, Grass Block.
+The structure part is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Blocks
 
@@ -1679,12 +1659,12 @@ The structure is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1692,7 +1672,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/Streets/Street Straight 2</strong></summary>
 
-The structure is composed of the following blocks: Dirt Path, Grass Block.
+The structure part is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Blocks
 
@@ -1704,12 +1684,12 @@ The structure is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1717,7 +1697,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/Streets/Street T</strong></summary>
 
-The structure is composed of the following blocks: Dirt Path, Grass Block.
+The structure part is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Blocks
 
@@ -1729,12 +1709,12 @@ The structure is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1742,7 +1722,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/Streets/Street Y</strong></summary>
 
-The structure is composed of the following blocks: Dirt Path, Grass Block.
+The structure part is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Blocks
 
@@ -1754,12 +1734,12 @@ The structure is composed of the following blocks: Dirt Path, Grass Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1767,7 +1747,7 @@ None found.
 <details>
 <summary><strong>Village Cherry/Town Centers/Shrine Center</strong></summary>
 
-The structure is composed of the following blocks: Dirt, Cherry Fence, Deepslate Tile Slab, Stripped Mangrove Log, Deepslate Tile Stairs, Tuff Bricks, Mangrove Planks, Cherry Trapdoor, Polished Tuff, Grass Block, Tall Grass, Dirt Path, Tuff Brick Stairs, Polished Tuff Stairs, Lantern, Pink Petals, Deepslate Tile Wall, Mangrove Stairs, Polished Tuff Slab, Tuff Brick Slab, Bell, Gold Block, Mangrove Slab, Mangrove Trapdoor, Poppy.
+The structure part is composed of the following blocks: Dirt, Cherry Fence, Deepslate Tile Slab, Stripped Mangrove Log, Deepslate Tile Stairs, Tuff Bricks, Mangrove Planks, Cherry Trapdoor, Polished Tuff, Grass Block, Tall Grass, Dirt Path, Tuff Brick Stairs, Polished Tuff Stairs, Lantern, Pink Petals, Deepslate Tile Wall, Mangrove Stairs, Polished Tuff Slab, Tuff Brick Slab, Bell, Gold Block, Mangrove Slab, Mangrove Trapdoor, Poppy.
 
 ### Blocks
 
@@ -1802,12 +1782,12 @@ The structure is composed of the following blocks: Dirt, Cherry Fence, Deepslate
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>

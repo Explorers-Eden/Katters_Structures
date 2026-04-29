@@ -1,23 +1,16 @@
-# Far Watch
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Stone, Dirt, Grass Block, Dark Oak Planks, Cobblestone, Podzol, Dark Oak Log, Dark Oak Stairs, Birch Planks, Coarse Dirt, Dirt Path, Cobblestone Slab, Cobblestone Stairs, Dark Oak Fence, Glass Pane, Oak Log, Campfire, Cobblestone Wall, Spruce Log, Oak Trapdoor, Dark Oak Slab, Dark Oak Trapdoor, Hay Block, Andesite, White Wall Banner, Oak Fence, Iron Bars, Spruce Fence, Andesite Wall, Polished Andesite, Chain, Mud, Polished Andesite Stairs, White Banner, Dark Oak Wall Sign, Jack O Lantern, Oak Slab, Orange Wool, Birch Slab, Grindstone, Barrel, Birch Fence, Carved Pumpkin, Birch Stairs, Damaged Anvil, Dark Oak Fence Gate, Fire, Lever, Netherrack.
 
 Additionally, the following entities may spawn during its generation: Iron Golem.
 
-### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/pillager_village/chest_2 |
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Far Watch/Far Watch 01</strong></summary>
 
-The structure is composed of the following blocks: Stone, Dirt, Dark Oak Planks, Grass Block, Cobblestone, Dark Oak Log, Podzol, Dark Oak Stairs, Birch Planks, Cobblestone Stairs, Cobblestone Slab, Dark Oak Fence, Dirt Path, Coarse Dirt, Glass Pane, Oak Log, Cobblestone Wall, Spruce Log, White Wall Banner, Oak Fence, Dark Oak Slab, Spruce Fence, Birch Slab, Carved Pumpkin, Hay Block, Jack O Lantern, White Banner, Birch Stairs.
+The structure part is composed of the following blocks: Stone, Dirt, Dark Oak Planks, Grass Block, Cobblestone, Dark Oak Log, Podzol, Dark Oak Stairs, Birch Planks, Cobblestone Stairs, Cobblestone Slab, Dark Oak Fence, Dirt Path, Coarse Dirt, Glass Pane, Oak Log, Cobblestone Wall, Spruce Log, White Wall Banner, Oak Fence, Dark Oak Slab, Spruce Fence, Birch Slab, Carved Pumpkin, Hay Block, Jack O Lantern, White Banner, Birch Stairs.
 
 ### Blocks
 
@@ -55,12 +48,12 @@ The structure is composed of the following blocks: Stone, Dirt, Dark Oak Planks,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -68,7 +61,7 @@ None found.
 <details>
 <summary><strong>Far Watch/Far Watch 01 D</strong></summary>
 
-The structure is composed of the following blocks: Stone.
+The structure part is composed of the following blocks: Stone.
 
 ### Blocks
 
@@ -79,12 +72,12 @@ The structure is composed of the following blocks: Stone.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -92,7 +85,7 @@ None found.
 <details>
 <summary><strong>Far Watch/Far Watch 02</strong></summary>
 
-The structure is composed of the following blocks: Stone, Dirt, Grass Block, Podzol, Cobblestone, Dark Oak Planks, Dark Oak Log, Dark Oak Stairs, Dirt Path, Coarse Dirt, Dark Oak Fence, Birch Planks, Cobblestone Slab, Glass Pane, Cobblestone Stairs, Oak Log, Spruce Log, Cobblestone Wall, Dark Oak Slab, Iron Bars, Hay Block, White Wall Banner, Oak Fence, Spruce Fence, Birch Fence, Jack O Lantern, Carved Pumpkin, White Banner, Barrel.
+The structure part is composed of the following blocks: Stone, Dirt, Grass Block, Podzol, Cobblestone, Dark Oak Planks, Dark Oak Log, Dark Oak Stairs, Dirt Path, Coarse Dirt, Dark Oak Fence, Birch Planks, Cobblestone Slab, Glass Pane, Cobblestone Stairs, Oak Log, Spruce Log, Cobblestone Wall, Dark Oak Slab, Iron Bars, Hay Block, White Wall Banner, Oak Fence, Spruce Fence, Birch Fence, Jack O Lantern, Carved Pumpkin, White Banner, Barrel.
 
 Additionally, the following entities may spawn during its generation: Iron Golem.
 
@@ -150,7 +143,7 @@ Additionally, the following entities may spawn during its generation: Iron Golem
 <details>
 <summary><strong>Far Watch/Far Watch 02 D</strong></summary>
 
-The structure is composed of the following blocks: Stone.
+The structure part is composed of the following blocks: Stone.
 
 ### Blocks
 
@@ -161,12 +154,12 @@ The structure is composed of the following blocks: Stone.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -174,7 +167,7 @@ None found.
 <details>
 <summary><strong>Far Watch/Far Watch 03</strong></summary>
 
-The structure is composed of the following blocks: Grass Block, Dirt, Podzol, Coarse Dirt.
+The structure part is composed of the following blocks: Grass Block, Dirt, Podzol, Coarse Dirt.
 
 ### Blocks
 
@@ -188,12 +181,12 @@ The structure is composed of the following blocks: Grass Block, Dirt, Podzol, Co
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -201,7 +194,7 @@ None found.
 <details>
 <summary><strong>Far Watch/Far Watch 03 D</strong></summary>
 
-The structure is composed of the following blocks: Stone.
+The structure part is composed of the following blocks: Stone.
 
 ### Blocks
 
@@ -212,12 +205,12 @@ The structure is composed of the following blocks: Stone.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -225,7 +218,7 @@ None found.
 <details>
 <summary><strong>Far Watch/Far Watch 04</strong></summary>
 
-The structure is composed of the following blocks: Stone, Dirt, Grass Block, Dark Oak Planks, Podzol, Cobblestone, Birch Planks, Coarse Dirt, Dark Oak Log, Dark Oak Stairs, Dirt Path, Cobblestone Stairs, Andesite, Cobblestone Slab, Cobblestone Wall, Dark Oak Fence, Glass Pane, Andesite Wall, Polished Andesite, Oak Log, Spruce Log, Polished Andesite Stairs, White Wall Banner, Birch Slab, Oak Fence, Dark Oak Slab, Spruce Fence, White Banner, Birch Fence.
+The structure part is composed of the following blocks: Stone, Dirt, Grass Block, Dark Oak Planks, Podzol, Cobblestone, Birch Planks, Coarse Dirt, Dark Oak Log, Dark Oak Stairs, Dirt Path, Cobblestone Stairs, Andesite, Cobblestone Slab, Cobblestone Wall, Dark Oak Fence, Glass Pane, Andesite Wall, Polished Andesite, Oak Log, Spruce Log, Polished Andesite Stairs, White Wall Banner, Birch Slab, Oak Fence, Dark Oak Slab, Spruce Fence, White Banner, Birch Fence.
 
 ### Blocks
 
@@ -264,12 +257,12 @@ The structure is composed of the following blocks: Stone, Dirt, Grass Block, Dar
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -277,7 +270,7 @@ None found.
 <details>
 <summary><strong>Far Watch/Far Watch 04 D</strong></summary>
 
-The structure is composed of the following blocks: Stone.
+The structure part is composed of the following blocks: Stone.
 
 ### Blocks
 
@@ -288,12 +281,12 @@ The structure is composed of the following blocks: Stone.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -301,7 +294,7 @@ None found.
 <details>
 <summary><strong>Far Watch/Far Watch 05</strong></summary>
 
-The structure is composed of the following blocks: Stone, Dirt, Dark Oak Planks, Grass Block, Podzol, Cobblestone, Dark Oak Stairs, Campfire, Dark Oak Log, Coarse Dirt, Birch Planks, Oak Trapdoor, Dirt Path, Cobblestone Stairs, Cobblestone Slab, Dark Oak Fence, Dark Oak Trapdoor, Hay Block, Glass Pane, Dark Oak Slab, Cobblestone Wall, Iron Bars, Oak Log, Spruce Log, White Wall Banner, Orange Wool, White Banner, Jack O Lantern, Oak Fence, Spruce Fence, Barrel, Carved Pumpkin, Fire, Netherrack.
+The structure part is composed of the following blocks: Stone, Dirt, Dark Oak Planks, Grass Block, Podzol, Cobblestone, Dark Oak Stairs, Campfire, Dark Oak Log, Coarse Dirt, Birch Planks, Oak Trapdoor, Dirt Path, Cobblestone Stairs, Cobblestone Slab, Dark Oak Fence, Dark Oak Trapdoor, Hay Block, Glass Pane, Dark Oak Slab, Cobblestone Wall, Iron Bars, Oak Log, Spruce Log, White Wall Banner, Orange Wool, White Banner, Jack O Lantern, Oak Fence, Spruce Fence, Barrel, Carved Pumpkin, Fire, Netherrack.
 
 ### Blocks
 
@@ -345,7 +338,7 @@ The structure is composed of the following blocks: Stone, Dirt, Dark Oak Planks,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -360,7 +353,7 @@ None found.
 <details>
 <summary><strong>Far Watch/Far Watch 05 D</strong></summary>
 
-The structure is composed of the following blocks: Stone.
+The structure part is composed of the following blocks: Stone.
 
 ### Blocks
 
@@ -371,12 +364,12 @@ The structure is composed of the following blocks: Stone.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -384,7 +377,7 @@ None found.
 <details>
 <summary><strong>Far Watch/Far Watch 06</strong></summary>
 
-The structure is composed of the following blocks: Stone, Grass Block, Dirt, Cobblestone, Oak Log, Spruce Log, Dark Oak Log, Cobblestone Slab, Podzol, Coarse Dirt, Oak Fence, Dark Oak Fence, Spruce Fence.
+The structure part is composed of the following blocks: Stone, Grass Block, Dirt, Cobblestone, Oak Log, Spruce Log, Dark Oak Log, Cobblestone Slab, Podzol, Coarse Dirt, Oak Fence, Dark Oak Fence, Spruce Fence.
 
 ### Blocks
 
@@ -407,12 +400,12 @@ The structure is composed of the following blocks: Stone, Grass Block, Dirt, Cob
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -420,7 +413,7 @@ None found.
 <details>
 <summary><strong>Far Watch/Far Watch 06 D</strong></summary>
 
-The structure is composed of the following blocks: Stone.
+The structure part is composed of the following blocks: Stone.
 
 ### Blocks
 
@@ -431,12 +424,12 @@ The structure is composed of the following blocks: Stone.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -444,7 +437,7 @@ None found.
 <details>
 <summary><strong>Far Watch/Far Watch 07</strong></summary>
 
-The structure is composed of the following blocks: Stone, Grass Block, Dark Oak Planks, Dirt, Podzol, Cobblestone, Dark Oak Stairs, Dark Oak Log, Coarse Dirt, Birch Planks, Cobblestone Slab, Dark Oak Fence, Cobblestone Stairs, Oak Log, Glass Pane, Spruce Log, Dark Oak Slab, Cobblestone Wall, Mud, Hay Block, Dirt Path, Oak Fence, White Wall Banner, Spruce Fence, Barrel, Carved Pumpkin, White Banner.
+The structure part is composed of the following blocks: Stone, Grass Block, Dark Oak Planks, Dirt, Podzol, Cobblestone, Dark Oak Stairs, Dark Oak Log, Coarse Dirt, Birch Planks, Cobblestone Slab, Dark Oak Fence, Cobblestone Stairs, Oak Log, Glass Pane, Spruce Log, Dark Oak Slab, Cobblestone Wall, Mud, Hay Block, Dirt Path, Oak Fence, White Wall Banner, Spruce Fence, Barrel, Carved Pumpkin, White Banner.
 
 ### Blocks
 
@@ -481,7 +474,7 @@ The structure is composed of the following blocks: Stone, Grass Block, Dark Oak 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -496,7 +489,7 @@ None found.
 <details>
 <summary><strong>Far Watch/Far Watch 07 D</strong></summary>
 
-The structure is composed of the following blocks: Stone.
+The structure part is composed of the following blocks: Stone.
 
 ### Blocks
 
@@ -507,12 +500,12 @@ The structure is composed of the following blocks: Stone.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -520,7 +513,7 @@ None found.
 <details>
 <summary><strong>Far Watch/Far Watch 08</strong></summary>
 
-The structure is composed of the following blocks: Stone, Dirt, Grass Block, Dark Oak Planks, Cobblestone, Podzol, Dark Oak Stairs, Dark Oak Log, Campfire, Birch Planks, Coarse Dirt, Oak Trapdoor, Dirt Path, Cobblestone Slab, Cobblestone Stairs, Dark Oak Fence, Oak Log, Dark Oak Trapdoor, Spruce Log, Dark Oak Slab, Cobblestone Wall, Glass Pane, Chain, Hay Block, Oak Fence, Dark Oak Wall Sign, Oak Slab, White Wall Banner, Spruce Fence, White Banner, Grindstone, Jack O Lantern, Barrel, Damaged Anvil, Dark Oak Fence Gate, Lever.
+The structure part is composed of the following blocks: Stone, Dirt, Grass Block, Dark Oak Planks, Cobblestone, Podzol, Dark Oak Stairs, Dark Oak Log, Campfire, Birch Planks, Coarse Dirt, Oak Trapdoor, Dirt Path, Cobblestone Slab, Cobblestone Stairs, Dark Oak Fence, Oak Log, Dark Oak Trapdoor, Spruce Log, Dark Oak Slab, Cobblestone Wall, Glass Pane, Chain, Hay Block, Oak Fence, Dark Oak Wall Sign, Oak Slab, White Wall Banner, Spruce Fence, White Banner, Grindstone, Jack O Lantern, Barrel, Damaged Anvil, Dark Oak Fence Gate, Lever.
 
 ### Blocks
 
@@ -566,7 +559,7 @@ The structure is composed of the following blocks: Stone, Dirt, Grass Block, Dar
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -581,7 +574,7 @@ None found.
 <details>
 <summary><strong>Far Watch/Far Watch 08 D</strong></summary>
 
-The structure is composed of the following blocks: Stone.
+The structure part is composed of the following blocks: Stone.
 
 ### Blocks
 
@@ -592,12 +585,12 @@ The structure is composed of the following blocks: Stone.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -605,7 +598,7 @@ None found.
 <details>
 <summary><strong>Far Watch/Far Watch 09</strong></summary>
 
-The structure is composed of the following blocks: Stone, Grass Block, Dirt, Cobblestone, Cobblestone Slab, Podzol, Coarse Dirt.
+The structure part is composed of the following blocks: Stone, Grass Block, Dirt, Cobblestone, Cobblestone Slab, Podzol, Coarse Dirt.
 
 ### Blocks
 
@@ -622,12 +615,12 @@ The structure is composed of the following blocks: Stone, Grass Block, Dirt, Cob
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>

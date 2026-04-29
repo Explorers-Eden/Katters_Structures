@@ -1,27 +1,16 @@
-# Sky Decor
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Gray Wool, Light Gray Wool, Light Gray Concrete, Dark Oak Planks, Dark Oak Trapdoor, Green Concrete, White Concrete, White Wool, Brown Wool, Green Terracotta, Dark Oak Fence, Green Wool, Brown Concrete, Birch Slab, Brown Mushroom Block, Brown Terracotta, Birch Planks, Dark Oak Stairs, Pale Oak Trapdoor, Dark Oak Log, Smooth Quartz, Mushroom Stem, Mangrove Trapdoor, Warped Trapdoor, Warped Planks, Pale Oak Planks, Mangrove Planks, Mangrove Fence, Warped Fence, Dark Oak Fence Gate, Pale Oak Fence, Pale Oak Stairs, Warped Stairs, Pale Oak Slab, Mangrove Stairs, Warped Slab, Mangrove Slab, White Wall Banner, Birch Stairs, Ochre Froglight, Chest, Polished Blackstone Wall, Cyan Wall Banner, Red Wall Banner, White Carpet, Crimson Planks, Chain, Glass Pane, Polished Diorite, Red Carpet, Pearlescent Froglight, Crimson Slab, Dark Prismarine, Barrel, Decorated Pot, Crimson Stairs, Green Wall Banner, Campfire, Dark Prismarine Stairs, Lever, Polished Blackstone, Dark Oak Slab, Dark Prismarine Slab, Polished Diorite Stairs, Stripped Dark Oak Log, Bookshelf, Grindstone, Polished Diorite Slab, Soul Campfire, Crimson Fence, Lantern, Spawner, Chiseled Bookshelf, Verdant Froglight, Iron Door, Spruce Button, Fletching Table, Polished Blackstone Button.
 
 Additionally, the following entities may spawn during its generation: Allay, Glow Item Frame.
 
-### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky_decor/chests |
-| kattersstructures:chests/sky_decor/pillager/arrows |
-| kattersstructures:chests/sky_decor/pillager/storage |
-| kattersstructures:chests/sky_decor/pillager/tnt |
-| kattersstructures:chests/sky_decor/pillager/treasure |
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Sky Decor/Sky Decor 01</strong></summary>
 
-The structure is composed of the following blocks: White Wool, White Concrete, Smooth Quartz, Warped Planks, Warped Fence, Warped Trapdoor, Warped Slab, Cyan Wall Banner, Warped Stairs, Dark Prismarine, Dark Prismarine Stairs, Ochre Froglight, Dark Prismarine Slab, Chain, Decorated Pot, Chest, Soul Campfire, Verdant Froglight.
+The structure part is composed of the following blocks: White Wool, White Concrete, Smooth Quartz, Warped Planks, Warped Fence, Warped Trapdoor, Warped Slab, Cyan Wall Banner, Warped Stairs, Dark Prismarine, Dark Prismarine Stairs, Ochre Froglight, Dark Prismarine Slab, Chain, Decorated Pot, Chest, Soul Campfire, Verdant Froglight.
 
 ### Blocks
 
@@ -49,7 +38,7 @@ The structure is composed of the following blocks: White Wool, White Concrete, S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -64,7 +53,7 @@ None found.
 <details>
 <summary><strong>Sky Decor/Sky Decor 02</strong></summary>
 
-The structure is composed of the following blocks: Brown Wool, Brown Terracotta, Brown Concrete, Mangrove Planks, Brown Mushroom Block, Mangrove Fence, Mangrove Trapdoor, Crimson Planks, Mangrove Slab, Red Wall Banner, Mangrove Stairs, Crimson Slab, Crimson Stairs, Ochre Froglight, Crimson Fence, Chain, Decorated Pot, Chest, Soul Campfire, Verdant Froglight.
+The structure part is composed of the following blocks: Brown Wool, Brown Terracotta, Brown Concrete, Mangrove Planks, Brown Mushroom Block, Mangrove Fence, Mangrove Trapdoor, Crimson Planks, Mangrove Slab, Red Wall Banner, Mangrove Stairs, Crimson Slab, Crimson Stairs, Ochre Froglight, Crimson Fence, Chain, Decorated Pot, Chest, Soul Campfire, Verdant Froglight.
 
 ### Blocks
 
@@ -94,7 +83,7 @@ The structure is composed of the following blocks: Brown Wool, Brown Terracotta,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -109,7 +98,7 @@ None found.
 <details>
 <summary><strong>Sky Decor/Sky Decor 03</strong></summary>
 
-The structure is composed of the following blocks: Green Concrete, Green Terracotta, Green Wool, Pale Oak Planks, Pale Oak Fence, Pale Oak Trapdoor, Pale Oak Slab, Polished Diorite, Pale Oak Stairs, Green Wall Banner, Pearlescent Froglight, White Wall Banner, Polished Diorite Stairs, Polished Diorite Slab, Chain, Decorated Pot, Chest, Soul Campfire, Verdant Froglight.
+The structure part is composed of the following blocks: Green Concrete, Green Terracotta, Green Wool, Pale Oak Planks, Pale Oak Fence, Pale Oak Trapdoor, Pale Oak Slab, Polished Diorite, Pale Oak Stairs, Green Wall Banner, Pearlescent Froglight, White Wall Banner, Polished Diorite Stairs, Polished Diorite Slab, Chain, Decorated Pot, Chest, Soul Campfire, Verdant Froglight.
 
 ### Blocks
 
@@ -138,7 +127,7 @@ The structure is composed of the following blocks: Green Concrete, Green Terraco
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -153,7 +142,7 @@ None found.
 <details>
 <summary><strong>Sky Decor/Sky Decor 04</strong></summary>
 
-The structure is composed of the following blocks: White Concrete, White Wool, Mushroom Stem, Warped Trapdoor, Warped Stairs, Warped Fence, Warped Slab, Cyan Wall Banner, Ochre Froglight, Decorated Pot, Chain, Chest, Soul Campfire.
+The structure part is composed of the following blocks: White Concrete, White Wool, Mushroom Stem, Warped Trapdoor, Warped Stairs, Warped Fence, Warped Slab, Cyan Wall Banner, Ochre Froglight, Decorated Pot, Chain, Chest, Soul Campfire.
 
 ### Blocks
 
@@ -176,7 +165,7 @@ The structure is composed of the following blocks: White Concrete, White Wool, M
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -191,7 +180,7 @@ None found.
 <details>
 <summary><strong>Sky Decor/Sky Decor 05</strong></summary>
 
-The structure is composed of the following blocks: Brown Mushroom Block, Brown Wool, Brown Concrete, Mangrove Trapdoor, Brown Terracotta, Mangrove Stairs, Mangrove Fence, Mangrove Slab, Ochre Froglight, Red Wall Banner, Decorated Pot, Chain, Chest, Soul Campfire.
+The structure part is composed of the following blocks: Brown Mushroom Block, Brown Wool, Brown Concrete, Mangrove Trapdoor, Brown Terracotta, Mangrove Stairs, Mangrove Fence, Mangrove Slab, Ochre Froglight, Red Wall Banner, Decorated Pot, Chain, Chest, Soul Campfire.
 
 ### Blocks
 
@@ -215,7 +204,7 @@ The structure is composed of the following blocks: Brown Mushroom Block, Brown W
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -230,7 +219,7 @@ None found.
 <details>
 <summary><strong>Sky Decor/Sky Decor 06</strong></summary>
 
-The structure is composed of the following blocks: Green Concrete, Green Terracotta, Green Wool, Pale Oak Trapdoor, Pale Oak Stairs, Pale Oak Slab, Pale Oak Fence, Mangrove Fence, Pearlescent Froglight, White Wall Banner, Decorated Pot, Green Wall Banner, Chain, Chest, Soul Campfire.
+The structure part is composed of the following blocks: Green Concrete, Green Terracotta, Green Wool, Pale Oak Trapdoor, Pale Oak Stairs, Pale Oak Slab, Pale Oak Fence, Mangrove Fence, Pearlescent Froglight, White Wall Banner, Decorated Pot, Green Wall Banner, Chain, Chest, Soul Campfire.
 
 ### Blocks
 
@@ -255,7 +244,7 @@ The structure is composed of the following blocks: Green Concrete, Green Terraco
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -270,7 +259,7 @@ None found.
 <details>
 <summary><strong>Sky Decor/Sky Decor Pillager 01</strong></summary>
 
-The structure is composed of the following blocks: Gray Wool, Light Gray Wool, Light Gray Concrete, Dark Oak Planks, Dark Oak Trapdoor, Dark Oak Fence, Birch Slab, Birch Planks, Dark Oak Stairs, Dark Oak Log, Dark Oak Fence Gate, Pale Oak Trapdoor, Birch Stairs, Polished Blackstone Wall, White Carpet, White Wall Banner, Chest, Glass Pane, Red Carpet, Barrel, Chain, Campfire, Lever, Polished Blackstone, Dark Oak Slab, Stripped Dark Oak Log, Bookshelf, Grindstone, Lantern, Spawner, Chiseled Bookshelf, Iron Door, Spruce Button, Fletching Table, Polished Blackstone Button.
+The structure part is composed of the following blocks: Gray Wool, Light Gray Wool, Light Gray Concrete, Dark Oak Planks, Dark Oak Trapdoor, Dark Oak Fence, Birch Slab, Birch Planks, Dark Oak Stairs, Dark Oak Log, Dark Oak Fence Gate, Pale Oak Trapdoor, Birch Stairs, Polished Blackstone Wall, White Carpet, White Wall Banner, Chest, Glass Pane, Red Carpet, Barrel, Chain, Campfire, Lever, Polished Blackstone, Dark Oak Slab, Stripped Dark Oak Log, Bookshelf, Grindstone, Lantern, Spawner, Chiseled Bookshelf, Iron Door, Spruce Button, Fletching Table, Polished Blackstone Button.
 
 Additionally, the following entities may spawn during its generation: Allay, Glow Item Frame.
 

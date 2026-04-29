@@ -1,21 +1,14 @@
-# Villager Ocean
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Dark Prismarine, Glow Lichen, Prismarine Brick Stairs, Prismarine Bricks, Prismarine Brick Slab, Dark Prismarine Slab, Sea Lantern, Chest, Emerald Block, Sandstone Stairs.
 
-### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/villager/ocean |
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Villager Ocean/Villager Ocean</strong></summary>
 
-The structure is composed of the following blocks: Dark Prismarine, Glow Lichen, Prismarine Brick Stairs, Prismarine Bricks, Prismarine Brick Slab, Dark Prismarine Slab, Sea Lantern, Sandstone Stairs.
+The structure part is composed of the following blocks: Dark Prismarine, Glow Lichen, Prismarine Brick Stairs, Prismarine Bricks, Prismarine Brick Slab, Dark Prismarine Slab, Sea Lantern, Sandstone Stairs.
 
 ### Blocks
 
@@ -33,12 +26,12 @@ The structure is composed of the following blocks: Dark Prismarine, Glow Lichen,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -46,7 +39,7 @@ None found.
 <details>
 <summary><strong>Villager Ocean/Villager Ocean Brain 1</strong></summary>
 
-The structure is composed of the following blocks: Chest, Dark Prismarine.
+The structure part is composed of the following blocks: Chest, Dark Prismarine.
 
 ### Blocks
 
@@ -58,7 +51,7 @@ The structure is composed of the following blocks: Chest, Dark Prismarine.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -73,7 +66,7 @@ None found.
 <details>
 <summary><strong>Villager Ocean/Villager Ocean Brain 2</strong></summary>
 
-The structure is composed of the following blocks: Dark Prismarine, Emerald Block.
+The structure part is composed of the following blocks: Dark Prismarine, Emerald Block.
 
 ### Blocks
 
@@ -85,12 +78,12 @@ The structure is composed of the following blocks: Dark Prismarine, Emerald Bloc
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -98,7 +91,7 @@ None found.
 <details>
 <summary><strong>Villager Ocean/Villager Ocean Brain 3</strong></summary>
 
-The structure is composed of the following blocks: Dark Prismarine.
+The structure part is composed of the following blocks: Dark Prismarine.
 
 ### Blocks
 
@@ -109,12 +102,12 @@ The structure is composed of the following blocks: Dark Prismarine.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>

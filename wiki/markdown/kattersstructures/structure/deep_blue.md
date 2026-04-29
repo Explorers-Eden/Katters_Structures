@@ -1,27 +1,16 @@
-# Deep Blue
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Oxidized Copper Grate, Oxidized Copper Trapdoor, Prismarine Brick Stairs, Prismarine Brick Slab, Fire Coral Block, Grass Block, Oxidized Copper, Tuff Bricks, Oxidized Cut Copper Stairs, Bubble Column, Prismarine Wall, Oxidized Copper Bulb, Lightning Rod, Weathered Copper Trapdoor, Farmland, Weathered Cut Copper, Oxidized Cut Copper, Dark Prismarine, Oxidized Copper Door, Oxidized Chiseled Copper, Oxidized Cut Copper Slab, Dirt, Oak Leaves, Horn Coral Fan, Observer, Dark Prismarine Stairs, Red Mushroom Block, Chiseled Bookshelf, Weathered Cut Copper Stairs, Beetroots, Carrots, Potatoes, Prismarine Slab, Wheat, Redstone Wire, Weathered Cut Copper Slab, Prismarine, Chest, Sticky Piston, Cyan Bed, Fire Coral, Bookshelf, Ladder, Short Grass, Prismarine Stairs, Campfire, Mycelium, Mud, Weathered Copper Bulb, Dead Fire Coral Block, Hopper, Moss Block, Oak Trapdoor, Soul Sand, Weathered Copper Door, Weathered Copper Grate, Exposed Copper Bulb, Piston Head, Copper Bulb, Dark Prismarine Slab, Kelp Plant, Repeater, Black Bed, Comparator, Fire Coral Wall Fan, Kelp, Light Blue Bed, Piston, Redstone Wall Torch, Acacia Fence Gate, Acacia Fence, Birch Trapdoor, Lectern, Warped Button, Blue Bed, Dirt Path, Lilac, Peony, Rose Bush, Tripwire Hook, Tuff Brick Stairs, Acacia Wall Sign, Lever, Oak Stairs, Cactus, Copper Door, Dropper, Magma Block, Mushroom Stem, Note Block, Oak Log, Pitcher Plant, Sand, Acacia Wall Hanging Sign, Allium, Azure Bluet, Brown Mushroom, Copper Grate, Exposed Chiseled Copper, Light Blue Stained Glass Pane, Mangrove Roots, Oak Button, Redstone Block, Torchflower, Beehive, Brewing Stand, Composter, Crafter, Crafting Table, Dandelion, Exposed Copper, Lily Of The Valley, Oak Fence, Oxeye Daisy, Poppy, Potted Cactus, Red Mushroom, Red Tulip, Redstone Torch, Stone Button, Sunflower, Tall Grass, Weathered Copper, Barrel, Barrier, Bell, Birch Slab, Birch Stairs, Dead Horn Coral Fan, Decorated Pot, Dispenser, Exposed Copper Grate, Furnace, Melon Stem, Orange Tulip, Potted Azure Bluet, Potted Dead Bush, Potted Oak Sapling, Pumpkin Stem, Redstone Lamp, Trapped Chest, Water Cauldron, Weathered Chiseled Copper, White Tulip.
 
 Additionally, the following entities may spawn during its generation: Drowned, Chicken, Pig, Bee, End Crystal, Item, Salmon, Sheep, Tropical Fish, Villager, Item Frame.
 
-### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/city/chest_loot |
-| kattersstructures:chests/deep_blue/city/fish |
-| kattersstructures:chests/deep_blue/city/sugar |
-| kattersstructures:chests/deep_blue/lab_ruin/chest_loot |
-| kattersstructures:chests/deep_blue/labs/chest_loot |
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Deep Blue/Bookshelf/Bookshelf Deep Blue Enchant 01 S</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -32,12 +21,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -45,7 +34,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Bookshelf/Bookshelf Deep Blue Enchant 02 S</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -56,12 +45,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -69,7 +58,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Bookshelf/Bookshelf Deep Blue Enchant 03</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -80,12 +69,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -93,7 +82,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Bookshelf/Bookshelf Deep Blue Enchant 04</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -104,12 +93,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -117,7 +106,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Bookshelf/Bookshelf Deep Blue Enchant 05</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -128,12 +117,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -141,7 +130,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Bookshelf/Bookshelf Deep Blue Enchant 06</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -152,12 +141,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -165,7 +154,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Bookshelf/Bookshelf Deep Blue Lore 01</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -176,12 +165,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -189,7 +178,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Bookshelf/Bookshelf Deep Blue Lore 02</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -200,12 +189,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -213,7 +202,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Bookshelf/Bookshelf Deep Blue Lore 03</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -224,12 +213,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -237,7 +226,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Bookshelf/Bookshelf Deep Blue Lore 04</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -248,12 +237,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -261,7 +250,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Bookshelf/Bookshelf Deep Blue Lore 05</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -272,12 +261,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -285,7 +274,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Bookshelf/Bookshelf Deep Blue Lore 06</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -296,12 +285,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -309,7 +298,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Bookshelf/Bookshelf Deep Blue Lore 07</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -320,12 +309,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -333,7 +322,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Bookshelf/Bookshelf Deep Blue Lore 08</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -344,12 +333,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -357,7 +346,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Bookshelf/Bookshelf Deep Blue Lore 09</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -368,12 +357,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -381,7 +370,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Bookshelf/Bookshelf Deep Blue Lore 10</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -392,12 +381,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -405,7 +394,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Bookshelf/Bookshelf Deep Blue Lore 11</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -416,12 +405,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -429,7 +418,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Bookshelf/Bookshelf Deep Blue Lore 12</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -440,12 +429,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -453,7 +442,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Bookshelf/Bookshelf Deep Blue Lore 13</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -464,12 +453,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -477,7 +466,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Bookshelf/Bookshelf Deep Blue Lore 14</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -488,12 +477,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -501,7 +490,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Deep Blue City 01</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Oxidized Copper Grate, Oxidized Copper Trapdoor, Prismarine Brick Stairs, Bubble Column, Prismarine Wall, Oxidized Copper Bulb, Prismarine Brick Slab, Lightning Rod, Exposed Copper Bulb, Oxidized Copper Door, Soul Sand, Acacia Fence, Bell, Magma Block, Tripwire Hook, Weathered Copper Bulb.
+The structure part is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Oxidized Copper Grate, Oxidized Copper Trapdoor, Prismarine Brick Stairs, Bubble Column, Prismarine Wall, Oxidized Copper Bulb, Prismarine Brick Slab, Lightning Rod, Exposed Copper Bulb, Oxidized Copper Door, Soul Sand, Acacia Fence, Bell, Magma Block, Tripwire Hook, Weathered Copper Bulb.
 
 ### Blocks
 
@@ -529,12 +518,12 @@ The structure is composed of the following blocks: Prismarine Bricks, Light Blue
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -542,7 +531,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Deep Blue City 02</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Oxidized Copper Grate, Oxidized Copper Trapdoor, Prismarine Brick Stairs, Bubble Column, Prismarine Wall, Oxidized Copper Bulb, Lightning Rod, Prismarine Brick Slab, Oxidized Copper Door, Soul Sand, Magma Block, Oxidized Chiseled Copper.
+The structure part is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Oxidized Copper Grate, Oxidized Copper Trapdoor, Prismarine Brick Stairs, Bubble Column, Prismarine Wall, Oxidized Copper Bulb, Lightning Rod, Prismarine Brick Slab, Oxidized Copper Door, Soul Sand, Magma Block, Oxidized Chiseled Copper.
 
 ### Blocks
 
@@ -566,12 +555,12 @@ The structure is composed of the following blocks: Prismarine Bricks, Light Blue
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -579,7 +568,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Deep Blue City 03</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Oxidized Copper Grate, Oxidized Copper Trapdoor, Prismarine Brick Stairs, Bubble Column, Prismarine Wall, Oxidized Copper Bulb, Prismarine Brick Slab, Lightning Rod, Exposed Copper Bulb, Oxidized Copper Door, Soul Sand, Weathered Copper Bulb, Copper Bulb, Campfire, Magma Block, Oxidized Chiseled Copper.
+The structure part is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Oxidized Copper Grate, Oxidized Copper Trapdoor, Prismarine Brick Stairs, Bubble Column, Prismarine Wall, Oxidized Copper Bulb, Prismarine Brick Slab, Lightning Rod, Exposed Copper Bulb, Oxidized Copper Door, Soul Sand, Weathered Copper Bulb, Copper Bulb, Campfire, Magma Block, Oxidized Chiseled Copper.
 
 ### Blocks
 
@@ -607,12 +596,12 @@ The structure is composed of the following blocks: Prismarine Bricks, Light Blue
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -620,7 +609,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Deep Blue City 04</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Oxidized Copper Grate, Oxidized Copper Trapdoor, Prismarine Brick Stairs, Bubble Column, Prismarine Wall, Oxidized Copper Bulb, Prismarine Brick Slab, Lightning Rod, Oxidized Copper Door, Soul Sand, Copper Bulb, Weathered Copper Bulb, Magma Block.
+The structure part is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Oxidized Copper Grate, Oxidized Copper Trapdoor, Prismarine Brick Stairs, Bubble Column, Prismarine Wall, Oxidized Copper Bulb, Prismarine Brick Slab, Lightning Rod, Oxidized Copper Door, Soul Sand, Copper Bulb, Weathered Copper Bulb, Magma Block.
 
 ### Blocks
 
@@ -645,12 +634,12 @@ The structure is composed of the following blocks: Prismarine Bricks, Light Blue
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -658,7 +647,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Deep Blue City Gate</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Oxidized Copper Trapdoor, Oxidized Copper Door.
+The structure part is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Oxidized Copper Trapdoor, Oxidized Copper Door.
 
 ### Blocks
 
@@ -672,12 +661,12 @@ The structure is composed of the following blocks: Prismarine Bricks, Light Blue
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -685,7 +674,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Flower/Deep Blue City Flower 01</strong></summary>
 
-The structure is composed of the following blocks: Lilac, Moss Block.
+The structure part is composed of the following blocks: Lilac, Moss Block.
 
 ### Blocks
 
@@ -697,12 +686,12 @@ The structure is composed of the following blocks: Lilac, Moss Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -710,7 +699,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Flower/Deep Blue City Flower 02</strong></summary>
 
-The structure is composed of the following blocks: Peony, Moss Block.
+The structure part is composed of the following blocks: Peony, Moss Block.
 
 ### Blocks
 
@@ -722,12 +711,12 @@ The structure is composed of the following blocks: Peony, Moss Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -735,7 +724,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Flower/Deep Blue City Flower 03</strong></summary>
 
-The structure is composed of the following blocks: Rose Bush, Moss Block.
+The structure part is composed of the following blocks: Rose Bush, Moss Block.
 
 ### Blocks
 
@@ -747,12 +736,12 @@ The structure is composed of the following blocks: Rose Bush, Moss Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -760,7 +749,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Flower/Deep Blue City Flower 04</strong></summary>
 
-The structure is composed of the following blocks: Moss Block, Sunflower, Dandelion, Oxeye Daisy.
+The structure part is composed of the following blocks: Moss Block, Sunflower, Dandelion, Oxeye Daisy.
 
 ### Blocks
 
@@ -774,12 +763,12 @@ The structure is composed of the following blocks: Moss Block, Sunflower, Dandel
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -787,7 +776,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Flower/Deep Blue City Flower 05</strong></summary>
 
-The structure is composed of the following blocks: Pitcher Plant, Moss Block, Lily Of The Valley.
+The structure part is composed of the following blocks: Pitcher Plant, Moss Block, Lily Of The Valley.
 
 ### Blocks
 
@@ -800,12 +789,12 @@ The structure is composed of the following blocks: Pitcher Plant, Moss Block, Li
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -813,7 +802,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Flower/Deep Blue City Flower 06</strong></summary>
 
-The structure is composed of the following blocks: Torchflower, Moss Block.
+The structure part is composed of the following blocks: Torchflower, Moss Block.
 
 ### Blocks
 
@@ -825,12 +814,12 @@ The structure is composed of the following blocks: Torchflower, Moss Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -838,7 +827,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Flower/Deep Blue City Flower 07</strong></summary>
 
-The structure is composed of the following blocks: Azure Bluet, Moss Block, Allium.
+The structure part is composed of the following blocks: Azure Bluet, Moss Block, Allium.
 
 ### Blocks
 
@@ -851,12 +840,12 @@ The structure is composed of the following blocks: Azure Bluet, Moss Block, Alli
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -864,7 +853,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Flower/Deep Blue City Flower 08</strong></summary>
 
-The structure is composed of the following blocks: Moss Block, Orange Tulip, Red Tulip, White Tulip.
+The structure part is composed of the following blocks: Moss Block, Orange Tulip, Red Tulip, White Tulip.
 
 ### Blocks
 
@@ -878,12 +867,12 @@ The structure is composed of the following blocks: Moss Block, Orange Tulip, Red
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -891,7 +880,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 01 01</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Brick Stairs, Prismarine Brick Slab, Prismarine Bricks, Light Blue Bed, Oxidized Copper Door, Brewing Stand, Chest, Oxidized Copper Bulb.
+The structure part is composed of the following blocks: Prismarine Brick Stairs, Prismarine Brick Slab, Prismarine Bricks, Light Blue Bed, Oxidized Copper Door, Brewing Stand, Chest, Oxidized Copper Bulb.
 
 Additionally, the following entities may spawn during its generation: Item Frame.
 
@@ -928,7 +917,7 @@ Additionally, the following entities may spawn during its generation: Item Frame
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 01 02</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper, Oxidized Cut Copper Stairs, Oxidized Copper Trapdoor, Oxidized Cut Copper Slab, Oxidized Chiseled Copper, Light Blue Bed, Oxidized Copper Door, Chest, Lightning Rod, Oxidized Copper Bulb.
+The structure part is composed of the following blocks: Oxidized Copper, Oxidized Cut Copper Stairs, Oxidized Copper Trapdoor, Oxidized Cut Copper Slab, Oxidized Chiseled Copper, Light Blue Bed, Oxidized Copper Door, Chest, Lightning Rod, Oxidized Copper Bulb.
 
 ### Blocks
 
@@ -948,7 +937,7 @@ The structure is composed of the following blocks: Oxidized Copper, Oxidized Cut
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -963,7 +952,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 01 03</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Brick Stairs, Oxidized Copper, Oxidized Copper Grate, Cyan Bed, Prismarine Brick Slab, Lightning Rod, Oxidized Copper Door, Oxidized Cut Copper Stairs, Oxidized Chiseled Copper, Oxidized Copper Bulb.
+The structure part is composed of the following blocks: Prismarine Brick Stairs, Oxidized Copper, Oxidized Copper Grate, Cyan Bed, Prismarine Brick Slab, Lightning Rod, Oxidized Copper Door, Oxidized Cut Copper Stairs, Oxidized Chiseled Copper, Oxidized Copper Bulb.
 
 ### Blocks
 
@@ -983,12 +972,12 @@ The structure is composed of the following blocks: Prismarine Brick Stairs, Oxid
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -996,7 +985,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 01 04</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Brick Slab, Dark Prismarine, Dark Prismarine Stairs, Black Bed, Lightning Rod, Oxidized Copper Door, Chest, Oxidized Chiseled Copper.
+The structure part is composed of the following blocks: Prismarine Brick Slab, Dark Prismarine, Dark Prismarine Stairs, Black Bed, Lightning Rod, Oxidized Copper Door, Chest, Oxidized Chiseled Copper.
 
 ### Blocks
 
@@ -1014,7 +1003,7 @@ The structure is composed of the following blocks: Prismarine Brick Slab, Dark P
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1029,7 +1018,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 01 05</strong></summary>
 
-The structure is composed of the following blocks: Weathered Cut Copper Slab, Prismarine, Weathered Copper Trapdoor, Weathered Cut Copper Stairs, Weathered Cut Copper, Prismarine Slab, Prismarine Stairs, Light Blue Bed, Weathered Copper Door, Weathered Copper Bulb.
+The structure part is composed of the following blocks: Weathered Cut Copper Slab, Prismarine, Weathered Copper Trapdoor, Weathered Cut Copper Stairs, Weathered Cut Copper, Prismarine Slab, Prismarine Stairs, Light Blue Bed, Weathered Copper Door, Weathered Copper Bulb.
 
 ### Blocks
 
@@ -1049,12 +1038,12 @@ The structure is composed of the following blocks: Weathered Cut Copper Slab, Pr
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1062,7 +1051,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 02 01</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Brick Stairs, Prismarine Bricks, Prismarine Brick Slab, Cyan Bed, Oxidized Copper Bulb, Oxidized Copper Door, Chest, Oxidized Copper Trapdoor.
+The structure part is composed of the following blocks: Prismarine Brick Stairs, Prismarine Bricks, Prismarine Brick Slab, Cyan Bed, Oxidized Copper Bulb, Oxidized Copper Door, Chest, Oxidized Copper Trapdoor.
 
 ### Blocks
 
@@ -1080,7 +1069,7 @@ The structure is composed of the following blocks: Prismarine Brick Stairs, Pris
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1095,7 +1084,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 02 02</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper, Oxidized Cut Copper Stairs, Oxidized Cut Copper Slab, Oxidized Copper Trapdoor, Oxidized Chiseled Copper, Light Blue Bed, Oxidized Copper Door, Oxidized Cut Copper, Chest, Oxidized Copper Bulb, Oxidized Copper Grate.
+The structure part is composed of the following blocks: Oxidized Copper, Oxidized Cut Copper Stairs, Oxidized Cut Copper Slab, Oxidized Copper Trapdoor, Oxidized Chiseled Copper, Light Blue Bed, Oxidized Copper Door, Oxidized Cut Copper, Chest, Oxidized Copper Bulb, Oxidized Copper Grate.
 
 ### Blocks
 
@@ -1116,7 +1105,7 @@ The structure is composed of the following blocks: Oxidized Copper, Oxidized Cut
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1131,7 +1120,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 02 03</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Brick Stairs, Oxidized Copper, Oxidized Copper Grate, Prismarine Brick Slab, Black Bed, Ladder, Oxidized Copper Door, Chest, Oxidized Copper Bulb.
+The structure part is composed of the following blocks: Prismarine Brick Stairs, Oxidized Copper, Oxidized Copper Grate, Prismarine Brick Slab, Black Bed, Ladder, Oxidized Copper Door, Chest, Oxidized Copper Bulb.
 
 ### Blocks
 
@@ -1150,7 +1139,7 @@ The structure is composed of the following blocks: Prismarine Brick Stairs, Oxid
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1165,7 +1154,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 02 04</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Brick Slab, Dark Prismarine, Dark Prismarine Stairs, Cyan Bed, Oxidized Copper Door, Chest.
+The structure part is composed of the following blocks: Prismarine Brick Slab, Dark Prismarine, Dark Prismarine Stairs, Cyan Bed, Oxidized Copper Door, Chest.
 
 ### Blocks
 
@@ -1181,7 +1170,7 @@ The structure is composed of the following blocks: Prismarine Brick Slab, Dark P
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1196,7 +1185,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 02 05</strong></summary>
 
-The structure is composed of the following blocks: Weathered Cut Copper, Weathered Copper Trapdoor, Prismarine Slab, Weathered Copper Bulb, Cyan Bed, Weathered Copper Door, Chest, Potted Azure Bluet.
+The structure part is composed of the following blocks: Weathered Cut Copper, Weathered Copper Trapdoor, Prismarine Slab, Weathered Copper Bulb, Cyan Bed, Weathered Copper Door, Chest, Potted Azure Bluet.
 
 ### Blocks
 
@@ -1214,7 +1203,7 @@ The structure is composed of the following blocks: Weathered Cut Copper, Weather
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1229,7 +1218,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 03 01</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Brick Stairs, Prismarine Brick Slab, Prismarine Bricks, Cyan Bed, Oxidized Copper Door, Chest, Oxidized Copper Bulb, Tripwire Hook.
+The structure part is composed of the following blocks: Prismarine Brick Stairs, Prismarine Brick Slab, Prismarine Bricks, Cyan Bed, Oxidized Copper Door, Chest, Oxidized Copper Bulb, Tripwire Hook.
 
 ### Blocks
 
@@ -1247,7 +1236,7 @@ The structure is composed of the following blocks: Prismarine Brick Stairs, Pris
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1262,7 +1251,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 03 02</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper, Oxidized Cut Copper Slab, Oxidized Cut Copper Stairs, Oxidized Copper Trapdoor, Oxidized Cut Copper, Lightning Rod, Oxidized Chiseled Copper, Ladder, Black Bed, Oxidized Copper Door, Chest, Oxidized Copper Bulb.
+The structure part is composed of the following blocks: Oxidized Copper, Oxidized Cut Copper Slab, Oxidized Cut Copper Stairs, Oxidized Copper Trapdoor, Oxidized Cut Copper, Lightning Rod, Oxidized Chiseled Copper, Ladder, Black Bed, Oxidized Copper Door, Chest, Oxidized Copper Bulb.
 
 ### Blocks
 
@@ -1284,7 +1273,7 @@ The structure is composed of the following blocks: Oxidized Copper, Oxidized Cut
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1299,7 +1288,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 03 03</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Brick Stairs, Oxidized Copper, Oxidized Copper Grate, Prismarine Brick Slab, Oxidized Cut Copper Slab, Light Blue Bed, Oxidized Copper Door, Oxidized Copper Bulb, Tripwire Hook.
+The structure part is composed of the following blocks: Prismarine Brick Stairs, Oxidized Copper, Oxidized Copper Grate, Prismarine Brick Slab, Oxidized Cut Copper Slab, Light Blue Bed, Oxidized Copper Door, Oxidized Copper Bulb, Tripwire Hook.
 
 ### Blocks
 
@@ -1318,12 +1307,12 @@ The structure is composed of the following blocks: Prismarine Brick Stairs, Oxid
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1331,7 +1320,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 03 04</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Brick Slab, Dark Prismarine, Dark Prismarine Stairs, Oxidized Copper Trapdoor, Cyan Bed, Lightning Rod, Ladder, Oxidized Copper Door, Chest.
+The structure part is composed of the following blocks: Prismarine Brick Slab, Dark Prismarine, Dark Prismarine Stairs, Oxidized Copper Trapdoor, Cyan Bed, Lightning Rod, Ladder, Oxidized Copper Door, Chest.
 
 ### Blocks
 
@@ -1350,7 +1339,7 @@ The structure is composed of the following blocks: Prismarine Brick Slab, Dark P
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1365,7 +1354,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 03 05</strong></summary>
 
-The structure is composed of the following blocks: Weathered Cut Copper, Prismarine, Weathered Cut Copper Slab, Prismarine Stairs, Weathered Copper Trapdoor, Weathered Cut Copper Stairs, Prismarine Slab, Ladder, Weathered Copper Door, Chest, Weathered Copper Bulb.
+The structure part is composed of the following blocks: Weathered Cut Copper, Prismarine, Weathered Cut Copper Slab, Prismarine Stairs, Weathered Copper Trapdoor, Weathered Cut Copper Stairs, Prismarine Slab, Ladder, Weathered Copper Door, Chest, Weathered Copper Bulb.
 
 ### Blocks
 
@@ -1386,7 +1375,7 @@ The structure is composed of the following blocks: Weathered Cut Copper, Prismar
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1401,7 +1390,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 04 01</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Brick Stairs, Prismarine Brick Slab, Prismarine Bricks, Oxidized Copper Trapdoor, Lightning Rod, Oxidized Copper Grate, Cyan Bed, Oxidized Copper Door, Chest.
+The structure part is composed of the following blocks: Prismarine Brick Stairs, Prismarine Brick Slab, Prismarine Bricks, Oxidized Copper Trapdoor, Lightning Rod, Oxidized Copper Grate, Cyan Bed, Oxidized Copper Door, Chest.
 
 ### Blocks
 
@@ -1420,7 +1409,7 @@ The structure is composed of the following blocks: Prismarine Brick Stairs, Pris
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1435,7 +1424,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 04 02</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Trapdoor, Oxidized Copper, Oxidized Cut Copper, Oxidized Chiseled Copper, Oxidized Cut Copper Stairs, Black Bed, Oxidized Copper Door, Oxidized Cut Copper Slab, Hopper, Lightning Rod.
+The structure part is composed of the following blocks: Oxidized Copper Trapdoor, Oxidized Copper, Oxidized Cut Copper, Oxidized Chiseled Copper, Oxidized Cut Copper Stairs, Black Bed, Oxidized Copper Door, Oxidized Cut Copper Slab, Hopper, Lightning Rod.
 
 ### Blocks
 
@@ -1455,12 +1444,12 @@ The structure is composed of the following blocks: Oxidized Copper Trapdoor, Oxi
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1468,7 +1457,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 04 03</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Brick Stairs, Oxidized Copper, Prismarine Brick Slab, Oxidized Copper Grate, Lightning Rod, Cyan Bed, Oxidized Copper Bulb, Oxidized Copper Door, Chest.
+The structure part is composed of the following blocks: Prismarine Brick Stairs, Oxidized Copper, Prismarine Brick Slab, Oxidized Copper Grate, Lightning Rod, Cyan Bed, Oxidized Copper Bulb, Oxidized Copper Door, Chest.
 
 ### Blocks
 
@@ -1487,7 +1476,7 @@ The structure is composed of the following blocks: Prismarine Brick Stairs, Oxid
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1502,7 +1491,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 04 04</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Brick Slab, Dark Prismarine, Dark Prismarine Stairs, Dark Prismarine Slab, Lightning Rod, Black Bed, Oxidized Copper Door, Chest.
+The structure part is composed of the following blocks: Prismarine Brick Slab, Dark Prismarine, Dark Prismarine Stairs, Dark Prismarine Slab, Lightning Rod, Black Bed, Oxidized Copper Door, Chest.
 
 ### Blocks
 
@@ -1520,7 +1509,7 @@ The structure is composed of the following blocks: Prismarine Brick Slab, Dark P
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1535,7 +1524,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 04 05</strong></summary>
 
-The structure is composed of the following blocks: Weathered Cut Copper, Weathered Copper Trapdoor, Prismarine Slab, Weathered Copper Grate, Cyan Bed, Tripwire Hook, Weathered Copper Door, Chest.
+The structure part is composed of the following blocks: Weathered Cut Copper, Weathered Copper Trapdoor, Prismarine Slab, Weathered Copper Grate, Cyan Bed, Tripwire Hook, Weathered Copper Door, Chest.
 
 ### Blocks
 
@@ -1553,7 +1542,7 @@ The structure is composed of the following blocks: Weathered Cut Copper, Weather
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1568,7 +1557,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 05 01</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Brick Stairs, Prismarine Brick Slab, Prismarine Bricks, Cyan Bed, Oxidized Copper Door, Chest, Potted Cactus.
+The structure part is composed of the following blocks: Prismarine Brick Stairs, Prismarine Brick Slab, Prismarine Bricks, Cyan Bed, Oxidized Copper Door, Chest, Potted Cactus.
 
 ### Blocks
 
@@ -1585,7 +1574,7 @@ The structure is composed of the following blocks: Prismarine Brick Stairs, Pris
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1600,7 +1589,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 05 02</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper, Oxidized Cut Copper Stairs, Oxidized Copper Trapdoor, Oxidized Cut Copper Slab, Oxidized Chiseled Copper, Ladder, Cyan Bed, Oxidized Copper Door, Chest, Oxidized Copper Bulb, Tripwire Hook.
+The structure part is composed of the following blocks: Oxidized Copper, Oxidized Cut Copper Stairs, Oxidized Copper Trapdoor, Oxidized Cut Copper Slab, Oxidized Chiseled Copper, Ladder, Cyan Bed, Oxidized Copper Door, Chest, Oxidized Copper Bulb, Tripwire Hook.
 
 ### Blocks
 
@@ -1621,7 +1610,7 @@ The structure is composed of the following blocks: Oxidized Copper, Oxidized Cut
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1636,7 +1625,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 05 03</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Brick Stairs, Oxidized Copper, Oxidized Copper Trapdoor, Oxidized Copper Grate, Prismarine Brick Slab, Lightning Rod, Black Bed, Oxidized Copper Door, Oxidized Chiseled Copper, Oxidized Copper Bulb, Oxidized Cut Copper Stairs.
+The structure part is composed of the following blocks: Prismarine Brick Stairs, Oxidized Copper, Oxidized Copper Trapdoor, Oxidized Copper Grate, Prismarine Brick Slab, Lightning Rod, Black Bed, Oxidized Copper Door, Oxidized Chiseled Copper, Oxidized Copper Bulb, Oxidized Cut Copper Stairs.
 
 ### Blocks
 
@@ -1657,12 +1646,12 @@ The structure is composed of the following blocks: Prismarine Brick Stairs, Oxid
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1670,7 +1659,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 05 04</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Brick Slab, Dark Prismarine, Dark Prismarine Stairs, Dark Prismarine Slab, Cyan Bed, Oxidized Copper Door, Chest, Oxidized Copper Trapdoor, Potted Cactus.
+The structure part is composed of the following blocks: Prismarine Brick Slab, Dark Prismarine, Dark Prismarine Stairs, Dark Prismarine Slab, Cyan Bed, Oxidized Copper Door, Chest, Oxidized Copper Trapdoor, Potted Cactus.
 
 ### Blocks
 
@@ -1689,7 +1678,7 @@ The structure is composed of the following blocks: Prismarine Brick Slab, Dark P
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1704,7 +1693,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 05 05</strong></summary>
 
-The structure is composed of the following blocks: Weathered Copper Trapdoor, Weathered Cut Copper Stairs, Weathered Cut Copper, Prismarine Slab, Ladder, Oxidized Copper Trapdoor, Cyan Bed, Weathered Copper Door, Chest, Lightning Rod, Weathered Copper Bulb.
+The structure part is composed of the following blocks: Weathered Copper Trapdoor, Weathered Cut Copper Stairs, Weathered Cut Copper, Prismarine Slab, Ladder, Oxidized Copper Trapdoor, Cyan Bed, Weathered Copper Door, Chest, Lightning Rod, Weathered Copper Bulb.
 
 ### Blocks
 
@@ -1725,7 +1714,7 @@ The structure is composed of the following blocks: Weathered Copper Trapdoor, We
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1740,7 +1729,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 06 01</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Trapdoor, Oxidized Cut Copper Stairs, Lightning Rod, Oxidized Chiseled Copper.
+The structure part is composed of the following blocks: Oxidized Copper Trapdoor, Oxidized Cut Copper Stairs, Lightning Rod, Oxidized Chiseled Copper.
 
 ### Blocks
 
@@ -1754,12 +1743,12 @@ The structure is composed of the following blocks: Oxidized Copper Trapdoor, Oxi
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1767,7 +1756,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 06 02</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Cut Copper Stairs, Lightning Rod, Oxidized Copper Grate, Weathered Chiseled Copper.
+The structure part is composed of the following blocks: Oxidized Cut Copper Stairs, Lightning Rod, Oxidized Copper Grate, Weathered Chiseled Copper.
 
 ### Blocks
 
@@ -1781,12 +1770,12 @@ The structure is composed of the following blocks: Oxidized Cut Copper Stairs, L
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1794,7 +1783,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 06 03</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Bulb, Weathered Copper Bulb, Exposed Copper Bulb.
+The structure part is composed of the following blocks: Oxidized Copper Bulb, Weathered Copper Bulb, Exposed Copper Bulb.
 
 ### Blocks
 
@@ -1807,12 +1796,12 @@ The structure is composed of the following blocks: Oxidized Copper Bulb, Weather
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1820,7 +1809,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 06 04</strong></summary>
 
-The structure is composed of the following blocks: Lightning Rod, Exposed Copper, Oxidized Chiseled Copper, Weathered Copper.
+The structure part is composed of the following blocks: Lightning Rod, Exposed Copper, Oxidized Chiseled Copper, Weathered Copper.
 
 ### Blocks
 
@@ -1834,12 +1823,12 @@ The structure is composed of the following blocks: Lightning Rod, Exposed Copper
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1847,7 +1836,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 06 05</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Grate, Oxidized Cut Copper, Oxidized Cut Copper Stairs.
+The structure part is composed of the following blocks: Oxidized Copper Grate, Oxidized Cut Copper, Oxidized Cut Copper Stairs.
 
 ### Blocks
 
@@ -1860,12 +1849,12 @@ The structure is composed of the following blocks: Oxidized Copper Grate, Oxidiz
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1873,7 +1862,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 07 01</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Bulb, Oxidized Cut Copper Stairs, Oxidized Cut Copper.
+The structure part is composed of the following blocks: Oxidized Copper Bulb, Oxidized Cut Copper Stairs, Oxidized Cut Copper.
 
 ### Blocks
 
@@ -1886,12 +1875,12 @@ The structure is composed of the following blocks: Oxidized Copper Bulb, Oxidize
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1899,7 +1888,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 07 02</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Grate, Oxidized Cut Copper Stairs, Oxidized Copper.
+The structure part is composed of the following blocks: Oxidized Copper Grate, Oxidized Cut Copper Stairs, Oxidized Copper.
 
 ### Blocks
 
@@ -1912,12 +1901,12 @@ The structure is composed of the following blocks: Oxidized Copper Grate, Oxidiz
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1925,7 +1914,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 07 03</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Bricks, Acacia Wall Sign, Prismarine Brick Stairs.
+The structure part is composed of the following blocks: Prismarine Bricks, Acacia Wall Sign, Prismarine Brick Stairs.
 
 ### Blocks
 
@@ -1938,12 +1927,12 @@ The structure is composed of the following blocks: Prismarine Bricks, Acacia Wal
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1951,7 +1940,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/House/Deep Blue City House 07 04</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Bricks, Acacia Wall Sign, Prismarine Brick Stairs.
+The structure part is composed of the following blocks: Prismarine Bricks, Acacia Wall Sign, Prismarine Brick Stairs.
 
 ### Blocks
 
@@ -1964,12 +1953,12 @@ The structure is composed of the following blocks: Prismarine Bricks, Acacia Wal
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1977,7 +1966,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Lab/Deep Blue City Lab 01 01</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Trapdoor, Oxidized Copper, Redstone Wall Torch, Redstone Wire, Comparator, Hopper, Oxidized Copper Bulb, Sticky Piston, Piston Head, Redstone Block.
+The structure part is composed of the following blocks: Oxidized Copper Trapdoor, Oxidized Copper, Redstone Wall Torch, Redstone Wire, Comparator, Hopper, Oxidized Copper Bulb, Sticky Piston, Piston Head, Redstone Block.
 
 ### Blocks
 
@@ -1997,12 +1986,12 @@ The structure is composed of the following blocks: Oxidized Copper Trapdoor, Oxi
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2010,7 +1999,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Lab/Deep Blue City Lab 01 02</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper, Redstone Wire, Repeater, Sticky Piston, Oxidized Copper Bulb.
+The structure part is composed of the following blocks: Oxidized Copper, Redstone Wire, Repeater, Sticky Piston, Oxidized Copper Bulb.
 
 ### Blocks
 
@@ -2025,12 +2014,12 @@ The structure is composed of the following blocks: Oxidized Copper, Redstone Wir
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2038,7 +2027,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Lab/Deep Blue City Lab 01 03</strong></summary>
 
-The structure is composed of the following blocks: Observer, Oxidized Copper Bulb, Oxidized Chiseled Copper, Repeater, Acacia Wall Sign, Comparator, Redstone Wire.
+The structure part is composed of the following blocks: Observer, Oxidized Copper Bulb, Oxidized Chiseled Copper, Repeater, Acacia Wall Sign, Comparator, Redstone Wire.
 
 ### Blocks
 
@@ -2055,12 +2044,12 @@ The structure is composed of the following blocks: Observer, Oxidized Copper Bul
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2068,7 +2057,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Lab/Deep Blue City Lab 01 04</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Cut Copper Stairs, Oxidized Copper Trapdoor, Oxidized Copper Grate, Campfire, Lever, Light Blue Stained Glass Pane, Water Cauldron.
+The structure part is composed of the following blocks: Oxidized Cut Copper Stairs, Oxidized Copper Trapdoor, Oxidized Copper Grate, Campfire, Lever, Light Blue Stained Glass Pane, Water Cauldron.
 
 ### Blocks
 
@@ -2085,12 +2074,12 @@ The structure is composed of the following blocks: Oxidized Cut Copper Stairs, O
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2098,7 +2087,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Lab/Deep Blue City Lab 01 05</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Trapdoor, Oxidized Copper Grate, Oxidized Copper Bulb, Dirt, Farmland, Observer, Oxidized Cut Copper, Piston, Redstone Wire, Composter, Melon Stem, Pumpkin Stem.
+The structure part is composed of the following blocks: Oxidized Copper Trapdoor, Oxidized Copper Grate, Oxidized Copper Bulb, Dirt, Farmland, Observer, Oxidized Cut Copper, Piston, Redstone Wire, Composter, Melon Stem, Pumpkin Stem.
 
 ### Blocks
 
@@ -2120,12 +2109,12 @@ The structure is composed of the following blocks: Oxidized Copper Trapdoor, Oxi
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2133,7 +2122,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Lab/Deep Blue City Lab 01 06</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Brick Stairs, Prismarine Bricks, Oxidized Copper Bulb.
+The structure part is composed of the following blocks: Prismarine Brick Stairs, Prismarine Bricks, Oxidized Copper Bulb.
 
 ### Blocks
 
@@ -2146,12 +2135,12 @@ The structure is composed of the following blocks: Prismarine Brick Stairs, Pris
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2159,7 +2148,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Lab/Deep Blue City Lab 01 07</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Grate, Oxidized Copper Trapdoor, Oxidized Copper Bulb.
+The structure part is composed of the following blocks: Oxidized Copper Grate, Oxidized Copper Trapdoor, Oxidized Copper Bulb.
 
 Additionally, the following entities may spawn during its generation: Drowned.
 
@@ -2181,7 +2170,7 @@ Additionally, the following entities may spawn during its generation: Drowned.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2189,7 +2178,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Lab/Deep Blue City Lab 01 08</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Cut Copper Stairs, Oxidized Chiseled Copper, Oxidized Copper Trapdoor, Oxidized Cut Copper, Sticky Piston, Warped Button, Note Block, Observer.
+The structure part is composed of the following blocks: Oxidized Cut Copper Stairs, Oxidized Chiseled Copper, Oxidized Copper Trapdoor, Oxidized Cut Copper, Sticky Piston, Warped Button, Note Block, Observer.
 
 ### Blocks
 
@@ -2207,12 +2196,12 @@ The structure is composed of the following blocks: Oxidized Cut Copper Stairs, O
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2220,7 +2209,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Lab/Deep Blue City Lab 01 09</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf, Bookshelf, Oxidized Copper Trapdoor.
+The structure part is composed of the following blocks: Chiseled Bookshelf, Bookshelf, Oxidized Copper Trapdoor.
 
 ### Blocks
 
@@ -2233,12 +2222,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf, Bookshelf
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2246,7 +2235,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Lab/Deep Blue City Lab 02 01</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Bricks, Prismarine Brick Stairs, Bookshelf, Chiseled Bookshelf, Lectern, Oxidized Copper Trapdoor, Oxidized Cut Copper Stairs, Potted Dead Bush, Prismarine Brick Slab.
+The structure part is composed of the following blocks: Prismarine Bricks, Prismarine Brick Stairs, Bookshelf, Chiseled Bookshelf, Lectern, Oxidized Copper Trapdoor, Oxidized Cut Copper Stairs, Potted Dead Bush, Prismarine Brick Slab.
 
 ### Blocks
 
@@ -2265,12 +2254,12 @@ The structure is composed of the following blocks: Prismarine Bricks, Prismarine
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2278,7 +2267,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Lab/Deep Blue City Lab 02 02</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Trapdoor, Acacia Wall Hanging Sign, Oxidized Copper Grate, Brewing Stand, Chest, Lightning Rod, Oxidized Chiseled Copper, Oxidized Copper.
+The structure part is composed of the following blocks: Oxidized Copper Trapdoor, Acacia Wall Hanging Sign, Oxidized Copper Grate, Brewing Stand, Chest, Lightning Rod, Oxidized Chiseled Copper, Oxidized Copper.
 
 ### Blocks
 
@@ -2296,7 +2285,7 @@ The structure is composed of the following blocks: Oxidized Copper Trapdoor, Aca
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -2311,7 +2300,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Lab/Deep Blue City Lab 02 03</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Trapdoor, Mangrove Roots, Oxidized Copper Bulb, Warped Button, Oxidized Copper Grate, Barrel.
+The structure part is composed of the following blocks: Oxidized Copper Trapdoor, Mangrove Roots, Oxidized Copper Bulb, Warped Button, Oxidized Copper Grate, Barrel.
 
 Additionally, the following entities may spawn during its generation: Tropical Fish.
 
@@ -2346,7 +2335,7 @@ Additionally, the following entities may spawn during its generation: Tropical F
 <details>
 <summary><strong>Deep Blue/City/Lab/Deep Blue City Lab 02 04</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Cut Copper Stairs, Oxidized Copper Grate, Lightning Rod, Oxidized Chiseled Copper, Campfire.
+The structure part is composed of the following blocks: Oxidized Cut Copper Stairs, Oxidized Copper Grate, Lightning Rod, Oxidized Chiseled Copper, Campfire.
 
 ### Blocks
 
@@ -2361,12 +2350,12 @@ The structure is composed of the following blocks: Oxidized Cut Copper Stairs, O
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2374,7 +2363,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Lab/Deep Blue City Lab 02 05</strong></summary>
 
-The structure is composed of the following blocks: Observer, Redstone Wire, Sticky Piston, Lever, Oxidized Chiseled Copper, Oxidized Cut Copper.
+The structure part is composed of the following blocks: Observer, Redstone Wire, Sticky Piston, Lever, Oxidized Chiseled Copper, Oxidized Cut Copper.
 
 ### Blocks
 
@@ -2390,12 +2379,12 @@ The structure is composed of the following blocks: Observer, Redstone Wire, Stic
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2403,7 +2392,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Lab/Deep Blue City Lab 02 06</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Cut Copper Stairs, Oxidized Copper Trapdoor.
+The structure part is composed of the following blocks: Oxidized Cut Copper Stairs, Oxidized Copper Trapdoor.
 
 Additionally, the following entities may spawn during its generation: Salmon.
 
@@ -2424,7 +2413,7 @@ Additionally, the following entities may spawn during its generation: Salmon.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2432,7 +2421,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Lab/Deep Blue City Lab 03 01</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper, Hopper, Oxidized Copper Trapdoor, Redstone Wire, Chest, Comparator, Redstone Wall Torch, Repeater.
+The structure part is composed of the following blocks: Oxidized Copper, Hopper, Oxidized Copper Trapdoor, Redstone Wire, Chest, Comparator, Redstone Wall Torch, Repeater.
 
 ### Blocks
 
@@ -2450,12 +2439,12 @@ The structure is composed of the following blocks: Oxidized Copper, Hopper, Oxid
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2463,7 +2452,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Lab/Deep Blue City Lab 03 02</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Cut Copper, Piston Head, Sticky Piston, Redstone Wire, Repeater, Lever.
+The structure part is composed of the following blocks: Oxidized Cut Copper, Piston Head, Sticky Piston, Redstone Wire, Repeater, Lever.
 
 ### Blocks
 
@@ -2479,12 +2468,12 @@ The structure is composed of the following blocks: Oxidized Cut Copper, Piston H
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2492,7 +2481,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Lab/Deep Blue City Lab 03 03</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Cut Copper Stairs, Cactus, Sand, Oxidized Copper Trapdoor, Light Blue Stained Glass Pane.
+The structure part is composed of the following blocks: Oxidized Cut Copper Stairs, Cactus, Sand, Oxidized Copper Trapdoor, Light Blue Stained Glass Pane.
 
 ### Blocks
 
@@ -2507,12 +2496,12 @@ The structure is composed of the following blocks: Oxidized Cut Copper Stairs, C
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2520,7 +2509,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Lab/Deep Blue City Lab 03 04</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Brick Slab, Oxidized Chiseled Copper, Observer, Oxidized Cut Copper Stairs, Piston, Oxidized Copper, Warped Button.
+The structure part is composed of the following blocks: Prismarine Brick Slab, Oxidized Chiseled Copper, Observer, Oxidized Cut Copper Stairs, Piston, Oxidized Copper, Warped Button.
 
 ### Blocks
 
@@ -2537,12 +2526,12 @@ The structure is composed of the following blocks: Prismarine Brick Slab, Oxidiz
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2550,7 +2539,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Lab/Deep Blue City Lab 03 05</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Grate, Oxidized Copper, Kelp Plant, Kelp.
+The structure part is composed of the following blocks: Oxidized Copper Grate, Oxidized Copper, Kelp Plant, Kelp.
 
 ### Blocks
 
@@ -2564,12 +2553,12 @@ The structure is composed of the following blocks: Oxidized Copper Grate, Oxidiz
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2577,7 +2566,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Lab/Deep Blue City Lab 03 06</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Cut Copper Stairs, Oxidized Copper Trapdoor, Oxidized Copper Grate, Lightning Rod, Oxidized Chiseled Copper, Oxidized Copper Bulb, Warped Button.
+The structure part is composed of the following blocks: Oxidized Cut Copper Stairs, Oxidized Copper Trapdoor, Oxidized Copper Grate, Lightning Rod, Oxidized Chiseled Copper, Oxidized Copper Bulb, Warped Button.
 
 ### Blocks
 
@@ -2594,12 +2583,12 @@ The structure is composed of the following blocks: Oxidized Cut Copper Stairs, O
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2607,7 +2596,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Lab/Deep Blue City Lab 03 07</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Cut Copper Stairs, Oxidized Copper Grate.
+The structure part is composed of the following blocks: Oxidized Cut Copper Stairs, Oxidized Copper Grate.
 
 ### Blocks
 
@@ -2619,12 +2608,12 @@ The structure is composed of the following blocks: Oxidized Cut Copper Stairs, O
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2632,7 +2621,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Pipe/Deep Blue City Pipe 01 01</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Trapdoor.
+The structure part is composed of the following blocks: Oxidized Copper Trapdoor.
 
 ### Blocks
 
@@ -2643,12 +2632,12 @@ The structure is composed of the following blocks: Oxidized Copper Trapdoor.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2656,7 +2645,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Pipe/Deep Blue City Pipe 01 02</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Grate, Oxidized Chiseled Copper.
+The structure part is composed of the following blocks: Oxidized Copper Grate, Oxidized Chiseled Copper.
 
 ### Blocks
 
@@ -2668,12 +2657,12 @@ The structure is composed of the following blocks: Oxidized Copper Grate, Oxidiz
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2681,7 +2670,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Pipe/Deep Blue City Pipe 01 03</strong></summary>
 
-The structure is composed of the following blocks: Lightning Rod, Exposed Chiseled Copper.
+The structure part is composed of the following blocks: Lightning Rod, Exposed Chiseled Copper.
 
 ### Blocks
 
@@ -2693,12 +2682,12 @@ The structure is composed of the following blocks: Lightning Rod, Exposed Chisel
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2706,7 +2695,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Pipe/Deep Blue City Pipe 02 01</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Trapdoor.
+The structure part is composed of the following blocks: Oxidized Copper Trapdoor.
 
 ### Blocks
 
@@ -2717,12 +2706,12 @@ The structure is composed of the following blocks: Oxidized Copper Trapdoor.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2730,7 +2719,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Pipe/Deep Blue City Pipe 02 02</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Grate.
+The structure part is composed of the following blocks: Oxidized Copper Grate.
 
 ### Blocks
 
@@ -2741,12 +2730,12 @@ The structure is composed of the following blocks: Oxidized Copper Grate.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2754,7 +2743,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Pipe/Deep Blue City Pipe 02 03</strong></summary>
 
-The structure is composed of the following blocks: Lightning Rod.
+The structure part is composed of the following blocks: Lightning Rod.
 
 ### Blocks
 
@@ -2765,12 +2754,12 @@ The structure is composed of the following blocks: Lightning Rod.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2778,7 +2767,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Pipe/Deep Blue City Pipe 02 04</strong></summary>
 
-The structure is composed of the following blocks: Acacia Fence Gate, Acacia Fence.
+The structure part is composed of the following blocks: Acacia Fence Gate, Acacia Fence.
 
 ### Blocks
 
@@ -2790,12 +2779,12 @@ The structure is composed of the following blocks: Acacia Fence Gate, Acacia Fen
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2803,7 +2792,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Pipe/Deep Blue City Pipe 03 01</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Trapdoor.
+The structure part is composed of the following blocks: Oxidized Copper Trapdoor.
 
 ### Blocks
 
@@ -2814,12 +2803,12 @@ The structure is composed of the following blocks: Oxidized Copper Trapdoor.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2827,7 +2816,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Pipe/Deep Blue City Pipe 03 02</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Grate.
+The structure part is composed of the following blocks: Oxidized Copper Grate.
 
 ### Blocks
 
@@ -2838,12 +2827,12 @@ The structure is composed of the following blocks: Oxidized Copper Grate.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2851,7 +2840,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Pipe/Deep Blue City Pipe 03 03</strong></summary>
 
-The structure is composed of the following blocks: Lightning Rod.
+The structure part is composed of the following blocks: Lightning Rod.
 
 ### Blocks
 
@@ -2862,12 +2851,12 @@ The structure is composed of the following blocks: Lightning Rod.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2875,7 +2864,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Pipe/Deep Blue City Pipe 03 04</strong></summary>
 
-The structure is composed of the following blocks: Acacia Fence, Acacia Fence Gate.
+The structure part is composed of the following blocks: Acacia Fence, Acacia Fence Gate.
 
 ### Blocks
 
@@ -2887,12 +2876,12 @@ The structure is composed of the following blocks: Acacia Fence, Acacia Fence Ga
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2900,7 +2889,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Pipe/Deep Blue City Pipe 04 01</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Trapdoor.
+The structure part is composed of the following blocks: Oxidized Copper Trapdoor.
 
 ### Blocks
 
@@ -2911,12 +2900,12 @@ The structure is composed of the following blocks: Oxidized Copper Trapdoor.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2924,7 +2913,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Pipe/Deep Blue City Pipe 04 02</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Grate.
+The structure part is composed of the following blocks: Oxidized Copper Grate.
 
 ### Blocks
 
@@ -2935,12 +2924,12 @@ The structure is composed of the following blocks: Oxidized Copper Grate.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2948,7 +2937,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Pipe/Deep Blue City Pipe 04 03</strong></summary>
 
-The structure is composed of the following blocks: Lightning Rod.
+The structure part is composed of the following blocks: Lightning Rod.
 
 ### Blocks
 
@@ -2959,12 +2948,12 @@ The structure is composed of the following blocks: Lightning Rod.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2972,7 +2961,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Pipe/Deep Blue City Pipe 04 04</strong></summary>
 
-The structure is composed of the following blocks: Acacia Fence Gate, Acacia Fence.
+The structure part is composed of the following blocks: Acacia Fence Gate, Acacia Fence.
 
 ### Blocks
 
@@ -2984,12 +2973,12 @@ The structure is composed of the following blocks: Acacia Fence Gate, Acacia Fen
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2997,7 +2986,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Pipe/Deep Blue City Pipe 05 01</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Trapdoor.
+The structure part is composed of the following blocks: Oxidized Copper Trapdoor.
 
 ### Blocks
 
@@ -3008,12 +2997,12 @@ The structure is composed of the following blocks: Oxidized Copper Trapdoor.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3021,7 +3010,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Pipe/Deep Blue City Pipe 05 02</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Grate.
+The structure part is composed of the following blocks: Oxidized Copper Grate.
 
 ### Blocks
 
@@ -3032,12 +3021,12 @@ The structure is composed of the following blocks: Oxidized Copper Grate.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3045,7 +3034,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Pipe/Deep Blue City Pipe 05 03</strong></summary>
 
-The structure is composed of the following blocks: Lightning Rod.
+The structure part is composed of the following blocks: Lightning Rod.
 
 ### Blocks
 
@@ -3056,12 +3045,12 @@ The structure is composed of the following blocks: Lightning Rod.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3069,7 +3058,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Pipe/Deep Blue City Pipe 05 04</strong></summary>
 
-The structure is composed of the following blocks: Acacia Fence, Acacia Fence Gate.
+The structure part is composed of the following blocks: Acacia Fence, Acacia Fence Gate.
 
 ### Blocks
 
@@ -3081,12 +3070,12 @@ The structure is composed of the following blocks: Acacia Fence, Acacia Fence Ga
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3094,7 +3083,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Pipe/Deep Blue City Pipe 06 01</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Trapdoor.
+The structure part is composed of the following blocks: Oxidized Copper Trapdoor.
 
 ### Blocks
 
@@ -3105,12 +3094,12 @@ The structure is composed of the following blocks: Oxidized Copper Trapdoor.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3118,7 +3107,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Pipe/Deep Blue City Pipe 06 02</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Grate, Oxidized Chiseled Copper.
+The structure part is composed of the following blocks: Oxidized Copper Grate, Oxidized Chiseled Copper.
 
 ### Blocks
 
@@ -3130,12 +3119,12 @@ The structure is composed of the following blocks: Oxidized Copper Grate, Oxidiz
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3143,7 +3132,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Pipe/Deep Blue City Pipe 06 03</strong></summary>
 
-The structure is composed of the following blocks: Lightning Rod, Exposed Chiseled Copper.
+The structure part is composed of the following blocks: Lightning Rod, Exposed Chiseled Copper.
 
 ### Blocks
 
@@ -3155,12 +3144,12 @@ The structure is composed of the following blocks: Lightning Rod, Exposed Chisel
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3168,7 +3157,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Pipe/Deep Blue City Pipe 07 01</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Trapdoor.
+The structure part is composed of the following blocks: Oxidized Copper Trapdoor.
 
 ### Blocks
 
@@ -3179,12 +3168,12 @@ The structure is composed of the following blocks: Oxidized Copper Trapdoor.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3192,7 +3181,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Pipe/Deep Blue City Pipe 07 02</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Grate, Oxidized Chiseled Copper.
+The structure part is composed of the following blocks: Oxidized Copper Grate, Oxidized Chiseled Copper.
 
 ### Blocks
 
@@ -3204,12 +3193,12 @@ The structure is composed of the following blocks: Oxidized Copper Grate, Oxidiz
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3217,7 +3206,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/City/Pipe/Deep Blue City Pipe 07 03</strong></summary>
 
-The structure is composed of the following blocks: Lightning Rod, Exposed Chiseled Copper.
+The structure part is composed of the following blocks: Lightning Rod, Exposed Chiseled Copper.
 
 ### Blocks
 
@@ -3229,12 +3218,12 @@ The structure is composed of the following blocks: Lightning Rod, Exposed Chisel
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3242,7 +3231,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Lab Ruin/Deep Blue Labs Ruin</strong></summary>
 
-The structure is composed of the following blocks: Tuff Bricks, Grass Block, Dirt, Oxidized Copper Trapdoor, Oxidized Cut Copper, Ladder, Oxidized Cut Copper Stairs, Tuff Brick Stairs, Oxidized Copper Bulb, Lightning Rod, Oak Stairs, Oxidized Cut Copper Slab, Oxidized Copper Door, Chest, Lectern.
+The structure part is composed of the following blocks: Tuff Bricks, Grass Block, Dirt, Oxidized Copper Trapdoor, Oxidized Cut Copper, Ladder, Oxidized Cut Copper Stairs, Tuff Brick Stairs, Oxidized Copper Bulb, Lightning Rod, Oak Stairs, Oxidized Cut Copper Slab, Oxidized Copper Door, Chest, Lectern.
 
 Additionally, the following entities may spawn during its generation: Item Frame.
 
@@ -3286,7 +3275,7 @@ Additionally, the following entities may spawn during its generation: Item Frame
 <details>
 <summary><strong>Deep Blue/Lab Ruin/Deep Blue Labs Ruin Book 01</strong></summary>
 
-The structure is composed of the following blocks: Lectern.
+The structure part is composed of the following blocks: Lectern.
 
 ### Blocks
 
@@ -3297,12 +3286,12 @@ The structure is composed of the following blocks: Lectern.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3310,7 +3299,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Lab Ruin/Deep Blue Labs Ruin Book 02</strong></summary>
 
-The structure is composed of the following blocks: Lectern.
+The structure part is composed of the following blocks: Lectern.
 
 ### Blocks
 
@@ -3321,12 +3310,12 @@ The structure is composed of the following blocks: Lectern.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3334,7 +3323,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Lab Ruin/Deep Blue Labs Ruin Portal 01</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Cut Copper Stairs, Oxidized Copper Door, Lightning Rod, Oxidized Copper Grate.
+The structure part is composed of the following blocks: Oxidized Cut Copper Stairs, Oxidized Copper Door, Lightning Rod, Oxidized Copper Grate.
 
 ### Blocks
 
@@ -3348,12 +3337,12 @@ The structure is composed of the following blocks: Oxidized Cut Copper Stairs, O
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3361,7 +3350,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Lab Ruin/Deep Blue Labs Ruin Portal 02</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Cut Copper Stairs, Copper Door, Copper Grate, Lightning Rod.
+The structure part is composed of the following blocks: Oxidized Cut Copper Stairs, Copper Door, Copper Grate, Lightning Rod.
 
 ### Blocks
 
@@ -3375,12 +3364,12 @@ The structure is composed of the following blocks: Oxidized Cut Copper Stairs, C
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3388,7 +3377,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Lab Ruin/Deep Blue Labs Ruin Portal 03</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Cut Copper Stairs, Weathered Copper Door, Lightning Rod, Weathered Copper Grate, Weathered Cut Copper Stairs.
+The structure part is composed of the following blocks: Oxidized Cut Copper Stairs, Weathered Copper Door, Lightning Rod, Weathered Copper Grate, Weathered Cut Copper Stairs.
 
 ### Blocks
 
@@ -3403,12 +3392,12 @@ The structure is composed of the following blocks: Oxidized Cut Copper Stairs, W
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3416,7 +3405,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Lab Ruin/Deep Blue Labs Ruin Portal 04</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Cut Copper Stairs, Oxidized Copper Door, Exposed Copper Grate, Lightning Rod.
+The structure part is composed of the following blocks: Oxidized Cut Copper Stairs, Oxidized Copper Door, Exposed Copper Grate, Lightning Rod.
 
 ### Blocks
 
@@ -3430,12 +3419,12 @@ The structure is composed of the following blocks: Oxidized Cut Copper Stairs, O
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3443,7 +3432,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Lab Ruin/Deep Blue Labs Ruin Portal 05</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Cut Copper Stairs, Weathered Copper Trapdoor, Lightning Rod, Oxidized Copper Grate.
+The structure part is composed of the following blocks: Oxidized Cut Copper Stairs, Weathered Copper Trapdoor, Lightning Rod, Oxidized Copper Grate.
 
 ### Blocks
 
@@ -3457,12 +3446,12 @@ The structure is composed of the following blocks: Oxidized Cut Copper Stairs, W
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3470,7 +3459,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Lab Ruin/Deep Blue Labs Ruin Portal 06</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Cut Copper Stairs, Weathered Copper Door, Lightning Rod.
+The structure part is composed of the following blocks: Oxidized Cut Copper Stairs, Weathered Copper Door, Lightning Rod.
 
 ### Blocks
 
@@ -3483,12 +3472,12 @@ The structure is composed of the following blocks: Oxidized Cut Copper Stairs, W
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3496,21 +3485,21 @@ None found.
 <details>
 <summary><strong>Deep Blue/Lab Ruin/Deep Blue Labs Ruin Start</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3518,7 +3507,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue 3x3 Decor 01</strong></summary>
 
-The structure is composed of the following blocks: Bookshelf, Oak Trapdoor, Oxidized Copper Trapdoor, Chiseled Bookshelf, Lectern, Oak Stairs.
+The structure part is composed of the following blocks: Bookshelf, Oak Trapdoor, Oxidized Copper Trapdoor, Chiseled Bookshelf, Lectern, Oak Stairs.
 
 ### Blocks
 
@@ -3534,12 +3523,12 @@ The structure is composed of the following blocks: Bookshelf, Oak Trapdoor, Oxid
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3547,7 +3536,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue 3x3 Decor 02</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Trapdoor, Oxidized Chiseled Copper, Oxidized Copper Bulb.
+The structure part is composed of the following blocks: Oxidized Copper Trapdoor, Oxidized Chiseled Copper, Oxidized Copper Bulb.
 
 Additionally, the following entities may spawn during its generation: Drowned.
 
@@ -3569,7 +3558,7 @@ Additionally, the following entities may spawn during its generation: Drowned.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3577,7 +3566,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue 3x3 Decor 03</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Trapdoor, Observer, Oxidized Copper Bulb.
+The structure part is composed of the following blocks: Oxidized Copper Trapdoor, Observer, Oxidized Copper Bulb.
 
 ### Blocks
 
@@ -3590,12 +3579,12 @@ The structure is composed of the following blocks: Oxidized Copper Trapdoor, Obs
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3603,7 +3592,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue 3x3 Decor 04</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Door, Lightning Rod, Oxidized Copper Grate.
+The structure part is composed of the following blocks: Oxidized Copper Door, Lightning Rod, Oxidized Copper Grate.
 
 ### Blocks
 
@@ -3616,12 +3605,12 @@ The structure is composed of the following blocks: Oxidized Copper Door, Lightni
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3629,7 +3618,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Farm 01</strong></summary>
 
-The structure is composed of the following blocks: Wheat, Farmland, Oxidized Copper Grate, Prismarine Bricks, Light Blue Stained Glass.
+The structure part is composed of the following blocks: Wheat, Farmland, Oxidized Copper Grate, Prismarine Bricks, Light Blue Stained Glass.
 
 ### Blocks
 
@@ -3644,12 +3633,12 @@ The structure is composed of the following blocks: Wheat, Farmland, Oxidized Cop
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3657,7 +3646,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Farm 02</strong></summary>
 
-The structure is composed of the following blocks: Beetroots, Farmland, Oxidized Copper Grate, Prismarine Bricks, Light Blue Stained Glass.
+The structure part is composed of the following blocks: Beetroots, Farmland, Oxidized Copper Grate, Prismarine Bricks, Light Blue Stained Glass.
 
 ### Blocks
 
@@ -3672,12 +3661,12 @@ The structure is composed of the following blocks: Beetroots, Farmland, Oxidized
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3685,7 +3674,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Farm 03</strong></summary>
 
-The structure is composed of the following blocks: Carrots, Farmland, Oxidized Copper Grate, Prismarine Bricks, Light Blue Stained Glass.
+The structure part is composed of the following blocks: Carrots, Farmland, Oxidized Copper Grate, Prismarine Bricks, Light Blue Stained Glass.
 
 ### Blocks
 
@@ -3700,12 +3689,12 @@ The structure is composed of the following blocks: Carrots, Farmland, Oxidized C
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3713,7 +3702,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Farm 04</strong></summary>
 
-The structure is composed of the following blocks: Potatoes, Farmland, Oxidized Copper Grate, Prismarine Bricks, Light Blue Stained Glass.
+The structure part is composed of the following blocks: Potatoes, Farmland, Oxidized Copper Grate, Prismarine Bricks, Light Blue Stained Glass.
 
 ### Blocks
 
@@ -3728,12 +3717,12 @@ The structure is composed of the following blocks: Potatoes, Farmland, Oxidized 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3741,7 +3730,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Farm 05</strong></summary>
 
-The structure is composed of the following blocks: Red Mushroom Block, Mycelium, Grass Block, Oxidized Copper Grate, Mushroom Stem, Prismarine Bricks, Brown Mushroom, Light Blue Stained Glass, Red Mushroom.
+The structure part is composed of the following blocks: Red Mushroom Block, Mycelium, Grass Block, Oxidized Copper Grate, Mushroom Stem, Prismarine Bricks, Brown Mushroom, Light Blue Stained Glass, Red Mushroom.
 
 ### Blocks
 
@@ -3760,12 +3749,12 @@ The structure is composed of the following blocks: Red Mushroom Block, Mycelium,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3773,7 +3762,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Farm 06</strong></summary>
 
-The structure is composed of the following blocks: Grass Block, Dirt, Oxidized Copper Grate, Prismarine Bricks, Light Blue Stained Glass.
+The structure part is composed of the following blocks: Grass Block, Dirt, Oxidized Copper Grate, Prismarine Bricks, Light Blue Stained Glass.
 
 Additionally, the following entities may spawn during its generation: Sheep.
 
@@ -3797,7 +3786,7 @@ Additionally, the following entities may spawn during its generation: Sheep.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3805,7 +3794,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Farm 07</strong></summary>
 
-The structure is composed of the following blocks: Grass Block, Oak Trapdoor, Oxidized Copper Grate, Prismarine Bricks, Light Blue Stained Glass, Allium, Beehive, Oak Fence, Azure Bluet, Dandelion, Lily Of The Valley, Oxeye Daisy, Red Tulip.
+The structure part is composed of the following blocks: Grass Block, Oak Trapdoor, Oxidized Copper Grate, Prismarine Bricks, Light Blue Stained Glass, Allium, Beehive, Oak Fence, Azure Bluet, Dandelion, Lily Of The Valley, Oxeye Daisy, Red Tulip.
 
 Additionally, the following entities may spawn during its generation: Bee.
 
@@ -3837,7 +3826,7 @@ Additionally, the following entities may spawn during its generation: Bee.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3845,7 +3834,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Farm 08</strong></summary>
 
-The structure is composed of the following blocks: Grass Block, Birch Trapdoor, Oxidized Copper Grate, Short Grass, Prismarine Bricks, Light Blue Stained Glass, Barrier, Birch Slab, Birch Stairs, Dead Horn Coral Fan.
+The structure part is composed of the following blocks: Grass Block, Birch Trapdoor, Oxidized Copper Grate, Short Grass, Prismarine Bricks, Light Blue Stained Glass, Barrier, Birch Slab, Birch Stairs, Dead Horn Coral Fan.
 
 Additionally, the following entities may spawn during its generation: Chicken, Item.
 
@@ -3875,7 +3864,7 @@ Additionally, the following entities may spawn during its generation: Chicken, I
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3883,7 +3872,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Farm 09</strong></summary>
 
-The structure is composed of the following blocks: Oak Leaves, Grass Block, Short Grass, Oxidized Copper Grate, Oak Log, Prismarine Bricks, Light Blue Stained Glass, Poppy, Tall Grass, Dirt.
+The structure part is composed of the following blocks: Oak Leaves, Grass Block, Short Grass, Oxidized Copper Grate, Oak Log, Prismarine Bricks, Light Blue Stained Glass, Poppy, Tall Grass, Dirt.
 
 ### Blocks
 
@@ -3903,12 +3892,12 @@ The structure is composed of the following blocks: Oak Leaves, Grass Block, Shor
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3916,7 +3905,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Farm 10</strong></summary>
 
-The structure is composed of the following blocks: Mud, Grass Block, Dirt Path, Oxidized Copper Grate, Prismarine Bricks, Light Blue Stained Glass.
+The structure part is composed of the following blocks: Mud, Grass Block, Dirt Path, Oxidized Copper Grate, Prismarine Bricks, Light Blue Stained Glass.
 
 Additionally, the following entities may spawn during its generation: Pig.
 
@@ -3941,7 +3930,7 @@ Additionally, the following entities may spawn during its generation: Pig.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3949,7 +3938,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Lab 01</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Bricks, Oxidized Copper Grate, Oxidized Copper Trapdoor, Light Blue Stained Glass, Prismarine Brick Stairs, Oxidized Copper Door, Exposed Copper Bulb, Lightning Rod.
+The structure part is composed of the following blocks: Prismarine Bricks, Oxidized Copper Grate, Oxidized Copper Trapdoor, Light Blue Stained Glass, Prismarine Brick Stairs, Oxidized Copper Door, Exposed Copper Bulb, Lightning Rod.
 
 Additionally, the following entities may spawn during its generation: End Crystal.
 
@@ -3976,7 +3965,7 @@ Additionally, the following entities may spawn during its generation: End Crysta
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -3984,7 +3973,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Lab 02</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Oxidized Copper Grate, Prismarine Brick Stairs, Oxidized Copper Trapdoor, Weathered Copper Grate, Weathered Copper Trapdoor, Oxidized Copper Door, Weathered Copper Door, Lightning Rod, Oxidized Copper Bulb.
+The structure part is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Oxidized Copper Grate, Prismarine Brick Stairs, Oxidized Copper Trapdoor, Weathered Copper Grate, Weathered Copper Trapdoor, Oxidized Copper Door, Weathered Copper Door, Lightning Rod, Oxidized Copper Bulb.
 
 ### Blocks
 
@@ -4005,12 +3994,12 @@ The structure is composed of the following blocks: Prismarine Bricks, Light Blue
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4018,7 +4007,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Lab 03</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Bricks, Oxidized Copper Grate, Prismarine Brick Stairs, Oxidized Copper Trapdoor, Oxidized Copper Door, Chest, Oxidized Copper Bulb, Weathered Copper Bulb.
+The structure part is composed of the following blocks: Prismarine Bricks, Oxidized Copper Grate, Prismarine Brick Stairs, Oxidized Copper Trapdoor, Oxidized Copper Door, Chest, Oxidized Copper Bulb, Weathered Copper Bulb.
 
 Additionally, the following entities may spawn during its generation: End Crystal.
 
@@ -4055,7 +4044,7 @@ Additionally, the following entities may spawn during its generation: End Crysta
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Lab 04</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Oxidized Copper Trapdoor, Oxidized Copper Grate, Oxidized Copper Door, Lightning Rod, Copper Bulb, Exposed Copper Bulb.
+The structure part is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Oxidized Copper Trapdoor, Oxidized Copper Grate, Oxidized Copper Door, Lightning Rod, Copper Bulb, Exposed Copper Bulb.
 
 ### Blocks
 
@@ -4073,12 +4062,12 @@ The structure is composed of the following blocks: Prismarine Bricks, Light Blue
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4086,7 +4075,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Lab 05</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Oxidized Copper Trapdoor, Oxidized Copper Grate, Oxidized Copper Door, Copper Bulb, Lightning Rod.
+The structure part is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Oxidized Copper Trapdoor, Oxidized Copper Grate, Oxidized Copper Door, Copper Bulb, Lightning Rod.
 
 ### Blocks
 
@@ -4103,12 +4092,12 @@ The structure is composed of the following blocks: Prismarine Bricks, Light Blue
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4116,7 +4105,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Lab 06</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Oxidized Copper Grate, Prismarine Brick Stairs, Oxidized Copper Trapdoor, Oxidized Copper Door, Exposed Copper Bulb, Lightning Rod.
+The structure part is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Oxidized Copper Grate, Prismarine Brick Stairs, Oxidized Copper Trapdoor, Oxidized Copper Door, Exposed Copper Bulb, Lightning Rod.
 
 ### Blocks
 
@@ -4134,12 +4123,12 @@ The structure is composed of the following blocks: Prismarine Bricks, Light Blue
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4147,7 +4136,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Lab 07</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Grass Block, Oxidized Copper Grate, Prismarine Brick Stairs, Lightning Rod, Oxidized Copper Trapdoor, Copper Bulb, Oxidized Copper Door, Composter.
+The structure part is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Grass Block, Oxidized Copper Grate, Prismarine Brick Stairs, Lightning Rod, Oxidized Copper Trapdoor, Copper Bulb, Oxidized Copper Door, Composter.
 
 ### Blocks
 
@@ -4167,12 +4156,12 @@ The structure is composed of the following blocks: Prismarine Bricks, Light Blue
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4180,7 +4169,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Lab 08</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Oxidized Copper Grate, Oxidized Copper Trapdoor, Oxidized Copper Door, Prismarine Brick Stairs, Lightning Rod, Copper Bulb, Exposed Copper Bulb, Oxidized Copper Bulb.
+The structure part is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Oxidized Copper Grate, Oxidized Copper Trapdoor, Oxidized Copper Door, Prismarine Brick Stairs, Lightning Rod, Copper Bulb, Exposed Copper Bulb, Oxidized Copper Bulb.
 
 ### Blocks
 
@@ -4200,12 +4189,12 @@ The structure is composed of the following blocks: Prismarine Bricks, Light Blue
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4213,7 +4202,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Lab End 01</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass.
+The structure part is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass.
 
 ### Blocks
 
@@ -4225,12 +4214,12 @@ The structure is composed of the following blocks: Prismarine Bricks, Light Blue
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4238,7 +4227,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Lab End 02</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Oxidized Copper Grate, Oxidized Copper Trapdoor, Oxidized Copper Door, Copper Bulb, Lightning Rod.
+The structure part is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Oxidized Copper Grate, Oxidized Copper Trapdoor, Oxidized Copper Door, Copper Bulb, Lightning Rod.
 
 ### Blocks
 
@@ -4255,12 +4244,12 @@ The structure is composed of the following blocks: Prismarine Bricks, Light Blue
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4268,7 +4257,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Lab End 03</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Oxidized Copper Grate, Oxidized Copper Trapdoor, Oxidized Copper Door, Exposed Copper Bulb, Lightning Rod, Prismarine Brick Stairs.
+The structure part is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Oxidized Copper Grate, Oxidized Copper Trapdoor, Oxidized Copper Door, Exposed Copper Bulb, Lightning Rod, Prismarine Brick Stairs.
 
 ### Blocks
 
@@ -4286,12 +4275,12 @@ The structure is composed of the following blocks: Prismarine Bricks, Light Blue
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4299,7 +4288,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Lab Tunnel</strong></summary>
 
-The structure is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Prismarine Brick Stairs, Lightning Rod, Oxidized Copper Bulb.
+The structure part is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Prismarine Brick Stairs, Lightning Rod, Oxidized Copper Bulb.
 
 ### Blocks
 
@@ -4314,12 +4303,12 @@ The structure is composed of the following blocks: Prismarine Bricks, Light Blue
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4327,21 +4316,21 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Labs Start</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4349,7 +4338,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Midway Decor 01</strong></summary>
 
-The structure is composed of the following blocks: Lectern.
+The structure part is composed of the following blocks: Lectern.
 
 ### Blocks
 
@@ -4360,12 +4349,12 @@ The structure is composed of the following blocks: Lectern.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4373,7 +4362,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Midway Decor 02</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Trapdoor, Oxidized Chiseled Copper, Oxidized Copper Bulb.
+The structure part is composed of the following blocks: Oxidized Copper Trapdoor, Oxidized Chiseled Copper, Oxidized Copper Bulb.
 
 Additionally, the following entities may spawn during its generation: Drowned.
 
@@ -4395,7 +4384,7 @@ Additionally, the following entities may spawn during its generation: Drowned.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4403,7 +4392,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Midway Decor 03</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Trapdoor, Observer, Oxidized Copper Bulb.
+The structure part is composed of the following blocks: Oxidized Copper Trapdoor, Observer, Oxidized Copper Bulb.
 
 ### Blocks
 
@@ -4416,12 +4405,12 @@ The structure is composed of the following blocks: Oxidized Copper Trapdoor, Obs
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4429,7 +4418,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Midway Decor 04</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Door, Lightning Rod, Oxidized Copper Grate.
+The structure part is composed of the following blocks: Oxidized Copper Door, Lightning Rod, Oxidized Copper Grate.
 
 ### Blocks
 
@@ -4442,12 +4431,12 @@ The structure is composed of the following blocks: Oxidized Copper Door, Lightni
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4455,13 +4444,13 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Nox 01</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Villager.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -4473,7 +4462,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4481,13 +4470,13 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Nox 02</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Villager.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -4499,7 +4488,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4507,13 +4496,13 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Nox 03</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Villager.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -4525,7 +4514,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4533,7 +4522,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Redstone 01</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Cut Copper, Redstone Wire, Lever, Redstone Torch, Repeater, Redstone Lamp, Redstone Wall Torch.
+The structure part is composed of the following blocks: Oxidized Cut Copper, Redstone Wire, Lever, Redstone Torch, Repeater, Redstone Lamp, Redstone Wall Torch.
 
 ### Blocks
 
@@ -4550,12 +4539,12 @@ The structure is composed of the following blocks: Oxidized Cut Copper, Redstone
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4563,7 +4552,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Redstone 02</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Grate, Oxidized Cut Copper, Sticky Piston, Note Block, Oak Button, Observer.
+The structure part is composed of the following blocks: Oxidized Copper Grate, Oxidized Cut Copper, Sticky Piston, Note Block, Oak Button, Observer.
 
 ### Blocks
 
@@ -4579,12 +4568,12 @@ The structure is composed of the following blocks: Oxidized Copper Grate, Oxidiz
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4592,7 +4581,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Redstone 03</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Cut Copper, Observer, Piston, Oxidized Copper Bulb, Stone Button.
+The structure part is composed of the following blocks: Oxidized Cut Copper, Observer, Piston, Oxidized Copper Bulb, Stone Button.
 
 ### Blocks
 
@@ -4607,12 +4596,12 @@ The structure is composed of the following blocks: Oxidized Cut Copper, Observer
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4620,7 +4609,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Redstone 04</strong></summary>
 
-The structure is composed of the following blocks: Dropper, Comparator, Hopper, Stone Button.
+The structure part is composed of the following blocks: Dropper, Comparator, Hopper, Stone Button.
 
 ### Blocks
 
@@ -4634,12 +4623,12 @@ The structure is composed of the following blocks: Dropper, Comparator, Hopper, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4647,7 +4636,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Redstone 05</strong></summary>
 
-The structure is composed of the following blocks: Light Blue Stained Glass, Oxidized Cut Copper, Redstone Wire, Hopper, Observer, Oxidized Copper Grate, Comparator, Dropper, Oxidized Copper Trapdoor, Sticky Piston.
+The structure part is composed of the following blocks: Light Blue Stained Glass, Oxidized Cut Copper, Redstone Wire, Hopper, Observer, Oxidized Copper Grate, Comparator, Dropper, Oxidized Copper Trapdoor, Sticky Piston.
 
 ### Blocks
 
@@ -4667,12 +4656,12 @@ The structure is composed of the following blocks: Light Blue Stained Glass, Oxi
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4680,7 +4669,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Redstone 06</strong></summary>
 
-The structure is composed of the following blocks: Comparator, Hopper, Oxidized Cut Copper, Redstone Wire, Sticky Piston, Piston Head, Redstone Block.
+The structure part is composed of the following blocks: Comparator, Hopper, Oxidized Cut Copper, Redstone Wire, Sticky Piston, Piston Head, Redstone Block.
 
 ### Blocks
 
@@ -4697,12 +4686,12 @@ The structure is composed of the following blocks: Comparator, Hopper, Oxidized 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4710,7 +4699,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Redstone 07</strong></summary>
 
-The structure is composed of the following blocks: Sticky Piston, Observer, Oxidized Cut Copper, Crafting Table, Dispenser, Note Block, Oak Button, Oxidized Copper Grate, Piston Head, Redstone Block.
+The structure part is composed of the following blocks: Sticky Piston, Observer, Oxidized Cut Copper, Crafting Table, Dispenser, Note Block, Oak Button, Oxidized Copper Grate, Piston Head, Redstone Block.
 
 ### Blocks
 
@@ -4730,12 +4719,12 @@ The structure is composed of the following blocks: Sticky Piston, Observer, Oxid
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4743,7 +4732,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Redstone 08</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Cut Copper, Comparator, Crafter, Redstone Wall Torch, Chest, Hopper, Observer, Redstone Wire.
+The structure part is composed of the following blocks: Oxidized Cut Copper, Comparator, Crafter, Redstone Wall Torch, Chest, Hopper, Observer, Redstone Wire.
 
 ### Blocks
 
@@ -4761,12 +4750,12 @@ The structure is composed of the following blocks: Oxidized Cut Copper, Comparat
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4774,7 +4763,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Small Decor 01</strong></summary>
 
-The structure is composed of the following blocks: Chest.
+The structure part is composed of the following blocks: Chest.
 
 ### Blocks
 
@@ -4785,7 +4774,7 @@ The structure is composed of the following blocks: Chest.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -4800,7 +4789,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Small Decor 02</strong></summary>
 
-The structure is composed of the following blocks: Chest.
+The structure part is composed of the following blocks: Chest.
 
 ### Blocks
 
@@ -4811,7 +4800,7 @@ The structure is composed of the following blocks: Chest.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -4826,7 +4815,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Small Decor 03</strong></summary>
 
-The structure is composed of the following blocks: Blue Bed.
+The structure part is composed of the following blocks: Blue Bed.
 
 ### Blocks
 
@@ -4837,12 +4826,12 @@ The structure is composed of the following blocks: Blue Bed.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4850,7 +4839,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Small Decor 04</strong></summary>
 
-The structure is composed of the following blocks: Furnace.
+The structure part is composed of the following blocks: Furnace.
 
 ### Blocks
 
@@ -4861,12 +4850,12 @@ The structure is composed of the following blocks: Furnace.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4874,7 +4863,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Small Decor 05</strong></summary>
 
-The structure is composed of the following blocks: Crafting Table.
+The structure part is composed of the following blocks: Crafting Table.
 
 ### Blocks
 
@@ -4885,12 +4874,12 @@ The structure is composed of the following blocks: Crafting Table.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4898,7 +4887,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Small Decor 06</strong></summary>
 
-The structure is composed of the following blocks: Chiseled Bookshelf.
+The structure part is composed of the following blocks: Chiseled Bookshelf.
 
 ### Blocks
 
@@ -4909,12 +4898,12 @@ The structure is composed of the following blocks: Chiseled Bookshelf.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4922,7 +4911,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Small Decor 07</strong></summary>
 
-The structure is composed of the following blocks: Decorated Pot.
+The structure part is composed of the following blocks: Decorated Pot.
 
 ### Blocks
 
@@ -4933,12 +4922,12 @@ The structure is composed of the following blocks: Decorated Pot.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4946,7 +4935,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Small Decor 08</strong></summary>
 
-The structure is composed of the following blocks: Potted Oak Sapling.
+The structure part is composed of the following blocks: Potted Oak Sapling.
 
 ### Blocks
 
@@ -4957,12 +4946,12 @@ The structure is composed of the following blocks: Potted Oak Sapling.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4970,7 +4959,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Wall Decor 01</strong></summary>
 
-The structure is composed of the following blocks: Bookshelf, Oak Trapdoor, Oxidized Copper Trapdoor, Chiseled Bookshelf, Lectern, Oak Stairs.
+The structure part is composed of the following blocks: Bookshelf, Oak Trapdoor, Oxidized Copper Trapdoor, Chiseled Bookshelf, Lectern, Oak Stairs.
 
 ### Blocks
 
@@ -4986,12 +4975,12 @@ The structure is composed of the following blocks: Bookshelf, Oak Trapdoor, Oxid
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -4999,7 +4988,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Wall Decor 02</strong></summary>
 
-The structure is composed of the following blocks: Bookshelf, Chiseled Bookshelf, Oxidized Copper Trapdoor.
+The structure part is composed of the following blocks: Bookshelf, Chiseled Bookshelf, Oxidized Copper Trapdoor.
 
 ### Blocks
 
@@ -5012,12 +5001,12 @@ The structure is composed of the following blocks: Bookshelf, Chiseled Bookshelf
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -5025,7 +5014,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Wall Decor 03</strong></summary>
 
-The structure is composed of the following blocks: Lightning Rod, Oxidized Chiseled Copper, Oxidized Cut Copper Stairs.
+The structure part is composed of the following blocks: Lightning Rod, Oxidized Chiseled Copper, Oxidized Cut Copper Stairs.
 
 ### Blocks
 
@@ -5038,12 +5027,12 @@ The structure is composed of the following blocks: Lightning Rod, Oxidized Chise
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -5051,7 +5040,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Wall Decor 04</strong></summary>
 
-The structure is composed of the following blocks: Bookshelf, Oxidized Copper Trapdoor, Chiseled Bookshelf.
+The structure part is composed of the following blocks: Bookshelf, Oxidized Copper Trapdoor, Chiseled Bookshelf.
 
 ### Blocks
 
@@ -5064,12 +5053,12 @@ The structure is composed of the following blocks: Bookshelf, Oxidized Copper Tr
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -5077,7 +5066,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Wall Decor 05</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Bulb, Oxidized Copper Trapdoor, Oxidized Cut Copper, Trapped Chest.
+The structure part is composed of the following blocks: Oxidized Copper Bulb, Oxidized Copper Trapdoor, Oxidized Cut Copper, Trapped Chest.
 
 ### Blocks
 
@@ -5091,7 +5080,7 @@ The structure is composed of the following blocks: Oxidized Copper Bulb, Oxidize
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -5106,7 +5095,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Labs/Deep Blue Wall Decor 06</strong></summary>
 
-The structure is composed of the following blocks: Oxidized Copper Trapdoor, Blue Bed, Prismarine Brick Stairs.
+The structure part is composed of the following blocks: Oxidized Copper Trapdoor, Blue Bed, Prismarine Brick Stairs.
 
 ### Blocks
 
@@ -5119,12 +5108,12 @@ The structure is composed of the following blocks: Oxidized Copper Trapdoor, Blu
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -5132,7 +5121,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Portal</strong></summary>
 
-The structure is composed of the following blocks: Copper Door, Copper Grate, Lightning Rod.
+The structure part is composed of the following blocks: Copper Door, Copper Grate, Lightning Rod.
 
 ### Blocks
 
@@ -5145,12 +5134,12 @@ The structure is composed of the following blocks: Copper Door, Copper Grate, Li
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -5158,7 +5147,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Red Coral/Red Coral 01</strong></summary>
 
-The structure is composed of the following blocks: Fire Coral Block, Dead Fire Coral Block, Horn Coral Fan, Fire Coral, Campfire.
+The structure part is composed of the following blocks: Fire Coral Block, Dead Fire Coral Block, Horn Coral Fan, Fire Coral, Campfire.
 
 ### Blocks
 
@@ -5173,12 +5162,12 @@ The structure is composed of the following blocks: Fire Coral Block, Dead Fire C
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -5186,7 +5175,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Red Coral/Red Coral 02</strong></summary>
 
-The structure is composed of the following blocks: Fire Coral Block, Horn Coral Fan, Fire Coral, Dead Fire Coral Block, Campfire.
+The structure part is composed of the following blocks: Fire Coral Block, Horn Coral Fan, Fire Coral, Dead Fire Coral Block, Campfire.
 
 ### Blocks
 
@@ -5201,12 +5190,12 @@ The structure is composed of the following blocks: Fire Coral Block, Horn Coral 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -5214,7 +5203,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Red Coral/Red Coral 03</strong></summary>
 
-The structure is composed of the following blocks: Fire Coral Block, Horn Coral Fan, Dead Fire Coral Block, Campfire.
+The structure part is composed of the following blocks: Fire Coral Block, Horn Coral Fan, Dead Fire Coral Block, Campfire.
 
 ### Blocks
 
@@ -5228,12 +5217,12 @@ The structure is composed of the following blocks: Fire Coral Block, Horn Coral 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -5241,7 +5230,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Red Coral/Red Coral 04</strong></summary>
 
-The structure is composed of the following blocks: Fire Coral Block, Horn Coral Fan, Fire Coral, Fire Coral Wall Fan, Campfire.
+The structure part is composed of the following blocks: Fire Coral Block, Horn Coral Fan, Fire Coral, Fire Coral Wall Fan, Campfire.
 
 ### Blocks
 
@@ -5256,12 +5245,12 @@ The structure is composed of the following blocks: Fire Coral Block, Horn Coral 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -5269,7 +5258,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Red Coral/Red Coral Arm 01</strong></summary>
 
-The structure is composed of the following blocks: Fire Coral Block.
+The structure part is composed of the following blocks: Fire Coral Block.
 
 ### Blocks
 
@@ -5280,12 +5269,12 @@ The structure is composed of the following blocks: Fire Coral Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -5293,7 +5282,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Red Coral/Red Coral Arm 02</strong></summary>
 
-The structure is composed of the following blocks: Fire Coral Block.
+The structure part is composed of the following blocks: Fire Coral Block.
 
 ### Blocks
 
@@ -5304,12 +5293,12 @@ The structure is composed of the following blocks: Fire Coral Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -5317,7 +5306,7 @@ None found.
 <details>
 <summary><strong>Deep Blue/Red Coral/Red Coral Arm 03</strong></summary>
 
-The structure is composed of the following blocks: Fire Coral Block.
+The structure part is composed of the following blocks: Fire Coral Block.
 
 ### Blocks
 
@@ -5328,12 +5317,12 @@ The structure is composed of the following blocks: Fire Coral Block.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>

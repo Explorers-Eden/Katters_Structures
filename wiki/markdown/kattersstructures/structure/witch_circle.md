@@ -1,27 +1,22 @@
-# Witch Circle
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Dirt, Grass Block, Mycelium, Oak Leaves, Dirt Path, Coarse Dirt, Stone Bricks, Mossy Stone Bricks, Cracked Stone Bricks, Rooted Dirt, Campfire, Hay Block, Lodestone, Mossy Stone Brick Slab, Stone Brick Slab.
 
 Additionally, the following entities may spawn during its generation: Witch, Pig.
 
-### Loot Tables
 
-None found.
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Witch Circle/Witch 1</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Witch.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -33,7 +28,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -41,13 +36,13 @@ None found.
 <details>
 <summary><strong>Witch Circle/Witch 2</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Witch.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -59,7 +54,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -67,13 +62,13 @@ None found.
 <details>
 <summary><strong>Witch Circle/Witch 3</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 Additionally, the following entities may spawn during its generation: Pig, Witch.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
@@ -86,7 +81,7 @@ None found.
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -94,7 +89,7 @@ None found.
 <details>
 <summary><strong>Witch Circle/Witch Circle</strong></summary>
 
-The structure is composed of the following blocks: Dirt, Grass Block, Mycelium, Oak Leaves, Dirt Path, Coarse Dirt, Stone Bricks, Mossy Stone Bricks, Cracked Stone Bricks, Rooted Dirt, Campfire, Hay Block, Lodestone, Mossy Stone Brick Slab, Stone Brick Slab.
+The structure part is composed of the following blocks: Dirt, Grass Block, Mycelium, Oak Leaves, Dirt Path, Coarse Dirt, Stone Bricks, Mossy Stone Bricks, Cracked Stone Bricks, Rooted Dirt, Campfire, Hay Block, Lodestone, Mossy Stone Brick Slab, Stone Brick Slab.
 
 ### Blocks
 
@@ -119,12 +114,12 @@ The structure is composed of the following blocks: Dirt, Grass Block, Mycelium, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -132,21 +127,21 @@ None found.
 <details>
 <summary><strong>Witch Circle/Witch Circle Start</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>

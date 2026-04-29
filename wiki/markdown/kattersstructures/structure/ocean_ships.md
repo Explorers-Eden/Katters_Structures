@@ -1,26 +1,14 @@
-# Ocean Ships
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Dark Oak Planks, Birch Fence, Light Gray Wool, Birch Planks, Dark Oak Stairs, Dark Oak Log, Dark Oak Trapdoor, Birch Stairs, Birch Slab, Dark Oak Slab, Spruce Trapdoor, Spruce Stairs, Dark Oak Fence, Jungle Trapdoor, Spruce Slab, Campfire, Oak Trapdoor, Hay Block, Jungle Planks, Spruce Planks, Jungle Slab, Lantern, White Wool, Barrel, Gray Wool, Jungle Stairs, Jungle Wall Sign, Oak Planks, Polished Blackstone, Ladder, Dried Kelp Block, Oak Stairs, Spruce Fence, Chest, White Wall Banner, Oak Wall Sign, Oak Slab, Spruce Wall Sign, Stripped Jungle Log, Stripped Oak Log, Stripped Spruce Log, Jungle Fence, Bamboo Planks, Chain, Red Wool, White Carpet, Bamboo Mosaic, Bamboo Trapdoor, Bookshelf, Polished Blackstone Slab, Spruce Fence Gate, Light Blue Wool, Beehive, Red Wall Banner, Dark Oak Fence Gate, Decorated Pot, Polished Blackstone Wall, Jungle Fence Gate, Crafting Table, Farmland, Glass Pane, Oak Fence, Pumpkin, Spawner, Spruce Door, Stone Brick Wall, Bamboo Stairs, Brown Wall Banner, Chiseled Bookshelf, Bamboo Slab, Brown Bed, Fletching Table, Furnace, Oak Fence Gate, Pink Bed, Potted Flowering Azalea Bush, Purple Bed, Scaffolding, Spruce Button, Stripped Bamboo Block, Wheat, Anvil, Beetroots, Bell, Melon Stem, Mud Brick Wall, Polished Blackstone Button, Potted Allium, Stripped Oak Wood.
 
-### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/ocean/random |
-| kattersstructures:chests/ocean_ships/chests |
-| kattersstructures:chests/sky_decor/pillager/arrows |
-| kattersstructures:chests/sky_decor/pillager/storage |
-| kattersstructures:chests/sky_decor/pillager/tnt |
-| kattersstructures:chests/sky_decor/pillager/treasure |
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Ocean Ships/Pillager/Ocean Ships 06</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Planks, Birch Fence, Light Gray Wool, Birch Planks, Dark Oak Stairs, Dark Oak Log, Dark Oak Trapdoor, Birch Stairs, Birch Slab, Dark Oak Slab, Dark Oak Fence, Hay Block, Gray Wool, Polished Blackstone, Dried Kelp Block, Lantern, White Wool, Chain, Barrel, Bookshelf, Chest, Polished Blackstone Slab, Light Blue Wool, Dark Oak Fence Gate, Polished Blackstone Wall, White Wall Banner, Glass Pane, Spawner, Chiseled Bookshelf, Fletching Table.
+The structure part is composed of the following blocks: Dark Oak Planks, Birch Fence, Light Gray Wool, Birch Planks, Dark Oak Stairs, Dark Oak Log, Dark Oak Trapdoor, Birch Stairs, Birch Slab, Dark Oak Slab, Dark Oak Fence, Hay Block, Gray Wool, Polished Blackstone, Dried Kelp Block, Lantern, White Wool, Chain, Barrel, Bookshelf, Chest, Polished Blackstone Slab, Light Blue Wool, Dark Oak Fence Gate, Polished Blackstone Wall, White Wall Banner, Glass Pane, Spawner, Chiseled Bookshelf, Fletching Table.
 
 ### Blocks
 
@@ -60,7 +48,7 @@ The structure is composed of the following blocks: Dark Oak Planks, Birch Fence,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -78,7 +66,7 @@ None found.
 <details>
 <summary><strong>Ocean Ships/Villager/Ocean Ships 01</strong></summary>
 
-The structure is composed of the following blocks: Spruce Stairs, Spruce Planks, Spruce Trapdoor, Oak Planks, Spruce Slab, Jungle Planks, Bamboo Planks, Bamboo Mosaic, Jungle Stairs, Jungle Trapdoor, Ladder, Oak Stairs, Spruce Fence, Jungle Slab, Oak Slab, Stone Brick Wall, Stripped Spruce Log, Bamboo Stairs, Barrel, Brown Wall Banner, Jungle Fence, Red Wall Banner, Stripped Oak Log, Brown Bed, Chest, Lantern, Oak Fence, Scaffolding, Spruce Button, Anvil, Crafting Table, Decorated Pot, Furnace, Potted Flowering Azalea Bush, Stripped Jungle Log, Stripped Oak Wood.
+The structure part is composed of the following blocks: Spruce Stairs, Spruce Planks, Spruce Trapdoor, Oak Planks, Spruce Slab, Jungle Planks, Bamboo Planks, Bamboo Mosaic, Jungle Stairs, Jungle Trapdoor, Ladder, Oak Stairs, Spruce Fence, Jungle Slab, Oak Slab, Stone Brick Wall, Stripped Spruce Log, Bamboo Stairs, Barrel, Brown Wall Banner, Jungle Fence, Red Wall Banner, Stripped Oak Log, Brown Bed, Chest, Lantern, Oak Fence, Scaffolding, Spruce Button, Anvil, Crafting Table, Decorated Pot, Furnace, Potted Flowering Azalea Bush, Stripped Jungle Log, Stripped Oak Wood.
 
 ### Blocks
 
@@ -124,7 +112,7 @@ The structure is composed of the following blocks: Spruce Stairs, Spruce Planks,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -139,7 +127,7 @@ None found.
 <details>
 <summary><strong>Ocean Ships/Villager/Ocean Ships 02</strong></summary>
 
-The structure is composed of the following blocks: Campfire, Jungle Trapdoor, Oak Trapdoor, Spruce Trapdoor, White Wool, Oak Wall Sign, Red Wool, Spruce Wall Sign, White Carpet, Bamboo Trapdoor, Stripped Jungle Log, Stripped Oak Log, Jungle Wall Sign, Ladder, Beehive, Barrel, Chest, Farmland, Lantern, Oak Slab, Pumpkin, Stripped Spruce Log, Decorated Pot, Jungle Slab, Spruce Slab, Bamboo Slab, Spruce Fence, Stripped Bamboo Block, Wheat, Beetroots, Crafting Table, Jungle Fence, Melon Stem, Potted Flowering Azalea Bush.
+The structure part is composed of the following blocks: Campfire, Jungle Trapdoor, Oak Trapdoor, Spruce Trapdoor, White Wool, Oak Wall Sign, Red Wool, Spruce Wall Sign, White Carpet, Bamboo Trapdoor, Stripped Jungle Log, Stripped Oak Log, Jungle Wall Sign, Ladder, Beehive, Barrel, Chest, Farmland, Lantern, Oak Slab, Pumpkin, Stripped Spruce Log, Decorated Pot, Jungle Slab, Spruce Slab, Bamboo Slab, Spruce Fence, Stripped Bamboo Block, Wheat, Beetroots, Crafting Table, Jungle Fence, Melon Stem, Potted Flowering Azalea Bush.
 
 ### Blocks
 
@@ -183,7 +171,7 @@ The structure is composed of the following blocks: Campfire, Jungle Trapdoor, Oa
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -198,7 +186,7 @@ None found.
 <details>
 <summary><strong>Ocean Ships/Villager/Ocean Ships 03</strong></summary>
 
-The structure is composed of the following blocks: Spruce Trapdoor, Jungle Trapdoor, Spruce Stairs, Jungle Planks, Spruce Slab, Spruce Fence, Jungle Stairs, Oak Stairs, Spruce Planks, Stripped Spruce Log, Oak Planks, Jungle Slab, Ladder, Spruce Fence Gate, Stripped Jungle Log, Jungle Fence, Jungle Fence Gate, Lantern, White Wall Banner, Chest, Decorated Pot, Oak Slab, Oak Trapdoor, Pink Bed, Spruce Door, Stripped Oak Log, Barrel, Crafting Table, Oak Fence, Oak Fence Gate, Potted Allium.
+The structure part is composed of the following blocks: Spruce Trapdoor, Jungle Trapdoor, Spruce Stairs, Jungle Planks, Spruce Slab, Spruce Fence, Jungle Stairs, Oak Stairs, Spruce Planks, Stripped Spruce Log, Oak Planks, Jungle Slab, Ladder, Spruce Fence Gate, Stripped Jungle Log, Jungle Fence, Jungle Fence Gate, Lantern, White Wall Banner, Chest, Decorated Pot, Oak Slab, Oak Trapdoor, Pink Bed, Spruce Door, Stripped Oak Log, Barrel, Crafting Table, Oak Fence, Oak Fence Gate, Potted Allium.
 
 ### Blocks
 
@@ -239,7 +227,7 @@ The structure is composed of the following blocks: Spruce Trapdoor, Jungle Trapd
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -254,7 +242,7 @@ None found.
 <details>
 <summary><strong>Ocean Ships/Villager/Ocean Ships 04</strong></summary>
 
-The structure is composed of the following blocks: Spruce Stairs, Jungle Slab, Jungle Wall Sign, Spruce Slab, Oak Wall Sign, Oak Trapdoor, Spruce Wall Sign, White Wall Banner, Jungle Fence, Oak Slab, Barrel, Jungle Stairs, Jungle Trapdoor, Lantern, Spruce Door, Spruce Fence Gate, Spruce Trapdoor, Furnace, Oak Fence, Oak Planks, Oak Stairs, Polished Blackstone Button, Spruce Fence.
+The structure part is composed of the following blocks: Spruce Stairs, Jungle Slab, Jungle Wall Sign, Spruce Slab, Oak Wall Sign, Oak Trapdoor, Spruce Wall Sign, White Wall Banner, Jungle Fence, Oak Slab, Barrel, Jungle Stairs, Jungle Trapdoor, Lantern, Spruce Door, Spruce Fence Gate, Spruce Trapdoor, Furnace, Oak Fence, Oak Planks, Oak Stairs, Polished Blackstone Button, Spruce Fence.
 
 ### Blocks
 
@@ -287,7 +275,7 @@ The structure is composed of the following blocks: Spruce Stairs, Jungle Slab, J
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -303,7 +291,7 @@ None found.
 <details>
 <summary><strong>Ocean Ships/Villager/Ocean Ships 05</strong></summary>
 
-The structure is composed of the following blocks: Spruce Trapdoor, Spruce Stairs, Jungle Trapdoor, Oak Trapdoor, Jungle Slab, Spruce Slab, White Wall Banner, Jungle Stairs, Jungle Wall Sign, Oak Stairs, Red Wall Banner, Jungle Fence, Spruce Fence Gate, Jungle Fence Gate, Oak Slab, Purple Bed, Barrel, Bell, Chest, Crafting Table, Lantern, Mud Brick Wall, Oak Fence Gate, Oak Wall Sign, Spruce Fence, Spruce Wall Sign.
+The structure part is composed of the following blocks: Spruce Trapdoor, Spruce Stairs, Jungle Trapdoor, Oak Trapdoor, Jungle Slab, Spruce Slab, White Wall Banner, Jungle Stairs, Jungle Wall Sign, Oak Stairs, Red Wall Banner, Jungle Fence, Spruce Fence Gate, Jungle Fence Gate, Oak Slab, Purple Bed, Barrel, Bell, Chest, Crafting Table, Lantern, Mud Brick Wall, Oak Fence Gate, Oak Wall Sign, Spruce Fence, Spruce Wall Sign.
 
 ### Blocks
 
@@ -339,7 +327,7 @@ The structure is composed of the following blocks: Spruce Trapdoor, Spruce Stair
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -354,21 +342,21 @@ None found.
 <details>
 <summary><strong>Ocean Ships/Villager/Ocean Ships Start</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>

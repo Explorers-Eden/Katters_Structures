@@ -1,19 +1,14 @@
-# Mini Dungeon
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Stone, Stone Bricks, Polished Andesite, Dark Oak Slab, Grass Block, Stone Brick Stairs, Oak Log, Tuff Brick Slab, Tuff Bricks, Polished Tuff Slab, Coarse Dirt, Dirt, Dark Oak Stairs, Stone Brick Slab, Oak Planks, Stripped Oak Wood, Oak Fence, Oak Wall Sign, Dirt Path, Oak Stairs, Cracked Stone Bricks, Polished Tuff, Stone Stairs, Polished Andesite Stairs, Oak Slab, Tuff Brick Stairs, Cobweb, Polished Tuff Wall, Tuff Brick Wall, Chain, Oak Wall Hanging Sign, Chiseled Tuff Bricks, Fire, Netherrack, Polished Tuff Stairs, Trial Spawner, Chiseled Tuff, Oak Door, Oak Hanging Sign, Oak Pressure Plate, Light Gray Stained Glass Pane, Lodestone, Oak Fence Gate, Spruce Trapdoor.
 
-### Loot Tables
 
-None found.
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Mini Dungeon/Mini Dungeon Rugged Shack</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Oak Log, Tuff Bricks, Dark Oak Stairs, Oak Planks, Stripped Oak Wood, Coarse Dirt, Oak Fence, Oak Wall Sign, Oak Stairs, Grass Block, Oak Slab, Cobweb, Polished Tuff, Oak Wall Hanging Sign, Tuff Brick Slab, Polished Tuff Slab, Chain, Dirt, Oak Door, Oak Hanging Sign, Oak Pressure Plate, Light Gray Stained Glass Pane, Oak Fence Gate, Spruce Trapdoor, Trial Spawner.
+The structure part is composed of the following blocks: Dark Oak Slab, Oak Log, Tuff Bricks, Dark Oak Stairs, Oak Planks, Stripped Oak Wood, Coarse Dirt, Oak Fence, Oak Wall Sign, Oak Stairs, Grass Block, Oak Slab, Cobweb, Polished Tuff, Oak Wall Hanging Sign, Tuff Brick Slab, Polished Tuff Slab, Chain, Dirt, Oak Door, Oak Hanging Sign, Oak Pressure Plate, Light Gray Stained Glass Pane, Oak Fence Gate, Spruce Trapdoor, Trial Spawner.
 
 ### Blocks
 
@@ -49,12 +44,12 @@ The structure is composed of the following blocks: Dark Oak Slab, Oak Log, Tuff 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -62,7 +57,7 @@ None found.
 <details>
 <summary><strong>Mini Dungeon/Mini Dungeon Ruin</strong></summary>
 
-The structure is composed of the following blocks: Stone Bricks, Grass Block, Dirt Path, Cracked Stone Bricks, Coarse Dirt, Stone Brick Slab, Stone Brick Stairs, Lodestone, Trial Spawner.
+The structure part is composed of the following blocks: Stone Bricks, Grass Block, Dirt Path, Cracked Stone Bricks, Coarse Dirt, Stone Brick Slab, Stone Brick Stairs, Lodestone, Trial Spawner.
 
 ### Blocks
 
@@ -81,12 +76,12 @@ The structure is composed of the following blocks: Stone Bricks, Grass Block, Di
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -94,7 +89,7 @@ None found.
 <details>
 <summary><strong>Mini Dungeon/Mini Dungeon Stone</strong></summary>
 
-The structure is composed of the following blocks: Stone, Polished Andesite, Stone Bricks, Stone Brick Stairs, Stone Brick Slab, Stone Stairs, Polished Andesite Stairs, Fire, Netherrack, Trial Spawner.
+The structure part is composed of the following blocks: Stone, Polished Andesite, Stone Bricks, Stone Brick Stairs, Stone Brick Slab, Stone Stairs, Polished Andesite Stairs, Fire, Netherrack, Trial Spawner.
 
 ### Blocks
 
@@ -114,12 +109,12 @@ The structure is composed of the following blocks: Stone, Polished Andesite, Sto
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -127,7 +122,7 @@ None found.
 <details>
 <summary><strong>Mini Dungeon/Mini Dungeon Tuff</strong></summary>
 
-The structure is composed of the following blocks: Tuff Brick Slab, Polished Tuff Slab, Dirt, Grass Block, Tuff Brick Stairs, Polished Tuff Wall, Tuff Brick Wall, Dirt Path, Chiseled Tuff Bricks, Polished Tuff, Polished Tuff Stairs, Tuff Bricks, Chain, Chiseled Tuff, Trial Spawner.
+The structure part is composed of the following blocks: Tuff Brick Slab, Polished Tuff Slab, Dirt, Grass Block, Tuff Brick Stairs, Polished Tuff Wall, Tuff Brick Wall, Dirt Path, Chiseled Tuff Bricks, Polished Tuff, Polished Tuff Stairs, Tuff Bricks, Chain, Chiseled Tuff, Trial Spawner.
 
 ### Blocks
 
@@ -152,12 +147,12 @@ The structure is composed of the following blocks: Tuff Brick Slab, Polished Tuf
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>

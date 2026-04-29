@@ -1,35 +1,16 @@
-# Village Sky
-
-## Summary
+# Contents
 
 The structure is composed of the following blocks: Smooth Quartz, Dark Oak Slab, Smooth Quartz Stairs, Warped Trapdoor, Quartz Block, Warped Slab, Quartz Stairs, Quartz Pillar, Warped Planks, Warped Fence Gate, Cyan Wall Banner, Warped Fence, Dark Prismarine Slab, Dark Prismarine, Smooth Quartz Slab, Warped Stairs, Ochre Froglight, Raw Gold Block, White Wool, White Concrete, Warped Button, Yellow Glazed Terracotta, Gold Block, Quartz Bricks, Dark Prismarine Stairs, Dark Oak Stairs, Moss Block, Quartz Slab, Brick Slab, Bamboo, Deepslate Brick Slab, Farmland, Chest, Verdant Froglight, Brick Stairs, Soul Campfire, White Bed, Dark Oak Planks, Bookshelf, Sea Lantern, Soul Fire, Soul Soil, Chain, Grass Block, Decorated Pot, White Candle, Azalea Leaves, Beetroots, Carrots, Chiseled Bookshelf, Flowering Azalea Leaves, Wheat, Mud, Cyan Candle, Moss Carpet, Grass, Light Blue Candle, Polished Deepslate Wall, Sugar Cane, Brown Wall Banner, Iron Trapdoor, Sand, Dark Oak Trapdoor, Barrel, Birch Stairs, Chiseled Quartz Block, Hay Block, Jukebox, Lightning Rod, Nether Wart, Note Block, Potted Dark Oak Sapling, Soul Sand, Anvil, Bamboo Sapling, Bell, Blast Furnace, Brewing Stand, Campfire, Cartography Table, Cherry Log, Chipped Anvil, Composter, Damaged Anvil, Fletching Table, Grindstone, Lectern, Loom, Polished Deepslate Slab, Potted Azalea Bush, Potted Dead Bush, Potted Flowering Azalea Bush, Smithing Table, Smoker, Stonecutter, Target, Water Cauldron.
 
 Additionally, the following entities may spawn during its generation: End Crystal.
 
-### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky/armorer |
-| kattersstructures:chests/sky/butcher |
-| kattersstructures:chests/sky/cartographer |
-| kattersstructures:chests/sky/cleric |
-| kattersstructures:chests/sky/fletcher |
-| kattersstructures:chests/sky/house |
-| kattersstructures:chests/sky/leatherworker |
-| kattersstructures:chests/sky/mason |
-| kattersstructures:chests/sky/random |
-| kattersstructures:chests/sky/shepherd |
-| kattersstructures:chests/sky/temple |
-| kattersstructures:chests/sky/toolsmith |
-| kattersstructures:chests/sky/weaponsmith |
-
-
+## Per-Structure File Contents
 
 <details>
 <summary><strong>Village Sky/Decor/Ground/Ground Decor 1</strong></summary>
 
-The structure is composed of the following blocks: Decorated Pot.
+The structure part is composed of the following blocks: Decorated Pot.
 
 ### Blocks
 
@@ -40,12 +21,12 @@ The structure is composed of the following blocks: Decorated Pot.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -53,7 +34,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Decor/Ground/Ground Decor 10</strong></summary>
 
-The structure is composed of the following blocks: Decorated Pot.
+The structure part is composed of the following blocks: Decorated Pot.
 
 ### Blocks
 
@@ -64,12 +45,12 @@ The structure is composed of the following blocks: Decorated Pot.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -77,7 +58,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Decor/Ground/Ground Decor 11</strong></summary>
 
-The structure is composed of the following blocks: Decorated Pot.
+The structure part is composed of the following blocks: Decorated Pot.
 
 ### Blocks
 
@@ -88,12 +69,12 @@ The structure is composed of the following blocks: Decorated Pot.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -101,7 +82,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Decor/Ground/Ground Decor 2</strong></summary>
 
-The structure is composed of the following blocks: Chest.
+The structure part is composed of the following blocks: Chest.
 
 ### Blocks
 
@@ -112,7 +93,7 @@ The structure is composed of the following blocks: Chest.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -127,7 +108,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Decor/Ground/Ground Decor 3</strong></summary>
 
-The structure is composed of the following blocks: Potted Flowering Azalea Bush.
+The structure part is composed of the following blocks: Potted Flowering Azalea Bush.
 
 ### Blocks
 
@@ -138,12 +119,12 @@ The structure is composed of the following blocks: Potted Flowering Azalea Bush.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -151,7 +132,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Decor/Ground/Ground Decor 4</strong></summary>
 
-The structure is composed of the following blocks: Potted Azalea Bush.
+The structure part is composed of the following blocks: Potted Azalea Bush.
 
 ### Blocks
 
@@ -162,12 +143,12 @@ The structure is composed of the following blocks: Potted Azalea Bush.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -175,7 +156,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Decor/Ground/Ground Decor 5</strong></summary>
 
-The structure is composed of the following blocks: Potted Dark Oak Sapling.
+The structure part is composed of the following blocks: Potted Dark Oak Sapling.
 
 ### Blocks
 
@@ -186,12 +167,12 @@ The structure is composed of the following blocks: Potted Dark Oak Sapling.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -199,21 +180,21 @@ None found.
 <details>
 <summary><strong>Village Sky/Decor/Ground/Ground Decor 6</strong></summary>
 
-The structure does not contain any notable blocks.
+The structure part does not contain any notable blocks.
 
 ### Blocks
 
-None found.
+*None*
 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -221,7 +202,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Decor/Ground/Ground Decor 7</strong></summary>
 
-The structure is composed of the following blocks: Decorated Pot.
+The structure part is composed of the following blocks: Decorated Pot.
 
 ### Blocks
 
@@ -232,12 +213,12 @@ The structure is composed of the following blocks: Decorated Pot.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -245,7 +226,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Decor/Ground/Ground Decor 8</strong></summary>
 
-The structure is composed of the following blocks: Decorated Pot.
+The structure part is composed of the following blocks: Decorated Pot.
 
 ### Blocks
 
@@ -256,12 +237,12 @@ The structure is composed of the following blocks: Decorated Pot.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -269,7 +250,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Decor/Ground/Ground Decor 9</strong></summary>
 
-The structure is composed of the following blocks: Decorated Pot.
+The structure part is composed of the following blocks: Decorated Pot.
 
 ### Blocks
 
@@ -280,12 +261,12 @@ The structure is composed of the following blocks: Decorated Pot.
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -293,7 +274,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Decor/Sky/Decor Baloons 1</strong></summary>
 
-The structure is composed of the following blocks: Cyan Wall Banner, Soul Campfire, Warped Trapdoor, Ochre Froglight, Verdant Froglight.
+The structure part is composed of the following blocks: Cyan Wall Banner, Soul Campfire, Warped Trapdoor, Ochre Froglight, Verdant Froglight.
 
 ### Blocks
 
@@ -308,12 +289,12 @@ The structure is composed of the following blocks: Cyan Wall Banner, Soul Campfi
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -321,7 +302,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Decor/Sky/Decor Baloons 2</strong></summary>
 
-The structure is composed of the following blocks: Cyan Wall Banner, Soul Campfire, Warped Trapdoor, Ochre Froglight, Verdant Froglight.
+The structure part is composed of the following blocks: Cyan Wall Banner, Soul Campfire, Warped Trapdoor, Ochre Froglight, Verdant Froglight.
 
 ### Blocks
 
@@ -336,12 +317,12 @@ The structure is composed of the following blocks: Cyan Wall Banner, Soul Campfi
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -349,7 +330,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Decor/Sky/Decor Baloons 3</strong></summary>
 
-The structure is composed of the following blocks: Cyan Wall Banner, Ochre Froglight, Soul Campfire, Warped Trapdoor, Verdant Froglight.
+The structure part is composed of the following blocks: Cyan Wall Banner, Ochre Froglight, Soul Campfire, Warped Trapdoor, Verdant Froglight.
 
 ### Blocks
 
@@ -364,12 +345,12 @@ The structure is composed of the following blocks: Cyan Wall Banner, Ochre Frogl
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -377,7 +358,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Decor/Sky/Decor Baloons 4</strong></summary>
 
-The structure is composed of the following blocks: Cyan Wall Banner, Soul Campfire, Warped Trapdoor, Ochre Froglight, Verdant Froglight.
+The structure part is composed of the following blocks: Cyan Wall Banner, Soul Campfire, Warped Trapdoor, Ochre Froglight, Verdant Froglight.
 
 ### Blocks
 
@@ -392,12 +373,12 @@ The structure is composed of the following blocks: Cyan Wall Banner, Soul Campfi
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -405,7 +386,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Decor/Sky/Decor Hab</strong></summary>
 
-The structure is composed of the following blocks: White Wool, White Concrete, Smooth Quartz, Warped Planks, Warped Fence, Warped Trapdoor, Warped Slab, Cyan Wall Banner, Warped Stairs, Dark Prismarine, Dark Prismarine Stairs, Ochre Froglight, Dark Prismarine Slab, Chain, Decorated Pot, Chest, Soul Campfire, Verdant Froglight.
+The structure part is composed of the following blocks: White Wool, White Concrete, Smooth Quartz, Warped Planks, Warped Fence, Warped Trapdoor, Warped Slab, Cyan Wall Banner, Warped Stairs, Dark Prismarine, Dark Prismarine Stairs, Ochre Froglight, Dark Prismarine Slab, Chain, Decorated Pot, Chest, Soul Campfire, Verdant Froglight.
 
 ### Blocks
 
@@ -433,7 +414,7 @@ The structure is composed of the following blocks: White Wool, White Concrete, S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -448,7 +429,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Empty</strong></summary>
 
-The structure is composed of the following blocks: Smooth Quartz Stairs, Warped Fence, Warped Fence Gate, Quartz Stairs.
+The structure part is composed of the following blocks: Smooth Quartz Stairs, Warped Fence, Warped Fence Gate, Quartz Stairs.
 
 ### Blocks
 
@@ -462,12 +443,12 @@ The structure is composed of the following blocks: Smooth Quartz Stairs, Warped 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -475,7 +456,7 @@ None found.
 <details>
 <summary><strong>Village Sky/House End/Profession/House End Armorer</strong></summary>
 
-The structure is composed of the following blocks: Smooth Quartz Stairs, Dark Oak Slab, Smooth Quartz, Quartz Block, Warped Trapdoor, Deepslate Brick Slab, Quartz Stairs, Smooth Quartz Slab, Cyan Wall Banner, Warped Button, Warped Slab, Polished Deepslate Wall, Warped Fence, Warped Fence Gate, Ochre Froglight, Warped Planks, Blast Furnace, Chest, Damaged Anvil, Iron Trapdoor, Polished Deepslate Slab, Warped Stairs.
+The structure part is composed of the following blocks: Smooth Quartz Stairs, Dark Oak Slab, Smooth Quartz, Quartz Block, Warped Trapdoor, Deepslate Brick Slab, Quartz Stairs, Smooth Quartz Slab, Cyan Wall Banner, Warped Button, Warped Slab, Polished Deepslate Wall, Warped Fence, Warped Fence Gate, Ochre Froglight, Warped Planks, Blast Furnace, Chest, Damaged Anvil, Iron Trapdoor, Polished Deepslate Slab, Warped Stairs.
 
 ### Blocks
 
@@ -507,7 +488,7 @@ The structure is composed of the following blocks: Smooth Quartz Stairs, Dark Oa
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -522,7 +503,7 @@ None found.
 <details>
 <summary><strong>Village Sky/House End/Profession/House End Toolsmith</strong></summary>
 
-The structure is composed of the following blocks: Smooth Quartz Stairs, Smooth Quartz, Dark Oak Slab, Quartz Stairs, Deepslate Brick Slab, Warped Trapdoor, Smooth Quartz Slab, Cyan Wall Banner, Quartz Block, Warped Button, Warped Slab, Warped Fence Gate, Iron Trapdoor, Warped Fence, Warped Planks, Anvil, Chest, Ochre Froglight, Smithing Table, Warped Stairs.
+The structure part is composed of the following blocks: Smooth Quartz Stairs, Smooth Quartz, Dark Oak Slab, Quartz Stairs, Deepslate Brick Slab, Warped Trapdoor, Smooth Quartz Slab, Cyan Wall Banner, Quartz Block, Warped Button, Warped Slab, Warped Fence Gate, Iron Trapdoor, Warped Fence, Warped Planks, Anvil, Chest, Ochre Froglight, Smithing Table, Warped Stairs.
 
 ### Blocks
 
@@ -552,7 +533,7 @@ The structure is composed of the following blocks: Smooth Quartz Stairs, Smooth 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -567,7 +548,7 @@ None found.
 <details>
 <summary><strong>Village Sky/House End/Profession/House End Weaponsmith</strong></summary>
 
-The structure is composed of the following blocks: Smooth Quartz Stairs, Quartz Stairs, Smooth Quartz, Deepslate Brick Slab, Warped Trapdoor, Dark Oak Slab, Quartz Block, Smooth Quartz Slab, Cyan Wall Banner, Warped Slab, Warped Fence Gate, Dark Oak Trapdoor, Quartz Slab, Warped Fence, Warped Button, Warped Planks, Chest, Chipped Anvil, Grindstone, Ochre Froglight, Warped Stairs.
+The structure part is composed of the following blocks: Smooth Quartz Stairs, Quartz Stairs, Smooth Quartz, Deepslate Brick Slab, Warped Trapdoor, Dark Oak Slab, Quartz Block, Smooth Quartz Slab, Cyan Wall Banner, Warped Slab, Warped Fence Gate, Dark Oak Trapdoor, Quartz Slab, Warped Fence, Warped Button, Warped Planks, Chest, Chipped Anvil, Grindstone, Ochre Froglight, Warped Stairs.
 
 ### Blocks
 
@@ -598,7 +579,7 @@ The structure is composed of the following blocks: Smooth Quartz Stairs, Quartz 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -613,7 +594,7 @@ None found.
 <details>
 <summary><strong>Village Sky/House End/Rare/Rare Temple</strong></summary>
 
-The structure is composed of the following blocks: Smooth Quartz, Quartz Block, Warped Slab, Smooth Quartz Stairs, Warped Trapdoor, Quartz Pillar, Dark Oak Slab, Warped Planks, Quartz Stairs, Dark Prismarine Slab, Dark Prismarine, Warped Fence Gate, Smooth Quartz Slab, Cyan Wall Banner, Raw Gold Block, Warped Fence, Ochre Froglight, Yellow Glazed Terracotta, Warped Stairs, Dark Oak Stairs, Gold Block, White Candle, Quartz Slab, Chain, Cyan Candle, Soul Fire, Soul Soil, Dark Prismarine Stairs, Light Blue Candle, Lightning Rod, Sea Lantern, Chest, Verdant Froglight.
+The structure part is composed of the following blocks: Smooth Quartz, Quartz Block, Warped Slab, Smooth Quartz Stairs, Warped Trapdoor, Quartz Pillar, Dark Oak Slab, Warped Planks, Quartz Stairs, Dark Prismarine Slab, Dark Prismarine, Warped Fence Gate, Smooth Quartz Slab, Cyan Wall Banner, Raw Gold Block, Warped Fence, Ochre Froglight, Yellow Glazed Terracotta, Warped Stairs, Dark Oak Stairs, Gold Block, White Candle, Quartz Slab, Chain, Cyan Candle, Soul Fire, Soul Soil, Dark Prismarine Stairs, Light Blue Candle, Lightning Rod, Sea Lantern, Chest, Verdant Froglight.
 
 ### Blocks
 
@@ -656,7 +637,7 @@ The structure is composed of the following blocks: Smooth Quartz, Quartz Block, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -671,7 +652,7 @@ None found.
 <details>
 <summary><strong>Village Sky/House End/Residence/House End 1</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Smooth Quartz Stairs, Cyan Wall Banner, Warped Slab, Warped Trapdoor, Quartz Stairs, Smooth Quartz, Warped Fence, Warped Fence Gate, Quartz Block, Dark Prismarine Slab, Warped Button, Dark Prismarine, Smooth Quartz Slab, Warped Stairs, Dark Prismarine Stairs, White Bed, Chest, Ochre Froglight, Verdant Froglight.
+The structure part is composed of the following blocks: Dark Oak Slab, Smooth Quartz Stairs, Cyan Wall Banner, Warped Slab, Warped Trapdoor, Quartz Stairs, Smooth Quartz, Warped Fence, Warped Fence Gate, Quartz Block, Dark Prismarine Slab, Warped Button, Dark Prismarine, Smooth Quartz Slab, Warped Stairs, Dark Prismarine Stairs, White Bed, Chest, Ochre Froglight, Verdant Froglight.
 
 ### Blocks
 
@@ -701,7 +682,7 @@ The structure is composed of the following blocks: Dark Oak Slab, Smooth Quartz 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -716,7 +697,7 @@ None found.
 <details>
 <summary><strong>Village Sky/House End/Residence/House End 2</strong></summary>
 
-The structure is composed of the following blocks: Smooth Quartz Stairs, Dark Oak Slab, Quartz Stairs, Warped Slab, Smooth Quartz, Warped Trapdoor, Dark Prismarine Slab, Warped Stairs, Smooth Quartz Slab, Dark Prismarine Stairs, Cyan Wall Banner, Warped Fence Gate, Quartz Block, Warped Fence, Warped Planks, Warped Button, Quartz Slab, Dark Prismarine, White Bed, Chest, Ochre Froglight, Verdant Froglight.
+The structure part is composed of the following blocks: Smooth Quartz Stairs, Dark Oak Slab, Quartz Stairs, Warped Slab, Smooth Quartz, Warped Trapdoor, Dark Prismarine Slab, Warped Stairs, Smooth Quartz Slab, Dark Prismarine Stairs, Cyan Wall Banner, Warped Fence Gate, Quartz Block, Warped Fence, Warped Planks, Warped Button, Quartz Slab, Dark Prismarine, White Bed, Chest, Ochre Froglight, Verdant Froglight.
 
 ### Blocks
 
@@ -748,7 +729,7 @@ The structure is composed of the following blocks: Smooth Quartz Stairs, Dark Oa
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -763,7 +744,7 @@ None found.
 <details>
 <summary><strong>Village Sky/House End/Residence/House End 3</strong></summary>
 
-The structure is composed of the following blocks: Smooth Quartz, Dark Oak Slab, Quartz Block, Quartz Stairs, Smooth Quartz Stairs, Cyan Wall Banner, Warped Trapdoor, Smooth Quartz Slab, Warped Fence Gate, Warped Button, Quartz Pillar, Warped Fence, Warped Slab, Dark Prismarine Slab, Warped Stairs, Chest, Warped Planks, White Bed, Dark Prismarine, Ochre Froglight, Sea Lantern.
+The structure part is composed of the following blocks: Smooth Quartz, Dark Oak Slab, Quartz Block, Quartz Stairs, Smooth Quartz Stairs, Cyan Wall Banner, Warped Trapdoor, Smooth Quartz Slab, Warped Fence Gate, Warped Button, Quartz Pillar, Warped Fence, Warped Slab, Dark Prismarine Slab, Warped Stairs, Chest, Warped Planks, White Bed, Dark Prismarine, Ochre Froglight, Sea Lantern.
 
 ### Blocks
 
@@ -794,7 +775,7 @@ The structure is composed of the following blocks: Smooth Quartz, Dark Oak Slab,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -809,7 +790,7 @@ None found.
 <details>
 <summary><strong>Village Sky/House End/Residence/House End 4</strong></summary>
 
-The structure is composed of the following blocks: Smooth Quartz Stairs, Warped Trapdoor, Dark Oak Slab, Quartz Block, Smooth Quartz, Quartz Stairs, Cyan Wall Banner, Warped Fence Gate, Warped Fence, Smooth Quartz Slab, Warped Button, Warped Slab, Dark Prismarine Slab, Verdant Froglight, White Bed, Chest, Dark Prismarine, Ochre Froglight, Warped Planks, Warped Stairs.
+The structure part is composed of the following blocks: Smooth Quartz Stairs, Warped Trapdoor, Dark Oak Slab, Quartz Block, Smooth Quartz, Quartz Stairs, Cyan Wall Banner, Warped Fence Gate, Warped Fence, Smooth Quartz Slab, Warped Button, Warped Slab, Dark Prismarine Slab, Verdant Froglight, White Bed, Chest, Dark Prismarine, Ochre Froglight, Warped Planks, Warped Stairs.
 
 ### Blocks
 
@@ -839,7 +820,7 @@ The structure is composed of the following blocks: Smooth Quartz Stairs, Warped 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -854,7 +835,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Plaza/Decor/Plaza Farm 2</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Warped Trapdoor, Carrots, Farmland, Quartz Stairs, Smooth Quartz Stairs, Warped Fence, Cyan Wall Banner, Ochre Froglight.
+The structure part is composed of the following blocks: Dark Oak Slab, Warped Trapdoor, Carrots, Farmland, Quartz Stairs, Smooth Quartz Stairs, Warped Fence, Cyan Wall Banner, Ochre Froglight.
 
 ### Blocks
 
@@ -873,12 +854,12 @@ The structure is composed of the following blocks: Dark Oak Slab, Warped Trapdoo
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -886,7 +867,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Plaza/Decor/Plaza Farm 3</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Warped Trapdoor, Beetroots, Farmland, Quartz Stairs, Smooth Quartz Stairs, Warped Fence, Cyan Wall Banner, Ochre Froglight, Sea Lantern.
+The structure part is composed of the following blocks: Dark Oak Slab, Warped Trapdoor, Beetroots, Farmland, Quartz Stairs, Smooth Quartz Stairs, Warped Fence, Cyan Wall Banner, Ochre Froglight, Sea Lantern.
 
 ### Blocks
 
@@ -906,12 +887,12 @@ The structure is composed of the following blocks: Dark Oak Slab, Warped Trapdoo
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -919,7 +900,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Plaza/Decor/Plaza Farm 4</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Smooth Quartz Stairs, Warped Trapdoor, Sugar Cane, Sand, Warped Fence, Cyan Wall Banner, Ochre Froglight, Quartz Stairs.
+The structure part is composed of the following blocks: Dark Oak Slab, Smooth Quartz Stairs, Warped Trapdoor, Sugar Cane, Sand, Warped Fence, Cyan Wall Banner, Ochre Froglight, Quartz Stairs.
 
 ### Blocks
 
@@ -938,12 +919,12 @@ The structure is composed of the following blocks: Dark Oak Slab, Smooth Quartz 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -951,7 +932,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Plaza/Decor/Plaza Fountain</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Quartz Stairs, Smooth Quartz Stairs, Warped Trapdoor, Quartz Pillar, Quartz Slab, Smooth Quartz Slab, Sea Lantern, Warped Fence.
+The structure part is composed of the following blocks: Dark Oak Slab, Quartz Stairs, Smooth Quartz Stairs, Warped Trapdoor, Quartz Pillar, Quartz Slab, Smooth Quartz Slab, Sea Lantern, Warped Fence.
 
 ### Blocks
 
@@ -970,12 +951,12 @@ The structure is composed of the following blocks: Dark Oak Slab, Quartz Stairs,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -983,7 +964,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Plaza/Decor/Plaza Globe</strong></summary>
 
-The structure is composed of the following blocks: Gold Block, Dark Oak Slab, Warped Trapdoor, Ochre Froglight, Yellow Glazed Terracotta, Smooth Quartz Stairs, Raw Gold Block, Quartz Stairs, Quartz Pillar.
+The structure part is composed of the following blocks: Gold Block, Dark Oak Slab, Warped Trapdoor, Ochre Froglight, Yellow Glazed Terracotta, Smooth Quartz Stairs, Raw Gold Block, Quartz Stairs, Quartz Pillar.
 
 ### Blocks
 
@@ -1002,12 +983,12 @@ The structure is composed of the following blocks: Gold Block, Dark Oak Slab, Wa
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1015,7 +996,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Plaza/Decor/Plaza Green 1</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Moss Block, Bamboo, Grass, Flowering Azalea Leaves, Moss Carpet, Azalea Leaves, Bamboo Sapling.
+The structure part is composed of the following blocks: Dark Oak Slab, Moss Block, Bamboo, Grass, Flowering Azalea Leaves, Moss Carpet, Azalea Leaves, Bamboo Sapling.
 
 ### Blocks
 
@@ -1033,12 +1014,12 @@ The structure is composed of the following blocks: Dark Oak Slab, Moss Block, Ba
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1046,7 +1027,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Plaza/Decor/Plaza Green 2</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Bamboo, Moss Block, Azalea Leaves, Flowering Azalea Leaves, Moss Carpet.
+The structure part is composed of the following blocks: Dark Oak Slab, Bamboo, Moss Block, Azalea Leaves, Flowering Azalea Leaves, Moss Carpet.
 
 ### Blocks
 
@@ -1062,12 +1043,12 @@ The structure is composed of the following blocks: Dark Oak Slab, Bamboo, Moss B
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1075,7 +1056,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Plaza/Decor/Plaza Statue</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Smooth Quartz, Smooth Quartz Stairs, Quartz Stairs, Warped Trapdoor, Quartz Bricks, Quartz Pillar, Warped Stairs, Quartz Block, Quartz Slab, Chiseled Quartz Block, Warped Slab, Gold Block, Smooth Quartz Slab, Soul Fire, Soul Soil.
+The structure part is composed of the following blocks: Dark Oak Slab, Smooth Quartz, Smooth Quartz Stairs, Quartz Stairs, Warped Trapdoor, Quartz Bricks, Quartz Pillar, Warped Stairs, Quartz Block, Quartz Slab, Chiseled Quartz Block, Warped Slab, Gold Block, Smooth Quartz Slab, Soul Fire, Soul Soil.
 
 ### Blocks
 
@@ -1101,12 +1082,12 @@ The structure is composed of the following blocks: Dark Oak Slab, Smooth Quartz,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1114,7 +1095,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Plaza/Decor/Plaza Storage 1</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Dark Oak Stairs, Dark Oak Planks, Barrel, Chest, Hay Block, Jukebox, Note Block, Decorated Pot.
+The structure part is composed of the following blocks: Dark Oak Slab, Dark Oak Stairs, Dark Oak Planks, Barrel, Chest, Hay Block, Jukebox, Note Block, Decorated Pot.
 
 ### Blocks
 
@@ -1133,7 +1114,7 @@ The structure is composed of the following blocks: Dark Oak Slab, Dark Oak Stair
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1148,7 +1129,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Plaza/Decor/Plaza Torch</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Cyan Wall Banner, Smooth Quartz Stairs, Quartz Block, Soul Fire, Soul Soil.
+The structure part is composed of the following blocks: Dark Oak Slab, Cyan Wall Banner, Smooth Quartz Stairs, Quartz Block, Soul Fire, Soul Soil.
 
 ### Blocks
 
@@ -1164,12 +1145,12 @@ The structure is composed of the following blocks: Dark Oak Slab, Cyan Wall Bann
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1177,7 +1158,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Plaza/Profession/Plaza Farm 1</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Warped Trapdoor, Farmland, Quartz Stairs, Smooth Quartz Stairs, Wheat, Warped Fence, Cyan Wall Banner, Composter, Ochre Froglight, Verdant Froglight.
+The structure part is composed of the following blocks: Dark Oak Slab, Warped Trapdoor, Farmland, Quartz Stairs, Smooth Quartz Stairs, Wheat, Warped Fence, Cyan Wall Banner, Composter, Ochre Froglight, Verdant Froglight.
 
 ### Blocks
 
@@ -1198,12 +1179,12 @@ The structure is composed of the following blocks: Dark Oak Slab, Warped Trapdoo
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1211,7 +1192,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Plaza/Profession/Plaza House Butcher</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Warped Slab, Moss Block, Quartz Pillar, Dark Prismarine Slab, Warped Fence, Warped Fence Gate, Smooth Quartz Stairs, Chain, Cyan Wall Banner, Quartz Stairs, Campfire, Cherry Log, Chest, Smoker, Smooth Quartz.
+The structure part is composed of the following blocks: Dark Oak Slab, Warped Slab, Moss Block, Quartz Pillar, Dark Prismarine Slab, Warped Fence, Warped Fence Gate, Smooth Quartz Stairs, Chain, Cyan Wall Banner, Quartz Stairs, Campfire, Cherry Log, Chest, Smoker, Smooth Quartz.
 
 ### Blocks
 
@@ -1237,7 +1218,7 @@ The structure is composed of the following blocks: Dark Oak Slab, Warped Slab, M
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1252,7 +1233,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Plaza/Profession/Plaza House Cartographer</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Smooth Quartz Stairs, Cyan Wall Banner, Quartz Pillar, Quartz Stairs, Dark Oak Planks, Dark Oak Stairs, Soul Fire, Soul Soil, Cartography Table, Chest, Potted Dark Oak Sapling.
+The structure part is composed of the following blocks: Dark Oak Slab, Smooth Quartz Stairs, Cyan Wall Banner, Quartz Pillar, Quartz Stairs, Dark Oak Planks, Dark Oak Stairs, Soul Fire, Soul Soil, Cartography Table, Chest, Potted Dark Oak Sapling.
 
 ### Blocks
 
@@ -1274,7 +1255,7 @@ The structure is composed of the following blocks: Dark Oak Slab, Smooth Quartz 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1289,7 +1270,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Plaza/Profession/Plaza House Cleric</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Warped Trapdoor, Quartz Pillar, Nether Wart, Smooth Quartz Slab, Soul Sand, Brewing Stand, Chest, Ochre Froglight, Quartz Stairs, Smooth Quartz Stairs.
+The structure part is composed of the following blocks: Dark Oak Slab, Warped Trapdoor, Quartz Pillar, Nether Wart, Smooth Quartz Slab, Soul Sand, Brewing Stand, Chest, Ochre Froglight, Quartz Stairs, Smooth Quartz Stairs.
 
 Additionally, the following entities may spawn during its generation: End Crystal.
 
@@ -1329,7 +1310,7 @@ Additionally, the following entities may spawn during its generation: End Crysta
 <details>
 <summary><strong>Village Sky/Plaza/Profession/Plaza House Fletcher</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Warped Trapdoor, Smooth Quartz, Quartz Block, Quartz Pillar, Cyan Wall Banner, Birch Stairs, Warped Fence, Chest, Fletching Table, Potted Dead Bush, Quartz Stairs, Smooth Quartz Stairs, Target, Verdant Froglight.
+The structure part is composed of the following blocks: Dark Oak Slab, Warped Trapdoor, Smooth Quartz, Quartz Block, Quartz Pillar, Cyan Wall Banner, Birch Stairs, Warped Fence, Chest, Fletching Table, Potted Dead Bush, Quartz Stairs, Smooth Quartz Stairs, Target, Verdant Froglight.
 
 ### Blocks
 
@@ -1354,7 +1335,7 @@ The structure is composed of the following blocks: Dark Oak Slab, Warped Trapdoo
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1369,7 +1350,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Plaza/Profession/Plaza House Leatherworker</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Smooth Quartz, Quartz Block, Mud, Brown Wall Banner, Quartz Stairs, Cyan Wall Banner, Smooth Quartz Stairs, Warped Trapdoor, Chest, Sea Lantern, Water Cauldron.
+The structure part is composed of the following blocks: Dark Oak Slab, Smooth Quartz, Quartz Block, Mud, Brown Wall Banner, Quartz Stairs, Cyan Wall Banner, Smooth Quartz Stairs, Warped Trapdoor, Chest, Sea Lantern, Water Cauldron.
 
 ### Blocks
 
@@ -1391,7 +1372,7 @@ The structure is composed of the following blocks: Dark Oak Slab, Smooth Quartz,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1406,7 +1387,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Plaza/Profession/Plaza House Librarian</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Bookshelf, Warped Slab, Chiseled Bookshelf, Quartz Pillar, Smooth Quartz Stairs, Lectern, Soul Fire, Soul Soil.
+The structure part is composed of the following blocks: Dark Oak Slab, Bookshelf, Warped Slab, Chiseled Bookshelf, Quartz Pillar, Smooth Quartz Stairs, Lectern, Soul Fire, Soul Soil.
 
 ### Blocks
 
@@ -1425,12 +1406,12 @@ The structure is composed of the following blocks: Dark Oak Slab, Bookshelf, War
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1438,7 +1419,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Plaza/Profession/Plaza House Mason</strong></summary>
 
-The structure is composed of the following blocks: Quartz Bricks, Brick Slab, Dark Oak Slab, Brick Stairs, Quartz Pillar, Warped Trapdoor, Chest, Ochre Froglight, Stonecutter.
+The structure part is composed of the following blocks: Quartz Bricks, Brick Slab, Dark Oak Slab, Brick Stairs, Quartz Pillar, Warped Trapdoor, Chest, Ochre Froglight, Stonecutter.
 
 ### Blocks
 
@@ -1457,7 +1438,7 @@ The structure is composed of the following blocks: Quartz Bricks, Brick Slab, Da
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1472,7 +1453,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Plaza/Profession/Plaza House Shepherd</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Grass Block, Smooth Quartz, Warped Fence Gate, Warped Trapdoor, Quartz Block, Warped Fence, Cyan Wall Banner, Quartz Slab, Smooth Quartz Slab, Chest, Loom, Ochre Froglight, Quartz Stairs, Smooth Quartz Stairs.
+The structure part is composed of the following blocks: Dark Oak Slab, Grass Block, Smooth Quartz, Warped Fence Gate, Warped Trapdoor, Quartz Block, Warped Fence, Cyan Wall Banner, Quartz Slab, Smooth Quartz Slab, Chest, Loom, Ochre Froglight, Quartz Stairs, Smooth Quartz Stairs.
 
 ### Blocks
 
@@ -1497,7 +1478,7 @@ The structure is composed of the following blocks: Dark Oak Slab, Grass Block, S
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1512,7 +1493,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Plaza/Residence/Plaza House 1</strong></summary>
 
-The structure is composed of the following blocks: Warped Slab, Dark Oak Slab, Quartz Pillar, Dark Prismarine Slab, Warped Trapdoor, Smooth Quartz, Cyan Wall Banner, Quartz Block, Warped Fence Gate, Quartz Stairs, Smooth Quartz Stairs, Warped Fence, Quartz Slab, White Bed, Chest, Ochre Froglight, Smooth Quartz Slab.
+The structure part is composed of the following blocks: Warped Slab, Dark Oak Slab, Quartz Pillar, Dark Prismarine Slab, Warped Trapdoor, Smooth Quartz, Cyan Wall Banner, Quartz Block, Warped Fence Gate, Quartz Stairs, Smooth Quartz Stairs, Warped Fence, Quartz Slab, White Bed, Chest, Ochre Froglight, Smooth Quartz Slab.
 
 ### Blocks
 
@@ -1539,7 +1520,7 @@ The structure is composed of the following blocks: Warped Slab, Dark Oak Slab, Q
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1554,7 +1535,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Plaza/Residence/Plaza House 2</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Dark Prismarine Slab, Warped Slab, Quartz Pillar, Smooth Quartz, Cyan Wall Banner, Warped Button, Warped Fence, Warped Fence Gate, Quartz Block, White Bed, Smooth Quartz Stairs, Quartz Stairs, Sea Lantern, Warped Planks.
+The structure part is composed of the following blocks: Dark Oak Slab, Dark Prismarine Slab, Warped Slab, Quartz Pillar, Smooth Quartz, Cyan Wall Banner, Warped Button, Warped Fence, Warped Fence Gate, Quartz Block, White Bed, Smooth Quartz Stairs, Quartz Stairs, Sea Lantern, Warped Planks.
 
 ### Blocks
 
@@ -1579,12 +1560,12 @@ The structure is composed of the following blocks: Dark Oak Slab, Dark Prismarin
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1592,7 +1573,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Plaza/Residence/Plaza House 3</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Warped Stairs, Quartz Pillar, Dark Prismarine Stairs, Dark Prismarine Slab, Cyan Wall Banner, Smooth Quartz, Quartz Stairs, Warped Slab, Quartz Slab, Smooth Quartz Slab, Quartz Block, Smooth Quartz Stairs, White Bed, Chest, Ochre Froglight.
+The structure part is composed of the following blocks: Dark Oak Slab, Warped Stairs, Quartz Pillar, Dark Prismarine Stairs, Dark Prismarine Slab, Cyan Wall Banner, Smooth Quartz, Quartz Stairs, Warped Slab, Quartz Slab, Smooth Quartz Slab, Quartz Block, Smooth Quartz Stairs, White Bed, Chest, Ochre Froglight.
 
 ### Blocks
 
@@ -1618,7 +1599,7 @@ The structure is composed of the following blocks: Dark Oak Slab, Warped Stairs,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
@@ -1633,7 +1614,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Streets/Big/Street Cross</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Smooth Quartz Stairs, Warped Trapdoor, Quartz Stairs, Smooth Quartz, Warped Fence Gate, Warped Slab, Warped Fence, Quartz Block, Dark Prismarine Slab, Cyan Wall Banner, Warped Planks, Raw Gold Block, Dark Prismarine, Warped Button, Yellow Glazed Terracotta, Ochre Froglight, Smooth Quartz Slab, Dark Prismarine Stairs, Quartz Slab, Verdant Froglight, Warped Stairs, Sea Lantern.
+The structure part is composed of the following blocks: Dark Oak Slab, Smooth Quartz Stairs, Warped Trapdoor, Quartz Stairs, Smooth Quartz, Warped Fence Gate, Warped Slab, Warped Fence, Quartz Block, Dark Prismarine Slab, Cyan Wall Banner, Warped Planks, Raw Gold Block, Dark Prismarine, Warped Button, Yellow Glazed Terracotta, Ochre Froglight, Smooth Quartz Slab, Dark Prismarine Stairs, Quartz Slab, Verdant Froglight, Warped Stairs, Sea Lantern.
 
 ### Blocks
 
@@ -1666,12 +1647,12 @@ The structure is composed of the following blocks: Dark Oak Slab, Smooth Quartz 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1679,7 +1660,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Streets/Big/Street Curve</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Smooth Quartz Stairs, Warped Trapdoor, Smooth Quartz, Quartz Stairs, Warped Fence Gate, Warped Fence, Warped Slab, Quartz Block, Raw Gold Block, Cyan Wall Banner, Dark Prismarine Slab, Yellow Glazed Terracotta, Warped Planks, Dark Prismarine, Ochre Froglight, Smooth Quartz Slab, Warped Button, Quartz Slab, Warped Stairs.
+The structure part is composed of the following blocks: Dark Oak Slab, Smooth Quartz Stairs, Warped Trapdoor, Smooth Quartz, Quartz Stairs, Warped Fence Gate, Warped Fence, Warped Slab, Quartz Block, Raw Gold Block, Cyan Wall Banner, Dark Prismarine Slab, Yellow Glazed Terracotta, Warped Planks, Dark Prismarine, Ochre Froglight, Smooth Quartz Slab, Warped Button, Quartz Slab, Warped Stairs.
 
 ### Blocks
 
@@ -1709,12 +1690,12 @@ The structure is composed of the following blocks: Dark Oak Slab, Smooth Quartz 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1722,7 +1703,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Streets/Big/Street T</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Smooth Quartz Stairs, Warped Trapdoor, Smooth Quartz, Quartz Stairs, Warped Fence Gate, Warped Fence, Warped Slab, Quartz Block, Cyan Wall Banner, Dark Prismarine Slab, Raw Gold Block, Warped Planks, Yellow Glazed Terracotta, Dark Prismarine, Ochre Froglight, Warped Button, Smooth Quartz Slab, Warped Stairs, Quartz Slab.
+The structure part is composed of the following blocks: Dark Oak Slab, Smooth Quartz Stairs, Warped Trapdoor, Smooth Quartz, Quartz Stairs, Warped Fence Gate, Warped Fence, Warped Slab, Quartz Block, Cyan Wall Banner, Dark Prismarine Slab, Raw Gold Block, Warped Planks, Yellow Glazed Terracotta, Dark Prismarine, Ochre Froglight, Warped Button, Smooth Quartz Slab, Warped Stairs, Quartz Slab.
 
 ### Blocks
 
@@ -1752,12 +1733,12 @@ The structure is composed of the following blocks: Dark Oak Slab, Smooth Quartz 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1765,7 +1746,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Streets/Street End</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Quartz Stairs, Smooth Quartz Stairs, Warped Trapdoor, Warped Fence Gate, Smooth Quartz, Warped Fence, Warped Slab, Cyan Wall Banner, Quartz Block, Dark Prismarine, Dark Prismarine Slab, Ochre Froglight, Warped Button, Warped Planks, Quartz Slab, Raw Gold Block, Warped Stairs.
+The structure part is composed of the following blocks: Dark Oak Slab, Quartz Stairs, Smooth Quartz Stairs, Warped Trapdoor, Warped Fence Gate, Smooth Quartz, Warped Fence, Warped Slab, Cyan Wall Banner, Quartz Block, Dark Prismarine, Dark Prismarine Slab, Ochre Froglight, Warped Button, Warped Planks, Quartz Slab, Raw Gold Block, Warped Stairs.
 
 ### Blocks
 
@@ -1793,12 +1774,12 @@ The structure is composed of the following blocks: Dark Oak Slab, Quartz Stairs,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1806,7 +1787,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Streets/Street Straight L1</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Quartz Stairs, Smooth Quartz Stairs, Warped Trapdoor, Warped Fence Gate, Smooth Quartz, Warped Slab, Warped Fence, Warped Planks, Dark Prismarine Slab, Cyan Wall Banner, Quartz Block, Ochre Froglight, Warped Button, Dark Prismarine, Raw Gold Block, Smooth Quartz Slab.
+The structure part is composed of the following blocks: Dark Oak Slab, Quartz Stairs, Smooth Quartz Stairs, Warped Trapdoor, Warped Fence Gate, Smooth Quartz, Warped Slab, Warped Fence, Warped Planks, Dark Prismarine Slab, Cyan Wall Banner, Quartz Block, Ochre Froglight, Warped Button, Dark Prismarine, Raw Gold Block, Smooth Quartz Slab.
 
 ### Blocks
 
@@ -1833,12 +1814,12 @@ The structure is composed of the following blocks: Dark Oak Slab, Quartz Stairs,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1846,7 +1827,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Streets/Street Straight L2</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Quartz Stairs, Smooth Quartz Stairs, Warped Trapdoor, Warped Fence Gate, Warped Fence, Quartz Block, Smooth Quartz, Warped Slab, Dark Prismarine Slab, Warped Planks, Cyan Wall Banner, Dark Prismarine, Warped Button, Ochre Froglight, Raw Gold Block, Quartz Slab, Sea Lantern, Smooth Quartz Slab, Verdant Froglight.
+The structure part is composed of the following blocks: Dark Oak Slab, Quartz Stairs, Smooth Quartz Stairs, Warped Trapdoor, Warped Fence Gate, Warped Fence, Quartz Block, Smooth Quartz, Warped Slab, Dark Prismarine Slab, Warped Planks, Cyan Wall Banner, Dark Prismarine, Warped Button, Ochre Froglight, Raw Gold Block, Quartz Slab, Sea Lantern, Smooth Quartz Slab, Verdant Froglight.
 
 ### Blocks
 
@@ -1876,12 +1857,12 @@ The structure is composed of the following blocks: Dark Oak Slab, Quartz Stairs,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1889,7 +1870,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Streets/Street Straight L3</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Quartz Stairs, Warped Trapdoor, Smooth Quartz Stairs, Warped Fence Gate, Warped Slab, Quartz Block, Warped Fence, Smooth Quartz, Cyan Wall Banner, Dark Prismarine, Warped Planks, Dark Prismarine Slab, Warped Button, Ochre Froglight, Quartz Slab, Raw Gold Block, Sea Lantern, Verdant Froglight.
+The structure part is composed of the following blocks: Dark Oak Slab, Quartz Stairs, Warped Trapdoor, Smooth Quartz Stairs, Warped Fence Gate, Warped Slab, Quartz Block, Warped Fence, Smooth Quartz, Cyan Wall Banner, Dark Prismarine, Warped Planks, Dark Prismarine Slab, Warped Button, Ochre Froglight, Quartz Slab, Raw Gold Block, Sea Lantern, Verdant Froglight.
 
 ### Blocks
 
@@ -1918,12 +1899,12 @@ The structure is composed of the following blocks: Dark Oak Slab, Quartz Stairs,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1931,7 +1912,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Streets/Street Strairs</strong></summary>
 
-The structure is composed of the following blocks: Dark Oak Slab, Quartz Stairs, Smooth Quartz Stairs, Warped Trapdoor, Quartz Block, Warped Fence, Smooth Quartz, Warped Slab, Dark Oak Stairs, Warped Fence Gate, Cyan Wall Banner, Warped Planks, Warped Stairs, Dark Prismarine Slab, Ochre Froglight, Warped Button, Dark Prismarine, Raw Gold Block, Smooth Quartz Slab.
+The structure part is composed of the following blocks: Dark Oak Slab, Quartz Stairs, Smooth Quartz Stairs, Warped Trapdoor, Quartz Block, Warped Fence, Smooth Quartz, Warped Slab, Dark Oak Stairs, Warped Fence Gate, Cyan Wall Banner, Warped Planks, Warped Stairs, Dark Prismarine Slab, Ochre Froglight, Warped Button, Dark Prismarine, Raw Gold Block, Smooth Quartz Slab.
 
 ### Blocks
 
@@ -1960,12 +1941,12 @@ The structure is composed of the following blocks: Dark Oak Slab, Quartz Stairs,
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -1973,7 +1954,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Streets/Street Tower</strong></summary>
 
-The structure is composed of the following blocks: Smooth Quartz, Quartz Block, Dark Oak Slab, Warped Trapdoor, Smooth Quartz Stairs, Warped Stairs, Quartz Stairs, Dark Prismarine Stairs, Warped Fence Gate, Dark Prismarine, Warped Planks, Warped Slab, Yellow Glazed Terracotta, Warped Fence, Cyan Wall Banner, Dark Prismarine Slab, Ochre Froglight, Warped Button, Raw Gold Block, Quartz Slab, Smooth Quartz Slab, Sea Lantern, Verdant Froglight.
+The structure part is composed of the following blocks: Smooth Quartz, Quartz Block, Dark Oak Slab, Warped Trapdoor, Smooth Quartz Stairs, Warped Stairs, Quartz Stairs, Dark Prismarine Stairs, Warped Fence Gate, Dark Prismarine, Warped Planks, Warped Slab, Yellow Glazed Terracotta, Warped Fence, Cyan Wall Banner, Dark Prismarine Slab, Ochre Froglight, Warped Button, Raw Gold Block, Quartz Slab, Smooth Quartz Slab, Sea Lantern, Verdant Froglight.
 
 ### Blocks
 
@@ -2006,12 +1987,12 @@ The structure is composed of the following blocks: Smooth Quartz, Quartz Block, 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>
@@ -2019,7 +2000,7 @@ None found.
 <details>
 <summary><strong>Village Sky/Town Center/Center</strong></summary>
 
-The structure is composed of the following blocks: Smooth Quartz Stairs, Warped Trapdoor, Dark Oak Slab, Quartz Stairs, Smooth Quartz, Warped Fence Gate, Warped Fence, Quartz Block, Warped Slab, Quartz Pillar, Raw Gold Block, Dark Prismarine Slab, Cyan Wall Banner, Warped Planks, Ochre Froglight, Dark Prismarine, Warped Button, Yellow Glazed Terracotta, Smooth Quartz Slab, Dark Oak Stairs, Dark Prismarine Stairs, Gold Block, Quartz Slab, Verdant Froglight, Warped Stairs, Bell, Dark Oak Planks, Sea Lantern.
+The structure part is composed of the following blocks: Smooth Quartz Stairs, Warped Trapdoor, Dark Oak Slab, Quartz Stairs, Smooth Quartz, Warped Fence Gate, Warped Fence, Quartz Block, Warped Slab, Quartz Pillar, Raw Gold Block, Dark Prismarine Slab, Cyan Wall Banner, Warped Planks, Ochre Froglight, Dark Prismarine, Warped Button, Yellow Glazed Terracotta, Smooth Quartz Slab, Dark Oak Stairs, Dark Prismarine Stairs, Gold Block, Quartz Slab, Verdant Froglight, Warped Stairs, Bell, Dark Oak Planks, Sea Lantern.
 
 ### Blocks
 
@@ -2057,12 +2038,12 @@ The structure is composed of the following blocks: Smooth Quartz Stairs, Warped 
 
 ### Entities
 
-None found.
+*None*
 
 
 ### Loot Tables
 
-None found.
+*None*
 
 
 </details>

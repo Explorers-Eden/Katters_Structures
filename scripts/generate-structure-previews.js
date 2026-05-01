@@ -16,6 +16,63 @@ const padding = Number(process.env.STRUCTURE_PREVIEW_PADDING ?? 48);
 const maxImageSize = Number(process.env.STRUCTURE_PREVIEW_MAX_SIZE ?? 2800);
 const transparentBackground = String(process.env.STRUCTURE_PREVIEW_TRANSPARENT ?? "true") !== "false";
 
+const PREVIEW_FACINGS = ["north", "east", "south", "west"];
+const HORIZONTAL_DIRECTIONS = ["north", "east", "south", "west"];
+
+function rotateDirection(value, quarterTurns) {
+  if (typeof value !== "string") return value;
+  const index = HORIZONTAL_DIRECTIONS.indexOf(value);
+  if (index === -1) return value;
+  return HORIZONTAL_DIRECTIONS[(index + quarterTurns + 16) % HORIZONTAL_DIRECTIONS.length];
+}
+
+function rotateAxis(value, quarterTurns) {
+  if (typeof value !== "string") return value;
+  if (quarterTurns % 2 === 0) return value;
+  if (value === "x") return "z";
+  if (value === "z") return "x";
+  return value;
+}
+
+function rotateBlockProperties(properties = {}, quarterTurns) {
+  const rotated = { ...properties };
+  for (const key of ["facing", "horizontal_facing"]) {
+    if (rotated[key] !== undefined) rotated[key] = rotateDirection(rotated[key], quarterTurns);
+  }
+  for (const key of ["axis", "horizontal_axis"]) {
+    if (rotated[key] !== undefined) rotated[key] = rotateAxis(rotated[key], quarterTurns);
+  }
+  if (rotated.rotation !== undefined && /^\d+$/.test(String(rotated.rotation))) {
+    rotated.rotation = String((Number(rotated.rotation) + quarterTurns * 4) % 16);
+  }
+  return rotated;
+}
+
+function rotateBlockPosition(block, quarterTurns) {
+  const turns = ((quarterTurns % 4) + 4) % 4;
+  if (turns === 1) return { x: block.z, y: block.y, z: -block.x };
+  if (turns === 2) return { x: -block.x, y: block.y, z: -block.z };
+  if (turns === 3) return { x: -block.z, y: block.y, z: block.x };
+  return { x: block.x, y: block.y, z: block.z };
+}
+
+function rotateBlocksToFacing(blocks, facing) {
+  const quarterTurns = HORIZONTAL_DIRECTIONS.indexOf(facing);
+  if (quarterTurns <= 0) return blocks.map(block => ({ ...block, properties: { ...block.properties } }));
+  return blocks.map(block => {
+    const pos = rotateBlockPosition(block, quarterTurns);
+    return { ...block, ...pos, properties: rotateBlockProperties(block.properties, quarterTurns) };
+  });
+}
+
+function getPreviewOutputDirectory(group) {
+  return path.join(outputRoot, group.namespace, group.outputName);
+}
+
+function getPreviewOutputPath(group, facing) {
+  return path.join(getPreviewOutputDirectory(group), facing + ".png");
+}
+
 const IGNORED_BLOCKS = new Set([
   "minecraft:air",
   "minecraft:cave_air",
@@ -39,6 +96,7 @@ const fallbackColorCache = new Map();
 
 const stats = {
   mainImages: 0,
+  facingImages: 0,
   structuresRead: 0,
   poolsRead: 0,
   jigsawPoolsFollowed: 0,
@@ -1100,7 +1158,7 @@ function getStructureNbtFileFromLocation(location) {
 function collectElementLocations(element, result = new Set()) {
   if (!element || typeof element !== "object") return result;
 
-  if (typeof element.location === "string") result.add(element.location);
+  if (typeof element.location === "string" && element.location !== "minecraft:empty") result.add(element.location);
 
   if (Array.isArray(element.elements)) {
     for (const nested of element.elements) {
@@ -1263,6 +1321,39 @@ async function getWorldgenStructureGroups() {
   return groups;
 }
 
+async function expandStructureFilesThroughJigsawPools(files) {
+  const result = new Set(files);
+  const queue = [...files];
+  const queued = new Set(queue);
+  const processed = new Set();
+  const seenPools = new Set();
+
+  while (queue.length > 0) {
+    const structureFile = queue.shift();
+    if (processed.has(structureFile)) continue;
+    processed.add(structureFile);
+
+    const before = result.size;
+    const jigsawPools = await collectJigsawPoolsFromStructureFile(structureFile);
+
+    for (const poolId of jigsawPools) {
+      stats.jigsawPoolsFollowed++;
+      await collectStructureFilesFromTemplatePool(poolId, seenPools, result);
+    }
+
+    if (result.size !== before) {
+      for (const file of result) {
+        if (!queued.has(file) && !processed.has(file)) {
+          queue.push(file);
+          queued.add(file);
+        }
+      }
+    }
+  }
+
+  return [...result].sort();
+}
+
 async function loadBlocksForFiles(files) {
   const allBlocks = [];
 
@@ -1302,24 +1393,30 @@ async function main() {
   const validOutputFiles = new Set();
 
   for (const group of groups.values()) {
-    group.files.sort();
+    group.files = await expandStructureFilesThroughJigsawPools(group.files.sort());
 
     const blocks = await loadBlocksForFiles(group.files);
-    const outputPath = path.join(outputRoot, group.namespace, `${group.outputName}.png`);
+    const outputDirectory = getPreviewOutputDirectory(group);
 
-    validOutputFiles.add(path.normalize(outputPath));
+    fs.mkdirSync(outputDirectory, { recursive: true });
 
-    fs.mkdirSync(path.dirname(outputPath), { recursive: true });
-    fs.writeFileSync(outputPath, renderBlocksToPng(blocks));
-    stats.mainImages++;
+    for (const facing of PREVIEW_FACINGS) {
+      const outputPath = getPreviewOutputPath(group, facing);
+      const facingBlocks = rotateBlocksToFacing(blocks, facing);
 
-    const mainSize = fs.statSync(outputPath).size;
-    console.log(`Generated ${outputPath} from ${group.files.length} structure part(s), ${blocks.length} block(s), ${mainSize} bytes`);
+      validOutputFiles.add(path.normalize(outputPath));
+      fs.writeFileSync(outputPath, renderBlocksToPng(facingBlocks));
+      stats.mainImages++;
+      stats.facingImages++;
+
+      const mainSize = fs.statSync(outputPath).size;
+      console.log(`Generated ${outputPath} (${facing}) from ${group.files.length} structure part(s), ${blocks.length} block(s), ${mainSize} bytes`);
+    }
   }
 
   if (groups.size === 0) console.warn("No structure groups were found.");
 
-  console.log(`Generated ${stats.mainImages} preview image(s).`);
+  console.log(`Generated ${stats.mainImages} preview image(s) across ${stats.facingImages} facing render(s).`);
   console.log(`Baked ${stats.bakedQuads} model quad(s), skipped ${stats.skippedMissingModels} block model(s) with no renderable elements.`);
   console.log(`Texture files loaded: ${stats.textureHits}; missing/fallback lookups: ${stats.textureMisses}.`);
 

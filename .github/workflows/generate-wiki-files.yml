@@ -71,12 +71,6 @@ jobs:
 
       - name: Generate structure preview images
         if: steps.wiki_sources.outputs.has_structure_nbt == 'true'
-        env:
-          # Allows big assembled jigsaw structures to use a larger canvas instead
-          # of being squeezed into a fixed viewport. The script still scales down
-          # if either cap would be exceeded.
-          STRUCTURE_PREVIEW_MAX_SIZE: 6144
-          STRUCTURE_PREVIEW_MAX_PIXELS: 36000000
         run: node scripts/generate-structure-previews.js
 
       - name: Show generated wiki files
@@ -106,8 +100,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add -A wiki/markdown
-          git add -f wiki/images/structures/**/*.png || true
+          git add -A wiki/markdown wiki/images/structures
 
           if git diff --cached --quiet; then
             echo "No generated wiki changes to commit."

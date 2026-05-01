@@ -8,17 +8,12 @@ const inputRoot = process.env.STRUCTURE_INPUT_ROOT ?? "data";
 const outputRoot = process.env.STRUCTURE_PREVIEW_OUTPUT_ROOT ?? path.join("wiki", "images", "structures");
 const vanillaAssetRoot = process.env.VANILLA_ASSET_ROOT ?? path.join(".cache", "vanilla-assets");
 const generateWorldgenStructurePreviews = String(process.env.STRUCTURE_PREVIEW_WORLDGEN ?? "true") !== "false";
-const assembleJigsawPreviews = String(process.env.STRUCTURE_PREVIEW_ASSEMBLE_JIGSAWS ?? "true") !== "false";
-const rotatePreview180 = String(process.env.STRUCTURE_PREVIEW_ROTATE_180 ?? "true") !== "false";
-const maxJigsawDepth = Number(process.env.STRUCTURE_PREVIEW_JIGSAW_DEPTH ?? 12);
-const maxJigsawPieces = Number(process.env.STRUCTURE_PREVIEW_JIGSAW_MAX_PIECES ?? 320);
 
 const tileWidth = Number(process.env.STRUCTURE_PREVIEW_TILE_WIDTH ?? 32);
 const tileHeight = Number(process.env.STRUCTURE_PREVIEW_TILE_HEIGHT ?? 18);
 const blockHeight = Number(process.env.STRUCTURE_PREVIEW_BLOCK_HEIGHT ?? 22);
 const padding = Number(process.env.STRUCTURE_PREVIEW_PADDING ?? 48);
-const maxImageSize = Number(process.env.STRUCTURE_PREVIEW_MAX_SIZE ?? 6144);
-const maxImagePixels = Number(process.env.STRUCTURE_PREVIEW_MAX_PIXELS ?? 36000000);
+const maxImageSize = Number(process.env.STRUCTURE_PREVIEW_MAX_SIZE ?? 2800);
 const transparentBackground = String(process.env.STRUCTURE_PREVIEW_TRANSPARENT ?? "true") !== "false";
 
 const IGNORED_BLOCKS = new Set([
@@ -47,7 +42,6 @@ const stats = {
   structuresRead: 0,
   poolsRead: 0,
   jigsawPoolsFollowed: 0,
-  jigsawPiecesPlaced: 0,
   textureHits: 0,
   textureMisses: 0,
   bakedQuads: 0,
@@ -907,237 +901,6 @@ function getJigsawReplacement(block) {
   return parsed;
 }
 
-
-function unwrapNbtValue(value) {
-  if (value === null || value === undefined) return value;
-  if (Array.isArray(value)) return value.map(unwrapNbtValue);
-  if (typeof value !== "object") return value;
-
-  if (Object.prototype.hasOwnProperty.call(value, "value") && Object.keys(value).length <= 2) {
-    return unwrapNbtValue(value.value);
-  }
-
-  const result = {};
-  for (const [key, nested] of Object.entries(value)) result[key] = unwrapNbtValue(nested);
-  return result;
-}
-
-function getJigsawNbt(block) {
-  const data = unwrapNbtValue(block?.nbt ?? block?.NBT ?? block?.BlockEntityTag);
-  return data && typeof data === "object" ? data : null;
-}
-
-function getJigsawPoolId(block) {
-  const data = getJigsawNbt(block);
-  return data?.pool ?? data?.Pool ?? data?.target_pool ?? data?.targetPool ?? null;
-}
-
-function getJigsawName(block) {
-  const data = getJigsawNbt(block);
-  return data?.name ?? data?.Name ?? null;
-}
-
-function getJigsawTarget(block) {
-  const data = getJigsawNbt(block);
-  return data?.target ?? data?.Target ?? null;
-}
-
-function getDirectionFromJigsawProperties(properties = {}) {
-  const orientation = properties.orientation ?? properties.Orientation ?? "north_up";
-  const facing = String(orientation).split("_")[0];
-
-  switch (facing) {
-    case "north": return { x: 0, y: 0, z: -1, opposite: "south" };
-    case "south": return { x: 0, y: 0, z: 1, opposite: "north" };
-    case "west": return { x: -1, y: 0, z: 0, opposite: "east" };
-    case "east": return { x: 1, y: 0, z: 0, opposite: "west" };
-    case "up": return { x: 0, y: 1, z: 0, opposite: "down" };
-    case "down": return { x: 0, y: -1, z: 0, opposite: "up" };
-    default: return { x: 0, y: 0, z: 0, opposite: null };
-  }
-}
-
-function collectJigsawsFromStructure(structure) {
-  const palette = getPalette(structure);
-  const jigsaws = [];
-
-  for (const block of structure.blocks ?? []) {
-    const state = palette[block.state];
-    const blockName = getBlockNameFromPaletteEntry(state);
-    if (blockName !== "minecraft:jigsaw") continue;
-
-    const pos = block.pos ?? block.position;
-    if (!Array.isArray(pos) || pos.length < 3) continue;
-
-    const properties = state?.Properties ?? state?.properties ?? {};
-    const pool = getJigsawPoolId(block);
-    if (!pool || pool === "minecraft:empty") continue;
-
-    jigsaws.push({
-      x: Number(pos[0]),
-      y: Number(pos[1]),
-      z: Number(pos[2]),
-      pool,
-      name: getJigsawName(block),
-      target: getJigsawTarget(block),
-      properties,
-      direction: getDirectionFromJigsawProperties(properties)
-    });
-  }
-
-  return jigsaws;
-}
-
-function translateBlocks(blocks, offset) {
-  return blocks.map(block => ({
-    ...block,
-    x: block.x + offset.x,
-    y: block.y + offset.y,
-    z: block.z + offset.z
-  }));
-}
-
-function translateJigsaws(jigsaws, offset) {
-  return jigsaws.map(jigsaw => ({
-    ...jigsaw,
-    x: jigsaw.x + offset.x,
-    y: jigsaw.y + offset.y,
-    z: jigsaw.z + offset.z
-  }));
-}
-
-function localJigsawMatches(parent, child) {
-  // Vanilla connects a parent target to a child name. Some datapacks leave these
-  // broad, so fall back to accepting any connector in the selected child piece.
-  if (!parent?.target || !child?.name) return true;
-  return parent.target === child.name;
-}
-
-function getStartPoolFilesFromTemplatePool(poolId, result = new Set(), seenPools = new Set()) {
-  if (seenPools.has(poolId)) return result;
-  seenPools.add(poolId);
-
-  const poolFile = getTemplatePoolFile(poolId);
-  const poolJson = readJsonIfExists(poolFile);
-  if (!poolJson) return result;
-
-  for (const element of poolJson.elements ?? []) {
-    for (const location of collectElementLocations(element.element ?? element)) {
-      const structureFile = getStructureNbtFileFromLocation(location);
-      if (fs.existsSync(structureFile)) result.add(structureFile);
-    }
-  }
-
-  if (poolJson.fallback && poolJson.fallback !== "minecraft:empty") {
-    getStartPoolFilesFromTemplatePool(poolJson.fallback, result, seenPools);
-  }
-
-  return result;
-}
-
-async function loadStructurePiece(file) {
-  const structure = await readNbtFile(file);
-  return {
-    file,
-    blocks: collectBlocksFromStructure(structure),
-    jigsaws: collectJigsawsFromStructure(structure)
-  };
-}
-
-function collectDirectStructureFilesFromTemplatePool(poolId, result = new Set(), seenPools = new Set()) {
-  if (seenPools.has(poolId)) return result;
-  seenPools.add(poolId);
-
-  const poolFile = getTemplatePoolFile(poolId);
-  const poolJson = readJsonIfExists(poolFile);
-  if (!poolJson) return result;
-
-  stats.poolsRead++;
-
-  for (const element of poolJson.elements ?? []) {
-    for (const location of collectElementLocations(element.element ?? element)) {
-      const structureFile = getStructureNbtFileFromLocation(location);
-      if (fs.existsSync(structureFile)) result.add(structureFile);
-    }
-  }
-
-  if (poolJson.fallback && poolJson.fallback !== "minecraft:empty") {
-    collectDirectStructureFilesFromTemplatePool(poolJson.fallback, result, seenPools);
-  }
-
-  return result;
-}
-
-async function getPoolPieces(poolId, cache) {
-  if (cache.has(poolId)) return cache.get(poolId);
-
-  const files = collectDirectStructureFilesFromTemplatePool(poolId, new Set(), new Set());
-  const pieces = [];
-
-  for (const file of files) {
-    try {
-      pieces.push(await loadStructurePiece(file));
-    } catch (error) {
-      console.warn(`Could not read jigsaw child piece ${file}: ${error.message}`);
-    }
-  }
-
-  cache.set(poolId, pieces);
-  return pieces;
-}
-
-async function assembleJigsawBlocks(startFiles) {
-  const poolCache = new Map();
-  const allBlocks = [];
-  const queue = [];
-  const placed = new Set();
-
-  for (const file of startFiles) {
-    const piece = await loadStructurePiece(file);
-    const offset = { x: 0, y: 0, z: 0 };
-    allBlocks.push(...translateBlocks(piece.blocks, offset));
-    queue.push(...translateJigsaws(piece.jigsaws, offset).map(jigsaw => ({ jigsaw, depth: 0 })));
-    placed.add(`${file}@0,0,0`);
-    stats.jigsawPiecesPlaced++;
-  }
-
-  while (queue.length > 0 && stats.jigsawPiecesPlaced < maxJigsawPieces) {
-    const { jigsaw: parent, depth } = queue.shift();
-    if (depth >= maxJigsawDepth) continue;
-
-    const pieces = await getPoolPieces(parent.pool, poolCache);
-    for (const piece of pieces) {
-      const connectors = piece.jigsaws.filter(child => localJigsawMatches(parent, child));
-      const oppositeConnectors = parent.direction?.opposite
-        ? connectors.filter(child => child.direction?.opposite === parent.direction.opposite || String(child.properties?.orientation ?? "").startsWith(parent.direction.opposite))
-        : connectors;
-      const connector = oppositeConnectors[0] ?? connectors[0] ?? piece.jigsaws[0] ?? { x: 0, y: 0, z: 0 };
-
-      const target = {
-        x: parent.x + parent.direction.x,
-        y: parent.y + parent.direction.y,
-        z: parent.z + parent.direction.z
-      };
-      const offset = {
-        x: target.x - connector.x,
-        y: target.y - connector.y,
-        z: target.z - connector.z
-      };
-
-      const key = `${piece.file}@${offset.x},${offset.y},${offset.z}`;
-      if (placed.has(key)) continue;
-      placed.add(key);
-
-      allBlocks.push(...translateBlocks(piece.blocks, offset));
-      queue.push(...translateJigsaws(piece.jigsaws, offset).map(child => ({ jigsaw: child, depth: depth + 1 })));
-      stats.jigsawPiecesPlaced++;
-      if (stats.jigsawPiecesPlaced >= maxJigsawPieces) break;
-    }
-  }
-
-  return allBlocks;
-}
-
 function collectBlocksFromStructure(structure) {
   const palette = getPalette(structure);
   const blocks = [];
@@ -1195,16 +958,6 @@ function normalizeBlocks(blocks) {
   }));
 }
 
-function rotateBlocks180AroundY(blocks) {
-  if (!rotatePreview180 || blocks.length === 0) return blocks;
-
-  return blocks.map(block => ({
-    ...block,
-    x: -block.x,
-    z: -block.z
-  }));
-}
-
 function computeBounds(blocks, scale = 1) {
   let minX = Infinity;
   let maxX = -Infinity;
@@ -1245,7 +998,7 @@ function fillBackground(png) {
 }
 
 function renderBlocksToPng(blocks) {
-  blocks = normalizeBlocks(rotateBlocks180AroundY(blocks));
+  blocks = normalizeBlocks(blocks);
 
   if (blocks.length === 0) {
     const png = new PNG({ width: 32, height: 32 });
@@ -1253,18 +1006,10 @@ function renderBlocksToPng(blocks) {
     return PNG.sync.write(png);
   }
 
-  // Adaptive canvas: render at the natural isometric size whenever possible,
-  // then only zoom out if the image would exceed the configured edge/pixel caps.
-  // This keeps large jigsaw-assembled structures fully visible without forcing
-  // every preview into one small fixed viewport.
   const baseBounds = computeBounds(blocks, 1);
   const baseWidth = baseBounds.maxX - baseBounds.minX + padding * 2;
   const baseHeight = baseBounds.maxY - baseBounds.minY + padding * 2;
-
-  const edgeScale = maxImageSize > 0 ? maxImageSize / Math.max(baseWidth, baseHeight) : 1;
-  const pixelScale = maxImagePixels > 0 ? Math.sqrt(maxImagePixels / Math.max(1, baseWidth * baseHeight)) : 1;
-  const scale = Math.min(1, edgeScale, pixelScale);
-
+  const scale = Math.min(1, maxImageSize / Math.max(baseWidth, baseHeight));
   const bounds = computeBounds(blocks, scale);
 
   const width = Math.max(1, Math.ceil(bounds.maxX - bounds.minX + padding * 2));
@@ -1453,10 +1198,8 @@ async function collectStructureFilesForWorldgenStructure(worldgenFile) {
 
   const pools = collectTemplatePoolsFromObject(json);
   const files = new Set();
-  const startFiles = new Set();
 
   for (const poolId of pools) {
-    getStartPoolFilesFromTemplatePool(poolId, startFiles);
     await collectStructureFilesFromTemplatePool(poolId, new Set(), files);
   }
 
@@ -1464,8 +1207,7 @@ async function collectStructureFilesForWorldgenStructure(worldgenFile) {
     namespace: info.namespace,
     relativePath: info.relativePath,
     id: info.id,
-    files: [...files].sort(),
-    startFiles: [...startFiles].sort()
+    files: [...files].sort()
   };
 }
 
@@ -1514,8 +1256,7 @@ async function getWorldgenStructureGroups() {
     groups.set(group.id, {
       namespace: group.namespace,
       outputName: group.relativePath,
-      files: group.files,
-      startFiles: group.startFiles
+      files: group.files
     });
   }
 
@@ -1563,9 +1304,7 @@ async function main() {
   for (const group of groups.values()) {
     group.files.sort();
 
-    const blocks = assembleJigsawPreviews && group.startFiles?.length
-      ? await assembleJigsawBlocks(group.startFiles)
-      : await loadBlocksForFiles(group.files);
+    const blocks = await loadBlocksForFiles(group.files);
     const outputPath = path.join(outputRoot, group.namespace, `${group.outputName}.png`);
 
     validOutputFiles.add(path.normalize(outputPath));
@@ -1580,7 +1319,6 @@ async function main() {
 
   if (groups.size === 0) console.warn("No structure groups were found.");
 
-  if (assembleJigsawPreviews) console.log(`Placed ${stats.jigsawPiecesPlaced} jigsaw preview piece instance(s).`);
   console.log(`Generated ${stats.mainImages} preview image(s).`);
   console.log(`Baked ${stats.bakedQuads} model quad(s), skipped ${stats.skippedMissingModels} block model(s) with no renderable elements.`);
   console.log(`Texture files loaded: ${stats.textureHits}; missing/fallback lookups: ${stats.textureMisses}.`);

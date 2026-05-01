@@ -30,16 +30,47 @@ jobs:
           path: .cache/vanilla-assets
           key: vanilla-assets-${{ hashFiles('release_infos.yml', 'pack.mcmeta') }}
 
+      - name: Check wiki source files
+        id: wiki_sources
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if find data -path "*/loot_table/*.json" -type f -print -quit 2>/dev/null | grep -q .; then
+            echo "has_loot_tables=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_loot_tables=false" >> "$GITHUB_OUTPUT"
+            echo "No loot table JSON files found; skipping loot table markdown generation."
+          fi
+
+          if find data -path "*/worldgen/structure/*.json" -type f -print -quit 2>/dev/null | grep -q .; then
+            echo "has_worldgen_structures=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_worldgen_structures=false" >> "$GITHUB_OUTPUT"
+            echo "No worldgen structure JSON files found."
+          fi
+
+          if find data -path "*/structure/*.nbt" -type f -print -quit 2>/dev/null | grep -q .; then
+            echo "has_structure_nbt=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_structure_nbt=false" >> "$GITHUB_OUTPUT"
+            echo "No structure NBT files found."
+          fi
+
       - name: Download vanilla assets
+        if: steps.wiki_sources.outputs.has_structure_nbt == 'true'
         run: node scripts/download-vanilla-assets.js
 
       - name: Generate loot table markdown
+        if: steps.wiki_sources.outputs.has_loot_tables == 'true'
         run: node scripts/generate-loot-tables.js
 
       - name: Generate structure markdown
+        if: steps.wiki_sources.outputs.has_worldgen_structures == 'true' || steps.wiki_sources.outputs.has_structure_nbt == 'true'
         run: node scripts/generate-structures.js
 
       - name: Generate structure preview images
+        if: steps.wiki_sources.outputs.has_structure_nbt == 'true'
         run: node scripts/generate-structure-previews.js
 
       - name: Show generated wiki files
@@ -54,6 +85,7 @@ jobs:
           git status --short
 
       - name: Upload generated preview images as artifact
+        if: steps.wiki_sources.outputs.has_structure_nbt == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: generated-structure-preview-images

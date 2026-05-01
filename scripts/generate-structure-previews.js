@@ -16,7 +16,8 @@ const tileWidth = Number(process.env.STRUCTURE_PREVIEW_TILE_WIDTH ?? 32);
 const tileHeight = Number(process.env.STRUCTURE_PREVIEW_TILE_HEIGHT ?? 18);
 const blockHeight = Number(process.env.STRUCTURE_PREVIEW_BLOCK_HEIGHT ?? 22);
 const padding = Number(process.env.STRUCTURE_PREVIEW_PADDING ?? 48);
-const maxImageSize = Number(process.env.STRUCTURE_PREVIEW_MAX_SIZE ?? 2800);
+const maxImageSize = Number(process.env.STRUCTURE_PREVIEW_MAX_SIZE ?? 6144);
+const maxImagePixels = Number(process.env.STRUCTURE_PREVIEW_MAX_PIXELS ?? 36000000);
 const transparentBackground = String(process.env.STRUCTURE_PREVIEW_TRANSPARENT ?? "true") !== "false";
 
 const IGNORED_BLOCKS = new Set([
@@ -1200,10 +1201,18 @@ function renderBlocksToPng(blocks) {
     return PNG.sync.write(png);
   }
 
+  // Adaptive canvas: render at the natural isometric size whenever possible,
+  // then only zoom out if the image would exceed the configured edge/pixel caps.
+  // This keeps large jigsaw-assembled structures fully visible without forcing
+  // every preview into one small fixed viewport.
   const baseBounds = computeBounds(blocks, 1);
   const baseWidth = baseBounds.maxX - baseBounds.minX + padding * 2;
   const baseHeight = baseBounds.maxY - baseBounds.minY + padding * 2;
-  const scale = Math.min(1, maxImageSize / Math.max(baseWidth, baseHeight));
+
+  const edgeScale = maxImageSize > 0 ? maxImageSize / Math.max(baseWidth, baseHeight) : 1;
+  const pixelScale = maxImagePixels > 0 ? Math.sqrt(maxImagePixels / Math.max(1, baseWidth * baseHeight)) : 1;
+  const scale = Math.min(1, edgeScale, pixelScale);
+
   const bounds = computeBounds(blocks, scale);
 
   const width = Math.max(1, Math.ceil(bounds.maxX - bounds.minX + padding * 2));

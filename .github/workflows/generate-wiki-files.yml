@@ -75,9 +75,9 @@ jobs:
           # Allows big assembled jigsaw structures to use a larger canvas instead
           # of being squeezed into a fixed viewport. The script still scales down
           # if either cap would be exceeded.
-          STRUCTURE_PREVIEW_OUTPUT_ROOT: wiki/images/structures
-          STRUCTURE_PREVIEW_MAX_SIZE: 6144
-          STRUCTURE_PREVIEW_MAX_PIXELS: 36000000
+          STRUCTURE_PREVIEW_PADDING: 128
+          STRUCTURE_PREVIEW_MAX_SIZE: 8192
+          STRUCTURE_PREVIEW_MAX_PIXELS: 100000000
         run: node scripts/generate-structure-previews.js
 
       - name: Show generated wiki files
@@ -91,6 +91,7 @@ jobs:
           echo "Git status:"
           git status --short
 
+
       - name: Commit generated wiki files
         shell: bash
         run: |
@@ -99,14 +100,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          if [ -d wiki/markdown ]; then
-            git add -A wiki/markdown
-          fi
-
-          if [ -d wiki/images/structures ] && find wiki/images/structures -type f -name "*.png" -print -quit | grep -q .; then
-            git add -f wiki/images/structures
-          else
-            echo "No generated structure preview PNGs found to stage."
+          git add -A wiki/markdown
+          if find wiki/images/structures -type f -name "*.png" -print -quit 2>/dev/null | grep -q .; then
+            git add -f wiki/images/structures/**/*.png
           fi
 
           if git diff --cached --quiet; then

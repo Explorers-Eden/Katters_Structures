@@ -15,9 +15,9 @@ const maxJigsawPieces = Number(process.env.STRUCTURE_PREVIEW_JIGSAW_MAX_PIECES ?
 const tileWidth = Number(process.env.STRUCTURE_PREVIEW_TILE_WIDTH ?? 32);
 const tileHeight = Number(process.env.STRUCTURE_PREVIEW_TILE_HEIGHT ?? 18);
 const blockHeight = Number(process.env.STRUCTURE_PREVIEW_BLOCK_HEIGHT ?? 22);
-const padding = Number(process.env.STRUCTURE_PREVIEW_PADDING ?? 48);
-const maxImageSize = Number(process.env.STRUCTURE_PREVIEW_MAX_SIZE ?? 6144);
-const maxImagePixels = Number(process.env.STRUCTURE_PREVIEW_MAX_PIXELS ?? 36000000);
+const padding = Number(process.env.STRUCTURE_PREVIEW_PADDING ?? 96);
+const maxImageSize = Number(process.env.STRUCTURE_PREVIEW_MAX_SIZE ?? 8192);
+const maxImagePixels = Number(process.env.STRUCTURE_PREVIEW_MAX_PIXELS ?? 100000000);
 const transparentBackground = String(process.env.STRUCTURE_PREVIEW_TRANSPARENT ?? "true") !== "false";
 
 const IGNORED_BLOCKS = new Set([
@@ -1201,28 +1201,44 @@ function renderBlocksToPng(blocks) {
     return PNG.sync.write(png);
   }
 
-  // Adaptive canvas: render at the natural isometric size whenever possible,
-  // then only zoom out if the image would exceed the configured edge/pixel caps.
-  // This keeps large jigsaw-assembled structures fully visible without forcing
-  // every preview into one small fixed viewport.
+  // Adaptive canvas: first measure the full render at natural scale, then
+  // allocate a PNG that is large enough for that structure. Only scale down
+  // when explicit safety caps are exceeded. This replaces the old fixed-size
+  // viewport behavior that clipped very large assembled jigsaw structures.
   const baseBounds = computeBounds(blocks, 1);
-  const baseWidth = baseBounds.maxX - baseBounds.minX + padding * 2;
-  const baseHeight = baseBounds.maxY - baseBounds.minY + padding * 2;
+  const naturalWidth = baseBounds.maxX - baseBounds.minX;
+  const naturalHeight = baseBounds.maxY - baseBounds.minY;
 
-  const edgeScale = maxImageSize > 0 ? maxImageSize / Math.max(baseWidth, baseHeight) : 1;
-  const pixelScale = maxImagePixels > 0 ? Math.sqrt(maxImagePixels / Math.max(1, baseWidth * baseHeight)) : 1;
-  const scale = Math.min(1, edgeScale, pixelScale);
+  // Add margin that grows with very large structures. A fixed margin is not
+  // enough for huge previews because textured quads and translucent layers can
+  // visually reach the edge even when the block-corner bounds fit.
+  const adaptivePadding = Math.max(
+    padding,
+    Math.ceil(Math.max(naturalWidth, naturalHeight) * 0.06)
+  );
+
+  const uncappedWidth = naturalWidth + adaptivePadding * 2;
+  const uncappedHeight = naturalHeight + adaptivePadding * 2;
+
+  const edgeScale = maxImageSize > 0
+    ? Math.min(1, maxImageSize / Math.max(uncappedWidth, uncappedHeight))
+    : 1;
+  const pixelScale = maxImagePixels > 0
+    ? Math.min(1, Math.sqrt(maxImagePixels / Math.max(1, uncappedWidth * uncappedHeight)))
+    : 1;
+  const scale = Math.min(edgeScale, pixelScale);
 
   const bounds = computeBounds(blocks, scale);
+  const scaledPadding = Math.ceil(adaptivePadding * scale);
 
-  const width = Math.max(1, Math.ceil(bounds.maxX - bounds.minX + padding * 2));
-  const height = Math.max(1, Math.ceil(bounds.maxY - bounds.minY + padding * 2));
+  const width = Math.max(1, Math.ceil(bounds.maxX - bounds.minX + scaledPadding * 2));
+  const height = Math.max(1, Math.ceil(bounds.maxY - bounds.minY + scaledPadding * 2));
 
   const png = new PNG({ width, height });
   fillBackground(png);
 
-  const offsetX = padding - bounds.minX;
-  const offsetY = padding - bounds.minY;
+  const offsetX = scaledPadding - bounds.minX;
+  const offsetY = scaledPadding - bounds.minY;
 
   const quads = [];
 
@@ -1519,7 +1535,8 @@ async function main() {
     validOutputFiles.add(path.normalize(outputPath));
 
     fs.mkdirSync(path.dirname(outputPath), { recursive: true });
-    fs.writeFileSync(outputPath, renderBlocksToPng(blocks));
+    const imageBuffer = renderBlocksToPng(blocks);
+    fs.writeFileSync(outputPath, imageBuffer);
     stats.mainImages++;
 
     const mainSize = fs.statSync(outputPath).size;

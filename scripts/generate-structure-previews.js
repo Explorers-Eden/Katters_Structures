@@ -9,15 +9,16 @@ const outputRoot = process.env.STRUCTURE_PREVIEW_OUTPUT_ROOT ?? path.join("wiki"
 const vanillaAssetRoot = process.env.VANILLA_ASSET_ROOT ?? path.join(".cache", "vanilla-assets");
 const generateWorldgenStructurePreviews = String(process.env.STRUCTURE_PREVIEW_WORLDGEN ?? "true") !== "false";
 const assembleJigsawPreviews = String(process.env.STRUCTURE_PREVIEW_ASSEMBLE_JIGSAWS ?? "true") !== "false";
+const rotatePreview180 = String(process.env.STRUCTURE_PREVIEW_ROTATE_180 ?? "true") !== "false";
 const maxJigsawDepth = Number(process.env.STRUCTURE_PREVIEW_JIGSAW_DEPTH ?? 12);
 const maxJigsawPieces = Number(process.env.STRUCTURE_PREVIEW_JIGSAW_MAX_PIECES ?? 320);
 
 const tileWidth = Number(process.env.STRUCTURE_PREVIEW_TILE_WIDTH ?? 32);
 const tileHeight = Number(process.env.STRUCTURE_PREVIEW_TILE_HEIGHT ?? 18);
 const blockHeight = Number(process.env.STRUCTURE_PREVIEW_BLOCK_HEIGHT ?? 22);
-const padding = Number(process.env.STRUCTURE_PREVIEW_PADDING ?? 96);
-const maxImageSize = Number(process.env.STRUCTURE_PREVIEW_MAX_SIZE ?? 8192);
-const maxImagePixels = Number(process.env.STRUCTURE_PREVIEW_MAX_PIXELS ?? 100000000);
+const padding = Number(process.env.STRUCTURE_PREVIEW_PADDING ?? 48);
+const maxImageSize = Number(process.env.STRUCTURE_PREVIEW_MAX_SIZE ?? 6144);
+const maxImagePixels = Number(process.env.STRUCTURE_PREVIEW_MAX_PIXELS ?? 36000000);
 const transparentBackground = String(process.env.STRUCTURE_PREVIEW_TRANSPARENT ?? "true") !== "false";
 
 const IGNORED_BLOCKS = new Set([
@@ -907,8 +908,22 @@ function getJigsawReplacement(block) {
 }
 
 
+function unwrapNbtValue(value) {
+  if (value === null || value === undefined) return value;
+  if (Array.isArray(value)) return value.map(unwrapNbtValue);
+  if (typeof value !== "object") return value;
+
+  if (Object.prototype.hasOwnProperty.call(value, "value") && Object.keys(value).length <= 2) {
+    return unwrapNbtValue(value.value);
+  }
+
+  const result = {};
+  for (const [key, nested] of Object.entries(value)) result[key] = unwrapNbtValue(nested);
+  return result;
+}
+
 function getJigsawNbt(block) {
-  const data = block?.nbt;
+  const data = unwrapNbtValue(block?.nbt ?? block?.NBT ?? block?.BlockEntityTag);
   return data && typeof data === "object" ? data : null;
 }
 
@@ -1029,10 +1044,34 @@ async function loadStructurePiece(file) {
   };
 }
 
+function collectDirectStructureFilesFromTemplatePool(poolId, result = new Set(), seenPools = new Set()) {
+  if (seenPools.has(poolId)) return result;
+  seenPools.add(poolId);
+
+  const poolFile = getTemplatePoolFile(poolId);
+  const poolJson = readJsonIfExists(poolFile);
+  if (!poolJson) return result;
+
+  stats.poolsRead++;
+
+  for (const element of poolJson.elements ?? []) {
+    for (const location of collectElementLocations(element.element ?? element)) {
+      const structureFile = getStructureNbtFileFromLocation(location);
+      if (fs.existsSync(structureFile)) result.add(structureFile);
+    }
+  }
+
+  if (poolJson.fallback && poolJson.fallback !== "minecraft:empty") {
+    collectDirectStructureFilesFromTemplatePool(poolJson.fallback, result, seenPools);
+  }
+
+  return result;
+}
+
 async function getPoolPieces(poolId, cache) {
   if (cache.has(poolId)) return cache.get(poolId);
 
-  const files = await collectStructureFilesFromTemplatePool(poolId, new Set(), new Set());
+  const files = collectDirectStructureFilesFromTemplatePool(poolId, new Set(), new Set());
   const pieces = [];
 
   for (const file of files) {
@@ -1069,7 +1108,10 @@ async function assembleJigsawBlocks(startFiles) {
     const pieces = await getPoolPieces(parent.pool, poolCache);
     for (const piece of pieces) {
       const connectors = piece.jigsaws.filter(child => localJigsawMatches(parent, child));
-      const connector = connectors[0] ?? piece.jigsaws[0] ?? { x: 0, y: 0, z: 0 };
+      const oppositeConnectors = parent.direction?.opposite
+        ? connectors.filter(child => child.direction?.opposite === parent.direction.opposite || String(child.properties?.orientation ?? "").startsWith(parent.direction.opposite))
+        : connectors;
+      const connector = oppositeConnectors[0] ?? connectors[0] ?? piece.jigsaws[0] ?? { x: 0, y: 0, z: 0 };
 
       const target = {
         x: parent.x + parent.direction.x,
@@ -1153,6 +1195,16 @@ function normalizeBlocks(blocks) {
   }));
 }
 
+function rotateBlocks180AroundY(blocks) {
+  if (!rotatePreview180 || blocks.length === 0) return blocks;
+
+  return blocks.map(block => ({
+    ...block,
+    x: -block.x,
+    z: -block.z
+  }));
+}
+
 function computeBounds(blocks, scale = 1) {
   let minX = Infinity;
   let maxX = -Infinity;
@@ -1193,7 +1245,7 @@ function fillBackground(png) {
 }
 
 function renderBlocksToPng(blocks) {
-  blocks = normalizeBlocks(blocks);
+  blocks = normalizeBlocks(rotateBlocks180AroundY(blocks));
 
   if (blocks.length === 0) {
     const png = new PNG({ width: 32, height: 32 });
@@ -1201,44 +1253,28 @@ function renderBlocksToPng(blocks) {
     return PNG.sync.write(png);
   }
 
-  // Adaptive canvas: first measure the full render at natural scale, then
-  // allocate a PNG that is large enough for that structure. Only scale down
-  // when explicit safety caps are exceeded. This replaces the old fixed-size
-  // viewport behavior that clipped very large assembled jigsaw structures.
+  // Adaptive canvas: render at the natural isometric size whenever possible,
+  // then only zoom out if the image would exceed the configured edge/pixel caps.
+  // This keeps large jigsaw-assembled structures fully visible without forcing
+  // every preview into one small fixed viewport.
   const baseBounds = computeBounds(blocks, 1);
-  const naturalWidth = baseBounds.maxX - baseBounds.minX;
-  const naturalHeight = baseBounds.maxY - baseBounds.minY;
+  const baseWidth = baseBounds.maxX - baseBounds.minX + padding * 2;
+  const baseHeight = baseBounds.maxY - baseBounds.minY + padding * 2;
 
-  // Add margin that grows with very large structures. A fixed margin is not
-  // enough for huge previews because textured quads and translucent layers can
-  // visually reach the edge even when the block-corner bounds fit.
-  const adaptivePadding = Math.max(
-    padding,
-    Math.ceil(Math.max(naturalWidth, naturalHeight) * 0.06)
-  );
-
-  const uncappedWidth = naturalWidth + adaptivePadding * 2;
-  const uncappedHeight = naturalHeight + adaptivePadding * 2;
-
-  const edgeScale = maxImageSize > 0
-    ? Math.min(1, maxImageSize / Math.max(uncappedWidth, uncappedHeight))
-    : 1;
-  const pixelScale = maxImagePixels > 0
-    ? Math.min(1, Math.sqrt(maxImagePixels / Math.max(1, uncappedWidth * uncappedHeight)))
-    : 1;
-  const scale = Math.min(edgeScale, pixelScale);
+  const edgeScale = maxImageSize > 0 ? maxImageSize / Math.max(baseWidth, baseHeight) : 1;
+  const pixelScale = maxImagePixels > 0 ? Math.sqrt(maxImagePixels / Math.max(1, baseWidth * baseHeight)) : 1;
+  const scale = Math.min(1, edgeScale, pixelScale);
 
   const bounds = computeBounds(blocks, scale);
-  const scaledPadding = Math.ceil(adaptivePadding * scale);
 
-  const width = Math.max(1, Math.ceil(bounds.maxX - bounds.minX + scaledPadding * 2));
-  const height = Math.max(1, Math.ceil(bounds.maxY - bounds.minY + scaledPadding * 2));
+  const width = Math.max(1, Math.ceil(bounds.maxX - bounds.minX + padding * 2));
+  const height = Math.max(1, Math.ceil(bounds.maxY - bounds.minY + padding * 2));
 
   const png = new PNG({ width, height });
   fillBackground(png);
 
-  const offsetX = scaledPadding - bounds.minX;
-  const offsetY = scaledPadding - bounds.minY;
+  const offsetX = padding - bounds.minX;
+  const offsetY = padding - bounds.minY;
 
   const quads = [];
 
@@ -1535,8 +1571,7 @@ async function main() {
     validOutputFiles.add(path.normalize(outputPath));
 
     fs.mkdirSync(path.dirname(outputPath), { recursive: true });
-    const imageBuffer = renderBlocksToPng(blocks);
-    fs.writeFileSync(outputPath, imageBuffer);
+    fs.writeFileSync(outputPath, renderBlocksToPng(blocks));
     stats.mainImages++;
 
     const mainSize = fs.statSync(outputPath).size;

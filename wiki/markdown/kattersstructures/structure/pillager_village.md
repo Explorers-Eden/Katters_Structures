@@ -43,13 +43,1021 @@ There are 3 loot tables used in this structure:
 
 # Contents
 
-The structure is composed of the following blocks: Dark Oak Planks, Cobblestone, Birch Planks, Dark Oak Log, Podzol, Dark Oak Stairs, Cobblestone Stairs, Coarse Dirt, Dirt, Cobblestone Wall, Dark Oak Fence, Grass Block, Glass Pane, Cobblestone Slab, Sand, Gravel, Oak Log, Spruce Log, Dark Oak Slab, Dark Oak Trapdoor, White Wall Banner, Red Carpet, Hay Block, White Carpet, White Wool, Dark Oak Wall Sign, Bookshelf, Birch Fence, Chain, Birch Stairs, Oak Slab, Andesite Stairs, Birch Slab, Chiseled Bookshelf, Spruce Slab, Stripped Spruce Log, Barrel, Chest, Andesite, Spruce Planks, Andesite Slab, Chiseled Stone Bricks, Iron Trapdoor, Dark Oak Fence Gate, Dried Kelp Block, Grindstone, Oak Trapdoor, Pumpkin, Spruce Trapdoor, Stone Button, Jack O Lantern, Magma Block, Tripwire Hook, White Banner, Carved Pumpkin, Crafting Table, Damaged Anvil, Fire, Fletching Table, Lectern, Lever, Target.
+The structure is composed of the following blocks: Dark Oak Planks, Cobblestone, Birch Planks, Dark Oak Log, Podzol, Dark Oak Stairs, Cobblestone Stairs, Coarse Dirt, Dirt, Cobblestone Wall, Dark Oak Fence, Grass Block, Glass Pane, Cobblestone Slab, Sand, Gravel, Oak Log, Spruce Log, Dark Oak Slab, Dark Oak Trapdoor, White Wall Banner, Chiseled Bookshelf, Red Carpet, Hay Block, White Carpet, White Wool, Bookshelf, Dark Oak Wall Sign, Birch Fence, Chain, Birch Stairs, Oak Slab, Andesite Stairs, Birch Slab, Spruce Slab, Stripped Spruce Log, Barrel, Chest, Andesite, Spruce Planks, Andesite Slab, Chiseled Stone Bricks, Iron Trapdoor, Dark Oak Fence Gate, Dried Kelp Block, Grindstone, Oak Trapdoor, Pumpkin, Spruce Trapdoor, Stone Button, Jack O Lantern, Magma Block, Tripwire Hook, White Banner, Carved Pumpkin, Crafting Table, Damaged Anvil, Fire, Fletching Table, Lectern, Lever, Target.
 
 Additionally, the following entities may spawn during its generation: Armor Stand, Chicken, Iron Golem, Item Frame, Ravager.
 
 
 
 ## Per-Structure File Contents
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Empty 01</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Empty 02</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Empty 03</strong></summary>
+
+The structure part is composed of the following blocks: Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Enchant High 12</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Enchant High 13 S</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Enchant Low 13 S</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Enchant Low 14 S</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Enchant Low 15 S</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Enchant Low 16 S</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Enchant Mid 16 S</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Enchant Mid 17 S</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Enchant Pillager 01</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Enchant Pillager 02</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Enchant Pillager 03</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Enchant Pillager 04</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Enchant Pillager 05</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Enchant Pillager 06</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Enchant Pillager 07</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Enchant Pillager 08</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Enchant Pillager 09</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Enchant Pillager 10</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Pillager Lore 01</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Pillager Lore 02</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Pillager Lore 03</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Pillager Lore 04</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Pillager Lore 05</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Pillager Lore 06</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Pillager Lore 07</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Pillager Lore 08</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Pillager Lore 09</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Pillager Lore 10</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Pillager Lore 11</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Pillager Lore 12</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Pillager Lore 13</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Pillager Lore 14</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Pillager Lore 15</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Pillager Lore 16</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Pillager Lore 17</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Pillager Lore 18</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Pillager Lore 19</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Pillager Lore 20</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
+
+<details>
+<summary><strong>Bookshelf/Bookshelf Pillager Lore 21</strong></summary>
+
+The structure part is composed of the following blocks: Chiseled Bookshelf.
+
+### Blocks
+
+| Block | Count |
+|:-----|:-----:|
+| Chiseled Bookshelf | 1 |
+
+
+### Entities
+
+*None*
+
+
+### Loot Tables
+
+*None*
+
+
+</details>
 
 <details>
 <summary><strong>Pillager Village/Building/Pillager Village Building Big 01</strong></summary>
@@ -672,31 +1680,6 @@ Additionally, the following entities may spawn during its generation: Ravager.
 | Entity | Count |
 |:-----|:-----:|
 | Ravager | 1 |
-
-
-### Loot Tables
-
-*None*
-
-
-</details>
-
-<details>
-<summary><strong>Pillager Village/Decor/Pillager Village Big Decor 11</strong></summary>
-
-The structure part is composed of the following blocks: Dark Oak Fence, White Wall Banner.
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Dark Oak Fence | 3 |
-| White Wall Banner | 1 |
-
-
-### Entities
-
-*None*
 
 
 ### Loot Tables

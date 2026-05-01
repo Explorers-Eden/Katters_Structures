@@ -632,31 +632,6 @@ The structure part is composed of the following blocks: Stone, Dirt, Grass Block
 </details>
 
 <details>
-<summary><strong>Skyhold/Skyhold South West D</strong></summary>
-
-The structure part is composed of the following blocks: Stone, Dirt.
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Stone | 9639 |
-| Dirt | 245 |
-
-
-### Entities
-
-*None*
-
-
-### Loot Tables
-
-*None*
-
-
-</details>
-
-<details>
 <summary><strong>Skyhold/Skyhold West</strong></summary>
 
 The structure part is composed of the following blocks: Stone, Dirt, Grass Block, Coarse Dirt, Pale Moss Block, Dirt Path, Stone Bricks, Stripped Jungle Log, Cobblestone, Stripped Oak Log, Stripped Spruce Log, Dark Oak Stairs, Iron Bars, Cracked Stone Bricks, Gravel, Jungle Slab, Spruce Log, Dead Bush, Oak Fence, Spruce Slab, Dark Oak Planks, Dark Oak Slab, Fire, Spruce Trapdoor, Stone Brick Stairs, Andesite Stairs, Oak Log, Netherrack, Pale Oak Leaves, Dead Bubble Coral, Mossy Stone Bricks, Spruce Planks, Jungle Log, Andesite, Stone Brick Slab, Andesite Slab, Chiseled Stone Bricks, Magma Block, Stone Button, Chain, Dark Oak Trapdoor, Gray Bed, Bell, Black Wall Banner, Carved Pumpkin, Heavy Weighted Pressure Plate.
@@ -723,31 +698,6 @@ Additionally, the following entities may spawn during its generation: Ravager, E
 | Evoker | 1 |
 | Iron Golem | 1 |
 | Vindicator | 1 |
-
-
-### Loot Tables
-
-*None*
-
-
-</details>
-
-<details>
-<summary><strong>Skyhold/Skyhold West D</strong></summary>
-
-The structure part is composed of the following blocks: Stone, Dirt.
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Stone | 24857 |
-| Dirt | 161 |
-
-
-### Entities
-
-*None*
 
 
 ### Loot Tables

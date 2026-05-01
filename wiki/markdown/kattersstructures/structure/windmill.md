@@ -22,7 +22,7 @@ There is one loot table used in this structure:
 
 # Contents
 
-The structure is composed of the following blocks: Farmland, Wheat, Dirt Path, Deepslate, Spruce Fence, Spruce Trapdoor, Spruce Stairs, Oak Log, Spruce Planks, Hay Block, Oak Planks, Spruce Slab, Oak Leaves, Stripped Spruce Log, Stone Bricks, Vine, Dirt, Dark Oak Stairs, Spruce Wall Sign, Stripped Oak Log, Dark Oak Slab, Stone Button, Moss Block, Spruce Button, White Wool, Oak Wall Sign, Polished Deepslate, Lantern, Cracked Stone Bricks, Mossy Cobblestone, Mossy Stone Bricks, Stone Brick Wall, Bamboo Trapdoor, Coarse Dirt, Ladder, Oak Slab, Light Gray Stained Glass Pane, Spruce Fence Gate, Cobbled Deepslate, Oak Stairs, Jungle Fence, Polished Deepslate Wall, Mossy Stone Brick Wall, Composter, Light Gray Wool, Moss Carpet, Polished Andesite, Rooted Dirt, Cobblestone, Cobweb, Grindstone, Mossy Cobblestone Wall, Oak Button, Spruce Log, White Stained Glass Pane, Brown Bed, Short Grass, Spruce Door, Bamboo Mosaic Slab, Chain, Cobbled Deepslate Stairs, Glow Lichen, Chest, Polished Andesite Stairs, Stripped Jungle Log, Brown Mushroom, Carved Pumpkin, Dark Oak Planks, Jungle Fence Gate, Cobblestone Wall, Jack O Lantern, Red Mushroom, Tall Grass, Barrel, Lightning Rod.
+The structure is composed of the following blocks: Farmland, Wheat, Dirt Path, Deepslate, Spruce Fence, Spruce Trapdoor, Spruce Stairs, Oak Log, Spruce Planks, Hay Block, Oak Planks, Spruce Slab, Oak Leaves, Stripped Spruce Log, Stone Bricks, Vine, Dirt, Dark Oak Stairs, Spruce Wall Sign, Stripped Oak Log, Dark Oak Slab, Stone Button, Spruce Button, White Wool, Moss Block, Oak Wall Sign, Polished Deepslate, Lantern, Cracked Stone Bricks, Mossy Stone Bricks, Stone Brick Wall, Bamboo Trapdoor, Mossy Cobblestone, Coarse Dirt, Ladder, Oak Slab, Light Gray Stained Glass Pane, Spruce Fence Gate, Cobbled Deepslate, Oak Stairs, Jungle Fence, Polished Deepslate Wall, Mossy Stone Brick Wall, Composter, Light Gray Wool, Polished Andesite, Rooted Dirt, Cobweb, Grindstone, Moss Carpet, Mossy Cobblestone Wall, Oak Button, Spruce Log, White Stained Glass Pane, Brown Bed, Cobblestone, Short Grass, Spruce Door, Bamboo Mosaic Slab, Chain, Cobbled Deepslate Stairs, Glow Lichen, Chest, Polished Andesite Stairs, Stripped Jungle Log, Brown Mushroom, Carved Pumpkin, Dark Oak Planks, Jungle Fence Gate, Cobblestone Wall, Jack O Lantern, Red Mushroom, Tall Grass, Barrel, Lightning Rod.
 
 
 
@@ -329,33 +329,6 @@ The structure part is composed of the following blocks: Bamboo Trapdoor, Spruce 
 | Bamboo Mosaic Slab | 1 |
 | Carved Pumpkin | 1 |
 | Lantern | 1 |
-
-
-### Entities
-
-*None*
-
-
-### Loot Tables
-
-*None*
-
-
-</details>
-
-<details>
-<summary><strong>Windmill/Decor/Stone 01</strong></summary>
-
-The structure part is composed of the following blocks: Mossy Cobblestone, Moss Carpet, Cobblestone, Moss Block.
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Mossy Cobblestone | 5 |
-| Moss Carpet | 3 |
-| Cobblestone | 2 |
-| Moss Block | 2 |
 
 
 ### Entities

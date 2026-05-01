@@ -1,6 +1,6 @@
 # Generated Loot.
 
-There are 10 loot tables used in this structure:
+There are 9 loot tables used in this structure:
 
 <details>
 <summary><strong>kattersstructures:chests/underground/armorer</strong> (1 use)</summary>
@@ -59,23 +59,6 @@ There are 10 loot tables used in this structure:
 | Feather | 1 | 1 | 1 | 2.6% |
 | Gold Nugget | 1–3 | 1 | 1 | 2.6% |
 | Oak Slab | 1–16 | 1 | 1 | 2.6% |
-
-</details>
-
-<details>
-<summary><strong>kattersstructures:chests/underground/leatherworker</strong> (1 use)</summary>
-
-| Item | Stack Size | Pool | Weight | Chance |
-|:-----|:----------:|:----:|:------:|:------:|
-| Bread | 1–4 | 1 | 5 | 26.3% |
-| Leather Chestplate | 1 | 1 | 3 | 15.8% |
-| Leather Boots | 1 | 1 | 2 | 10.5% |
-| Leather Helmet | 1 | 1 | 2 | 10.5% |
-| Leather Leggings | 1 | 1 | 2 | 10.5% |
-| Stone | 1–4 | 1 | 2 | 10.5% |
-| Emerald | 1–4 | 1 | 1 | 5.3% |
-| Leather | 1–3 | 1 | 1 | 5.3% |
-| Saddle | 1 | 1 | 1 | 5.3% |
 
 </details>
 
@@ -169,7 +152,7 @@ There are 10 loot tables used in this structure:
 
 # Contents
 
-The structure is composed of the following blocks: Stone, Oak Slab, Stone Slab, Oak Fence, Andesite, Stone Button, Granite, Oak Log, Emerald Ore, Oak Planks, Glow Lichen, Stripped Oak Log, Oak Wall Sign, Diorite, Oak Fence Gate, Stone Stairs, Lantern, Andesite Slab, Coal Ore, Oak Stairs, Granite Slab, Stone Bricks, Oak Button, Light Gray Bed, Oak Door, Deepslate, Amethyst Block, Chest, Diorite Slab, Diamond Ore, Gravel, Tuff, Smooth Basalt, Cracked Stone Bricks, Polished Andesite Slab, Andesite Wall, Andesite Stairs, Granite Stairs, Crimson Fence, Light Gray Stained Glass Pane, Warped Fence, Coarse Dirt, Cobbled Deepslate, Cobbled Deepslate Slab, Furnace, Stone Brick Stairs, Calcite, Coal Block, Deepslate Tiles, Barrel, Chain, Hay Block, Budding Amethyst, Diorite Stairs, Iron Bars, Rooted Dirt, Spruce Trapdoor, Brown Wall Banner, Campfire, Emerald Block, Gold Ore, Gray Candle, Oak Trapdoor, Amethyst Cluster, Cobbled Deepslate Wall, Iron Trapdoor, Large Amethyst Bud, Magenta Candle, Note Block, Potted Oak Sapling, Purple Candle, Small Amethyst Bud, Anvil, Bamboo Block, Bell, Birch Stairs, Blast Furnace, Brewing Stand, Chipped Anvil, Damaged Anvil, Fletching Table, Grindstone, Jukebox, Potted Azure Bluet, Potted Dead Bush, Potted Fern, Potted Red Mushroom, Smithing Table, Spawner, Stonecutter, Target, Water Cauldron.
+The structure is composed of the following blocks: Stone, Oak Slab, Stone Slab, Oak Fence, Andesite, Stone Button, Granite, Oak Log, Emerald Ore, Oak Planks, Glow Lichen, Stripped Oak Log, Oak Wall Sign, Diorite, Oak Fence Gate, Stone Stairs, Lantern, Andesite Slab, Coal Ore, Oak Stairs, Granite Slab, Stone Bricks, Oak Button, Light Gray Bed, Oak Door, Deepslate, Amethyst Block, Chest, Diorite Slab, Diamond Ore, Gravel, Tuff, Smooth Basalt, Cracked Stone Bricks, Polished Andesite Slab, Andesite Wall, Andesite Stairs, Crimson Fence, Light Gray Stained Glass Pane, Warped Fence, Coarse Dirt, Cobbled Deepslate, Cobbled Deepslate Slab, Furnace, Stone Brick Stairs, Calcite, Coal Block, Deepslate Tiles, Granite Stairs, Barrel, Chain, Hay Block, Budding Amethyst, Diorite Stairs, Iron Bars, Rooted Dirt, Spruce Trapdoor, Campfire, Emerald Block, Gold Ore, Gray Candle, Oak Trapdoor, Amethyst Cluster, Cobbled Deepslate Wall, Iron Trapdoor, Large Amethyst Bud, Magenta Candle, Note Block, Potted Oak Sapling, Purple Candle, Small Amethyst Bud, Anvil, Bamboo Block, Bell, Birch Stairs, Blast Furnace, Brewing Stand, Chipped Anvil, Damaged Anvil, Fletching Table, Grindstone, Jukebox, Potted Azure Bluet, Potted Dead Bush, Potted Fern, Potted Red Mushroom, Smithing Table, Spawner, Stonecutter, Target.
 
 
 
@@ -1019,37 +1002,6 @@ The structure part is composed of the following blocks: Stone, Stone Slab, Oak P
 </details>
 
 <details>
-<summary><strong>Village Underground/House/Side/House Side Leatherworker</strong></summary>
-
-The structure part is composed of the following blocks: Stone, Stone Slab, Stone Button, Brown Wall Banner, Chest, Water Cauldron.
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Stone | 66 |
-| Stone Slab | 12 |
-| Stone Button | 4 |
-| Brown Wall Banner | 3 |
-| Chest | 1 |
-| Water Cauldron | 1 |
-
-
-### Entities
-
-*None*
-
-
-### Loot Tables
-
-| Loot Table | Count |
-|:-----|:-----:|
-| kattersstructures:chests/underground/leatherworker | 1 |
-
-
-</details>
-
-<details>
 <summary><strong>Village Underground/House/Side/House Side Storage</strong></summary>
 
 The structure part is composed of the following blocks: Stone, Stone Slab, Stone Button, Chest, Oak Fence, Barrel, Emerald Block, Hay Block, Bamboo Block, Lantern.
@@ -1444,46 +1396,6 @@ The structure part is composed of the following blocks: Stone, Emerald Ore, Coal
 | Loot Table | Count |
 |:-----|:-----:|
 | kattersstructures:chests/underground/treasures | 1 |
-
-
-</details>
-
-<details>
-<summary><strong>Village Underground/Streets/Street Curve</strong></summary>
-
-The structure part is composed of the following blocks: Stone, Oak Slab, Stone Slab, Andesite, Stone Button, Oak Fence, Stone Stairs, Granite, Glow Lichen, Oak Log, Andesite Slab, Granite Stairs, Stripped Oak Log, Andesite Stairs, Granite Slab, Lantern, Oak Wall Sign.
-
-### Blocks
-
-| Block | Count |
-|:-----|:-----:|
-| Stone | 282 |
-| Oak Slab | 52 |
-| Stone Slab | 42 |
-| Andesite | 18 |
-| Stone Button | 14 |
-| Oak Fence | 11 |
-| Stone Stairs | 11 |
-| Granite | 9 |
-| Glow Lichen | 8 |
-| Oak Log | 8 |
-| Andesite Slab | 4 |
-| Granite Stairs | 4 |
-| Stripped Oak Log | 2 |
-| Andesite Stairs | 1 |
-| Granite Slab | 1 |
-| Lantern | 1 |
-| Oak Wall Sign | 1 |
-
-
-### Entities
-
-*None*
-
-
-### Loot Tables
-
-*None*
 
 
 </details>

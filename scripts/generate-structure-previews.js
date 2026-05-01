@@ -938,9 +938,17 @@ function collectBlocksFromStructure(structure) {
 function normalizeBlocks(blocks) {
   if (blocks.length === 0) return blocks;
 
-  const minX = Math.min(...blocks.map(b => b.x));
-  const minY = Math.min(...blocks.map(b => b.y));
-  const minZ = Math.min(...blocks.map(b => b.z));
+  // Avoid spreading large block arrays into Math.min. Very large structures can
+  // exceed V8's argument/call-stack limit when using Math.min(...array).
+  let minX = Infinity;
+  let minY = Infinity;
+  let minZ = Infinity;
+
+  for (const block of blocks) {
+    if (block.x < minX) minX = block.x;
+    if (block.y < minY) minY = block.y;
+    if (block.z < minZ) minZ = block.z;
+  }
 
   return blocks.map(block => ({
     ...block,

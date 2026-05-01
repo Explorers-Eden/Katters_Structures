@@ -1,8 +1,233 @@
+# Generated Loot.
+
+There are 13 loot tables used in this structure:
+
+<details>
+<summary><strong>kattersstructures:chests/jungle/armorer</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 4 | 40.0% |
+| Cocoa Beans | 1–4 | 1 | 2 | 20.0% |
+| Iron Ingot | 1–3 | 1 | 2 | 20.0% |
+| Emerald | 1 | 1 | 1 | 10.0% |
+| Iron Helmet | 1 | 1 | 1 | 10.0% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/jungle/butcher</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Beef | 1–3 | 1 | 6 | 20.0% |
+| Cooked Porkchop | 1–3 | 1 | 6 | 20.0% |
+| Mutton | 1–3 | 1 | 6 | 20.0% |
+| Wheat | 1–3 | 1 | 6 | 20.0% |
+| Coal | 1–3 | 1 | 3 | 10.0% |
+| Cocoa Beans | 1–4 | 1 | 2 | 6.7% |
+| Emerald | 1 | 1 | 1 | 3.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/jungle/cartographer</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 15 | 28.8% |
+| Paper | 1–5 | 1 | 15 | 28.8% |
+| Map | 1–3 | 1 | 10 | 19.2% |
+| Compass | 1 | 1 | 5 | 9.6% |
+| Stick | 1–2 | 1 | 5 | 9.6% |
+| Cocoa Beans | 1–4 | 1 | 2 | 3.8% |
+| Village Map | 1 | 2 | 5 | 71.4% |
+| Dungeon Map | 1 | 2 | 1 | 14.3% |
+| Villager Map | 1 | 2 | 1 | 14.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/jungle/cleric</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 7 | 33.3% |
+| Rotten Flesh | 1–4 | 1 | 7 | 33.3% |
+| Cocoa Beans | 1–4 | 1 | 2 | 9.5% |
+| Redstone | 1–4 | 1 | 2 | 9.5% |
+| Emerald | 1–4 | 1 | 1 | 4.8% |
+| Gold Ingot | 1–4 | 1 | 1 | 4.8% |
+| Lapis Lazuli | 1–4 | 1 | 1 | 4.8% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/jungle/disco</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Music Disc Cat | 1 | 1 | 15 | 26.3% |
+| Music Disc Chirp | 1 | 1 | 15 | 26.3% |
+| Music Disc Mellohi | 1 | 1 | 15 | 26.3% |
+| Music Disc 11 | 1 | 1 | 10 | 17.5% |
+| Music Disc Otherside | 1 | 1 | 1 | 1.8% |
+| Music Disc Pigstep | 1 | 1 | 1 | 1.8% |
+| Emerald | 2–4 | 2 | 6 | 40.0% |
+| Cocoa Beans | 2–6 | 2 | 4 | 26.7% |
+| Paper | 1–3 | 2 | 4 | 26.7% |
+| Diamond | 2 | 2 | 1 | 6.7% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/jungle/fisherman</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Wheat Seeds | 1–3 | 1 | 3 | 21.4% |
+| Coal | 1–3 | 1 | 2 | 14.3% |
+| Cocoa Beans | 1–4 | 1 | 2 | 14.3% |
+| Cod | 1–3 | 1 | 2 | 14.3% |
+| Barrel | 1–3 | 1 | 1 | 7.1% |
+| Emerald | 1 | 1 | 1 | 7.1% |
+| Fishing Rod | 1 | 1 | 1 | 7.1% |
+| Tropical Fish | 1–3 | 1 | 1 | 7.1% |
+| Water Bucket | 1 | 1 | 1 | 7.1% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/jungle/fletcher</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Feather | 1–3 | 1 | 6 | 25.0% |
+| Stick | 1–3 | 1 | 6 | 25.0% |
+| Flint | 1–3 | 1 | 5 | 20.8% |
+| Arrow | 1–3 | 1 | 2 | 8.3% |
+| Cocoa Beans | 1–4 | 1 | 2 | 8.3% |
+| Egg | 1–3 | 1 | 2 | 8.3% |
+| Emerald | 1 | 1 | 1 | 4.2% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/jungle/house</strong> (11 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Apple | 1–5 | 1 | 10 | 23.3% |
+| Bread | 1–4 | 1 | 10 | 23.3% |
+| Carrot | 1–7 | 1 | 10 | 23.3% |
+| Cocoa Beans | 1–2 | 1 | 5 | 11.6% |
+| Emerald | 1–4 | 1 | 2 | 4.7% |
+| Jungle Sapling | 1 | 1 | 2 | 4.7% |
+| Book | 1 | 1 | 1 | 2.3% |
+| Feather | 1 | 1 | 1 | 2.3% |
+| Gold Nugget | 1–3 | 1 | 1 | 2.3% |
+| Jungle Planks | 1–16 | 1 | 1 | 2.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/jungle/leatherworker</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 5 | 26.3% |
+| Leather Chestplate | 1 | 1 | 3 | 15.8% |
+| Cocoa Beans | 1–4 | 1 | 2 | 10.5% |
+| Leather Boots | 1 | 1 | 2 | 10.5% |
+| Leather Helmet | 1 | 1 | 2 | 10.5% |
+| Leather Leggings | 1 | 1 | 2 | 10.5% |
+| Emerald | 1–4 | 1 | 1 | 5.3% |
+| Leather | 1–3 | 1 | 1 | 5.3% |
+| Saddle | 1 | 1 | 1 | 5.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/jungle/mason</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 4 | 26.7% |
+| Chiseled Stone Bricks | 1–2 | 1 | 2 | 13.3% |
+| Cocoa Beans | 1–4 | 1 | 2 | 13.3% |
+| Stone | 1–3 | 1 | 2 | 13.3% |
+| Clay Ball | 1–3 | 1 | 1 | 6.7% |
+| Emerald | 1 | 1 | 1 | 6.7% |
+| Flower Pot | 1 | 1 | 1 | 6.7% |
+| Smooth Stone | 1 | 1 | 1 | 6.7% |
+| Yellow Dye | 1 | 1 | 1 | 6.7% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/jungle/shepherd</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Wheat | 1–6 | 1 | 6 | 26.1% |
+| White Wool | 1–8 | 1 | 6 | 26.1% |
+| Black Wool | 1–3 | 1 | 3 | 13.0% |
+| Brown Wool | 1–3 | 1 | 2 | 8.7% |
+| Cocoa Beans | 1–4 | 1 | 2 | 8.7% |
+| Gray Wool | 1–3 | 1 | 2 | 8.7% |
+| Emerald | 1 | 1 | 1 | 4.3% |
+| Shears | 1 | 1 | 1 | 4.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/jungle/toolsmith</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Stick | 1–3 | 1 | 20 | 36.4% |
+| Bread | 1–3 | 1 | 15 | 27.3% |
+| Iron Ingot | 1–5 | 1 | 5 | 9.1% |
+| Iron Pickaxe | 1 | 1 | 5 | 9.1% |
+| Iron Shovel | 1 | 1 | 5 | 9.1% |
+| Cocoa Beans | 1–4 | 1 | 2 | 3.6% |
+| Coal | 1–3 | 1 | 1 | 1.8% |
+| Diamond | 1–3 | 1 | 1 | 1.8% |
+| Gold Ingot | 1–3 | 1 | 1 | 1.8% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/jungle/weaponsmith</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Apple | 1–3 | 1 | 15 | 16.0% |
+| Bread | 1–3 | 1 | 15 | 16.0% |
+| Iron Ingot | 1–5 | 1 | 10 | 10.6% |
+| Cocoa Beans | 3–7 | 1 | 5 | 5.3% |
+| Gold Ingot | 1–3 | 1 | 5 | 5.3% |
+| Iron Boots | 1 | 1 | 5 | 5.3% |
+| Iron Chestplate | 1–3 | 1 | 5 | 5.3% |
+| Iron Helmet | 1 | 1 | 5 | 5.3% |
+| Iron Leggings | 1 | 1 | 5 | 5.3% |
+| Iron Pickaxe | 1 | 1 | 5 | 5.3% |
+| Iron Sword | 1 | 1 | 5 | 5.3% |
+| Obsidian | 3–7 | 1 | 5 | 5.3% |
+| Diamond | 1–3 | 1 | 3 | 3.2% |
+| Saddle | 1 | 1 | 3 | 3.2% |
+| Diamond Horse Armor | 1 | 1 | 1 | 1.1% |
+| Golden Horse Armor | 1 | 1 | 1 | 1.1% |
+| Iron Horse Armor | 1 | 1 | 1 | 1.1% |
+
+</details>
+
 # Contents
 
 The structure is composed of the following blocks: Jungle Leaves, Stripped Jungle Log, Jungle Wood, Jungle Log, Jungle Slab, Bamboo Slab, Jungle Planks, Grass Block, Jungle Fence, Packed Mud, Mud Brick Slab, Vine, Stripped Jungle Wood, Mud Bricks, Bamboo Mosaic Slab, Shroomlight, Jungle Stairs, Mud, Podzol, Mud Brick Wall, Jungle Trapdoor, Mud Brick Stairs, Jungle Door, Moss Carpet, Dirt, Brown Bed, Lantern, Farmland, Ladder, Wheat, Seagrass, Chest, Chain, Honeycomb Block, Polished Granite Stairs, Polished Granite, Bookshelf, Bamboo Fence, Chiseled Bookshelf, White Terracotta, Cocoa, Hay Block, Red Mushroom Block, Tall Seagrass, Bamboo Sapling, Bamboo, Ochre Froglight, Dirt Path, Honey Block, Pearlescent Froglight, Verdant Froglight, Moss Block, Brown Wall Banner, Cobblestone Wall, Deepslate Brick Wall, Nether Wart, Soul Sand, Dark Oak Stairs, Potted Bamboo, Spruce Trapdoor, Andesite, Bee Nest, Cobblestone Stairs, Damaged Anvil, Iron Trapdoor, Red Mushroom, Sugar Cane, Andesite Slab, Barrel, Bell, Birch Stairs, Blast Furnace, Brewing Stand, Campfire, Cartography Table, Chipped Anvil, Cobblestone, Cobblestone Slab, Composter, Fletching Table, Flower Pot, Grindstone, Jukebox, Jungle Fence Gate, Lectern, Loom, Mangrove Log, Polished Deepslate Slab, Potted Fern, Potted Jungle Sapling, Smithing Table, Smoker, Smooth Stone, Smooth Stone Slab, Stonecutter, Target, Water Cauldron.
 
 Additionally, the following entities may spawn during its generation: Bee, Parrot, Villager.
+
 
 
 ## Per-Structure File Contents
@@ -166,9 +391,9 @@ The structure part is composed of the following blocks: Bamboo Slab, Mud Bricks,
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/jungle/armorer |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/jungle/armorer | 1 |
 
 
 </details>
@@ -213,9 +438,9 @@ The structure part is composed of the following blocks: Bamboo Slab, Grass Block
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/jungle/butcher |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/jungle/butcher | 1 |
 
 
 </details>
@@ -251,9 +476,9 @@ The structure part is composed of the following blocks: Packed Mud, Dirt, Seagra
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/jungle/fisherman |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/jungle/fisherman | 1 |
 
 
 </details>
@@ -293,9 +518,9 @@ The structure part is composed of the following blocks: Bamboo Slab, Packed Mud,
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/jungle/fletcher |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/jungle/fletcher | 1 |
 
 
 </details>
@@ -328,9 +553,9 @@ The structure part is composed of the following blocks: Bamboo Slab, Mud Bricks,
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/jungle/leatherworker |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/jungle/leatherworker | 1 |
 
 
 </details>
@@ -370,9 +595,9 @@ The structure part is composed of the following blocks: Bamboo Slab, Grass Block
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/jungle/mason |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/jungle/mason | 1 |
 
 
 </details>
@@ -409,9 +634,9 @@ The structure part is composed of the following blocks: Grass Block, Jungle Fenc
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/jungle/shepherd |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/jungle/shepherd | 1 |
 
 
 </details>
@@ -450,9 +675,9 @@ The structure part is composed of the following blocks: Bamboo Slab, Mud Bricks,
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/jungle/toolsmith |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/jungle/toolsmith | 1 |
 
 
 </details>
@@ -490,9 +715,9 @@ The structure part is composed of the following blocks: Bamboo Slab, Mud Bricks,
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/jungle/weaponsmith |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/jungle/weaponsmith | 1 |
 
 
 </details>
@@ -564,9 +789,9 @@ The structure part is composed of the following blocks: Bamboo Slab, Jungle Fenc
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/jungle/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/jungle/house | 1 |
 
 
 </details>
@@ -602,9 +827,9 @@ The structure part is composed of the following blocks: Bamboo Slab, Grass Block
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/jungle/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/jungle/house | 1 |
 
 
 </details>
@@ -643,9 +868,9 @@ The structure part is composed of the following blocks: Jungle Fence, Bamboo Sla
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/jungle/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/jungle/house | 2 |
 
 
 </details>
@@ -821,9 +1046,9 @@ The structure part is composed of the following blocks: Stripped Jungle Log, Jun
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/jungle/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/jungle/house | 1 |
 
 
 </details>
@@ -964,9 +1189,9 @@ The structure part is composed of the following blocks: Jungle Leaves, Jungle Wo
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/jungle/cleric |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/jungle/cleric | 1 |
 
 
 </details>
@@ -1003,9 +1228,9 @@ The structure part is composed of the following blocks: Stripped Jungle Log, Jun
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/jungle/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/jungle/house | 1 |
 
 
 </details>
@@ -1168,9 +1393,9 @@ The structure part is composed of the following blocks: Jungle Leaves, Jungle Wo
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/jungle/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/jungle/house | 1 |
 
 
 </details>
@@ -1209,9 +1434,9 @@ The structure part is composed of the following blocks: Jungle Leaves, Bamboo Sl
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/jungle/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/jungle/house | 1 |
 
 
 </details>
@@ -1509,9 +1734,9 @@ The structure part is composed of the following blocks: Stripped Jungle Log, Jun
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/jungle/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/jungle/house | 1 |
 
 
 </details>
@@ -1621,9 +1846,9 @@ The structure part is composed of the following blocks: Stripped Jungle Log, Jun
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/jungle/cartographer |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/jungle/cartographer | 1 |
 
 
 </details>
@@ -1689,9 +1914,9 @@ The structure part is composed of the following blocks: Stripped Jungle Log, Jun
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/jungle/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/jungle/house | 1 |
 
 
 </details>
@@ -1768,9 +1993,9 @@ Additionally, the following entities may spawn during its generation: Parrot.
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/jungle/disco |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/jungle/disco | 1 |
 
 
 </details>
@@ -1808,9 +2033,9 @@ The structure part is composed of the following blocks: Stripped Jungle Log, Jun
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/jungle/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/jungle/house | 1 |
 
 
 </details>

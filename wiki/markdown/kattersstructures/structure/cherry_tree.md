@@ -3,6 +3,7 @@
 The structure is composed of the following blocks: Cherry Leaves, Cherry Wood, Acacia Leaves, Cherry Log, Azure Bluet, Cherry Trapdoor, Stripped Cherry Wood, Cherry Slab, Grass Block, Birch Fence Gate, Birch Fence, Stripped Cherry Log, Dirt Path, White Wall Banner, Cherry Stairs, Tall Grass, Chiseled Tuff Bricks, Cherry Fence, Dirt, Pink Petals, Spore Blossom.
 
 
+
 ## Per-Structure File Contents
 
 <details>

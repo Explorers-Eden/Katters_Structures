@@ -5,6 +5,7 @@ The structure is composed of the following blocks: Dark Oak Leaves, Stripped Dar
 Additionally, the following entities may spawn during its generation: Allay.
 
 
+
 ## Per-Structure File Contents
 
 <details>

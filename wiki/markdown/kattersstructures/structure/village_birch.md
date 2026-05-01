@@ -1,8 +1,123 @@
+# Generated Loot.
+
+There are 6 loot tables used in this structure:
+
+<details>
+<summary><strong>kattersstructures:chests/birch/cartographer</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 15 | 28.8% |
+| Paper | 1–5 | 1 | 15 | 28.8% |
+| Map | 1–3 | 1 | 10 | 19.2% |
+| Compass | 1 | 1 | 5 | 9.6% |
+| Stick | 1–2 | 1 | 5 | 9.6% |
+| Birch Sapling | 1–4 | 1 | 2 | 3.8% |
+| Village Map | 1 | 2 | 5 | 71.4% |
+| Dungeon Map | 1 | 2 | 1 | 14.3% |
+| Villager Map | 1 | 2 | 1 | 14.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/birch/fisherman</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Wheat Seeds | 1–3 | 1 | 3 | 21.4% |
+| Birch Sapling | 1–4 | 1 | 2 | 14.3% |
+| Coal | 1–3 | 1 | 2 | 14.3% |
+| Cod | 1–3 | 1 | 2 | 14.3% |
+| Barrel | 1–3 | 1 | 1 | 7.1% |
+| Emerald | 1 | 1 | 1 | 7.1% |
+| Fishing Rod | 1 | 1 | 1 | 7.1% |
+| Tropical Fish | 1–3 | 1 | 1 | 7.1% |
+| Water Bucket | 1 | 1 | 1 | 7.1% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/birch/house</strong> (15 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Apple | 1–5 | 1 | 10 | 23.3% |
+| Bread | 1–4 | 1 | 10 | 23.3% |
+| Carrot | 1–7 | 1 | 10 | 23.3% |
+| Birch Sapling | 1–2 | 1 | 5 | 11.6% |
+| Emerald | 1–4 | 1 | 2 | 4.7% |
+| Red Mushroom | 1 | 1 | 2 | 4.7% |
+| Book | 1 | 1 | 1 | 2.3% |
+| Feather | 1 | 1 | 1 | 2.3% |
+| Gold Nugget | 1–3 | 1 | 1 | 2.3% |
+| Moss Carpet | 1–16 | 1 | 1 | 2.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/birch/shepherd</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Green Wool | 1–8 | 1 | 6 | 26.1% |
+| Wheat | 1–6 | 1 | 6 | 26.1% |
+| Black Wool | 1–3 | 1 | 3 | 13.0% |
+| Birch Sapling | 1–4 | 1 | 2 | 8.7% |
+| Brown Wool | 1–3 | 1 | 2 | 8.7% |
+| Gray Wool | 1–3 | 1 | 2 | 8.7% |
+| Emerald | 1 | 1 | 1 | 4.3% |
+| Shears | 1 | 1 | 1 | 4.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/birch/toolsmith</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Stick | 1–3 | 1 | 20 | 36.4% |
+| Bread | 1–3 | 1 | 15 | 27.3% |
+| Iron Ingot | 1–5 | 1 | 5 | 9.1% |
+| Iron Pickaxe | 1 | 1 | 5 | 9.1% |
+| Iron Shovel | 1 | 1 | 5 | 9.1% |
+| Birch Sapling | 1–4 | 1 | 2 | 3.6% |
+| Coal | 1–3 | 1 | 1 | 1.8% |
+| Diamond | 1–3 | 1 | 1 | 1.8% |
+| Gold Ingot | 1–3 | 1 | 1 | 1.8% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/birch/weaponsmith</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Apple | 1–3 | 1 | 15 | 16.0% |
+| Bread | 1–3 | 1 | 15 | 16.0% |
+| Iron Ingot | 1–5 | 1 | 10 | 10.6% |
+| Birch Sapling | 3–7 | 1 | 5 | 5.3% |
+| Gold Ingot | 1–3 | 1 | 5 | 5.3% |
+| Iron Boots | 1 | 1 | 5 | 5.3% |
+| Iron Chestplate | 1–3 | 1 | 5 | 5.3% |
+| Iron Helmet | 1 | 1 | 5 | 5.3% |
+| Iron Leggings | 1 | 1 | 5 | 5.3% |
+| Iron Pickaxe | 1 | 1 | 5 | 5.3% |
+| Iron Sword | 1 | 1 | 5 | 5.3% |
+| Obsidian | 3–7 | 1 | 5 | 5.3% |
+| Diamond | 1–3 | 1 | 3 | 3.2% |
+| Saddle | 1 | 1 | 3 | 3.2% |
+| Diamond Horse Armor | 1 | 1 | 1 | 1.1% |
+| Golden Horse Armor | 1 | 1 | 1 | 1.1% |
+| Iron Horse Armor | 1 | 1 | 1 | 1.1% |
+
+</details>
+
 # Contents
 
 The structure is composed of the following blocks: Stripped Birch Log, Birch Planks, Hay Block, Grass Block, Red Mushroom Block, Moss Block, Birch Slab, Birch Button, Birch Fence, Vine, Moss Carpet, Birch Stairs, Podzol, Mud, Chain, Jack O Lantern, Bookshelf, Birch Trapdoor, Brown Mushroom, Seagrass, Cobweb, Ladder, Mangrove Door, Red Mushroom, Chiseled Bookshelf, Birch Fence Gate, Smooth Stone, Chest, Poppy, Gray Bed, Light Gray Bed, Brown Candle, Decorated Pot, Potted Flowering Azalea Bush, Tall Seagrass, Smooth Stone Slab, Spruce Trapdoor, White Bed, Dark Oak Stairs, Farmland, Wheat, Potted Red Mushroom, Beehive, Campfire, Honeycomb Block, Oak Fence, Polished Blackstone Stairs, Tripwire Hook, Anvil, Birch Log, Composter, Furnace, Polished Blackstone Button, Polished Deepslate Slab, Barrel, Bell, Birch Sapling, Blast Furnace, Cartography Table, Damaged Anvil, Flowering Azalea Leaves, Grindstone, Honey Block, Iron Trapdoor, Lectern, Mangrove Slab, Oak Button, Polished Deepslate Stairs, Potted Brown Mushroom, Smithing Table, Stripped Birch Wood, Water Cauldron.
 
 Additionally, the following entities may spawn during its generation: Item Frame, Villager.
+
 
 
 ## Per-Structure File Contents
@@ -365,9 +480,9 @@ The structure part is composed of the following blocks: Hay Block, Stripped Birc
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/birch/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/birch/house | 3 |
 
 
 </details>
@@ -419,9 +534,9 @@ The structure part is composed of the following blocks: Stripped Birch Log, Birc
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/birch/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/birch/house | 3 |
 
 
 </details>
@@ -470,9 +585,9 @@ The structure part is composed of the following blocks: Birch Planks, Stripped B
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/birch/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/birch/house | 1 |
 
 
 </details>
@@ -519,9 +634,9 @@ The structure part is composed of the following blocks: Stripped Birch Log, Hay 
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/birch/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/birch/house | 2 |
 
 
 </details>
@@ -607,9 +722,9 @@ The structure part is composed of the following blocks: Hay Block, Grass Block, 
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/birch/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/birch/house | 1 |
 
 
 </details>
@@ -653,9 +768,9 @@ The structure part is composed of the following blocks: Stripped Birch Log, Birc
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/birch/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/birch/house | 1 |
 
 
 </details>
@@ -703,9 +818,9 @@ The structure part is composed of the following blocks: Stripped Birch Log, Hay 
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/birch/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/birch/house | 2 |
 
 
 </details>
@@ -866,9 +981,9 @@ Additionally, the following entities may spawn during its generation: Item Frame
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/birch/cartographer |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/birch/cartographer | 1 |
 
 
 </details>
@@ -944,9 +1059,9 @@ The structure part is composed of the following blocks: Red Mushroom Block, Mud,
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/birch/fisherman |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/birch/fisherman | 1 |
 
 
 </details>
@@ -994,9 +1109,9 @@ The structure part is composed of the following blocks: Birch Planks, Stripped B
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/birch/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/birch/house | 1 |
 
 
 </details>
@@ -1087,9 +1202,9 @@ The structure part is composed of the following blocks: Hay Block, Stripped Birc
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/birch/shepherd |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/birch/shepherd | 1 |
 
 
 </details>
@@ -1133,9 +1248,9 @@ The structure part is composed of the following blocks: Hay Block, Stripped Birc
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/birch/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/birch/house | 1 |
 
 
 </details>
@@ -1165,9 +1280,9 @@ The structure part is composed of the following blocks: Polished Blackstone Stai
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/birch/toolsmith |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/birch/toolsmith | 1 |
 
 
 </details>
@@ -1196,9 +1311,9 @@ The structure part is composed of the following blocks: Smooth Stone Slab, Birch
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/birch/weaponsmith |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/birch/weaponsmith | 1 |
 
 
 </details>

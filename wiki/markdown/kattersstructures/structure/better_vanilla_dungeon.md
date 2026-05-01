@@ -1,6 +1,66 @@
+# Generated Loot.
+
+There are 2 loot tables used in this structure:
+
+<details>
+<summary><strong>kattersstructures:chests/better_vanilla_dungeon/loot1</strong> (4 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Name Tag | 1 | 1 | 20 | 15.5% |
+| Saddle | 1 | 1 | 20 | 15.5% |
+| Golden Apple | 1 | 1 | 15 | 11.6% |
+| Iron Horse Armor | 1 | 1 | 15 | 11.6% |
+| Music Disc 13 | 1 | 1 | 15 | 11.6% |
+| Music Disc Cat | 1 | 1 | 15 | 11.6% |
+| Enchanted Book | 1 | 1 | 10 | 7.8% |
+| Golden Horse Armor | 1 | 1 | 10 | 7.8% |
+| Diamond Horse Armor | 1 | 1 | 5 | 3.9% |
+| Enchanted Golden Apple | 1 | 1 | 2 | 1.6% |
+| Music Disc Otherside | 1 | 1 | 2 | 1.6% |
+| Bread | 1 | 2 | 20 | 16.0% |
+| Wheat | 1–4 | 2 | 20 | 16.0% |
+| Coal | 1–4 | 2 | 15 | 12.0% |
+| Redstone | 1–4 | 2 | 15 | 12.0% |
+| Beetroot Seeds | 2–4 | 2 | 10 | 8.0% |
+| Bucket | 1 | 2 | 10 | 8.0% |
+| Iron Ingot | 1–4 | 2 | 10 | 8.0% |
+| Melon Seeds | 2–4 | 2 | 10 | 8.0% |
+| Pumpkin Seeds | 2–4 | 2 | 10 | 8.0% |
+| Gold Ingot | 1–4 | 2 | 5 | 4.0% |
+| Bone | 1–8 | 3 | 10 | 25.0% |
+| Gunpowder | 1–8 | 3 | 10 | 25.0% |
+| Rotten Flesh | 1–8 | 3 | 10 | 25.0% |
+| String | 1–8 | 3 | 10 | 25.0% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/better_vanilla_dungeon/loot2</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Name Tag | 1 | 1 | 20 | 20.2% |
+| Saddle | 1 | 1 | 20 | 20.2% |
+| Golden Apple | 1 | 1 | 15 | 15.2% |
+| Music Disc 13 | 1 | 1 | 15 | 15.2% |
+| Music Disc Cat | 1 | 1 | 15 | 15.2% |
+| Enchanted Book | 1 | 1 | 10 | 10.1% |
+| Enchanted Golden Apple | 1 | 1 | 2 | 2.0% |
+| Music Disc Otherside | 1 | 1 | 2 | 2.0% |
+| Iron Ingot | 1–4 | 2 | 10 | 66.7% |
+| Gold Ingot | 1–4 | 2 | 5 | 33.3% |
+| Bone | 1–2 | 3 | 10 | 25.0% |
+| Gunpowder | 1–2 | 3 | 10 | 25.0% |
+| Rotten Flesh | 1–2 | 3 | 10 | 25.0% |
+| String | 1–2 | 3 | 10 | 25.0% |
+
+</details>
+
 # Contents
 
 The structure is composed of the following blocks: Mossy Cobblestone, Cobblestone, Infested Cobblestone, Mossy Stone Bricks, Infested Mossy Stone Bricks, Stone Bricks, Cobblestone Stairs, Infested Stone Bricks, Mossy Cobblestone Stairs, Oak Slab, Gravel, Hay Block, Cobweb, Oak Fence, Spruce Trapdoor, Cobblestone Slab, Bookshelf, Oak Stairs, Chest, Mossy Cobblestone Slab, Oak Wall Sign, Stone, Chiseled Bookshelf, Stone Stairs, Moss Carpet, Spruce Door, Stone Slab, Chain, Hopper, Spawner, Stone Brick Slab, Cobblestone Wall, Iron Bars, Mossy Stone Brick Stairs, Oak Planks, Stone Brick Stairs, Weathered Copper, Barrel, Mossy Cobblestone Wall, Observer, Sandstone Slab.
+
 
 
 ## Per-Structure File Contents
@@ -1206,9 +1266,9 @@ The structure part is composed of the following blocks: Oak Slab, Oak Fence, Oak
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/better_vanilla_dungeon/loot1 |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/better_vanilla_dungeon/loot1 | 2 |
 
 
 </details>
@@ -1705,9 +1765,9 @@ The structure part is composed of the following blocks: Cobblestone, Mossy Cobbl
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/better_vanilla_dungeon/loot1 |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/better_vanilla_dungeon/loot1 | 1 |
 
 
 </details>
@@ -1736,9 +1796,9 @@ The structure part is composed of the following blocks: Cobblestone, Mossy Cobbl
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/better_vanilla_dungeon/loot1 |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/better_vanilla_dungeon/loot1 | 1 |
 
 
 </details>
@@ -1766,9 +1826,9 @@ The structure part is composed of the following blocks: Mossy Cobblestone, Cobbl
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/better_vanilla_dungeon/loot2 |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/better_vanilla_dungeon/loot2 | 1 |
 
 
 </details>

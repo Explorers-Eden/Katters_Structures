@@ -1,8 +1,80 @@
+# Generated Loot.
+
+There are 5 loot tables used in this structure:
+
+<details>
+<summary><strong>kattersstructures:chests/graveyard/donation</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Gold Nugget | 1–4 | 1 | 5 | 62.5% |
+| Book | 1 | 1 | 1 | 12.5% |
+| Emerald | 1 | 1 | 1 | 12.5% |
+| Red Candle | 1 | 1 | 1 | 12.5% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/graveyard/grave</strong> (18 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bone | 1–4 | 1 | 5 | 35.7% |
+| Cobweb | 1 | 1 | 2 | 14.3% |
+| Emerald | 1–4 | 1 | 2 | 14.3% |
+| Clock | 1 | 1 | 1 | 7.1% |
+| Diamond | 1 | 1 | 1 | 7.1% |
+| Leather Chestplate | 1 | 1 | 1 | 7.1% |
+| Leather Leggings | 1 | 1 | 1 | 7.1% |
+| Skeleton Skull | 1 | 1 | 1 | 7.1% |
+| Golden Hoe | 1 | 2 | 1 | 25.0% |
+| Golden Pickaxe | 1 | 2 | 1 | 25.0% |
+| Iron Sword | 1 | 2 | 1 | 25.0% |
+| Stone Axe | 1 | 2 | 1 | 25.0% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/graveyard/living</strong> (2 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–3 | 1 | 2 | 28.6% |
+| String | 1–2 | 1 | 2 | 28.6% |
+| Emerald | 1 | 1 | 1 | 14.3% |
+| Leather Boots | 1 | 1 | 1 | 14.3% |
+| Leather Chestplate | 1 | 1 | 1 | 14.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/graveyard/robbed</strong> (2 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bone | 1–4 | 1 | 10 | 90.9% |
+| Wooden Shovel | 1–4 | 1 | 1 | 9.1% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/graveyard/secret</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Emerald | 1–4 | 1 | 5 | 62.5% |
+| Diamond | 1 | 1 | 1 | 12.5% |
+| Emerald Block | 1–2 | 1 | 1 | 12.5% |
+| Hay Block | 1–3 | 1 | 1 | 12.5% |
+
+</details>
+
 # Contents
 
 The structure is composed of the following blocks: Stone Bricks, Dirt, Coarse Dirt, Stone Brick Wall, Birch Leaves, Grass Block, Spruce Stairs, Stone Brick Stairs, Polished Deepslate Stairs, Mossy Stone Bricks, Polished Deepslate, Stone Brick Slab, Mossy Stone Brick Wall, Cracked Stone Bricks, Deepslate Tile Stairs, Spruce Trapdoor, Deepslate Brick Stairs, Blue Stained Glass Pane, Vine, Gray Stained Glass Pane, Red Carpet, Light Blue Stained Glass Pane, Oak Fence, Chest, Moss Block, Mossy Stone Brick Stairs, Spruce Planks, Cobbled Deepslate Stairs, Polished Deepslate Slab, Spruce Fence, Stripped Spruce Wood, Glow Lichen, Red Candle, Mossy Stone Brick Slab, Oak Stairs, Chain, Jungle Fence, Stripped Jungle Wood, Stripped Oak Wood, Short Grass, Spruce Slab, Tall Grass, Deepslate Bricks, Lectern, Dead Bush, Mossy Cobblestone Slab, Spruce Wall Sign, Cobweb, Stripped Spruce Log, Mossy Cobblestone, Cracked Deepslate Tiles, Jungle Trapdoor, Poppy, Spruce Door, Hay Block, Cobblestone Stairs, Light Gray Bed, Mossy Cobblestone Stairs, Shroomlight, Smooth Stone Slab, Barrel, Bell, Dandelion, Gravel, Lantern, Light Gray Candle, Lightning Rod, Mossy Cobblestone Wall, Polished Deepslate Wall.
 
 Additionally, the following entities may spawn during its generation: Villager.
+
 
 
 ## Per-Structure File Contents
@@ -90,11 +162,11 @@ The structure part is composed of the following blocks: Stone Bricks, Dirt, Ston
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/graveyard/donation |
-| kattersstructures:chests/graveyard/living |
-| kattersstructures:chests/graveyard/secret |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/graveyard/donation | 1 |
+| kattersstructures:chests/graveyard/living | 2 |
+| kattersstructures:chests/graveyard/secret | 1 |
 
 
 </details>
@@ -125,9 +197,9 @@ The structure part is composed of the following blocks: Coarse Dirt, Dirt, Mossy
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/graveyard/grave |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/graveyard/grave | 2 |
 
 
 </details>
@@ -159,9 +231,9 @@ The structure part is composed of the following blocks: Coarse Dirt, Dirt, Grass
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/graveyard/grave |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/graveyard/grave | 2 |
 
 
 </details>
@@ -194,9 +266,9 @@ The structure part is composed of the following blocks: Coarse Dirt, Dirt, Stone
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/graveyard/grave |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/graveyard/grave | 2 |
 
 
 </details>
@@ -226,9 +298,9 @@ The structure part is composed of the following blocks: Coarse Dirt, Dirt, Chest
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/graveyard/grave |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/graveyard/grave | 2 |
 
 
 </details>
@@ -257,9 +329,9 @@ The structure part is composed of the following blocks: Coarse Dirt, Dirt, Chest
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/graveyard/grave |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/graveyard/grave | 2 |
 
 
 </details>
@@ -339,9 +411,9 @@ The structure part is composed of the following blocks: Coarse Dirt, Dirt, Grass
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/graveyard/grave |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/graveyard/grave | 2 |
 
 
 </details>
@@ -370,9 +442,9 @@ The structure part is composed of the following blocks: Coarse Dirt, Dirt, Stone
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/graveyard/grave |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/graveyard/grave | 2 |
 
 
 </details>
@@ -401,9 +473,9 @@ The structure part is composed of the following blocks: Coarse Dirt, Dirt, Chest
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/graveyard/robbed |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/graveyard/robbed | 2 |
 
 
 </details>
@@ -432,9 +504,9 @@ The structure part is composed of the following blocks: Coarse Dirt, Dirt, Spruc
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/graveyard/grave |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/graveyard/grave | 2 |
 
 
 </details>
@@ -465,9 +537,9 @@ The structure part is composed of the following blocks: Coarse Dirt, Dirt, Grass
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/graveyard/grave |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/graveyard/grave | 2 |
 
 
 </details>

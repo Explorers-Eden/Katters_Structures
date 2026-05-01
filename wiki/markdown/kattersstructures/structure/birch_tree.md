@@ -1,8 +1,31 @@
+# Generated Loot.
+
+There is one loot table used in this structure:
+
+<details>
+<summary><strong>kattersstructures:chests/birch_tree/birch_tree</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Birch Log | 1–5 | 1 | 5 | 35.7% |
+| Birch Sapling | 1–3 | 1 | 4 | 28.6% |
+| Birch Wood | 1–2 | 1 | 2 | 14.3% |
+| Stripped Birch Log | 1–3 | 1 | 2 | 14.3% |
+| Stripped Birch Wood | 1–2 | 1 | 1 | 7.1% |
+| Wooden Axe | 1 | 2 | 20 | 48.8% |
+| Stone Axe | 1 | 2 | 10 | 24.4% |
+| Golden Axe | 1 | 2 | 5 | 12.2% |
+| Iron Axe | 1 | 2 | 5 | 12.2% |
+| Diamond Axe | 1 | 2 | 1 | 2.4% |
+
+</details>
+
 # Contents
 
 The structure is composed of the following blocks: Dirt, Jungle Leaves, Birch Leaves, Coarse Dirt, Birch Wood, Grass Block, Mushroom Stem, Cobblestone Slab, Oak Planks, Moss Carpet, Birch Log, Birch Planks, Stripped Birch Log, Vine, Moss Block, Oak Fence, Lantern, Birch Fence, Spore Blossom, Birch Door, Oak Stairs, White Bed, Birch Trapdoor, Campfire, Chest, Spawner.
 
 Additionally, the following entities may spawn during its generation: Villager.
+
 
 
 ## Per-Structure File Contents
@@ -124,9 +147,9 @@ The structure part is composed of the following blocks: Cobblestone Slab, Oak Pl
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/birch_tree/birch_tree |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/birch_tree/birch_tree | 1 |
 
 
 </details>

@@ -3,6 +3,7 @@
 The structure is composed of the following blocks: Stone, Stone Bricks, Polished Andesite, Dark Oak Slab, Grass Block, Stone Brick Stairs, Oak Log, Tuff Brick Slab, Tuff Bricks, Polished Tuff Slab, Coarse Dirt, Dirt, Dark Oak Stairs, Stone Brick Slab, Oak Planks, Stripped Oak Wood, Oak Fence, Oak Wall Sign, Dirt Path, Oak Stairs, Cracked Stone Bricks, Polished Tuff, Stone Stairs, Polished Andesite Stairs, Oak Slab, Tuff Brick Stairs, Cobweb, Polished Tuff Wall, Tuff Brick Wall, Chain, Oak Wall Hanging Sign, Chiseled Tuff Bricks, Fire, Netherrack, Polished Tuff Stairs, Trial Spawner, Chiseled Tuff, Oak Door, Oak Hanging Sign, Oak Pressure Plate, Light Gray Stained Glass Pane, Lodestone, Oak Fence Gate, Spruce Trapdoor.
 
 
+
 ## Per-Structure File Contents
 
 <details>

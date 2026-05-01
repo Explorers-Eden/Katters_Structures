@@ -1,6 +1,31 @@
+# Generated Loot.
+
+There is one loot table used in this structure:
+
+<details>
+<summary><strong>kattersstructures:chests/skyrtle/treasure</strong> (12 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Ink Sac | 1–6 | 1 | 1 | 33.3% |
+| Prismarine Crystals | 3–7 | 1 | 1 | 33.3% |
+| Prismarine Shard | 5–10 | 1 | 1 | 33.3% |
+| Copper Ingot | 5–20 | 2 | 1 | 33.3% |
+| Diamond | 1–2 | 2 | 1 | 33.3% |
+| Gold Ingot | 1–4 | 2 | 1 | 33.3% |
+| Book | 1 | 3 | 1 | 16.7% |
+| Enchanted Book | 1 | 3 | 1 | 16.7% |
+| Heart Of The Sea | 1 | 3 | 1 | 16.7% |
+| Nautilus Shell | 1–3 | 3 | 1 | 16.7% |
+| Trident | 1 | 3 | 1 | 16.7% |
+| Turtle Helmet | 1 | 3 | 1 | 16.7% |
+
+</details>
+
 # Contents
 
 The structure is composed of the following blocks: White Stained Glass, Light Gray Stained Glass, Brown Mushroom Block, Terracotta, Seagrass, Blue Stained Glass, Light Blue Stained Glass, Stripped Jungle Wood, Jungle Planks, Prismarine, Dark Prismarine, Prismarine Bricks, Tall Seagrass, Raw Iron Block, Glow Lichen, Obsidian, Kelp Plant, Kelp, Waxed Exposed Copper, Sea Pickle, Sea Lantern, Iron Bars, Black Concrete, Black Stained Glass, Chest, Jungle Stairs, Waxed Exposed Cut Copper Stairs, Shroomlight.
+
 
 
 ## Per-Structure File Contents
@@ -213,9 +238,9 @@ The structure part is composed of the following blocks: Terracotta, Brown Mushro
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/skyrtle/treasure |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/skyrtle/treasure | 12 |
 
 
 </details>

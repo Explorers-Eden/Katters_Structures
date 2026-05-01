@@ -1,8 +1,33 @@
+# Generated Loot.
+
+There is one loot table used in this structure:
+
+<details>
+<summary><strong>kattersstructures:chests/sky_dungeo/loot_mid</strong> (4 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Enchanted Book | 1 | 1 | 20 | 21.7% |
+| Golden Apple | 1 | 1 | 20 | 21.7% |
+| Emerald | 1–3 | 1 | 15 | 16.3% |
+| Gold Ingot | 2–7 | 1 | 15 | 16.3% |
+| Iron Ingot | 1–5 | 1 | 15 | 16.3% |
+| Diamond | 1–3 | 1 | 5 | 5.4% |
+| Enchanted Golden Apple | 1 | 1 | 2 | 2.2% |
+| Bone | 1–8 | 2 | 10 | 25.0% |
+| Gunpowder | 1–8 | 2 | 10 | 25.0% |
+| Rotten Flesh | 1–8 | 2 | 10 | 25.0% |
+| String | 1–8 | 2 | 10 | 25.0% |
+| Host Armor Trim Smithing Template | 1 | 3 | 1 | 100.0% |
+
+</details>
+
 # Contents
 
 The structure is composed of the following blocks: Cracked Stone Bricks, Stone Bricks, Stone Brick Stairs, Stone Brick Slab, Vine, Oak Leaves, Jungle Fence, Mossy Stone Bricks, Cracked Deepslate Tiles, Birch Leaves, Deepslate Tiles, Polished Andesite, Iron Bars, Oak Stairs, Oak Planks, Deepslate Tile Stairs, Stripped Jungle Wood, Oak Fence, Jungle Stairs, Chain, Mossy Stone Brick Slab, Ladder, Moss Block, Gravel, Spruce Door, Grass Block, Moss Carpet, Spruce Trapdoor, Emerald Block, Mossy Stone Brick Stairs, Stripped Spruce Log, Dead Horn Coral Wall Fan, Tall Grass, Short Grass, Stone Brick Wall, Deepslate Tile Slab, Rooted Dirt, Stripped Oak Wood, Stripped Spruce Wood, Bookshelf, Cobweb, Oak Slab, Scaffolding, Hanging Roots, Polished Granite Stairs, Hay Block, Trial Spawner, Jungle Slab, Oak Trapdoor, Polished Granite, Chiseled Bookshelf, Dead Horn Coral Fan, Spruce Planks, Polished Granite Slab, Chiseled Stone Bricks, Deepslate Brick Wall, Spruce Button, Spruce Fence, Vault, Waxed Cut Copper Stairs, Stone Button, Decorated Pot, Gold Block, Potted Acacia Sapling, Waxed Cut Copper, Fire, Lectern, Netherrack, Potted Jungle Sapling, Sandstone, Waxed Cut Copper Slab.
 
 Additionally, the following entities may spawn during its generation: Painting.
+
 
 
 ## Per-Structure File Contents
@@ -2254,9 +2279,9 @@ The structure part is composed of the following blocks: Vault.
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky_dungeo/loot_mid |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky_dungeo/loot_mid | 1 |
 
 
 </details>
@@ -2280,9 +2305,9 @@ The structure part is composed of the following blocks: Vault.
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky_dungeo/loot_mid |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky_dungeo/loot_mid | 1 |
 
 
 </details>
@@ -3311,9 +3336,9 @@ The structure part is composed of the following blocks: Vault.
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky_dungeo/loot_mid |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky_dungeo/loot_mid | 1 |
 
 
 </details>
@@ -3439,9 +3464,9 @@ The structure part is composed of the following blocks: Stone Brick Stairs, Crac
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky_dungeo/loot_mid |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky_dungeo/loot_mid | 1 |
 
 
 </details>

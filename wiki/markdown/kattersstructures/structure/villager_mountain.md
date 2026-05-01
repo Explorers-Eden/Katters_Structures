@@ -1,6 +1,26 @@
+# Generated Loot.
+
+There is one loot table used in this structure:
+
+<details>
+<summary><strong>kattersstructures:chests/villager/mountain</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Emerald | 1–4 | 1 | 10 | 25.0% |
+| Flint | 1–4 | 1 | 10 | 25.0% |
+| Pointed Dripstone | 1–4 | 1 | 10 | 25.0% |
+| Bread | 1–4 | 1 | 5 | 12.5% |
+| Emerald Block | 1 | 1 | 5 | 12.5% |
+| Totem Of Undying | 1 | 2 | 1 | 100.0% |
+| Armory Map | 1 | 3 | 1 | 100.0% |
+
+</details>
+
 # Contents
 
 The structure is composed of the following blocks: Stone, Granite, Glow Lichen, Andesite Stairs, Andesite, Andesite Slab, Granite Slab, Ochre Froglight, Chest, Diorite Stairs, Emerald Block.
+
 
 
 ## Per-Structure File Contents
@@ -57,9 +77,9 @@ The structure part is composed of the following blocks: Chest, Granite.
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/villager/mountain |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/villager/mountain | 1 |
 
 
 </details>

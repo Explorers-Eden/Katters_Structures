@@ -5,6 +5,7 @@ The structure is composed of the following blocks: Dirt, Mycelium, Mushroom Stem
 Additionally, the following entities may spawn during its generation: Mooshroom.
 
 
+
 ## Per-Structure File Contents
 
 <details>

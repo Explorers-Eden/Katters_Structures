@@ -1,8 +1,28 @@
+# Generated Loot.
+
+There is one loot table used in this structure:
+
+<details>
+<summary><strong>kattersstructures:chests/pillager_village/chest_2</strong> (5 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Arrow | 4–10 | 1 | 10 | 22.7% |
+| Dark Oak Sapling | 1–2 | 1 | 8 | 18.2% |
+| Emerald | 2–6 | 1 | 8 | 18.2% |
+| Iron Nugget | 1–4 | 1 | 8 | 18.2% |
+| Stick | 1–14 | 1 | 8 | 18.2% |
+| Dark Oak Log | 2–16 | 1 | 1 | 2.3% |
+| Tripwire Hook | 1 | 1 | 1 | 2.3% |
+
+</details>
+
 # Contents
 
 The structure is composed of the following blocks: Stone, Dirt, Grass Block, Dark Oak Planks, Cobblestone, Podzol, Dark Oak Log, Dark Oak Stairs, Birch Planks, Coarse Dirt, Dirt Path, Cobblestone Slab, Cobblestone Stairs, Dark Oak Fence, Glass Pane, Oak Log, Campfire, Cobblestone Wall, Spruce Log, Oak Trapdoor, Dark Oak Slab, Dark Oak Trapdoor, Hay Block, Andesite, White Wall Banner, Oak Fence, Iron Bars, Spruce Fence, Andesite Wall, Polished Andesite, Chain, Mud, Polished Andesite Stairs, White Banner, Dark Oak Wall Sign, Jack O Lantern, Oak Slab, Orange Wool, Birch Slab, Grindstone, Barrel, Birch Fence, Carved Pumpkin, Birch Stairs, Damaged Anvil, Dark Oak Fence Gate, Fire, Lever, Netherrack.
 
 Additionally, the following entities may spawn during its generation: Iron Golem.
+
 
 
 ## Per-Structure File Contents
@@ -133,9 +153,9 @@ Additionally, the following entities may spawn during its generation: Iron Golem
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/pillager_village/chest_2 |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/pillager_village/chest_2 | 1 |
 
 
 </details>
@@ -343,9 +363,9 @@ The structure part is composed of the following blocks: Stone, Dirt, Dark Oak Pl
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/pillager_village/chest_2 |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/pillager_village/chest_2 | 2 |
 
 
 </details>
@@ -479,9 +499,9 @@ The structure part is composed of the following blocks: Stone, Grass Block, Dark
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/pillager_village/chest_2 |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/pillager_village/chest_2 | 1 |
 
 
 </details>
@@ -564,9 +584,9 @@ The structure part is composed of the following blocks: Stone, Dirt, Grass Block
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/pillager_village/chest_2 |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/pillager_village/chest_2 | 1 |
 
 
 </details>

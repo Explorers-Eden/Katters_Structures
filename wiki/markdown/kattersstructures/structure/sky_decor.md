@@ -1,8 +1,83 @@
+# Generated Loot.
+
+There are 5 loot tables used in this structure:
+
+<details>
+<summary><strong>kattersstructures:chests/sky_decor/chests</strong> (6 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Carrot | 1–5 | 1 | 10 | 19.6% |
+| String | 1–3 | 1 | 10 | 19.6% |
+| Baked Potato | 1–5 | 1 | 9 | 17.6% |
+| Bread | 1–5 | 1 | 9 | 17.6% |
+| Beetroot Soup | 1–2 | 1 | 7 | 13.7% |
+| Clock | 1–2 | 1 | 2 | 3.9% |
+| Cobweb | 1–2 | 1 | 2 | 3.9% |
+| Compass | 1–2 | 1 | 2 | 3.9% |
+| Village Map | 1 | 2 | 5 | 71.4% |
+| Dungeon Map | 1 | 2 | 1 | 14.3% |
+| Villager Map | 1 | 2 | 1 | 14.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/sky_decor/pillager/arrows</strong> (3 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Arrow | 4–10 | 1 | 10 | 83.3% |
+| Crossbow | 1 | 1 | 2 | 16.7% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/sky_decor/pillager/storage</strong> (7 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Birch Planks | 1–5 | 1 | 10 | 23.8% |
+| Dark Oak Log | 1–4 | 1 | 10 | 23.8% |
+| Gray Wool | 3–6 | 1 | 10 | 23.8% |
+| Arrow | 4–8 | 1 | 4 | 9.5% |
+| Emerald | 4–10 | 1 | 4 | 9.5% |
+| String | 1–4 | 1 | 3 | 7.1% |
+| Crossbow | 1 | 1 | 1 | 2.4% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/sky_decor/pillager/tnt</strong> (14 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Gunpowder | 4–10 | 1 | 10 | 43.5% |
+| Tnt | 1–4 | 1 | 5 | 21.7% |
+| Arrow | 4–8 | 1 | 4 | 17.4% |
+| String | 1–4 | 1 | 3 | 13.0% |
+| Flint And Steel | 1 | 1 | 1 | 4.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/sky_decor/pillager/treasure</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Crossbow | 1 | 1 | 6 | 27.3% |
+| Diamond | 1–4 | 1 | 5 | 22.7% |
+| Arrow | 4–8 | 1 | 4 | 18.2% |
+| Emerald | 4–10 | 1 | 4 | 18.2% |
+| String | 1–4 | 1 | 3 | 13.6% |
+
+</details>
+
 # Contents
 
 The structure is composed of the following blocks: Gray Wool, Light Gray Wool, Light Gray Concrete, Dark Oak Planks, Dark Oak Trapdoor, Green Concrete, White Concrete, White Wool, Brown Wool, Green Terracotta, Dark Oak Fence, Green Wool, Brown Concrete, Birch Slab, Brown Mushroom Block, Brown Terracotta, Birch Planks, Dark Oak Stairs, Pale Oak Trapdoor, Dark Oak Log, Smooth Quartz, Mushroom Stem, Mangrove Trapdoor, Warped Trapdoor, Warped Planks, Pale Oak Planks, Mangrove Planks, Mangrove Fence, Warped Fence, Dark Oak Fence Gate, Pale Oak Fence, Pale Oak Stairs, Warped Stairs, Pale Oak Slab, Mangrove Stairs, Warped Slab, Mangrove Slab, White Wall Banner, Birch Stairs, Ochre Froglight, Chest, Polished Blackstone Wall, Cyan Wall Banner, Red Wall Banner, White Carpet, Crimson Planks, Chain, Glass Pane, Polished Diorite, Red Carpet, Pearlescent Froglight, Crimson Slab, Dark Prismarine, Barrel, Decorated Pot, Crimson Stairs, Green Wall Banner, Campfire, Dark Prismarine Stairs, Lever, Polished Blackstone, Dark Oak Slab, Dark Prismarine Slab, Polished Diorite Stairs, Stripped Dark Oak Log, Bookshelf, Grindstone, Polished Diorite Slab, Soul Campfire, Crimson Fence, Lantern, Spawner, Chiseled Bookshelf, Verdant Froglight, Iron Door, Spruce Button, Fletching Table, Polished Blackstone Button.
 
 Additionally, the following entities may spawn during its generation: Allay, Glow Item Frame.
+
 
 
 ## Per-Structure File Contents
@@ -43,9 +118,9 @@ The structure part is composed of the following blocks: White Wool, White Concre
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky_decor/chests |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky_decor/chests | 1 |
 
 
 </details>
@@ -88,9 +163,9 @@ The structure part is composed of the following blocks: Brown Wool, Brown Terrac
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky_decor/chests |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky_decor/chests | 1 |
 
 
 </details>
@@ -132,9 +207,9 @@ The structure part is composed of the following blocks: Green Concrete, Green Te
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky_decor/chests |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky_decor/chests | 1 |
 
 
 </details>
@@ -170,9 +245,9 @@ The structure part is composed of the following blocks: White Concrete, White Wo
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky_decor/chests |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky_decor/chests | 1 |
 
 
 </details>
@@ -209,9 +284,9 @@ The structure part is composed of the following blocks: Brown Mushroom Block, Br
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky_decor/chests |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky_decor/chests | 1 |
 
 
 </details>
@@ -249,9 +324,9 @@ The structure part is composed of the following blocks: Green Concrete, Green Te
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky_decor/chests |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky_decor/chests | 1 |
 
 
 </details>
@@ -314,12 +389,12 @@ Additionally, the following entities may spawn during its generation: Allay, Glo
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky_decor/pillager/arrows |
-| kattersstructures:chests/sky_decor/pillager/storage |
-| kattersstructures:chests/sky_decor/pillager/tnt |
-| kattersstructures:chests/sky_decor/pillager/treasure |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky_decor/pillager/arrows | 3 |
+| kattersstructures:chests/sky_decor/pillager/storage | 7 |
+| kattersstructures:chests/sky_decor/pillager/tnt | 14 |
+| kattersstructures:chests/sky_decor/pillager/treasure | 1 |
 
 
 </details>

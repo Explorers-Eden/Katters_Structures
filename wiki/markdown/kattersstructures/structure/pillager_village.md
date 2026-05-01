@@ -1,8 +1,52 @@
+# Generated Loot.
+
+There are 3 loot tables used in this structure:
+
+<details>
+<summary><strong>kattersstructures:chests/pillager_village/arrows</strong> (3 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Arrow | 4–10 | 1 | 10 | 83.3% |
+| Crossbow | 1 | 1 | 2 | 16.7% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/pillager_village/chest_1</strong> (3 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Arrow | 4–10 | 1 | 10 | 21.7% |
+| Ominous Bottle | 1 | 1 | 10 | 21.7% |
+| Dark Oak Sapling | 1–2 | 1 | 8 | 17.4% |
+| Emerald | 2–6 | 1 | 8 | 17.4% |
+| Stick | 1–14 | 1 | 8 | 17.4% |
+| Crossbow | 1 | 1 | 2 | 4.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/pillager_village/chest_2</strong> (8 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Arrow | 4–10 | 1 | 10 | 22.7% |
+| Dark Oak Sapling | 1–2 | 1 | 8 | 18.2% |
+| Emerald | 2–6 | 1 | 8 | 18.2% |
+| Iron Nugget | 1–4 | 1 | 8 | 18.2% |
+| Stick | 1–14 | 1 | 8 | 18.2% |
+| Dark Oak Log | 2–16 | 1 | 1 | 2.3% |
+| Tripwire Hook | 1 | 1 | 1 | 2.3% |
+
+</details>
+
 # Contents
 
 The structure is composed of the following blocks: Dark Oak Planks, Cobblestone, Birch Planks, Dark Oak Log, Podzol, Dark Oak Stairs, Cobblestone Stairs, Coarse Dirt, Dirt, Cobblestone Wall, Dark Oak Fence, Grass Block, Glass Pane, Cobblestone Slab, Sand, Gravel, Oak Log, Spruce Log, Dark Oak Slab, Dark Oak Trapdoor, White Wall Banner, Red Carpet, Hay Block, White Carpet, White Wool, Dark Oak Wall Sign, Bookshelf, Birch Fence, Chain, Birch Stairs, Oak Slab, Andesite Stairs, Birch Slab, Chiseled Bookshelf, Spruce Slab, Stripped Spruce Log, Barrel, Chest, Andesite, Spruce Planks, Andesite Slab, Chiseled Stone Bricks, Iron Trapdoor, Dark Oak Fence Gate, Dried Kelp Block, Grindstone, Oak Trapdoor, Pumpkin, Spruce Trapdoor, Stone Button, Jack O Lantern, Magma Block, Tripwire Hook, White Banner, Carved Pumpkin, Crafting Table, Damaged Anvil, Fire, Fletching Table, Lectern, Lever, Target.
 
 Additionally, the following entities may spawn during its generation: Armor Stand, Chicken, Iron Golem, Item Frame, Ravager.
+
 
 
 ## Per-Structure File Contents
@@ -464,9 +508,9 @@ The structure part is composed of the following blocks: Hay Block, Barrel.
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/pillager_village/chest_2 |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/pillager_village/chest_2 | 1 |
 
 
 </details>
@@ -519,9 +563,9 @@ The structure part is composed of the following blocks: Dark Oak Trapdoor, Barre
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/pillager_village/arrows |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/pillager_village/arrows | 1 |
 
 
 </details>
@@ -681,9 +725,9 @@ The structure part is composed of the following blocks: Chest.
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/pillager_village/chest_1 |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/pillager_village/chest_1 | 1 |
 
 
 </details>
@@ -707,9 +751,9 @@ The structure part is composed of the following blocks: Barrel.
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/pillager_village/chest_2 |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/pillager_village/chest_2 | 1 |
 
 
 </details>
@@ -812,9 +856,9 @@ Additionally, the following entities may spawn during its generation: Item Frame
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/pillager_village/arrows |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/pillager_village/arrows | 1 |
 
 
 </details>
@@ -838,9 +882,9 @@ The structure part is composed of the following blocks: Barrel.
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/pillager_village/arrows |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/pillager_village/arrows | 1 |
 
 
 </details>
@@ -867,9 +911,9 @@ The structure part is composed of the following blocks: Dark Oak Trapdoor, Chest
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/pillager_village/chest_2 |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/pillager_village/chest_2 | 3 |
 
 
 </details>
@@ -1004,10 +1048,10 @@ The structure part is composed of the following blocks: Chest, Dark Oak Trapdoor
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/pillager_village/chest_1 |
-| kattersstructures:chests/pillager_village/chest_2 |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/pillager_village/chest_1 | 1 |
+| kattersstructures:chests/pillager_village/chest_2 | 3 |
 
 
 </details>
@@ -1033,9 +1077,9 @@ The structure part is composed of the following blocks: Dark Oak Stairs, Tripwir
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/pillager_village/chest_1 |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/pillager_village/chest_1 | 1 |
 
 
 </details>

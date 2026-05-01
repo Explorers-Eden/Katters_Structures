@@ -5,6 +5,7 @@ The structure is composed of the following blocks: Stripped Jungle Log, Jungle L
 Additionally, the following entities may spawn during its generation: Bat.
 
 
+
 ## Per-Structure File Contents
 
 <details>

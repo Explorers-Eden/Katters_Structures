@@ -1,8 +1,225 @@
+# Generated Loot.
+
+There are 13 loot tables used in this structure:
+
+<details>
+<summary><strong>kattersstructures:chests/sky/armorer</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 4 | 40.0% |
+| Iron Ingot | 1–3 | 1 | 2 | 20.0% |
+| Quartz | 1–4 | 1 | 2 | 20.0% |
+| Emerald | 1 | 1 | 1 | 10.0% |
+| Iron Helmet | 1 | 1 | 1 | 10.0% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/sky/butcher</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Beef | 1–3 | 1 | 6 | 20.0% |
+| Cooked Porkchop | 1–3 | 1 | 6 | 20.0% |
+| Mutton | 1–3 | 1 | 6 | 20.0% |
+| Wheat | 1–3 | 1 | 6 | 20.0% |
+| Coal | 1–3 | 1 | 3 | 10.0% |
+| Quartz | 1–4 | 1 | 2 | 6.7% |
+| Emerald | 1 | 1 | 1 | 3.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/sky/cartographer</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 15 | 28.8% |
+| Paper | 1–5 | 1 | 15 | 28.8% |
+| Map | 1–3 | 1 | 10 | 19.2% |
+| Compass | 1 | 1 | 5 | 9.6% |
+| Stick | 1–2 | 1 | 5 | 9.6% |
+| Quartz | 1–4 | 1 | 2 | 3.8% |
+| Village Map | 1 | 2 | 5 | 71.4% |
+| Dungeon Map | 1 | 2 | 1 | 14.3% |
+| Villager Map | 1 | 2 | 1 | 14.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/sky/cleric</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 7 | 33.3% |
+| Rotten Flesh | 1–4 | 1 | 7 | 33.3% |
+| Quartz | 1–4 | 1 | 2 | 9.5% |
+| Redstone | 1–4 | 1 | 2 | 9.5% |
+| Emerald | 1–4 | 1 | 1 | 4.8% |
+| Gold Ingot | 1–4 | 1 | 1 | 4.8% |
+| Lapis Lazuli | 1–4 | 1 | 1 | 4.8% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/sky/fletcher</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Feather | 1–3 | 1 | 6 | 25.0% |
+| Stick | 1–3 | 1 | 6 | 25.0% |
+| Flint | 1–3 | 1 | 5 | 20.8% |
+| Arrow | 1–3 | 1 | 2 | 8.3% |
+| Egg | 1–3 | 1 | 2 | 8.3% |
+| Quartz | 1–4 | 1 | 2 | 8.3% |
+| Emerald | 1 | 1 | 1 | 4.2% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/sky/house</strong> (7 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Baked Potato | 1–5 | 1 | 10 | 24.4% |
+| Bread | 1–4 | 1 | 10 | 24.4% |
+| Carrot | 1–7 | 1 | 10 | 24.4% |
+| Quartz | 1–2 | 1 | 5 | 12.2% |
+| Emerald | 1–4 | 1 | 2 | 4.9% |
+| Book | 1 | 1 | 1 | 2.4% |
+| Dark Oak Slab | 1–4 | 1 | 1 | 2.4% |
+| Feather | 1 | 1 | 1 | 2.4% |
+| Gold Nugget | 1–3 | 1 | 1 | 2.4% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/sky/leatherworker</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 5 | 26.3% |
+| Leather Chestplate | 1 | 1 | 3 | 15.8% |
+| Leather Boots | 1 | 1 | 2 | 10.5% |
+| Leather Helmet | 1 | 1 | 2 | 10.5% |
+| Leather Leggings | 1 | 1 | 2 | 10.5% |
+| Quartz | 1–4 | 1 | 2 | 10.5% |
+| Emerald | 1–4 | 1 | 1 | 5.3% |
+| Leather | 1–3 | 1 | 1 | 5.3% |
+| Saddle | 1 | 1 | 1 | 5.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/sky/mason</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 4 | 26.7% |
+| Quartz | 1–4 | 1 | 2 | 13.3% |
+| Quartz Block | 1–3 | 1 | 2 | 13.3% |
+| Quartz Pillar | 1–2 | 1 | 2 | 13.3% |
+| Chiseled Quartz Block | 1 | 1 | 1 | 6.7% |
+| Emerald | 1 | 1 | 1 | 6.7% |
+| Flower Pot | 1 | 1 | 1 | 6.7% |
+| Quartz Bricks | 1–3 | 1 | 1 | 6.7% |
+| Yellow Dye | 1 | 1 | 1 | 6.7% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/sky/random</strong> (6 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Carrot | 1–5 | 1 | 10 | 30.3% |
+| String | 1–3 | 1 | 10 | 30.3% |
+| Bread | 1–5 | 1 | 9 | 27.3% |
+| Cobweb | 1–2 | 1 | 2 | 6.1% |
+| Quartz | 1–2 | 1 | 2 | 6.1% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/sky/shepherd</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Wheat | 1–6 | 1 | 6 | 28.6% |
+| White Wool | 1–8 | 1 | 6 | 28.6% |
+| Yellow Wool | 1–3 | 1 | 3 | 14.3% |
+| Gray Wool | 1–3 | 1 | 2 | 9.5% |
+| Quartz | 1–4 | 1 | 2 | 9.5% |
+| Emerald | 1 | 1 | 1 | 4.8% |
+| Shears | 1 | 1 | 1 | 4.8% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/sky/temple</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 5 | 20.0% |
+| Carrot | 1–7 | 1 | 5 | 20.0% |
+| Emerald | 3–9 | 1 | 5 | 20.0% |
+| Gold Block | 1–2 | 1 | 5 | 20.0% |
+| Raw Gold Block | 1 | 1 | 2 | 8.0% |
+| Diamond | 1–3 | 1 | 1 | 4.0% |
+| Elytra | 1 | 1 | 1 | 4.0% |
+| Emerald Block | 1–3 | 1 | 1 | 4.0% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/sky/toolsmith</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Stick | 1–3 | 1 | 20 | 36.4% |
+| Bread | 1–3 | 1 | 15 | 27.3% |
+| Iron Ingot | 1–5 | 1 | 5 | 9.1% |
+| Iron Pickaxe | 1 | 1 | 5 | 9.1% |
+| Iron Shovel | 1 | 1 | 5 | 9.1% |
+| Quartz | 1–4 | 1 | 2 | 3.6% |
+| Coal | 1–3 | 1 | 1 | 1.8% |
+| Diamond | 1–3 | 1 | 1 | 1.8% |
+| Gold Ingot | 1–3 | 1 | 1 | 1.8% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/sky/weaponsmith</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Baked Potato | 1–3 | 1 | 15 | 16.0% |
+| Bread | 1–3 | 1 | 15 | 16.0% |
+| Iron Ingot | 1–5 | 1 | 10 | 10.6% |
+| Gold Ingot | 1–3 | 1 | 5 | 5.3% |
+| Iron Boots | 1 | 1 | 5 | 5.3% |
+| Iron Chestplate | 1–3 | 1 | 5 | 5.3% |
+| Iron Helmet | 1 | 1 | 5 | 5.3% |
+| Iron Leggings | 1 | 1 | 5 | 5.3% |
+| Iron Pickaxe | 1 | 1 | 5 | 5.3% |
+| Iron Sword | 1 | 1 | 5 | 5.3% |
+| Obsidian | 3–7 | 1 | 5 | 5.3% |
+| Quartz | 3–7 | 1 | 5 | 5.3% |
+| Diamond | 1–3 | 1 | 3 | 3.2% |
+| Saddle | 1 | 1 | 3 | 3.2% |
+| Diamond Horse Armor | 1 | 1 | 1 | 1.1% |
+| Golden Horse Armor | 1 | 1 | 1 | 1.1% |
+| Iron Horse Armor | 1 | 1 | 1 | 1.1% |
+
+</details>
+
 # Contents
 
 The structure is composed of the following blocks: Smooth Quartz, Dark Oak Slab, Smooth Quartz Stairs, Warped Trapdoor, Quartz Block, Warped Slab, Quartz Stairs, Quartz Pillar, Warped Planks, Warped Fence Gate, Cyan Wall Banner, Warped Fence, Dark Prismarine Slab, Dark Prismarine, Smooth Quartz Slab, Warped Stairs, Ochre Froglight, Raw Gold Block, White Wool, White Concrete, Warped Button, Yellow Glazed Terracotta, Gold Block, Quartz Bricks, Dark Prismarine Stairs, Dark Oak Stairs, Moss Block, Quartz Slab, Brick Slab, Bamboo, Deepslate Brick Slab, Farmland, Chest, Verdant Froglight, Brick Stairs, Soul Campfire, White Bed, Dark Oak Planks, Bookshelf, Sea Lantern, Soul Fire, Soul Soil, Chain, Grass Block, Decorated Pot, White Candle, Azalea Leaves, Beetroots, Carrots, Chiseled Bookshelf, Flowering Azalea Leaves, Wheat, Mud, Cyan Candle, Moss Carpet, Grass, Light Blue Candle, Polished Deepslate Wall, Sugar Cane, Brown Wall Banner, Iron Trapdoor, Sand, Dark Oak Trapdoor, Barrel, Birch Stairs, Chiseled Quartz Block, Hay Block, Jukebox, Lightning Rod, Nether Wart, Note Block, Potted Dark Oak Sapling, Soul Sand, Anvil, Bamboo Sapling, Bell, Blast Furnace, Brewing Stand, Campfire, Cartography Table, Cherry Log, Chipped Anvil, Composter, Damaged Anvil, Fletching Table, Grindstone, Lectern, Loom, Polished Deepslate Slab, Potted Azalea Bush, Potted Dead Bush, Potted Flowering Azalea Bush, Smithing Table, Smoker, Stonecutter, Target, Water Cauldron.
 
 Additionally, the following entities may spawn during its generation: End Crystal.
+
 
 
 ## Per-Structure File Contents
@@ -98,9 +315,9 @@ The structure part is composed of the following blocks: Chest.
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky/random |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky/random | 1 |
 
 
 </details>
@@ -419,9 +636,9 @@ The structure part is composed of the following blocks: White Wool, White Concre
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky/random |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky/random | 1 |
 
 
 </details>
@@ -493,9 +710,9 @@ The structure part is composed of the following blocks: Smooth Quartz Stairs, Da
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky/armorer |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky/armorer | 1 |
 
 
 </details>
@@ -538,9 +755,9 @@ The structure part is composed of the following blocks: Smooth Quartz Stairs, Sm
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky/toolsmith |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky/toolsmith | 1 |
 
 
 </details>
@@ -584,9 +801,9 @@ The structure part is composed of the following blocks: Smooth Quartz Stairs, Qu
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky/weaponsmith |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky/weaponsmith | 1 |
 
 
 </details>
@@ -642,9 +859,9 @@ The structure part is composed of the following blocks: Smooth Quartz, Quartz Bl
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky/temple |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky/temple | 1 |
 
 
 </details>
@@ -687,9 +904,9 @@ The structure part is composed of the following blocks: Dark Oak Slab, Smooth Qu
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky/house | 1 |
 
 
 </details>
@@ -734,9 +951,9 @@ The structure part is composed of the following blocks: Smooth Quartz Stairs, Da
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky/house | 1 |
 
 
 </details>
@@ -780,9 +997,9 @@ The structure part is composed of the following blocks: Smooth Quartz, Dark Oak 
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky/house | 2 |
 
 
 </details>
@@ -825,9 +1042,9 @@ The structure part is composed of the following blocks: Smooth Quartz Stairs, Wa
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky/house | 1 |
 
 
 </details>
@@ -1119,9 +1336,9 @@ The structure part is composed of the following blocks: Dark Oak Slab, Dark Oak 
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky/random |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky/random | 4 |
 
 
 </details>
@@ -1223,9 +1440,9 @@ The structure part is composed of the following blocks: Dark Oak Slab, Warped Sl
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky/butcher |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky/butcher | 1 |
 
 
 </details>
@@ -1260,9 +1477,9 @@ The structure part is composed of the following blocks: Dark Oak Slab, Smooth Qu
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky/cartographer |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky/cartographer | 1 |
 
 
 </details>
@@ -1300,9 +1517,9 @@ Additionally, the following entities may spawn during its generation: End Crysta
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky/cleric |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky/cleric | 1 |
 
 
 </details>
@@ -1340,9 +1557,9 @@ The structure part is composed of the following blocks: Dark Oak Slab, Warped Tr
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky/fletcher |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky/fletcher | 1 |
 
 
 </details>
@@ -1377,9 +1594,9 @@ The structure part is composed of the following blocks: Dark Oak Slab, Smooth Qu
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky/leatherworker |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky/leatherworker | 1 |
 
 
 </details>
@@ -1443,9 +1660,9 @@ The structure part is composed of the following blocks: Quartz Bricks, Brick Sla
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky/mason |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky/mason | 1 |
 
 
 </details>
@@ -1483,9 +1700,9 @@ The structure part is composed of the following blocks: Dark Oak Slab, Grass Blo
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky/shepherd |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky/shepherd | 1 |
 
 
 </details>
@@ -1525,9 +1742,9 @@ The structure part is composed of the following blocks: Warped Slab, Dark Oak Sl
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky/house | 1 |
 
 
 </details>
@@ -1604,9 +1821,9 @@ The structure part is composed of the following blocks: Dark Oak Slab, Warped St
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky/house | 1 |
 
 
 </details>

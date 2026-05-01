@@ -1,8 +1,61 @@
+# Generated Loot.
+
+There are 3 loot tables used in this structure:
+
+<details>
+<summary><strong>kattersstructures:chests/desert_dungeon/generic</strong> (2 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bone | 1–3 | 1 | 5 | 35.7% |
+| Rotten Flesh | 1–3 | 1 | 5 | 35.7% |
+| Torch | 1–4 | 1 | 2 | 14.3% |
+| Cobweb | 1 | 1 | 1 | 7.1% |
+| Gold Ingot | 1–4 | 1 | 1 | 7.1% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/desert_dungeon/treasure</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bone | 1–2 | 1 | 5 | 27.8% |
+| Gold Ingot | 1–10 | 1 | 5 | 27.8% |
+| Rotten Flesh | 1–2 | 1 | 5 | 27.8% |
+| Raw Gold | 1–3 | 1 | 2 | 11.1% |
+| Diamond | 1–2 | 1 | 1 | 5.6% |
+| Diamond Axe | 1 | 2 | 1 | 25.0% |
+| Diamond Sword | 1 | 2 | 1 | 25.0% |
+| Gold Block | 1 | 2 | 1 | 25.0% |
+| Skeleton Skull | 1 | 2 | 1 | 25.0% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/desert_dungeon/treasure_02</strong> (2 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bone | 1–2 | 1 | 5 | 27.8% |
+| Gold Ingot | 1–10 | 1 | 5 | 27.8% |
+| Rotten Flesh | 1–2 | 1 | 5 | 27.8% |
+| Raw Gold | 1–3 | 1 | 2 | 11.1% |
+| Diamond | 1–2 | 1 | 1 | 5.6% |
+| Ancient Debris | 1 | 2 | 4 | 28.6% |
+| Diamond Block | 1 | 2 | 4 | 28.6% |
+| Totem Of Undying | 1 | 2 | 4 | 28.6% |
+| Dune Armor Trim Smithing Template | 1 | 2 | 1 | 7.1% |
+| Netherite Upgrade Smithing Template | 1 | 2 | 1 | 7.1% |
+
+</details>
+
 # Contents
 
 The structure is composed of the following blocks: Sandstone, Sand, Smooth Sandstone, Chiseled Sandstone, Smooth Sandstone Stairs, Spruce Fence, Stripped Spruce Log, Spruce Slab, Pointed Dripstone, Birch Pressure Plate, Spruce Wall Sign, Brown Wall Banner, Orange Wall Banner, Cactus, Sandstone Stairs, Ladder, Gold Block, Smooth Red Sandstone, Sandstone Slab, Cobweb, Raw Gold Block, Red Sandstone, Smooth Red Sandstone Stairs, Decorated Pot, Red Sandstone Stairs, Spruce Trapdoor, Chain, Spawner, Spruce Button, Tnt, Chest, Redstone Torch, Smooth Red Sandstone Slab, Bamboo Fence, Barrel, Campfire, Red Sandstone Slab, Emerald Block, Potted Acacia Sapling, Potted Bamboo, Potted Dead Bush, Redstone Wall Torch, Redstone Wire, Repeater, Scaffolding, Stripped Bamboo Block.
 
 Additionally, the following entities may spawn during its generation: Husk, Creeper, Skeleton.
+
 
 
 ## Per-Structure File Contents
@@ -246,9 +299,9 @@ The structure part is composed of the following blocks: Chest.
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/desert_dungeon/generic |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/desert_dungeon/generic | 1 |
 
 
 </details>
@@ -272,9 +325,9 @@ The structure part is composed of the following blocks: Barrel.
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/desert_dungeon/generic |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/desert_dungeon/generic | 1 |
 
 
 </details>
@@ -831,9 +884,9 @@ The structure part is composed of the following blocks: Chest.
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/desert_dungeon/treasure |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/desert_dungeon/treasure | 1 |
 
 
 </details>
@@ -857,9 +910,9 @@ The structure part is composed of the following blocks: Chest.
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/desert_dungeon/treasure_02 |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/desert_dungeon/treasure_02 | 1 |
 
 
 </details>
@@ -883,9 +936,9 @@ The structure part is composed of the following blocks: Barrel.
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/desert_dungeon/treasure_02 |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/desert_dungeon/treasure_02 | 1 |
 
 
 </details>

@@ -5,6 +5,7 @@ The structure does not contain any notable blocks.
 Additionally, the following entities may spawn during its generation: Vindicator, Pillager, Evoker.
 
 
+
 ## Per-Structure File Contents
 
 <details>

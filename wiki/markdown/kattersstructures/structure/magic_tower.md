@@ -1,6 +1,40 @@
+# Generated Loot.
+
+There are 2 loot tables used in this structure:
+
+<details>
+<summary><strong>kattersstructures:chests/magic_tower/basic</strong> (8 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Amethyst Shard | 2–6 | 1 | 10 | 25.0% |
+| Book | 1–4 | 1 | 10 | 25.0% |
+| Emerald | 2–8 | 1 | 8 | 20.0% |
+| Experience Bottle | 5–10 | 1 | 5 | 12.5% |
+| Ink Sac | 2–6 | 1 | 5 | 12.5% |
+| Enchanted Book | 1 | 1 | 2 | 5.0% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/magic_tower/boss_loot</strong> (2 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Amethyst Shard | 2–6 | 1 | 10 | 25.0% |
+| Book | 1–4 | 1 | 10 | 25.0% |
+| Emerald | 2–8 | 1 | 8 | 20.0% |
+| Experience Bottle | 5–10 | 1 | 5 | 12.5% |
+| Ink Sac | 2–6 | 1 | 5 | 12.5% |
+| Diamond | 1–4 | 1 | 2 | 5.0% |
+| Enchanted Book | 1 | 2 | 3 | 100.0% |
+
+</details>
+
 # Contents
 
 The structure is composed of the following blocks: Cracked Polished Blackstone Bricks, Mud, Smooth Basalt, Cyan Terracotta, Bookshelf, Purple Stained Glass, Stone, Pale Moss Block, Polished Tuff, Magenta Stained Glass, Red Nether Bricks, Nether Wart Block, Dark Oak Slab, Black Concrete Powder, Polished Blackstone Bricks, Chiseled Bookshelf, Dark Oak Planks, Cracked Deepslate Tiles, Deepslate Bricks, Polished Deepslate, Polished Blackstone Brick Slab, Stripped Dark Oak Log, Chain, Polished Deepslate Wall, Polished Blackstone Brick Stairs, Cracked Deepslate Bricks, Tripwire, Deepslate Tiles, Ladder, Deepslate Brick Stairs, Soul Lantern, Dark Oak Fence, Dark Oak Stairs, Blackstone Stairs, Glow Lichen, Soul Campfire, Chiseled Deepslate, Iron Bars, Deepslate Tile Stairs, Polished Blackstone Brick Wall, Cobweb, Resin Brick Stairs, Chest, Deepslate Brick Slab, Light, Deepslate Tile Slab, Resin Block, Brown Wall Banner, Dark Oak Trapdoor, Large Amethyst Bud, Purple Wall Banner, Black Candle, Black Wall Banner, Hay Block, Magenta Wall Banner, Polished Blackstone Stairs, Potted Jungle Sapling.
+
 
 
 ## Per-Structure File Contents
@@ -803,10 +837,10 @@ The structure part is composed of the following blocks: Cracked Polished Blackst
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/magic_tower/basic |
-| kattersstructures:chests/magic_tower/boss_loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/magic_tower/basic | 8 |
+| kattersstructures:chests/magic_tower/boss_loot | 2 |
 
 
 </details>

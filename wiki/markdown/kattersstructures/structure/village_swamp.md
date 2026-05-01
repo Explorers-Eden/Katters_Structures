@@ -1,8 +1,248 @@
+# Generated Loot.
+
+There are 14 loot tables used in this structure:
+
+<details>
+<summary><strong>kattersstructures:chests/swamp/armorer</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 4 | 40.0% |
+| Iron Ingot | 1–3 | 1 | 2 | 20.0% |
+| Mud | 1–4 | 1 | 2 | 20.0% |
+| Emerald | 1 | 1 | 1 | 10.0% |
+| Iron Helmet | 1 | 1 | 1 | 10.0% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/swamp/big_stem</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Brown Mushroom | 4–8 | 1 | 4 | 13.8% |
+| Emerald | 4–8 | 1 | 4 | 13.8% |
+| Mangrove Propagule | 1–2 | 1 | 4 | 13.8% |
+| Potion | 1 | 1 | 4 | 13.8% |
+| Red Mushroom | 2–5 | 1 | 4 | 13.8% |
+| Mud | 1–5 | 1 | 3 | 10.3% |
+| Diamond | 1–2 | 1 | 2 | 6.9% |
+| Mangrove Planks | 10–15 | 1 | 2 | 6.9% |
+| Suspicious Stew | 1 | 1 | 2 | 6.9% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/swamp/butcher</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Beef | 1–3 | 1 | 6 | 20.0% |
+| Cooked Porkchop | 1–3 | 1 | 6 | 20.0% |
+| Mutton | 1–3 | 1 | 6 | 20.0% |
+| Wheat | 1–3 | 1 | 6 | 20.0% |
+| Coal | 1–3 | 1 | 3 | 10.0% |
+| Mud | 1–4 | 1 | 2 | 6.7% |
+| Emerald | 1 | 1 | 1 | 3.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/swamp/cartographer</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 15 | 28.8% |
+| Paper | 1–5 | 1 | 15 | 28.8% |
+| Map | 1–3 | 1 | 10 | 19.2% |
+| Compass | 1 | 1 | 5 | 9.6% |
+| Stick | 1–2 | 1 | 5 | 9.6% |
+| Mud | 1–4 | 1 | 2 | 3.8% |
+| Village Map | 1 | 2 | 5 | 71.4% |
+| Dungeon Map | 1 | 2 | 1 | 14.3% |
+| Villager Map | 1 | 2 | 1 | 14.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/swamp/cleric</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 7 | 33.3% |
+| Rotten Flesh | 1–4 | 1 | 7 | 33.3% |
+| Mud | 1–4 | 1 | 2 | 9.5% |
+| Redstone | 1–4 | 1 | 2 | 9.5% |
+| Emerald | 1–4 | 1 | 1 | 4.8% |
+| Gold Ingot | 1–4 | 1 | 1 | 4.8% |
+| Lapis Lazuli | 1–4 | 1 | 1 | 4.8% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/swamp/fisherman</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Wheat Seeds | 1–3 | 1 | 3 | 21.4% |
+| Coal | 1–3 | 1 | 2 | 14.3% |
+| Cod | 1–3 | 1 | 2 | 14.3% |
+| Mud | 1–4 | 1 | 2 | 14.3% |
+| Barrel | 1–3 | 1 | 1 | 7.1% |
+| Emerald | 1 | 1 | 1 | 7.1% |
+| Fishing Rod | 1 | 1 | 1 | 7.1% |
+| Tropical Fish | 1–3 | 1 | 1 | 7.1% |
+| Water Bucket | 1 | 1 | 1 | 7.1% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/swamp/fletcher</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Feather | 1–3 | 1 | 6 | 25.0% |
+| Stick | 1–3 | 1 | 6 | 25.0% |
+| Flint | 1–3 | 1 | 5 | 20.8% |
+| Arrow | 1–3 | 1 | 2 | 8.3% |
+| Egg | 1–3 | 1 | 2 | 8.3% |
+| Mud | 1–4 | 1 | 2 | 8.3% |
+| Emerald | 1 | 1 | 1 | 4.2% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/swamp/grave</strong> (2 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bone | 1–5 | 1 | 5 | 22.7% |
+| String | 1–3 | 1 | 4 | 18.2% |
+| Brown Mushroom | 1–2 | 1 | 3 | 13.6% |
+| Cobweb | 1–2 | 1 | 3 | 13.6% |
+| Red Mushroom | 1–2 | 1 | 3 | 13.6% |
+| Emerald | 1–5 | 1 | 2 | 9.1% |
+| Leather Chestplate | 1 | 1 | 1 | 4.5% |
+| Wooden Shovel | 1 | 1 | 1 | 4.5% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/swamp/house</strong> (6 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Apple | 1–5 | 1 | 10 | 23.3% |
+| Bread | 1–4 | 1 | 10 | 23.3% |
+| Carrot | 1–7 | 1 | 10 | 23.3% |
+| Mud | 1–2 | 1 | 5 | 11.6% |
+| Emerald | 1–4 | 1 | 2 | 4.7% |
+| Mangrove Propagule | 1 | 1 | 2 | 4.7% |
+| Book | 1 | 1 | 1 | 2.3% |
+| Feather | 1 | 1 | 1 | 2.3% |
+| Gold Nugget | 1–3 | 1 | 1 | 2.3% |
+| Mangrove Planks | 1–16 | 1 | 1 | 2.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/swamp/leatherworker</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 5 | 26.3% |
+| Leather Chestplate | 1 | 1 | 3 | 15.8% |
+| Leather Boots | 1 | 1 | 2 | 10.5% |
+| Leather Helmet | 1 | 1 | 2 | 10.5% |
+| Leather Leggings | 1 | 1 | 2 | 10.5% |
+| Mud | 1–4 | 1 | 2 | 10.5% |
+| Emerald | 1–4 | 1 | 1 | 5.3% |
+| Leather | 1–3 | 1 | 1 | 5.3% |
+| Saddle | 1 | 1 | 1 | 5.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/swamp/mason</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 4 | 26.7% |
+| Chiseled Stone Bricks | 1–2 | 1 | 2 | 13.3% |
+| Mud | 1–4 | 1 | 2 | 13.3% |
+| Stone | 1–3 | 1 | 2 | 13.3% |
+| Clay Ball | 1–3 | 1 | 1 | 6.7% |
+| Emerald | 1 | 1 | 1 | 6.7% |
+| Flower Pot | 1 | 1 | 1 | 6.7% |
+| Smooth Stone | 1 | 1 | 1 | 6.7% |
+| Yellow Dye | 1 | 1 | 1 | 6.7% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/swamp/shepherd</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Wheat | 1–6 | 1 | 6 | 26.1% |
+| White Wool | 1–8 | 1 | 6 | 26.1% |
+| Black Wool | 1–3 | 1 | 3 | 13.0% |
+| Brown Wool | 1–3 | 1 | 2 | 8.7% |
+| Gray Wool | 1–3 | 1 | 2 | 8.7% |
+| Mud | 1–4 | 1 | 2 | 8.7% |
+| Emerald | 1 | 1 | 1 | 4.3% |
+| Shears | 1 | 1 | 1 | 4.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/swamp/toolsmith</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Stick | 1–3 | 1 | 20 | 36.4% |
+| Bread | 1–3 | 1 | 15 | 27.3% |
+| Iron Ingot | 1–5 | 1 | 5 | 9.1% |
+| Iron Pickaxe | 1 | 1 | 5 | 9.1% |
+| Iron Shovel | 1 | 1 | 5 | 9.1% |
+| Mud | 1–4 | 1 | 2 | 3.6% |
+| Coal | 1–3 | 1 | 1 | 1.8% |
+| Diamond | 1–3 | 1 | 1 | 1.8% |
+| Gold Ingot | 1–3 | 1 | 1 | 1.8% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/swamp/weaponsmith</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Apple | 1–3 | 1 | 15 | 16.0% |
+| Bread | 1–3 | 1 | 15 | 16.0% |
+| Iron Ingot | 1–5 | 1 | 10 | 10.6% |
+| Gold Ingot | 1–3 | 1 | 5 | 5.3% |
+| Iron Boots | 1 | 1 | 5 | 5.3% |
+| Iron Chestplate | 1–3 | 1 | 5 | 5.3% |
+| Iron Helmet | 1 | 1 | 5 | 5.3% |
+| Iron Leggings | 1 | 1 | 5 | 5.3% |
+| Iron Pickaxe | 1 | 1 | 5 | 5.3% |
+| Iron Sword | 1 | 1 | 5 | 5.3% |
+| Mud | 3–7 | 1 | 5 | 5.3% |
+| Obsidian | 3–7 | 1 | 5 | 5.3% |
+| Diamond | 1–3 | 1 | 3 | 3.2% |
+| Saddle | 1 | 1 | 3 | 3.2% |
+| Diamond Horse Armor | 1 | 1 | 1 | 1.1% |
+| Golden Horse Armor | 1 | 1 | 1 | 1.1% |
+| Iron Horse Armor | 1 | 1 | 1 | 1.1% |
+
+</details>
+
 # Contents
 
 The structure is composed of the following blocks: Muddy Mangrove Roots, Mangrove Slab, Mud Brick Stairs, Vine, Mangrove Stairs, Mangrove Planks, Mangrove Log, Grass Block, Mud, Moss Block, Mangrove Trapdoor, Mangrove Button, Mud Bricks, Coarse Dirt, Packed Mud, Grass, Mangrove Roots, Moss Carpet, Mangrove Wall Sign, Mud Brick Slab, Tall Grass, Large Fern, Mangrove Fence, Fern, Soul Lantern, Farmland, Mud Brick Wall, Mangrove Wood, Green Terracotta, Red Mushroom Block, Mangrove Door, Wheat, Azalea, Light Gray Terracotta, Brown Terracotta, Chest, Stone, Flowering Azalea, Hay Block, Beetroots, Brown Concrete, Stripped Mangrove Wood, Brown Bed, Seagrass, Dirt, Spruce Trapdoor, Tall Seagrass, Green Bed, Nether Wart, Potatoes, Soul Sand, Brown Wall Banner, Chiseled Bookshelf, Gray Carpet, White Carpet, Black Bed, Bookshelf, Carrots, Cobbled Deepslate Wall, Gravel, Gray Bed, Light Gray Bed, Mushroom Stem, Pumpkin Stem, Birch Stairs, Campfire, Dark Oak Stairs, Polished Andesite Stairs, Pumpkin, Anvil, Blue Bed, Brown Candle, Flower Pot, Green Wall Banner, Iron Trapdoor, Light Gray Wool, Mangrove Fence Gate, Oak Slab, Potted Fern, Potted Flowering Azalea Bush, Red Bed, Water Cauldron, White Bed, Barrel, Bell, Blast Furnace, Brewing Stand, Brown Mushroom, Cartography Table, Chain, Cobbled Deepslate Slab, Composter, Damaged Anvil, Fletching Table, Furnace, Grindstone, Lectern, Loom, Pearlescent Froglight, Potted Azalea Bush, Potted Dead Bush, Potted Warped Fungus, Raw Iron Block, Red Mushroom, Smithing Table, Stonecutter, Target.
 
 Additionally, the following entities may spawn during its generation: Villager.
+
 
 
 ## Per-Structure File Contents
@@ -239,9 +479,9 @@ The structure part is composed of the following blocks: Mud Bricks, Mangrove Sta
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/swamp/armorer |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/swamp/armorer | 1 |
 
 
 </details>
@@ -295,9 +535,9 @@ The structure part is composed of the following blocks: Muddy Mangrove Roots, Gr
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/swamp/butcher |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/swamp/butcher | 1 |
 
 
 </details>
@@ -347,9 +587,9 @@ The structure part is composed of the following blocks: Muddy Mangrove Roots, Mu
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/swamp/cartographer |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/swamp/cartographer | 1 |
 
 
 </details>
@@ -396,9 +636,9 @@ The structure part is composed of the following blocks: Mangrove Trapdoor, Mud B
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/swamp/cleric |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/swamp/cleric | 1 |
 
 
 </details>
@@ -480,9 +720,9 @@ The structure part is composed of the following blocks: Mud Brick Stairs, Mangro
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/swamp/fisherman |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/swamp/fisherman | 1 |
 
 
 </details>
@@ -538,9 +778,9 @@ The structure part is composed of the following blocks: Muddy Mangrove Roots, Mu
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/swamp/fletcher |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/swamp/fletcher | 1 |
 
 
 </details>
@@ -591,9 +831,9 @@ The structure part is composed of the following blocks: Muddy Mangrove Roots, Mu
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/swamp/leatherworker |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/swamp/leatherworker | 1 |
 
 
 </details>
@@ -692,9 +932,9 @@ The structure part is composed of the following blocks: Green Terracotta, Mud Br
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/swamp/mason |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/swamp/mason | 1 |
 
 
 </details>
@@ -751,9 +991,9 @@ The structure part is composed of the following blocks: Muddy Mangrove Roots, Gr
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/swamp/shepherd |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/swamp/shepherd | 1 |
 
 
 </details>
@@ -803,9 +1043,9 @@ The structure part is composed of the following blocks: Mud Bricks, Mangrove Sta
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/swamp/toolsmith |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/swamp/toolsmith | 1 |
 
 
 </details>
@@ -855,9 +1095,9 @@ The structure part is composed of the following blocks: Mud Bricks, Mangrove Sta
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/swamp/weaponsmith |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/swamp/weaponsmith | 1 |
 
 
 </details>
@@ -891,9 +1131,9 @@ The structure part is composed of the following blocks: Mud, Mangrove Wood, Coar
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/swamp/big_stem |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/swamp/big_stem | 1 |
 
 
 </details>
@@ -943,9 +1183,9 @@ The structure part is composed of the following blocks: Muddy Mangrove Roots, Ma
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/swamp/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/swamp/house | 2 |
 
 
 </details>
@@ -973,9 +1213,9 @@ The structure part is composed of the following blocks: Mud, Packed Mud, Mud Bri
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/swamp/grave |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/swamp/grave | 2 |
 
 
 </details>
@@ -1067,9 +1307,9 @@ The structure part is composed of the following blocks: Muddy Mangrove Roots, Mu
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/swamp/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/swamp/house | 1 |
 
 
 </details>
@@ -1118,9 +1358,9 @@ The structure part is composed of the following blocks: Muddy Mangrove Roots, Ma
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/swamp/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/swamp/house | 1 |
 
 
 </details>
@@ -1170,9 +1410,9 @@ The structure part is composed of the following blocks: Muddy Mangrove Roots, Ma
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/swamp/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/swamp/house | 1 |
 
 
 </details>
@@ -1220,9 +1460,9 @@ The structure part is composed of the following blocks: Muddy Mangrove Roots, Mu
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/swamp/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/swamp/house | 1 |
 
 
 </details>

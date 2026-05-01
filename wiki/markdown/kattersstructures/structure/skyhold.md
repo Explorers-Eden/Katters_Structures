@@ -1,8 +1,38 @@
+# Generated Loot.
+
+There are 2 loot tables used in this structure:
+
+<details>
+<summary><strong>kattersstructures:chests/skyhold/house</strong> (8 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 4–6 | 1 | 10 | 26.3% |
+| Dark Oak Planks | 1–6 | 1 | 10 | 26.3% |
+| Poppy | 1–2 | 1 | 10 | 26.3% |
+| Emerald | 3–6 | 1 | 4 | 10.5% |
+| Iron Ingot | 2–4 | 1 | 4 | 10.5% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/skyhold/iron</strong> (4 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Iron Ingot | 2–4 | 1 | 10 | 40.0% |
+| Raw Iron | 2–6 | 1 | 10 | 40.0% |
+| Emerald | 3–6 | 1 | 4 | 16.0% |
+| Iron Block | 1–2 | 1 | 1 | 4.0% |
+
+</details>
+
 # Contents
 
 The structure is composed of the following blocks: Stone, Dirt, Grass Block, Pale Moss Block, Snow, Stone Bricks, Polished Andesite, Coarse Dirt, Sculk, Blue Ice, Iron Ore, Dirt Path, Pale Oak Planks, Pale Oak Leaves, Spruce Slab, Sculk Vein, Spruce Log, Raw Iron Block, Coal Ore, Stripped Jungle Log, Gravel, Cobblestone, Spruce Planks, Cracked Stone Bricks, Stripped Spruce Log, Polished Andesite Slab, Glow Lichen, Stripped Oak Log, Stripped Pale Oak Log, Magma Block, Stone Brick Slab, Fire, Rail, Jungle Slab, Jungle Log, Iron Bars, Oak Log, Hay Block, Pale Oak Log, Iron Block, Ladder, Polished Andesite Stairs, Netherrack, Dead Bush, Dark Oak Slab, Spruce Fence, Dark Oak Stairs, Pale Oak Wood, Black Wall Banner, Dead Bubble Coral, Spruce Trapdoor, Stone Slab, Dark Oak Trapdoor, Stone Brick Stairs, Oak Fence, Sculk Sensor, Dark Oak Door, Chain, Chest, Stone Stairs, Stripped Pale Oak Wood, Dark Oak Planks, Pale Oak Fence, Andesite Stairs, Pale Oak Trapdoor, Gray Bed, Pale Oak Slab, Redstone Block, Heavy Weighted Pressure Plate, Mossy Stone Bricks, Carved Pumpkin, Pale Oak Fence Gate, Andesite, Cobweb, Andesite Slab, Chiseled Stone Bricks, Sculk Shrieker, Iron Door, Stone Button, Sculk Catalyst, Spruce Stairs, Bell, Pale Oak Stairs.
 
 Additionally, the following entities may spawn during its generation: Ravager, Evoker, Vindicator, Iron Golem, Item.
+
 
 
 ## Per-Structure File Contents
@@ -102,10 +132,10 @@ Additionally, the following entities may spawn during its generation: Ravager, E
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/skyhold/house |
-| kattersstructures:chests/skyhold/iron |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/skyhold/house | 6 |
+| kattersstructures:chests/skyhold/iron | 4 |
 
 
 </details>
@@ -309,9 +339,9 @@ Additionally, the following entities may spawn during its generation: Evoker, Ra
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/skyhold/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/skyhold/house | 2 |
 
 
 </details>

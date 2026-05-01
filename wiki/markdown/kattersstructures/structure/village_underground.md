@@ -1,6 +1,176 @@
+# Generated Loot.
+
+There are 10 loot tables used in this structure:
+
+<details>
+<summary><strong>kattersstructures:chests/underground/armorer</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 4 | 40.0% |
+| Iron Ingot | 1–3 | 1 | 2 | 20.0% |
+| Stone | 1–4 | 1 | 2 | 20.0% |
+| Emerald | 1 | 1 | 1 | 10.0% |
+| Iron Helmet | 1 | 1 | 1 | 10.0% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/underground/cleric</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 7 | 33.3% |
+| Rotten Flesh | 1–4 | 1 | 7 | 33.3% |
+| Redstone | 1–4 | 1 | 2 | 9.5% |
+| Stone | 1–4 | 1 | 2 | 9.5% |
+| Emerald | 1–4 | 1 | 1 | 4.8% |
+| Gold Ingot | 1–4 | 1 | 1 | 4.8% |
+| Lapis Lazuli | 1–4 | 1 | 1 | 4.8% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/underground/fletcher</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Feather | 1–3 | 1 | 6 | 25.0% |
+| Stick | 1–3 | 1 | 6 | 25.0% |
+| Flint | 1–3 | 1 | 5 | 20.8% |
+| Arrow | 1–3 | 1 | 2 | 8.3% |
+| Egg | 1–3 | 1 | 2 | 8.3% |
+| Stone | 1–4 | 1 | 2 | 8.3% |
+| Emerald | 1 | 1 | 1 | 4.2% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/underground/house</strong> (11 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 10 | 26.3% |
+| Gravel | 1–7 | 1 | 10 | 26.3% |
+| Stone | 1–5 | 1 | 10 | 26.3% |
+| Emerald | 1–4 | 1 | 2 | 5.3% |
+| Glow Lichen | 1 | 1 | 2 | 5.3% |
+| Book | 1 | 1 | 1 | 2.6% |
+| Feather | 1 | 1 | 1 | 2.6% |
+| Gold Nugget | 1–3 | 1 | 1 | 2.6% |
+| Oak Slab | 1–16 | 1 | 1 | 2.6% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/underground/leatherworker</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 5 | 26.3% |
+| Leather Chestplate | 1 | 1 | 3 | 15.8% |
+| Leather Boots | 1 | 1 | 2 | 10.5% |
+| Leather Helmet | 1 | 1 | 2 | 10.5% |
+| Leather Leggings | 1 | 1 | 2 | 10.5% |
+| Stone | 1–4 | 1 | 2 | 10.5% |
+| Emerald | 1–4 | 1 | 1 | 5.3% |
+| Leather | 1–3 | 1 | 1 | 5.3% |
+| Saddle | 1 | 1 | 1 | 5.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/underground/mason</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 4 | 26.7% |
+| Chiseled Quartz Block | 1–2 | 1 | 2 | 13.3% |
+| Polished Granite | 1–4 | 1 | 2 | 13.3% |
+| Stone | 1–3 | 1 | 2 | 13.3% |
+| Clay Ball | 1–3 | 1 | 1 | 6.7% |
+| Emerald | 1 | 1 | 1 | 6.7% |
+| Flower Pot | 1 | 1 | 1 | 6.7% |
+| Gray Dye | 1 | 1 | 1 | 6.7% |
+| Smooth Stone | 1 | 1 | 1 | 6.7% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/underground/random</strong> (14 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Cobweb | 1–3 | 1 | 10 | 29.4% |
+| Stone | 1–5 | 1 | 10 | 29.4% |
+| Gravel | 1–5 | 1 | 9 | 26.5% |
+| Andesite | 1–2 | 1 | 2 | 5.9% |
+| Iron Ingot | 1–2 | 1 | 2 | 5.9% |
+| Stone Pickaxe | 1 | 1 | 1 | 2.9% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/underground/toolsmith</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Stick | 1–3 | 1 | 20 | 36.4% |
+| Bread | 1–3 | 1 | 15 | 27.3% |
+| Iron Ingot | 1–5 | 1 | 5 | 9.1% |
+| Iron Pickaxe | 1 | 1 | 5 | 9.1% |
+| Iron Shovel | 1 | 1 | 5 | 9.1% |
+| Stone | 1–4 | 1 | 2 | 3.6% |
+| Coal | 1–3 | 1 | 1 | 1.8% |
+| Diamond | 1–3 | 1 | 1 | 1.8% |
+| Gold Ingot | 1–3 | 1 | 1 | 1.8% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/underground/treasures</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 5 | 21.7% |
+| Emerald | 3–9 | 1 | 5 | 21.7% |
+| Oak Planks | 1–2 | 1 | 5 | 21.7% |
+| Stone | 1–7 | 1 | 5 | 21.7% |
+| Diamond | 1–3 | 1 | 1 | 4.3% |
+| Emerald Block | 1–3 | 1 | 1 | 4.3% |
+| Totem Of Undying | 1 | 1 | 1 | 4.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/underground/weaponsmith</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–3 | 1 | 15 | 16.0% |
+| Stone | 1–3 | 1 | 15 | 16.0% |
+| Iron Ingot | 1–5 | 1 | 10 | 10.6% |
+| Gold Ingot | 1–3 | 1 | 5 | 5.3% |
+| Gravel | 3–7 | 1 | 5 | 5.3% |
+| Iron Boots | 1 | 1 | 5 | 5.3% |
+| Iron Chestplate | 1–3 | 1 | 5 | 5.3% |
+| Iron Helmet | 1 | 1 | 5 | 5.3% |
+| Iron Leggings | 1 | 1 | 5 | 5.3% |
+| Iron Pickaxe | 1 | 1 | 5 | 5.3% |
+| Iron Sword | 1 | 1 | 5 | 5.3% |
+| Obsidian | 3–7 | 1 | 5 | 5.3% |
+| Diamond | 1–3 | 1 | 3 | 3.2% |
+| Saddle | 1 | 1 | 3 | 3.2% |
+| Diamond Horse Armor | 1 | 1 | 1 | 1.1% |
+| Golden Horse Armor | 1 | 1 | 1 | 1.1% |
+| Iron Horse Armor | 1 | 1 | 1 | 1.1% |
+
+</details>
+
 # Contents
 
 The structure is composed of the following blocks: Stone, Oak Slab, Stone Slab, Oak Fence, Andesite, Stone Button, Granite, Oak Log, Emerald Ore, Oak Planks, Glow Lichen, Stripped Oak Log, Oak Wall Sign, Diorite, Oak Fence Gate, Stone Stairs, Lantern, Andesite Slab, Coal Ore, Oak Stairs, Granite Slab, Stone Bricks, Oak Button, Light Gray Bed, Oak Door, Deepslate, Amethyst Block, Chest, Diorite Slab, Diamond Ore, Gravel, Tuff, Smooth Basalt, Cracked Stone Bricks, Polished Andesite Slab, Andesite Wall, Andesite Stairs, Granite Stairs, Crimson Fence, Light Gray Stained Glass Pane, Warped Fence, Coarse Dirt, Cobbled Deepslate, Cobbled Deepslate Slab, Furnace, Stone Brick Stairs, Calcite, Coal Block, Deepslate Tiles, Barrel, Chain, Hay Block, Budding Amethyst, Diorite Stairs, Iron Bars, Rooted Dirt, Spruce Trapdoor, Brown Wall Banner, Campfire, Emerald Block, Gold Ore, Gray Candle, Oak Trapdoor, Amethyst Cluster, Cobbled Deepslate Wall, Iron Trapdoor, Large Amethyst Bud, Magenta Candle, Note Block, Potted Oak Sapling, Purple Candle, Small Amethyst Bud, Anvil, Bamboo Block, Bell, Birch Stairs, Blast Furnace, Brewing Stand, Chipped Anvil, Damaged Anvil, Fletching Table, Grindstone, Jukebox, Potted Azure Bluet, Potted Dead Bush, Potted Fern, Potted Red Mushroom, Smithing Table, Spawner, Stonecutter, Target, Water Cauldron.
+
 
 
 ## Per-Structure File Contents
@@ -36,9 +206,9 @@ The structure part is composed of the following blocks: Stone, Andesite, Stone S
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/underground/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/underground/house | 1 |
 
 
 </details>
@@ -71,9 +241,9 @@ The structure part is composed of the following blocks: Stone, Stone Slab, Diori
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/underground/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/underground/house | 1 |
 
 
 </details>
@@ -136,9 +306,9 @@ The structure part is composed of the following blocks: Stone, Oak Planks, Oak F
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/underground/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/underground/house | 1 |
 
 
 </details>
@@ -172,9 +342,9 @@ The structure part is composed of the following blocks: Stone, Andesite, Stone S
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/underground/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/underground/house | 1 |
 
 
 </details>
@@ -244,9 +414,9 @@ The structure part is composed of the following blocks: Stone, Deepslate, Stone 
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/underground/armorer |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/underground/armorer | 1 |
 
 
 </details>
@@ -286,9 +456,9 @@ The structure part is composed of the following blocks: Stone, Amethyst Block, S
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/underground/cleric |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/underground/cleric | 1 |
 
 
 </details>
@@ -349,9 +519,9 @@ The structure part is composed of the following blocks: Stone, Stone Bricks, Cra
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/underground/mason |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/underground/mason | 1 |
 
 
 </details>
@@ -389,9 +559,9 @@ The structure part is composed of the following blocks: Stone, Granite, Oak Plan
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/underground/random |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/underground/random | 5 |
 
 
 </details>
@@ -456,9 +626,9 @@ The structure part is composed of the following blocks: Stone, Deepslate, Stone 
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/underground/toolsmith |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/underground/toolsmith | 1 |
 
 
 </details>
@@ -494,9 +664,9 @@ The structure part is composed of the following blocks: Stone, Andesite, Tuff, C
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/underground/weaponsmith |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/underground/weaponsmith | 1 |
 
 
 </details>
@@ -532,9 +702,9 @@ The structure part is composed of the following blocks: Stone, Andesite, Stone S
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/underground/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/underground/house | 1 |
 
 
 </details>
@@ -568,9 +738,9 @@ The structure part is composed of the following blocks: Stone, Stone Slab, Grani
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/underground/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/underground/house | 1 |
 
 
 </details>
@@ -604,9 +774,9 @@ The structure part is composed of the following blocks: Stone, Diorite, Stone Sl
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/underground/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/underground/house | 1 |
 
 
 </details>
@@ -669,9 +839,9 @@ The structure part is composed of the following blocks: Stone, Oak Planks, Oak F
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/underground/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/underground/house | 1 |
 
 
 </details>
@@ -704,9 +874,9 @@ The structure part is composed of the following blocks: Stone, Stone Slab, Glow 
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/underground/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/underground/house | 1 |
 
 
 </details>
@@ -740,9 +910,9 @@ The structure part is composed of the following blocks: Stone, Oak Planks, Oak F
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/underground/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/underground/house | 1 |
 
 
 </details>
@@ -777,9 +947,9 @@ The structure part is composed of the following blocks: Stone, Andesite, Stone S
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/underground/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/underground/house | 1 |
 
 
 </details>
@@ -841,9 +1011,9 @@ The structure part is composed of the following blocks: Stone, Stone Slab, Oak P
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/underground/fletcher |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/underground/fletcher | 1 |
 
 
 </details>
@@ -872,9 +1042,9 @@ The structure part is composed of the following blocks: Stone, Stone Slab, Stone
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/underground/leatherworker |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/underground/leatherworker | 1 |
 
 
 </details>
@@ -907,9 +1077,9 @@ The structure part is composed of the following blocks: Stone, Stone Slab, Stone
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/underground/random |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/underground/random | 7 |
 
 
 </details>
@@ -1271,9 +1441,9 @@ The structure part is composed of the following blocks: Stone, Emerald Ore, Coal
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/underground/treasures |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/underground/treasures | 1 |
 
 
 </details>
@@ -1518,9 +1688,9 @@ The structure part is composed of the following blocks: Stone, Oak Slab, Oak Fen
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/underground/random |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/underground/random | 2 |
 
 
 </details>

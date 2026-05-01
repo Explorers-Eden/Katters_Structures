@@ -1,6 +1,91 @@
+# Generated Loot.
+
+There are 6 loot tables used in this structure:
+
+<details>
+<summary><strong>kattersstructures:chests/ocean_ships/chests</strong> (19 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Cod | 1–5 | 1 | 10 | 29.4% |
+| String | 1–3 | 1 | 10 | 29.4% |
+| Salmon | 1–5 | 1 | 9 | 26.5% |
+| Cobweb | 1–2 | 1 | 2 | 5.9% |
+| Tripwire Hook | 1–2 | 1 | 2 | 5.9% |
+| Fishing Rod | 1 | 1 | 1 | 2.9% |
+| Village Map | 1 | 2 | 1 | 100.0% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/ocean/random</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Cod | 1–5 | 1 | 10 | 29.4% |
+| String | 1–3 | 1 | 10 | 29.4% |
+| Salmon | 1–5 | 1 | 9 | 26.5% |
+| Cobweb | 1–2 | 1 | 2 | 5.9% |
+| Tripwire Hook | 1–2 | 1 | 2 | 5.9% |
+| Fishing Rod | 1 | 1 | 1 | 2.9% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/sky_decor/pillager/arrows</strong> (3 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Arrow | 4–10 | 1 | 10 | 83.3% |
+| Crossbow | 1 | 1 | 2 | 16.7% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/sky_decor/pillager/storage</strong> (6 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Birch Planks | 1–5 | 1 | 10 | 23.8% |
+| Dark Oak Log | 1–4 | 1 | 10 | 23.8% |
+| Gray Wool | 3–6 | 1 | 10 | 23.8% |
+| Arrow | 4–8 | 1 | 4 | 9.5% |
+| Emerald | 4–10 | 1 | 4 | 9.5% |
+| String | 1–4 | 1 | 3 | 7.1% |
+| Crossbow | 1 | 1 | 1 | 2.4% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/sky_decor/pillager/tnt</strong> (9 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Gunpowder | 4–10 | 1 | 10 | 43.5% |
+| Tnt | 1–4 | 1 | 5 | 21.7% |
+| Arrow | 4–8 | 1 | 4 | 17.4% |
+| String | 1–4 | 1 | 3 | 13.0% |
+| Flint And Steel | 1 | 1 | 1 | 4.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/sky_decor/pillager/treasure</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Crossbow | 1 | 1 | 6 | 27.3% |
+| Diamond | 1–4 | 1 | 5 | 22.7% |
+| Arrow | 4–8 | 1 | 4 | 18.2% |
+| Emerald | 4–10 | 1 | 4 | 18.2% |
+| String | 1–4 | 1 | 3 | 13.6% |
+
+</details>
+
 # Contents
 
 The structure is composed of the following blocks: Dark Oak Planks, Birch Fence, Light Gray Wool, Birch Planks, Dark Oak Stairs, Dark Oak Log, Dark Oak Trapdoor, Birch Stairs, Birch Slab, Dark Oak Slab, Spruce Trapdoor, Spruce Stairs, Dark Oak Fence, Jungle Trapdoor, Spruce Slab, Campfire, Oak Trapdoor, Hay Block, Jungle Planks, Spruce Planks, Jungle Slab, Lantern, White Wool, Barrel, Gray Wool, Jungle Stairs, Jungle Wall Sign, Oak Planks, Polished Blackstone, Ladder, Dried Kelp Block, Oak Stairs, Spruce Fence, Chest, White Wall Banner, Oak Wall Sign, Oak Slab, Spruce Wall Sign, Stripped Jungle Log, Stripped Oak Log, Stripped Spruce Log, Jungle Fence, Bamboo Planks, Chain, Red Wool, White Carpet, Bamboo Mosaic, Bamboo Trapdoor, Bookshelf, Polished Blackstone Slab, Spruce Fence Gate, Light Blue Wool, Beehive, Red Wall Banner, Dark Oak Fence Gate, Decorated Pot, Polished Blackstone Wall, Jungle Fence Gate, Crafting Table, Farmland, Glass Pane, Oak Fence, Pumpkin, Spawner, Spruce Door, Stone Brick Wall, Bamboo Stairs, Brown Wall Banner, Chiseled Bookshelf, Bamboo Slab, Brown Bed, Fletching Table, Furnace, Oak Fence Gate, Pink Bed, Potted Flowering Azalea Bush, Purple Bed, Scaffolding, Spruce Button, Stripped Bamboo Block, Wheat, Anvil, Beetroots, Bell, Melon Stem, Mud Brick Wall, Polished Blackstone Button, Potted Allium, Stripped Oak Wood.
+
 
 
 ## Per-Structure File Contents
@@ -53,12 +138,12 @@ The structure part is composed of the following blocks: Dark Oak Planks, Birch F
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/sky_decor/pillager/arrows |
-| kattersstructures:chests/sky_decor/pillager/storage |
-| kattersstructures:chests/sky_decor/pillager/tnt |
-| kattersstructures:chests/sky_decor/pillager/treasure |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/sky_decor/pillager/arrows | 3 |
+| kattersstructures:chests/sky_decor/pillager/storage | 6 |
+| kattersstructures:chests/sky_decor/pillager/tnt | 9 |
+| kattersstructures:chests/sky_decor/pillager/treasure | 1 |
 
 
 </details>
@@ -117,9 +202,9 @@ The structure part is composed of the following blocks: Spruce Stairs, Spruce Pl
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/ocean_ships/chests |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/ocean_ships/chests | 5 |
 
 
 </details>
@@ -176,9 +261,9 @@ The structure part is composed of the following blocks: Campfire, Jungle Trapdoo
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/ocean_ships/chests |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/ocean_ships/chests | 8 |
 
 
 </details>
@@ -232,9 +317,9 @@ The structure part is composed of the following blocks: Spruce Trapdoor, Jungle 
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/ocean_ships/chests |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/ocean_ships/chests | 3 |
 
 
 </details>
@@ -280,10 +365,10 @@ The structure part is composed of the following blocks: Spruce Stairs, Jungle Sl
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/ocean/random |
-| kattersstructures:chests/ocean_ships/chests |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/ocean_ships/chests | 1 |
+| kattersstructures:chests/ocean/random | 1 |
 
 
 </details>
@@ -332,9 +417,9 @@ The structure part is composed of the following blocks: Spruce Trapdoor, Spruce 
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/ocean_ships/chests |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/ocean_ships/chests | 2 |
 
 
 </details>

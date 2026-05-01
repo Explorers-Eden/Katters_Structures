@@ -1,8 +1,98 @@
+# Generated Loot.
+
+There are 3 loot tables used in this structure:
+
+<details>
+<summary><strong>kattersstructures:chests/armory/basic</strong> (15 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bone | 6–10 | 1 | 10 | 21.7% |
+| Iron Ingot | 4–6 | 1 | 10 | 21.7% |
+| Iron Nugget | 10–16 | 1 | 10 | 21.7% |
+| String | 5–10 | 1 | 10 | 21.7% |
+| Gold Ingot | 2–6 | 1 | 5 | 10.9% |
+| Golden Apple | 1 | 1 | 1 | 2.2% |
+| Chainmail Boots | 1 | 2 | 1 | 8.3% |
+| Chainmail Chestplate | 1 | 2 | 1 | 8.3% |
+| Chainmail Helmet | 1 | 2 | 1 | 8.3% |
+| Chainmail Leggings | 1 | 2 | 1 | 8.3% |
+| Golden Boots | 1 | 2 | 1 | 8.3% |
+| Golden Chestplate | 1 | 2 | 1 | 8.3% |
+| Golden Helmet | 1 | 2 | 1 | 8.3% |
+| Golden Leggings | 1 | 2 | 1 | 8.3% |
+| Iron Boots | 1 | 2 | 1 | 8.3% |
+| Iron Chestplate | 1 | 2 | 1 | 8.3% |
+| Iron Helmet | 1 | 2 | 1 | 8.3% |
+| Iron Leggings | 1 | 2 | 1 | 8.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:vault/armory</strong> (4 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Iron Ingot | 4–6 | 1 | 10 | 38.5% |
+| Diamond | 3–6 | 1 | 5 | 19.2% |
+| Gold Ingot | 2–6 | 1 | 5 | 19.2% |
+| Potion | 1 | 1 | 5 | 19.2% |
+| Enchanted Golden Apple | 1 | 1 | 1 | 3.8% |
+| Chainmail Boots | 1 | 2 | 1 | 8.3% |
+| Chainmail Chestplate | 1 | 2 | 1 | 8.3% |
+| Chainmail Helmet | 1 | 2 | 1 | 8.3% |
+| Chainmail Leggings | 1 | 2 | 1 | 8.3% |
+| Golden Boots | 1 | 2 | 1 | 8.3% |
+| Golden Chestplate | 1 | 2 | 1 | 8.3% |
+| Golden Helmet | 1 | 2 | 1 | 8.3% |
+| Golden Leggings | 1 | 2 | 1 | 8.3% |
+| Iron Boots | 1 | 2 | 1 | 8.3% |
+| Iron Chestplate | 1 | 2 | 1 | 8.3% |
+| Iron Helmet | 1 | 2 | 1 | 8.3% |
+| Iron Leggings | 1 | 2 | 1 | 8.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:vault/boss_vault</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Iron Ingot | 10–16 | 1 | 10 | 43.5% |
+| Gold Ingot | 2–6 | 1 | 8 | 34.8% |
+| Diamond | 1–4 | 1 | 4 | 17.4% |
+| Netherite Scrap | 1 | 1 | 1 | 4.3% |
+| Diamond Boots | 1 | 2 | 1 | 25.0% |
+| Diamond Chestplate | 1 | 2 | 1 | 25.0% |
+| Diamond Helmet | 1 | 2 | 1 | 25.0% |
+| Diamond Leggings | 1 | 2 | 1 | 25.0% |
+| Bolt Armor Trim Smithing Template | 1 | 3 | 1 | 5.6% |
+| Coast Armor Trim Smithing Template | 1 | 3 | 1 | 5.6% |
+| Dune Armor Trim Smithing Template | 1 | 3 | 1 | 5.6% |
+| Eye Armor Trim Smithing Template | 1 | 3 | 1 | 5.6% |
+| Flow Armor Trim Smithing Template | 1 | 3 | 1 | 5.6% |
+| Host Armor Trim Smithing Template | 1 | 3 | 1 | 5.6% |
+| Netherite Upgrade Smithing Template | 1 | 3 | 1 | 5.6% |
+| Raiser Armor Trim Smithing Template | 1 | 3 | 1 | 5.6% |
+| Rib Armor Trim Smithing Template | 1 | 3 | 1 | 5.6% |
+| Sentry Armor Trim Smithing Template | 1 | 3 | 1 | 5.6% |
+| Shaper Armor Trim Smithing Template | 1 | 3 | 1 | 5.6% |
+| Silence Armor Trim Smithing Template | 1 | 3 | 1 | 5.6% |
+| Snout Armor Trim Smithing Template | 1 | 3 | 1 | 5.6% |
+| Spire Armor Trim Smithing Template | 1 | 3 | 1 | 5.6% |
+| Vex Armor Trim Smithing Template | 1 | 3 | 1 | 5.6% |
+| Ward Armor Trim Smithing Template | 1 | 3 | 1 | 5.6% |
+| Wayfinder Armor Trim Smithing Template | 1 | 3 | 1 | 5.6% |
+| Wild Armor Trim Smithing Template | 1 | 3 | 1 | 5.6% |
+
+</details>
+
 # Contents
 
 The structure is composed of the following blocks: Tuff Bricks, Polished Tuff, Weathered Copper Trapdoor, Tuff Brick Stairs, Grass Block, Polished Tuff Stairs, Dirt, Chiseled Tuff Bricks, Redstone Wall Torch, Chiseled Tuff, Stripped Dark Oak Log, Exposed Copper Trapdoor, Azalea Leaves, Polished Tuff Slab, Vine, Weathered Copper Grate, Flowering Azalea Leaves, Weathered Copper Door, Raw Gold Block, Tuff Brick Slab, Lightning Rod, Chest, Polished Tuff Wall, Tuff Brick Wall, Chiseled Bookshelf, Weathered Cut Copper Stairs, Weathered Chiseled Copper, Bookshelf, Vault, Weathered Cut Copper Slab, Weathered Cut Copper, Waxed Weathered Copper Grate, Decorated Pot, Exposed Copper Bulb, Lever, Cobweb, Light Blue Stained Glass Pane, Ochre Froglight.
 
 Additionally, the following entities may spawn during its generation: Armor Stand.
+
 
 
 ## Per-Structure File Contents
@@ -211,9 +301,9 @@ The structure part is composed of the following blocks: Tuff Bricks, Polished Tu
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:vault/boss_vault |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:vault/boss_vault | 1 |
 
 
 </details>
@@ -1310,9 +1400,9 @@ The structure part is composed of the following blocks: Chest.
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/armory/basic |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/armory/basic | 1 |
 
 
 </details>
@@ -1338,9 +1428,9 @@ The structure part is composed of the following blocks: Weathered Copper Trapdoo
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/armory/basic |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/armory/basic | 2 |
 
 
 </details>
@@ -1366,9 +1456,9 @@ The structure part is composed of the following blocks: Weathered Copper Trapdoo
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/armory/basic |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/armory/basic | 2 |
 
 
 </details>
@@ -1445,9 +1535,9 @@ The structure part is composed of the following blocks: Weathered Copper Trapdoo
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:vault/armory |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:vault/armory | 1 |
 
 
 </details>
@@ -1473,9 +1563,9 @@ The structure part is composed of the following blocks: Tuff Brick Stairs, Weath
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:vault/armory |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:vault/armory | 1 |
 
 
 </details>
@@ -1500,9 +1590,9 @@ The structure part is composed of the following blocks: Weathered Copper Trapdoo
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/armory/basic |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/armory/basic | 2 |
 
 
 </details>
@@ -1528,9 +1618,9 @@ The structure part is composed of the following blocks: Weathered Copper Grate, 
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/armory/basic |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/armory/basic | 1 |
 
 
 </details>
@@ -1606,9 +1696,9 @@ The structure part is composed of the following blocks: Weathered Copper Trapdoo
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/armory/basic |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/armory/basic | 2 |
 
 
 </details>
@@ -1634,9 +1724,9 @@ The structure part is composed of the following blocks: Weathered Copper Trapdoo
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/armory/basic |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/armory/basic | 2 |
 
 
 </details>
@@ -1713,9 +1803,9 @@ The structure part is composed of the following blocks: Weathered Copper Trapdoo
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:vault/armory |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:vault/armory | 1 |
 
 
 </details>
@@ -1741,9 +1831,9 @@ The structure part is composed of the following blocks: Tuff Brick Stairs, Weath
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:vault/armory |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:vault/armory | 1 |
 
 
 </details>
@@ -1769,9 +1859,9 @@ The structure part is composed of the following blocks: Weathered Copper Trapdoo
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/armory/basic |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/armory/basic | 2 |
 
 
 </details>
@@ -1797,9 +1887,9 @@ The structure part is composed of the following blocks: Weathered Copper Grate, 
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/armory/basic |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/armory/basic | 1 |
 
 
 </details>

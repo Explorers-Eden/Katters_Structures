@@ -1,8 +1,28 @@
+# Generated Loot.
+
+There is one loot table used in this structure:
+
+<details>
+<summary><strong>kattersstructures:chests/ruins/loot</strong> (4 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bone | 1–5 | 1 | 2 | 18.2% |
+| Cobweb | 1–3 | 1 | 2 | 18.2% |
+| Emerald | 1–6 | 1 | 2 | 18.2% |
+| Rotten Flesh | 1–5 | 1 | 2 | 18.2% |
+| Diamond | 1 | 1 | 1 | 9.1% |
+| Iron Ingot | 1–3 | 1 | 1 | 9.1% |
+| Zombie Head | 1 | 1 | 1 | 9.1% |
+
+</details>
+
 # Contents
 
 The structure is composed of the following blocks: Dirt, Grass Block, Stone, Oak Leaves, Vine, Stone Bricks, Grass, Dirt Path, Tall Grass, Andesite, Mossy Stone Bricks, Stone Stairs, Stone Brick Stairs, Cracked Stone Bricks, Coarse Dirt, Coal Ore, Stone Brick Wall, Iron Ore, Poppy, Farmland, Wheat, Granite, Dark Oak Stairs, Gravel, Mossy Stone Brick Wall, Stone Brick Slab, Dandelion, Dark Oak Slab, Diamond Ore, Lapis Ore, Birch Log, Chest, Emerald Ore, Infested Chiseled Stone Bricks, Lantern, Spawner, Carved Pumpkin, Chain, Cobweb, Mossy Stone Brick Slab, Dark Oak Planks, Moss Carpet, Stone Slab, Campfire, Soul Campfire, Soul Lantern.
 
 Additionally, the following entities may spawn during its generation: Zombie, Chicken, Zombie Horse, Zombie Villager.
+
 
 
 ## Per-Structure File Contents
@@ -41,9 +61,9 @@ The structure part is composed of the following blocks: Stone, Grass Block, Dirt
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/ruins/loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/ruins/loot | 1 |
 
 
 </details>
@@ -81,9 +101,9 @@ The structure part is composed of the following blocks: Dirt, Stone, Grass Block
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/ruins/loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/ruins/loot | 1 |
 
 
 </details>
@@ -121,9 +141,9 @@ The structure part is composed of the following blocks: Stone, Grass Block, Dirt
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/ruins/loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/ruins/loot | 1 |
 
 
 </details>
@@ -160,9 +180,9 @@ The structure part is composed of the following blocks: Stone, Dirt, Grass Block
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/ruins/loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/ruins/loot | 1 |
 
 
 </details>

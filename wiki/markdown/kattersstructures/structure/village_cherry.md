@@ -1,8 +1,238 @@
+# Generated Loot.
+
+There are 14 loot tables used in this structure:
+
+<details>
+<summary><strong>kattersstructures:chests/cherry/armorer</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 4 | 40.0% |
+| Cherry Sapling | 1–4 | 1 | 2 | 20.0% |
+| Iron Ingot | 1–3 | 1 | 2 | 20.0% |
+| Emerald | 1 | 1 | 1 | 10.0% |
+| Iron Helmet | 1 | 1 | 1 | 10.0% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/cherry/butcher</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Beef | 1–3 | 1 | 6 | 20.0% |
+| Cooked Porkchop | 1–3 | 1 | 6 | 20.0% |
+| Mutton | 1–3 | 1 | 6 | 20.0% |
+| Wheat | 1–3 | 1 | 6 | 20.0% |
+| Coal | 1–3 | 1 | 3 | 10.0% |
+| Cherry Sapling | 1–4 | 1 | 2 | 6.7% |
+| Emerald | 1 | 1 | 1 | 3.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/cherry/cartographer</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 15 | 28.8% |
+| Paper | 1–5 | 1 | 15 | 28.8% |
+| Map | 1–3 | 1 | 10 | 19.2% |
+| Compass | 1 | 1 | 5 | 9.6% |
+| Stick | 1–2 | 1 | 5 | 9.6% |
+| Cherry Sapling | 1–4 | 1 | 2 | 3.8% |
+| Village Map | 1 | 2 | 5 | 71.4% |
+| Dungeon Map | 1 | 2 | 1 | 14.3% |
+| Villager Map | 1 | 2 | 1 | 14.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/cherry/cleric</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 7 | 33.3% |
+| Rotten Flesh | 1–4 | 1 | 7 | 33.3% |
+| Cherry Sapling | 1–4 | 1 | 2 | 9.5% |
+| Redstone | 1–4 | 1 | 2 | 9.5% |
+| Emerald | 1–4 | 1 | 1 | 4.8% |
+| Gold Ingot | 1–4 | 1 | 1 | 4.8% |
+| Lapis Lazuli | 1–4 | 1 | 1 | 4.8% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/cherry/fisherman</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Wheat Seeds | 1–3 | 1 | 3 | 21.4% |
+| Cherry Sapling | 1–4 | 1 | 2 | 14.3% |
+| Coal | 1–3 | 1 | 2 | 14.3% |
+| Cod | 1–3 | 1 | 2 | 14.3% |
+| Barrel | 1–3 | 1 | 1 | 7.1% |
+| Emerald | 1 | 1 | 1 | 7.1% |
+| Fishing Rod | 1 | 1 | 1 | 7.1% |
+| Tropical Fish | 1–3 | 1 | 1 | 7.1% |
+| Water Bucket | 1 | 1 | 1 | 7.1% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/cherry/fletcher</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Feather | 1–3 | 1 | 6 | 25.0% |
+| Stick | 1–3 | 1 | 6 | 25.0% |
+| Flint | 1–3 | 1 | 5 | 20.8% |
+| Arrow | 1–3 | 1 | 2 | 8.3% |
+| Cherry Sapling | 1–4 | 1 | 2 | 8.3% |
+| Egg | 1–3 | 1 | 2 | 8.3% |
+| Emerald | 1 | 1 | 1 | 4.2% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/cherry/house</strong> (5 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Apple | 1–5 | 1 | 10 | 23.3% |
+| Bread | 1–4 | 1 | 10 | 23.3% |
+| Carrot | 1–7 | 1 | 10 | 23.3% |
+| Cherry Sapling | 1–2 | 1 | 5 | 11.6% |
+| Emerald | 1–4 | 1 | 2 | 4.7% |
+| Pink Petals | 1 | 1 | 2 | 4.7% |
+| Book | 1 | 1 | 1 | 2.3% |
+| Cherry Planks | 1–16 | 1 | 1 | 2.3% |
+| Feather | 1 | 1 | 1 | 2.3% |
+| Gold Nugget | 1–3 | 1 | 1 | 2.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/cherry/leatherworker</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 5 | 26.3% |
+| Leather Chestplate | 1 | 1 | 3 | 15.8% |
+| Cherry Sapling | 1–4 | 1 | 2 | 10.5% |
+| Leather Boots | 1 | 1 | 2 | 10.5% |
+| Leather Helmet | 1 | 1 | 2 | 10.5% |
+| Leather Leggings | 1 | 1 | 2 | 10.5% |
+| Emerald | 1–4 | 1 | 1 | 5.3% |
+| Leather | 1–3 | 1 | 1 | 5.3% |
+| Saddle | 1 | 1 | 1 | 5.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/cherry/mason</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 4 | 26.7% |
+| Cherry Sapling | 1–4 | 1 | 2 | 13.3% |
+| Chiseled Stone Bricks | 1–2 | 1 | 2 | 13.3% |
+| Stone | 1–3 | 1 | 2 | 13.3% |
+| Clay Ball | 1–3 | 1 | 1 | 6.7% |
+| Emerald | 1 | 1 | 1 | 6.7% |
+| Flower Pot | 1 | 1 | 1 | 6.7% |
+| Smooth Stone | 1 | 1 | 1 | 6.7% |
+| Yellow Dye | 1 | 1 | 1 | 6.7% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/cherry/pagode</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 5 | 20.0% |
+| Carrot | 1–7 | 1 | 5 | 20.0% |
+| Cherry Sapling | 1–2 | 1 | 5 | 20.0% |
+| Emerald | 3–9 | 1 | 5 | 20.0% |
+| Pink Petals | 1 | 1 | 2 | 8.0% |
+| Diamond | 1–3 | 1 | 1 | 4.0% |
+| Emerald Block | 1–3 | 1 | 1 | 4.0% |
+| Totem Of Undying | 1 | 1 | 1 | 4.0% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/cherry/shepherd</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Pink Wool | 1–8 | 1 | 6 | 26.1% |
+| Wheat | 1–6 | 1 | 6 | 26.1% |
+| Black Wool | 1–3 | 1 | 3 | 13.0% |
+| Brown Wool | 1–3 | 1 | 2 | 8.7% |
+| Cherry Sapling | 1–4 | 1 | 2 | 8.7% |
+| Gray Wool | 1–3 | 1 | 2 | 8.7% |
+| Emerald | 1 | 1 | 1 | 4.3% |
+| Shears | 1 | 1 | 1 | 4.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/cherry/toolsmith</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Stick | 1–3 | 1 | 20 | 36.4% |
+| Bread | 1–3 | 1 | 15 | 27.3% |
+| Iron Ingot | 1–5 | 1 | 5 | 9.1% |
+| Iron Pickaxe | 1 | 1 | 5 | 9.1% |
+| Iron Shovel | 1 | 1 | 5 | 9.1% |
+| Cherry Sapling | 1–4 | 1 | 2 | 3.6% |
+| Coal | 1–3 | 1 | 1 | 1.8% |
+| Diamond | 1–3 | 1 | 1 | 1.8% |
+| Gold Ingot | 1–3 | 1 | 1 | 1.8% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/cherry/weaponsmith</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Apple | 1–3 | 1 | 15 | 16.0% |
+| Bread | 1–3 | 1 | 15 | 16.0% |
+| Iron Ingot | 1–5 | 1 | 10 | 10.6% |
+| Cherry Sapling | 3–7 | 1 | 5 | 5.3% |
+| Gold Ingot | 1–3 | 1 | 5 | 5.3% |
+| Iron Boots | 1 | 1 | 5 | 5.3% |
+| Iron Chestplate | 1–3 | 1 | 5 | 5.3% |
+| Iron Helmet | 1 | 1 | 5 | 5.3% |
+| Iron Leggings | 1 | 1 | 5 | 5.3% |
+| Iron Pickaxe | 1 | 1 | 5 | 5.3% |
+| Iron Sword | 1 | 1 | 5 | 5.3% |
+| Obsidian | 3–7 | 1 | 5 | 5.3% |
+| Diamond | 1–3 | 1 | 3 | 3.2% |
+| Saddle | 1 | 1 | 3 | 3.2% |
+| Diamond Horse Armor | 1 | 1 | 1 | 1.1% |
+| Golden Horse Armor | 1 | 1 | 1 | 1.1% |
+| Iron Horse Armor | 1 | 1 | 1 | 1.1% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/house</strong> (1 use)</summary>
+
+Could not find this loot table locally or in mcmeta 26.1.2.
+
+</details>
+
 # Contents
 
 The structure is composed of the following blocks: Deepslate Tile Slab, Grass Block, Dirt, Stripped Mangrove Log, Cherry Stairs, Cherry Planks, Dirt Path, Cherry Trapdoor, Mangrove Planks, Pink Petals, Cherry Fence, Mangrove Fence, Cherry Slab, Mangrove Trapdoor, Polished Tuff, Farmland, Cherry Door, Magenta Terracotta, Tuff Bricks, Tall Grass, Lantern, Deepslate Tile Stairs, Hay Block, Pink Bed, Wheat, Carrots, Beetroots, Bookshelf, Coarse Dirt, Pink Carpet, Mangrove Wall Hanging Sign, Chest, Stripped Spruce Log, Chiseled Bookshelf, Cherry Wall Sign, Pink Glazed Terracotta, Podzol, Bamboo, Deepslate Tile Wall, Polished Tuff Slab, Stripped Cherry Log, Waxed Copper Trapdoor, Cobblestone, Ladder, Mangrove Stairs, Tuff Brick Stairs, Seagrass, Spruce Trapdoor, Dark Oak Trapdoor, Polished Tuff Stairs, Chain, Cherry Log, Chiseled Tuff Bricks, Decorated Pot, Magenta Wall Banner, White Wall Banner, Dark Oak Stairs, Gray Wall Banner, Nether Wart, Pink Wall Banner, Poppy, Potted Cherry Sapling, Pumpkin, Pumpkin Stem, Soul Sand, Water Cauldron, Waxed Exposed Copper Trapdoor, Barrel, Campfire, Cherry Fence Gate, Crafting Table, Kelp, Lilac, Mangrove Wall Sign, Peony, Pitcher Plant, Stone Slab, Tripwire Hook, Tuff Brick Slab, Anvil, Bell, Birch Stairs, Blast Furnace, Brewing Stand, Cartography Table, Cherry Pressure Plate, Chipped Anvil, Composter, Damaged Anvil, Fletching Table, Flower Pot, Furnace, Gold Block, Grindstone, Lectern, Lily Pad, Loom, Mangrove Log, Mangrove Slab, Oak Fence, Oak Slab, Ochre Froglight, Smithing Table, Smoker, Smooth Stone Slab, Stone Bricks, Stonecutter, Target, Torchflower, Waxed Cut Copper Slab, Yellow Wall Banner.
 
 Additionally, the following entities may spawn during its generation: Horse, Pig, Sheep, Cow, Mule.
+
 
 
 ## Per-Structure File Contents
@@ -593,9 +823,9 @@ The structure part is composed of the following blocks: Deepslate Tile Slab, Gra
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/cherry/armorer |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/cherry/armorer | 1 |
 
 
 </details>
@@ -642,9 +872,9 @@ The structure part is composed of the following blocks: Deepslate Tile Slab, Gra
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/cherry/butcher |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/cherry/butcher | 1 |
 
 
 </details>
@@ -691,9 +921,9 @@ The structure part is composed of the following blocks: Deepslate Tile Slab, Che
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/cherry/cartographer |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/cherry/cartographer | 1 |
 
 
 </details>
@@ -742,9 +972,9 @@ The structure part is composed of the following blocks: Deepslate Tile Slab, Dir
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/cherry/cleric |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/cherry/cleric | 1 |
 
 
 </details>
@@ -817,9 +1047,9 @@ The structure part is composed of the following blocks: Dirt, Deepslate Tile Sla
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/cherry/fisherman |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/cherry/fisherman | 1 |
 
 
 </details>
@@ -862,9 +1092,9 @@ The structure part is composed of the following blocks: Deepslate Tile Slab, Gra
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/cherry/fletcher |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/cherry/fletcher | 1 |
 
 
 </details>
@@ -909,9 +1139,9 @@ The structure part is composed of the following blocks: Deepslate Tile Slab, Che
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/cherry/leatherworker |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/cherry/leatherworker | 1 |
 
 
 </details>
@@ -952,9 +1182,9 @@ The structure part is composed of the following blocks: Deepslate Tile Slab, Che
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/cherry/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/cherry/house | 1 |
 
 
 </details>
@@ -996,9 +1226,9 @@ The structure part is composed of the following blocks: Deepslate Tile Slab, Mag
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/cherry/mason |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/cherry/mason | 1 |
 
 
 </details>
@@ -1041,9 +1271,9 @@ The structure part is composed of the following blocks: Deepslate Tile Slab, Gra
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/cherry/shepherd |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/cherry/shepherd | 1 |
 
 
 </details>
@@ -1088,9 +1318,9 @@ The structure part is composed of the following blocks: Deepslate Tile Slab, Che
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/cherry/toolsmith |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/cherry/toolsmith | 1 |
 
 
 </details>
@@ -1134,9 +1364,9 @@ The structure part is composed of the following blocks: Deepslate Tile Slab, Che
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/cherry/weaponsmith |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/cherry/weaponsmith | 1 |
 
 
 </details>
@@ -1174,9 +1404,9 @@ The structure part is composed of the following blocks: Deepslate Tile Slab, Str
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/cherry/pagode |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/cherry/pagode | 1 |
 
 
 </details>
@@ -1224,10 +1454,10 @@ The structure part is composed of the following blocks: Deepslate Tile Slab, Che
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/cherry/house |
-| kattersstructures:chests/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/cherry/house | 1 |
+| kattersstructures:chests/house | 1 |
 
 
 </details>
@@ -1268,9 +1498,9 @@ The structure part is composed of the following blocks: Deepslate Tile Slab, Dir
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/cherry/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/cherry/house | 1 |
 
 
 </details>
@@ -1308,9 +1538,9 @@ The structure part is composed of the following blocks: Deepslate Tile Slab, Che
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/cherry/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/cherry/house | 1 |
 
 
 </details>
@@ -1427,9 +1657,9 @@ The structure part is composed of the following blocks: Deepslate Tile Slab, Str
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/cherry/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/cherry/house | 1 |
 
 
 </details>

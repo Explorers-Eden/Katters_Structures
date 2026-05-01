@@ -1,8 +1,29 @@
+# Generated Loot.
+
+There is one loot table used in this structure:
+
+<details>
+<summary><strong>kattersstructures:chests/trader_outposts/chests</strong> (9 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 15 | 30.0% |
+| Paper | 1–5 | 1 | 15 | 30.0% |
+| Map | 1–3 | 1 | 10 | 20.0% |
+| Compass | 1 | 1 | 5 | 10.0% |
+| Stick | 1–2 | 1 | 5 | 10.0% |
+| Dungeon Map | 1 | 2 | 1 | 33.3% |
+| Village Map | 1 | 2 | 1 | 33.3% |
+| Villager Map | 1 | 2 | 1 | 33.3% |
+
+</details>
+
 # Contents
 
 The structure is composed of the following blocks: Grass Block, Dirt Path, Jungle Stairs, Oak Slab, Green Concrete, White Wool, Oak Trapdoor, Ladder, Calcite, Light Blue Wool, Jungle Fence, Green Wool, Oak Stairs, Orange Concrete, Stripped Oak Log, Light Blue Concrete, Rail, Moss Block, Diorite, Jungle Slab, Smooth Red Sandstone, Jungle Planks, Oak Planks, Mud Brick Wall, Oak Log, Orange Wool, Red Sand, Hay Block, Green Wall Banner, White Wall Banner, Chest, Oak Fence, Oak Fence Gate, Light Blue Wall Banner, Orange Wall Banner, Red Carpet, Bookshelf, Glow Lichen, Acacia Wall Sign, Green Bed, Light Gray Bed, Chiseled Bookshelf, Brown Bed, Cyan Concrete, Light Blue Bed, Magma Block, Moss Carpet, Orange Bed, Campfire, Gravel, Lantern, Stripped Jungle Log.
 
 Additionally, the following entities may spawn during its generation: Villager, Chicken.
+
 
 
 ## Per-Structure File Contents
@@ -202,9 +223,9 @@ The structure part is composed of the following blocks: Grass Block, White Wool,
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/trader_outposts/chests |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/trader_outposts/chests | 1 |
 
 
 </details>
@@ -244,9 +265,9 @@ The structure part is composed of the following blocks: Grass Block, Green Concr
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/trader_outposts/chests |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/trader_outposts/chests | 1 |
 
 
 </details>
@@ -287,9 +308,9 @@ The structure part is composed of the following blocks: Grass Block, Orange Conc
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/trader_outposts/chests |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/trader_outposts/chests | 1 |
 
 
 </details>
@@ -326,9 +347,9 @@ The structure part is composed of the following blocks: Grass Block, Light Blue 
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/trader_outposts/chests |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/trader_outposts/chests | 1 |
 
 
 </details>
@@ -367,9 +388,9 @@ The structure part is composed of the following blocks: Grass Block, Green Concr
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/trader_outposts/chests |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/trader_outposts/chests | 1 |
 
 
 </details>
@@ -407,9 +428,9 @@ The structure part is composed of the following blocks: Grass Block, White Wool,
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/trader_outposts/chests |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/trader_outposts/chests | 1 |
 
 
 </details>
@@ -585,9 +606,9 @@ The structure part is composed of the following blocks: Bookshelf, Chiseled Book
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/trader_outposts/chests |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/trader_outposts/chests | 1 |
 
 
 </details>
@@ -612,9 +633,9 @@ The structure part is composed of the following blocks: Hay Block, Chest.
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/trader_outposts/chests |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/trader_outposts/chests | 1 |
 
 
 </details>
@@ -695,9 +716,9 @@ The structure part is composed of the following blocks: Red Carpet, Brown Bed, C
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/trader_outposts/chests |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/trader_outposts/chests | 1 |
 
 
 </details>

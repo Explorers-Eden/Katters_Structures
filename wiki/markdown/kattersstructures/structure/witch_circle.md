@@ -5,6 +5,7 @@ The structure is composed of the following blocks: Dirt, Grass Block, Mycelium, 
 Additionally, the following entities may spawn during its generation: Witch, Pig.
 
 
+
 ## Per-Structure File Contents
 
 <details>

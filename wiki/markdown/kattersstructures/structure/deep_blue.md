@@ -1,8 +1,83 @@
+# Generated Loot.
+
+There are 5 loot tables used in this structure:
+
+<details>
+<summary><strong>kattersstructures:chests/deep_blue/city/chest_loot</strong> (20 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–3 | 1 | 3 | 17.6% |
+| Dried Kelp | 4–10 | 1 | 3 | 17.6% |
+| Cooked Cod | 2–4 | 1 | 2 | 11.8% |
+| Copper Ingot | 2–4 | 1 | 2 | 11.8% |
+| Prismarine Shard | 1–4 | 1 | 2 | 11.8% |
+| Redstone | 3–6 | 1 | 2 | 11.8% |
+| Stick | 3–6 | 1 | 2 | 11.8% |
+| Book | 1–2 | 1 | 1 | 5.9% |
+| Enlightning Rod | 1 | 2 | 1 | 100.0% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/deep_blue/city/fish</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Cocoa Beans | 1 | 1 | 1 | 33.3% |
+| Melon Seeds | 1 | 1 | 1 | 33.3% |
+| Wheat Seeds | 1 | 1 | 1 | 33.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/deep_blue/city/sugar</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Sugar | 1–4 | 1 | 20 | 95.2% |
+| Diorite | 1 | 1 | 1 | 4.8% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/deep_blue/lab_ruin/chest_loot</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Copper Grate | 1 | 1 | 1 | 14.3% |
+| Copper Ingot | 2–4 | 1 | 1 | 14.3% |
+| Ink Sac | 2–4 | 1 | 1 | 14.3% |
+| Lightning Rod | 1 | 1 | 1 | 14.3% |
+| Paper | 1–3 | 1 | 1 | 14.3% |
+| Prismarine Shard | 1–6 | 1 | 1 | 14.3% |
+| Water Bucket | 1 | 1 | 1 | 14.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/deep_blue/labs/chest_loot</strong> (5 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–3 | 1 | 3 | 17.6% |
+| Dried Kelp | 4–10 | 1 | 3 | 17.6% |
+| Cooked Cod | 2–4 | 1 | 2 | 11.8% |
+| Copper Ingot | 2–4 | 1 | 2 | 11.8% |
+| Prismarine Shard | 1–4 | 1 | 2 | 11.8% |
+| Redstone | 3–6 | 1 | 2 | 11.8% |
+| Stick | 3–6 | 1 | 2 | 11.8% |
+| Book | 1–2 | 1 | 1 | 5.9% |
+| Enlightning Rod | 1 | 2 | 1 | 100.0% |
+
+</details>
+
 # Contents
 
 The structure is composed of the following blocks: Prismarine Bricks, Light Blue Stained Glass, Oxidized Copper Grate, Oxidized Copper Trapdoor, Prismarine Brick Stairs, Prismarine Brick Slab, Fire Coral Block, Grass Block, Oxidized Copper, Tuff Bricks, Oxidized Cut Copper Stairs, Bubble Column, Prismarine Wall, Oxidized Copper Bulb, Lightning Rod, Weathered Copper Trapdoor, Farmland, Weathered Cut Copper, Oxidized Cut Copper, Dark Prismarine, Oxidized Copper Door, Oxidized Chiseled Copper, Oxidized Cut Copper Slab, Dirt, Oak Leaves, Horn Coral Fan, Observer, Dark Prismarine Stairs, Red Mushroom Block, Chiseled Bookshelf, Weathered Cut Copper Stairs, Beetroots, Carrots, Potatoes, Prismarine Slab, Wheat, Redstone Wire, Weathered Cut Copper Slab, Prismarine, Chest, Sticky Piston, Cyan Bed, Fire Coral, Bookshelf, Ladder, Short Grass, Prismarine Stairs, Campfire, Mycelium, Mud, Weathered Copper Bulb, Dead Fire Coral Block, Hopper, Moss Block, Oak Trapdoor, Soul Sand, Weathered Copper Door, Weathered Copper Grate, Exposed Copper Bulb, Piston Head, Copper Bulb, Dark Prismarine Slab, Kelp Plant, Repeater, Black Bed, Comparator, Fire Coral Wall Fan, Kelp, Light Blue Bed, Piston, Redstone Wall Torch, Acacia Fence Gate, Acacia Fence, Birch Trapdoor, Lectern, Warped Button, Blue Bed, Dirt Path, Lilac, Peony, Rose Bush, Tripwire Hook, Tuff Brick Stairs, Acacia Wall Sign, Lever, Oak Stairs, Cactus, Copper Door, Dropper, Magma Block, Mushroom Stem, Note Block, Oak Log, Pitcher Plant, Sand, Acacia Wall Hanging Sign, Allium, Azure Bluet, Brown Mushroom, Copper Grate, Exposed Chiseled Copper, Light Blue Stained Glass Pane, Mangrove Roots, Oak Button, Redstone Block, Torchflower, Beehive, Brewing Stand, Composter, Crafter, Crafting Table, Dandelion, Exposed Copper, Lily Of The Valley, Oak Fence, Oxeye Daisy, Poppy, Potted Cactus, Red Mushroom, Red Tulip, Redstone Torch, Stone Button, Sunflower, Tall Grass, Weathered Copper, Barrel, Barrier, Bell, Birch Slab, Birch Stairs, Dead Horn Coral Fan, Decorated Pot, Dispenser, Exposed Copper Grate, Furnace, Melon Stem, Orange Tulip, Potted Azure Bluet, Potted Dead Bush, Potted Oak Sapling, Pumpkin Stem, Redstone Lamp, Trapped Chest, Water Cauldron, Weathered Chiseled Copper, White Tulip.
 
 Additionally, the following entities may spawn during its generation: Drowned, Chicken, Pig, Bee, End Crystal, Item, Salmon, Sheep, Tropical Fish, Villager, Item Frame.
+
 
 
 ## Per-Structure File Contents
@@ -907,9 +982,9 @@ Additionally, the following entities may spawn during its generation: Item Frame
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/city/chest_loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/deep_blue/city/chest_loot | 1 |
 
 
 </details>
@@ -942,9 +1017,9 @@ The structure part is composed of the following blocks: Oxidized Copper, Oxidize
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/city/chest_loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/deep_blue/city/chest_loot | 1 |
 
 
 </details>
@@ -1008,9 +1083,9 @@ The structure part is composed of the following blocks: Prismarine Brick Slab, D
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/city/chest_loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/deep_blue/city/chest_loot | 1 |
 
 
 </details>
@@ -1074,9 +1149,9 @@ The structure part is composed of the following blocks: Prismarine Brick Stairs,
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/city/chest_loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/deep_blue/city/chest_loot | 1 |
 
 
 </details>
@@ -1110,9 +1185,9 @@ The structure part is composed of the following blocks: Oxidized Copper, Oxidize
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/city/chest_loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/deep_blue/city/chest_loot | 1 |
 
 
 </details>
@@ -1144,9 +1219,9 @@ The structure part is composed of the following blocks: Prismarine Brick Stairs,
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/city/chest_loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/deep_blue/city/chest_loot | 1 |
 
 
 </details>
@@ -1175,9 +1250,9 @@ The structure part is composed of the following blocks: Prismarine Brick Slab, D
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/city/chest_loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/deep_blue/city/chest_loot | 1 |
 
 
 </details>
@@ -1208,9 +1283,9 @@ The structure part is composed of the following blocks: Weathered Cut Copper, We
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/city/chest_loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/deep_blue/city/chest_loot | 1 |
 
 
 </details>
@@ -1241,9 +1316,9 @@ The structure part is composed of the following blocks: Prismarine Brick Stairs,
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/city/chest_loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/deep_blue/city/chest_loot | 1 |
 
 
 </details>
@@ -1278,9 +1353,9 @@ The structure part is composed of the following blocks: Oxidized Copper, Oxidize
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/city/chest_loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/deep_blue/city/chest_loot | 1 |
 
 
 </details>
@@ -1344,9 +1419,9 @@ The structure part is composed of the following blocks: Prismarine Brick Slab, D
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/city/chest_loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/deep_blue/city/chest_loot | 1 |
 
 
 </details>
@@ -1380,9 +1455,9 @@ The structure part is composed of the following blocks: Weathered Cut Copper, Pr
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/city/chest_loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/deep_blue/city/chest_loot | 1 |
 
 
 </details>
@@ -1414,9 +1489,9 @@ The structure part is composed of the following blocks: Prismarine Brick Stairs,
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/city/chest_loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/deep_blue/city/chest_loot | 1 |
 
 
 </details>
@@ -1481,9 +1556,9 @@ The structure part is composed of the following blocks: Prismarine Brick Stairs,
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/city/chest_loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/deep_blue/city/chest_loot | 1 |
 
 
 </details>
@@ -1514,9 +1589,9 @@ The structure part is composed of the following blocks: Prismarine Brick Slab, D
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/city/chest_loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/deep_blue/city/chest_loot | 1 |
 
 
 </details>
@@ -1547,9 +1622,9 @@ The structure part is composed of the following blocks: Weathered Cut Copper, We
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/city/chest_loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/deep_blue/city/chest_loot | 1 |
 
 
 </details>
@@ -1579,9 +1654,9 @@ The structure part is composed of the following blocks: Prismarine Brick Stairs,
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/city/chest_loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/deep_blue/city/chest_loot | 1 |
 
 
 </details>
@@ -1615,9 +1690,9 @@ The structure part is composed of the following blocks: Oxidized Copper, Oxidize
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/city/chest_loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/deep_blue/city/chest_loot | 1 |
 
 
 </details>
@@ -1683,9 +1758,9 @@ The structure part is composed of the following blocks: Prismarine Brick Slab, D
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/city/chest_loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/deep_blue/city/chest_loot | 1 |
 
 
 </details>
@@ -1719,9 +1794,9 @@ The structure part is composed of the following blocks: Weathered Copper Trapdoo
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/city/chest_loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/deep_blue/city/chest_loot | 1 |
 
 
 </details>
@@ -2290,9 +2365,9 @@ The structure part is composed of the following blocks: Oxidized Copper Trapdoor
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/city/sugar |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/deep_blue/city/sugar | 1 |
 
 
 </details>
@@ -2325,9 +2400,9 @@ Additionally, the following entities may spawn during its generation: Tropical F
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/city/fish |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/deep_blue/city/fish | 1 |
 
 
 </details>
@@ -3265,9 +3340,9 @@ Additionally, the following entities may spawn during its generation: Item Frame
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/lab_ruin/chest_loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/deep_blue/lab_ruin/chest_loot | 1 |
 
 
 </details>
@@ -4034,9 +4109,9 @@ Additionally, the following entities may spawn during its generation: End Crysta
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/labs/chest_loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/deep_blue/labs/chest_loot | 1 |
 
 
 </details>
@@ -4779,9 +4854,9 @@ The structure part is composed of the following blocks: Chest.
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/labs/chest_loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/deep_blue/labs/chest_loot | 1 |
 
 
 </details>
@@ -4805,9 +4880,9 @@ The structure part is composed of the following blocks: Chest.
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/labs/chest_loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/deep_blue/labs/chest_loot | 2 |
 
 
 </details>
@@ -5085,9 +5160,9 @@ The structure part is composed of the following blocks: Oxidized Copper Bulb, Ox
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/deep_blue/labs/chest_loot |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/deep_blue/labs/chest_loot | 1 |
 
 
 </details>

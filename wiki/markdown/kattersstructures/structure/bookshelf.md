@@ -3,6 +3,7 @@
 The structure is composed of the following blocks: Chiseled Bookshelf, Bookshelf.
 
 
+
 ## Per-Structure File Contents
 
 <details>

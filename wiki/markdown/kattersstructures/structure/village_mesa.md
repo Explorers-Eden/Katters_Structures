@@ -1,8 +1,193 @@
+# Generated Loot.
+
+There are 10 loot tables used in this structure:
+
+<details>
+<summary><strong>kattersstructures:chests/mesa/armorer</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 4 | 40.0% |
+| Iron Ingot | 1–3 | 1 | 2 | 20.0% |
+| Red Sand | 1–4 | 1 | 2 | 20.0% |
+| Emerald | 1 | 1 | 1 | 10.0% |
+| Iron Helmet | 1 | 1 | 1 | 10.0% |
+| Potion | 1 | 2 | 3 | 100.0% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/mesa/cartographer</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 15 | 28.8% |
+| Paper | 1–5 | 1 | 15 | 28.8% |
+| Map | 1–3 | 1 | 10 | 19.2% |
+| Compass | 1 | 1 | 5 | 9.6% |
+| Stick | 1–2 | 1 | 5 | 9.6% |
+| Mud | 1–4 | 1 | 2 | 3.8% |
+| Village Map | 1 | 2 | 5 | 71.4% |
+| Dungeon Map | 1 | 2 | 1 | 14.3% |
+| Villager Map | 1 | 2 | 1 | 14.3% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/mesa/farmer</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 10 | 32.3% |
+| Red Sand | 1–2 | 1 | 5 | 16.1% |
+| Book | 1 | 1 | 4 | 12.9% |
+| Arrow | 1–4 | 1 | 2 | 6.5% |
+| Emerald | 1–4 | 1 | 2 | 6.5% |
+| Pumpkin | 1–2 | 1 | 2 | 6.5% |
+| Wheat | 1–5 | 1 | 2 | 6.5% |
+| Cooked Beef | 1 | 1 | 1 | 3.2% |
+| Feather | 1 | 1 | 1 | 3.2% |
+| Glass Bottle | 1–2 | 1 | 1 | 3.2% |
+| Gold Nugget | 1–3 | 1 | 1 | 3.2% |
+| Potion | 1 | 2 | 3 | 100.0% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/mesa/fisherman</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Wheat Seeds | 1–3 | 1 | 3 | 21.4% |
+| Coal | 1–3 | 1 | 2 | 14.3% |
+| Cod | 1–3 | 1 | 2 | 14.3% |
+| Red Sand | 1–4 | 1 | 2 | 14.3% |
+| Barrel | 1–3 | 1 | 1 | 7.1% |
+| Emerald | 1 | 1 | 1 | 7.1% |
+| Fishing Rod | 1 | 1 | 1 | 7.1% |
+| Tropical Fish | 1–3 | 1 | 1 | 7.1% |
+| Water Bucket | 1 | 1 | 1 | 7.1% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/mesa/fletcher</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Feather | 1–3 | 1 | 6 | 25.0% |
+| Stick | 1–3 | 1 | 6 | 25.0% |
+| Flint | 1–3 | 1 | 5 | 20.8% |
+| Arrow | 1–3 | 1 | 2 | 8.3% |
+| Egg | 1–3 | 1 | 2 | 8.3% |
+| Red Sand | 1–4 | 1 | 2 | 8.3% |
+| Emerald | 1 | 1 | 1 | 4.2% |
+| Potion | 1 | 2 | 3 | 100.0% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/mesa/house</strong> (6 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 10 | 43.5% |
+| Red Sand | 1–2 | 1 | 5 | 21.7% |
+| Arrow | 1–4 | 1 | 2 | 8.7% |
+| Emerald | 1–4 | 1 | 2 | 8.7% |
+| Book | 1 | 1 | 1 | 4.3% |
+| Feather | 1 | 1 | 1 | 4.3% |
+| Glass Bottle | 1–2 | 1 | 1 | 4.3% |
+| Gold Nugget | 1–3 | 1 | 1 | 4.3% |
+| Potion | 1 | 2 | 3 | 100.0% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/mesa/prison</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 10 | 40.0% |
+| Red Sand | 1–2 | 1 | 5 | 20.0% |
+| Arrow | 1–4 | 1 | 2 | 8.0% |
+| Emerald | 1–4 | 1 | 2 | 8.0% |
+| Iron Bars | 1–3 | 1 | 2 | 8.0% |
+| Book | 1 | 1 | 1 | 4.0% |
+| Feather | 1 | 1 | 1 | 4.0% |
+| Glass Bottle | 1–2 | 1 | 1 | 4.0% |
+| Gold Nugget | 1–3 | 1 | 1 | 4.0% |
+| Potion | 1 | 2 | 3 | 100.0% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/mesa/saloon</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–4 | 1 | 10 | 37.0% |
+| Red Sand | 1–2 | 1 | 5 | 18.5% |
+| Book | 1 | 1 | 4 | 14.8% |
+| Arrow | 1–4 | 1 | 2 | 7.4% |
+| Emerald | 1–4 | 1 | 2 | 7.4% |
+| Cooked Beef | 1 | 1 | 1 | 3.7% |
+| Feather | 1 | 1 | 1 | 3.7% |
+| Glass Bottle | 2–4 | 1 | 1 | 3.7% |
+| Gold Nugget | 1–3 | 1 | 1 | 3.7% |
+| Potion | 1 | 2 | 3 | 100.0% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/mesa/toolsmith</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Stick | 1–3 | 1 | 20 | 36.4% |
+| Bread | 1–3 | 1 | 15 | 27.3% |
+| Iron Ingot | 1–5 | 1 | 5 | 9.1% |
+| Iron Pickaxe | 1 | 1 | 5 | 9.1% |
+| Iron Shovel | 1 | 1 | 5 | 9.1% |
+| Red Sand | 1–4 | 1 | 2 | 3.6% |
+| Coal | 1–3 | 1 | 1 | 1.8% |
+| Diamond | 1–3 | 1 | 1 | 1.8% |
+| Gold Ingot | 1–3 | 1 | 1 | 1.8% |
+| Potion | 1 | 2 | 3 | 100.0% |
+
+</details>
+
+<details>
+<summary><strong>kattersstructures:chests/mesa/weaponsmith</strong> (1 use)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Bread | 1–3 | 1 | 15 | 19.0% |
+| Iron Ingot | 1–5 | 1 | 10 | 12.7% |
+| Gold Ingot | 1–3 | 1 | 5 | 6.3% |
+| Iron Boots | 1 | 1 | 5 | 6.3% |
+| Iron Chestplate | 1–3 | 1 | 5 | 6.3% |
+| Iron Helmet | 1 | 1 | 5 | 6.3% |
+| Iron Leggings | 1 | 1 | 5 | 6.3% |
+| Iron Pickaxe | 1 | 1 | 5 | 6.3% |
+| Iron Sword | 1 | 1 | 5 | 6.3% |
+| Obsidian | 3–7 | 1 | 5 | 6.3% |
+| Red Sand | 3–7 | 1 | 5 | 6.3% |
+| Diamond | 1–3 | 1 | 3 | 3.8% |
+| Saddle | 1 | 1 | 3 | 3.8% |
+| Diamond Horse Armor | 1 | 1 | 1 | 1.3% |
+| Golden Horse Armor | 1 | 1 | 1 | 1.3% |
+| Iron Horse Armor | 1 | 1 | 1 | 1.3% |
+| Potion | 1 | 2 | 3 | 100.0% |
+
+</details>
+
 # Contents
 
 The structure is composed of the following blocks: Sand, Oak Planks, Jungle Planks, Bricks, Stripped Jungle Log, Warped Planks, Mangrove Planks, Birch Planks, Oak Slab, Jungle Stairs, Stripped Oak Log, Oak Stairs, Jungle Wall Sign, Oak Button, Oak Wall Sign, Oak Trapdoor, Hay Block, Jungle Slab, Jungle Fence, Jungle Trapdoor, Jungle Button, Terracotta, Brick Slab, Granite, Spruce Trapdoor, Ladder, White Wool, Rail, Smooth Sandstone, Warped Wall Sign, Stripped Warped Stem, Cyan Concrete Powder, Dried Kelp Block, Oak Fence, Brick Wall, Lantern, Netherrack, Stripped Spruce Log, Moss Block, Stripped Birch Log, Birch Slab, Jungle Fence Gate, Stripped Mangrove Log, Mangrove Wall Sign, Birch Wall Sign, Dark Oak Slab, Mangrove Button, Brick Stairs, Birch Button, Warped Trapdoor, Bookshelf, Calcite, Dead Bush, Warped Button, Coarse Dirt, Green Wool, Light Gray Wool, Mangrove Trapdoor, Spruce Fence, Gray Stained Glass Pane, Oak Fence Gate, Brown Wall Banner, Chest, Diorite, Mangrove Slab, Mud Brick Wall, Warped Slab, Dark Oak Trapdoor, Granite Slab, Mangrove Fence, Chiseled Bookshelf, Glow Lichen, Iron Bars, Mud Bricks, Stripped Dark Oak Log, Birch Trapdoor, Packed Mud, Polished Deepslate Wall, Decorated Pot, Muddy Mangrove Roots, Spruce Fence Gate, Spruce Stairs, Warped Fence, Birch Stairs, Spruce Planks, Cyan Wall Banner, Gray Bed, Jungle Pressure Plate, Light Gray Bed, Red Sandstone Wall, Soul Soil, Tripwire Hook, Dark Oak Fence Gate, Mangrove Stairs, Warped Fence Gate, Black Bed, Black Carpet, Brown Bed, Dark Oak Planks, Granite Stairs, Mangrove Roots, Sea Pickle, Warped Stairs, White Wall Banner, Brown Candle, Dark Oak Fence, Flower Pot, Granite Wall, Gray Carpet, Mangrove Fence Gate, Pointed Dripstone, Acacia Fence Gate, Anvil, Birch Fence Gate, Composter, Furnace, Green Wall Banner, Iron Door, Jungle Door, Jungle Hanging Sign, Light Gray Carpet, Polished Deepslate Stairs, Spruce Slab, Barrel, Bell, Birch Fence, Black Candle, Blast Furnace, Brewing Stand, Campfire, Cartography Table, Cobweb, Crafting Table, Dark Oak Stairs, Dark Oak Wall Hanging Sign, Fletching Table, Gray Candle, Grindstone, Iron Trapdoor, Lectern, Lever, Light Blue Stained Glass Pane, Lightning Rod, Lime Wall Banner, Mangrove Pressure Plate, Mangrove Wall Hanging Sign, Mud Brick Stairs, Oak Hanging Sign, Polished Deepslate Slab, Potted Acacia Sapling, Potted Cactus, Potted Jungle Sapling, Red Candle, Scaffolding, Smithing Table, Smooth Stone, Target, Water Cauldron, Yellow Candle.
 
 Additionally, the following entities may spawn during its generation: Item Frame, Villager.
+
 
 
 ## Per-Structure File Contents
@@ -59,9 +244,9 @@ The structure part is composed of the following blocks: Hay Block, Spruce Planks
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/mesa/fisherman |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/mesa/fisherman | 1 |
 
 
 </details>
@@ -106,9 +291,9 @@ Additionally, the following entities may spawn during its generation: Item Frame
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/mesa/cartographer |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/mesa/cartographer | 1 |
 
 
 </details>
@@ -147,9 +332,9 @@ The structure part is composed of the following blocks: Oak Slab, Calcite, Oak T
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/mesa/farmer |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/mesa/farmer | 1 |
 
 
 </details>
@@ -272,9 +457,9 @@ The structure part is composed of the following blocks: Anvil, Blast Furnace, Ch
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/mesa/armorer |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/mesa/armorer | 1 |
 
 
 </details>
@@ -702,9 +887,9 @@ Additionally, the following entities may spawn during its generation: Item Frame
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/mesa/fletcher |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/mesa/fletcher | 1 |
 
 
 </details>
@@ -748,9 +933,9 @@ The structure part is composed of the following blocks: Bricks, Sand, Granite, T
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/mesa/prison |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/mesa/prison | 1 |
 
 
 </details>
@@ -792,9 +977,9 @@ The structure part is composed of the following blocks: Oak Planks, Sand, Jungle
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/mesa/saloon |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/mesa/saloon | 1 |
 
 
 </details>
@@ -883,9 +1068,9 @@ The structure part is composed of the following blocks: Sand, Dried Kelp Block, 
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/mesa/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/mesa/house | 2 |
 
 
 </details>
@@ -1283,9 +1468,9 @@ The structure part is composed of the following blocks: Light Gray Bed, Chest, G
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/mesa/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/mesa/house | 1 |
 
 
 </details>
@@ -1314,9 +1499,9 @@ The structure part is composed of the following blocks: Oak Trapdoor, Brown Bed,
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/mesa/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/mesa/house | 1 |
 
 
 </details>
@@ -1374,9 +1559,9 @@ The structure part is composed of the following blocks: Black Carpet, Black Bed,
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/mesa/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/mesa/house | 1 |
 
 
 </details>
@@ -1407,9 +1592,9 @@ The structure part is composed of the following blocks: Oak Trapdoor, Jungle Tra
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/mesa/house |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/mesa/house | 1 |
 
 
 </details>
@@ -1563,9 +1748,9 @@ The structure part is composed of the following blocks: Anvil, Chest, Dark Oak F
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/mesa/toolsmith |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/mesa/toolsmith | 1 |
 
 
 </details>
@@ -1594,9 +1779,9 @@ The structure part is composed of the following blocks: Chest, Dark Oak Fence Ga
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/mesa/weaponsmith |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/mesa/weaponsmith | 1 |
 
 
 </details>

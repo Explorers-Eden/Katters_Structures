@@ -3,6 +3,7 @@
 The structure is composed of the following blocks: Barrier, Bone Block, Calcite, Dead Fire Coral Block, Dead Bubble Coral Block, Diorite Slab, Diorite Wall, Diorite Stairs.
 
 
+
 ## Per-Structure File Contents
 
 <details>

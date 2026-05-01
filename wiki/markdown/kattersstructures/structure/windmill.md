@@ -1,6 +1,29 @@
+# Generated Loot.
+
+There is one loot table used in this structure:
+
+<details>
+<summary><strong>kattersstructures:chests/windmill/windmill</strong> (4 uses)</summary>
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| Wheat | 1–5 | 1 | 10 | 38.5% |
+| Bread | 1–3 | 1 | 5 | 19.2% |
+| Wheat Seeds | 1–2 | 1 | 5 | 19.2% |
+| Emerald | 1–2 | 1 | 3 | 11.5% |
+| Brown Mushroom | 1 | 1 | 1 | 3.8% |
+| Cobweb | 1 | 1 | 1 | 3.8% |
+| Red Mushroom | 1 | 1 | 1 | 3.8% |
+| Golden Hoe | 1 | 2 | 1 | 33.3% |
+| Stone Hoe | 1 | 2 | 1 | 33.3% |
+| Wooden Hoe | 1 | 2 | 1 | 33.3% |
+
+</details>
+
 # Contents
 
 The structure is composed of the following blocks: Farmland, Wheat, Dirt Path, Deepslate, Spruce Fence, Spruce Trapdoor, Spruce Stairs, Oak Log, Spruce Planks, Hay Block, Oak Planks, Spruce Slab, Oak Leaves, Stripped Spruce Log, Stone Bricks, Vine, Dirt, Dark Oak Stairs, Spruce Wall Sign, Stripped Oak Log, Dark Oak Slab, Stone Button, Moss Block, Spruce Button, White Wool, Oak Wall Sign, Polished Deepslate, Lantern, Cracked Stone Bricks, Mossy Cobblestone, Mossy Stone Bricks, Stone Brick Wall, Bamboo Trapdoor, Coarse Dirt, Ladder, Oak Slab, Light Gray Stained Glass Pane, Spruce Fence Gate, Cobbled Deepslate, Oak Stairs, Jungle Fence, Polished Deepslate Wall, Mossy Stone Brick Wall, Composter, Light Gray Wool, Moss Carpet, Polished Andesite, Rooted Dirt, Cobblestone, Cobweb, Grindstone, Mossy Cobblestone Wall, Oak Button, Spruce Log, White Stained Glass Pane, Brown Bed, Short Grass, Spruce Door, Bamboo Mosaic Slab, Chain, Cobbled Deepslate Stairs, Glow Lichen, Chest, Polished Andesite Stairs, Stripped Jungle Log, Brown Mushroom, Carved Pumpkin, Dark Oak Planks, Jungle Fence Gate, Cobblestone Wall, Jack O Lantern, Red Mushroom, Tall Grass, Barrel, Lightning Rod.
+
 
 
 ## Per-Structure File Contents
@@ -818,9 +841,9 @@ The structure part is composed of the following blocks: Spruce Trapdoor, Spruce 
 
 ### Loot Tables
 
-| Loot Table |
-|:-----|
-| kattersstructures:chests/windmill/windmill |
+| Loot Table | Count |
+|:-----|:-----:|
+| kattersstructures:chests/windmill/windmill | 4 |
 
 
 </details>

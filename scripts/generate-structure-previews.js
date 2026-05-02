@@ -1621,14 +1621,36 @@ function getStructureSize(structure) {
   };
 }
 
+function unwrapNbtValue(value) {
+  if (value && typeof value === "object" && !Array.isArray(value)) {
+    if (Object.prototype.hasOwnProperty.call(value, "value")) return unwrapNbtValue(value.value);
+    if (Object.prototype.hasOwnProperty.call(value, "Value")) return unwrapNbtValue(value.Value);
+  }
+  return value;
+}
+
 function getJigsawNbtValue(nbtData, key) {
   if (!nbtData || typeof nbtData !== "object") return undefined;
-  return nbtData[key] ?? nbtData[key.replace(/_([a-z])/g, (_, c) => c.toUpperCase())] ?? nbtData[key.toUpperCase()];
+
+  const camelKey = key.replace(/_([a-z])/g, (_, c) => c.toUpperCase());
+  const pascalKey = camelKey.charAt(0).toUpperCase() + camelKey.slice(1);
+  const candidates = [key, camelKey, pascalKey, key.toUpperCase()];
+
+  for (const candidate of candidates) {
+    if (Object.prototype.hasOwnProperty.call(nbtData, candidate)) {
+      return unwrapNbtValue(nbtData[candidate]);
+    }
+  }
+
+  return undefined;
 }
 
 function normalizeResourceLocationForCompare(value) {
-  if (typeof value !== "string") return null;
-  if (!value) return null;
+  value = unwrapNbtValue(value);
+  if (value === null || value === undefined) return null;
+  if (typeof value !== "string") value = String(value);
+  value = value.trim().replace(/^['"]|['"]$/g, "");
+  if (!value || value === "minecraft:empty") return null;
   return value.includes(":") ? value : `minecraft:${value}`;
 }
 
@@ -1650,10 +1672,8 @@ function getJigsawInfo(block, state) {
     z: getFirstNumber(pos[2]),
     name: normalizeResourceLocationForCompare(getJigsawNbtValue(nbtData, "name")),
     target: normalizeResourceLocationForCompare(getJigsawNbtValue(nbtData, "target")),
-    // Minecraft 1.21+ jigsaw NBT can carry target_pool as the pool to draw
-    // the next piece from. In older/vanilla structures this value may still be
-    // stored as pool. Keep both: targetPool drives expansion when present, pool
-    // remains connector metadata and legacy expansion fallback.
+    // target_pool is the pool to draw the next piece from. pool is connector
+    // metadata and is only used when matching to a child connector.
     targetPool: normalizeResourceLocationForCompare(getJigsawNbtValue(nbtData, "target_pool")),
     pool: normalizeResourceLocationForCompare(getJigsawNbtValue(nbtData, "pool")),
     finalState: getJigsawNbtValue(nbtData, "final_state"),
@@ -1837,10 +1857,11 @@ function hasTemplatePool(poolId) {
 }
 
 function getJigsawExpansionPool(jigsaw) {
-  // Source jigsaw: target_pool is the real next-template-pool reference.
-  // Fallback to pool only for vanilla/older NBT where that was the only field.
+  // Only target_pool expands a jigsaw into a child template pool.
+  // The NBT pool field is connector metadata; it must never be used to select
+  // a structure from /worldgen/template_pool. A jigsaw without target_pool is
+  // only a connector/final-state marker and does not start another expansion.
   if (hasTemplatePool(jigsaw.targetPool)) return jigsaw.targetPool;
-  if (hasTemplatePool(jigsaw.pool)) return jigsaw.pool;
   return null;
 }
 
@@ -1900,34 +1921,48 @@ async function chooseStructuresFromTemplatePool(poolId, seenPools = new Set(), s
   return [];
 }
 
-function isCompatibleChildConnector(parent, child, expansionPool) {
-  // The required Minecraft connector test is source target -> candidate name.
-  if (parent.target && child.name && child.name !== parent.target) return false;
+function connectorCompatibilityScore(parent, child, expansionPool) {
+  let score = 0;
 
-  // In Katters/newer data, child.pool is connector metadata, not an onward
-  // expansion pool. Do not require target_pool on the child side. If the child
-  // connector declares a pool and the parent has a target_pool, accepting equality
-  // is useful but not mandatory for older data that uses names only.
-  if (child.pool && expansionPool && child.pool !== expansionPool) {
-    return parent.target && child.name === parent.target;
-  }
+  // Minecraft's main connector rule is parent target -> child name.
+  if (parent.target && child.name && child.name === parent.target) score += 100;
 
-  return true;
+  // Many data packs also mirror the relation as parent name <- child target.
+  // Treat this as valid connector metadata, not as a pool expansion source.
+  if (parent.name && child.target && child.target === parent.name) score += 80;
+
+  // pool is connector metadata on both sides. The selected child comes from
+  // parent.target_pool, but it connects through a child jigsaw whose pool matches
+  // the source jigsaw's pool. Do not compare child.pool to target_pool here.
+  if (parent.pool && child.pool && child.pool === parent.pool) score += 60;
+
+  // Do not allow a completely unrelated named connector to win just because the
+  // candidate has some jigsaw. At least one declared connector relationship must
+  // match when either side declares names/pools.
+  const declaresRelationship = Boolean(parent.target || parent.name || parent.pool || child.name || child.target || child.pool);
+  if (declaresRelationship && score === 0) return -1;
+
+  return score;
 }
 
-function findCompatibleChildConnector(parent, childJigsaws, expansionPool) {
-  const candidates = childJigsaws.filter(child => isCompatibleChildConnector(parent, child, expansionPool));
-  if (candidates.length === 0) return null;
+function findCompatibleChildConnector(parent, childJigsaws, expansionPool, parentFrontVector = null) {
+  const scored = [];
 
-  // Prefer exact name matches, then exact connector-pool matches. This avoids
-  // accidentally using an onward expansion jigsaw when multiple connectors exist.
-  return candidates.sort((a, b) => {
-    const aName = parent.target && a.name === parent.target ? 1 : 0;
-    const bName = parent.target && b.name === parent.target ? 1 : 0;
-    const aPool = expansionPool && a.pool === expansionPool ? 1 : 0;
-    const bPool = expansionPool && b.pool === expansionPool ? 1 : 0;
-    return (bName * 2 + bPool) - (aName * 2 + aPool);
-  })[0];
+  for (const child of childJigsaws) {
+    const score = connectorCompatibilityScore(parent, child, expansionPool);
+    if (score < 0) continue;
+
+    // Prefer connectors that can face back into the parent after a Y rotation.
+    const orientationScore = parentFrontVector
+      ? (getQuarterTurnsToFace(directionToVector(child.front), parentFrontVector) >= 0 ? 5 : 0)
+      : 0;
+
+    scored.push({ child, score: score + orientationScore });
+  }
+
+  if (scored.length === 0) return null;
+  scored.sort((a, b) => b.score - a.score);
+  return scored[0].child;
 }
 
 async function chooseStructureFromTemplatePool(poolId, seenPools = new Set(), seedText = previewSeed) {
@@ -2044,10 +2079,10 @@ async function assembleJigsawStructureFromPool(startPool, maxDepth = 7) {
         const childStructure = await readNbtFile(childChoice.structureFile);
         const childSize = getStructureSize(childStructure);
         const childJigsaws = getJigsawsFromStructure(childStructure);
-        const childConnector = findCompatibleChildConnector(parent, childJigsaws, expansionPool);
+        const parentFront = worldParent.frontVector ?? directionToVector(worldParent.front);
+        const childConnector = findCompatibleChildConnector(parent, childJigsaws, expansionPool, parentFront);
         if (!childConnector) continue;
 
-        const parentFront = worldParent.frontVector ?? directionToVector(worldParent.front);
         const childFront = directionToVector(childConnector.front);
         const childTurns = getQuarterTurnsToFace(childFront, parentFront);
         const rotatedChildConnector = rotateYPosition(childConnector, childSize, childTurns);

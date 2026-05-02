@@ -1644,14 +1644,21 @@ function getJigsawInfo(block, state) {
   const orientation = properties.orientation ?? properties.Orientation ?? "north_up";
   const [front = "north", top = "up"] = String(orientation).split("_");
 
+  const pool = normalizeResourceLocationForCompare(getJigsawNbtValue(nbtData, "pool"));
+  const targetPool = normalizeResourceLocationForCompare(getJigsawNbtValue(nbtData, "target_pool"));
+
   return {
     x: getFirstNumber(pos[0]),
     y: getFirstNumber(pos[1]),
     z: getFirstNumber(pos[2]),
     name: normalizeResourceLocationForCompare(getJigsawNbtValue(nbtData, "name")),
     target: normalizeResourceLocationForCompare(getJigsawNbtValue(nbtData, "target")),
-    pool: normalizeResourceLocationForCompare(getJigsawNbtValue(nbtData, "pool")),
-    targetPool: normalizeResourceLocationForCompare(getJigsawNbtValue(nbtData, "target_pool")),
+    // Important: in this workflow's exported NBT, target_pool is the template
+    // pool to draw the next child piece from. pool is connector metadata and is
+    // used to decide which jigsaw on the chosen child template may attach here.
+    // Child-side connector jigsaws commonly do not have target_pool at all.
+    pool,
+    targetPool,
     finalState: getJigsawNbtValue(nbtData, "final_state"),
     orientation,
     front,
@@ -1885,45 +1892,25 @@ async function chooseStructureFromTemplatePool(poolId, seenPools = new Set(), se
   };
 }
 
-function jigsawConnectorMatches(parent, child, sourcePoolId) {
+function jigsawConnectorMatches(parent, child, sourcePool = null) {
   if (!parent || !child) return false;
-  if (child.name !== parent.target) return false;
 
-  // target_pool is the pool to draw the next piece from. The child connector's
-  // pool is compatibility metadata; if present, it should agree with the pool
-  // that supplied this child piece. This keeps target_pool expansion and pool
-  // compatibility separate instead of using `pool` as the next-piece source.
-  if (child.pool && sourcePoolId && child.pool !== sourcePoolId) return false;
+  // Connector matching is deliberately separate from expansion. The parent
+  // target_pool/sourcePool chooses which template_pool to roll from; the chosen
+  // child template attaches at a child jigsaw whose connector metadata matches.
+  // Child connector jigsaws usually have pool but not target_pool.
+  if (parent.target && child.name && parent.target !== child.name) return false;
+
+  // In this repo/exporter, child.pool identifies which parent target_pool it is
+  // allowed to connect to. Enforce it when available, but do not require it for
+  // vanilla/older structures that only rely on name/target.
+  if (sourcePool && child.pool && child.pool !== sourcePool) return false;
+
+  // Some templates encode compatibility in the opposite target/name pair.
+  // Treat it as an additional check only when both sides are present.
+  if (parent.name && child.target && child.target !== parent.name) return false;
 
   return true;
-}
-
-async function chooseAttachableStructureFromTemplatePool(parent, sourcePoolId, occupied, seedText) {
-  const candidates = getWeightedCandidateOrder(
-    getWeightedTemplatePoolCandidates(sourcePoolId, new Set()),
-    `${seedText}|pool|${sourcePoolId}`
-  );
-
-  for (const candidate of candidates) {
-    // A weighted roll can validly hit minecraft:empty/non-structure.
-    if (!candidate?.structureFile) return null;
-
-    const childStructure = await readNbtFile(candidate.structureFile);
-    const childJigsaws = getJigsawsFromStructure(childStructure);
-    const connector = childJigsaws.find(jigsaw => jigsawConnectorMatches(parent, jigsaw, sourcePoolId)) ?? null;
-    if (!connector) continue;
-
-    return {
-      location: candidate.location,
-      structureFile: candidate.structureFile,
-      weight: candidate.weight,
-      poolId: candidate.poolId,
-      structure: childStructure,
-      connector
-    };
-  }
-
-  return null;
 }
 
 function getQuarterTurnsToFace(childFront, parentFront) {
@@ -1990,57 +1977,81 @@ async function assembleJigsawStructureFromPool(startPool, maxDepth = 7) {
         continue;
       }
 
-      // Only actual jigsaw blocks inside the currently placed structure can extend
-      // the assembly. `target_pool` is the template pool to draw from; `pool` is
-      // only connector compatibility metadata.
-      const sourcePool = parent.targetPool;
+      // Only actual jigsaw blocks inside the currently placed structure can
+      // extend the assembly. target_pool chooses the next template_pool to roll
+      // from. pool is connector metadata, not the expansion source. Older/vanilla
+      // NBT can lack target_pool and use pool for expansion, so allow that only
+      // as a compatibility fallback when target_pool is absent.
+      const sourcePool = parent.targetPool ?? parent.pool;
       if (!sourcePool || sourcePool === "minecraft:empty") continue;
 
       const worldParent = transformJigsaw(parent, size, item.offset, item.quarterTurns);
-      const childChoice = await chooseAttachableStructureFromTemplatePool(
-        parent,
-        sourcePool,
-        occupied,
-        `${item.structureFile}|${item.offset.x},${item.offset.y},${item.offset.z}|${item.quarterTurns}|${parent.x},${parent.y},${parent.z}|${parent.name}|${parent.target}|${sourcePool}`
-      );
-      if (!childChoice) continue;
-
-      const childStructure = childChoice.structure;
-      const childSize = getStructureSize(childStructure);
-      const childConnector = childChoice.connector;
-
       const parentFront = worldParent.frontVector ?? directionToVector(worldParent.front);
-      const childFront = directionToVector(childConnector.front);
-      const childTurns = getQuarterTurnsToFace(childFront, parentFront);
-      const rotatedChildConnector = rotateYPosition(childConnector, childSize, childTurns);
       const attach = {
         x: worldParent.x + parentFront.x,
         y: worldParent.y + parentFront.y,
         z: worldParent.z + parentFront.z
       };
-      const childOffset = {
-        x: attach.x - rotatedChildConnector.x,
-        y: attach.y - rotatedChildConnector.y,
-        z: attach.z - rotatedChildConnector.z
-      };
 
-      const childBlocks = transformStructureBlocks(childStructure, childOffset, childTurns);
-      const overlapsExistingBlock = childBlocks.some(block => occupied.has(makeBlockKey(block)));
-      if (overlapsExistingBlock) continue;
+      const choiceSeed = `${item.structureFile}|${item.offset.x},${item.offset.y},${item.offset.z}|${item.quarterTurns}|${parent.x},${parent.y},${parent.z}|${parent.name}|${parent.target}|${sourcePool}`;
+      const childChoices = getWeightedCandidateOrder(
+        getWeightedTemplatePoolCandidates(sourcePool, new Set()),
+        `${choiceSeed}|pool|${sourcePool}`
+      );
+
+      let placedChild = null;
+
+      for (const childChoice of childChoices) {
+        // A weighted roll can validly hit minecraft:empty/non-structure.
+        if (!childChoice?.structureFile) {
+          placedChild = null;
+          break;
+        }
+
+        const childStructure = await readNbtFile(childChoice.structureFile);
+        const childSize = getStructureSize(childStructure);
+        const childJigsaws = getJigsawsFromStructure(childStructure);
+        const connectors = childJigsaws
+          .map((jigsaw, index) => ({ jigsaw, weight: 1, index }))
+          .filter(item => jigsawConnectorMatches(parent, item.jigsaw, sourcePool));
+
+        for (const connectorEntry of getWeightedCandidateOrder(connectors, `${choiceSeed}|${childChoice.location}|connectors`)) {
+          const childConnector = connectorEntry.jigsaw;
+          const childFront = directionToVector(childConnector.front);
+          const childTurns = getQuarterTurnsToFace(childFront, parentFront);
+          const rotatedChildConnector = rotateYPosition(childConnector, childSize, childTurns);
+          const childOffset = {
+            x: attach.x - rotatedChildConnector.x,
+            y: attach.y - rotatedChildConnector.y,
+            z: attach.z - rotatedChildConnector.z
+          };
+
+          const childBlocks = transformStructureBlocks(childStructure, childOffset, childTurns);
+          const overlapsExistingBlock = childBlocks.some(block => occupied.has(makeBlockKey(block)));
+          if (overlapsExistingBlock) continue;
+
+          placedChild = { childChoice, childConnector, childOffset, childTurns };
+          break;
+        }
+
+        if (placedChild) break;
+      }
+
+      if (!placedChild) continue;
 
       resolvedJigsaws++;
       stats.jigsawPoolsFollowed++;
       stats.jigsawBlocksResolved++;
 
       queue.push({
-        structureFile: childChoice.structureFile,
-        offset: childOffset,
-        quarterTurns: childTurns,
+        structureFile: placedChild.childChoice.structureFile,
+        offset: placedChild.childOffset,
+        quarterTurns: placedChild.childTurns,
         depth: item.depth + 1,
         consumedConnector: {
-          x: childConnector.x,
-          y: childConnector.y,
-          z: childConnector.z
+          x: placedChild.childConnector.x,
+          y: placedChild.childConnector.y,
+          z: placedChild.childConnector.z
         }
       });
     }

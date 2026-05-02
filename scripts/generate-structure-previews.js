@@ -46,6 +46,7 @@ const resolvedModelCache = new Map();
 const textureCache = new Map();
 const bakedModelCache = new Map();
 const fallbackColorCache = new Map();
+const textureAverageCache = new Map();
 
 const stats = {
   mainImages: 0,
@@ -522,6 +523,53 @@ function sampleTexture(texture, u, v) {
   };
 }
 
+function averageOpaqueTextureColor(texture) {
+  if (!texture) return null;
+  if (textureAverageCache.has(texture)) return textureAverageCache.get(texture);
+
+  let r = 0;
+  let g = 0;
+  let b = 0;
+  let a = 0;
+  let count = 0;
+
+  for (let y = 0; y < texture.height; y++) {
+    for (let x = 0; x < texture.width; x++) {
+      const idx = (texture.width * y + x) << 2;
+      const alpha = texture.data[idx + 3];
+      if (alpha < 16) continue;
+      r += texture.data[idx];
+      g += texture.data[idx + 1];
+      b += texture.data[idx + 2];
+      a += alpha;
+      count++;
+    }
+  }
+
+  const color = count > 0
+    ? { r: Math.round(r / count), g: Math.round(g / count), b: Math.round(b / count), a: Math.round(a / count) }
+    : null;
+
+  textureAverageCache.set(texture, color);
+  return color;
+}
+
+function sampleTextureForQuad(quad, u, v) {
+  const sampled = sampleTexture(quad.texture, u, v);
+  if (sampled) return sampled;
+
+  // Chain uses a mostly-transparent texture on very thin geometry. In a tiny
+  // isometric preview, exact nearest-neighbor samples often land in transparent
+  // holes, making the whole chain disappear. Keep the vanilla model/texture,
+  // but use the texture's opaque average for transparent chain samples so the
+  // chain remains visible rather than being skipped.
+  if (quad.blockName === "minecraft:chain" && quad.texture) {
+    return averageOpaqueTextureColor(quad.texture);
+  }
+
+  return null;
+}
+
 function shadeColor(color, factor) {
   return {
     r: Math.max(0, Math.min(255, Math.round(color.r * factor))),
@@ -647,7 +695,7 @@ function drawTexturedQuad(png, quad) {
 
       const local = solve2d(p00, p10, p01, x + 0.5, y + 0.5);
       const uv = getFaceUv(quad, local.u, local.v);
-      const sampled = sampleTexture(texture, uv.u, uv.v);
+      const sampled = sampleTextureForQuad(quad, uv.u, uv.v);
 
       if (texture && !sampled) continue;
 
@@ -1051,6 +1099,11 @@ function specialBlockModel(blockName, properties = {}) {
   // model geometry in the asset baker. Directional/thin blocks such as chains,
   // buttons, and levers intentionally go through vanilla blockstates/models so
   // their rotations, UVs, and textures come from Minecraft's own data.
+  if (short === "chain") {
+    const chain = chainElementsForState(properties);
+    return bakeFallbackElements(blockName, chain.elements, chain.variant);
+  }
+
   if (short.endsWith("_wall_sign") || short.endsWith("_wall_hanging_sign")) {
     const y = { south: 0, west: 90, north: 180, east: 270 }[properties.facing ?? "north"] ?? 180;
     return bakeFallbackElements(blockName, [

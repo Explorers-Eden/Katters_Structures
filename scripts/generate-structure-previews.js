@@ -953,10 +953,41 @@ function specialBlockModel(blockName, properties = {}) {
       variant.y = { north: 0, east: 90, south: 180, west: 270 }[facing] ?? 0;
     } else {
       element = { from: [5, 6, 14 - depth], to: [11, 10, 16], faces: allFaces() };
-      variant.y = { south: 0, west: 90, north: 180, east: 270 }[facing] ?? 180;
+      variant.y = { north: 0, east: 90, south: 180, west: 270 }[facing] ?? 0;
     }
 
     return bakeFallbackElements(blockName, [element], variant);
+  }
+
+
+  if (short === "lever") {
+    const face = properties.face ?? "wall";
+    const powered = properties.powered === "true";
+    const facing = properties.facing ?? "north";
+    const y = { north: 0, east: 90, south: 180, west: 270 }[facing] ?? 0;
+    const baseDepth = 2;
+    const handleTilt = powered ? 5 : 3;
+    let elements;
+    let variant = { x: 0, y };
+
+    if (face === "floor") {
+      elements = [
+        { from: [5, 0, 5], to: [11, baseDepth, 11], faces: allFaces() },
+        { from: [7, baseDepth, 7], to: [9, 10 + handleTilt, 9], faces: allFaces() }
+      ];
+    } else if (face === "ceiling") {
+      elements = [
+        { from: [5, 16 - baseDepth, 5], to: [11, 16, 11], faces: allFaces() },
+        { from: [7, 6 - handleTilt, 7], to: [9, 16 - baseDepth, 9], faces: allFaces() }
+      ];
+    } else {
+      elements = [
+        { from: [5, 5, 14], to: [11, 11, 16], faces: allFaces() },
+        { from: [7, 7, 8 - handleTilt], to: [9, 9, 14], faces: allFaces() }
+      ];
+    }
+
+    return bakeFallbackElements(blockName, elements, variant);
   }
 
   return null;
@@ -1293,6 +1324,29 @@ function collectTemplatePoolsFromObject(value, result = new Set()) {
   return result;
 }
 
+
+function collectResourceLocationsForKey(value, keys, result = new Set()) {
+  if (value === null || value === undefined) return result;
+
+  if (Array.isArray(value)) {
+    for (const item of value) collectResourceLocationsForKey(item, keys, result);
+    return result;
+  }
+
+  if (typeof value !== "object") return result;
+
+  for (const [key, nested] of Object.entries(value)) {
+    if (keys.has(key)) collectTemplatePoolsFromObject(nested, result);
+    else collectResourceLocationsForKey(nested, keys, result);
+  }
+
+  return result;
+}
+
+function collectStartPoolsFromObject(value) {
+  return collectResourceLocationsForKey(value, new Set(["start_pool", "startPool"]));
+}
+
 function getTemplatePoolFile(poolId) {
   const [namespace, poolPath] = splitResourceLocation(poolId);
   return path.join(inputRoot, namespace, "worldgen", "template_pool", `${poolPath}.json`);
@@ -1359,20 +1413,18 @@ async function collectJigsawPoolsFromStructureFile(structureFile) {
 }
 
 async function collectStructureFilesFromTemplatePool(poolId, seenPools = new Set(), result = new Set(), seedText = previewSeed) {
-  if (seenPools.has(poolId)) return result;
+  if (!poolId || poolId === "minecraft:empty" || seenPools.has(poolId)) return result;
   seenPools.add(poolId);
 
-  const poolFile = getTemplatePoolFile(poolId);
-  const poolJson = readJsonIfExists(poolFile);
+  const poolJson = readJsonIfExists(getTemplatePoolFile(poolId));
   if (!poolJson) return result;
-
   stats.poolsRead++;
 
   const choices = getTemplatePoolChoices(poolJson)
     .filter(choice => fs.existsSync(getStructureNbtFileFromLocation(choice.location)));
-  const choice = chooseWeightedEntry(choices, `${previewSeed}|collect-pool|${poolId}|${seedText}`);
 
-  if (choice) {
+  if (choices.length > 0) {
+    const choice = chooseWeightedEntry(choices, `${previewSeed}|collect-pool|${poolId}|${seedText}`) ?? choices[0];
     const structureFile = getStructureNbtFileFromLocation(choice.location);
     const alreadyHadFile = result.has(structureFile);
     result.add(structureFile);
@@ -1382,12 +1434,7 @@ async function collectStructureFilesFromTemplatePool(poolId, seenPools = new Set
 
       for (const nestedPool of jigsawPools) {
         stats.jigsawPoolsFollowed++;
-        await collectStructureFilesFromTemplatePool(
-          nestedPool,
-          seenPools,
-          result,
-          `${seedText}|${choice.location}|${nestedPool}`
-        );
+        await collectStructureFilesFromTemplatePool(nestedPool, seenPools, result, `${seedText}|${choice.location}|${nestedPool}`);
       }
     }
 
@@ -1703,15 +1750,18 @@ async function collectStructureFilesForWorldgenStructure(worldgenFile) {
   const files = new Set();
   let blocks = [];
 
-  const startPool = normalizeResourceLocationForCompare(json.start_pool ?? json.startPool);
-  const maxDepth = Math.max(1, Number(json.size ?? json.max_distance_from_center ?? 7));
+  const startPools = [...collectStartPoolsFromObject(json)].map(normalizeResourceLocationForCompare).filter(Boolean);
+  const startPool = startPools[0] ?? normalizeResourceLocationForCompare(json.start_pool ?? json.startPool);
+  const maxDepth = Math.max(1, Number(json.size ?? json.max_distance_from_center ?? json.maxDistanceFromCenter ?? 7));
 
   if (startPool) {
     blocks = await assembleJigsawStructureFromPool(startPool, maxDepth);
   }
 
-  for (const poolId of pools) {
-    await collectStructureFilesFromTemplatePool(poolId, new Set(), files);
+  if (blocks.length === 0) {
+    for (const poolId of pools) {
+      await collectStructureFilesFromTemplatePool(poolId, new Set(), files, `${worldgenFile}|${poolId}`);
+    }
   }
 
   return {

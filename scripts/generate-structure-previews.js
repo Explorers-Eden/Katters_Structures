@@ -1358,7 +1358,7 @@ async function collectJigsawPoolsFromStructureFile(structureFile) {
   }
 }
 
-async function collectStructureFilesFromTemplatePool(poolId, seenPools = new Set(), result = new Set()) {
+async function collectStructureFilesFromTemplatePool(poolId, seenPools = new Set(), result = new Set(), seedText = previewSeed) {
   if (seenPools.has(poolId)) return result;
   seenPools.add(poolId);
 
@@ -1368,30 +1368,34 @@ async function collectStructureFilesFromTemplatePool(poolId, seenPools = new Set
 
   stats.poolsRead++;
 
-  for (const element of poolJson.elements ?? []) {
-    const elementData = element.element ?? element;
-    const locations = collectElementLocations(elementData);
+  const choices = getTemplatePoolChoices(poolJson)
+    .filter(choice => fs.existsSync(getStructureNbtFileFromLocation(choice.location)));
+  const choice = chooseWeightedEntry(choices, `${previewSeed}|collect-pool|${poolId}|${seedText}`);
 
-    for (const location of locations) {
-      const structureFile = getStructureNbtFileFromLocation(location);
-      if (!fs.existsSync(structureFile)) continue;
+  if (choice) {
+    const structureFile = getStructureNbtFileFromLocation(choice.location);
+    const alreadyHadFile = result.has(structureFile);
+    result.add(structureFile);
 
-      const alreadyHadFile = result.has(structureFile);
-      result.add(structureFile);
+    if (!alreadyHadFile) {
+      const jigsawPools = await collectJigsawPoolsFromStructureFile(structureFile);
 
-      if (!alreadyHadFile) {
-        const jigsawPools = await collectJigsawPoolsFromStructureFile(structureFile);
-
-        for (const nestedPool of jigsawPools) {
-          stats.jigsawPoolsFollowed++;
-          await collectStructureFilesFromTemplatePool(nestedPool, seenPools, result);
-        }
+      for (const nestedPool of jigsawPools) {
+        stats.jigsawPoolsFollowed++;
+        await collectStructureFilesFromTemplatePool(
+          nestedPool,
+          seenPools,
+          result,
+          `${seedText}|${choice.location}|${nestedPool}`
+        );
       }
     }
+
+    return result;
   }
 
   if (poolJson.fallback && poolJson.fallback !== "minecraft:empty") {
-    await collectStructureFilesFromTemplatePool(poolJson.fallback, seenPools, result);
+    await collectStructureFilesFromTemplatePool(poolJson.fallback, seenPools, result, `${seedText}|fallback`);
   }
 
   return result;
@@ -1706,18 +1710,8 @@ async function collectStructureFilesForWorldgenStructure(worldgenFile) {
     blocks = await assembleJigsawStructureFromPool(startPool, maxDepth);
   }
 
-  // For jigsaw/template-pool based worldgen previews, do not render every
-  // structure that exists in each pool. A real jigsaw expansion samples one
-  // weighted element from a pool for each jigsaw connector. If we already
-  // assembled a sampled jigsaw preview from the start_pool above, keep the
-  // file list only as lightweight metadata/fallback and render `blocks`.
-  // If there is no start_pool or the assembly failed, sample one weighted
-  // structure from each referenced pool instead of flattening the whole pool.
-  if (blocks.length === 0) {
-    for (const poolId of pools) {
-      const choice = await chooseStructureFromTemplatePool(poolId, new Set(), `${worldgenFile}|${poolId}|fallback-file-sample`);
-      if (choice?.structureFile) files.add(choice.structureFile);
-    }
+  for (const poolId of pools) {
+    await collectStructureFilesFromTemplatePool(poolId, new Set(), files);
   }
 
   return {
@@ -1766,7 +1760,7 @@ async function getWorldgenStructureGroups() {
   for (const file of worldgenFiles) {
     const group = await collectStructureFilesForWorldgenStructure(file);
 
-    if (!group || (group.files.length === 0 && (!Array.isArray(group.blocks) || group.blocks.length === 0))) {
+    if (!group || group.files.length === 0) {
       console.warn(`No template NBT files found for worldgen structure ${file}`);
       continue;
     }

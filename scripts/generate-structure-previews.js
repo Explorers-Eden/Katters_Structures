@@ -1293,39 +1293,6 @@ function collectTemplatePoolsFromObject(value, result = new Set()) {
   return result;
 }
 
-
-function findFirstResourceLocationByKey(value, wantedKeys) {
-  if (value === null || value === undefined) return null;
-
-  if (Array.isArray(value)) {
-    for (const item of value) {
-      const found = findFirstResourceLocationByKey(item, wantedKeys);
-      if (found) return found;
-    }
-    return null;
-  }
-
-  if (typeof value !== "object") return null;
-
-  for (const [key, nested] of Object.entries(value)) {
-    if (wantedKeys.has(key)) {
-      if (typeof nested === "string") {
-        const normalized = normalizeResourceLocationForCompare(nested);
-        if (normalized && normalized !== "minecraft:empty") return normalized;
-      }
-      const foundNested = findFirstResourceLocationByKey(nested, wantedKeys);
-      if (foundNested) return foundNested;
-    }
-  }
-
-  for (const nested of Object.values(value)) {
-    const found = findFirstResourceLocationByKey(nested, wantedKeys);
-    if (found) return found;
-  }
-
-  return null;
-}
-
 function getTemplatePoolFile(poolId) {
   const [namespace, poolPath] = splitResourceLocation(poolId);
   return path.join(inputRoot, namespace, "worldgen", "template_pool", `${poolPath}.json`);
@@ -1730,36 +1697,24 @@ async function collectStructureFilesForWorldgenStructure(worldgenFile) {
   const json = readJsonIfExists(worldgenFile);
   if (!info || !json) return null;
 
-  const pools = collectTemplatePoolsFromObject(json);
-  const files = new Set();
-  let blocks = [];
-
-  const startPool =
-    normalizeResourceLocationForCompare(json.start_pool ?? json.startPool) ??
-    findFirstResourceLocationByKey(json, new Set(["start_pool", "startPool"]));
+  const startPool = normalizeResourceLocationForCompare(json.start_pool ?? json.startPool);
   const maxDepth = Math.max(1, Number(json.size ?? json.max_distance_from_center ?? 7));
 
-  if (startPool) {
-    const assembled = await assembleJigsawStructureFromPool(startPool, maxDepth);
-    blocks = assembled.blocks;
-    for (const file of assembled.files) files.add(file);
-  }
-
-  // Critical: do not collect every structure from every referenced template pool when
-  // a jigsaw preview was assembled. That old fallback is what rendered the whole
-  // pool catalog instead of one weighted choice per jigsaw connection.
-  if (blocks.length === 0) {
-    for (const poolId of pools) {
-      await collectStructureFilesFromTemplatePool(poolId, new Set(), files);
-    }
-  }
+  // Worldgen previews must be assembled from the configured start_pool and then
+  // expanded only through actual minecraft:jigsaw blocks found in each placed
+  // template. Do not scan the worldgen JSON for every pool reference and do not
+  // pre-collect every NBT from those pools, because that renders the full pool
+  // contents as one big blob instead of a game-like jigsaw result.
+  const assembled = startPool
+    ? await assembleJigsawStructureFromPool(startPool, maxDepth)
+    : { blocks: [], files: [] };
 
   return {
     namespace: info.namespace,
     relativePath: info.relativePath,
     id: info.id,
-    files: [...files].sort(),
-    blocks
+    files: assembled.files,
+    blocks: assembled.blocks
   };
 }
 
@@ -1800,8 +1755,8 @@ async function getWorldgenStructureGroups() {
   for (const file of worldgenFiles) {
     const group = await collectStructureFilesForWorldgenStructure(file);
 
-    if (!group || (group.files.length === 0 && (!Array.isArray(group.blocks) || group.blocks.length === 0))) {
-      console.warn(`No template NBT files found for worldgen structure ${file}`);
+    if (!group || !Array.isArray(group.blocks) || group.blocks.length === 0) {
+      console.warn(`No assembled jigsaw preview blocks found for worldgen structure ${file}`);
       continue;
     }
 

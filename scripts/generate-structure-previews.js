@@ -1857,14 +1857,24 @@ function hasTemplatePool(poolId) {
 }
 
 function getJigsawExpansionPool(jigsaw) {
-  // Prefer the explicit target_pool field when present. However, vanilla
-  // structure-template jigsaw block NBT commonly stores the outgoing template
-  // pool in the field named `pool`. Some generated/modded data exposes
-  // `target_pool`. To avoid skipping every vanilla-style jigsaw, use `pool` as
-  // an expansion fallback only when it actually resolves to a template_pool JSON.
+  // Dynamic schema support:
+  // - New/custom exports may expose the outgoing template pool as `target_pool`.
+  // - Vanilla structure-template NBT commonly stores that same outgoing pool in
+  //   `pool`.  Only treat `pool` as an expansion source when it resolves to an
+  //   actual template_pool JSON in the current repo, so connector-only values do
+  //   not accidentally expand.
   if (hasTemplatePool(jigsaw.targetPool)) return jigsaw.targetPool;
   if (hasTemplatePool(jigsaw.pool)) return jigsaw.pool;
   return null;
+}
+
+function getJigsawConnectorPool(jigsaw, expansionPool = null) {
+  // In some data sets `pool` is connector metadata; in vanilla-style NBT it is
+  // the expansion pool.  Do not use it as connector metadata when it is the same
+  // value we are expanding from.
+  if (!jigsaw?.pool) return null;
+  if (expansionPool && jigsaw.pool === expansionPool) return null;
+  return jigsaw.pool;
 }
 
 function weightedPoolChoiceOrder(choices, seedText) {
@@ -1926,35 +1936,35 @@ async function chooseStructuresFromTemplatePool(poolId, seenPools = new Set(), s
 function connectorCompatibilityScore(parent, child, expansionPool) {
   let score = 0;
 
-  // Minecraft's main connector rule is parent target -> child name.
-  if (parent.target && child.name && child.name === parent.target) score += 100;
+  // Primary jigsaw connector rule: the parent asks for `target`, and the child
+  // connector offers `name`. This is the rule that should drive attachment.
+  if (parent.target && child.name && child.name === parent.target) score += 1000;
 
-  // Many data packs also mirror the relation as parent name <- child target.
-  // Treat this as valid connector metadata, not as a pool expansion source.
-  if (parent.name && child.target && child.target === parent.name) score += 80;
+  // Mirrored metadata is common in generated structures and is safe as a
+  // secondary signal, but it must never replace parent.target -> child.name.
+  if (parent.name && child.target && child.target === parent.name) score += 100;
 
-  // If both sides use pool as connector metadata and it matches, this is a
-  // useful tie-breaker. Do not require it, because in vanilla-style NBT the
-  // child's `pool` is often its own outgoing expansion pool, not the incoming
-  // connector ID.
-  if (parent.pool && child.pool && child.pool === parent.pool) score += 20;
+  // Some custom/exported jigsaws use `pool` as connector metadata. Use it only
+  // as a weak tie-breaker/fallback, never as the expansion source and never as a
+  // hard requirement.
+  const parentConnectorPool = getJigsawConnectorPool(parent, expansionPool);
+  const childConnectorPool = getJigsawConnectorPool(child, null);
+  if (parentConnectorPool && childConnectorPool && childConnectorPool === parentConnectorPool) score += 25;
 
-  // A named jigsaw connection should normally satisfy parent.target -> child.name
-  // or the mirrored parent.name <- child.target relation. Pool-only matches are
-  // allowed as a weak fallback, but an unrelated named connector should not win.
-  if ((parent.target || parent.name) && score === 0) return -1;
+  // Named connectors should not attach to unrelated named connectors. Pool-only
+  // matches are allowed only when no names are available.
+  if ((parent.target || child.name) && score === 0) return -1;
 
   return score;
 }
 
-function findCompatibleChildConnector(parent, childJigsaws, expansionPool, parentFrontVector = null) {
+function findCompatibleChildConnectors(parent, childJigsaws, expansionPool, parentFrontVector = null) {
   const scored = [];
 
   for (const child of childJigsaws) {
     const score = connectorCompatibilityScore(parent, child, expansionPool);
     if (score < 0) continue;
 
-    // Prefer connectors that can face back into the parent after a Y rotation.
     const orientationScore = parentFrontVector
       ? (getQuarterTurnsToFace(directionToVector(child.front), parentFrontVector) >= 0 ? 5 : 0)
       : 0;
@@ -1962,9 +1972,12 @@ function findCompatibleChildConnector(parent, childJigsaws, expansionPool, paren
     scored.push({ child, score: score + orientationScore });
   }
 
-  if (scored.length === 0) return null;
   scored.sort((a, b) => b.score - a.score);
-  return scored[0].child;
+  return scored.map(entry => entry.child);
+}
+
+function findCompatibleChildConnector(parent, childJigsaws, expansionPool, parentFrontVector = null) {
+  return findCompatibleChildConnectors(parent, childJigsaws, expansionPool, parentFrontVector)[0] ?? null;
 }
 
 async function chooseStructureFromTemplatePool(poolId, seenPools = new Set(), seedText = previewSeed) {
@@ -2078,48 +2091,54 @@ async function assembleJigsawStructureFromPool(startPool, maxDepth = 7) {
       for (const childChoice of childChoices) {
         if (childChoice.empty) break;
 
+        if (!fs.existsSync(childChoice.structureFile)) continue;
+
         const childStructure = await readNbtFile(childChoice.structureFile);
         const childSize = getStructureSize(childStructure);
         const childJigsaws = getJigsawsFromStructure(childStructure);
         const parentFront = worldParent.frontVector ?? directionToVector(worldParent.front);
-        const childConnector = findCompatibleChildConnector(parent, childJigsaws, expansionPool, parentFront);
-        if (!childConnector) continue;
+        const childConnectors = findCompatibleChildConnectors(parent, childJigsaws, expansionPool, parentFront);
+        if (childConnectors.length === 0) continue;
 
-        const childFront = directionToVector(childConnector.front);
-        const childTurns = getQuarterTurnsToFace(childFront, parentFront);
-        const rotatedChildConnector = rotateYPosition(childConnector, childSize, childTurns);
-        const attach = {
-          x: worldParent.x + parentFront.x,
-          y: worldParent.y + parentFront.y,
-          z: worldParent.z + parentFront.z
-        };
-        const childOffset = {
-          x: attach.x - rotatedChildConnector.x,
-          y: attach.y - rotatedChildConnector.y,
-          z: attach.z - rotatedChildConnector.z
-        };
+        for (const childConnector of childConnectors) {
+          const childFront = directionToVector(childConnector.front);
+          const childTurns = getQuarterTurnsToFace(childFront, parentFront);
+          const rotatedChildConnector = rotateYPosition(childConnector, childSize, childTurns);
+          const attach = {
+            x: worldParent.x + parentFront.x,
+            y: worldParent.y + parentFront.y,
+            z: worldParent.z + parentFront.z
+          };
+          const childOffset = {
+            x: attach.x - rotatedChildConnector.x,
+            y: attach.y - rotatedChildConnector.y,
+            z: attach.z - rotatedChildConnector.z
+          };
 
-        const childBlocks = transformStructureBlocks(childStructure, childOffset, childTurns);
-        const overlapsExistingBlock = childBlocks.some(block => occupied.has(makeBlockKey(block)));
-        if (overlapsExistingBlock) continue;
+          const childBlocks = transformStructureBlocks(childStructure, childOffset, childTurns);
+          const overlapsExistingBlock = childBlocks.some(block => occupied.has(makeBlockKey(block)));
+          if (overlapsExistingBlock) continue;
 
-        resolvedJigsaws++;
-        stats.jigsawPoolsFollowed++;
-        stats.jigsawBlocksResolved++;
+          resolvedJigsaws++;
+          stats.jigsawPoolsFollowed++;
+          stats.jigsawBlocksResolved++;
 
-        queue.push({
-          structureFile: childChoice.structureFile,
-          offset: childOffset,
-          quarterTurns: childTurns,
-          depth: item.depth + 1,
-          consumedConnector: {
-            x: childConnector.x,
-            y: childConnector.y,
-            z: childConnector.z
-          }
-        });
-        placedChild = true;
-        break;
+          queue.push({
+            structureFile: childChoice.structureFile,
+            offset: childOffset,
+            quarterTurns: childTurns,
+            depth: item.depth + 1,
+            consumedConnector: {
+              x: childConnector.x,
+              y: childConnector.y,
+              z: childConnector.z
+            }
+          });
+          placedChild = true;
+          break;
+        }
+
+        if (placedChild) break;
       }
 
       if (!placedChild) continue;

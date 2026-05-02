@@ -223,7 +223,7 @@ There are 14 loot tables used in this structure:
 <details>
 <summary><strong>kattersstructures:chests/house</strong> (1 use)</summary>
 
-Could not find this loot table locally or in mcmeta 26.1.2.
+Could not find this loot table locally or in mcmeta refs: 26.1.2-data, 26.1.2, 26.1.1-data, 26.1-data, 26.1.1, 26.1, data.
 
 </details>
 

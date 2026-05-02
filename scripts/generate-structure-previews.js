@@ -1857,11 +1857,13 @@ function hasTemplatePool(poolId) {
 }
 
 function getJigsawExpansionPool(jigsaw) {
-  // Only target_pool expands a jigsaw into a child template pool.
-  // The NBT pool field is connector metadata; it must never be used to select
-  // a structure from /worldgen/template_pool. A jigsaw without target_pool is
-  // only a connector/final-state marker and does not start another expansion.
+  // Prefer the explicit target_pool field when present. However, vanilla
+  // structure-template jigsaw block NBT commonly stores the outgoing template
+  // pool in the field named `pool`. Some generated/modded data exposes
+  // `target_pool`. To avoid skipping every vanilla-style jigsaw, use `pool` as
+  // an expansion fallback only when it actually resolves to a template_pool JSON.
   if (hasTemplatePool(jigsaw.targetPool)) return jigsaw.targetPool;
+  if (hasTemplatePool(jigsaw.pool)) return jigsaw.pool;
   return null;
 }
 
@@ -1931,16 +1933,16 @@ function connectorCompatibilityScore(parent, child, expansionPool) {
   // Treat this as valid connector metadata, not as a pool expansion source.
   if (parent.name && child.target && child.target === parent.name) score += 80;
 
-  // pool is connector metadata on both sides. The selected child comes from
-  // parent.target_pool, but it connects through a child jigsaw whose pool matches
-  // the source jigsaw's pool. Do not compare child.pool to target_pool here.
-  if (parent.pool && child.pool && child.pool === parent.pool) score += 60;
+  // If both sides use pool as connector metadata and it matches, this is a
+  // useful tie-breaker. Do not require it, because in vanilla-style NBT the
+  // child's `pool` is often its own outgoing expansion pool, not the incoming
+  // connector ID.
+  if (parent.pool && child.pool && child.pool === parent.pool) score += 20;
 
-  // Do not allow a completely unrelated named connector to win just because the
-  // candidate has some jigsaw. At least one declared connector relationship must
-  // match when either side declares names/pools.
-  const declaresRelationship = Boolean(parent.target || parent.name || parent.pool || child.name || child.target || child.pool);
-  if (declaresRelationship && score === 0) return -1;
+  // A named jigsaw connection should normally satisfy parent.target -> child.name
+  // or the mirrored parent.name <- child.target relation. Pool-only matches are
+  // allowed as a weak fallback, but an unrelated named connector should not win.
+  if ((parent.target || parent.name) && score === 0) return -1;
 
   return score;
 }

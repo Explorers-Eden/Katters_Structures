@@ -1629,22 +1629,29 @@ async function assembleJigsawStructureFromPool(startPool, maxDepth = 7) {
 
   const blocks = [];
   const occupied = new Set();
-  const files = new Set();
-  let resolvedJigsaws = 0;
-  const queue = [{ structureFile: start.structureFile, offset: { x: 0, y: 0, z: 0 }, quarterTurns: 0, depth: 0 }];
+  const queue = [{
+    structureFile: start.structureFile,
+    offset: { x: 0, y: 0, z: 0 },
+    quarterTurns: 0,
+    depth: 0,
+    consumedConnector: null
+  }];
   const placed = new Set();
+  const placedFiles = new Set();
+  let resolvedJigsaws = 0;
 
   while (queue.length > 0) {
     const item = queue.shift();
     const placedKey = `${item.structureFile}|${item.offset.x},${item.offset.y},${item.offset.z}|${item.quarterTurns}`;
     if (placed.has(placedKey)) continue;
     placed.add(placedKey);
-    files.add(item.structureFile);
+    placedFiles.add(item.structureFile);
 
     const structure = await readNbtFile(item.structureFile);
     const size = getStructureSize(structure);
+    const transformedBlocks = transformStructureBlocks(structure, item.offset, item.quarterTurns);
 
-    for (const block of transformStructureBlocks(structure, item.offset, item.quarterTurns)) {
+    for (const block of transformedBlocks) {
       const key = makeBlockKey(block);
       if (occupied.has(key)) continue;
       occupied.add(key);
@@ -1654,19 +1661,30 @@ async function assembleJigsawStructureFromPool(startPool, maxDepth = 7) {
     if (item.depth >= maxDepth) continue;
 
     for (const parent of getJigsawsFromStructure(structure)) {
+      // A jigsaw used as the incoming connector for this piece is already consumed.
+      // Expanding it again makes the preview grow backwards and quickly creates the
+      // "all pieces blob" that does not match jigsaw placement behavior.
+      if (
+        item.consumedConnector &&
+        parent.x === item.consumedConnector.x &&
+        parent.y === item.consumedConnector.y &&
+        parent.z === item.consumedConnector.z
+      ) {
+        continue;
+      }
+
+      // Only actual jigsaw blocks inside the currently placed structure can extend
+      // the assembly. Do not scan arbitrary worldgen JSON or all template-pool files.
       if (!parent.pool || parent.pool === "minecraft:empty") continue;
 
       const worldParent = transformJigsaw(parent, size, item.offset, item.quarterTurns);
       const childChoice = await chooseStructureFromTemplatePool(parent.pool, new Set(), `${item.structureFile}|${item.offset.x},${item.offset.y},${item.offset.z}|${item.quarterTurns}|${parent.x},${parent.y},${parent.z}|${parent.name}|${parent.target}|${parent.pool}`);
       if (!childChoice) continue;
 
-      stats.jigsawPoolsFollowed++;
-      stats.jigsawBlocksResolved++;
-      resolvedJigsaws++;
       const childStructure = await readNbtFile(childChoice.structureFile);
       const childSize = getStructureSize(childStructure);
       const childJigsaws = getJigsawsFromStructure(childStructure);
-      const childConnector = childJigsaws.find(jigsaw => jigsaw.name === parent.target) ?? childJigsaws[0];
+      const childConnector = childJigsaws.find(jigsaw => jigsaw.name === parent.target) ?? null;
       if (!childConnector) continue;
 
       const parentFront = worldParent.frontVector ?? directionToVector(worldParent.front);
@@ -1684,40 +1702,47 @@ async function assembleJigsawStructureFromPool(startPool, maxDepth = 7) {
         z: attach.z - rotatedChildConnector.z
       };
 
+      const childBlocks = transformStructureBlocks(childStructure, childOffset, childTurns);
+      const overlapsExistingBlock = childBlocks.some(block => occupied.has(makeBlockKey(block)));
+      if (overlapsExistingBlock) continue;
+
+      resolvedJigsaws++;
+      stats.jigsawPoolsFollowed++;
+      stats.jigsawBlocksResolved++;
+
       queue.push({
         structureFile: childChoice.structureFile,
         offset: childOffset,
         quarterTurns: childTurns,
-        depth: item.depth + 1
+        depth: item.depth + 1,
+        consumedConnector: {
+          x: childConnector.x,
+          y: childConnector.y,
+          z: childConnector.z
+        }
       });
     }
   }
 
-  return { blocks, files: [...files].sort(), resolvedJigsaws };
+  return { blocks, files: [...placedFiles].sort(), resolvedJigsaws };
 }
 
-
-function collectStartPoolsFromWorldgenObject(value, result = []) {
-  if (value === null || value === undefined) return result;
-
+function findFirstValueForKey(value, wantedKey) {
+  if (value === null || value === undefined) return null;
   if (Array.isArray(value)) {
-    for (const item of value) collectStartPoolsFromWorldgenObject(item, result);
-    return result;
-  }
-
-  if (typeof value !== "object") return result;
-
-  for (const [key, nested] of Object.entries(value)) {
-    if ((key === "start_pool" || key === "startPool") && typeof nested === "string") {
-      const normalized = normalizeResourceLocationForCompare(nested);
-      if (normalized && normalized !== "minecraft:empty") result.push(normalized);
-      continue;
+    for (const item of value) {
+      const found = findFirstValueForKey(item, wantedKey);
+      if (found !== null && found !== undefined) return found;
     }
-
-    collectStartPoolsFromWorldgenObject(nested, result);
+    return null;
   }
-
-  return result;
+  if (typeof value !== "object") return null;
+  if (value[wantedKey] !== undefined) return value[wantedKey];
+  for (const nested of Object.values(value)) {
+    const found = findFirstValueForKey(nested, wantedKey);
+    if (found !== null && found !== undefined) return found;
+  }
+  return null;
 }
 
 async function collectStructureFilesForWorldgenStructure(worldgenFile) {
@@ -1725,25 +1750,17 @@ async function collectStructureFilesForWorldgenStructure(worldgenFile) {
   const json = readJsonIfExists(worldgenFile);
   if (!info || !json) return null;
 
-  // IMPORTANT: a worldgen preview must be generated like Minecraft does it:
-  // start from the structure's configured start_pool, place one weighted-random
-  // element from that pool, then only expand from actual minecraft:jigsaw blocks
-  // found inside already placed NBT pieces. Do not scan arbitrary pool references
-  // from the JSON and do not render every NBT contained in those pools.
-  const startPools = collectStartPoolsFromWorldgenObject(json);
-  const startPool = startPools[0];
-  const maxDepth = Math.max(1, Number(json.size ?? json.max_distance_from_center ?? 7));
+  const startPool = normalizeResourceLocationForCompare(
+    json.start_pool ?? json.startPool ?? findFirstValueForKey(json, "start_pool") ?? findFirstValueForKey(json, "startPool")
+  );
 
   if (!startPool) {
     console.warn(`No start_pool found for worldgen structure ${worldgenFile}`);
     return null;
   }
 
+  const maxDepth = Math.max(1, Number(json.size ?? json.max_distance_from_center ?? json.maxDistanceFromCenter ?? 7));
   const assembled = await assembleJigsawStructureFromPool(startPool, maxDepth);
-  if (!assembled.blocks || assembled.blocks.length === 0) {
-    console.warn(`Could not assemble preview from start_pool ${startPool} for worldgen structure ${worldgenFile}`);
-    return null;
-  }
 
   return {
     namespace: info.namespace,
@@ -1751,7 +1768,8 @@ async function collectStructureFilesForWorldgenStructure(worldgenFile) {
     id: info.id,
     files: assembled.files,
     blocks: assembled.blocks,
-    resolvedJigsaws: assembled.resolvedJigsaws
+    resolvedJigsaws: assembled.resolvedJigsaws,
+    worldgen: true
   };
 }
 
@@ -1793,7 +1811,7 @@ async function getWorldgenStructureGroups() {
     const group = await collectStructureFilesForWorldgenStructure(file);
 
     if (!group || !Array.isArray(group.blocks) || group.blocks.length === 0) {
-      console.warn(`No assembled blocks found for worldgen structure ${file}`);
+      console.warn(`Could not assemble jigsaw preview for worldgen structure ${file}`);
       continue;
     }
 
@@ -1801,7 +1819,9 @@ async function getWorldgenStructureGroups() {
       namespace: group.namespace,
       outputName: group.relativePath,
       files: group.files,
-      blocks: group.blocks
+      blocks: group.blocks,
+      resolvedJigsaws: group.resolvedJigsaws,
+      worldgen: true
     });
   }
 
@@ -1842,16 +1862,18 @@ async function main() {
   }
 
   console.log(`Found ${groups.size} rendered structure group(s).`);
-  console.log(`Read ${stats.poolsRead} template pool(s), resolved ${stats.jigsawBlocksResolved} jigsaw block(s).`);
+  console.log(`Read ${stats.poolsRead} template pool(s), followed ${stats.jigsawPoolsFollowed} jigsaw pool reference(s).`);
 
   const validOutputFiles = new Set();
 
   for (const group of groups.values()) {
     group.files.sort();
 
-    const blocks = Array.isArray(group.blocks) && group.blocks.length > 0
+    const blocks = group.worldgen
       ? group.blocks
-      : await loadBlocksForFiles(group.files);
+      : (Array.isArray(group.blocks) && group.blocks.length > 0
+        ? group.blocks
+        : await loadBlocksForFiles(group.files));
     const outputDir = path.join(outputRoot, group.namespace, group.outputName);
     const views = renderBlocksToPngViews(blocks);
 
@@ -1866,8 +1888,10 @@ async function main() {
       stats.mainImages++;
     }
 
-    const resolvedJigsaws = Number(group.resolvedJigsaws ?? 0);
-    console.log(`Generated ${views.length} PNG preview(s) in ${outputDir} from ${resolvedJigsaws} resolved jigsaw block(s), ${blocks.length} block(s), ${totalSize} total bytes`);
+    const sourceDescription = group.worldgen
+      ? `${group.resolvedJigsaws ?? 0} resolved jigsaw block(s)`
+      : `${group.files.length} structure part(s)`;
+    console.log(`Generated ${views.length} PNG preview(s) in ${outputDir} from ${sourceDescription}, ${blocks.length} block(s), ${totalSize} total bytes`);
   }
 
   if (groups.size === 0) console.warn("No structure groups were found.");

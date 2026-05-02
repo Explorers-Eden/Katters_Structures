@@ -1,4 +1,4 @@
-# Generated Loot.
+# Generated Loot
 
 There are 6 loot tables used in this structure:
 

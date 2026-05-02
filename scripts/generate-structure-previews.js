@@ -1706,8 +1706,18 @@ async function collectStructureFilesForWorldgenStructure(worldgenFile) {
     blocks = await assembleJigsawStructureFromPool(startPool, maxDepth);
   }
 
-  for (const poolId of pools) {
-    await collectStructureFilesFromTemplatePool(poolId, new Set(), files);
+  // For jigsaw/template-pool based worldgen previews, do not render every
+  // structure that exists in each pool. A real jigsaw expansion samples one
+  // weighted element from a pool for each jigsaw connector. If we already
+  // assembled a sampled jigsaw preview from the start_pool above, keep the
+  // file list only as lightweight metadata/fallback and render `blocks`.
+  // If there is no start_pool or the assembly failed, sample one weighted
+  // structure from each referenced pool instead of flattening the whole pool.
+  if (blocks.length === 0) {
+    for (const poolId of pools) {
+      const choice = await chooseStructureFromTemplatePool(poolId, new Set(), `${worldgenFile}|${poolId}|fallback-file-sample`);
+      if (choice?.structureFile) files.add(choice.structureFile);
+    }
   }
 
   return {
@@ -1756,7 +1766,7 @@ async function getWorldgenStructureGroups() {
   for (const file of worldgenFiles) {
     const group = await collectStructureFilesForWorldgenStructure(file);
 
-    if (!group || group.files.length === 0) {
+    if (!group || (group.files.length === 0 && (!Array.isArray(group.blocks) || group.blocks.length === 0))) {
       console.warn(`No template NBT files found for worldgen structure ${file}`);
       continue;
     }

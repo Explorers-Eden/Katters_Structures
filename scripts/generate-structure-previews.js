@@ -1644,21 +1644,18 @@ function getJigsawInfo(block, state) {
   const orientation = properties.orientation ?? properties.Orientation ?? "north_up";
   const [front = "north", top = "up"] = String(orientation).split("_");
 
-  const pool = normalizeResourceLocationForCompare(getJigsawNbtValue(nbtData, "pool"));
-  const targetPool = normalizeResourceLocationForCompare(getJigsawNbtValue(nbtData, "target_pool"));
-
   return {
     x: getFirstNumber(pos[0]),
     y: getFirstNumber(pos[1]),
     z: getFirstNumber(pos[2]),
     name: normalizeResourceLocationForCompare(getJigsawNbtValue(nbtData, "name")),
     target: normalizeResourceLocationForCompare(getJigsawNbtValue(nbtData, "target")),
-    // Important: in this workflow's exported NBT, target_pool is the template
-    // pool to draw the next child piece from. pool is connector metadata and is
-    // used to decide which jigsaw on the chosen child template may attach here.
-    // Child-side connector jigsaws commonly do not have target_pool at all.
-    pool,
-    targetPool,
+    // Minecraft 1.21+ jigsaw NBT can carry target_pool as the pool to draw
+    // the next piece from. In older/vanilla structures this value may still be
+    // stored as pool. Keep both: targetPool drives expansion when present, pool
+    // remains connector metadata and legacy expansion fallback.
+    targetPool: normalizeResourceLocationForCompare(getJigsawNbtValue(nbtData, "target_pool")),
+    pool: normalizeResourceLocationForCompare(getJigsawNbtValue(nbtData, "pool")),
     finalState: getJigsawNbtValue(nbtData, "final_state"),
     orientation,
     front,
@@ -1835,7 +1832,38 @@ function chooseTemplatePoolLocations(poolJson) {
     .flatMap(choice => choice.locations ?? (choice.location ? [choice.location] : []));
 }
 
-function getWeightedTemplatePoolCandidates(poolId, seenPools = new Set()) {
+function hasTemplatePool(poolId) {
+  return !!poolId && poolId !== "minecraft:empty" && fs.existsSync(getTemplatePoolFile(poolId));
+}
+
+function getJigsawExpansionPool(jigsaw) {
+  // Source jigsaw: target_pool is the real next-template-pool reference.
+  // Fallback to pool only for vanilla/older NBT where that was the only field.
+  if (hasTemplatePool(jigsaw.targetPool)) return jigsaw.targetPool;
+  if (hasTemplatePool(jigsaw.pool)) return jigsaw.pool;
+  return null;
+}
+
+function weightedPoolChoiceOrder(choices, seedText) {
+  const remaining = choices.filter(choice => (choice.weight ?? 0) > 0);
+  const ordered = [];
+  let salt = 0;
+
+  // Weighted without replacement: first choice is a correct weighted roll. If
+  // that element cannot physically connect/fit, try the remaining elements in
+  // weighted-random order instead of falling back to index 0 or rendering all.
+  while (remaining.length > 0) {
+    const choice = chooseWeightedEntry(remaining, `${seedText}|candidate|${salt++}`) ?? remaining[0];
+    ordered.push(choice);
+    const index = remaining.indexOf(choice);
+    if (index >= 0) remaining.splice(index, 1);
+    else break;
+  }
+
+  return ordered;
+}
+
+async function chooseStructuresFromTemplatePool(poolId, seenPools = new Set(), seedText = previewSeed) {
   if (!poolId || poolId === "minecraft:empty" || seenPools.has(poolId)) return [];
   seenPools.add(poolId);
 
@@ -1843,74 +1871,96 @@ function getWeightedTemplatePoolCandidates(poolId, seenPools = new Set()) {
   if (!poolJson) return [];
   stats.poolsRead++;
 
-  const choices = getTemplatePoolChoices(poolJson)
-    .filter(choice => choice && choice.weight > 0)
-    .map(choice => ({
-      ...choice,
-      poolId,
-      structureFile: choice.location ? getStructureNbtFileFromLocation(choice.location) : null
-    }));
+  const choices = getTemplatePoolChoices(poolJson);
+  const ordered = weightedPoolChoiceOrder(choices, `${seedText}|pool|${poolId}`);
+  const candidates = [];
 
-  if (choices.length > 0) return choices;
+  for (const choice of ordered) {
+    // Preserve empty/non-structure entries as a valid no-child result when they
+    // win the weighted roll. Later entries are only tried if a chosen structure
+    // exists but cannot connect/fit.
+    if (!choice?.location) {
+      candidates.push({ empty: true, weight: choice?.weight ?? 0 });
+      continue;
+    }
+
+    candidates.push({
+      location: choice.location,
+      structureFile: getStructureNbtFileFromLocation(choice.location),
+      weight: choice.weight
+    });
+  }
+
+  if (candidates.length > 0) return candidates;
 
   if (poolJson.fallback && poolJson.fallback !== "minecraft:empty") {
-    return getWeightedTemplatePoolCandidates(poolJson.fallback, seenPools);
+    return chooseStructuresFromTemplatePool(poolJson.fallback, seenPools, `${seedText}|fallback`);
   }
 
   return [];
 }
 
-function getWeightedCandidateOrder(candidates, seedText) {
-  const remaining = [...(candidates ?? [])];
-  const ordered = [];
-  let step = 0;
+function isCompatibleChildConnector(parent, child, expansionPool) {
+  // The required Minecraft connector test is source target -> candidate name.
+  if (parent.target && child.name && child.name !== parent.target) return false;
 
-  while (remaining.length > 0) {
-    const picked = chooseWeightedEntry(remaining, `${seedText}|candidate|${step}`) ?? remaining[0];
-    ordered.push(picked);
-    const index = remaining.indexOf(picked);
-    remaining.splice(index >= 0 ? index : 0, 1);
-    step++;
+  // In Katters/newer data, child.pool is connector metadata, not an onward
+  // expansion pool. Do not require target_pool on the child side. If the child
+  // connector declares a pool and the parent has a target_pool, accepting equality
+  // is useful but not mandatory for older data that uses names only.
+  if (child.pool && expansionPool && child.pool !== expansionPool) {
+    return parent.target && child.name === parent.target;
   }
 
-  return ordered;
+  return true;
+}
+
+function findCompatibleChildConnector(parent, childJigsaws, expansionPool) {
+  const candidates = childJigsaws.filter(child => isCompatibleChildConnector(parent, child, expansionPool));
+  if (candidates.length === 0) return null;
+
+  // Prefer exact name matches, then exact connector-pool matches. This avoids
+  // accidentally using an onward expansion jigsaw when multiple connectors exist.
+  return candidates.sort((a, b) => {
+    const aName = parent.target && a.name === parent.target ? 1 : 0;
+    const bName = parent.target && b.name === parent.target ? 1 : 0;
+    const aPool = expansionPool && a.pool === expansionPool ? 1 : 0;
+    const bPool = expansionPool && b.pool === expansionPool ? 1 : 0;
+    return (bName * 2 + bPool) - (aName * 2 + aPool);
+  })[0];
 }
 
 async function chooseStructureFromTemplatePool(poolId, seenPools = new Set(), seedText = previewSeed) {
-  const candidates = getWeightedTemplatePoolCandidates(poolId, seenPools);
-  const picked = getWeightedCandidateOrder(candidates, `${seedText}|pool|${poolId}`)[0] ?? null;
+  if (!poolId || poolId === "minecraft:empty" || seenPools.has(poolId)) return null;
+  seenPools.add(poolId);
 
-  // Minecraft may roll minecraft:empty/non-structure. That means this jigsaw
-  // places no child here; do not silently try another choice in this simple path.
-  if (!picked?.structureFile) return null;
+  const poolJson = readJsonIfExists(getTemplatePoolFile(poolId));
+  if (!poolJson) return null;
+  stats.poolsRead++;
 
-  return {
-    location: picked.location,
-    structureFile: picked.structureFile,
-    weight: picked.weight,
-    poolId: picked.poolId
-  };
-}
+  const choices = getTemplatePoolChoices(poolJson);
 
-function jigsawConnectorMatches(parent, child, sourcePool = null) {
-  if (!parent || !child) return false;
+  if (choices.length > 0) {
+    const choice = chooseWeightedEntry(choices, `${seedText}|pool|${poolId}`) ?? choices[0];
 
-  // Connector matching is deliberately separate from expansion. The parent
-  // target_pool/sourcePool chooses which template_pool to roll from; the chosen
-  // child template attaches at a child jigsaw whose connector metadata matches.
-  // Child connector jigsaws usually have pool but not target_pool.
-  if (parent.target && child.name && parent.target !== child.name) return false;
+    // The chosen pool element may be minecraft:empty or another non-structure
+    // element. That means this jigsaw does not place a child here; do not
+    // silently try the next pool entry, because that would no longer be a
+    // weight-correct random choice.
+    if (!choice?.location) return null;
 
-  // In this repo/exporter, child.pool identifies which parent target_pool it is
-  // allowed to connect to. Enforce it when available, but do not require it for
-  // vanilla/older structures that only rely on name/target.
-  if (sourcePool && child.pool && child.pool !== sourcePool) return false;
+    return {
+      location: choice.location,
+      structureFile: getStructureNbtFileFromLocation(choice.location),
+      weight: choice.weight
+    };
+  }
 
-  // Some templates encode compatibility in the opposite target/name pair.
-  // Treat it as an additional check only when both sides are present.
-  if (parent.name && child.target && child.target !== parent.name) return false;
+  if (poolJson.fallback && poolJson.fallback !== "minecraft:empty") {
+    return chooseStructureFromTemplatePool(poolJson.fallback, seenPools, `${seedText}|fallback`);
+  }
 
-  return true;
+  return null;
 }
 
 function getQuarterTurnsToFace(childFront, parentFront) {
@@ -1977,83 +2027,65 @@ async function assembleJigsawStructureFromPool(startPool, maxDepth = 7) {
         continue;
       }
 
-      // Only actual jigsaw blocks inside the currently placed structure can
-      // extend the assembly. target_pool chooses the next template_pool to roll
-      // from. pool is connector metadata, not the expansion source. Older/vanilla
-      // NBT can lack target_pool and use pool for expansion, so allow that only
-      // as a compatibility fallback when target_pool is absent.
-      const sourcePool = parent.targetPool ?? parent.pool;
-      if (!sourcePool || sourcePool === "minecraft:empty") continue;
+      // Only actual jigsaw blocks inside the currently placed structure can extend
+      // the assembly. Do not scan arbitrary worldgen JSON or all template-pool files.
+      const expansionPool = getJigsawExpansionPool(parent);
+      if (!expansionPool) continue;
 
       const worldParent = transformJigsaw(parent, size, item.offset, item.quarterTurns);
-      const parentFront = worldParent.frontVector ?? directionToVector(worldParent.front);
-      const attach = {
-        x: worldParent.x + parentFront.x,
-        y: worldParent.y + parentFront.y,
-        z: worldParent.z + parentFront.z
-      };
+      const seedText = `${item.structureFile}|${item.offset.x},${item.offset.y},${item.offset.z}|${item.quarterTurns}|${parent.x},${parent.y},${parent.z}|${parent.name}|${parent.target}|${parent.targetPool}|${parent.pool}`;
+      const childChoices = await chooseStructuresFromTemplatePool(expansionPool, new Set(), seedText);
+      if (childChoices.length === 0) continue;
 
-      const choiceSeed = `${item.structureFile}|${item.offset.x},${item.offset.y},${item.offset.z}|${item.quarterTurns}|${parent.x},${parent.y},${parent.z}|${parent.name}|${parent.target}|${sourcePool}`;
-      const childChoices = getWeightedCandidateOrder(
-        getWeightedTemplatePoolCandidates(sourcePool, new Set()),
-        `${choiceSeed}|pool|${sourcePool}`
-      );
-
-      let placedChild = null;
-
+      let placedChild = false;
       for (const childChoice of childChoices) {
-        // A weighted roll can validly hit minecraft:empty/non-structure.
-        if (!childChoice?.structureFile) {
-          placedChild = null;
-          break;
-        }
+        if (childChoice.empty) break;
 
         const childStructure = await readNbtFile(childChoice.structureFile);
         const childSize = getStructureSize(childStructure);
         const childJigsaws = getJigsawsFromStructure(childStructure);
-        const connectors = childJigsaws
-          .map((jigsaw, index) => ({ jigsaw, weight: 1, index }))
-          .filter(item => jigsawConnectorMatches(parent, item.jigsaw, sourcePool));
+        const childConnector = findCompatibleChildConnector(parent, childJigsaws, expansionPool);
+        if (!childConnector) continue;
 
-        for (const connectorEntry of getWeightedCandidateOrder(connectors, `${choiceSeed}|${childChoice.location}|connectors`)) {
-          const childConnector = connectorEntry.jigsaw;
-          const childFront = directionToVector(childConnector.front);
-          const childTurns = getQuarterTurnsToFace(childFront, parentFront);
-          const rotatedChildConnector = rotateYPosition(childConnector, childSize, childTurns);
-          const childOffset = {
-            x: attach.x - rotatedChildConnector.x,
-            y: attach.y - rotatedChildConnector.y,
-            z: attach.z - rotatedChildConnector.z
-          };
+        const parentFront = worldParent.frontVector ?? directionToVector(worldParent.front);
+        const childFront = directionToVector(childConnector.front);
+        const childTurns = getQuarterTurnsToFace(childFront, parentFront);
+        const rotatedChildConnector = rotateYPosition(childConnector, childSize, childTurns);
+        const attach = {
+          x: worldParent.x + parentFront.x,
+          y: worldParent.y + parentFront.y,
+          z: worldParent.z + parentFront.z
+        };
+        const childOffset = {
+          x: attach.x - rotatedChildConnector.x,
+          y: attach.y - rotatedChildConnector.y,
+          z: attach.z - rotatedChildConnector.z
+        };
 
-          const childBlocks = transformStructureBlocks(childStructure, childOffset, childTurns);
-          const overlapsExistingBlock = childBlocks.some(block => occupied.has(makeBlockKey(block)));
-          if (overlapsExistingBlock) continue;
+        const childBlocks = transformStructureBlocks(childStructure, childOffset, childTurns);
+        const overlapsExistingBlock = childBlocks.some(block => occupied.has(makeBlockKey(block)));
+        if (overlapsExistingBlock) continue;
 
-          placedChild = { childChoice, childConnector, childOffset, childTurns };
-          break;
-        }
+        resolvedJigsaws++;
+        stats.jigsawPoolsFollowed++;
+        stats.jigsawBlocksResolved++;
 
-        if (placedChild) break;
+        queue.push({
+          structureFile: childChoice.structureFile,
+          offset: childOffset,
+          quarterTurns: childTurns,
+          depth: item.depth + 1,
+          consumedConnector: {
+            x: childConnector.x,
+            y: childConnector.y,
+            z: childConnector.z
+          }
+        });
+        placedChild = true;
+        break;
       }
 
       if (!placedChild) continue;
-
-      resolvedJigsaws++;
-      stats.jigsawPoolsFollowed++;
-      stats.jigsawBlocksResolved++;
-
-      queue.push({
-        structureFile: placedChild.childChoice.structureFile,
-        offset: placedChild.childOffset,
-        quarterTurns: placedChild.childTurns,
-        depth: item.depth + 1,
-        consumedConnector: {
-          x: placedChild.childConnector.x,
-          y: placedChild.childConnector.y,
-          z: placedChild.childConnector.z
-        }
-      });
     }
   }
 

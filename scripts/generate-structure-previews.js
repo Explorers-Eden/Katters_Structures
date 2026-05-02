@@ -16,6 +16,7 @@ const padding = Number(process.env.STRUCTURE_PREVIEW_PADDING ?? 48);
 const maxImageSize = Number(process.env.STRUCTURE_PREVIEW_MAX_SIZE ?? 900);
 const transparentBackground = String(process.env.STRUCTURE_PREVIEW_TRANSPARENT ?? "true") !== "false";
 const pngCompressionLevel = Math.min(9, Math.max(0, Number(process.env.STRUCTURE_PREVIEW_PNG_COMPRESSION ?? 9)));
+const previewSeed = String(process.env.STRUCTURE_PREVIEW_SEED ?? "katters-structures-preview");
 
 const previewRotations = [
   { name: "north", degrees: 0 },
@@ -232,8 +233,44 @@ function whenClauseMatches(when, properties = {}) {
   return true;
 }
 
-function normalizeVariant(variant) {
-  if (Array.isArray(variant)) return variant[0] ?? null;
+function hashString(text) {
+  let hash = 2166136261;
+  for (let i = 0; i < String(text).length; i++) {
+    hash ^= String(text).charCodeAt(i);
+    hash = Math.imul(hash, 16777619);
+  }
+  return hash >>> 0;
+}
+
+function seededRandom(seedText) {
+  let state = hashString(seedText) || 1;
+  state ^= state << 13;
+  state ^= state >>> 17;
+  state ^= state << 5;
+  return ((state >>> 0) / 4294967296);
+}
+
+function chooseWeightedEntry(entries, seedText) {
+  if (!Array.isArray(entries) || entries.length === 0) return null;
+
+  let totalWeight = 0;
+  for (const entry of entries) {
+    totalWeight += Math.max(0, Number(entry?.weight ?? 1));
+  }
+
+  if (totalWeight <= 0) return entries[0] ?? null;
+
+  let roll = seededRandom(seedText) * totalWeight;
+  for (const entry of entries) {
+    roll -= Math.max(0, Number(entry?.weight ?? 1));
+    if (roll <= 0) return entry;
+  }
+
+  return entries[entries.length - 1] ?? null;
+}
+
+function normalizeVariant(variant, seedText = previewSeed) {
+  if (Array.isArray(variant)) return chooseWeightedEntry(variant, seedText);
   return variant ?? null;
 }
 
@@ -265,7 +302,7 @@ function getModelVariantsFromBlockState(blockName, properties = {}) {
 
     if (!variant) variant = blockState.variants[""] ?? Object.values(blockState.variants)[0];
 
-    variant = normalizeVariant(variant);
+    variant = normalizeVariant(variant, `${previewSeed}|blockstate|${blockName}|${stringifyProperties(properties)}`);
 
     if (variant?.model) {
       return [
@@ -285,7 +322,7 @@ function getModelVariantsFromBlockState(blockName, properties = {}) {
     for (const part of blockState.multipart) {
       if (!whenClauseMatches(part.when, properties)) continue;
 
-      const applies = Array.isArray(part.apply) ? part.apply : [part.apply];
+      const applies = Array.isArray(part.apply) ? [normalizeVariant(part.apply, `${previewSeed}|multipart|${blockName}|${stringifyProperties(properties)}|${variants.length}`)] : [part.apply];
 
       for (const apply of applies) {
         if (apply?.model) {
@@ -846,10 +883,96 @@ function bakeElementQuads(blockName, modelTextures, element, variant) {
   return quads;
 }
 
+
+function allFaces(texture = null) {
+  const face = texture ? { texture } : {};
+  return { up: face, down: face, north: face, south: face, west: face, east: face };
+}
+
+function bakeFallbackElements(blockName, elements, variant = { x: 0, y: 0 }) {
+  const baked = [];
+  for (const element of elements) baked.push(...bakeElementQuads(blockName, {}, element, variant));
+  return baked;
+}
+
+function specialBlockModel(blockName, properties = {}) {
+  const short = blockName.replace(/^minecraft:/, "");
+
+  if (short === "chain") {
+    const axis = properties.axis ?? "y";
+    const elements = axis === "x"
+      ? [
+          { from: [0, 6, 7], to: [16, 10, 9], faces: allFaces() },
+          { from: [2, 4, 6], to: [6, 12, 10], faces: allFaces() },
+          { from: [10, 4, 6], to: [14, 12, 10], faces: allFaces() }
+        ]
+      : axis === "z"
+        ? [
+            { from: [7, 6, 0], to: [9, 10, 16], faces: allFaces() },
+            { from: [6, 4, 2], to: [10, 12, 6], faces: allFaces() },
+            { from: [6, 4, 10], to: [10, 12, 14], faces: allFaces() }
+          ]
+        : [
+            { from: [7, 0, 6], to: [9, 16, 10], faces: allFaces() },
+            { from: [6, 2, 4], to: [10, 6, 12], faces: allFaces() },
+            { from: [6, 10, 4], to: [10, 14, 12], faces: allFaces() }
+          ];
+
+    return bakeFallbackElements(blockName, elements);
+  }
+
+  if (short.endsWith("_wall_sign") || short.endsWith("_wall_hanging_sign")) {
+    const y = { south: 0, west: 90, north: 180, east: 270 }[properties.facing ?? "north"] ?? 180;
+    return bakeFallbackElements(blockName, [
+      { from: [2, 4, 14], to: [14, 12, 15.5], faces: allFaces() }
+    ], { x: 0, y });
+  }
+
+  if (short.endsWith("_sign") || short.endsWith("_hanging_sign")) {
+    const rotation = Number(properties.rotation ?? 0);
+    const y = (rotation / 16) * 360;
+    return bakeFallbackElements(blockName, [
+      { from: [2, 5, 7.25], to: [14, 13, 8.75], faces: allFaces() },
+      { from: [7.25, 0, 7.25], to: [8.75, 5, 8.75], faces: allFaces() }
+    ], { x: 0, y });
+  }
+
+  if (short.endsWith("_button")) {
+    const face = properties.face ?? "wall";
+    const powered = properties.powered === "true";
+    const depth = powered ? 1 : 2;
+    const facing = properties.facing ?? "north";
+    let element;
+    let variant = { x: 0, y: 0 };
+
+    if (face === "floor") {
+      element = { from: [5, 0, 6], to: [11, depth, 10], faces: allFaces() };
+      variant.y = { north: 0, east: 90, south: 180, west: 270 }[facing] ?? 0;
+    } else if (face === "ceiling") {
+      element = { from: [5, 16 - depth, 6], to: [11, 16, 10], faces: allFaces() };
+      variant.y = { north: 0, east: 90, south: 180, west: 270 }[facing] ?? 0;
+    } else {
+      element = { from: [5, 6, 14 - depth], to: [11, 10, 16], faces: allFaces() };
+      variant.y = { south: 0, west: 90, north: 180, east: 270 }[facing] ?? 180;
+    }
+
+    return bakeFallbackElements(blockName, [element], variant);
+  }
+
+  return null;
+}
+
 function bakeBlockModel(blockName, properties = {}) {
   const cacheKey = `${blockName}|${stringifyProperties(properties)}`;
 
   if (bakedModelCache.has(cacheKey)) return bakedModelCache.get(cacheKey);
+
+  const special = specialBlockModel(blockName, properties);
+  if (special) {
+    bakedModelCache.set(cacheKey, special);
+    stats.bakedQuads += special.length;
+    return special;
+  }
 
   const variants = getModelVariantsFromBlockState(blockName, properties);
   const baked = [];
@@ -1406,6 +1529,10 @@ function rotateYProperties(properties, quarterTurns) {
     const [front, top = "up"] = String(rotated.orientation).split("_");
     rotated.orientation = `${rotateYDirection(front, quarterTurns)}_${rotateYDirection(top, quarterTurns)}`;
   }
+  if (rotated.rotation !== undefined) {
+    const value = Number(rotated.rotation);
+    if (Number.isFinite(value)) rotated.rotation = String((value + quarterTurns * 4 + 1600) % 16);
+  }
 
   return rotated;
 }
@@ -1439,19 +1566,26 @@ function transformJigsaw(jigsaw, size, offset, quarterTurns = 0) {
   };
 }
 
-function chooseTemplatePoolLocations(poolJson) {
-  const locations = [];
+function getTemplatePoolChoices(poolJson) {
+  const choices = [];
 
   for (const element of poolJson?.elements ?? []) {
     const elementData = element.element ?? element;
-    const elementLocations = [...collectElementLocations(elementData)];
-    if (elementLocations.length > 0) locations.push(...elementLocations);
+    const weight = Math.max(0, Number(element.weight ?? elementData.weight ?? 1));
+
+    for (const location of collectElementLocations(elementData)) {
+      choices.push({ location, weight });
+    }
   }
 
-  return locations;
+  return choices;
 }
 
-async function chooseStructureFromTemplatePool(poolId, seenPools = new Set()) {
+function chooseTemplatePoolLocations(poolJson) {
+  return getTemplatePoolChoices(poolJson).map(choice => choice.location);
+}
+
+async function chooseStructureFromTemplatePool(poolId, seenPools = new Set(), seedText = previewSeed) {
   if (!poolId || poolId === "minecraft:empty" || seenPools.has(poolId)) return null;
   seenPools.add(poolId);
 
@@ -1459,13 +1593,16 @@ async function chooseStructureFromTemplatePool(poolId, seenPools = new Set()) {
   if (!poolJson) return null;
   stats.poolsRead++;
 
-  for (const location of chooseTemplatePoolLocations(poolJson)) {
-    const structureFile = getStructureNbtFileFromLocation(location);
-    if (fs.existsSync(structureFile)) return { location, structureFile };
+  const choices = getTemplatePoolChoices(poolJson)
+    .filter(choice => fs.existsSync(getStructureNbtFileFromLocation(choice.location)));
+
+  if (choices.length > 0) {
+    const choice = chooseWeightedEntry(choices, `${previewSeed}|pool|${poolId}|${seedText}`) ?? choices[0];
+    return { location: choice.location, structureFile: getStructureNbtFileFromLocation(choice.location) };
   }
 
   if (poolJson.fallback && poolJson.fallback !== "minecraft:empty") {
-    return chooseStructureFromTemplatePool(poolJson.fallback, seenPools);
+    return chooseStructureFromTemplatePool(poolJson.fallback, seenPools, `${seedText}|fallback`);
   }
 
   return null;
@@ -1486,7 +1623,7 @@ function makeBlockKey(block) {
 }
 
 async function assembleJigsawStructureFromPool(startPool, maxDepth = 7) {
-  const start = await chooseStructureFromTemplatePool(startPool);
+  const start = await chooseStructureFromTemplatePool(startPool, new Set(), `${startPool}|start`);
   if (!start) return [];
 
   const blocks = [];
@@ -1516,7 +1653,7 @@ async function assembleJigsawStructureFromPool(startPool, maxDepth = 7) {
       if (!parent.pool || parent.pool === "minecraft:empty") continue;
 
       const worldParent = transformJigsaw(parent, size, item.offset, item.quarterTurns);
-      const childChoice = await chooseStructureFromTemplatePool(parent.pool);
+      const childChoice = await chooseStructureFromTemplatePool(parent.pool, new Set(), `${item.structureFile}|${item.offset.x},${item.offset.y},${item.offset.z}|${item.quarterTurns}|${parent.x},${parent.y},${parent.z}|${parent.name}|${parent.target}|${parent.pool}`);
       if (!childChoice) continue;
 
       stats.jigsawPoolsFollowed++;

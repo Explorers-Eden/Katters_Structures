@@ -899,28 +899,7 @@ function bakeFallbackElements(blockName, elements, variant = { x: 0, y: 0 }) {
 function specialBlockModel(blockName, properties = {}) {
   const short = blockName.replace(/^minecraft:/, "");
 
-  if (short === "chain") {
-    const axis = properties.axis ?? "y";
-    const elements = axis === "x"
-      ? [
-          { from: [0, 6, 7], to: [16, 10, 9], faces: allFaces() },
-          { from: [2, 4, 6], to: [6, 12, 10], faces: allFaces() },
-          { from: [10, 4, 6], to: [14, 12, 10], faces: allFaces() }
-        ]
-      : axis === "z"
-        ? [
-            { from: [7, 6, 0], to: [9, 10, 16], faces: allFaces() },
-            { from: [6, 4, 2], to: [10, 12, 6], faces: allFaces() },
-            { from: [6, 4, 10], to: [10, 12, 14], faces: allFaces() }
-          ]
-        : [
-            { from: [7, 0, 6], to: [9, 16, 10], faces: allFaces() },
-            { from: [6, 2, 4], to: [10, 6, 12], faces: allFaces() },
-            { from: [6, 10, 4], to: [10, 14, 12], faces: allFaces() }
-          ];
-
-    return bakeFallbackElements(blockName, elements);
-  }
+  // Chain uses vanilla blockstates/models/textures. Do not use an untextured fallback.
 
   if (short.endsWith("_wall_sign") || short.endsWith("_wall_hanging_sign")) {
     const y = { south: 0, west: 90, north: 180, east: 270 }[properties.facing ?? "north"] ?? 180;
@@ -938,27 +917,8 @@ function specialBlockModel(blockName, properties = {}) {
     ], { x: 0, y });
   }
 
-  if (short.endsWith("_button")) {
-    const face = properties.face ?? "wall";
-    const powered = properties.powered === "true";
-    const depth = powered ? 1 : 2;
-    const facing = properties.facing ?? "north";
-    let element;
-    let variant = { x: 0, y: 0 };
-
-    if (face === "floor") {
-      element = { from: [5, 0, 6], to: [11, depth, 10], faces: allFaces() };
-      variant.y = { north: 0, east: 90, south: 180, west: 270 }[facing] ?? 0;
-    } else if (face === "ceiling") {
-      element = { from: [5, 16 - depth, 6], to: [11, 16, 10], faces: allFaces() };
-      variant.y = { north: 0, east: 90, south: 180, west: 270 }[facing] ?? 0;
-    } else {
-      element = { from: [5, 6, 14 - depth], to: [11, 10, 16], faces: allFaces() };
-      variant.y = { south: 0, west: 90, north: 180, east: 270 }[facing] ?? 180;
-    }
-
-    return bakeFallbackElements(blockName, [element], variant);
-  }
+  // Buttons and levers use vanilla blockstates/models so wall/floor/ceiling
+  // placement, rotations, and textures come from the downloaded vanilla assets.
 
   return null;
 }
@@ -1570,20 +1530,30 @@ function transformJigsaw(jigsaw, size, offset, quarterTurns = 0) {
 function getTemplatePoolChoices(poolJson) {
   const choices = [];
 
+  // Minecraft chooses one top-level template_pool element by weight. Some
+  // elements contain nested data, but the weight belongs to the top-level
+  // pool entry, so do not flatten locations before rolling or large nested
+  // entries would be overrepresented.
   for (const element of poolJson?.elements ?? []) {
     const elementData = element.element ?? element;
     const weight = Math.max(0, Number(element.weight ?? elementData.weight ?? 1));
+    const locations = Array.from(collectElementLocations(elementData))
+      .filter(location => fs.existsSync(getStructureNbtFileFromLocation(location)));
 
-    for (const location of collectElementLocations(elementData)) {
-      choices.push({ location, weight });
-    }
+    choices.push({
+      locations,
+      location: locations[0] ?? null,
+      weight,
+      element: elementData
+    });
   }
 
   return choices;
 }
 
 function chooseTemplatePoolLocations(poolJson) {
-  return getTemplatePoolChoices(poolJson).map(choice => choice.location);
+  return getTemplatePoolChoices(poolJson)
+    .flatMap(choice => choice.locations ?? (choice.location ? [choice.location] : []));
 }
 
 async function chooseStructureFromTemplatePool(poolId, seenPools = new Set(), seedText = previewSeed) {
@@ -1594,12 +1564,22 @@ async function chooseStructureFromTemplatePool(poolId, seenPools = new Set(), se
   if (!poolJson) return null;
   stats.poolsRead++;
 
-  const choices = getTemplatePoolChoices(poolJson)
-    .filter(choice => fs.existsSync(getStructureNbtFileFromLocation(choice.location)));
+  const choices = getTemplatePoolChoices(poolJson);
 
   if (choices.length > 0) {
     const choice = chooseWeightedEntry(choices, `${previewSeed}|pool|${poolId}|${seedText}`) ?? choices[0];
-    return { location: choice.location, structureFile: getStructureNbtFileFromLocation(choice.location) };
+
+    // The chosen pool element may be minecraft:empty or another non-structure
+    // element. That means this jigsaw does not place a child here; do not
+    // silently try the next pool entry, because that would no longer be a
+    // weight-correct random choice.
+    if (!choice?.location) return null;
+
+    return {
+      location: choice.location,
+      structureFile: getStructureNbtFileFromLocation(choice.location),
+      weight: choice.weight
+    };
   }
 
   if (poolJson.fallback && poolJson.fallback !== "minecraft:empty") {

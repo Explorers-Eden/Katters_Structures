@@ -898,29 +898,6 @@ function bakeFallbackElements(blockName, elements, variant = { x: 0, y: 0 }) {
 function specialBlockModel(blockName, properties = {}) {
   const short = blockName.replace(/^minecraft:/, "");
 
-  if (short === "chain") {
-    const axis = properties.axis ?? "y";
-    const elements = axis === "x"
-      ? [
-          { from: [0, 6, 7], to: [16, 10, 9], faces: allFaces() },
-          { from: [2, 4, 6], to: [6, 12, 10], faces: allFaces() },
-          { from: [10, 4, 6], to: [14, 12, 10], faces: allFaces() }
-        ]
-      : axis === "z"
-        ? [
-            { from: [7, 6, 0], to: [9, 10, 16], faces: allFaces() },
-            { from: [6, 4, 2], to: [10, 12, 6], faces: allFaces() },
-            { from: [6, 4, 10], to: [10, 12, 14], faces: allFaces() }
-          ]
-        : [
-            { from: [7, 0, 6], to: [9, 16, 10], faces: allFaces() },
-            { from: [6, 2, 4], to: [10, 6, 12], faces: allFaces() },
-            { from: [6, 10, 4], to: [10, 14, 12], faces: allFaces() }
-          ];
-
-    return bakeFallbackElements(blockName, elements);
-  }
-
   if (short.endsWith("_wall_sign") || short.endsWith("_wall_hanging_sign")) {
     const y = { south: 0, west: 90, north: 180, east: 270 }[properties.facing ?? "north"] ?? 180;
     return bakeFallbackElements(blockName, [
@@ -1291,60 +1268,36 @@ function addResourceLocation(value, result) {
   result.add(value);
 }
 
-function collectTemplatePoolsFromObject(value, result = new Set()) {
+function collectTemplatePoolsFromObject(value, result = new Set(), inPoolField = false) {
   if (value === null || value === undefined) return result;
 
   if (typeof value === "string") {
-    addResourceLocation(value, result);
+    if (inPoolField) addResourceLocation(value, result);
     return result;
   }
 
   if (Array.isArray(value)) {
-    for (const item of value) collectTemplatePoolsFromObject(item, result);
+    for (const item of value) collectTemplatePoolsFromObject(item, result, inPoolField);
     return result;
   }
 
   if (typeof value === "object") {
     for (const [key, nested] of Object.entries(value)) {
-      if (
+      const poolField =
         key === "start_pool" ||
+        key === "startPool" ||
         key === "fallback" ||
         key === "pool" ||
         key === "template_pool" ||
-        key === "target_pool"
-      ) {
-        collectTemplatePoolsFromObject(nested, result);
-        continue;
-      }
+        key === "templatePool" ||
+        key === "target_pool" ||
+        key === "targetPool";
 
-      collectTemplatePoolsFromObject(nested, result);
+      collectTemplatePoolsFromObject(nested, result, poolField);
     }
   }
 
   return result;
-}
-
-
-function collectResourceLocationsForKey(value, keys, result = new Set()) {
-  if (value === null || value === undefined) return result;
-
-  if (Array.isArray(value)) {
-    for (const item of value) collectResourceLocationsForKey(item, keys, result);
-    return result;
-  }
-
-  if (typeof value !== "object") return result;
-
-  for (const [key, nested] of Object.entries(value)) {
-    if (keys.has(key)) collectTemplatePoolsFromObject(nested, result);
-    else collectResourceLocationsForKey(nested, keys, result);
-  }
-
-  return result;
-}
-
-function collectStartPoolsFromObject(value) {
-  return collectResourceLocationsForKey(value, new Set(["start_pool", "startPool"]));
 }
 
 function getTemplatePoolFile(poolId) {
@@ -1416,14 +1369,19 @@ async function collectStructureFilesFromTemplatePool(poolId, seenPools = new Set
   if (!poolId || poolId === "minecraft:empty" || seenPools.has(poolId)) return result;
   seenPools.add(poolId);
 
-  const poolJson = readJsonIfExists(getTemplatePoolFile(poolId));
+  const poolFile = getTemplatePoolFile(poolId);
+  const poolJson = readJsonIfExists(poolFile);
   if (!poolJson) return result;
+
   stats.poolsRead++;
 
   const choices = getTemplatePoolChoices(poolJson)
     .filter(choice => fs.existsSync(getStructureNbtFileFromLocation(choice.location)));
 
   if (choices.length > 0) {
+    // Fallback collection is only used when full jigsaw assembly fails. Keep
+    // the old traversal behavior, but when a pool is followed choose exactly
+    // one weighted element from that pool instead of appending every element.
     const choice = chooseWeightedEntry(choices, `${previewSeed}|collect-pool|${poolId}|${seedText}`) ?? choices[0];
     const structureFile = getStructureNbtFileFromLocation(choice.location);
     const alreadyHadFile = result.has(structureFile);
@@ -1447,7 +1405,6 @@ async function collectStructureFilesFromTemplatePool(poolId, seenPools = new Set
 
   return result;
 }
-
 
 function getFirstNumber(value, fallback = 0) {
   const number = Number(value);
@@ -1750,18 +1707,15 @@ async function collectStructureFilesForWorldgenStructure(worldgenFile) {
   const files = new Set();
   let blocks = [];
 
-  const startPools = [...collectStartPoolsFromObject(json)].map(normalizeResourceLocationForCompare).filter(Boolean);
-  const startPool = startPools[0] ?? normalizeResourceLocationForCompare(json.start_pool ?? json.startPool);
-  const maxDepth = Math.max(1, Number(json.size ?? json.max_distance_from_center ?? json.maxDistanceFromCenter ?? 7));
+  const startPool = normalizeResourceLocationForCompare(json.start_pool ?? json.startPool);
+  const maxDepth = Math.max(1, Number(json.size ?? json.max_distance_from_center ?? 7));
 
   if (startPool) {
     blocks = await assembleJigsawStructureFromPool(startPool, maxDepth);
   }
 
-  if (blocks.length === 0) {
-    for (const poolId of pools) {
-      await collectStructureFilesFromTemplatePool(poolId, new Set(), files, `${worldgenFile}|${poolId}`);
-    }
+  for (const poolId of pools) {
+    await collectStructureFilesFromTemplatePool(poolId, new Set(), files, `${worldgenFile}|${poolId}`);
   }
 
   return {

@@ -2,7 +2,12 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "type": "minecraft:villager",
-    "nbt": "{VillagerData: {profession:\"minecraft:cleric\", level: 3}, Tags:[\"katters_structures.barkeeper_2\"]}"
+    "minecraft:entity_type": "minecraft:villager",
+    "nbt": "{VillagerData: {profession:\"minecraft:cleric\", level: 3}}",
+    "minecraft:entity_tags": {
+            "any_of": [
+              "katters_structures.barkeeper_2"
+            ]
+          }
   }
 }

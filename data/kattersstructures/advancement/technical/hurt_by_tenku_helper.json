@@ -1,18 +1,21 @@
 {
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:entity_hurt_player",
-        "conditions": {
-          "damage": {
-            "source_entity": {
-              "nbt": "{Tags:[\"katter.tenku.helper\"]}"
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "minecraft:entity_tags": {
+              "any_of": [
+                "katter.tenku.helper"
+              ]
             }
           }
         }
       }
-    },
-    "rewards": {
-      "function": "kattersstructures:boss/tenku/helper/spawn"
     }
+  },
+  "rewards": {
+    "function": "kattersstructures:boss/tenku/helper/spawn"
   }
-  
+}

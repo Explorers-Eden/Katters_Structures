@@ -1,10 +1,10 @@
 {
 	"pack": {
-		"max_format": 101.1,
-		"min_format": 101.1,
+		"max_format": 106.1,
+		"min_format": 106.1,
 		"description": [
 			{
-				"text": "Katters Structures (Ambient Only)",
+				"text": "Katters Structures (Villages Only)",
 				"color": "dark_aqua"
 			},
 			{

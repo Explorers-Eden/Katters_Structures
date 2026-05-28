@@ -1,18 +1,22 @@
 {
-	"condition": "minecraft:any_of",
-	"terms": [
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"type": [
-					"minecraft:vindicator",
-					"minecraft:evoker",
-					"minecraft:witch",
-					"minecraft:pillager"
-				],
-				"nbt": "{Tags:[\"katter.rusta\"]}"
-			}
-		}
-	]
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:entity_type": [
+          "minecraft:vindicator",
+          "minecraft:evoker",
+          "minecraft:witch",
+          "minecraft:pillager"
+        ],
+        "minecraft:entity_tags": {
+          "any_of": [
+            "katter.rusta"
+          ]
+        }
+      }
+    }
+  ]
 }

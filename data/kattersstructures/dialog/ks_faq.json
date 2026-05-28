@@ -8,7 +8,11 @@
   "inputs": [],
   "exit_action": {
     "label": {
-      "translate": "mco.selectServer.close"
+      "translate": "gui.back"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "minecraft:custom_options"
     }
   },
   "columns": 1,

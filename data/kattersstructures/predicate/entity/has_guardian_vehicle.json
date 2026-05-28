@@ -1,17 +1,19 @@
 [
-    {
-      "condition": "minecraft:any_of",
-      "terms": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "vehicle": {
-              "nbt": "{Tags:[\"katter.tenku.helper\"]}"
-            }
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "vehicle": {},
+          "minecraft:entity_tags": {
+            "any_of": [
+              "katter.tenku.helper"
+            ]
           }
         }
-      ]
-    }
-  ]
-  
+      }
+    ]
+  }
+]

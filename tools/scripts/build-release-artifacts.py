@@ -1,0 +1,469 @@
+import json
+import re
+import shutil
+import zipfile
+from copy import deepcopy
+from pathlib import Path
+
+import yaml
+
+ROOT = Path(".").resolve()
+DIST = ROOT / "dist"
+BUILD = ROOT / ".build_releases"
+
+if DIST.exists():
+    shutil.rmtree(DIST)
+DIST.mkdir(exist_ok=True)
+
+if BUILD.exists():
+    shutil.rmtree(BUILD)
+BUILD.mkdir()
+
+release_info_path = ROOT / "tools" / "release_infos.yml"
+if not release_info_path.exists():
+    raise FileNotFoundError("tools/release_infos.yml not found")
+
+with release_info_path.open("r", encoding="utf-8") as f:
+    release_info = yaml.safe_load(f) or {}
+
+version = str(release_info.get("Details", {}).get("Version number", "")).strip()
+if not version:
+    raise ValueError("Details -> Version number missing in release_infos.yml")
+
+root_pack_meta_path = ROOT / "pack.mcmeta"
+if not root_pack_meta_path.exists():
+    raise FileNotFoundError("pack.mcmeta not found in repository root")
+
+with root_pack_meta_path.open("r", encoding="utf-8") as f:
+    root_pack_meta = json.load(f)
+
+removal_list_path = ROOT / "tools" / "sub_packs" / "removal_list.yml"
+if not removal_list_path.exists():
+    raise FileNotFoundError("tools/sub_packs/removal_list.yml not found")
+
+with removal_list_path.open("r", encoding="utf-8") as f:
+    removal_list = yaml.safe_load(f) or {}
+
+file_names = release_info.get("File Name", {}) or {}
+project_ids = release_info.get("Project-ID", {}) or {}
+
+RELEASE_INFO_KEY = {
+    "main": "Main",
+    "resources": "Resources",
+    "ambient": "Ambient",
+    "deep_blue": "Deep Blue",
+    "dungeons": "Dungeons",
+    "villages": "Villages",
+}
+
+DEFAULT_FILE_NAMES = {
+    "main": "Katters Structures",
+    "resources": "Katters Structures Resource Pack",
+    "ambient": "Katters Structures Only Ambient",
+    "deep_blue": "Katters Structures Only Deep Blue",
+    "dungeons": "Katters Structures Only Dungeons",
+    "villages": "Katters Structures Only Villages",
+}
+
+
+def release_info_name(key: str) -> str:
+    return RELEASE_INFO_KEY[key]
+
+
+def display_file_name(key: str) -> str:
+    value = str(file_names.get(release_info_name(key), "")).strip()
+    return value or DEFAULT_FILE_NAMES[key]
+
+
+def release_title(key: str) -> str:
+    return f"{display_file_name(key)} v{version}"
+
+
+def archive_path(key: str, extension: str) -> Path:
+    return DIST / f"{display_file_name(key)} v{version}.{extension}"
+
+
+def tag_slug(text: str) -> str:
+    slug = text.lower()
+    slug = re.sub(r"[^a-z0-9]+", "-", slug)
+    slug = slug.strip("-")
+    return slug or "release"
+
+
+def tag_for(key: str) -> str:
+    return f"{tag_slug(display_file_name(key))}-v{version}"
+
+
+def project_id_for(key: str) -> str:
+    return str(project_ids.get(release_info_name(key), "")).strip()
+
+
+def ensure_exists(path: Path, label: str):
+    if not path.exists():
+        raise FileNotFoundError(f"{label} not found: {path}")
+
+
+def copytree_replace(src: Path, dst: Path):
+    ensure_exists(src, str(src))
+    if dst.exists():
+        shutil.rmtree(dst)
+    shutil.copytree(src, dst)
+
+
+def copytree_merge(src: Path, dst: Path):
+    if not src.exists():
+        return
+    for item in src.rglob("*"):
+        rel = item.relative_to(src)
+        target = dst / rel
+        if item.is_dir():
+            target.mkdir(parents=True, exist_ok=True)
+        else:
+            target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(item, target)
+
+
+def copy_missing_from(src_root: Path, dst_root: Path, exclude_relative_dirs=None):
+    ensure_exists(src_root, str(src_root))
+    exclude_relative_dirs = [Path(p) for p in (exclude_relative_dirs or [])]
+
+    for item in src_root.rglob("*"):
+        rel = item.relative_to(src_root)
+
+        if any(rel == excluded or excluded in rel.parents for excluded in exclude_relative_dirs):
+            continue
+
+        target = dst_root / rel
+        if item.is_dir():
+            target.mkdir(parents=True, exist_ok=True)
+        elif not target.exists():
+            target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(item, target)
+
+
+def copy_root_pack_files(build_dir: Path, include_pack_meta: bool):
+    files = ["pack.png", "license.txt"]
+    if include_pack_meta:
+        files.insert(0, "pack.mcmeta")
+
+    for file_name in files:
+        src = ROOT / file_name
+        ensure_exists(src, file_name)
+        shutil.copy2(src, build_dir / file_name)
+
+
+def copy_assets_lang_to_data(build_dir: Path):
+    lang_src = ROOT / "assets" / "kattersstructures" / "lang"
+    lang_dst = build_dir / "data" / "kattersstructures" / "lang"
+    ensure_exists(lang_src, "assets/kattersstructures/lang")
+    copytree_replace(lang_src, lang_dst)
+
+
+def sync_pack_formats(root_meta: dict, subpack_meta_path: Path):
+    ensure_exists(subpack_meta_path, "sub-pack pack.mcmeta")
+    with subpack_meta_path.open("r", encoding="utf-8") as f:
+        sub_meta = json.load(f)
+
+    root_pack = root_meta.get("pack", {})
+    sub_pack = sub_meta.setdefault("pack", {})
+
+    if "supported_formats" in root_pack:
+        sub_pack["supported_formats"] = deepcopy(root_pack["supported_formats"])
+    else:
+        if "min_format" in root_pack:
+            sub_pack["min_format"] = root_pack["min_format"]
+        if "max_format" in root_pack:
+            sub_pack["max_format"] = root_pack["max_format"]
+
+    with subpack_meta_path.open("w", encoding="utf-8") as f:
+        json.dump(sub_meta, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+
+
+def apply_removals(base_dir: Path, entries):
+    for entry in entries or []:
+        target = base_dir / str(entry)
+        if target.is_dir():
+            shutil.rmtree(target, ignore_errors=True)
+        elif target.exists():
+            target.unlink()
+
+
+def zip_directory_contents(source_dir: Path, output_zip: Path):
+    with zipfile.ZipFile(output_zip, "w", zipfile.ZIP_DEFLATED) as zf:
+        for path in sorted(source_dir.rglob("*")):
+            if path.is_file():
+                zf.write(path, path.relative_to(source_dir).as_posix())
+
+
+def zip_selected_paths(base_dir: Path, selected_paths, output_zip: Path):
+    with zipfile.ZipFile(output_zip, "w", zipfile.ZIP_DEFLATED) as zf:
+        for rel in selected_paths:
+            src = base_dir / rel
+            ensure_exists(src, f"required path {rel}")
+            if src.is_dir():
+                for path in sorted(src.rglob("*")):
+                    if path.is_file():
+                        zf.write(path, path.relative_to(base_dir).as_posix())
+            else:
+                zf.write(src, rel)
+
+
+def toml_escape(value: str) -> str:
+    return value.replace("\\", "\\\\").replace("'", "\\'")
+
+
+def mod_id_for(key: str) -> str:
+    suffix = "" if key == "main" else "_" + re.sub(r"[^a-z0-9_]+", "_", key.lower())
+    return f"mr_katters_structures{suffix}"
+
+
+def build_universal_jar(source_dir: Path, output_jar: Path, key: str):
+    jar_build = BUILD / f"{key}_jar"
+    if jar_build.exists():
+        shutil.rmtree(jar_build)
+    shutil.copytree(source_dir, jar_build)
+
+    (jar_build / "META-INF").mkdir(parents=True, exist_ok=True)
+
+    display_name = release_title(key)
+    mod_id = mod_id_for(key)
+    icon = "pack.png"
+    description = f"{display_name} packaged as a universal data/resource mod."
+    homepage = "https://modrinth.com/datapack/katters-structures"
+    sources = "https://github.com/Katters-Structures/Katters-Structures"
+    project_id = project_id_for(key) or project_id_for("main") or "katters-structures"
+
+    fabric_json = {
+        "schemaVersion": 1,
+        "id": mod_id,
+        "version": version,
+        "name": display_name,
+        "description": description,
+        "authors": [],
+        "contact": {
+            "homepage": homepage,
+            "sources": sources,
+        },
+        "license": "LicenseRef-Custom",
+        "icon": icon,
+        "environment": "*",
+        "depends": {
+            "fabric-resource-loader-v0": "*"
+        },
+    }
+
+    quilt_json = {
+        "schema_version": 1,
+        "quilt_loader": {
+            "group": "com.modrinth",
+            "id": mod_id,
+            "version": version,
+            "metadata": {
+                "name": display_name,
+                "description": description,
+                "contributors": {},
+                "contact": {
+                    "homepage": homepage,
+                    "sources": sources,
+                },
+                "icon": icon,
+            },
+            "intermediate_mappings": "net.fabricmc:intermediary",
+            "depends": [
+                {
+                    "id": "quilt_resource_loader",
+                    "versions": "*",
+                    "unless": "fabric-resource-loader-v0",
+                }
+            ],
+        }
+    }
+
+    escaped_name = toml_escape(display_name)
+    escaped_desc = toml_escape(description)
+
+    forge_toml = f"""modLoader = 'lowcodefml'
+loaderVersion = '[40,)'
+license = 'LicenseRef-Custom'
+showAsResourcePack = false
+mods = [
+  {{ modId = '{mod_id}', version = '{version}', displayName = '{escaped_name}', description = '{escaped_desc}', logoFile = '{icon}', updateJSONURL = 'https://api.modrinth.com/updates/{project_id}/forge_updates.json', credits = 'Generated by workflow', authors = '', displayURL = '{homepage}' }},
+]
+"""
+
+    neoforge_toml = f"""modLoader = 'javafml'
+loaderVersion = '[1,)'
+license = 'LicenseRef-Custom'
+showAsResourcePack = false
+mods = [
+  {{ modId = '{mod_id}', version = '{version}', displayName = '{escaped_name}', description = '{escaped_desc}', logoFile = '{icon}', updateJSONURL = 'https://api.modrinth.com/updates/{project_id}/forge_updates.json?neoforge=only', credits = 'Generated by workflow', authors = '', displayURL = '{homepage}' }},
+]
+"""
+
+    (jar_build / "fabric.mod.json").write_text(json.dumps(fabric_json, separators=(",", ":")), encoding="utf-8")
+    (jar_build / "quilt.mod.json").write_text(json.dumps(quilt_json, separators=(",", ":")), encoding="utf-8")
+    (jar_build / "META-INF" / "mods.toml").write_text(forge_toml, encoding="utf-8")
+    (jar_build / "META-INF" / "neoforge.mods.toml").write_text(neoforge_toml, encoding="utf-8")
+
+    zip_directory_contents(jar_build, output_jar)
+
+
+releases = []
+
+
+def add_release(key: str, build_dir: Path, zip_paths=None, notes=None, make_jar=True):
+    out_zip = archive_path(key, "zip")
+    out_jar = archive_path(key, "jar") if make_jar else None
+
+    if zip_paths:
+        zip_selected_paths(build_dir, zip_paths, out_zip)
+    else:
+        zip_directory_contents(build_dir, out_zip)
+
+    if make_jar:
+        build_universal_jar(build_dir, out_jar, key)
+
+    releases.append({
+        "key": key,
+        "tag": tag_for(key),
+        "name": release_title(key),
+        "zip": str(out_zip),
+        "jar": str(out_jar) if out_jar else "",
+        "notes": str(notes or ROOT / "changelog.log"),
+    })
+
+
+# MAIN / FULL PACK
+main_build = BUILD / "main"
+main_build.mkdir(parents=True, exist_ok=True)
+
+copytree_replace(ROOT / "assets", main_build / "assets")
+copytree_replace(ROOT / "data", main_build / "data")
+
+copy_assets_lang_to_data(main_build)
+
+copy_root_pack_files(main_build, include_pack_meta=True)
+
+add_release(
+    key="main",
+    build_dir=main_build,
+    zip_paths=["assets", "data", "pack.mcmeta", "pack.png", "license.txt"],
+    notes=ROOT / "changelog.log",
+    make_jar=True,
+)
+
+# RESOURCE PACK, ZIP ONLY
+resources_src = ROOT / "tools" / "sub_packs" / "resources"
+ensure_exists(resources_src, "sub_packs/resources")
+resources_build = BUILD / "resources"
+copytree_replace(resources_src, resources_build)
+copytree_merge(ROOT / "assets", resources_build / "assets")
+copy_root_pack_files(resources_build, include_pack_meta=False)
+
+add_release(
+    key="resources",
+    build_dir=resources_build,
+    notes=ROOT / "tools" / "sub_packs" / "resources" / "changelog.log",
+    make_jar=False,
+)
+
+
+def build_variant(
+    key: str,
+    folder_name: str,
+    remove_key: str,
+    include_enchantencore: bool = False,
+    exclude_ks_dirs=None,
+):
+    exclude_ks_dirs = exclude_ks_dirs or []
+
+    src_dir = ROOT / "tools" / "sub_packs" / folder_name
+    ensure_exists(src_dir, f"sub_packs/{folder_name}")
+
+    build_dir = BUILD / folder_name
+    copytree_replace(src_dir, build_dir)
+
+    sync_pack_formats(root_pack_meta, build_dir / "pack.mcmeta")
+    copy_root_pack_files(build_dir, include_pack_meta=False)
+
+    ks_src = ROOT / "data" / "kattersstructures"
+    ks_dst = build_dir / "data" / "kattersstructures"
+    ensure_exists(ks_src, "data/kattersstructures")
+    ks_dst.mkdir(parents=True, exist_ok=True)
+    copy_missing_from(ks_src, ks_dst, exclude_relative_dirs=exclude_ks_dirs)
+
+    mc_src = ROOT / "data" / "minecraft"
+    mc_dst = build_dir / "data" / "minecraft"
+    ensure_exists(mc_src, "data/minecraft")
+    mc_dst.mkdir(parents=True, exist_ok=True)
+    copy_missing_from(mc_src, mc_dst, exclude_relative_dirs=[])
+
+    if include_enchantencore:
+        ee_src = ROOT / "data" / "enchantencore"
+        ensure_exists(ee_src, "data/enchantencore")
+        copytree_merge(ee_src, build_dir / "data" / "enchantencore")
+
+    copytree_merge(ROOT / "assets", build_dir / "assets")
+    copy_assets_lang_to_data(build_dir)
+    apply_removals(build_dir, removal_list.get(remove_key, []))
+
+    add_release(
+        key=key,
+        build_dir=build_dir,
+        notes=ROOT / "tools" / "sub_packs" / folder_name / "changelog.log",
+        make_jar=True,
+    )
+
+
+build_variant(
+    key="ambient",
+    folder_name="ambient",
+    remove_key="Ambient",
+    include_enchantencore=False,
+    exclude_ks_dirs=[
+        "dimension",
+        "dimension_type",
+        "worldgen/structure_set",
+    ],
+)
+
+build_variant(
+    key="dungeons",
+    folder_name="dungeons",
+    remove_key="Dungeons",
+    include_enchantencore=True,
+    exclude_ks_dirs=[
+        "dimension",
+        "dimension_type",
+        "worldgen/structure_set",
+    ],
+)
+
+build_variant(
+    key="villages",
+    folder_name="villages",
+    remove_key="Villages",
+    include_enchantencore=False,
+    exclude_ks_dirs=[
+        "dimension",
+        "dimension_type",
+        "worldgen/structure_set",
+    ],
+)
+
+build_variant(
+    key="deep_blue",
+    folder_name="deep_blue",
+    remove_key="Deep Blue",
+    include_enchantencore=False,
+    exclude_ks_dirs=[
+        "worldgen/structure_set",
+    ],
+)
+
+with (DIST / "releases.json").open("w", encoding="utf-8") as f:
+    json.dump(releases, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+
+print(f"Built {len(releases)} releases")

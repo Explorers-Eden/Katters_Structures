@@ -268,7 +268,7 @@ for key in keys_to_publish:
             file_path=zip_asset,
             name=title,
             version_number=version,
-            loaders=["resourcepack"],
+            loaders=["minecraft"],
             content_type="application/zip",
         )
         continue

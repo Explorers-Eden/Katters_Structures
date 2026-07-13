@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   publish-modrinth:
@@ -28,3 +28,9 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
           MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
         run: python tools/scripts/upload-version-to-modrinth.py
+
+      - name: Update README from Modrinth description
+        run: python tools/scripts/update-readme-from-modrinth.py
+
+      - name: Commit README update
+        run: bash tools/scripts/commit-readme-update.sh

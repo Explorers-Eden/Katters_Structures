@@ -1,5 +1,5 @@
 {
-    "generic.kattersstructures.alcohol_poisoning": "",
+    "generic.kattersstructures.alcohol_poisoning": "You drank too much! And got yourself alcohol poisoning.",
     "biome.kattersstructures.coralis": "Коралл",
     "biome.kattersstructures.dark_chasm": "Тёмная пропасть",
     "biome.kattersstructures.deep_blue_plains": "Глубокие синие равнины",
@@ -417,5 +417,9 @@
     "structure.kattersstructures.villager_mountain": "Mountain villager statue",
     "structure.kattersstructures.villager_ocean": "Ocean villager statue",
     "structure.kattersstructures.windmill": "Windmill",
-    "structure.kattersstructures.witch_circle": "Witch circle"
+    "structure.kattersstructures.witch_circle": "Witch circle",
+    "item.kattersstructures.spells.no_level": "You don't have enough Level to cast this",
+    "advancement.kattersstructures.a_villager_statue_title": "Ancient Witness",
+    "advancement.kattersstructures.a_villager_statue_description": "Discover a silent guardian of the land, a relic of a bygone era.",
+    "item.kattersstructures.wine": "Wine"
 }

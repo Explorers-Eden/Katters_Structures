@@ -7,56 +7,8 @@ permissions:
   contents: write
 
 jobs:
-  sync-translations:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Create temporary Crowdin config
-        run: bash tools/scripts/create-crowdin-config.sh
-
-      - name: Backup English source lang
-        run: bash tools/scripts/backup-lang.sh
-
-      - name: Upload source to Crowdin
-        uses: crowdin/github-action@v2
-        with:
-          config: .crowdin-temp.yml
-          upload_sources: true
-          upload_translations: false
-          download_translations: false
-        env:
-          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
-
-      - name: Download translations from Crowdin
-        uses: crowdin/github-action@v2
-        with:
-          config: .crowdin-temp.yml
-          upload_sources: false
-          upload_translations: false
-          download_translations: true
-          skip_untranslated_files: false
-          push_translations: false
-          create_pull_request: false
-        env:
-          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Cleanup Crowdin files and normalize lang filenames
-        run: bash tools/scripts/cleanup-crowdin-files.sh
-
-      - name: Commit Crowdin translation updates
-        run: bash tools/scripts/commit-crowdin-updates.sh
-
   build-and-publish:
     runs-on: ubuntu-latest
-    needs: sync-translations
 
     steps:
       - name: Check out repository

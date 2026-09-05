@@ -18,49 +18,43 @@
     "villager_desert": {
       "trigger": "minecraft:location",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "structures": "kattersstructures:villager_desert"
-              }
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "kattersstructures:villager_desert"
             }
           }
-        ]
+        }
       }
     },
     "villager_mountain": {
       "trigger": "minecraft:location",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "structures": "kattersstructures:villager_mountain"
-              }
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "kattersstructures:villager_mountain"
             }
           }
-        ]
+        }
       }
     },
     "villager_ocean": {
       "trigger": "minecraft:location",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "structures": "kattersstructures:villager_ocean"
-              }
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "kattersstructures:villager_ocean"
             }
           }
-        ]
+        }
       }
     }
   },

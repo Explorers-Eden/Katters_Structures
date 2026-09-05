@@ -12,7 +12,7 @@
 			],
 			"functions": [
 				{
-					"function": "minecraft:set_name",
+					"type": "minecraft:set_name",
 					"name": {
 						"translate": "item.kattersstructures.rusta_present_1",
 						"fallback": "a Present?"

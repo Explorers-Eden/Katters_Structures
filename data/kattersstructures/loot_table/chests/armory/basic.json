@@ -11,8 +11,9 @@
           "weight": 10,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 4,
                 "max": 6
               }
@@ -25,8 +26,9 @@
           "weight": 10,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 10,
                 "max": 16
               }
@@ -39,8 +41,9 @@
           "weight": 10,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 6,
                 "max": 10
               }
@@ -59,8 +62,9 @@
           "weight": 10,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 5,
                 "max": 10
               }
@@ -73,8 +77,9 @@
           "weight": 5,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 6
               }
@@ -91,11 +96,11 @@
           "name": "minecraft:iron_boots",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "#minecraft:treasure"
             },
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
                 "min": 0.25,
                 "max": 0.75
@@ -108,11 +113,11 @@
           "name": "minecraft:iron_chestplate",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "#minecraft:treasure"
             },
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
                 "min": 0.25,
                 "max": 0.75
@@ -125,11 +130,11 @@
           "name": "minecraft:iron_leggings",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "#minecraft:treasure"
             },
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
                 "min": 0.25,
                 "max": 0.75
@@ -142,11 +147,11 @@
           "name": "minecraft:iron_helmet",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "#minecraft:treasure"
             },
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
                 "min": 0.25,
                 "max": 0.75
@@ -159,11 +164,11 @@
           "name": "minecraft:golden_boots",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "#minecraft:treasure"
             },
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
                 "min": 0.25,
                 "max": 0.75
@@ -176,11 +181,11 @@
           "name": "minecraft:golden_chestplate",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "#minecraft:treasure"
             },
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
                 "min": 0.25,
                 "max": 0.75
@@ -193,11 +198,11 @@
           "name": "minecraft:golden_leggings",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "#minecraft:treasure"
             },
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
                 "min": 0.25,
                 "max": 0.75
@@ -210,11 +215,11 @@
           "name": "minecraft:golden_helmet",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "#minecraft:treasure"
             },
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
                 "min": 0.25,
                 "max": 0.75
@@ -227,11 +232,11 @@
           "name": "minecraft:chainmail_boots",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "#minecraft:treasure"
             },
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
                 "min": 0.25,
                 "max": 0.75
@@ -244,11 +249,11 @@
           "name": "minecraft:chainmail_chestplate",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "#minecraft:treasure"
             },
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
                 "min": 0.25,
                 "max": 0.75
@@ -261,11 +266,11 @@
           "name": "minecraft:chainmail_leggings",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "#minecraft:treasure"
             },
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
                 "min": 0.25,
                 "max": 0.75
@@ -278,11 +283,11 @@
           "name": "minecraft:chainmail_helmet",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "#minecraft:treasure"
             },
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
                 "min": 0.25,
                 "max": 0.75
@@ -291,12 +296,10 @@
           ]
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.75
-        }
-      ]
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.75
+      }
     }
   ]
 }

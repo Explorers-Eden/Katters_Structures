@@ -21,20 +21,22 @@
     "requirement": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {}
-          }
-        ],
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        },
         "entity": {
-          "minecraft:entity_type": "minecraft:turtle",
-          "minecraft:entity_tags": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:turtle",
+            "minecraft:entity_tags": {
               "any_of": [
                 "katter.tenku.vehicle"
               ]
             }
+          }
         }
       }
     }

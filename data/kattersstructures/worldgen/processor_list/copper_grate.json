@@ -13,10 +13,10 @@
             "probability": 0.3
           },
           "output_state": {
-            "Name": "minecraft:weathered_copper_grate",
-            "Properties": {
+            "id": "minecraft:weathered_copper_grate",
+            "properties": {
               "waterlogged": "true"
-            }             
+            }
           }
         }
       ]

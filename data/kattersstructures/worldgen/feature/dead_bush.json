@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:tree",
+  "ignore_vines": false,
+  "minimum_size": {
+    "type": "minecraft:two_layers_feature_size",
+    "limit": 0,
+    "lower_size": 0,
+    "upper_size": 0
+  },
+  "below_trunk_provider": {
+    "type": "minecraft:simple",
+    "state": "minecraft:dead_brain_coral_block"
+  },
+  "trunk_provider": {
+    "type": "minecraft:simple",
+    "state": {
+      "id": "minecraft:jungle_log",
+      "properties": {
+        "axis": "y"
+      }
+    }
+  },
+  "foliage_provider": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "weight": 1,
+        "data": {
+          "id": "minecraft:mangrove_leaves",
+          "properties": {
+            "waterlogged": "true",
+            "distance": "7",
+            "persistent": "true"
+          }
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "minecraft:mangrove_roots",
+          "properties": {
+            "waterlogged": "true"
+          }
+        }
+      }
+    ]
+  },
+  "trunk_placer": {
+    "type": "minecraft:straight_trunk_placer",
+    "base_height": 1,
+    "height_rand_a": 0,
+    "height_rand_b": 0
+  },
+  "foliage_placer": {
+    "type": "minecraft:bush_foliage_placer",
+    "radius": 2,
+    "offset": 1,
+    "height": 2
+  },
+  "decorators": []
+}

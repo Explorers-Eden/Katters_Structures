@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:tree",
+  "ignore_vines": true,
+  "minimum_size": {
+    "type": "minecraft:two_layers_feature_size",
+    "limit": 1,
+    "lower_size": 0,
+    "upper_size": 1
+  },
+  "below_trunk_provider": {
+    "type": "minecraft:simple",
+    "state": "minecraft:sandstone"
+  },
+  "trunk_provider": {
+    "type": "minecraft:simple",
+    "state": "minecraft:kelp_plant"
+  },
+  "foliage_provider": {
+    "type": "minecraft:simple",
+    "state": "minecraft:water"
+  },
+  "trunk_placer": {
+    "type": "minecraft:straight_trunk_placer",
+    "base_height": 6,
+    "height_rand_a": 3,
+    "height_rand_b": 10
+  },
+  "foliage_placer": {
+    "type": "minecraft:random_spread_foliage_placer",
+    "radius": 0,
+    "offset": 0,
+    "foliage_height": 1,
+    "leaf_placement_attempts": 0
+  },
+  "decorators": []
+}

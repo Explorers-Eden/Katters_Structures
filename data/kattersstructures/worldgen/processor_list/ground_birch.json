@@ -3,9 +3,6 @@
     {
       "processor_type": "minecraft:rule",
       "rules": [
-
-
-
         {
           "location_predicate": {
             "predicate_type": "minecraft:block_match",
@@ -16,8 +13,8 @@
             "block": "minecraft:grass_block"
           },
           "output_state": {
-            "Name": "minecraft:water",
-            "Properties": {
+            "id": "minecraft:water",
+            "properties": {
               "level": "0"
             }
           }
@@ -33,8 +30,8 @@
             "probability": 0.3
           },
           "output_state": {
-            "Name": "minecraft:water",
-            "Properties": {
+            "id": "minecraft:water",
+            "properties": {
               "level": "0"
             }
           }
@@ -48,9 +45,7 @@
             "predicate_type": "minecraft:block_match",
             "block": "minecraft:moss_block"
           },
-          "output_state": {
-            "Name": "minecraft:birch_planks"
-          }
+          "output_state": "minecraft:birch_planks"
         },
         {
           "location_predicate": {
@@ -61,13 +56,8 @@
             "predicate_type": "minecraft:block_match",
             "block": "minecraft:podzol"
           },
-          "output_state": {
-            "Name": "minecraft:birch_planks"
-          }
+          "output_state": "minecraft:birch_planks"
         },
-
-
-
         {
           "location_predicate": {
             "predicate_type": "minecraft:block_match",
@@ -78,9 +68,7 @@
             "block": "minecraft:grass_block",
             "probability": 0.8
           },
-          "output_state": {
-            "Name": "minecraft:sand"
-          }
+          "output_state": "minecraft:sand"
         },
         {
           "location_predicate": {
@@ -92,9 +80,7 @@
             "block": "minecraft:moss_block",
             "probability": 0.6
           },
-          "output_state": {
-            "Name": "minecraft:sand"
-          }
+          "output_state": "minecraft:sand"
         },
         {
           "location_predicate": {
@@ -106,12 +92,8 @@
             "block": "minecraft:podzol",
             "probability": 0.1
           },
-          "output_state": {
-            "Name": "minecraft:sand"
-          }
+          "output_state": "minecraft:sand"
         },
-
-
         {
           "location_predicate": {
             "predicate_type": "minecraft:block_match",
@@ -122,9 +104,7 @@
             "block": "minecraft:grass_block",
             "probability": 0.8
           },
-          "output_state": {
-            "Name": "minecraft:stone"
-          }
+          "output_state": "minecraft:stone"
         },
         {
           "location_predicate": {
@@ -136,9 +116,7 @@
             "block": "minecraft:moss_block",
             "probability": 0.6
           },
-          "output_state": {
-            "Name": "minecraft:stone"
-          }
+          "output_state": "minecraft:stone"
         },
         {
           "location_predicate": {
@@ -150,9 +128,7 @@
             "block": "minecraft:podzol",
             "probability": 0.1
           },
-          "output_state": {
-            "Name": "minecraft:stone"
-          }
+          "output_state": "minecraft:stone"
         }
       ]
     }

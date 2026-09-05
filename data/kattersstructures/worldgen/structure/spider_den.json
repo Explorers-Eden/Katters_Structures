@@ -4,22 +4,33 @@
         "monster": {
             "bounding_box": "full",
             "spawns": [
-            {
-                "type": "minecraft:spider",
-                "weight": 5,
-                "minCount": 1,
-                "maxCount": 3
-            },{
-                "type": "minecraft:cave_spider",
-                "weight": 2,
-                "minCount": 1,
-                "maxCount": 2
-            },{
-                "type": "minecraft:silverfish",
-                "weight": 2,
-                "minCount": 1,
-                "maxCount": 2
-            } 
+                {
+                    "type": "minecraft:spider",
+                    "weight": 5,
+                    "count": {
+                        "type": "minecraft:uniform",
+                        "min_inclusive": 1,
+                        "max_inclusive": 3
+                    }
+                },
+                {
+                    "type": "minecraft:cave_spider",
+                    "weight": 2,
+                    "count": {
+                        "type": "minecraft:uniform",
+                        "min_inclusive": 1,
+                        "max_inclusive": 2
+                    }
+                },
+                {
+                    "type": "minecraft:silverfish",
+                    "weight": 2,
+                    "count": {
+                        "type": "minecraft:uniform",
+                        "min_inclusive": 1,
+                        "max_inclusive": 2
+                    }
+                }
             ]
         }
     },

@@ -10,17 +10,17 @@
           "input_predicate": {
             "predicate_type": "minecraft:blockstate_match",
             "block_state": {
-              "Name": "observer",
-              "Properties": {
+              "id": "observer",
+              "properties": {
                 "facing": "up"
               }
             }
           },
           "output_state": {
-            "Name": "minecraft:observer",
-            "Properties": {
+            "id": "minecraft:observer",
+            "properties": {
               "facing": "up"
-            }            
+            }
           }
         },
         {
@@ -30,17 +30,17 @@
           "input_predicate": {
             "predicate_type": "minecraft:blockstate_match",
             "block_state": {
-              "Name": "observer",
-              "Properties": {
+              "id": "observer",
+              "properties": {
                 "facing": "down"
               }
             }
           },
           "output_state": {
-            "Name": "minecraft:observer",
-            "Properties": {
+            "id": "minecraft:observer",
+            "properties": {
               "facing": "down"
-            }            
+            }
           }
         }
       ]

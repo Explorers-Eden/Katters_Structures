@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:disk",
+  "state_provider": {
+    "type": "minecraft:simple",
+    "state": "minecraft:fire_coral_block"
+  },
+  "radius": 3,
+  "half_height": 2,
+  "target": {
+    "type": "minecraft:all_of",
+    "predicates": [
+      {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:sand",
+          "minecraft:sandstone",
+          "minecraft:horn_coral_block"
+        ]
+      }
+    ]
+  }
+}

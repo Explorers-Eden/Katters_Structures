@@ -50,7 +50,7 @@
           "weight": 10,
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "#minecraft:treasure"
             }
           ]
@@ -71,7 +71,7 @@
           "weight": 10,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -87,7 +87,7 @@
           "weight": 5,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -109,7 +109,7 @@
           "weight": 10,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -125,7 +125,7 @@
           "weight": 10,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -141,7 +141,7 @@
           "weight": 10,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -157,7 +157,7 @@
           "weight": 10,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,

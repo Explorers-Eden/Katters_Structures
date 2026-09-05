@@ -8,28 +8,28 @@
           "name": "minecraft:armor_stand",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "minecraft:lightning_rod",
                 "minecraft:max_stack_size": 64,
                 "minecraft:item_name": {
-                  "fallback":"Raj's Lightning Rod holder",
-                  "translate":"blocks.kattersstructures.raj_rod.name"
+                  "fallback": "Raj's Lightning Rod holder",
+                  "translate": "blocks.kattersstructures.raj_rod.name"
                 },
                 "minecraft:lore": [
-				          {
-					          "translate": "blocks.kattersstructures.raj_rod.lore_1",
-					          "fallback": "Place this holder and give it a \"Raj's Lightning Rod\""
-				          },
-				          {
-					          "translate": "blocks.kattersstructures.raj_rod.lore_2",
-					          "fallback": "to periodically spawn Lightnings around it"
-				          }
-			          ],
+                  {
+                    "translate": "blocks.kattersstructures.raj_rod.lore_1",
+                    "fallback": "Place this holder and give it a \"Raj's Lightning Rod\""
+                  },
+                  {
+                    "translate": "blocks.kattersstructures.raj_rod.lore_2",
+                    "fallback": "to periodically spawn Lightnings around it"
+                  }
+                ],
                 "minecraft:entity_data": {
                   "id": "minecraft:armor_stand",
                   "Small": true,
@@ -55,4 +55,3 @@
     }
   ]
 }
-

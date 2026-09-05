@@ -11,8 +11,9 @@
           "name": "minecraft:paper",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 5
               }
@@ -25,8 +26,9 @@
           "name": "minecraft:bread",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 4
               }
@@ -39,7 +41,7 @@
           "name": "minecraft:map",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -54,8 +56,9 @@
           "name": "minecraft:stick",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               }
@@ -68,7 +71,7 @@
           "name": "minecraft:compass",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1
             }
           ]
@@ -91,12 +94,10 @@
           "value": "kattersstructures:items/map_dungeon"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.9
-        }
-      ]
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.9
+      }
     }
   ]
 }

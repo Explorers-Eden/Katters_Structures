@@ -1,14 +1,13 @@
 {
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:player_generates_container_loot",
-        "conditions": {
-          "loot_table": "kattersstructures:chests/cartographer"
-        }
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_tables": "kattersstructures:chests/cherry/cartographer"
       }
-    },
-    "rewards": {
-      "function": "kattersstructures:misc/old_cherry/cartographer"
     }
+  },
+  "rewards": {
+    "function": "kattersstructures:misc/old_cherry/cartographer"
   }
-  
+}

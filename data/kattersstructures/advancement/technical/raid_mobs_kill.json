@@ -4,14 +4,18 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "minecraft:entity_type": [
-            "minecraft:pillager",
-            "minecraft:evoker",
-            "minecraft:ravager",
-            "minecraft:vindicator"
-          ],
-          "location": {
-            "structures": "kattersstructures:pillager_village"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": [
+              "minecraft:pillager",
+              "minecraft:evoker",
+              "minecraft:ravager",
+              "minecraft:vindicator"
+            ],
+            "location": {
+              "structures": "kattersstructures:pillager_village"
+            }
           }
         }
       }

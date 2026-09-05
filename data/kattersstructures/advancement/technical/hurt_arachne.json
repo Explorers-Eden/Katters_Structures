@@ -4,11 +4,15 @@
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "entity": {
-          "minecraft:entity_type": "minecraft:spider",
-          "minecraft:entity_tags": {
-            "any_of": [
-              "katter.arachne.boss"
-            ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:spider",
+            "minecraft:entity_tags": {
+              "any_of": [
+                "katter.arachne.boss"
+              ]
+            }
           }
         }
       }

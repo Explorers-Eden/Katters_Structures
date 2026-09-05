@@ -1,33 +1,30 @@
 {
     "criteria": {
-      "requirement": {
-        "trigger": "minecraft:using_item",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "flags": {}
-              }
+        "requirement": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "flags": {}
+                    }
+                },
+                "item": {
+                    "items": "minecraft:blaze_rod",
+                    "components": {
+                        "minecraft:item_name": {
+                            "bold": false,
+                            "color": "white",
+                            "italic": false,
+                            "text": "Raj's Lightning Rod"
+                        }
+                    }
+                }
             }
-          ],
-          "item": {
-            "items": "minecraft:blaze_rod",
-            "components": {
-              "minecraft:item_name": {
-                "bold":false,
-                "color":"white",
-                "italic":false,
-                "text":"Raj's Lightning Rod"
-              }
-            }
-          }
         }
-      }
     },
     "rewards": {
-      "function": "kattersstructures:items/raj_lightning_rod/run"
+        "function": "kattersstructures:items/raj_lightning_rod/run"
     }
-  }
-  
+}

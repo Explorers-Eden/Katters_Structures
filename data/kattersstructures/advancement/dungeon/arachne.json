@@ -21,19 +21,21 @@
     "requirement": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {}
-          }
-        ],
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        },
         "entity": {
-          "minecraft:entity_type": "minecraft:spider",
-          "minecraft:entity_tags": {
-            "any_of": [
-              "katter.arachne.boss"
-            ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:spider",
+            "minecraft:entity_tags": {
+              "any_of": [
+                "katter.arachne.boss"
+              ]
+            }
           }
         }
       }

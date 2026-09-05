@@ -15,7 +15,7 @@
 					"weight": 10,
 					"functions": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -30,7 +30,7 @@
 					"weight": 10,
 					"functions": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -45,7 +45,7 @@
 					"weight": 8,
 					"functions": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -60,7 +60,7 @@
 					"weight": 5,
 					"functions": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -75,11 +75,11 @@
 					"weight": 2,
 					"functions": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": 1
 						},
 						{
-							"function": "minecraft:enchant_randomly",
+							"type": "minecraft:enchant_randomly",
 							"options": "#minecraft:in_enchanting_table"
 						}
 					]
@@ -90,7 +90,7 @@
 					"weight": 5,
 					"functions": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 5,

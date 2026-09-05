@@ -4,23 +4,25 @@
         "creature": {
             "bounding_box": "full",
             "spawns": [
-            {
-                "type": "minecraft:cat",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
-            }
+                {
+                    "type": "minecraft:cat",
+                    "weight": 1,
+                    "count": 1
+                }
             ]
         },
         "monster": {
             "bounding_box": "full",
             "spawns": [
-            {
-                "type": "minecraft:witch",
-                "weight": 5,
-                "minCount": 2,
-                "maxCount": 10
-            }   
+                {
+                    "type": "minecraft:witch",
+                    "weight": 5,
+                    "count": {
+                        "type": "minecraft:uniform",
+                        "min_inclusive": 2,
+                        "max_inclusive": 10
+                    }
+                }
             ]
         }
     },

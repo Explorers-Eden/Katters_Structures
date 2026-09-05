@@ -14,8 +14,8 @@
 						"probability": 0.2
 					},
 					"output_state": {
-						"Name": "minecraft:suspicious_sand",
-						"Properties": {
+						"id": "minecraft:suspicious_sand",
+						"properties": {
 							"dusted": "0"
 						}
 					},
@@ -34,9 +34,7 @@
 						"block": "minecraft:bone_block",
 						"probability": 0.1
 					},
-					"output_state": {
-						"Name": "minecraft:coal_ore"
-					}
+					"output_state": "minecraft:coal_ore"
 				},
 				{
 					"location_predicate": {
@@ -48,9 +46,7 @@
 						"block": "minecraft:bone_block",
 						"probability": 0.001
 					},
-					"output_state": {
-						"Name": "minecraft:diamond_ore"
-					}
+					"output_state": "minecraft:diamond_ore"
 				},
 				{
 					"location_predicate": {
@@ -61,9 +57,7 @@
 						"predicate_type": "minecraft:block_match",
 						"block": "minecraft:barrier"
 					},
-					"output_state": {
-						"Name": "minecraft:air"
-					}
+					"output_state": "minecraft:air"
 				},
 				{
 					"location_predicate": {
@@ -74,9 +68,7 @@
 						"predicate_type": "minecraft:block_match",
 						"block": "minecraft:barrier"
 					},
-					"output_state": {
-						"Name": "minecraft:air"
-					}
+					"output_state": "minecraft:air"
 				},
 				{
 					"location_predicate": {
@@ -87,9 +79,7 @@
 						"predicate_type": "minecraft:block_match",
 						"block": "minecraft:barrier"
 					},
-					"output_state": {
-						"Name": "minecraft:water"
-					}
+					"output_state": "minecraft:water"
 				},
 				{
 					"location_predicate": {
@@ -100,9 +90,7 @@
 						"predicate_type": "minecraft:block_match",
 						"block": "minecraft:barrier"
 					},
-					"output_state": {
-						"Name": "minecraft:sandstone"
-					}
+					"output_state": "minecraft:sandstone"
 				},
 				{
 					"location_predicate": {
@@ -113,9 +101,7 @@
 						"predicate_type": "minecraft:block_match",
 						"block": "minecraft:barrier"
 					},
-					"output_state": {
-						"Name": "minecraft:stone"
-					}
+					"output_state": "minecraft:stone"
 				},
 				{
 					"location_predicate": {
@@ -126,9 +112,7 @@
 						"predicate_type": "minecraft:block_match",
 						"block": "minecraft:barrier"
 					},
-					"output_state": {
-						"Name": "minecraft:sand"
-					}
+					"output_state": "minecraft:sand"
 				},
 				{
 					"location_predicate": {
@@ -139,9 +123,7 @@
 						"predicate_type": "minecraft:block_match",
 						"block": "minecraft:barrier"
 					},
-					"output_state": {
-						"Name": "minecraft:dirt"
-					}
+					"output_state": "minecraft:dirt"
 				},
 				{
 					"location_predicate": {
@@ -152,9 +134,7 @@
 						"predicate_type": "minecraft:block_match",
 						"block": "minecraft:barrier"
 					},
-					"output_state": {
-						"Name": "minecraft:grass_block"
-					}
+					"output_state": "minecraft:grass_block"
 				},
 				{
 					"location_predicate": {
@@ -164,9 +144,7 @@
 						"predicate_type": "minecraft:block_match",
 						"block": "minecraft:barrier"
 					},
-					"output_state": {
-						"Name": "stone"
-					}
+					"output_state": "stone"
 				}
 			]
 		},

@@ -21,7 +21,7 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 5,
@@ -37,8 +37,9 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 10,
                 "max": 20
               }
@@ -51,21 +52,20 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
+              "type": "minecraft:enchant_with_levels",
               "levels": 90,
               "options": "#minecraft:treasure"
             }
           ]
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:killed_by_player"
-        }
-      ]
+      "condition": {
+        "type": "minecraft:killed_by_player"
+      }
     },
     {
       "rolls": {
+        "type": "minecraft:uniform",
         "min": 1,
         "max": 1
       },

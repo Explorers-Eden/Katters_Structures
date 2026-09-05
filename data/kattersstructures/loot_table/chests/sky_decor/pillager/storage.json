@@ -10,7 +10,7 @@
 					"weight": 4,
 					"functions": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 4,
@@ -25,11 +25,11 @@
 					"weight": 1,
 					"functions": [
 						{
-							"function": "minecraft:enchant_randomly",
+							"type": "minecraft:enchant_randomly",
 							"options": "#minecraft:on_random_loot"
 						},
 						{
-							"function": "minecraft:set_damage",
+							"type": "minecraft:set_damage",
 							"damage": {
 								"type": "minecraft:uniform",
 								"min": 0.25,
@@ -44,7 +44,7 @@
 					"weight": 4,
 					"functions": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 4,
@@ -59,7 +59,7 @@
 					"weight": 3,
 					"functions": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -74,7 +74,7 @@
 					"weight": 10,
 					"functions": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -89,7 +89,7 @@
 					"weight": 10,
 					"functions": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -104,7 +104,7 @@
 					"weight": 10,
 					"functions": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 3,

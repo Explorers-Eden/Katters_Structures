@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    "kattersstructures:sea_pickle",
+    "kattersstructures:seagrass",
+    "kattersstructures:tall_seagrass"
+  ]
+}

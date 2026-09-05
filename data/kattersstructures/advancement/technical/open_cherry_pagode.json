@@ -1,14 +1,13 @@
 {
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:player_generates_container_loot",
-        "conditions": {
-          "loot_table": "kattersstructures:chests/pagode"
-        }
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_tables": "kattersstructures:chests/cherry/pagode"
       }
-    },
-    "rewards": {
-      "function": "kattersstructures:misc/old_cherry/pagode"
     }
+  },
+  "rewards": {
+    "function": "kattersstructures:misc/old_cherry/pagode"
   }
-  
+}

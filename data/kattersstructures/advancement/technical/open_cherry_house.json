@@ -1,14 +1,13 @@
 {
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:player_generates_container_loot",
-        "conditions": {
-          "loot_table": "kattersstructures:chests/house"
-        }
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_tables": "kattersstructures:chests/cherry/house"
       }
-    },
-    "rewards": {
-      "function": "kattersstructures:misc/old_cherry/house"
     }
+  },
+  "rewards": {
+    "function": "kattersstructures:misc/old_cherry/house"
   }
-  
+}

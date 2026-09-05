@@ -12,9 +12,7 @@
             "block": "minecraft:white_wool",
             "probability": 0.6
           },
-          "output_state": {
-            "Name": "minecraft:cobweb"            
-          }
+          "output_state": "minecraft:cobweb"
         }
       ]
     }

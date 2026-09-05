@@ -9,19 +9,20 @@
 					"name": "minecraft:totem_of_undying",
 					"functions": [
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:death_protection": {
 									"death_effects": [
 										{
 											"type": "minecraft:clear_all_effects"
-										},{
+										},
+										{
 											"type": "minecraft:apply_effects",
 											"effects": [
 												{
 													"id": "minecraft:resistance",
-                                                    "amplifier": 3,
-                                                    "duration": 200
+													"amplifier": 3,
+													"duration": 200
 												}
 											]
 										}
@@ -44,24 +45,26 @@
 									"fallback": "Rusta's Random Totem",
 									"color": "#9c04ea"
 								},
-                                "custom_data": {
+								"custom_data": {
 									"kattersstructures.is_rusta_random_totem": true
-                                }
+								}
 							}
 						}
 					]
-				},{
+				},
+				{
 					"type": "minecraft:item",
 					"name": "minecraft:totem_of_undying",
 					"functions": [
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:death_protection": {
 									"death_effects": [
 										{
 											"type": "minecraft:clear_all_effects"
-										},{
+										},
+										{
 											"type": "minecraft:play_sound",
 											"sound": "minecraft:entity.ender_dragon.death"
 										}
@@ -84,30 +87,32 @@
 									"fallback": "Rusta's Random Totem",
 									"color": "#9c04ea"
 								},
-                                "custom_data": {
+								"custom_data": {
 									"kattersstructures.is_rusta_random_totem": true
-                                }
+								}
 							}
 						}
 					]
-				},{
+				},
+				{
 					"type": "minecraft:item",
 					"name": "minecraft:totem_of_undying",
 					"functions": [
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:death_protection": {
 									"death_effects": [
 										{
 											"type": "minecraft:clear_all_effects"
-										},{
+										},
+										{
 											"type": "minecraft:apply_effects",
 											"effects": [
 												{
 													"id": "minecraft:raid_omen",
-                                                    "amplifier": 3,
-                                                    "duration": 2000
+													"amplifier": 3,
+													"duration": 2000
 												}
 											]
 										}
@@ -130,35 +135,37 @@
 									"fallback": "Rusta's Random Totem",
 									"color": "#9c04ea"
 								},
-                                "custom_data": {
+								"custom_data": {
 									"kattersstructures.is_rusta_random_totem": true
-                                }
+								}
 							}
 						}
 					]
-				},{
+				},
+				{
 					"type": "minecraft:item",
 					"name": "minecraft:totem_of_undying",
 					"functions": [
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:death_protection": {
 									"death_effects": [
 										{
 											"type": "minecraft:clear_all_effects"
-										},{
+										},
+										{
 											"type": "minecraft:apply_effects",
 											"effects": [
 												{
 													"id": "minecraft:speed",
-                                                    "amplifier": 20,
-                                                    "duration": 200
+													"amplifier": 20,
+													"duration": 200
 												},
-                                                {
+												{
 													"id": "minecraft:jump_boost",
-                                                    "amplifier": 4,
-                                                    "duration": 200
+													"amplifier": 4,
+													"duration": 200
 												}
 											]
 										}
@@ -181,19 +188,20 @@
 									"fallback": "Rusta's Random Totem",
 									"color": "#9c04ea"
 								},
-                                "custom_data": {
+								"custom_data": {
 									"kattersstructures.is_rusta_random_totem": true
-                                }
+								}
 							}
 						}
 					]
-				},{
+				},
+				{
 					"type": "minecraft:item",
 					"name": "minecraft:totem_of_undying",
 					"weight": 5,
 					"functions": [
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:death_protection": {
 									"death_effects": [
@@ -219,10 +227,10 @@
 									"fallback": "Rusta's Random Totem",
 									"color": "#9c04ea"
 								},
-                                "custom_data": {
-                                    "kattersstructures.rusta_random_totem": true,
+								"custom_data": {
+									"kattersstructures.rusta_random_totem": true,
 									"kattersstructures.is_rusta_random_totem": true
-                                }
+								}
 							}
 						}
 					]

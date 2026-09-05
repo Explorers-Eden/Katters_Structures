@@ -12,9 +12,7 @@
             "predicate_type": "minecraft:block_match",
             "block": "minecraft:dirt_path"
           },
-          "output_state": {
-            "Name": "minecraft:cherry_planks"
-          }
+          "output_state": "minecraft:cherry_planks"
         },
         {
           "location_predicate": {
@@ -26,8 +24,8 @@
             "probability": 0.1
           },
           "output_state": {
-            "Name": "minecraft:grass_block",
-            "Properties": {
+            "id": "minecraft:grass_block",
+            "properties": {
               "snowy": "false"
             }
           }
@@ -42,8 +40,8 @@
             "block": "minecraft:grass_block"
           },
           "output_state": {
-            "Name": "minecraft:water",
-            "Properties": {
+            "id": "minecraft:water",
+            "properties": {
               "level": "0"
             }
           }
@@ -58,8 +56,8 @@
             "block": "minecraft:dirt"
           },
           "output_state": {
-            "Name": "minecraft:water",
-            "Properties": {
+            "id": "minecraft:water",
+            "properties": {
               "level": "0"
             }
           }

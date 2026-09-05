@@ -11,8 +11,9 @@
           "weight": 4,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 4
               }
@@ -25,8 +26,9 @@
           "weight": 2,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 3
               }
@@ -39,7 +41,7 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1
             }
           ]
@@ -50,7 +52,7 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1
             }
           ]
@@ -61,8 +63,9 @@
           "weight": 2,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 4
               }
@@ -77,12 +80,10 @@
         {
           "type": "minecraft:loot_table",
           "value": "kattersstructures:chests/mesa/booze",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.5
-            }
-          ]
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.5
+          }
         }
       ]
     }

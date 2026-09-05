@@ -1,113 +1,116 @@
 {
     "type": "minecraft:entity",
     "pools": [
-      {
-        "rolls": 4,
-        "bonus_rolls": 2,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:diamond",
-            "weight": 2,
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 3
+        {
+            "rolls": 4,
+            "bonus_rolls": 2,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "type": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gold_ingot",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "type": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cobweb",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "type": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:string",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "type": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "type": "minecraft:set_potion",
+                            "id": "minecraft:strong_poison"
+                        }
+                    ]
                 }
-              }
             ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:gold_ingot",
-            "weight": 2,
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 4,
-                  "max": 8
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "type": "minecraft:enchant_randomly",
+                            "options": "kattersstructures:web_walker"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "type": "minecraft:enchant_randomly",
+                            "options": "enchantencore:weaving_aspect"
+                        }
+                    ]
                 }
-              }
             ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:cobweb",
-            "weight": 3,
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 4
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "kattersstructures:items/boss_key"
                 }
-              }
             ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:string",
-            "weight": 5,
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 2,
-                  "max": 10
-                }
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:potion",
-            "weight": 2,
-            "functions": [
-              {
-                "function": "minecraft:set_potion",
-                "id": "minecraft:strong_poison"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:book",
-            "functions": [
-              {
-                "function": "minecraft:enchant_randomly",
-                "options": "kattersstructures:web_walker"
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:book",
-            "functions": [
-              {
-                "function": "minecraft:enchant_randomly",
-                "options": "enchantencore:weaving_aspect"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:loot_table",
-            "value": "kattersstructures:items/boss_key"
-          }
-        ]
-      }
+        }
     ]
-  }
-  
+}

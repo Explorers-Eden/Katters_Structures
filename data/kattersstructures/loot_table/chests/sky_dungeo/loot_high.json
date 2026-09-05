@@ -15,7 +15,7 @@
           "weight": 5,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -31,7 +31,7 @@
           "weight": 15,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -47,7 +47,7 @@
           "weight": 15,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -63,7 +63,7 @@
           "weight": 15,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -79,8 +79,9 @@
           "weight": 20,
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
+              "type": "minecraft:enchant_with_levels",
               "levels": {
+                "type": "minecraft:uniform",
                 "min": 30,
                 "max": 90
               },
@@ -109,8 +110,9 @@
           "weight": 5,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 3
               }
@@ -123,8 +125,9 @@
           "weight": 5,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 4,
                 "max": 10
               }
@@ -142,7 +145,7 @@
           "name": "minecraft:silence_armor_trim_smithing_template",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1,
               "add": false
             }
@@ -153,12 +156,10 @@
           "name": "minecraft:eye_armor_trim_smithing_template"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.3
-        }
-      ]
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.3
+      }
     }
   ]
 }

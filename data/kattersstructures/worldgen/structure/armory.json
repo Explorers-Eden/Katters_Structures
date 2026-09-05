@@ -4,12 +4,11 @@
         "creature": {
             "bounding_box": "full",
             "spawns": [
-            {
-                "type": "minecraft:iron_golem",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
-            }
+                {
+                    "type": "minecraft:iron_golem",
+                    "weight": 1,
+                    "count": 1
+                }
             ]
         },
         "monster": {

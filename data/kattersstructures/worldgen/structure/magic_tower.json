@@ -11,18 +11,25 @@
                 {
                     "type": "minecraft:pillager",
                     "weight": 10,
-                    "maxCount": 2,
-                    "minCount": 1
-                },{
+                    "count": {
+                        "type": "minecraft:uniform",
+                        "min_inclusive": 1,
+                        "max_inclusive": 2
+                    }
+                },
+                {
                     "type": "minecraft:vindicator",
                     "weight": 8,
-                    "maxCount": 2,
-                    "minCount": 1
-                },{
+                    "count": {
+                        "type": "minecraft:uniform",
+                        "min_inclusive": 1,
+                        "max_inclusive": 2
+                    }
+                },
+                {
                     "type": "minecraft:evoker",
                     "weight": 1,
-                    "maxCount": 1,
-                    "minCount": 1
+                    "count": 1
                 }
             ]
         }

@@ -13,8 +13,8 @@
             "block": "minecraft:coarse_dirt"
           },
           "output_state": {
-            "Name": "minecraft:water",
-            "Properties": {
+            "id": "minecraft:water",
+            "properties": {
               "level": "0"
             }
           }
@@ -29,8 +29,8 @@
             "block": "minecraft:mud"
           },
           "output_state": {
-            "Name": "minecraft:water",
-            "Properties": {
+            "id": "minecraft:water",
+            "properties": {
               "level": "0"
             }
           }

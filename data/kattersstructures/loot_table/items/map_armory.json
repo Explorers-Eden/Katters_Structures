@@ -10,18 +10,18 @@
 					"weight": 1,
 					"functions": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": 1
 						},
 						{
-                			"function": "minecraft:exploration_map",
-                			"destination": "kattersstructures:armory",
-                			"decoration": "trial_chambers",
-                			"zoom": 1,
-                			"skip_existing_chunks": true
-              			},
+							"type": "minecraft:exploration_map",
+							"destination": "kattersstructures:armory",
+							"decoration": "trial_chambers",
+							"zoom": 1,
+							"skip_existing_chunks": true
+						},
 						{
-							"function": "minecraft:set_name",
+							"type": "minecraft:set_name",
 							"entity": "this",
 							"target": "custom_name",
 							"name": {
@@ -30,7 +30,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",
+							"type": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
 								{

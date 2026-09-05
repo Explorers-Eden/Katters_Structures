@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:disk",
+  "state_provider": {
+    "type": "minecraft:simple",
+    "state": "minecraft:soul_sand"
+  },
+  "target": {
+    "type": "minecraft:all_of",
+    "predicates": [
+      {
+        "type": "minecraft:not",
+        "predicate": {
+          "type": "minecraft:matching_blocks",
+          "blocks": "minecraft:bedrock"
+        }
+      },
+      {
+        "type": "minecraft:solid"
+      }
+    ]
+  },
+  "radius": 3,
+  "half_height": 0
+}

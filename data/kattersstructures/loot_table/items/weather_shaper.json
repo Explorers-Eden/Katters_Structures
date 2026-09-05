@@ -9,11 +9,11 @@
 					"name": "minecraft:blaze_rod",
 					"functions": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": 1
 						},
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:consumable": {
 									"consume_seconds": 1,
@@ -27,19 +27,26 @@
 										}
 									]
 								},
-                                "minecraft:item_name": {"color":"aqua","fallback":"The Weather Shaper","translate":"item.kattersstructures.weather_shaper"},
+								"minecraft:item_name": {
+									"color": "aqua",
+									"fallback": "The Weather Shaper",
+									"translate": "item.kattersstructures.weather_shaper"
+								},
 								"minecraft:item_model": "kattersstructures:weather_shaper",
-                                "minecraft:lore": [
-                	                {"fallback":"Consumes 3 Levels to cast","translate":"item.kattersstructures.weather_shaper_lore_1"}
-              	                ],
+								"minecraft:lore": [
+									{
+										"fallback": "Consumes 3 Levels to cast",
+										"translate": "item.kattersstructures.weather_shaper_lore_1"
+									}
+								],
 								"minecraft:max_stack_size": 1,
 								"minecraft:use_cooldown": {
 									"seconds": 100,
 									"cooldown_group": "kattersstructures:weather_shaper"
 								},
 								"minecraft:custom_data": {
-            		                "kattersstructures" : "weather_shaper"
-				                }
+									"kattersstructures": "weather_shaper"
+								}
 							}
 						}
 					]

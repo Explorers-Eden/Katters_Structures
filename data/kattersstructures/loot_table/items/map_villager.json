@@ -15,8 +15,8 @@
 						},
 						{
 							"type": "minecraft:exploration_map",
-							"destination": "kattersstructures:villager",
-							"decoration": "monument",
+							"destination": "#kattersstructures:villager",
+							"decoration": "minecraft:monument",
 							"zoom": 1,
 							"skip_existing_chunks": true
 						},

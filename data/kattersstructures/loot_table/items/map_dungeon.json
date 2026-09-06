@@ -15,8 +15,8 @@
 						},
 						{
 							"type": "minecraft:exploration_map",
-							"destination": "kattersstructures:dungeon",
-							"decoration": "target_x",
+							"destination": "#kattersstructures:dungeon",
+							"decoration": "minecraft:target_x",
 							"zoom": 1,
 							"skip_existing_chunks": true
 						},

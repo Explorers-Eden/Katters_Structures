@@ -16,7 +16,7 @@
             {
               "type": "minecraft:exploration_map",
               "destination": "kattersstructures:village_birch",
-              "decoration": "village_plains",
+              "decoration": "minecraft:village_plains",
               "zoom": 1,
               "skip_existing_chunks": true,
               "condition": {
@@ -29,7 +29,7 @@
             {
               "type": "minecraft:exploration_map",
               "destination": "kattersstructures:village_cherry",
-              "decoration": "village_plains",
+              "decoration": "minecraft:village_plains",
               "zoom": 1,
               "skip_existing_chunks": true,
               "condition": {
@@ -42,7 +42,7 @@
             {
               "type": "minecraft:exploration_map",
               "destination": "kattersstructures:village_jungle",
-              "decoration": "village_plains",
+              "decoration": "minecraft:village_plains",
               "zoom": 1,
               "skip_existing_chunks": true,
               "condition": {
@@ -55,7 +55,7 @@
             {
               "type": "minecraft:exploration_map",
               "destination": "kattersstructures:village_mesa",
-              "decoration": "village_plains",
+              "decoration": "minecraft:village_plains",
               "zoom": 1,
               "skip_existing_chunks": true,
               "condition": {
@@ -68,7 +68,7 @@
             {
               "type": "minecraft:exploration_map",
               "destination": "kattersstructures:village_ocean",
-              "decoration": "village_plains",
+              "decoration": "minecraft:village_plains",
               "zoom": 1,
               "skip_existing_chunks": true,
               "condition": {
@@ -81,7 +81,7 @@
             {
               "type": "minecraft:exploration_map",
               "destination": "kattersstructures:village_sky",
-              "decoration": "village_plains",
+              "decoration": "minecraft:village_plains",
               "zoom": 1,
               "skip_existing_chunks": true,
               "condition": {
@@ -94,7 +94,7 @@
             {
               "type": "minecraft:exploration_map",
               "destination": "kattersstructures:village_swamp",
-              "decoration": "village_plains",
+              "decoration": "minecraft:village_plains",
               "zoom": 1,
               "skip_existing_chunks": true,
               "condition": {
@@ -106,8 +106,8 @@
             },
             {
               "type": "minecraft:exploration_map",
-              "destination": "kattersstructures:village",
-              "decoration": "village_plains",
+              "destination": "#kattersstructures:village",
+              "decoration": "minecraft:village_plains",
               "zoom": 1,
               "skip_existing_chunks": true,
               "condition": {

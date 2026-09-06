@@ -8,7 +8,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:diamond",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:set_count",
 							"count": {
@@ -23,7 +23,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:emerald",
 					"weight": 4,
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:set_count",
 							"count": {
@@ -38,7 +38,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:crossbow",
 					"weight": 6,
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:enchant_randomly",
 							"options": "#minecraft:on_random_loot"
@@ -57,7 +57,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:arrow",
 					"weight": 4,
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:set_count",
 							"count": {
@@ -72,7 +72,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:string",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:set_count",
 							"count": {

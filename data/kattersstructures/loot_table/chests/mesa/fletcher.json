@@ -9,7 +9,7 @@
           "type": "minecraft:item",
           "name": "minecraft:feather",
           "weight": 6,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -24,7 +24,7 @@
           "type": "minecraft:item",
           "name": "minecraft:flint",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -39,7 +39,7 @@
           "type": "minecraft:item",
           "name": "minecraft:stick",
           "weight": 6,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -54,7 +54,7 @@
           "type": "minecraft:item",
           "name": "minecraft:arrow",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -69,7 +69,7 @@
           "type": "minecraft:item",
           "name": "minecraft:red_sand",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -84,7 +84,7 @@
           "type": "minecraft:item",
           "name": "minecraft:egg",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -99,7 +99,7 @@
           "type": "minecraft:item",
           "name": "minecraft:emerald",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": 1

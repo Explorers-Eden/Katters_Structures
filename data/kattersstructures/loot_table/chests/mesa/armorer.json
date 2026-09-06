@@ -9,7 +9,7 @@
           "type": "minecraft:item",
           "name": "minecraft:bread",
           "weight": 4,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -24,7 +24,7 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -39,7 +39,7 @@
           "type": "minecraft:item",
           "name": "minecraft:emerald",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": 1
@@ -50,7 +50,7 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_helmet",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": 1
@@ -61,7 +61,7 @@
           "type": "minecraft:item",
           "name": "minecraft:red_sand",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {

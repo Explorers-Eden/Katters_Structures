@@ -9,7 +9,7 @@
                     "type": "minecraft:item",
                     "weight": 6,
                     "name": "minecraft:feather",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -24,7 +24,7 @@
                     "type": "minecraft:item",
                     "weight": 5,
                     "name": "minecraft:flint",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -39,7 +39,7 @@
                     "type": "minecraft:item",
                     "weight": 6,
                     "name": "minecraft:stick",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -54,7 +54,7 @@
                     "type": "minecraft:item",
                     "weight": 2,
                     "name": "minecraft:arrow",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -69,7 +69,7 @@
                     "type": "minecraft:item",
                     "weight": 2,
                     "name": "minecraft:cocoa_beans",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -84,7 +84,7 @@
                     "type": "minecraft:item",
                     "weight": 2,
                     "name": "minecraft:egg",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -99,7 +99,7 @@
                     "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:emerald",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": 1

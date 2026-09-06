@@ -8,7 +8,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:bread",
 					"weight": 10,
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:set_count",
 							"count": {
@@ -23,7 +23,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:poppy",
 					"weight": 10,
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:set_count",
 							"count": {
@@ -38,7 +38,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:dark_oak_planks",
 					"weight": 10,
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:set_count",
 							"count": {
@@ -53,7 +53,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:iron_ingot",
 					"weight": 4,
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:set_count",
 							"count": {
@@ -68,7 +68,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:emerald",
 					"weight": 4,
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:set_count",
 							"count": {

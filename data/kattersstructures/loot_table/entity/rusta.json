@@ -8,7 +8,7 @@
           "type": "minecraft:item",
           "name": "minecraft:ominous_bottle",
           "weight": 8,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_components",
               "components": {
@@ -21,7 +21,7 @@
           "type": "minecraft:item",
           "name": "minecraft:crossbow",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:enchant_with_levels",
               "levels": 30,
@@ -37,7 +37,7 @@
           "type": "minecraft:item",
           "name": "minecraft:emerald",
           "weight": 10,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {

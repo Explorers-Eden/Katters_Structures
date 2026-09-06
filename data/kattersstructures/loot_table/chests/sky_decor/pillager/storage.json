@@ -8,7 +8,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:emerald",
 					"weight": 4,
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:set_count",
 							"count": {
@@ -23,7 +23,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:crossbow",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:enchant_randomly",
 							"options": "#minecraft:on_random_loot"
@@ -42,7 +42,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:arrow",
 					"weight": 4,
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:set_count",
 							"count": {
@@ -57,7 +57,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:string",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:set_count",
 							"count": {
@@ -72,7 +72,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:dark_oak_log",
 					"weight": 10,
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:set_count",
 							"count": {
@@ -87,7 +87,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:birch_planks",
 					"weight": 10,
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:set_count",
 							"count": {
@@ -102,7 +102,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:gray_wool",
 					"weight": 10,
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:set_count",
 							"count": {

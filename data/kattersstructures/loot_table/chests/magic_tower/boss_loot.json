@@ -13,7 +13,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:book",
 					"weight": 10,
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:set_count",
 							"count": {
@@ -28,7 +28,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:amethyst_shard",
 					"weight": 10,
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:set_count",
 							"count": {
@@ -43,7 +43,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:emerald",
 					"weight": 8,
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:set_count",
 							"count": {
@@ -58,7 +58,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:ink_sac",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:set_count",
 							"count": {
@@ -73,7 +73,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:experience_bottle",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:set_count",
 							"count": {
@@ -88,7 +88,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:diamond",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:set_count",
 							"count": {
@@ -111,7 +111,7 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:book",
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:enchant_randomly",
 							"options": "#minecraft:in_enchanting_table"
@@ -121,7 +121,7 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:book",
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:enchant_randomly",
 							"options": "#minecraft:treasure"
@@ -131,7 +131,7 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:book",
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:enchant_randomly",
 							"options": "#minecraft:tradeable"

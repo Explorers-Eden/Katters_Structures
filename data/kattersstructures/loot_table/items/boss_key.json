@@ -9,7 +9,7 @@
                     "name": "minecraft:trial_key"
                 }
             ],
-            "functions": [
+            "modifier": [
                 {
                     "type": "minecraft:set_components",
                     "components": {

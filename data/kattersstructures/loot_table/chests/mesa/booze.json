@@ -7,7 +7,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:potion",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_components",
                             "components": {
@@ -43,7 +43,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:potion",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_components",
                             "components": {
@@ -79,7 +79,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:potion",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_components",
                             "components": {

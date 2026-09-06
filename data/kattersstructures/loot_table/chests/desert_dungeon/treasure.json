@@ -9,7 +9,7 @@
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -24,7 +24,7 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -39,7 +39,7 @@
           "type": "minecraft:item",
           "name": "minecraft:bone",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -54,7 +54,7 @@
           "type": "minecraft:item",
           "name": "minecraft:rotten_flesh",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -69,7 +69,7 @@
           "type": "minecraft:item",
           "name": "minecraft:raw_gold",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -89,7 +89,7 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond_sword",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:enchant_randomly",
               "options": "#minecraft:treasure"
@@ -107,7 +107,7 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond_axe",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_damage",
               "damage": {

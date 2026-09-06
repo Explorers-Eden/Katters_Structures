@@ -9,7 +9,7 @@
           "type": "minecraft:item",
           "name": "minecraft:stick",
           "weight": 20,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -24,7 +24,7 @@
           "type": "minecraft:item",
           "name": "minecraft:bread",
           "weight": 15,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -39,7 +39,7 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -54,7 +54,7 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_pickaxe",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": 1
@@ -82,7 +82,7 @@
           "type": "minecraft:item",
           "name": "minecraft:red_sand",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -97,7 +97,7 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_shovel",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": 1
@@ -115,7 +115,7 @@
           "type": "minecraft:item",
           "name": "minecraft:coal",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -130,7 +130,7 @@
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -145,7 +145,7 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {

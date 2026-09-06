@@ -8,7 +8,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:tnt",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:set_count",
 							"count": {
@@ -23,7 +23,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:gunpowder",
 					"weight": 10,
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:set_count",
 							"count": {
@@ -43,7 +43,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:arrow",
 					"weight": 4,
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:set_count",
 							"count": {
@@ -58,7 +58,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:string",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:set_count",
 							"count": {

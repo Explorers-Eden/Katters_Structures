@@ -6,7 +6,7 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:blaze_rod",
-					"functions": [
+					"modifier": [
 						{
 							"type": "minecraft:set_custom_data",
 							"tag": {

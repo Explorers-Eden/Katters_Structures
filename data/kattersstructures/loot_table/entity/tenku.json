@@ -8,7 +8,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:prismarine_shard",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -22,7 +22,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:prismarine_crystals",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -36,7 +36,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:ink_sac",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -50,7 +50,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:turtle_scute",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -74,7 +74,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:nautilus_shell",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {

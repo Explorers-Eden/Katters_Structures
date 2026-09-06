@@ -8,7 +8,7 @@
                     "type": "minecraft:item",
                     "name": "minecraft:copper_ingot",
                     "quality": 5,
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -23,7 +23,7 @@
                     "type": "minecraft:item",
                     "name": "minecraft:water_bucket",
                     "quality": 5,
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": 1
@@ -34,7 +34,7 @@
                     "type": "minecraft:item",
                     "name": "minecraft:lightning_rod",
                     "quality": 2,
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": 1
@@ -45,7 +45,7 @@
                     "type": "minecraft:item",
                     "name": "minecraft:paper",
                     "quality": 2,
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -60,7 +60,7 @@
                     "type": "minecraft:item",
                     "name": "minecraft:ink_sac",
                     "quality": 1,
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -75,7 +75,7 @@
                     "type": "minecraft:item",
                     "name": "minecraft:prismarine_shard",
                     "quality": 2,
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -90,7 +90,7 @@
                     "type": "minecraft:item",
                     "name": "minecraft:copper_grate",
                     "weight": 1,
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": 1

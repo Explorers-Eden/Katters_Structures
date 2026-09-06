@@ -9,7 +9,7 @@
                     "type": "minecraft:item",
                     "weight": 5,
                     "name": "minecraft:stone",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -24,7 +24,7 @@
                     "type": "minecraft:item",
                     "weight": 5,
                     "name": "minecraft:bread",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -39,7 +39,7 @@
                     "type": "minecraft:item",
                     "weight": 5,
                     "name": "minecraft:oak_planks",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -54,7 +54,7 @@
                     "type": "minecraft:item",
                     "weight": 5,
                     "name": "minecraft:emerald",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -69,7 +69,7 @@
                     "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:emerald_block",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -84,7 +84,7 @@
                     "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:totem_of_undying",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": 1
@@ -95,7 +95,7 @@
                     "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:diamond",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {

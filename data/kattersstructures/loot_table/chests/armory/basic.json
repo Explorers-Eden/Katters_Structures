@@ -9,7 +9,7 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot",
           "weight": 10,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -24,7 +24,7 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_nugget",
           "weight": 10,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -39,7 +39,7 @@
           "type": "minecraft:item",
           "name": "minecraft:bone",
           "weight": 10,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -60,7 +60,7 @@
           "type": "minecraft:item",
           "name": "minecraft:string",
           "weight": 10,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -75,7 +75,7 @@
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -94,7 +94,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_boots",
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:enchant_randomly",
               "options": "#minecraft:treasure"
@@ -111,7 +111,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_chestplate",
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:enchant_randomly",
               "options": "#minecraft:treasure"
@@ -128,7 +128,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_leggings",
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:enchant_randomly",
               "options": "#minecraft:treasure"
@@ -145,7 +145,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_helmet",
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:enchant_randomly",
               "options": "#minecraft:treasure"
@@ -162,7 +162,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_boots",
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:enchant_randomly",
               "options": "#minecraft:treasure"
@@ -179,7 +179,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_chestplate",
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:enchant_randomly",
               "options": "#minecraft:treasure"
@@ -196,7 +196,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_leggings",
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:enchant_randomly",
               "options": "#minecraft:treasure"
@@ -213,7 +213,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_helmet",
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:enchant_randomly",
               "options": "#minecraft:treasure"
@@ -230,7 +230,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:chainmail_boots",
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:enchant_randomly",
               "options": "#minecraft:treasure"
@@ -247,7 +247,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:chainmail_chestplate",
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:enchant_randomly",
               "options": "#minecraft:treasure"
@@ -264,7 +264,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:chainmail_leggings",
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:enchant_randomly",
               "options": "#minecraft:treasure"
@@ -281,7 +281,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:chainmail_helmet",
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:enchant_randomly",
               "options": "#minecraft:treasure"

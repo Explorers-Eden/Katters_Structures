@@ -8,7 +8,7 @@
           "type": "minecraft:item",
           "name": "minecraft:arrow",
           "weight": 10,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -23,7 +23,7 @@
           "type": "minecraft:item",
           "name": "minecraft:crossbow",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_damage",
               "damage": {

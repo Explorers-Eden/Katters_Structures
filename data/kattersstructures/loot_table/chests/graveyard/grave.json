@@ -9,7 +9,7 @@
           "type": "minecraft:item",
           "name": "minecraft:bone",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -24,7 +24,7 @@
           "type": "minecraft:item",
           "name": "minecraft:skeleton_skull",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": 1
@@ -35,7 +35,7 @@
           "type": "minecraft:item",
           "name": "minecraft:leather_chestplate",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": 1
@@ -53,7 +53,7 @@
           "type": "minecraft:item",
           "name": "minecraft:leather_leggings",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": 1
@@ -71,7 +71,7 @@
           "type": "minecraft:item",
           "name": "minecraft:cobweb",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": 1
@@ -82,7 +82,7 @@
           "type": "minecraft:item",
           "name": "minecraft:emerald",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -117,7 +117,7 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_sword",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_damage",
               "damage": {
@@ -131,7 +131,7 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_pickaxe",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_damage",
               "damage": {
@@ -145,7 +145,7 @@
           "type": "minecraft:item",
           "name": "minecraft:stone_axe",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_damage",
               "damage": {

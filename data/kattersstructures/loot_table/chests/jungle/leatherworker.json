@@ -9,7 +9,7 @@
                     "type": "minecraft:item",
                     "weight": 5,
                     "name": "minecraft:bread",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -24,7 +24,7 @@
                     "type": "minecraft:item",
                     "weight": 2,
                     "name": "minecraft:leather_helmet",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": 1
@@ -35,7 +35,7 @@
                     "type": "minecraft:item",
                     "weight": 3,
                     "name": "minecraft:leather_chestplate",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": 1
@@ -46,7 +46,7 @@
                     "type": "minecraft:item",
                     "weight": 2,
                     "name": "minecraft:leather_leggings",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": 1
@@ -57,7 +57,7 @@
                     "type": "minecraft:item",
                     "weight": 2,
                     "name": "minecraft:cocoa_beans",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -72,7 +72,7 @@
                     "type": "minecraft:item",
                     "weight": 2,
                     "name": "minecraft:leather_boots",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": 1
@@ -83,7 +83,7 @@
                     "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:emerald",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -98,7 +98,7 @@
                     "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:leather",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -113,7 +113,7 @@
                     "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:saddle",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": 1

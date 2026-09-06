@@ -9,7 +9,7 @@
           "type": "minecraft:item",
           "weight": 3,
           "name": "minecraft:wheat_seeds",
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -24,7 +24,7 @@
           "type": "minecraft:item",
           "weight": 2,
           "name": "minecraft:coal",
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -39,7 +39,7 @@
           "type": "minecraft:item",
           "weight": 2,
           "name": "minecraft:cod",
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -54,7 +54,7 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:barrel",
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -69,7 +69,7 @@
           "type": "minecraft:item",
           "weight": 2,
           "name": "minecraft:birch_sapling",
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -84,7 +84,7 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:tropical_fish",
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -99,7 +99,7 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:water_bucket",
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": 1
@@ -110,7 +110,7 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:emerald",
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": 1
@@ -121,7 +121,7 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:fishing_rod",
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": 1

@@ -9,7 +9,7 @@
                     "type": "minecraft:item",
                     "name": "minecraft:gold_nugget",
                     "weight": 5,
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -24,7 +24,7 @@
                     "type": "minecraft:item",
                     "name": "minecraft:emerald",
                     "weight": 1,
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": 1
@@ -35,7 +35,7 @@
                     "type": "minecraft:item",
                     "name": "minecraft:book",
                     "weight": 1,
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": 1
@@ -46,7 +46,7 @@
                     "type": "minecraft:item",
                     "name": "minecraft:red_candle",
                     "weight": 1,
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": 1

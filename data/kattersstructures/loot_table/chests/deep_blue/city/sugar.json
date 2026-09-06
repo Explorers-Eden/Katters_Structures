@@ -8,7 +8,7 @@
                     "type": "minecraft:item",
                     "name": "minecraft:sugar",
                     "weight": 20,
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {

@@ -9,7 +9,7 @@
           "type": "minecraft:item",
           "name": "minecraft:bread",
           "weight": 15,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -24,7 +24,7 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot",
           "weight": 10,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -39,7 +39,7 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_pickaxe",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": 1
@@ -67,7 +67,7 @@
           "type": "minecraft:item",
           "name": "minecraft:red_sand",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -82,7 +82,7 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_sword",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": 1
@@ -100,7 +100,7 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_helmet",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": 1
@@ -111,7 +111,7 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_chestplate",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -126,7 +126,7 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_leggings",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": 1
@@ -137,7 +137,7 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_boots",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": 1
@@ -148,7 +148,7 @@
           "type": "minecraft:item",
           "name": "minecraft:obsidian",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -163,7 +163,7 @@
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -178,7 +178,7 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -198,7 +198,7 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_horse_armor",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": 1
@@ -209,7 +209,7 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_horse_armor",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": 1
@@ -220,7 +220,7 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond_horse_armor",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": 1

@@ -8,7 +8,7 @@
                     "type": "minecraft:item",
                     "name": "minecraft:wooden_shovel",
                     "weight": 1,
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": 1
@@ -28,7 +28,7 @@
                     "weight": 10
                 }
             ],
-            "functions": [
+            "modifier": [
                 {
                     "type": "minecraft:set_count",
                     "count": {

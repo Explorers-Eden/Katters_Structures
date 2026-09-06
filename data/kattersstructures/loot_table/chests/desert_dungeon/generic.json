@@ -9,7 +9,7 @@
                     "type": "minecraft:item",
                     "name": "minecraft:bone",
                     "weight": 5,
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -24,7 +24,7 @@
                     "type": "minecraft:item",
                     "name": "minecraft:rotten_flesh",
                     "weight": 5,
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -44,7 +44,7 @@
                     "type": "minecraft:item",
                     "name": "minecraft:gold_ingot",
                     "weight": 1,
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -59,7 +59,7 @@
                     "type": "minecraft:item",
                     "name": "minecraft:torch",
                     "weight": 2,
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {

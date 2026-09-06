@@ -8,7 +8,7 @@
           "type": "minecraft:item",
           "name": "minecraft:wheat",
           "weight": 10,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -23,7 +23,7 @@
           "type": "minecraft:item",
           "name": "minecraft:bread",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -38,7 +38,7 @@
           "type": "minecraft:item",
           "name": "minecraft:wheat_seeds",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -53,7 +53,7 @@
           "type": "minecraft:item",
           "name": "minecraft:emerald",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": {
@@ -68,7 +68,7 @@
           "type": "minecraft:item",
           "name": "minecraft:cobweb",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": 1
@@ -79,7 +79,7 @@
           "type": "minecraft:item",
           "name": "minecraft:brown_mushroom",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": 1
@@ -89,7 +89,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:red_mushroom",
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": 1
@@ -105,7 +105,7 @@
           "type": "minecraft:item",
           "name": "minecraft:wooden_hoe",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_damage",
               "damage": {
@@ -133,7 +133,7 @@
           "type": "minecraft:item",
           "name": "minecraft:stone_hoe",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_damage",
               "damage": {
@@ -161,7 +161,7 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_hoe",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_damage",
               "damage": {

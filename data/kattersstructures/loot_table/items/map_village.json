@@ -8,7 +8,7 @@
           "type": "minecraft:item",
           "name": "minecraft:map",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
               "type": "minecraft:set_count",
               "count": 1

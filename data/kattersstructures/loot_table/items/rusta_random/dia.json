@@ -9,7 +9,7 @@
 					"name": "minecraft:diamond"
 				}
 			],
-			"functions": [
+			"modifier": [
 				{
 					"type": "minecraft:set_name",
 					"name": {

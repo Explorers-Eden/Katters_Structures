@@ -9,7 +9,7 @@
                     "type": "minecraft:item",
                     "weight": 7,
                     "name": "minecraft:bread",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -24,7 +24,7 @@
                     "type": "minecraft:item",
                     "weight": 7,
                     "name": "minecraft:rotten_flesh",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -39,7 +39,7 @@
                     "type": "minecraft:item",
                     "weight": 2,
                     "name": "minecraft:redstone",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -54,7 +54,7 @@
                     "type": "minecraft:item",
                     "weight": 2,
                     "name": "minecraft:quartz",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -69,7 +69,7 @@
                     "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:emerald",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -84,7 +84,7 @@
                     "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:gold_ingot",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {
@@ -99,7 +99,7 @@
                     "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:lapis_lazuli",
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_count",
                             "count": {

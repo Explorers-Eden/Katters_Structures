@@ -1,14 +1,14 @@
 {
   "values": [
     "#minecraft:air",
-    "minecraft:water",
-    "minecraft:snow",
-    "minecraft:lava",
-    "minecraft:kelp_plant",
+    "minecraft:cobweb",
     "minecraft:kelp",
-    "minecraft:seagrass",
-    "minecraft:tall_seagrass",
+    "minecraft:kelp_plant",
+    "minecraft:lava",
     "minecraft:sea_pickle",
-    "minecraft:cobweb"
+    "minecraft:seagrass",
+    "minecraft:snow",
+    "minecraft:tall_seagrass",
+    "minecraft:water"
   ]
 }

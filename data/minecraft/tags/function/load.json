@@ -1,6 +1,6 @@
 {
-    "values":[
-      "kattersstructures:load",
-      "#kattersstructures:on_load"
-    ]
-  }
+  "values": [
+    "#kattersstructures:on_load",
+    "kattersstructures:load"
+  ]
+}

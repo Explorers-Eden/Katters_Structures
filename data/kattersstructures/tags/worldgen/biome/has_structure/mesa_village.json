@@ -1,5 +1,5 @@
 {
-    "values": [
-        { "id": "minecraft:badlands","required": false}
-    ]
+  "values": [
+    { "id": "minecraft:badlands", "required": false }
+  ]
 }

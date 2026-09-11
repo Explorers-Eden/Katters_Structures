@@ -1,8 +1,8 @@
 {
-    "values": [
-        "kattersstructures:deep_blue/portal/remove/init",
-        "kattersstructures:deep_blue/portal/teleport/cooldown_check",
-        "kattersstructures:deep_blue/portal/particles",
-        "kattersstructures:deep_blue/portal/teleport/init"
-    ]
+  "values": [
+    "kattersstructures:deep_blue/portal/particles",
+    "kattersstructures:deep_blue/portal/remove/init",
+    "kattersstructures:deep_blue/portal/teleport/cooldown_check",
+    "kattersstructures:deep_blue/portal/teleport/init"
+  ]
 }

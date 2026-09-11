@@ -1,6 +1,5 @@
 {
-    "values": [
-        { "id": "kattersstructures:armory","required": false}
-    
-    ]
-  }
+  "values": [
+    { "id": "kattersstructures:armory", "required": false }
+  ]
+}

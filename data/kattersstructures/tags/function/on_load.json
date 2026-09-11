@@ -1,8 +1,8 @@
 {
-    "values": [
-        "kattersstructures:items/alchemy_curse/timer",
-        "#kattersstructures:load_deep_blue",
-        "#kattersstructures:load_dungeon",
-        "#kattersstructures:load_village"
-    ]
+  "values": [
+    "#kattersstructures:load_deep_blue",
+    "#kattersstructures:load_dungeon",
+    "#kattersstructures:load_village",
+    "kattersstructures:items/alchemy_curse/timer"
+  ]
 }

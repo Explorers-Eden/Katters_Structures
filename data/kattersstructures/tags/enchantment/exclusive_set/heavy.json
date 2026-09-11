@@ -1,20 +1,9 @@
 {
-    "values": [
-        { 
-            "id": "enchantencore:leech",
-            "required": false
-        },{ 
-            "id": "enchantencore:poppy_peace",
-            "required": false
-        },{ 
-            "id": "enchantencore:swift_slash",
-            "required": false
-        },{ 
-            "id": "enchantencore:levitation_aspect",
-            "required": false
-        },{ 
-            "id": "enchantencore:wind_aspect",
-            "required": false
-        }
-    ]
+  "values": [
+    { "id": "enchantencore:leech", "required": false },
+    { "id": "enchantencore:levitation_aspect", "required": false },
+    { "id": "enchantencore:poppy_peace", "required": false },
+    { "id": "enchantencore:swift_slash", "required": false },
+    { "id": "enchantencore:wind_aspect", "required": false }
+  ]
 }

@@ -1,12 +1,12 @@
 {
-	"values": [
-		"minecraft:in_fire",
-		"minecraft:campfire",
-		"minecraft:on_fire",
-		"minecraft:lava",
-		"minecraft:hot_floor",
-		"minecraft:unattributed_fireball",
-		"minecraft:fireball",
-        "minecraft:lightning_bolt"
-	]
+  "values": [
+    "minecraft:campfire",
+    "minecraft:fireball",
+    "minecraft:hot_floor",
+    "minecraft:in_fire",
+    "minecraft:lava",
+    "minecraft:lightning_bolt",
+    "minecraft:on_fire",
+    "minecraft:unattributed_fireball"
+  ]
 }

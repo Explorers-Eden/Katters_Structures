@@ -1,17 +1,10 @@
 {
-    "values": [
-        "minecraft:sharpness",
-        "minecraft:bane_of_arthropods",
-        "minecraft:smite",
-        { 
-            "id": "enchantencore:bane_of_bosses",
-            "required": false
-        },{ 
-            "id": "enchantencore:bane_of_netherborn",
-            "required": false
-        },{ 
-            "id": "enchantencore:bane_of_raiders",
-            "required": false
-        }
-    ]
+  "values": [
+    { "id": "enchantencore:bane_of_bosses", "required": false },
+    { "id": "enchantencore:bane_of_netherborn", "required": false },
+    { "id": "enchantencore:bane_of_raiders", "required": false },
+    "minecraft:bane_of_arthropods",
+    "minecraft:sharpness",
+    "minecraft:smite"
+  ]
 }

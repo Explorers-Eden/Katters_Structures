@@ -1,5 +1,4 @@
 {
-	"parent": "kattersstructures:dungeon/pillager_village",
 	"criteria": {
 		"rusta_random_totem_effect": {
 			"trigger": "minecraft:used_totem",

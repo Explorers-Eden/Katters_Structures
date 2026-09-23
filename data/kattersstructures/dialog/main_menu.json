@@ -19,7 +19,7 @@
 	"pause": true,
 	"exit_action": {
 		"label": {
-			"translate": "mco.selectServer.close"
+			"translate": "dialog.kattersstructures.main_menu.close"
 		}
 	},
 	"columns": 1,

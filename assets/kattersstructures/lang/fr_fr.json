@@ -421,5 +421,6 @@
     "item.kattersstructures.spells.no_level": "You don't have enough Level to cast this",
     "advancement.kattersstructures.a_villager_statue_title": "Ancient Witness",
     "advancement.kattersstructures.a_villager_statue_description": "Discover a silent guardian of the land, a relic of a bygone era.",
-    "item.kattersstructures.wine": "Wine"
+    "item.kattersstructures.wine": "Wine",
+    "dialog.kattersstructures.main_menu.close": "Close"
 }

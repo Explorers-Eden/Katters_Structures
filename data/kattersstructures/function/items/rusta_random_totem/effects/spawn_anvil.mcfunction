@@ -1,1 +1,5 @@
-summon falling_block ~ ~5 ~ {BlockState:{Name:"minecraft:anvil"},Time:1,DropItem:0b,FallHurtAmount:5f}
+execute store result score $spawn_anvil kattersstructures.technical run random value 0..3
+execute if score $spawn_anvil kattersstructures.technical matches 0 run summon falling_block ~ ~5 ~ {BlockState:{Name:"minecraft:anvil",Properties:{facing:"north"}},Time:1,DropItem:0b,FallHurtAmount:5f}
+execute if score $spawn_anvil kattersstructures.technical matches 1 run summon falling_block ~ ~5 ~ {BlockState:{Name:"minecraft:anvil",Properties:{facing:"south"}},Time:1,DropItem:0b,FallHurtAmount:5f}
+execute if score $spawn_anvil kattersstructures.technical matches 2 run summon falling_block ~ ~5 ~ {BlockState:{Name:"minecraft:anvil",Properties:{facing:"east"}},Time:1,DropItem:0b,FallHurtAmount:5f}
+execute if score $spawn_anvil kattersstructures.technical matches 3 run summon falling_block ~ ~5 ~ {BlockState:{Name:"minecraft:anvil",Properties:{facing:"west"}},Time:1,DropItem:0b,FallHurtAmount:5f}

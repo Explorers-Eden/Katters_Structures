@@ -11,7 +11,7 @@
     "id": "minecraft:filled_map",
     "count": 1
   },
-  "given_item_modifiers": [
+  "given_item_modifier": [
     {
       "type": "minecraft:exploration_map",
       "destination": "kattersstructures:villager",

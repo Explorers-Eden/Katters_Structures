@@ -14,7 +14,7 @@
   "given_item_modifier": [
     {
       "type": "minecraft:exploration_map",
-      "destination": "kattersstructures:villager",
+      "destination": "#kattersstructures:villager",
       "decoration": "minecraft:monument",
       "zoom": 1,
       "skip_existing_chunks": true,

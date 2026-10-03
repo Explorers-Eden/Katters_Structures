@@ -2,6 +2,8 @@ schedule function kattersstructures:boss/bossbar/run 20t
 
 execute if data storage kattersstructures:gamerule settings{bossbars:0b} run return fail
 
+execute as @a unless score @s kattersstructures.uuid.0 = @s kattersstructures.uuid.0 run function kattersstructures:boss/bossbar/store_uuid
+
 function kattersstructures:boss/bossbar/arachne
 function kattersstructures:boss/bossbar/raj
 function kattersstructures:boss/bossbar/tenku

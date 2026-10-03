@@ -1,6 +1,6 @@
 {
     "values": [
-        "kattersstructures:items/alchemy_curse/timer",
+        "kattersstructures:start/common",
         "#kattersstructures:load_dungeon"
     ]
 }

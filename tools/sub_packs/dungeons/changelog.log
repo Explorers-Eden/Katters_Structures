@@ -1,4 +1,8 @@
 # Minecraft Version(s): 26.3
-## The Wilderness Bound update had lots of small technical changes which added up - so please report any Bugs you catch on our Discord server. 
-## We also moved away from crowdin for our translations and now have our own solution. Feel free to contribute: https://explorerseden.eu/translate/
-## Thank you!
+## Changes:
+- Repeating background tasks now start a few ticks apart after loading instead of all on the same tick, spreading out server load
+- Improved server performance of boss bars (player data is no longer read for every boss every second)
+
+## Fixes:
+- Theron's boss bar sharing its ID with Raj's, which made it get removed again every second
+- message spam in log due to missing blockstate for summoned anvils in Rusta bossfight

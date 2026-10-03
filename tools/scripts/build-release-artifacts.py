@@ -373,7 +373,6 @@ def build_variant(
     key: str,
     folder_name: str,
     remove_key: str,
-    include_enchantencore: bool = False,
     exclude_ks_dirs=None,
 ):
     exclude_ks_dirs = exclude_ks_dirs or []
@@ -399,10 +398,9 @@ def build_variant(
     mc_dst.mkdir(parents=True, exist_ok=True)
     copy_missing_from(mc_src, mc_dst, exclude_relative_dirs=[])
 
-    if include_enchantencore:
-        ee_src = ROOT / "data" / "enchantencore"
-        ensure_exists(ee_src, "data/enchantencore")
-        copytree_merge(ee_src, build_dir / "data" / "enchantencore")
+    ee_src = ROOT / "data" / "enchantencore"
+    ensure_exists(ee_src, "data/enchantencore")
+    copytree_merge(ee_src, build_dir / "data" / "enchantencore")
 
     copytree_merge(ROOT / "assets", build_dir / "assets")
     copy_assets_lang_to_data(build_dir)
@@ -420,7 +418,6 @@ build_variant(
     key="ambient",
     folder_name="ambient",
     remove_key="Ambient",
-    include_enchantencore=False,
     exclude_ks_dirs=[
         "dimension",
         "dimension_type",
@@ -432,7 +429,6 @@ build_variant(
     key="dungeons",
     folder_name="dungeons",
     remove_key="Dungeons",
-    include_enchantencore=True,
     exclude_ks_dirs=[
         "dimension",
         "dimension_type",
@@ -444,7 +440,6 @@ build_variant(
     key="villages",
     folder_name="villages",
     remove_key="Villages",
-    include_enchantencore=False,
     exclude_ks_dirs=[
         "dimension",
         "dimension_type",
@@ -456,7 +451,6 @@ build_variant(
     key="deep_blue",
     folder_name="deep_blue",
     remove_key="Deep Blue",
-    include_enchantencore=False,
     exclude_ks_dirs=[
         "worldgen/structure_set",
     ],

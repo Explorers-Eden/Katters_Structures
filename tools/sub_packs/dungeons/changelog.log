@@ -1,8 +1,5 @@
 # Minecraft Version(s): 26.3
 ## Changes:
-- Repeating background tasks now start a few ticks apart after loading instead of all on the same tick, spreading out server load
-- Improved server performance of boss bars (player data is no longer read for every boss every second)
 
 ## Fixes:
-- Theron's boss bar sharing its ID with Raj's, which made it get removed again every second
-- message spam in log due to missing blockstate for summoned anvils in Rusta bossfight
+- Tenkū's push attack leaving an invisible Area Effect Cloud behind every time it was used. These clouds never disappeared and could pile up over time, causing heavy server lag. Existing leftover clouds are removed automatically on load

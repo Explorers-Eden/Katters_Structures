@@ -1,5 +1,6 @@
 # Minecraft Version(s): 26.3
 ## Changes:
+- The boss arrow defense only checks projectiles near a loaded Arachne or Tenkū instead of every projectile in the world every tick
 
 ## Fixes:
-- Tenkū's push attack leaving an invisible Area Effect Cloud behind every time it was used. These clouds never disappeared and could pile up over time, causing heavy server lag. Existing leftover clouds are removed automatically on load
+- Tenkū's explosion attack and the Rusta's Random Totem anvil effect summoned their TNT and falling anvils with the block format of older versions, which 26.3 no longer reads (the server log filled with "Serialization errors")

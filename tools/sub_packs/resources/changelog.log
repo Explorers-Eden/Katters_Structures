@@ -1,1 +1,6 @@
 # Minecraft Version(s): 26.3
+## Changes:
+- The boss arrow defense only checks projectiles near a loaded Arachne or Tenkū instead of every projectile in the world every tick
+
+## Fixes:
+- Tenkū's explosion attack and the Rusta's Random Totem anvil effect summoned their TNT and falling anvils with the block format of older versions, which 26.3 no longer reads (the server log filled with "Serialization errors")
